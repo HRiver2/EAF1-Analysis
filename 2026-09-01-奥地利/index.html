@@ -1330,8 +1330,12 @@ function renderCompare() {
         {k:'pace_score',l:'速度'},{k:'consistency_score',l:'稳定'},{k:'safety_score',l:'安全'},
         {k:'racecraft_score',l:'缠斗'},{k:'result_score',l:'成绩'},{k:'qual_score',l:'排位'}
     ];
-    var ctx = document.getElementById('cmpRadar');
-    if (cmpChart) cmpChart.destroy();
+    var canvas = document.getElementById('cmpRadar');
+    if (cmpChart) {
+        cmpChart.destroy();
+        cmpChart = null;
+    }
+    var ctx = canvas.getContext('2d');
     cmpChart = new Chart(ctx, {
         type: 'radar',
         data: {
