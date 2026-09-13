@@ -1072,6 +1072,7 @@ function initReveal() {
 /* === Position Chart === */
 function buildPosChart() {
     var ph = DATA.position_history;
+    var fieldSize = DATA.drivers.length;
     var sorted = DATA.drivers.slice().sort(function(a, b) { return (a.finish || 99) - (b.finish || 99); });
     var datasets = sorted.map(function(d) {
         var hist = ph[d.name] || [];
