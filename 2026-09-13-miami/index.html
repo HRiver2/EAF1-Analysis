@@ -90,7 +90,18 @@ body{background:var(--bg);color:var(--txt);font:400 16px/1.7 var(--sans);-webkit
 .kpi .sub{font-size:13px;color:var(--txt2);margin-top:6px}
 
 /* TABLE */
-.tablewrap{background:var(--surface);border:1px solid var(--line);border-radius:24px;overflow:hidden}
+/* overflow 从 hidden 改成 auto：ERS 那张 9 列表在窄屏的最小内容宽度约 535px，
+   用 hidden 会把右边几列（平均余电、耗尽圈…）**直接切掉且无法查看**。
+   改成 auto 后窄屏可以横向滑动，数据一个不少。 */
+.tablewrap{background:var(--surface);border:1px solid var(--line);border-radius:24px;overflow-x:auto;overflow-y:hidden;
+  -webkit-overflow-scrolling:touch}
+.tablewrap::-webkit-scrollbar{height:6px}
+.tablewrap::-webkit-scrollbar-thumb{background:rgba(255,255,255,.14);border-radius:3px}
+.tablewrap::-webkit-scrollbar-track{background:transparent}
+/* 表格比容器宽时才出现的滑动提示（由 report.js 的 markScrollables() 加上） */
+.tscroll-hint{display:none;font-size:11px;color:var(--txt3);letter-spacing:1px;
+  padding:8px 2px 0;text-align:right}
+.tablewrap.scrollable + .tscroll-hint{display:block}
 .thead{display:grid;padding:18px 28px;border-bottom:1px solid var(--line);
   font-size:11px;color:var(--txt3);text-transform:uppercase;letter-spacing:1.5px;font-weight:600}
 .trow{display:grid;padding:18px 28px;border-bottom:1px solid var(--line);align-items:center;
@@ -101,7 +112,10 @@ body{background:var(--bg);color:var(--txt);font:400 16px/1.7 var(--sans);-webkit
 .qcols{grid-template-columns:64px 1fr 100px 90px 90px 90px 80px}
 /* 移动端：隐藏次要列，并让网格列数严格匹配剩余可见列数 */
 @media(max-width:820px){
-  .hide-sm{display:none}
+  /* 必须 !important：.tseq 等组件自己带 display:flex，且定义在后面，
+     同优先级下会盖掉这里的 display:none——实测结果是胎序徽章跑到第二行去，
+     在窄屏成绩表里多出一行杂物。工具类就该用 !important。 */
+  .hide-sm{display:none!important}
   /* 正赛保留：名次/车手/发车/进位/积分 = 5 列 */
   .rescols{grid-template-columns:44px minmax(0,1fr) 52px 52px 44px}
   /* 排位保留：排位/车手/最快圈/有效圈 = 4 列 */
@@ -223,7 +237,10 @@ body{background:var(--bg);color:var(--txt);font:400 16px/1.7 var(--sans);-webkit
 .thcard .tv{font-size:17px;font-weight:600;line-height:1.5;letter-spacing:-.01em}
 .thcard .td{font-size:13px;color:var(--txt2);margin-top:12px;line-height:1.7;font-weight:300}
 /* 完整排位 Q1/Q2/Q3 分段卡 */
-.qstages{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+/* 固定 3 列在 1024 宽下每张卡只有 312px，车手名一列被挤到 ~113px，
+   "p1MAX-VERSTAPPEN" 这类长名只能省略号。改成按可用宽度自动决定列数：
+   放得下 3 列就 3 列，放不下就 2 列，名字始终完整。 */
+.qstages{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr));gap:16px}
 @media(max-width:768px){.qstages{grid-template-columns:1fr}}
 .qstage{background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden}
 .qstage-h{padding:14px 18px;background:var(--surface2);font-family:var(--mono);font-weight:700;font-size:16px;border-bottom:1px solid var(--line)}
@@ -242,7 +259,9 @@ body{background:var(--bg);color:var(--txt);font:400 16px/1.7 var(--sans);-webkit
 
 /* COMPARE */
 .cmpwrap{display:grid;grid-template-columns:1fr 360px;gap:28px;align-items:start}
-@media(max-width:900px){.cmpwrap{grid-template-columns:1fr}}
+/* 用 minmax(0,1fr) 而不是 1fr：1fr 的下限是 auto（= 最小内容宽度），
+   车手名不换行时最小内容能到 334px，窄屏会把这一列连同雷达图一起撑破。 */
+@media(max-width:900px){.cmpwrap{grid-template-columns:minmax(0,1fr)}}
 .cmp-controls{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:28px;align-items:center}
 /* 快捷对比按钮 */
 .qrow{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:26px}
@@ -282,7 +301,10 @@ body{background:var(--bg);color:var(--txt);font:400 16px/1.7 var(--sans);-webkit
 .cmprow{display:grid;grid-template-columns:1fr 100px 1fr;padding:13px 24px;border-bottom:1px solid var(--line);
   align-items:center;font-family:var(--mono)}
 .cmprow:last-child{border-bottom:none}
-.cmprow .ca{text-align:right;font-weight:700}
+/* 长车手名（Mclaren '26 #2 这种）不换行会把整列的最小内容宽度顶到 300px+，
+   min-width:0 + 省略号让它可以在窄屏被压缩，而不是撑破卡片。 */
+.cmprow .ca{text-align:right;font-weight:700;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cmprow .cb{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .cmprow .cm{text-align:center;font-size:11px;color:var(--txt3);text-transform:uppercase;letter-spacing:1px;font-family:var(--sans)}
 .cmprow .cb{text-align:left;font-weight:700}
 .cmphead{background:var(--surface2);padding:20px 24px;text-align:center}
@@ -341,11 +363,23 @@ body{background:var(--bg);color:var(--txt);font:400 16px/1.7 var(--sans);-webkit
 .rvpair{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:600;flex-wrap:wrap;margin-bottom:16px}
 /* 一对一对决：两位车手各占一列，长名字省略而不是换行（换行会把车队色点挤到错位） */
 .rvh2h{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;margin-bottom:16px}
-.rvside{display:flex;align-items:center;gap:8px;min-width:0}
+.rvside{display:flex;align-items:center;gap:6px;min-width:0}
 .rvside:last-child{flex-direction:row-reverse}
-.rvname{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:15px;font-weight:600;min-width:0}
+/* 3 列布局时每侧只有 ~103px，15px 字号下 "MTY  BOLUO" 这种长名会被省略号切掉。
+   缩到 14px 并把圆点与间距收窄，把宽度让给名字。 */
+.rvname{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;font-weight:600;
+  min-width:0;letter-spacing:-.01em}
 .rvside:last-child .rvname{text-align:right}
 .rvh2h .rvdot{flex:0 0 auto}
+/* 900–1100px 这段最挤：缠斗网格正好是 3 列，每侧只剩 ~88px，
+   "Mclaren '26 #2" 这种长名会被切。缩内边距 + 缩字号把名字让出来。 */
+@media(max-width:1100px){
+  .rvcard{padding:20px 18px}
+  .rvname{font-size:13px}
+  /* 3 列时每侧只剩 ~111px，"p1MAX-VERSTAPPEN" 要 128px 才放得下，
+     会被省略号切掉。降到 2 列，卡片大了名字也就完整了。 */
+  .rvgrid{grid-template-columns:repeat(auto-fill,minmax(min(400px,100%),1fr))}
+}
 @media(max-width:480px){.rvh2h{grid-template-columns:1fr;gap:6px}.rvside:last-child{flex-direction:row}.rvside:last-child .rvname{text-align:left}}
 .rvdot{width:9px;height:9px;border-radius:50%;background:var(--red);flex:0 0 auto;
   box-shadow:0 0 0 3px rgba(255,45,66,.16)}
@@ -363,7 +397,10 @@ body{background:var(--bg);color:var(--txt);font:400 16px/1.7 var(--sans);-webkit
 .inscard + .inscard{margin-top:18px}
 /* 网格内的卡片由 gap 控制间距，相邻兄弟规则会把第 2 张起的卡片整体下推，破坏对齐 */
 .insgrid > .inscard,.insgrid > .ccard{margin-top:0}
-.insgrid{gap:20px;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));align-items:stretch}
+/* minmax(340px,1fr) 里那个 340px 是**硬下限**，320px 屏上会把卡片撑到 340 宽、
+   整页横向滚动 34px。写成 min(340px,100%) 就退化成"放得下就两列，放不下就一列"。
+   注意这条规则在 ≤820 的媒体查询之后，会盖掉那边的 1fr，所以下限必须自己兜住。 */
+.insgrid{gap:20px;grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr));align-items:stretch}
 
 /* ===== TBG 战报式新增组件 ===== */
 .tbtable{width:100%;border-collapse:collapse;font-size:14px}
@@ -407,7 +444,8 @@ body{background:var(--bg);color:var(--txt);font:400 16px/1.7 var(--sans);-webkit
 .fl{color:var(--flp)!important}
 .fltag{display:inline-flex;align-items:center;gap:5px;font:700 10px/1 var(--mono);letter-spacing:1px;
   color:#0b0b0d;background:var(--flp);border-radius:5px;padding:3px 7px}
-.flkpi .big{background:linear-gradient(180deg,#e0b3ff,var(--flp))!important;
+/* 字号从行内样式挪到这里：行内样式会盖掉媒体查询，窄屏没法缩 */
+.flkpi .big{font-size:34px;white-space:nowrap;background:linear-gradient(180deg,#e0b3ff,var(--flp))!important;
   -webkit-background-clip:text!important;background-clip:text!important;-webkit-text-fill-color:transparent!important}
 .fldot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--flp);
   margin-left:7px;vertical-align:1px}
@@ -447,6 +485,8 @@ body{background:var(--bg);color:var(--txt);font:400 16px/1.7 var(--sans);-webkit
   .wxcard b{font-size:22px}
   .kpi{padding:24px 20px}
   .kpi .big{font-size:40px}
+  /* "01:27.128" 是 9 个字符的长串，2 列格里按视口缩放才不会顶破卡片 */
+  .flkpi .big{font-size:clamp(22px,7.6vw,34px)}
   /* 车手卡头部：数据项换行到名字下方，不再靠右挤 */
   .dhead{padding:20px;gap:14px;flex-wrap:wrap}
   .dhead .rk{width:46px;height:46px;font-size:18px}
@@ -494,9 +534,16 @@ body{background:var(--bg);color:var(--txt);font:400 16px/1.7 var(--sans);-webkit
 }
 @media(max-width:480px){
   .wrap{padding:0 14px}
-  .kpis{grid-template-columns:1fr 1fr;gap:12px}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  /* 极窄屏：车手名（LeBron James 这种）会被列宽挤到省略号，
+     缩一档字号 + 收窄色条，把名字让出来 */
+  .dname{font-size:13px;gap:8px}
+  .tstripe{width:3px;height:18px}
   .kpi{padding:20px 16px}
   .kpi .big{font-size:34px}
+  /* 这条必须跟在 .kpi .big 后面：两者同为双类选择器，后定义的赢。
+     放到 ≤768 那块里会被这里的 34px 盖掉（踩过）。 */
+  .flkpi .big{font-size:clamp(20px,7.2vw,30px)}
   .hero h1{font-size:calc(var(--h1s,clamp(52px,9.4vw,116px)) * .78)}
   /* 指标格从 3 列降到 2 列，避免过窄 */
   .mgrid{grid-template-columns:repeat(2,1fr)}
@@ -505,8 +552,25 @@ body{background:var(--bg);color:var(--txt);font:400 16px/1.7 var(--sans);-webkit
   .sec-head p{font-size:15px}
   /* 极窄屏：正赛表再砍"进位"列（名次已含名次信息），保留 名次/车手/发车/积分 = 4 列 */
   .rescols{grid-template-columns:40px minmax(0,1fr) 48px 40px}
-  .hide-xs{display:none}
+  .hide-xs{display:none!important}
   .thead,.trow{padding:12px 12px}
+}
+/* 320px 档（iPhone SE 一代 / 老安卓）：排位表的"最快圈"列要 88px、
+   "有效圈"要 52px，留给车手名的只剩 64px，"Kagamine RIN" 会被省略号切掉。
+   缩字号 + 收紧固定列，把宽度还给名字。 */
+@media(max-width:400px){
+  .trow{font-size:13px}
+  .thead{font-size:10px;letter-spacing:1px}
+  .qcols{grid-template-columns:36px minmax(0,1fr) 74px 40px}
+  .rescols{grid-template-columns:36px minmax(0,1fr) 44px 38px}
+  /* 列间距 6px→4px：360px 上 "YKMW. Aston Machan" 这种 19 字符的名字
+     就差这 5px，收窄间距比再缩字号划算 */
+  .thead,.trow{gap:4px}
+  .dname{font-size:12.5px}
+  /* ERS 表砍到 5 列后还差 ~20px，把单元格内边距再收一档就正好放得下 */
+  .tbtable th,.tbtable td{padding:8px 3px}
+  .tbtable th{font-size:10px;letter-spacing:.5px}
+  .tbtable tr td:first-child,.tbtable tr th:first-child{padding-left:8px}
 }
 </style></head><body>
 <div class="hero"><div class="hero-bg"></div><div class="wrap">
@@ -525,7 +589,7 @@ body{background:var(--bg);color:var(--txt);font:400 16px/1.7 var(--sans);-webkit
         <div class="kpi reveal"><div class="big">97</div><div class="lab">有效赛道超车</div><div class="sub">原始事件 125 · 进站让位 28</div></div>
         <div class="kpi reveal"><div class="big">21</div><div class="lab">碰撞事件</div><div class="sub">赛道接触频繁</div></div>
         <div class="kpi reveal"><div class="big">28</div><div class="lab">罚则事件</div><div class="sub">原因分类：碰撞相关 8、赛道限制 13、累计警告 2、原因未明 1、进站程序 3、其他罚时 1</div></div>
-        <div class="kpi flkpi reveal"><div class="big fl" style="font-size:34px">01:28.591</div><div class="lab">最快圈</div><div class="sub">LeBron James</div></div>
+        <div class="kpi flkpi reveal"><div class="big fl">01:28.591</div><div class="lab">最快圈</div><div class="sub">LeBron James</div></div>
       </div>
     </div></div><div class="sec"><div class="wrap"><div class="sec-head reveal">
       <span class="sec-tag">Race Results</span><h2>正赛成绩</h2>
@@ -698,9 +762,9 @@ body{background:var(--bg);color:var(--txt);font:400 16px/1.7 var(--sans);-webkit
           <span class="sec-tag">Energy Deployment</span><h2>电量管理（ERS）</h2>
           <p>部署相当的车手之间，回收越多说明能量管理越好。Kagamine RIN 效率最高（回收 132.1 / 部署 136.0 = 0.97）。</p></div>
           <div class="tablewrap reveal"><table class="tbtable"><thead><tr>
-            <th class="l">车手</th><th>总部署</th><th>总回收</th><th>净收支</th><th class="l">回收/部署</th>
-            <th>部署圈</th><th>圈均强度</th><th>平均余电</th><th>耗尽圈</th>
-          </tr></thead><tbody><tr><td class="l">TS</td><td>140.7</td><td>127.0</td><td class="dn">-13.8</td><td><span class="dn">0.90</span><span style="color:var(--txt3);font-size:11px"> · 回收偏少</span></td><td>20/20</td><td>7.04</td><td>0.65</td><td>7</td></tr><tr><td class="l">Aughhhst1N</td><td>140.1</td><td>127.5</td><td class="dn">-12.6</td><td><span class="dn">0.91</span><span style="color:var(--txt3);font-size:11px"> · 回收偏少</span></td><td>20/20</td><td>7.00</td><td>0.73</td><td>3</td></tr><tr><td class="l">WuHen</td><td>137.2</td><td>127.4</td><td class="dn">-9.7</td><td><span class="">0.93</span><span style="color:var(--txt3);font-size:11px"> · 中游</span></td><td>20/20</td><td>6.86</td><td>0.94</td><td>0</td></tr><tr><td class="l">fu505</td><td>137.0</td><td>127.0</td><td class="dn">-10.0</td><td><span class="">0.93</span><span style="color:var(--txt3);font-size:11px"> · 中游</span></td><td>20/20</td><td>6.85</td><td>0.99</td><td>0</td></tr><tr><td class="l">Kagamine RIN</td><td>136.0</td><td>132.1</td><td class="dn">-3.9</td><td><span class="up">0.97</span><span style="color:var(--txt3);font-size:11px"> · 同行最省</span></td><td>20/20</td><td>6.80</td><td>0.69</td><td>3</td></tr><tr><td class="l">MTY BOLUO</td><td>135.8</td><td>128.0</td><td class="dn">-7.8</td><td><span class="">0.94</span><span style="color:var(--txt3);font-size:11px"> · 中游</span></td><td>20/20</td><td>6.79</td><td>0.54</td><td>3</td></tr><tr><td class="l">tenbergen</td><td>132.3</td><td>125.9</td><td class="dn">-6.4</td><td><span class="">0.95</span><span style="color:var(--txt3);font-size:11px"> · 回收充分</span></td><td>20/20</td><td>6.62</td><td>0.92</td><td>3</td></tr><tr><td class="l">LeBron James</td><td>131.8</td><td>124.5</td><td class="dn">-7.2</td><td><span class="">0.94</span><span style="color:var(--txt3);font-size:11px"> · 中游</span></td><td>20/20</td><td>6.59</td><td>1.66</td><td>0</td></tr><tr><td class="l">MFGA</td><td>130.9</td><td>125.4</td><td class="dn">-5.5</td><td><span class="">0.96</span><span style="color:var(--txt3);font-size:11px"> · 回收充分</span></td><td>20/20</td><td>6.54</td><td>1.09</td><td>1</td></tr><tr><td class="l">Ay1ng</td><td>129.8</td><td>122.1</td><td class="dn">-7.8</td><td><span class="">0.94</span><span style="color:var(--txt3);font-size:11px"> · 中游</span></td><td>20/20</td><td>6.49</td><td>1.69</td><td>0</td></tr><tr><td class="l">Ak_Langley_S <span class="dn" title="逐圈采集不完整">⚠</span></td><td>0.0</td><td>0.0</td><td class="up">+0.0</td><td><span style="color:var(--txt3)">—</span></td><td>0/0</td><td>0.00</td><td>0.00</td><td>0</td></tr><tr><td class="l">Ferrari '26 #2</td><td>0.0</td><td>0.0</td><td class="up">+0.0</td><td><span style="color:var(--txt3)">—</span></td><td>0/20</td><td>0.00</td><td>0.00</td><td>20</td></tr><tr><td class="l">defect <span class="dn" title="逐圈采集不完整">⚠</span></td><td>0.0</td><td>0.0</td><td class="up">+0.0</td><td><span style="color:var(--txt3)">—</span></td><td>0/0</td><td>0.00</td><td>0.00</td><td>0</td></tr></tbody></table></div><p style="color:var(--txt3);font-size:13px;margin-top:16px">⚠ Ak_Langley_S、defect 的逐圈数据不完整，数值仅代表已记录部分。</p>
+            <th class="l">车手</th><th>总部署</th><th>总回收</th><th class="hide-sm">净收支</th><th class="l">回收/部署</th>
+            <th class="hide-sm">部署圈</th><th class="hide-sm">圈均强度</th><th class="hide-sm">平均余电</th><th>耗尽圈</th>
+          </tr></thead><tbody><tr><td class="l">TS</td><td>140.7</td><td>127.0</td><td class="hide-sm dn">-13.8</td><td><span class="dn">0.90</span><span class="hide-sm" style="color:var(--txt3);font-size:11px"> · 回收偏少</span></td><td class="hide-sm">20/20</td><td class="hide-sm">7.04</td><td class="hide-sm">0.65</td><td>7</td></tr><tr><td class="l">Aughhhst1N</td><td>140.1</td><td>127.5</td><td class="hide-sm dn">-12.6</td><td><span class="dn">0.91</span><span class="hide-sm" style="color:var(--txt3);font-size:11px"> · 回收偏少</span></td><td class="hide-sm">20/20</td><td class="hide-sm">7.00</td><td class="hide-sm">0.73</td><td>3</td></tr><tr><td class="l">WuHen</td><td>137.2</td><td>127.4</td><td class="hide-sm dn">-9.7</td><td><span class="">0.93</span><span class="hide-sm" style="color:var(--txt3);font-size:11px"> · 中游</span></td><td class="hide-sm">20/20</td><td class="hide-sm">6.86</td><td class="hide-sm">0.94</td><td>0</td></tr><tr><td class="l">fu505</td><td>137.0</td><td>127.0</td><td class="hide-sm dn">-10.0</td><td><span class="">0.93</span><span class="hide-sm" style="color:var(--txt3);font-size:11px"> · 中游</span></td><td class="hide-sm">20/20</td><td class="hide-sm">6.85</td><td class="hide-sm">0.99</td><td>0</td></tr><tr><td class="l">Kagamine RIN</td><td>136.0</td><td>132.1</td><td class="hide-sm dn">-3.9</td><td><span class="up">0.97</span><span class="hide-sm" style="color:var(--txt3);font-size:11px"> · 同行最省</span></td><td class="hide-sm">20/20</td><td class="hide-sm">6.80</td><td class="hide-sm">0.69</td><td>3</td></tr><tr><td class="l">MTY BOLUO</td><td>135.8</td><td>128.0</td><td class="hide-sm dn">-7.8</td><td><span class="">0.94</span><span class="hide-sm" style="color:var(--txt3);font-size:11px"> · 中游</span></td><td class="hide-sm">20/20</td><td class="hide-sm">6.79</td><td class="hide-sm">0.54</td><td>3</td></tr><tr><td class="l">tenbergen</td><td>132.3</td><td>125.9</td><td class="hide-sm dn">-6.4</td><td><span class="">0.95</span><span class="hide-sm" style="color:var(--txt3);font-size:11px"> · 回收充分</span></td><td class="hide-sm">20/20</td><td class="hide-sm">6.62</td><td class="hide-sm">0.92</td><td>3</td></tr><tr><td class="l">LeBron James</td><td>131.8</td><td>124.5</td><td class="hide-sm dn">-7.2</td><td><span class="">0.94</span><span class="hide-sm" style="color:var(--txt3);font-size:11px"> · 中游</span></td><td class="hide-sm">20/20</td><td class="hide-sm">6.59</td><td class="hide-sm">1.66</td><td>0</td></tr><tr><td class="l">MFGA</td><td>130.9</td><td>125.4</td><td class="hide-sm dn">-5.5</td><td><span class="">0.96</span><span class="hide-sm" style="color:var(--txt3);font-size:11px"> · 回收充分</span></td><td class="hide-sm">20/20</td><td class="hide-sm">6.54</td><td class="hide-sm">1.09</td><td>1</td></tr><tr><td class="l">Ay1ng</td><td>129.8</td><td>122.1</td><td class="hide-sm dn">-7.8</td><td><span class="">0.94</span><span class="hide-sm" style="color:var(--txt3);font-size:11px"> · 中游</span></td><td class="hide-sm">20/20</td><td class="hide-sm">6.49</td><td class="hide-sm">1.69</td><td>0</td></tr><tr><td class="l">Ak_Langley_S <span class="dn" title="逐圈采集不完整">⚠</span></td><td>0.0</td><td>0.0</td><td class="hide-sm up">+0.0</td><td><span style="color:var(--txt3)">—</span></td><td class="hide-sm">0/0</td><td class="hide-sm">0.00</td><td class="hide-sm">0.00</td><td>0</td></tr><tr><td class="l">Ferrari '26 #2</td><td>0.0</td><td>0.0</td><td class="hide-sm up">+0.0</td><td><span style="color:var(--txt3)">—</span></td><td class="hide-sm">0/20</td><td class="hide-sm">0.00</td><td class="hide-sm">0.00</td><td>20</td></tr><tr><td class="l">defect <span class="dn" title="逐圈采集不完整">⚠</span></td><td>0.0</td><td>0.0</td><td class="hide-sm up">+0.0</td><td><span style="color:var(--txt3)">—</span></td><td class="hide-sm">0/0</td><td class="hide-sm">0.00</td><td class="hide-sm">0.00</td><td>0</td></tr></tbody></table></div><p style="color:var(--txt3);font-size:13px;margin-top:16px">⚠ Ak_Langley_S、defect 的逐圈数据不完整，数值仅代表已记录部分。</p>
         </div></div></div><div class="sec"><div class="wrap"><div class="sec-head reveal">
           <span class="sec-tag">Takeaways</span><h2>本场结论</h2>
           <p>这场比赛真正决定名次的几件事。</p></div>
@@ -1441,8 +1505,31 @@ function buildOvChart() {
 }
 
 /* === Init === */
+/* 宽表格（ERS 那张 9 列的最典型）在窄屏放不下，容器是 overflow-x:auto。
+   光能滑还不够——用户不知道右边还有内容。这里量一下谁真的能滑，
+   给它加一个"左右滑动"提示；放得下就不加。 */
+function markScrollables() {
+    var wraps = document.querySelectorAll('.tablewrap');
+    for (var i = 0; i < wraps.length; i++) {
+        var w = wraps[i];
+        var can = w.scrollWidth - w.clientWidth > 2;
+        w.classList.toggle('scrollable', can);
+        var hint = w.nextElementSibling;
+        var has = hint && hint.classList && hint.classList.contains('tscroll-hint');
+        if (can && !has) {
+            var d = document.createElement('div');
+            d.className = 'tscroll-hint';
+            d.textContent = '← 左右滑动查看完整数据 →';
+            w.parentNode.insertBefore(d, w.nextSibling);
+        } else if (!can && has) {
+            hint.parentNode.removeChild(hint);
+        }
+    }
+}
+
 window.addEventListener('DOMContentLoaded', function() {
     initReveal();
+    markScrollables();
     buildPosChart();
     buildLapChart();
     buildPaceChart();
@@ -1455,4 +1542,11 @@ window.addEventListener('DOMContentLoaded', function() {
     var idxB = player ? player.index : (sorted[1] ? sorted[1].index : sorted[0].index);
     selectDriver('A', idxA);
     selectDriver('B', idxB);
+});
+
+/* 屏幕旋转 / 改窗口宽度后，表格能不能滑是会变的，得重新量 */
+var _rsz;
+window.addEventListener('resize', function() {
+    clearTimeout(_rsz);
+    _rsz = setTimeout(markScrollables, 180);
 });</script></body></html>
