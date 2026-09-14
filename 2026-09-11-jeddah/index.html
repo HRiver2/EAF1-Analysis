@@ -1465,7 +1465,8 @@ function renderCompare() {
         }
         return '<div class="cmprow"><div class="ca '+ca+'">'+sa+'</div><div class="cm">'+label+'</div><div class="cb '+cb+'">'+sb+'</div></div>';
     }
-    var h = '<div class="cmphead"><div class="nm" style="color:'+teamColor(a.team)+'">'+a.name+'</div><div class="tm">'+a.team+' · P'+a.finish+'</div></div>';
+    // 部分归档的车队名是空的（数字 team-id 会被清掉），此时别留下一个孤零零的 "· P1"
+    var h = '<div class="cmphead"><div class="nm" style="color:'+teamColor(a.team)+'">'+a.name+'</div><div class="tm">'+(a.team ? a.team+' · ' : '')+'P'+a.finish+'</div></div>';
     h += row('综合', a.overall, b.overall, false);
     h += row('名次', a.finish, b.finish, true);
     h += row('发车', a.grid, b.grid, true);
@@ -1479,7 +1480,7 @@ function renderCompare() {
     h += row('被超', a.ov_lost, b.ov_lost, true);
     h += row('ERS释', a.ers_total_deploy, b.ers_total_deploy, false);
     h += row('ERS收', a.ers_total_harvest, b.ers_total_harvest, false);
-    h += '<div class="cmphead"><div class="nm" style="color:'+teamColor(b.team)+'">'+b.name+'</div><div class="tm">'+b.team+' · P'+b.finish+'</div></div>';
+    h += '<div class="cmphead"><div class="nm" style="color:'+teamColor(b.team)+'">'+b.name+'</div><div class="tm">'+(b.team ? b.team+' · ' : '')+'P'+b.finish+'</div></div>';
     document.getElementById('cmpTable').innerHTML = h;
 
     var dims = [
