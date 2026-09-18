@@ -5,9 +5,13 @@
  "date": "2026-09-06",
  "time": "20:59",
  "total_laps": 23,
+ "stop_lap": null,
+ "declared_laps": null,
+ "final_order": null,
+ "dnf": null,
  "field_size": 16,
  "winner": "WuHen",
  "fastest": "01:27.128",
  "page_title": "FEL联赛 2026秋季赛 Challenger League 挑战者组 Round 3 · 西班牙站",
- "published": "2026-09-15T10:58:15"
+ "published": "2026-09-19T00:06:38"
 }

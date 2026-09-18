@@ -5,9 +5,13 @@
  "date": "2026-09-13",
  "time": "20:55",
  "total_laps": 20,
+ "stop_lap": null,
+ "declared_laps": null,
+ "final_order": null,
+ "dnf": null,
  "field_size": 13,
  "winner": "MFGA",
  "fastest": "01:28.591",
  "page_title": "FEL联赛 2026秋季赛 Challenger League 挑战者组 Round 4 ·迈阿密站",
- "published": "2026-09-15T10:59:12"
+ "published": "2026-09-19T00:07:37"
 }

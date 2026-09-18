@@ -5,9 +5,13 @@
  "date": "2026-09-09",
  "time": "22:16",
  "total_laps": 26,
+ "stop_lap": null,
+ "declared_laps": null,
+ "final_order": null,
+ "dnf": null,
  "field_size": 18,
  "winner": "鱼雷王",
  "fastest": "01:42.545",
  "page_title": "凛音·萌新杯 S4R18 世界一级stupid巴库大奖赛",
- "published": "2026-09-15T10:58:40"
+ "published": "2026-09-19T00:07:02"
 }

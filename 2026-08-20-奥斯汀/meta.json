@@ -5,9 +5,13 @@
  "date": "2026-08-20",
  "time": "22:16",
  "total_laps": 28,
+ "stop_lap": null,
+ "declared_laps": null,
+ "final_order": null,
+ "dnf": null,
  "field_size": 16,
  "winner": "R_ATPER2",
  "fastest": "01:35.866",
  "page_title": "花理乐享系列赛 · 奥斯汀大奖赛",
- "published": "2026-09-15T10:56:25"
+ "published": "2026-09-19T00:04:54"
 }

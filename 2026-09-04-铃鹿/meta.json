@@ -5,9 +5,13 @@
  "date": "2026-09-04",
  "time": "22:26",
  "total_laps": 19,
+ "stop_lap": null,
+ "declared_laps": null,
+ "final_order": null,
+ "dnf": null,
  "field_size": 16,
  "winner": "IRT.Ryougi Shiki",
  "fastest": "01:29.687",
  "page_title": "AWTC S4 S6R5 铃鹿站",
- "published": "2026-09-15T10:58:00"
+ "published": "2026-09-19T00:06:23"
 }
