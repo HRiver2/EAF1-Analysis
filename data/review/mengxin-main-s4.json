@@ -34,9 +34,10 @@
    "disconnect": 10
   },
   "lucky": {
-   "beneficiary": 50,
-   "low_dnf": 30,
-   "finish_rate": 20
+   "beneficiary": 35,
+   "car": 30,
+   "low_dnf": 20,
+   "finish_rate": 15
   },
   "allround": {
    "pace": 25,
@@ -179,6 +180,36 @@
      "value": 215,
      "display": "215 分",
      "detail": "1 胜 · 3 台 · 出场 20"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 208,
+     "display": "208 分",
+     "detail": "0 胜 · 0 台 · 出场 25"
+    },
+    {
+     "name": "HayesCC",
+     "value": 166,
+     "display": "166 分",
+     "detail": "1 胜 · 0 台 · 出场 25"
+    },
+    {
+     "name": "Momokong",
+     "value": 154,
+     "display": "154 分",
+     "detail": "0 胜 · 3 台 · 出场 20"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 144,
+     "display": "144 分",
+     "detail": "0 胜 · 3 台 · 出场 14"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": 122,
+     "display": "122 分",
+     "detail": "0 胜 · 3 台 · 出场 12"
     }
    ],
    "note": ""
@@ -221,6 +252,36 @@
      "value": 2,
      "display": "2 胜",
      "detail": "58 分 · 登台 0 次"
+    },
+    {
+     "name": "Gougou",
+     "value": 2,
+     "display": "2 胜",
+     "detail": "241 分 · 登台 1 次"
+    },
+    {
+     "name": "RIC",
+     "value": 2,
+     "display": "2 胜",
+     "detail": "112 分 · 登台 0 次"
+    },
+    {
+     "name": "鱼雷王",
+     "value": 2,
+     "display": "2 胜",
+     "detail": "72 分 · 登台 1 次"
+    },
+    {
+     "name": "yi_hua",
+     "value": 1,
+     "display": "1 胜",
+     "detail": "70 分 · 登台 2 次"
+    },
+    {
+     "name": "HayesCC",
+     "value": 1,
+     "display": "1 胜",
+     "detail": "166 分 · 登台 0 次"
     }
    ],
    "note": ""
@@ -263,6 +324,36 @@
      "value": 3,
      "display": "3 次",
      "detail": "1 胜 · 215 分"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 3,
+     "display": "3 次",
+     "detail": "0 胜 · 144 分"
+    },
+    {
+     "name": "gangteiss",
+     "value": 3,
+     "display": "3 次",
+     "detail": "0 胜 · 69 分"
+    },
+    {
+     "name": "黑崎小雪",
+     "value": 3,
+     "display": "3 次",
+     "detail": "1 胜 · 121 分"
+    },
+    {
+     "name": "R_ATPER2",
+     "value": 2,
+     "display": "2 次",
+     "detail": "2 胜 · 92 分"
+    },
+    {
+     "name": "yi_hua",
+     "value": 2,
+     "display": "2 次",
+     "detail": "1 胜 · 70 分"
     }
    ],
    "note": ""
@@ -305,6 +396,36 @@
      "value": 2,
      "display": "2 杆位",
      "detail": "平均发车 P2.6"
+    },
+    {
+     "name": "HayesCC",
+     "value": 1,
+     "display": "1 杆位",
+     "detail": "平均发车 P11.1"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": 1,
+     "display": "1 杆位",
+     "detail": "平均发车 P11.2"
+    },
+    {
+     "name": "tenbergen",
+     "value": 1,
+     "display": "1 杆位",
+     "detail": "平均发车 P6.8"
+    },
+    {
+     "name": "Momokong",
+     "value": 1,
+     "display": "1 杆位",
+     "detail": "平均发车 P9.0"
+    },
+    {
+     "name": "WuHen",
+     "value": 1,
+     "display": "1 杆位",
+     "detail": "平均发车 P3.0"
     }
    ],
    "note": ""
@@ -347,6 +468,36 @@
      "value": 2,
      "display": "2 次",
      "detail": "最快单圈 1:07.303"
+    },
+    {
+     "name": "yi_hua",
+     "value": 1,
+     "display": "1 次",
+     "detail": "最快单圈 1:19.674"
+    },
+    {
+     "name": "lm10",
+     "value": 1,
+     "display": "1 次",
+     "detail": "最快单圈 1:08.186"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 1,
+     "display": "1 次",
+     "detail": "最快单圈 1:08.590"
+    },
+    {
+     "name": "tenbergen",
+     "value": 1,
+     "display": "1 次",
+     "detail": "最快单圈 1:07.264"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 1,
+     "display": "1 次",
+     "detail": "最快单圈 1:12.535"
     }
    ],
    "note": ""
@@ -389,6 +540,36 @@
      "value": 3,
      "display": "3 条",
      "detail": "伊莫拉·排位最快圈、巴西·排位最快圈、巴西·正赛最快圈"
+    },
+    {
+     "name": "白云",
+     "value": 3,
+     "display": "3 条",
+     "detail": "荷兰·排位最快圈、荷兰·正赛最快圈、西班牙·正赛最快圈"
+    },
+    {
+     "name": "鱼雷王",
+     "value": 3,
+     "display": "3 条",
+     "detail": "阿塞拜疆·排位最快圈、马德里·排位最快圈、马德里·正赛最快圈"
+    },
+    {
+     "name": "糕白",
+     "value": 2,
+     "display": "2 条",
+     "detail": "比利时·排位最快圈、比利时·正赛最快圈"
+    },
+    {
+     "name": "WuHen",
+     "value": 2,
+     "display": "2 条",
+     "detail": "日本·排位最快圈、日本·正赛最快圈"
+    },
+    {
+     "name": "Momokong",
+     "value": 2,
+     "display": "2 条",
+     "detail": "奥地利·排位最快圈、巴林·正赛最快圈"
     }
    ],
    "note": ""
@@ -431,6 +612,36 @@
      "value": 21,
      "display": "21 场",
      "detail": "完赛 19 · 退赛 2"
+    },
+    {
+     "name": "defect",
+     "value": 21,
+     "display": "21 场",
+     "detail": "完赛 17 · 退赛 4"
+    },
+    {
+     "name": "Momokong",
+     "value": 20,
+     "display": "20 场",
+     "detail": "完赛 16 · 退赛 4"
+    },
+    {
+     "name": "白云",
+     "value": 20,
+     "display": "20 场",
+     "detail": "完赛 20 · 退赛 0"
+    },
+    {
+     "name": "dan",
+     "value": 14,
+     "display": "14 场",
+     "detail": "完赛 11 · 退赛 3"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 14,
+     "display": "14 场",
+     "detail": "完赛 13 · 退赛 1"
     }
    ],
    "note": ""
@@ -473,6 +684,36 @@
      "value": 7.05,
      "display": "P7.0",
      "detail": "最佳 P1 · 完赛 17 场"
+    },
+    {
+     "name": "RIC",
+     "value": 7.91,
+     "display": "P7.9",
+     "detail": "最佳 P1 · 完赛 8 场"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 8.0,
+     "display": "P8.0",
+     "detail": "最佳 P3 · 完赛 11 场"
+    },
+    {
+     "name": "白云",
+     "value": 8.15,
+     "display": "P8.2",
+     "detail": "最佳 P1 · 完赛 20 场"
+    },
+    {
+     "name": "Gougou",
+     "value": 8.19,
+     "display": "P8.2",
+     "detail": "最佳 P1 · 完赛 19 场"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": 8.5,
+     "display": "P8.5",
+     "detail": "最佳 P2 · 完赛 12 场"
     }
    ],
    "note": ""
@@ -515,6 +756,36 @@
      "value": 100.0,
      "display": "100%",
      "detail": "11/11 场"
+    },
+    {
+     "name": "gangteiss",
+     "value": 100.0,
+     "display": "100%",
+     "detail": "5/5 场"
+    },
+    {
+     "name": "HayesCC",
+     "value": 96.0,
+     "display": "96%",
+     "detail": "24/25 场"
+    },
+    {
+     "name": "tenbergen",
+     "value": 96.0,
+     "display": "96%",
+     "detail": "24/25 场"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 92.85714285714286,
+     "display": "93%",
+     "detail": "13/14 场"
+    },
+    {
+     "name": "A380FatLiner",
+     "value": 92.85714285714286,
+     "display": "93%",
+     "detail": "13/14 场"
     }
    ],
    "note": ""
@@ -557,6 +828,36 @@
      "value": 92.0,
      "display": "92%",
      "detail": "23 场有分 / 25 场"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 91.66666666666667,
+     "display": "92%",
+     "detail": "11 场有分 / 12 场"
+    },
+    {
+     "name": "白云",
+     "value": 90.0,
+     "display": "90%",
+     "detail": "18 场有分 / 20 场"
+    },
+    {
+     "name": "Gougou",
+     "value": 85.71428571428571,
+     "display": "86%",
+     "detail": "18 场有分 / 21 场"
+    },
+    {
+     "name": "黑崎小雪",
+     "value": 84.61538461538461,
+     "display": "85%",
+     "detail": "11 场有分 / 13 场"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 84.0,
+     "display": "84%",
+     "detail": "21 场有分 / 25 场"
     }
    ],
    "note": ""
@@ -598,6 +899,36 @@
      "name": "EasonLeclerc",
      "value": 32,
      "display": "+32 分",
+     "detail": "后半程拿分 − 前半程拿分"
+    },
+    {
+     "name": "Gougou",
+     "value": 27,
+     "display": "+27 分",
+     "detail": "后半程拿分 − 前半程拿分"
+    },
+    {
+     "name": "黑崎小雪",
+     "value": 27,
+     "display": "+27 分",
+     "detail": "后半程拿分 − 前半程拿分"
+    },
+    {
+     "name": "A380FatLiner",
+     "value": 21,
+     "display": "+21 分",
+     "detail": "后半程拿分 − 前半程拿分"
+    },
+    {
+     "name": "lm10",
+     "value": 15,
+     "display": "+15 分",
+     "detail": "后半程拿分 − 前半程拿分"
+    },
+    {
+     "name": "esmac1",
+     "value": 15,
+     "display": "+15 分",
      "detail": "后半程拿分 − 前半程拿分"
     }
    ],
@@ -641,6 +972,36 @@
      "value": 1.86,
      "display": "+1.860%",
      "detail": "相对各站最快圈的差距均值（20 站）"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": 1.9409999999999998,
+     "display": "+1.941%",
+     "detail": "相对各站最快圈的差距均值（11 站）"
+    },
+    {
+     "name": "esmac1",
+     "value": 1.9563333333333333,
+     "display": "+1.956%",
+     "detail": "相对各站最快圈的差距均值（9 站）"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 2.0149285714285714,
+     "display": "+2.015%",
+     "detail": "相对各站最快圈的差距均值（14 站）"
+    },
+    {
+     "name": "tenbergen",
+     "value": 2.07875,
+     "display": "+2.079%",
+     "detail": "相对各站最快圈的差距均值（24 站）"
+    },
+    {
+     "name": "Momokong",
+     "value": 2.0823684210526316,
+     "display": "+2.082%",
+     "detail": "相对各站最快圈的差距均值（19 站）"
     }
    ],
    "note": ""
@@ -682,6 +1043,36 @@
      "name": "白云",
      "value": 67303,
      "display": "1:07.303",
+     "detail": "奥地利"
+    },
+    {
+     "name": "defect",
+     "value": 67400,
+     "display": "1:07.400",
+     "detail": "奥地利"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 67535,
+     "display": "1:07.535",
+     "detail": "奥地利"
+    },
+    {
+     "name": "黑崎小雪",
+     "value": 67913,
+     "display": "1:07.913",
+     "detail": "奥地利"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 67943,
+     "display": "1:07.943",
+     "detail": "奥地利"
+    },
+    {
+     "name": "HayesCC",
+     "value": 68011,
+     "display": "1:08.011",
      "detail": "奥地利"
     }
    ],
@@ -725,6 +1116,36 @@
      "value": 1079.3393209982958,
      "display": "1.08 s",
      "detail": "逐站标准差均值（17 站有足够干净圈）"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 1086.0706347511775,
+     "display": "1.09 s",
+     "detail": "逐站标准差均值（17 站有足够干净圈）"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 1097.848767962616,
+     "display": "1.10 s",
+     "detail": "逐站标准差均值（11 站有足够干净圈）"
+    },
+    {
+     "name": "Gougou",
+     "value": 1100.6628142544405,
+     "display": "1.10 s",
+     "detail": "逐站标准差均值（19 站有足够干净圈）"
+    },
+    {
+     "name": "tenbergen",
+     "value": 1112.5648322651564,
+     "display": "1.11 s",
+     "detail": "逐站标准差均值（22 站有足够干净圈）"
+    },
+    {
+     "name": "defect",
+     "value": 1115.8792472923747,
+     "display": "1.12 s",
+     "detail": "逐站标准差均值（17 站有足够干净圈）"
     }
    ],
    "note": ""
@@ -767,6 +1188,36 @@
      "value": 61.873490093460305,
      "display": "+0.062 s/圈",
      "detail": "24 站有足够长的胎段样本 · 未做燃油修正"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 66.74852919344143,
+     "display": "+0.067 s/圈",
+     "detail": "11 站有足够长的胎段样本 · 未做燃油修正"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 80.01708975651445,
+     "display": "+0.080 s/圈",
+     "detail": "13 站有足够长的胎段样本 · 未做燃油修正"
+    },
+    {
+     "name": "lm10",
+     "value": 90.57421869545381,
+     "display": "+0.091 s/圈",
+     "detail": "13 站有足够长的胎段样本 · 未做燃油修正"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 103.67813429925464,
+     "display": "+0.104 s/圈",
+     "detail": "11 站有足够长的胎段样本 · 未做燃油修正"
+    },
+    {
+     "name": "tenbergen",
+     "value": 108.38747805330075,
+     "display": "+0.108 s/圈",
+     "detail": "22 站有足够长的胎段样本 · 未做燃油修正"
     }
    ],
    "note": ""
@@ -809,6 +1260,36 @@
      "value": 187.18707217805826,
      "display": "+0.187 s/圈",
      "detail": "13 站有足够长的胎段样本"
+    },
+    {
+     "name": "dan",
+     "value": 173.73920305037362,
+     "display": "+0.174 s/圈",
+     "detail": "12 站有足够长的胎段样本"
+    },
+    {
+     "name": "HayesCC",
+     "value": 172.23635970233025,
+     "display": "+0.172 s/圈",
+     "detail": "23 站有足够长的胎段样本"
+    },
+    {
+     "name": "DQ",
+     "value": 166.45680041063167,
+     "display": "+0.166 s/圈",
+     "detail": "10 站有足够长的胎段样本"
+    },
+    {
+     "name": "LewisRen",
+     "value": 139.13555990154728,
+     "display": "+0.139 s/圈",
+     "detail": "10 站有足够长的胎段样本"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": 128.58426500250658,
+     "display": "+0.129 s/圈",
+     "detail": "10 站有足够长的胎段样本"
     }
    ],
    "note": ""
@@ -850,6 +1331,36 @@
      "name": "defect",
      "value": 353,
      "display": "353 km/h",
+     "detail": "平均极速 332 km/h"
+    },
+    {
+     "name": "RIC",
+     "value": 353,
+     "display": "353 km/h",
+     "detail": "平均极速 335 km/h"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 353,
+     "display": "353 km/h",
+     "detail": "平均极速 332 km/h"
+    },
+    {
+     "name": "黑崎小雪",
+     "value": 353,
+     "display": "353 km/h",
+     "detail": "平均极速 332 km/h"
+    },
+    {
+     "name": "HayesCC",
+     "value": 352,
+     "display": "352 km/h",
+     "detail": "平均极速 332 km/h"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": 352,
+     "display": "352 km/h",
      "detail": "平均极速 332 km/h"
     }
    ],
@@ -893,6 +1404,36 @@
      "value": 339.72727272727275,
      "display": "339.7 km/h",
      "detail": "11 场 · 各圈尾速平均"
+    },
+    {
+     "name": "高木同学重度依赖",
+     "value": 339.25,
+     "display": "339.2 km/h",
+     "detail": "4 场 · 各圈尾速平均"
+    },
+    {
+     "name": "R_ATPER2",
+     "value": 338.75,
+     "display": "338.8 km/h",
+     "detail": "4 场 · 各圈尾速平均"
+    },
+    {
+     "name": "糕白",
+     "value": 337.3333333333333,
+     "display": "337.3 km/h",
+     "detail": "3 场 · 各圈尾速平均"
+    },
+    {
+     "name": "Mirrorcc",
+     "value": 336.6666666666667,
+     "display": "336.7 km/h",
+     "detail": "3 场 · 各圈尾速平均"
+    },
+    {
+     "name": "A380FatLiner",
+     "value": 336.64285714285717,
+     "display": "336.6 km/h",
+     "detail": "14 场 · 各圈尾速平均"
     }
    ],
    "note": ""
@@ -935,6 +1476,36 @@
      "value": 92.47311827956989,
      "display": "92%",
      "detail": "86/93 圈在前十"
+    },
+    {
+     "name": "Mirrorcc",
+     "value": 89.23076923076923,
+     "display": "89%",
+     "detail": "58/65 圈在前十"
+    },
+    {
+     "name": "鱼雷王",
+     "value": 88.97058823529412,
+     "display": "89%",
+     "detail": "121/136 圈在前十"
+    },
+    {
+     "name": "lm10",
+     "value": 78.3289817232376,
+     "display": "78%",
+     "detail": "300/383 圈在前十"
+    },
+    {
+     "name": "gangteiss",
+     "value": 73.57142857142857,
+     "display": "74%",
+     "detail": "103/140 圈在前十"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 72.63513513513513,
+     "display": "73%",
+     "detail": "215/296 圈在前十"
     }
    ],
    "note": ""
@@ -977,6 +1548,36 @@
      "value": 3.8783324198609646,
      "display": "3.88 %/圈",
      "detail": "24 个胎段样本 · 累计 736 圈"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": 3.9428576995395175,
+     "display": "3.94 %/圈",
+     "detail": "11 个胎段样本 · 累计 310 圈"
+    },
+    {
+     "name": "tenbergen",
+     "value": 3.9956576949975284,
+     "display": "4.00 %/圈",
+     "detail": "23 个胎段样本 · 累计 702 圈"
+    },
+    {
+     "name": "lm10",
+     "value": 4.002733099093096,
+     "display": "4.00 %/圈",
+     "detail": "13 个胎段样本 · 累计 383 圈"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 4.1069451355982105,
+     "display": "4.11 %/圈",
+     "detail": "11 个胎段样本 · 累计 296 圈"
+    },
+    {
+     "name": "yi_hua",
+     "value": 4.113629741037829,
+     "display": "4.11 %/圈",
+     "detail": "6 个胎段样本 · 累计 165 圈"
     }
    ],
    "note": ""
@@ -1019,6 +1620,36 @@
      "value": 4.7788304612054615,
      "display": "4.78 %/圈",
      "detail": "5 个胎段样本 · 累计 172 圈"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 4.6585392911373305,
+     "display": "4.66 %/圈",
+     "detail": "21 个胎段样本 · 累计 646 圈"
+    },
+    {
+     "name": "EasonLeclerc",
+     "value": 4.643247259430089,
+     "display": "4.64 %/圈",
+     "detail": "7 个胎段样本 · 累计 271 圈"
+    },
+    {
+     "name": "Momokong",
+     "value": 4.552756700716883,
+     "display": "4.55 %/圈",
+     "detail": "18 个胎段样本 · 累计 548 圈"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 4.546156361826005,
+     "display": "4.55 %/圈",
+     "detail": "14 个胎段样本 · 累计 384 圈"
+    },
+    {
+     "name": "Gougou",
+     "value": 4.482076608797804,
+     "display": "4.48 %/圈",
+     "detail": "20 个胎段样本 · 累计 606 圈"
     }
    ],
    "note": ""
@@ -1061,6 +1692,36 @@
      "value": -4,
      "display": "-4 位",
      "detail": "全季 16 次进站 · 净 -25"
+    },
+    {
+     "name": "tenbergen",
+     "value": -4,
+     "display": "-4 位",
+     "detail": "全季 34 次进站 · 净 -76"
+    },
+    {
+     "name": "defect",
+     "value": -4,
+     "display": "-4 位",
+     "detail": "全季 30 次进站 · 净 -53"
+    },
+    {
+     "name": "star-falI04",
+     "value": -4,
+     "display": "-4 位",
+     "detail": "全季 21 次进站 · 净 -19"
+    },
+    {
+     "name": "HayesCC",
+     "value": -3,
+     "display": "-3 位",
+     "detail": "全季 35 次进站 · 净 -66"
+    },
+    {
+     "name": "dan",
+     "value": -3,
+     "display": "-3 位",
+     "detail": "全季 28 次进站 · 净 -31"
     }
    ],
    "note": ""
@@ -1103,6 +1764,36 @@
      "value": 10,
      "display": "+10 位",
      "detail": "全季 19 次进站 · 净 -33"
+    },
+    {
+     "name": "老吴k423",
+     "value": 10,
+     "display": "+10 位",
+     "detail": "全季 6 次进站 · 净 -4"
+    },
+    {
+     "name": "HayesCC",
+     "value": 9,
+     "display": "+9 位",
+     "detail": "全季 35 次进站 · 净 -66"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 9,
+     "display": "+9 位",
+     "detail": "全季 33 次进站 · 净 -63"
+    },
+    {
+     "name": "tenbergen",
+     "value": 9,
+     "display": "+9 位",
+     "detail": "全季 34 次进站 · 净 -76"
+    },
+    {
+     "name": "Momokong",
+     "value": 9,
+     "display": "+9 位",
+     "detail": "全季 28 次进站 · 净 -42"
     }
    ],
    "note": ""
@@ -1145,6 +1836,36 @@
      "value": 34,
      "display": "34 次",
      "detail": "25 场 · 平均 1.36 次/场"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 33,
+     "display": "33 次",
+     "detail": "25 场 · 平均 1.32 次/场"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 30,
+     "display": "30 次",
+     "detail": "14 场 · 平均 2.14 次/场"
+    },
+    {
+     "name": "defect",
+     "value": 30,
+     "display": "30 次",
+     "detail": "21 场 · 平均 1.43 次/场"
+    },
+    {
+     "name": "dan",
+     "value": 28,
+     "display": "28 次",
+     "detail": "14 场 · 平均 2.00 次/场"
+    },
+    {
+     "name": "Momokong",
+     "value": 28,
+     "display": "28 次",
+     "detail": "20 场 · 平均 1.40 次/场"
     }
    ],
    "note": ""
@@ -1186,6 +1907,36 @@
      "name": "清蒸猫头凉拌菠萝",
      "value": 1,
      "display": "1 次",
+     "detail": ""
+    },
+    {
+     "name": "Perez",
+     "value": 2,
+     "display": "2 次",
+     "detail": ""
+    },
+    {
+     "name": "TC",
+     "value": 2,
+     "display": "2 次",
+     "detail": ""
+    },
+    {
+     "name": "Anegler",
+     "value": 2,
+     "display": "2 次",
+     "detail": ""
+    },
+    {
+     "name": "leevenchenko",
+     "value": 2,
+     "display": "2 次",
+     "detail": ""
+    },
+    {
+     "name": "哈哈",
+     "value": 2,
+     "display": "2 次",
      "detail": ""
     }
    ],
@@ -1229,6 +1980,36 @@
      "value": 57,
      "display": "57 圈",
      "detail": "单个胎段最长圈数"
+    },
+    {
+     "name": "It57",
+     "value": 57,
+     "display": "57 圈",
+     "detail": "单个胎段最长圈数"
+    },
+    {
+     "name": "Gougou",
+     "value": 57,
+     "display": "57 圈",
+     "detail": "单个胎段最长圈数"
+    },
+    {
+     "name": "Tim",
+     "value": 57,
+     "display": "57 圈",
+     "detail": "单个胎段最长圈数"
+    },
+    {
+     "name": "funanana",
+     "value": 57,
+     "display": "57 圈",
+     "detail": "单个胎段最长圈数"
+    },
+    {
+     "name": "defect",
+     "value": 55,
+     "display": "55 圈",
+     "detail": "单个胎段最长圈数"
     }
    ],
    "note": ""
@@ -1271,6 +2052,36 @@
      "value": 23.75,
      "display": "23.8 圈",
      "detail": "4 个胎段 · 5 场"
+    },
+    {
+     "name": "Lei",
+     "value": 22.5,
+     "display": "22.5 圈",
+     "detail": "4 个胎段 · 5 场"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 22.352941176470587,
+     "display": "22.4 圈",
+     "detail": "34 个胎段 · 25 场"
+    },
+    {
+     "name": "WuHen",
+     "value": 21.75,
+     "display": "21.8 圈",
+     "detail": "4 个胎段 · 4 场"
+    },
+    {
+     "name": "Mirrorcc",
+     "value": 21.666666666666668,
+     "display": "21.7 圈",
+     "detail": "3 个胎段 · 3 场"
+    },
+    {
+     "name": "It57",
+     "value": 21.65,
+     "display": "21.6 圈",
+     "detail": "20 个胎段 · 14 场"
     }
    ],
    "note": ""
@@ -1313,6 +2124,36 @@
      "value": 7,
      "display": "7 次",
      "detail": "尝试 14 次 · 成功率 50%"
+    },
+    {
+     "name": "lm10",
+     "value": 6,
+     "display": "6 次",
+     "detail": "尝试 13 次 · 成功率 46%"
+    },
+    {
+     "name": "HayesCC",
+     "value": 6,
+     "display": "6 次",
+     "detail": "尝试 24 次 · 成功率 25%"
+    },
+    {
+     "name": "tenbergen",
+     "value": 6,
+     "display": "6 次",
+     "detail": "尝试 22 次 · 成功率 27%"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 5,
+     "display": "5 次",
+     "detail": "尝试 14 次 · 成功率 36%"
+    },
+    {
+     "name": "star-falI04",
+     "value": 5,
+     "display": "5 次",
+     "detail": "尝试 10 次 · 成功率 50%"
     }
    ],
    "note": ""
@@ -1355,6 +2196,36 @@
      "value": -2,
      "display": "-2",
      "detail": "维修区赚 1 · 亏 3"
+    },
+    {
+     "name": "Surviver",
+     "value": -2,
+     "display": "-2",
+     "detail": "维修区赚 1 · 亏 3"
+    },
+    {
+     "name": "R_ATPER2",
+     "value": -3,
+     "display": "-3",
+     "detail": "维修区赚 0 · 亏 3"
+    },
+    {
+     "name": "✪x1aofeiyang",
+     "value": -4,
+     "display": "-4",
+     "detail": "维修区赚 0 · 亏 4"
+    },
+    {
+     "name": "老吴k423",
+     "value": -4,
+     "display": "-4",
+     "detail": "维修区赚 11 · 亏 15"
+    },
+    {
+     "name": "MFGA",
+     "value": -4,
+     "display": "-4",
+     "detail": "维修区赚 0 · 亏 4"
     }
    ],
    "note": ""
@@ -1397,6 +2268,36 @@
      "value": -63,
      "display": "-63",
      "detail": "维修区赚 6 · 亏 69"
+    },
+    {
+     "name": "Gougou",
+     "value": -62,
+     "display": "-62",
+     "detail": "维修区赚 9 · 亏 71"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": -59,
+     "display": "-59",
+     "detail": "维修区赚 9 · 亏 68"
+    },
+    {
+     "name": "It57",
+     "value": -57,
+     "display": "-57",
+     "detail": "维修区赚 2 · 亏 59"
+    },
+    {
+     "name": "defect",
+     "value": -53,
+     "display": "-53",
+     "detail": "维修区赚 7 · 亏 60"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": -50,
+     "display": "-50",
+     "detail": "维修区赚 4 · 亏 54"
     }
    ],
    "note": ""
@@ -1439,6 +2340,36 @@
      "value": 257,
      "display": "257 次",
      "detail": "被超 266 · 净 -9"
+    },
+    {
+     "name": "Gougou",
+     "value": 255,
+     "display": "255 次",
+     "detail": "被超 264 · 净 -9"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 200,
+     "display": "200 次",
+     "detail": "被超 171 · 净 +29"
+    },
+    {
+     "name": "It57",
+     "value": 199,
+     "display": "199 次",
+     "detail": "被超 190 · 净 +9"
+    },
+    {
+     "name": "白云",
+     "value": 199,
+     "display": "199 次",
+     "detail": "被超 256 · 净 -57"
+    },
+    {
+     "name": "A380FatLiner",
+     "value": 192,
+     "display": "192 次",
+     "detail": "被超 179 · 净 +13"
     }
    ],
    "note": ""
@@ -1481,6 +2412,108 @@
      "value": 22,
      "display": "+22",
      "detail": "超 190 · 被超 168"
+    },
+    {
+     "name": "gangteiss",
+     "value": 22,
+     "display": "+22",
+     "detail": "超 69 · 被超 47"
+    },
+    {
+     "name": "Mirrorcc",
+     "value": 21,
+     "display": "+21",
+     "detail": "超 51 · 被超 30"
+    },
+    {
+     "name": "dan",
+     "value": 15,
+     "display": "+15",
+     "detail": "超 153 · 被超 138"
+    },
+    {
+     "name": "Wanner",
+     "value": 14,
+     "display": "+14",
+     "detail": "超 32 · 被超 18"
+    },
+    {
+     "name": "A380FatLiner",
+     "value": 13,
+     "display": "+13",
+     "detail": "超 192 · 被超 179"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "net_overtaken",
+   "group": "combat",
+   "title": "净被超最多",
+   "lead": "遥测层 · 超车次数 − 被超次数（负得越多＝净丢位越多）",
+   "color": "red",
+   "qualified": 63,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "白云",
+     "value": -57,
+     "display": "-57",
+     "detail": "超 199 · 被超 256"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": -44,
+     "display": "-44",
+     "detail": "超 170 · 被超 214"
+    },
+    {
+     "name": "DQ",
+     "value": -34,
+     "display": "-34",
+     "detail": "超 149 · 被超 183"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": -31,
+     "display": "-31",
+     "detail": "超 288 · 被超 319"
+    },
+    {
+     "name": "HayesCC",
+     "value": -29,
+     "display": "-29",
+     "detail": "超 319 · 被超 348"
+    },
+    {
+     "name": "star-falI04",
+     "value": -28,
+     "display": "-28",
+     "detail": "超 167 · 被超 195"
+    },
+    {
+     "name": "newyeye7",
+     "value": -28,
+     "display": "-28",
+     "detail": "超 81 · 被超 109"
+    },
+    {
+     "name": "JPer",
+     "value": -21,
+     "display": "-21",
+     "detail": "超 42 · 被超 63"
+    },
+    {
+     "name": "x1aofeiyang",
+     "value": -18,
+     "display": "-18",
+     "detail": "超 28 · 被超 46"
+    },
+    {
+     "name": "LewisRen",
+     "value": -17,
+     "display": "-17",
+     "detail": "超 143 · 被超 160"
     }
    ],
    "note": ""
@@ -1523,6 +2556,36 @@
      "value": 57.857142857142854,
      "display": "57.9 次/百圈",
      "detail": "81 次 / 140 圈"
+    },
+    {
+     "name": "DQ",
+     "value": 56.015037593984964,
+     "display": "56.0 次/百圈",
+     "detail": "149 次 / 266 圈"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": 55.654761904761905,
+     "display": "55.7 次/百圈",
+     "detail": "187 次 / 336 圈"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 53.50993377483444,
+     "display": "53.5 次/百圈",
+     "detail": "404 次 / 755 圈"
+    },
+    {
+     "name": "star-falI04",
+     "value": 53.18471337579618,
+     "display": "53.2 次/百圈",
+     "detail": "167 次 / 314 圈"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 51.282051282051285,
+     "display": "51.3 次/百圈",
+     "detail": "200 次 / 390 圈"
     }
    ],
    "note": ""
@@ -1565,6 +2628,36 @@
      "value": 266,
      "display": "266 次",
      "detail": "主动超 257 · 被动丢位 133"
+    },
+    {
+     "name": "Gougou",
+     "value": 264,
+     "display": "264 次",
+     "detail": "主动超 255 · 被动丢位 164"
+    },
+    {
+     "name": "白云",
+     "value": 256,
+     "display": "256 次",
+     "detail": "主动超 199 · 被动丢位 160"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 214,
+     "display": "214 次",
+     "detail": "主动超 170 · 被动丢位 91"
+    },
+    {
+     "name": "star-falI04",
+     "value": 195,
+     "display": "195 次",
+     "detail": "主动超 167 · 被动丢位 74"
+    },
+    {
+     "name": "It57",
+     "value": 190,
+     "display": "190 次",
+     "detail": "主动超 199 · 被动丢位 98"
     }
    ],
    "note": ""
@@ -1606,6 +2699,36 @@
      "name": "Kagamine RIN",
      "value": 17,
      "display": "+17",
+     "detail": "第 1 圈净赚位置合计"
+    },
+    {
+     "name": "dan",
+     "value": 16,
+     "display": "+16",
+     "detail": "第 1 圈净赚位置合计"
+    },
+    {
+     "name": "叶yeeeeee",
+     "value": 14,
+     "display": "+14",
+     "detail": "第 1 圈净赚位置合计"
+    },
+    {
+     "name": "Oiysi10023000",
+     "value": 12,
+     "display": "+12",
+     "detail": "第 1 圈净赚位置合计"
+    },
+    {
+     "name": "gangteiss",
+     "value": 12,
+     "display": "+12",
+     "detail": "第 1 圈净赚位置合计"
+    },
+    {
+     "name": "Tim",
+     "value": 11,
+     "display": "+11",
      "detail": "第 1 圈净赚位置合计"
     }
    ],
@@ -1649,6 +2772,36 @@
      "value": -14,
      "display": "-14",
      "detail": "第 1 圈净丢位置合计"
+    },
+    {
+     "name": "Gougou",
+     "value": -14,
+     "display": "-14",
+     "detail": "第 1 圈净丢位置合计"
+    },
+    {
+     "name": "JPer",
+     "value": -13,
+     "display": "-13",
+     "detail": "第 1 圈净丢位置合计"
+    },
+    {
+     "name": "leevenchenko",
+     "value": -13,
+     "display": "-13",
+     "detail": "第 1 圈净丢位置合计"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": -12,
+     "display": "-12",
+     "detail": "第 1 圈净丢位置合计"
+    },
+    {
+     "name": "ColorFirst",
+     "value": -10,
+     "display": "-10",
+     "detail": "第 1 圈净丢位置合计"
     }
    ],
    "note": ""
@@ -1691,6 +2844,36 @@
      "value": 13,
      "display": "单场最多 +13",
      "detail": "最佳一战从发车位到终位赚了 13 位"
+    },
+    {
+     "name": "defect",
+     "value": 13,
+     "display": "单场最多 +13",
+     "detail": "最佳一战从发车位到终位赚了 13 位"
+    },
+    {
+     "name": "lm10",
+     "value": 11,
+     "display": "单场最多 +11",
+     "detail": "最佳一战从发车位到终位赚了 11 位"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 11,
+     "display": "单场最多 +11",
+     "detail": "最佳一战从发车位到终位赚了 11 位"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": 11,
+     "display": "单场最多 +11",
+     "detail": "最佳一战从发车位到终位赚了 11 位"
+    },
+    {
+     "name": "esmac1",
+     "value": 11,
+     "display": "单场最多 +11",
+     "detail": "最佳一战从发车位到终位赚了 11 位"
     }
    ],
    "note": ""
@@ -1733,6 +2916,36 @@
      "value": -16,
      "display": "单场最多 -16",
      "detail": "最惨一战掉了 16 位"
+    },
+    {
+     "name": "Gougou",
+     "value": -15,
+     "display": "单场最多 -15",
+     "detail": "最惨一战掉了 15 位"
+    },
+    {
+     "name": "Momokong",
+     "value": -14,
+     "display": "单场最多 -14",
+     "detail": "最惨一战掉了 14 位"
+    },
+    {
+     "name": "WuHen",
+     "value": -14,
+     "display": "单场最多 -14",
+     "detail": "最惨一战掉了 14 位"
+    },
+    {
+     "name": "Pan1ys",
+     "value": -14,
+     "display": "单场最多 -14",
+     "detail": "最惨一战掉了 14 位"
+    },
+    {
+     "name": "tenbergen",
+     "value": -13,
+     "display": "单场最多 -13",
+     "detail": "最惨一战掉了 13 位"
     }
    ],
    "note": ""
@@ -1775,6 +2988,36 @@
      "value": 25,
      "display": "25 次",
      "detail": "全季主动超车 319 次"
+    },
+    {
+     "name": "Gougou",
+     "value": 25,
+     "display": "25 次",
+     "detail": "全季主动超车 255 次"
+    },
+    {
+     "name": "esmac1",
+     "value": 25,
+     "display": "25 次",
+     "detail": "全季主动超车 152 次"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 23,
+     "display": "23 次",
+     "detail": "全季主动超车 170 次"
+    },
+    {
+     "name": "白云",
+     "value": 23,
+     "display": "23 次",
+     "detail": "全季主动超车 199 次"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 22,
+     "display": "22 次",
+     "detail": "全季主动超车 109 次"
     }
    ],
    "note": ""
@@ -1816,6 +3059,36 @@
      "name": "Landoooo_W",
      "value": 4,
      "display": "4 张",
+     "detail": "另有 8 条安全分/荣誉分变动"
+    },
+    {
+     "name": "tenbergen",
+     "value": 3,
+     "display": "3 张",
+     "detail": "另有 8 条安全分/荣誉分变动"
+    },
+    {
+     "name": "Oiysi10023000",
+     "value": 3,
+     "display": "3 张",
+     "detail": "另有 5 条安全分/荣誉分变动"
+    },
+    {
+     "name": "Gougou",
+     "value": 3,
+     "display": "3 张",
+     "detail": "另有 10 条安全分/荣誉分变动"
+    },
+    {
+     "name": "黑崎小雪",
+     "value": 3,
+     "display": "3 张",
+     "detail": "另有 7 条安全分/荣誉分变动"
+    },
+    {
+     "name": "Beast",
+     "value": 3,
+     "display": "3 张",
      "detail": "另有 8 条安全分/荣誉分变动"
     }
    ],
@@ -1859,6 +3132,36 @@
      "value": 15.0,
      "display": "15 秒",
      "detail": "罚单 3 张"
+    },
+    {
+     "name": "MFGA",
+     "value": 15.0,
+     "display": "15 秒",
+     "detail": "罚单 2 张"
+    },
+    {
+     "name": "star-falI04",
+     "value": 11.0,
+     "display": "11 秒",
+     "detail": "罚单 5 张"
+    },
+    {
+     "name": "Beast",
+     "value": 11.0,
+     "display": "11 秒",
+     "detail": "罚单 3 张"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": 10.0,
+     "display": "10 秒",
+     "detail": "罚单 2 张"
+    },
+    {
+     "name": "It57",
+     "value": 10.0,
+     "display": "10 秒",
+     "detail": "罚单 1 张"
     }
    ],
    "note": ""
@@ -1900,6 +3203,36 @@
      "name": "star-falI04",
      "value": -18.0,
      "display": "-18",
+     "detail": "驾照分 —"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": -16.0,
+     "display": "-16",
+     "detail": "驾照分 —"
+    },
+    {
+     "name": "Oiysi10023000",
+     "value": -15.0,
+     "display": "-15",
+     "detail": "驾照分 —"
+    },
+    {
+     "name": "Beast",
+     "value": -13.0,
+     "display": "-13",
+     "detail": "驾照分 —"
+    },
+    {
+     "name": "ColorFirst",
+     "value": -12.0,
+     "display": "-12",
+     "detail": "驾照分 —"
+    },
+    {
+     "name": "esmac1",
+     "value": -12.0,
+     "display": "-12",
      "detail": "驾照分 —"
     }
    ],
@@ -1943,6 +3276,36 @@
      "value": 128,
      "display": "128 次",
      "detail": "严重 17 · 中等 49"
+    },
+    {
+     "name": "tenbergen",
+     "value": 124,
+     "display": "124 次",
+     "detail": "严重 21 · 中等 40"
+    },
+    {
+     "name": "白云",
+     "value": 120,
+     "display": "120 次",
+     "detail": "严重 18 · 中等 33"
+    },
+    {
+     "name": "star-falI04",
+     "value": 108,
+     "display": "108 次",
+     "detail": "严重 22 · 中等 44"
+    },
+    {
+     "name": "dan",
+     "value": 104,
+     "display": "104 次",
+     "detail": "严重 22 · 中等 24"
+    },
+    {
+     "name": "It57",
+     "value": 100,
+     "display": "100 次",
+     "detail": "严重 13 · 中等 29"
     }
    ],
    "note": ""
@@ -1985,6 +3348,36 @@
      "value": 22,
      "display": "22 次",
      "detail": "总碰撞 104"
+    },
+    {
+     "name": "star-falI04",
+     "value": 22,
+     "display": "22 次",
+     "detail": "总碰撞 108"
+    },
+    {
+     "name": "tenbergen",
+     "value": 21,
+     "display": "21 次",
+     "detail": "总碰撞 124"
+    },
+    {
+     "name": "白云",
+     "value": 18,
+     "display": "18 次",
+     "detail": "总碰撞 120"
+    },
+    {
+     "name": "Momokong",
+     "value": 17,
+     "display": "17 次",
+     "detail": "总碰撞 128"
+    },
+    {
+     "name": "Gougou",
+     "value": 17,
+     "display": "17 次",
+     "detail": "总碰撞 129"
     }
    ],
    "note": ""
@@ -2027,6 +3420,36 @@
      "value": 34,
      "display": "34 人",
      "detail": "碰撞参与 120 次（33 中等 / 18 严重）"
+    },
+    {
+     "name": "It57",
+     "value": 33,
+     "display": "33 人",
+     "detail": "碰撞参与 100 次（29 中等 / 13 严重）"
+    },
+    {
+     "name": "tenbergen",
+     "value": 32,
+     "display": "32 人",
+     "detail": "碰撞参与 124 次（40 中等 / 21 严重）"
+    },
+    {
+     "name": "Gougou",
+     "value": 32,
+     "display": "32 人",
+     "detail": "碰撞参与 129 次（37 中等 / 17 严重）"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 30,
+     "display": "30 人",
+     "detail": "碰撞参与 80 次（28 中等 / 13 严重）"
+    },
+    {
+     "name": "defect",
+     "value": 30,
+     "display": "30 人",
+     "detail": "碰撞参与 81 次（25 中等 / 17 严重）"
     }
    ],
    "note": ""
@@ -2068,6 +3491,36 @@
      "name": "Gougou",
      "value": 36,
      "display": "36 次",
+     "detail": "CAR_DAMAGE 事件计数"
+    },
+    {
+     "name": "newyeye7",
+     "value": 33,
+     "display": "33 次",
+     "detail": "CAR_DAMAGE 事件计数"
+    },
+    {
+     "name": "star-falI04",
+     "value": 26,
+     "display": "26 次",
+     "detail": "CAR_DAMAGE 事件计数"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 23,
+     "display": "23 次",
+     "detail": "CAR_DAMAGE 事件计数"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": 22,
+     "display": "22 次",
+     "detail": "CAR_DAMAGE 事件计数"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": 21,
+     "display": "21 次",
      "detail": "CAR_DAMAGE 事件计数"
     }
    ],
@@ -2153,6 +3606,36 @@
      "value": 3,
      "display": "3 次",
      "detail": "完赛率 75%"
+    },
+    {
+     "name": "dan",
+     "value": 3,
+     "display": "3 次",
+     "detail": "完赛率 79%"
+    },
+    {
+     "name": "DQ",
+     "value": 3,
+     "display": "3 次",
+     "detail": "完赛率 80%"
+    },
+    {
+     "name": "RIC",
+     "value": 3,
+     "display": "3 次",
+     "detail": "完赛率 73%"
+    },
+    {
+     "name": "leevenchenko",
+     "value": 3,
+     "display": "3 次",
+     "detail": "完赛率 0%"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": 2,
+     "display": "2 次",
+     "detail": "完赛率 83%"
     }
    ],
    "note": ""
@@ -2192,6 +3675,24 @@
     },
     {
      "name": "defect",
+     "value": 1,
+     "display": "1 场",
+     "detail": "报名但缺席"
+    },
+    {
+     "name": "糕白",
+     "value": 1,
+     "display": "1 场",
+     "detail": "报名但缺席"
+    },
+    {
+     "name": "Beast",
+     "value": 1,
+     "display": "1 场",
+     "detail": "报名但缺席"
+    },
+    {
+     "name": "HEZ",
      "value": 1,
      "display": "1 场",
      "detail": "报名但缺席"
@@ -2236,6 +3737,36 @@
      "name": "EasonLeclerc",
      "value": 9,
      "display": "9 圈",
+     "detail": "约占其总圈数 3%"
+    },
+    {
+     "name": "白云",
+     "value": 9,
+     "display": "9 圈",
+     "detail": "约占其总圈数 1%"
+    },
+    {
+     "name": "DQ",
+     "value": 8,
+     "display": "8 圈",
+     "detail": "约占其总圈数 3%"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 6,
+     "display": "6 圈",
+     "detail": "约占其总圈数 1%"
+    },
+    {
+     "name": "Gougou",
+     "value": 4,
+     "display": "4 圈",
+     "detail": "约占其总圈数 1%"
+    },
+    {
+     "name": "JPer",
+     "value": 4,
+     "display": "4 圈",
      "detail": "约占其总圈数 3%"
     }
    ],
@@ -2303,6 +3834,36 @@
      "value": 30,
      "display": "还差 30 圈",
      "detail": "退赛 1 次"
+    },
+    {
+     "name": "Oiysi10023000",
+     "value": 29,
+     "display": "还差 29 圈",
+     "detail": "退赛 1 次"
+    },
+    {
+     "name": "RIC",
+     "value": 27,
+     "display": "还差 27 圈",
+     "detail": "退赛 3 次"
+    },
+    {
+     "name": "Tim",
+     "value": 26,
+     "display": "还差 26 圈",
+     "detail": "退赛 2 次"
+    },
+    {
+     "name": "dan",
+     "value": 25,
+     "display": "还差 25 圈",
+     "detail": "退赛 3 次"
+    },
+    {
+     "name": "x1aofeiyang",
+     "value": 25,
+     "display": "还差 25 圈",
+     "detail": "退赛 2 次"
     }
    ],
    "note": ""
@@ -2345,6 +3906,36 @@
      "value": 53.023566903289826,
      "display": "53.0",
      "detail": "退赛 5 · 罚单 1 · 碰撞 47 · 车损 7"
+    },
+    {
+     "name": "Gougou",
+     "value": 49.57789481718953,
+     "display": "49.6",
+     "detail": "退赛 2 · 罚单 3 · 碰撞 129 · 车损 36"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": 44.093676055262954,
+     "display": "44.1",
+     "detail": "退赛 2 · 罚单 4 · 碰撞 90 · 车损 21"
+    },
+    {
+     "name": "HENRY",
+     "value": 41.13720326692619,
+     "display": "41.1",
+     "detail": "退赛 2 · 罚单 1 · 碰撞 23 · 车损 10"
+    },
+    {
+     "name": "LewisRen",
+     "value": 40.901973131822,
+     "display": "40.9",
+     "detail": "退赛 3 · 罚单 2 · 碰撞 68 · 车损 11"
+    },
+    {
+     "name": "HayesCC",
+     "value": 38.4487825356843,
+     "display": "38.4",
+     "detail": "退赛 1 · 罚单 0 · 碰撞 174 · 车损 38"
     }
    ],
    "note": ""
@@ -2353,40 +3944,70 @@
    "id": "lucky",
    "group": "fun",
    "title": "赛季最幸运",
-   "lead": "自建综合分 · 受益于他人退赛 50 + 低退赛率 30 + 完赛率 20；门槛：出场 ≥3 场",
+   "lead": "自建综合分 · **分到的车** 30 + 受益于他人退赛 35 + 低退赛率 20 + 完赛率 15。车那一项是\"平均车序\"取负（车序 1 = 最快），因为 CBAS 按 CR 分车、与车手当期强弱反向，所以分到好车是外生的运气；门槛：出场 ≥3 场",
    "color": "orange",
    "qualified": 47,
    "insufficient": 0,
    "rows": [
     {
-     "name": "AyatoSeven",
-     "value": 100.0,
-     "display": "100.0",
-     "detail": "完赛率 100% · 退赛 0"
-    },
-    {
-     "name": "A380FatLiner",
-     "value": 69.37555228276878,
-     "display": "69.4",
-     "detail": "完赛率 93% · 退赛 1"
-    },
-    {
      "name": "It57",
-     "value": 68.55670103092784,
-     "display": "68.6",
-     "detail": "完赛率 100% · 退赛 0"
+     "value": 74.85437719029635,
+     "display": "74.9",
+     "detail": "分到的车 2.86 档（1=最快） · 完赛率 100% · 退赛 0"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 74.35643564356437,
+     "display": "74.4",
+     "detail": "分到的车 9.68 档（1=最快） · 完赛率 100% · 退赛 0"
     },
     {
      "name": "HayesCC",
-     "value": 63.81855670103093,
-     "display": "63.8",
-     "detail": "完赛率 96% · 退赛 1"
+     "value": 73.21582797455002,
+     "display": "73.2",
+     "detail": "分到的车 2.4 档（1=最快） · 完赛率 96% · 退赛 1"
     },
     {
-     "name": "Kagamine RIN",
-     "value": 61.855670103092784,
-     "display": "61.9",
-     "detail": "完赛率 100% · 退赛 0"
+     "name": "star-falI04",
+     "value": 70.77319587628867,
+     "display": "70.8",
+     "detail": "分到的车 1.91 档（1=最快） · 完赛率 100% · 退赛 0"
+    },
+    {
+     "name": "tenbergen",
+     "value": 63.86075329182402,
+     "display": "63.9",
+     "detail": "分到的车 2.72 档（1=最快） · 完赛率 96% · 退赛 1"
+    },
+    {
+     "name": "A380FatLiner",
+     "value": 60.70465934664159,
+     "display": "60.7",
+     "detail": "分到的车 7.36 档（1=最快） · 完赛率 93% · 退赛 1"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 56.55735599333129,
+     "display": "56.6",
+     "detail": "分到的车 4.08 档（1=最快） · 完赛率 92% · 退赛 1"
+    },
+    {
+     "name": "RanXi",
+     "value": 56.41798509747882,
+     "display": "56.4",
+     "detail": "分到的车 2.33 档（1=最快） · 完赛率 67% · 退赛 1"
+    },
+    {
+     "name": "gangteiss",
+     "value": 56.36844612296281,
+     "display": "56.4",
+     "detail": "分到的车 5.4 档（1=最快） · 完赛率 100% · 退赛 0"
+    },
+    {
+     "name": "白云",
+     "value": 54.46088938790786,
+     "display": "54.5",
+     "detail": "分到的车 5.65 档（1=最快） · 完赛率 100% · 退赛 0"
     }
    ],
    "note": ""
@@ -2428,6 +4049,36 @@
      "name": "HENRY",
      "value": 68.45482082679813,
      "display": "68",
+     "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
+    },
+    {
+     "name": "Wanner",
+     "value": 68.32287793707259,
+     "display": "68",
+     "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
+    },
+    {
+     "name": "老吴k423",
+     "value": 65.09642421124552,
+     "display": "65",
+     "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
+    },
+    {
+     "name": "糕白",
+     "value": 63.70688681845977,
+     "display": "64",
+     "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
+    },
+    {
+     "name": "defect",
+     "value": 63.47651422196137,
+     "display": "63",
+     "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": 63.14613124680031,
+     "display": "63",
      "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
     }
    ],
@@ -2471,6 +4122,36 @@
      "value": 87.46498599439776,
      "display": "87%",
      "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": 87.37400922602095,
+     "display": "87%",
+     "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
+    },
+    {
+     "name": "leevenchenko",
+     "value": 86.76470588235294,
+     "display": "87%",
+     "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
+    },
+    {
+     "name": "叶yeeeeee",
+     "value": 86.4876250658241,
+     "display": "86%",
+     "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
+    },
+    {
+     "name": "糕白",
+     "value": 85.47844730309185,
+     "display": "85%",
+     "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
+    },
+    {
+     "name": "白云",
+     "value": 82.14285714285714,
+     "display": "82%",
+     "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
     }
    ],
    "note": ""
@@ -2512,6 +4193,36 @@
      "name": "WuHen",
      "value": 49,
      "display": "49 次",
+     "detail": "参与的超车事件最少"
+    },
+    {
+     "name": "糕白",
+     "value": 49,
+     "display": "49 次",
+     "detail": "参与的超车事件最少"
+    },
+    {
+     "name": "Wanner",
+     "value": 50,
+     "display": "50 次",
+     "detail": "参与的超车事件最少"
+    },
+    {
+     "name": "高木同学重度依赖",
+     "value": 54,
+     "display": "54 次",
+     "detail": "参与的超车事件最少"
+    },
+    {
+     "name": "HENRY",
+     "value": 59,
+     "display": "59 次",
+     "detail": "参与的超车事件最少"
+    },
+    {
+     "name": "Lei",
+     "value": 62,
+     "display": "62 次",
      "detail": "参与的超车事件最少"
     }
    ],
@@ -2555,6 +4266,36 @@
      "value": 641,
      "display": "641",
      "detail": "超车 257 · 碰撞 128"
+    },
+    {
+     "name": "tenbergen",
+     "value": 631,
+     "display": "631",
+     "detail": "超车 259 · 碰撞 124"
+    },
+    {
+     "name": "白云",
+     "value": 559,
+     "display": "559",
+     "detail": "超车 199 · 碰撞 120"
+    },
+    {
+     "name": "It57",
+     "value": 499,
+     "display": "499",
+     "detail": "超车 199 · 碰撞 100"
+    },
+    {
+     "name": "star-falI04",
+     "value": 491,
+     "display": "491",
+     "detail": "超车 167 · 碰撞 108"
+    },
+    {
+     "name": "dan",
+     "value": 465,
+     "display": "465",
+     "detail": "超车 153 · 碰撞 104"
     }
    ],
    "note": ""
@@ -2596,6 +4337,36 @@
      "name": "Gougou",
      "value": 164,
      "display": "164 次",
+     "detail": "被超之后没能反超回来"
+    },
+    {
+     "name": "白云",
+     "value": 160,
+     "display": "160 次",
+     "detail": "被超之后没能反超回来"
+    },
+    {
+     "name": "defect",
+     "value": 134,
+     "display": "134 次",
+     "detail": "被超之后没能反超回来"
+    },
+    {
+     "name": "Momokong",
+     "value": 133,
+     "display": "133 次",
+     "detail": "被超之后没能反超回来"
+    },
+    {
+     "name": "dan",
+     "value": 123,
+     "display": "123 次",
+     "detail": "被超之后没能反超回来"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": 122,
+     "display": "122 次",
      "detail": "被超之后没能反超回来"
     }
    ],
@@ -2639,6 +4410,36 @@
      "value": 4014.8477807130694,
      "display": "4.01 s",
      "detail": "逐站「平均干净圈 − 最快圈」的均值（13 站）"
+    },
+    {
+     "name": "star-falI04",
+     "value": 3785.217138891714,
+     "display": "3.79 s",
+     "detail": "逐站「平均干净圈 − 最快圈」的均值（11 站）"
+    },
+    {
+     "name": "dan",
+     "value": 3780.233527100919,
+     "display": "3.78 s",
+     "detail": "逐站「平均干净圈 − 最快圈」的均值（13 站）"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 3769.014804413671,
+     "display": "3.77 s",
+     "detail": "逐站「平均干净圈 − 最快圈」的均值（14 站）"
+    },
+    {
+     "name": "Momokong",
+     "value": 3740.299387794524,
+     "display": "3.74 s",
+     "detail": "逐站「平均干净圈 − 最快圈」的均值（18 站）"
+    },
+    {
+     "name": "黑崎小雪",
+     "value": 3668.778975911071,
+     "display": "3.67 s",
+     "detail": "逐站「平均干净圈 − 最快圈」的均值（12 站）"
     }
    ],
    "note": ""
@@ -2681,6 +4482,36 @@
      "value": 12.952380952380953,
      "display": "12.95 分/场",
      "detail": "272 分 / 21 场"
+    },
+    {
+     "name": "yi_hua",
+     "value": 11.666666666666666,
+     "display": "11.67 分/场",
+     "detail": "70 分 / 6 场"
+    },
+    {
+     "name": "Gougou",
+     "value": 11.476190476190476,
+     "display": "11.48 分/场",
+     "detail": "241 分 / 21 场"
+    },
+    {
+     "name": "白云",
+     "value": 10.75,
+     "display": "10.75 分/场",
+     "detail": "215 分 / 20 场"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 10.285714285714286,
+     "display": "10.29 分/场",
+     "detail": "144 分 / 14 场"
+    },
+    {
+     "name": "RIC",
+     "value": 10.181818181818182,
+     "display": "10.18 分/场",
+     "detail": "112 分 / 11 场"
     }
    ],
    "note": ""
@@ -2723,6 +4554,36 @@
      "value": 1,
      "display": "1 场",
      "detail": "4 分"
+    },
+    {
+     "name": "Sliced Onion",
+     "value": 1,
+     "display": "1 场",
+     "detail": "20 分"
+    },
+    {
+     "name": "Surviver",
+     "value": 1,
+     "display": "1 场",
+     "detail": "0 分"
+    },
+    {
+     "name": "Swizzet3271",
+     "value": 1,
+     "display": "1 场",
+     "detail": "10 分"
+    },
+    {
+     "name": "TC",
+     "value": 1,
+     "display": "1 场",
+     "detail": "0 分"
+    },
+    {
+     "name": "UbisoftHongKong",
+     "value": 1,
+     "display": "1 场",
+     "detail": "0 分"
     }
    ],
    "note": ""
@@ -2765,6 +4626,36 @@
      "value": 52,
      "display": "52 圈",
      "detail": "占其总圈数 43%"
+    },
+    {
+     "name": "WuHen",
+     "value": 52,
+     "display": "52 圈",
+     "detail": "占其总圈数 56%"
+    },
+    {
+     "name": "白云",
+     "value": 43,
+     "display": "43 圈",
+     "detail": "占其总圈数 7%"
+    },
+    {
+     "name": "yi_hua",
+     "value": 39,
+     "display": "39 圈",
+     "detail": "占其总圈数 24%"
+    },
+    {
+     "name": "黑崎小雪",
+     "value": 29,
+     "display": "29 圈",
+     "detail": "占其总圈数 8%"
+    },
+    {
+     "name": "老吴k423",
+     "value": 28,
+     "display": "28 圈",
+     "detail": "占其总圈数 17%"
     }
    ],
    "note": ""
@@ -2807,6 +4698,36 @@
      "value": 50,
      "display": "2 次最快圈",
      "detail": "真实 215 分"
+    },
+    {
+     "name": "yi_hua",
+     "value": 25,
+     "display": "1 次最快圈",
+     "detail": "真实 70 分"
+    },
+    {
+     "name": "lm10",
+     "value": 25,
+     "display": "1 次最快圈",
+     "detail": "真实 221 分"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 25,
+     "display": "1 次最快圈",
+     "detail": "真实 109 分"
+    },
+    {
+     "name": "tenbergen",
+     "value": 25,
+     "display": "1 次最快圈",
+     "detail": "真实 238 分"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 25,
+     "display": "1 次最快圈",
+     "detail": "真实 116 分"
     }
    ],
    "note": ""
@@ -2849,6 +4770,36 @@
      "value": 50,
      "display": "2 次杆位",
      "detail": "真实 72 分"
+    },
+    {
+     "name": "HayesCC",
+     "value": 25,
+     "display": "1 次杆位",
+     "detail": "真实 166 分"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": 25,
+     "display": "1 次杆位",
+     "detail": "真实 122 分"
+    },
+    {
+     "name": "tenbergen",
+     "value": 25,
+     "display": "1 次杆位",
+     "detail": "真实 238 分"
+    },
+    {
+     "name": "Momokong",
+     "value": 25,
+     "display": "1 次杆位",
+     "detail": "真实 154 分"
+    },
+    {
+     "name": "WuHen",
+     "value": 25,
+     "display": "1 次杆位",
+     "detail": "真实 58 分"
     }
    ],
    "note": ""
@@ -2891,6 +4842,36 @@
      "value": 14.5,
      "display": "14.50 分/场",
      "detail": "58 分 / 实际出场 4 场（剔除缺席）"
+    },
+    {
+     "name": "鱼雷王",
+     "value": 14.4,
+     "display": "14.40 分/场",
+     "detail": "72 分 / 实际出场 5 场（剔除缺席）"
+    },
+    {
+     "name": "老吴k423",
+     "value": 14.2,
+     "display": "14.20 分/场",
+     "detail": "71 分 / 实际出场 5 场（剔除缺席）"
+    },
+    {
+     "name": "gangteiss",
+     "value": 13.8,
+     "display": "13.80 分/场",
+     "detail": "69 分 / 实际出场 5 场（剔除缺席）"
+    },
+    {
+     "name": "defect",
+     "value": 13.6,
+     "display": "13.60 分/场",
+     "detail": "272 分 / 实际出场 20 场（剔除缺席）"
+    },
+    {
+     "name": "yi_hua",
+     "value": 11.666666666666666,
+     "display": "11.67 分/场",
+     "detail": "70 分 / 实际出场 6 场（剔除缺席）"
     }
    ],
    "note": ""
@@ -2933,6 +4914,252 @@
      "value": 106,
      "display": "106 分",
      "detail": "只算赛季后半段"
+    },
+    {
+     "name": "白云",
+     "value": 90,
+     "display": "90 分",
+     "detail": "只算赛季后半段"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 84,
+     "display": "84 分",
+     "detail": "只算赛季后半段"
+    },
+    {
+     "name": "Momokong",
+     "value": 84,
+     "display": "84 分",
+     "detail": "只算赛季后半段"
+    },
+    {
+     "name": "HayesCC",
+     "value": 79,
+     "display": "79 分",
+     "detail": "只算赛季后半段"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 76,
+     "display": "76 分",
+     "detail": "只算赛季后半段"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wet_climber",
+   "group": "weather",
+   "title": "下雨后涨位最多",
+   "lead": "遥测层 · 「下雨前一圈的位置」→「比赛结束的位置」，正＝下雨后往上爬。**这才是雨战的主口径**——整场平均完赛位里含下雨前就拉开的名次，那部分与雨无关",
+   "color": "green",
+   "qualified": 44,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "ColorFirst",
+     "value": 10.0,
+     "display": "+10.0 位",
+     "detail": "1 场有雨 · 合计 +10 位"
+    },
+    {
+     "name": "It57",
+     "value": 5.6,
+     "display": "+5.6 位",
+     "detail": "5 场有雨 · 合计 +28 位"
+    },
+    {
+     "name": "HEZ",
+     "value": 5.0,
+     "display": "+5.0 位",
+     "detail": "1 场有雨 · 合计 +5 位"
+    },
+    {
+     "name": "lm10",
+     "value": 4.666666666666667,
+     "display": "+4.7 位",
+     "detail": "3 场有雨 · 合计 +14 位"
+    },
+    {
+     "name": "gangteiss",
+     "value": 4.5,
+     "display": "+4.5 位",
+     "detail": "2 场有雨 · 合计 +9 位"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 3.6666666666666665,
+     "display": "+3.7 位",
+     "detail": "9 场有雨 · 合计 +33 位"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": 3.0,
+     "display": "+3.0 位",
+     "detail": "4 场有雨 · 合计 +12 位"
+    },
+    {
+     "name": "RanXi",
+     "value": 3.0,
+     "display": "+3.0 位",
+     "detail": "1 场有雨 · 合计 +3 位"
+    },
+    {
+     "name": "Sliced Onion",
+     "value": 3.0,
+     "display": "+3.0 位",
+     "detail": "1 场有雨 · 合计 +3 位"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 2.8,
+     "display": "+2.8 位",
+     "detail": "5 场有雨 · 合计 +14 位"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wet_dropper",
+   "group": "weather",
+   "title": "下雨后掉位最多",
+   "lead": "遥测层 · 同上口径，负得越多＝下雨后掉得越狠",
+   "color": "red",
+   "qualified": 44,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "Aisu",
+     "value": -16.0,
+     "display": "-16.0 位",
+     "detail": "1 场有雨 · 合计 -16 位"
+    },
+    {
+     "name": "HENRY",
+     "value": -8.0,
+     "display": "-8.0 位",
+     "detail": "1 场有雨 · 合计 -8 位"
+    },
+    {
+     "name": "leevenchenko",
+     "value": -8.0,
+     "display": "-8.0 位",
+     "detail": "2 场有雨 · 合计 -16 位"
+    },
+    {
+     "name": "鱼雷王",
+     "value": -4.5,
+     "display": "-4.5 位",
+     "detail": "2 场有雨 · 合计 -9 位"
+    },
+    {
+     "name": "Pan1ys",
+     "value": -4.4,
+     "display": "-4.4 位",
+     "detail": "5 场有雨 · 合计 -22 位"
+    },
+    {
+     "name": "白云",
+     "value": -4.375,
+     "display": "-4.4 位",
+     "detail": "8 场有雨 · 合计 -35 位"
+    },
+    {
+     "name": "defect",
+     "value": -4.0,
+     "display": "-4.0 位",
+     "detail": "7 场有雨 · 合计 -28 位"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": -3.0,
+     "display": "-3.0 位",
+     "detail": "7 场有雨 · 合计 -21 位"
+    },
+    {
+     "name": "yi_hua",
+     "value": -2.0,
+     "display": "-2.0 位",
+     "detail": "1 场有雨 · 合计 -2 位"
+    },
+    {
+     "name": "芒果",
+     "value": -2.0,
+     "display": "-2.0 位",
+     "detail": "1 场有雨 · 合计 -2 位"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wet_overtakes_per_race",
+   "group": "weather",
+   "title": "雨战每场超车最多",
+   "lead": "遥测层 · 有雨场次的超车数 ÷ 场次（消除出场数差异）；门槛：至少 2 场雨战——只跑 1 场的人会靠单场极值霸榜",
+   "color": "blue",
+   "qualified": 30,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "Ak_Langley_S",
+     "value": 11.6,
+     "display": "11.6 次/场",
+     "detail": "58 次超车 / 5 场雨战"
+    },
+    {
+     "name": "lm10",
+     "value": 11.333333333333334,
+     "display": "11.3 次/场",
+     "detail": "34 次超车 / 3 场雨战"
+    },
+    {
+     "name": "newyeye7",
+     "value": 10.5,
+     "display": "10.5 次/场",
+     "detail": "21 次超车 / 2 场雨战"
+    },
+    {
+     "name": "DQ",
+     "value": 10.25,
+     "display": "10.2 次/场",
+     "detail": "41 次超车 / 4 场雨战"
+    },
+    {
+     "name": "LewisRen",
+     "value": 10.0,
+     "display": "10.0 次/场",
+     "detail": "40 次超车 / 4 场雨战"
+    },
+    {
+     "name": "Tim",
+     "value": 8.666666666666666,
+     "display": "8.7 次/场",
+     "detail": "26 次超车 / 3 场雨战"
+    },
+    {
+     "name": "star-falI04",
+     "value": 8.6,
+     "display": "8.6 次/场",
+     "detail": "43 次超车 / 5 场雨战"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 8.4,
+     "display": "8.4 次/场",
+     "detail": "42 次超车 / 5 场雨战"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 8.0,
+     "display": "8.0 次/场",
+     "detail": "56 次超车 / 7 场雨战"
+    },
+    {
+     "name": "leevenchenko",
+     "value": 8.0,
+     "display": "8.0 次/场",
+     "detail": "16 次超车 / 2 场雨战"
     }
    ],
    "note": ""
@@ -2975,6 +5202,36 @@
      "value": 5.666666666666667,
      "display": "P5.7",
      "detail": "3 场 · 43 分 · 完赛率 100%"
+    },
+    {
+     "name": "JPer",
+     "value": 6.0,
+     "display": "P6.0",
+     "detail": "4 场 · 27 分 · 完赛率 75%"
+    },
+    {
+     "name": "EasonLeclerc",
+     "value": 6.333333333333333,
+     "display": "P6.3",
+     "detail": "3 场 · 28 分 · 完赛率 100%"
+    },
+    {
+     "name": "Gougou",
+     "value": 6.75,
+     "display": "P6.8",
+     "detail": "4 场 · 34 分 · 完赛率 100%"
+    },
+    {
+     "name": "DQ",
+     "value": 7.0,
+     "display": "P7.0",
+     "detail": "3 场 · 12 分 · 完赛率 67%"
+    },
+    {
+     "name": "leevenchenko",
+     "value": 7.0,
+     "display": "P7.0",
+     "detail": "2 场 · 6 分 · 完赛率 50%"
     }
    ],
    "note": ""
@@ -3017,6 +5274,36 @@
      "value": 4.090909090909091,
      "display": "P4.1",
      "detail": "12 场 · 165 分 · 完赛率 92%"
+    },
+    {
+     "name": "lm10",
+     "value": 4.333333333333333,
+     "display": "P4.3",
+     "detail": "10 场 · 121 分 · 完赛率 90%"
+    },
+    {
+     "name": "老吴k423",
+     "value": 5.5,
+     "display": "P5.5",
+     "detail": "3 场 · 18 分 · 完赛率 67%"
+    },
+    {
+     "name": "newyeye7",
+     "value": 6.0,
+     "display": "P6.0",
+     "detail": "3 场 · 8 分 · 完赛率 33%"
+    },
+    {
+     "name": "WuHen",
+     "value": 6.5,
+     "display": "P6.5",
+     "detail": "3 场 · 25 分 · 完赛率 67%"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 6.75,
+     "display": "P6.8",
+     "detail": "9 场 · 68 分 · 完赛率 89%"
     }
    ],
    "note": ""
@@ -3059,6 +5346,36 @@
      "value": -4.6,
      "display": "-4.6 位",
      "detail": "雨 3 场 P7.0 · 干 6 场 P11.6"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": -4.5,
+     "display": "-4.5 位",
+     "detail": "雨 2 场 P8.0 · 干 7 场 P12.5"
+    },
+    {
+     "name": "RIC",
+     "value": -3.7,
+     "display": "-3.7 位",
+     "detail": "雨 3 场 P3.5 · 干 6 场 P7.2"
+    },
+    {
+     "name": "A380FatLiner",
+     "value": -2.8888888888888893,
+     "display": "-2.9 位",
+     "detail": "雨 2 场 P9.0 · 干 10 场 P11.9"
+    },
+    {
+     "name": "star-falI04",
+     "value": -2.5,
+     "display": "-2.5 位",
+     "detail": "雨 3 场 P13.0 · 干 6 场 P15.5"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": -2.166666666666667,
+     "display": "-2.2 位",
+     "detail": "雨 6 场 P7.8 · 干 15 场 P10.0"
     }
    ],
    "note": ""
@@ -3101,6 +5418,36 @@
      "value": 4.575757575757575,
      "display": "+4.6 位",
      "detail": "雨 4 场 P8.7 · 干 12 场 P4.1"
+    },
+    {
+     "name": "newyeye7",
+     "value": 4.5,
+     "display": "+4.5 位",
+     "detail": "雨 2 场 P10.5 · 干 3 场 P6.0"
+    },
+    {
+     "name": "Momokong",
+     "value": 0.25,
+     "display": "+0.2 位",
+     "detail": "雨 5 场 P7.8 · 干 10 场 P7.5"
+    },
+    {
+     "name": "dan",
+     "value": -0.16666666666666607,
+     "display": "-0.2 位",
+     "detail": "雨 4 场 P14.0 · 干 8 场 P14.2"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": -0.7142857142857135,
+     "display": "-0.7 位",
+     "detail": "雨 2 场 P8.0 · 干 7 场 P8.7"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": -0.875,
+     "display": "-0.9 位",
+     "detail": "雨 4 场 P8.2 · 干 9 场 P9.1"
     }
    ],
    "note": ""
@@ -3143,6 +5490,36 @@
      "value": 100.0,
      "display": "100%",
      "detail": "4 场雨战 · 退赛 0 次"
+    },
+    {
+     "name": "It57",
+     "value": 100.0,
+     "display": "100%",
+     "detail": "3 场雨战 · 退赛 0 次"
+    },
+    {
+     "name": "Gougou",
+     "value": 100.0,
+     "display": "100%",
+     "detail": "4 场雨战 · 退赛 0 次"
+    },
+    {
+     "name": "EasonLeclerc",
+     "value": 100.0,
+     "display": "100%",
+     "detail": "3 场雨战 · 退赛 0 次"
+    },
+    {
+     "name": "A380FatLiner",
+     "value": 100.0,
+     "display": "100%",
+     "detail": "2 场雨战 · 退赛 0 次"
+    },
+    {
+     "name": "Tim",
+     "value": 100.0,
+     "display": "100%",
+     "detail": "3 场雨战 · 退赛 0 次"
     }
    ],
    "note": ""
@@ -3185,6 +5562,36 @@
      "value": 52,
      "display": "52 次",
      "detail": "5 场雨战"
+    },
+    {
+     "name": "tenbergen",
+     "value": 43,
+     "display": "43 次",
+     "detail": "5 场雨战"
+    },
+    {
+     "name": "star-falI04",
+     "value": 43,
+     "display": "43 次",
+     "detail": "3 场雨战"
+    },
+    {
+     "name": "HayesCC",
+     "value": 42,
+     "display": "42 次",
+     "detail": "6 场雨战"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 42,
+     "display": "42 次",
+     "detail": "3 场雨战"
+    },
+    {
+     "name": "DQ",
+     "value": 41,
+     "display": "41 次",
+     "detail": "3 场雨战"
     }
    ],
    "note": ""
@@ -3227,6 +5634,36 @@
      "value": 8,
      "display": "8 种",
      "detail": "阿斯顿马丁×3、小红牛×2、凯迪拉克×2…"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 7,
+     "display": "7 种",
+     "detail": "奥迪×6、红牛×3、凯迪拉克×3…"
+    },
+    {
+     "name": "defect",
+     "value": 7,
+     "display": "7 种",
+     "detail": "红牛×6、小红牛×4、威廉姆斯×4…"
+    },
+    {
+     "name": "Momokong",
+     "value": 7,
+     "display": "7 种",
+     "detail": "哈斯×5、Alpine×4、红牛×3…"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 7,
+     "display": "7 种",
+     "detail": "红牛×4、迈凯伦×3、小红牛×2…"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 7,
+     "display": "7 种",
+     "detail": "阿斯顿马丁×3、小红牛×3、奥迪×2…"
     }
    ],
    "note": ""
@@ -3269,6 +5706,36 @@
      "value": 3,
      "display": "3 种 / 5 场",
      "detail": "Alpine×2、红牛×2、奥迪×1"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 4,
+     "display": "4 种 / 25 场",
+     "detail": "凯迪拉克×10、哈斯×8、阿斯顿马丁×5…"
+    },
+    {
+     "name": "叶yeeeeee",
+     "value": 4,
+     "display": "4 种 / 7 场",
+     "detail": "凯迪拉克×4、奥迪×1、红牛×1…"
+    },
+    {
+     "name": "Tim",
+     "value": 4,
+     "display": "4 种 / 6 场",
+     "detail": "Alpine×2、迈凯伦×2、阿斯顿马丁×1…"
+    },
+    {
+     "name": "yi_hua",
+     "value": 4,
+     "display": "4 种 / 6 场",
+     "detail": "红牛×2、奥迪×2、Alpine×1…"
+    },
+    {
+     "name": "Beast",
+     "value": 4,
+     "display": "4 种 / 5 场",
+     "detail": "小红牛×2、哈斯×1、阿斯顿马丁×1…"
     }
    ],
    "note": ""
@@ -3389,6 +5856,36 @@
      "value": 419,
      "display": "419 分",
      "detail": "贡献：defect 43、Landoooo_W 40"
+    },
+    {
+     "name": "小红牛",
+     "value": 397,
+     "display": "397 分",
+     "detail": "贡献：Pan1ys 52、defect 48"
+    },
+    {
+     "name": "阿斯顿马丁",
+     "value": 376,
+     "display": "376 分",
+     "detail": "贡献：AyatoSeven 45、R_ATPER2 45"
+    },
+    {
+     "name": "凯迪拉克",
+     "value": 324,
+     "display": "324 分",
+     "detail": "贡献：Gougou 100、AyatoSeven 57"
+    },
+    {
+     "name": "奥迪",
+     "value": 284,
+     "display": "284 分",
+     "detail": "贡献：Gougou 46、Er1sed-FOX 39"
+    },
+    {
+     "name": "梅赛德斯",
+     "value": 219,
+     "display": "219 分",
+     "detail": "贡献：tenbergen 80、HayesCC 49"
     }
    ],
    "note": ""
@@ -3431,6 +5928,36 @@
      "value": 3.28,
      "display": "+3.28 档",
      "detail": "平均车序 2.72（1=最快，全场均值 6.0）· 25 场"
+    },
+    {
+     "name": "It57",
+     "value": 3.14,
+     "display": "+3.14 档",
+     "detail": "平均车序 2.86（1=最快，全场均值 6.0）· 14 场"
+    },
+    {
+     "name": "芒果",
+     "value": 2.5,
+     "display": "+2.50 档",
+     "detail": "平均车序 3.50（1=最快，全场均值 6.0）· 2 场"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 1.92,
+     "display": "+1.92 档",
+     "detail": "平均车序 4.08（1=最快，全场均值 6.0）· 12 场"
+    },
+    {
+     "name": "DQ",
+     "value": 1.9,
+     "display": "+1.90 档",
+     "detail": "平均车序 4.10（1=最快，全场均值 6.0）· 10 场"
+    },
+    {
+     "name": "esmac1",
+     "value": 1.78,
+     "display": "+1.78 档",
+     "detail": "平均车序 4.22（1=最快，全场均值 6.0）· 9 场"
     }
    ],
    "note": ""
@@ -3473,6 +6000,36 @@
      "value": -4.0,
      "display": "-4.00 档",
      "detail": "平均车序 10.00（1=最快，全场均值 6.0）· 1 场"
+    },
+    {
+     "name": "Sliced Onion",
+     "value": -4.0,
+     "display": "-4.00 档",
+     "detail": "平均车序 10.00（1=最快，全场均值 6.0）· 1 场"
+    },
+    {
+     "name": "UbisoftHongKong",
+     "value": -4.0,
+     "display": "-4.00 档",
+     "detail": "平均车序 10.00（1=最快，全场均值 6.0）· 1 场"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": -3.68,
+     "display": "-3.68 档",
+     "detail": "平均车序 9.68（1=最快，全场均值 6.0）· 25 场"
+    },
+    {
+     "name": "Lei",
+     "value": -3.6,
+     "display": "-3.60 档",
+     "detail": "平均车序 9.60（1=最快，全场均值 6.0）· 5 场"
+    },
+    {
+     "name": "RIC",
+     "value": -3.55,
+     "display": "-3.55 档",
+     "detail": "平均车序 9.55（1=最快，全场均值 6.0）· 11 场"
     }
    ],
    "note": ""
@@ -3515,6 +6072,36 @@
      "value": 8.02,
      "display": "+8.02 位",
      "detail": "车通常 P11.0 · 他跑 P3.0 · 车序 10.0"
+    },
+    {
+     "name": "Sliced Onion",
+     "value": 8.02,
+     "display": "+8.02 位",
+     "detail": "车通常 P11.0 · 他跑 P3.0 · 车序 10.0"
+    },
+    {
+     "name": "MinatoNaoko",
+     "value": 7.41,
+     "display": "+7.41 位",
+     "detail": "车通常 P11.4 · 他跑 P4.0 · 车序 11.0"
+    },
+    {
+     "name": "lm10",
+     "value": 5.88,
+     "display": "+5.88 位",
+     "detail": "车通常 P10.9 · 他跑 P5.0 · 车序 8.4"
+    },
+    {
+     "name": "FerrariGoat",
+     "value": 5.02,
+     "display": "+5.02 位",
+     "detail": "车通常 P11.0 · 他跑 P6.0 · 车序 10.0"
+    },
+    {
+     "name": "老吴k423",
+     "value": 4.33,
+     "display": "+4.33 位",
+     "detail": "车通常 P11.3 · 他跑 P7.0 · 车序 10.8"
     }
    ],
    "note": ""
@@ -3557,6 +6144,36 @@
      "value": -8.78,
      "display": "-8.78 位",
      "detail": "车通常 P10.2 · 他跑 P19.0 · 车序 6.0"
+    },
+    {
+     "name": "雷电芽衣",
+     "value": -7.17,
+     "display": "-7.17 位",
+     "detail": "车通常 P12.3 · 他跑 P19.5 · 车序 9.0"
+    },
+    {
+     "name": "x1aofeiyang",
+     "value": -6.14,
+     "display": "-6.14 位",
+     "detail": "车通常 P10.9 · 他跑 P17.0 · 车序 7.8"
+    },
+    {
+     "name": "叶yeeeeee",
+     "value": -6.1,
+     "display": "-6.10 位",
+     "detail": "车通常 P11.0 · 他跑 P17.1 · 车序 9.0"
+    },
+    {
+     "name": "dan",
+     "value": -6.08,
+     "display": "-6.08 位",
+     "detail": "车通常 P9.8 · 他跑 P15.9 · 车序 4.9"
+    },
+    {
+     "name": "Tim",
+     "value": -5.86,
+     "display": "-5.86 位",
+     "detail": "车通常 P9.8 · 他跑 P15.7 · 车序 5.8"
     }
    ],
    "note": ""
@@ -20883,6 +23500,36 @@
       "value": 8,
       "display": "8 种",
       "detail": "阿斯顿马丁×3、小红牛×2、凯迪拉克×2…"
+     },
+     {
+      "name": "Er1sed-FOX",
+      "value": 7,
+      "display": "7 种",
+      "detail": "奥迪×6、红牛×3、凯迪拉克×3…"
+     },
+     {
+      "name": "defect",
+      "value": 7,
+      "display": "7 种",
+      "detail": "红牛×6、小红牛×4、威廉姆斯×4…"
+     },
+     {
+      "name": "Momokong",
+      "value": 7,
+      "display": "7 种",
+      "detail": "哈斯×5、Alpine×4、红牛×3…"
+     },
+     {
+      "name": "Ak_Langley_S",
+      "value": 7,
+      "display": "7 种",
+      "detail": "红牛×4、迈凯伦×3、小红牛×2…"
+     },
+     {
+      "name": "Pan1ys",
+      "value": 7,
+      "display": "7 种",
+      "detail": "阿斯顿马丁×3、小红牛×3、奥迪×2…"
      }
     ],
     "note": ""
@@ -20925,6 +23572,36 @@
       "value": 3,
       "display": "3 种 / 5 场",
       "detail": "Alpine×2、红牛×2、奥迪×1"
+     },
+     {
+      "name": "AyatoSeven",
+      "value": 4,
+      "display": "4 种 / 25 场",
+      "detail": "凯迪拉克×10、哈斯×8、阿斯顿马丁×5…"
+     },
+     {
+      "name": "叶yeeeeee",
+      "value": 4,
+      "display": "4 种 / 7 场",
+      "detail": "凯迪拉克×4、奥迪×1、红牛×1…"
+     },
+     {
+      "name": "Tim",
+      "value": 4,
+      "display": "4 种 / 6 场",
+      "detail": "Alpine×2、迈凯伦×2、阿斯顿马丁×1…"
+     },
+     {
+      "name": "yi_hua",
+      "value": 4,
+      "display": "4 种 / 6 场",
+      "detail": "红牛×2、奥迪×2、Alpine×1…"
+     },
+     {
+      "name": "Beast",
+      "value": 4,
+      "display": "4 种 / 5 场",
+      "detail": "小红牛×2、哈斯×1、阿斯顿马丁×1…"
      }
     ],
     "note": ""
@@ -21045,6 +23722,36 @@
       "value": 419,
       "display": "419 分",
       "detail": "贡献：defect 43、Landoooo_W 40"
+     },
+     {
+      "name": "小红牛",
+      "value": 397,
+      "display": "397 分",
+      "detail": "贡献：Pan1ys 52、defect 48"
+     },
+     {
+      "name": "阿斯顿马丁",
+      "value": 376,
+      "display": "376 分",
+      "detail": "贡献：AyatoSeven 45、R_ATPER2 45"
+     },
+     {
+      "name": "凯迪拉克",
+      "value": 324,
+      "display": "324 分",
+      "detail": "贡献：Gougou 100、AyatoSeven 57"
+     },
+     {
+      "name": "奥迪",
+      "value": 284,
+      "display": "284 分",
+      "detail": "贡献：Gougou 46、Er1sed-FOX 39"
+     },
+     {
+      "name": "梅赛德斯",
+      "value": 219,
+      "display": "219 分",
+      "detail": "贡献：tenbergen 80、HayesCC 49"
      }
     ],
     "note": ""
@@ -21087,6 +23794,36 @@
       "value": 3.28,
       "display": "+3.28 档",
       "detail": "平均车序 2.72（1=最快，全场均值 6.0）· 25 场"
+     },
+     {
+      "name": "It57",
+      "value": 3.14,
+      "display": "+3.14 档",
+      "detail": "平均车序 2.86（1=最快，全场均值 6.0）· 14 场"
+     },
+     {
+      "name": "芒果",
+      "value": 2.5,
+      "display": "+2.50 档",
+      "detail": "平均车序 3.50（1=最快，全场均值 6.0）· 2 场"
+     },
+     {
+      "name": "清蒸猫头鹰凉拌菠萝",
+      "value": 1.92,
+      "display": "+1.92 档",
+      "detail": "平均车序 4.08（1=最快，全场均值 6.0）· 12 场"
+     },
+     {
+      "name": "DQ",
+      "value": 1.9,
+      "display": "+1.90 档",
+      "detail": "平均车序 4.10（1=最快，全场均值 6.0）· 10 场"
+     },
+     {
+      "name": "esmac1",
+      "value": 1.78,
+      "display": "+1.78 档",
+      "detail": "平均车序 4.22（1=最快，全场均值 6.0）· 9 场"
      }
     ],
     "note": ""
@@ -21129,6 +23866,36 @@
       "value": -4.0,
       "display": "-4.00 档",
       "detail": "平均车序 10.00（1=最快，全场均值 6.0）· 1 场"
+     },
+     {
+      "name": "Sliced Onion",
+      "value": -4.0,
+      "display": "-4.00 档",
+      "detail": "平均车序 10.00（1=最快，全场均值 6.0）· 1 场"
+     },
+     {
+      "name": "UbisoftHongKong",
+      "value": -4.0,
+      "display": "-4.00 档",
+      "detail": "平均车序 10.00（1=最快，全场均值 6.0）· 1 场"
+     },
+     {
+      "name": "AyatoSeven",
+      "value": -3.68,
+      "display": "-3.68 档",
+      "detail": "平均车序 9.68（1=最快，全场均值 6.0）· 25 场"
+     },
+     {
+      "name": "Lei",
+      "value": -3.6,
+      "display": "-3.60 档",
+      "detail": "平均车序 9.60（1=最快，全场均值 6.0）· 5 场"
+     },
+     {
+      "name": "RIC",
+      "value": -3.55,
+      "display": "-3.55 档",
+      "detail": "平均车序 9.55（1=最快，全场均值 6.0）· 11 场"
      }
     ],
     "note": ""
@@ -21171,6 +23938,36 @@
       "value": 8.02,
       "display": "+8.02 位",
       "detail": "车通常 P11.0 · 他跑 P3.0 · 车序 10.0"
+     },
+     {
+      "name": "Sliced Onion",
+      "value": 8.02,
+      "display": "+8.02 位",
+      "detail": "车通常 P11.0 · 他跑 P3.0 · 车序 10.0"
+     },
+     {
+      "name": "MinatoNaoko",
+      "value": 7.41,
+      "display": "+7.41 位",
+      "detail": "车通常 P11.4 · 他跑 P4.0 · 车序 11.0"
+     },
+     {
+      "name": "lm10",
+      "value": 5.88,
+      "display": "+5.88 位",
+      "detail": "车通常 P10.9 · 他跑 P5.0 · 车序 8.4"
+     },
+     {
+      "name": "FerrariGoat",
+      "value": 5.02,
+      "display": "+5.02 位",
+      "detail": "车通常 P11.0 · 他跑 P6.0 · 车序 10.0"
+     },
+     {
+      "name": "老吴k423",
+      "value": 4.33,
+      "display": "+4.33 位",
+      "detail": "车通常 P11.3 · 他跑 P7.0 · 车序 10.8"
      }
     ],
     "note": ""
@@ -21213,6 +24010,36 @@
       "value": -8.78,
       "display": "-8.78 位",
       "detail": "车通常 P10.2 · 他跑 P19.0 · 车序 6.0"
+     },
+     {
+      "name": "雷电芽衣",
+      "value": -7.17,
+      "display": "-7.17 位",
+      "detail": "车通常 P12.3 · 他跑 P19.5 · 车序 9.0"
+     },
+     {
+      "name": "x1aofeiyang",
+      "value": -6.14,
+      "display": "-6.14 位",
+      "detail": "车通常 P10.9 · 他跑 P17.0 · 车序 7.8"
+     },
+     {
+      "name": "叶yeeeeee",
+      "value": -6.1,
+      "display": "-6.10 位",
+      "detail": "车通常 P11.0 · 他跑 P17.1 · 车序 9.0"
+     },
+     {
+      "name": "dan",
+      "value": -6.08,
+      "display": "-6.08 位",
+      "detail": "车通常 P9.8 · 他跑 P15.9 · 车序 4.9"
+     },
+     {
+      "name": "Tim",
+      "value": -5.86,
+      "display": "-5.86 位",
+      "detail": "车通常 P9.8 · 他跑 P15.7 · 车序 5.8"
      }
     ],
     "note": ""
