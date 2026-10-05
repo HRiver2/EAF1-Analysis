@@ -8166,6 +8166,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 4,
    "dnf": 0,
+   "avg_quali": 1.5,
+   "avg_finish": 1.25,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.7938981479928201,
     "consistency": 0.9300947867298577,
@@ -8182,7 +8185,8 @@
     "6": 25,
     "11": 22,
     "20": 25
-   }
+   },
+   "pos": 17
   },
   "R_ATPER2": {
    "name": "R_ATPER2",
@@ -8207,6 +8211,9 @@
    "best_lap_track": "蒙特利尔",
    "finish_count": 4,
    "dnf": 0,
+   "avg_quali": 1.5,
+   "avg_finish": 1.75,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.8630571003423971,
     "consistency": 0.8729857819905212,
@@ -8223,7 +8230,8 @@
     "7": 25,
     "9": 20,
     "10": 25
-   }
+   },
+   "pos": 18
   },
   "yi_hua": {
    "name": "yi_hua",
@@ -8248,6 +8256,9 @@
    "best_lap_track": "伊莫拉",
    "finish_count": 5,
    "dnf": 1,
+   "avg_quali": 9.166666666666666,
+   "avg_finish": 9.33,
+   "score_rate": 66.66666666666667,
    "axes": {
     "pace": 0.5418158428901765,
     "consistency": 0.8180094786729856,
@@ -8266,7 +8277,8 @@
     "5": 0,
     "6": 20,
     "7": 5
-   }
+   },
+   "pos": 23
   },
   "lm10": {
    "name": "lm10",
@@ -8291,6 +8303,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 12,
    "dnf": 1,
+   "avg_quali": 7.538461538461538,
+   "avg_finish": 5.0,
+   "score_rate": 92.3076923076923,
    "axes": {
     "pace": 0.6746807663231672,
     "consistency": 0.7544537610888321,
@@ -8316,7 +8331,8 @@
     "21": 14,
     "22": 25,
     "25": 25
-   }
+   },
+   "pos": 4
   },
   "LewisRen": {
    "name": "LewisRen",
@@ -8341,6 +8357,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 9,
    "dnf": 3,
+   "avg_quali": 14.333333333333334,
+   "avg_finish": 12.67,
+   "score_rate": 50.0,
    "axes": {
     "pace": 0.6362535770506587,
     "consistency": 0.7391641533821629,
@@ -8365,7 +8384,8 @@
     "10": 5,
     "11": 0,
     "12": 6
-   }
+   },
+   "pos": 19
   },
   "清蒸猫头鹰凉拌菠萝": {
    "name": "清蒸猫头鹰凉拌菠萝",
@@ -8390,6 +8410,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 11,
    "dnf": 1,
+   "avg_quali": 7.75,
+   "avg_finish": 8.0,
+   "score_rate": 91.66666666666667,
    "axes": {
     "pace": 0.6586312882650962,
     "consistency": 0.7221599885106994,
@@ -8414,7 +8437,8 @@
     "20": 0,
     "23": 3,
     "25": 5
-   }
+   },
+   "pos": 13
   },
   "HayesCC": {
    "name": "HayesCC",
@@ -8439,6 +8463,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 24,
    "dnf": 1,
+   "avg_quali": 11.08,
+   "avg_finish": 10.36,
+   "score_rate": 92.0,
    "axes": {
     "pace": 0.5815027900555925,
     "consistency": 0.6962216956292785,
@@ -8476,7 +8503,8 @@
     "23": 0,
     "24": 12,
     "25": 2
-   }
+   },
+   "pos": 7
   },
   "Landoooo_W": {
    "name": "Landoooo_W",
@@ -8501,6 +8529,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 10,
    "dnf": 2,
+   "avg_quali": 14.5,
+   "avg_finish": 12.75,
+   "score_rate": 58.333333333333336,
    "axes": {
     "pace": 0.7547033201460281,
     "consistency": 0.7102972856527358,
@@ -8525,7 +8556,8 @@
     "11": 0,
     "15": 0,
     "16": 1
-   }
+   },
+   "pos": 20
   },
   "叶yeeeeee": {
    "name": "叶yeeeeee",
@@ -8550,6 +8582,9 @@
    "best_lap_track": "伊莫拉",
    "finish_count": 2,
    "dnf": 5,
+   "avg_quali": 14.666666666666666,
+   "avg_finish": 17.14,
+   "score_rate": 28.571428571428573,
    "axes": {
     "pace": 0.5902092860952621,
     "consistency": 0.864876250658241,
@@ -8569,7 +8604,8 @@
     "6": 0,
     "7": 3,
     "8": 0
-   }
+   },
+   "pos": 48
   },
   "AyatoSeven": {
    "name": "AyatoSeven",
@@ -8594,6 +8630,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 25,
    "dnf": 0,
+   "avg_quali": 15.32,
+   "avg_finish": 9.52,
+   "score_rate": 84.0,
    "axes": {
     "pace": 0.5866790914831889,
     "consistency": 0.6317472353870457,
@@ -8631,7 +8670,8 @@
     "23": 8,
     "24": 10,
     "25": 0
-   }
+   },
+   "pos": 6
   },
   "芒果": {
    "name": "芒果",
@@ -8656,6 +8696,9 @@
    "best_lap_track": "墨尔本",
    "finish_count": 2,
    "dnf": 0,
+   "avg_quali": 13.5,
+   "avg_finish": 12.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.4174460250624887,
     "consistency": 0.39004739336492894,
@@ -8670,7 +8713,8 @@
    "per_round": {
     "1": 5,
     "3": 3
-   }
+   },
+   "pos": 49
   },
   "Perez": {
    "name": "Perez",
@@ -8695,6 +8739,9 @@
    "best_lap_track": "墨尔本",
    "finish_count": 1,
    "dnf": 0,
+   "avg_quali": 19.0,
+   "avg_finish": 12.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.8040258629160008,
     "consistency": 0.9848341232227488,
@@ -8708,7 +8755,8 @@
    "archetype": "轮胎管理型",
    "per_round": {
     "1": 4
-   }
+   },
+   "pos": 52
   },
   "Kagamine RIN": {
    "name": "Kagamine RIN",
@@ -8733,6 +8781,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 12,
    "dnf": 0,
+   "avg_quali": 11.25,
+   "avg_finish": 8.5,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.5911271323611328,
     "consistency": 0.6299583512853654,
@@ -8757,7 +8808,8 @@
     "23": 1,
     "24": 16,
     "25": 6
-   }
+   },
+   "pos": 10
   },
   "Er1sed-FOX": {
    "name": "Er1sed-FOX",
@@ -8782,6 +8834,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 20,
    "dnf": 2,
+   "avg_quali": 12.818181818181818,
+   "avg_finish": 12.32,
+   "score_rate": 72.72727272727273,
    "axes": {
     "pace": 0.5681203103079575,
     "consistency": 0.6809421226482838,
@@ -8816,7 +8871,8 @@
     "20": 5,
     "21": 0,
     "23": 0
-   }
+   },
+   "pos": 15
   },
   "tenbergen": {
    "name": "tenbergen",
@@ -8841,6 +8897,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 24,
    "dnf": 1,
+   "avg_quali": 6.84,
+   "avg_finish": 8.84,
+   "score_rate": 92.0,
    "axes": {
     "pace": 0.5928324135140843,
     "consistency": 0.681332280147446,
@@ -8878,7 +8937,8 @@
     "23": 20,
     "24": 18,
     "25": 18
-   }
+   },
+   "pos": 3
   },
   "✪x1aofeiyang": {
    "name": "✪x1aofeiyang",
@@ -8903,6 +8963,9 @@
    "best_lap_track": "墨尔本",
    "finish_count": 0,
    "dnf": 0,
+   "avg_quali": null,
+   "avg_finish": 16.0,
+   "score_rate": 0.0,
    "axes": {
     "pace": 0.8129749542869605,
     "consistency": 0.39020537124802523,
@@ -8916,7 +8979,8 @@
    "archetype": "单圈型",
    "per_round": {
     "1": 0
-   }
+   },
+   "pos": 56
   },
   "dan": {
    "name": "dan",
@@ -8941,6 +9005,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 11,
    "dnf": 3,
+   "avg_quali": 16.071428571428573,
+   "avg_finish": 15.86,
+   "score_rate": 35.714285714285715,
    "axes": {
     "pace": 0.5755333971735441,
     "consistency": 0.6846761453396524,
@@ -8967,7 +9034,8 @@
     "16": 0,
     "17": 8,
     "25": 0
-   }
+   },
+   "pos": 34
   },
   "Ak_Langley_S": {
    "name": "Ak_Langley_S",
@@ -8992,6 +9060,9 @@
    "best_lap_track": "巴西",
    "finish_count": 13,
    "dnf": 1,
+   "avg_quali": 8.928571428571429,
+   "avg_finish": 10.0,
+   "score_rate": 71.42857142857143,
    "axes": {
     "pace": 0.5002665710361801,
     "consistency": 0.5935906116000902,
@@ -9018,7 +9089,8 @@
     "21": 0,
     "22": 18,
     "24": 0
-   }
+   },
+   "pos": 12
   },
   "老吴k423": {
    "name": "老吴k423",
@@ -9043,6 +9115,9 @@
    "best_lap_track": "蒙特利尔",
    "finish_count": 4,
    "dnf": 1,
+   "avg_quali": 7.2,
+   "avg_finish": 7.0,
+   "score_rate": 80.0,
    "axes": {
     "pace": 0.7943041098971995,
     "consistency": 0.8211690363349131,
@@ -9060,7 +9135,8 @@
     "8": 25,
     "9": 12,
     "10": 16
-   }
+   },
+   "pos": 22
   },
   "Momokong": {
    "name": "Momokong",
@@ -9085,6 +9161,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 16,
    "dnf": 4,
+   "avg_quali": 9.0,
+   "avg_finish": 9.95,
+   "score_rate": 75.0,
    "axes": {
     "pace": 0.5939704375991879,
     "consistency": 0.5409495302236633,
@@ -9117,7 +9196,8 @@
     "23": 18,
     "24": 0,
     "25": 4
-   }
+   },
+   "pos": 8
   },
   "Lei": {
    "name": "Lei",
@@ -9142,6 +9222,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 3,
    "dnf": 4,
+   "avg_quali": 4.8,
+   "avg_finish": 10.6,
+   "score_rate": 42.857142857142854,
    "axes": {
     "pace": 0.6143231264003367,
     "consistency": 0.599304897314376,
@@ -9161,7 +9244,8 @@
     "12": 0,
     "16": 18,
     "21": 0
-   }
+   },
+   "pos": 28
   },
   "Oiysi10023000": {
    "name": "Oiysi10023000",
@@ -9186,6 +9270,9 @@
    "best_lap_track": "赞德福特",
    "finish_count": 3,
    "dnf": 1,
+   "avg_quali": 15.0,
+   "avg_finish": 15.75,
+   "score_rate": 50.0,
    "axes": {
     "pace": 0.37187719880748865,
     "consistency": 0.5601895734597155,
@@ -9202,7 +9289,8 @@
     "2": 0,
     "3": 2,
     "15": 2
-   }
+   },
+   "pos": 53
   },
   "ColorFirst": {
    "name": "ColorFirst",
@@ -9227,6 +9315,9 @@
    "best_lap_track": "摩纳哥",
    "finish_count": 3,
    "dnf": 0,
+   "avg_quali": 11.666666666666666,
+   "avg_finish": 12.0,
+   "score_rate": 66.66666666666667,
    "axes": {
     "pace": 0.5714110879474655,
     "consistency": 0.49878883622959447,
@@ -9242,7 +9333,8 @@
     "2": 6,
     "8": 10,
     "25": 0
-   }
+   },
+   "pos": 42
   },
   "It57": {
    "name": "It57",
@@ -9267,6 +9359,9 @@
    "best_lap_track": "赞德福特",
    "finish_count": 14,
    "dnf": 0,
+   "avg_quali": 13.357142857142858,
+   "avg_finish": 9.29,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.5707170725362585,
     "consistency": 0.6084856691491762,
@@ -9293,7 +9388,8 @@
     "21": 3,
     "24": 3,
     "25": 1
-   }
+   },
+   "pos": 16
   },
   "WuHen": {
    "name": "WuHen",
@@ -9318,6 +9414,9 @@
    "best_lap_track": "伊莫拉",
    "finish_count": 3,
    "dnf": 1,
+   "avg_quali": 3.0,
+   "avg_finish": 6.75,
+   "score_rate": 75.0,
    "axes": {
     "pace": 0.4978042325763383,
     "consistency": 0.846129541864139,
@@ -9334,7 +9433,8 @@
     "3": 25,
     "5": 25,
     "18": 0
-   }
+   },
+   "pos": 26
   },
   "DQ": {
    "name": "DQ",
@@ -9359,6 +9459,9 @@
    "best_lap_track": "赞德福特",
    "finish_count": 8,
    "dnf": 3,
+   "avg_quali": 10.9,
+   "avg_finish": 11.8,
+   "score_rate": 72.72727272727273,
    "axes": {
     "pace": 0.4735376225782524,
     "consistency": 0.6799684044233807,
@@ -9382,7 +9485,8 @@
     "21": 6,
     "24": 5,
     "25": 3
-   }
+   },
+   "pos": 29
   },
   "RanXi": {
    "name": "RanXi",
@@ -9407,6 +9511,9 @@
    "best_lap_track": "萨基尔",
    "finish_count": 2,
    "dnf": 1,
+   "avg_quali": 18.666666666666668,
+   "avg_finish": 14.67,
+   "score_rate": 33.333333333333336,
    "axes": {
     "pace": 0.26662482976753854,
     "consistency": 0.6943654555028963,
@@ -9422,7 +9529,8 @@
     "2": 2,
     "3": 0,
     "4": 0
-   }
+   },
+   "pos": 54
   },
   "x1aofeiyang": {
    "name": "x1aofeiyang",
@@ -9447,6 +9555,9 @@
    "best_lap_track": "蒙特利尔",
    "finish_count": 2,
    "dnf": 2,
+   "avg_quali": 14.5,
+   "avg_finish": 17.0,
+   "score_rate": 25.0,
    "axes": {
     "pace": 0.7247332107928308,
     "consistency": 0.6928909952606633,
@@ -9463,7 +9574,8 @@
     "2": 0,
     "9": 0,
     "10": 1
-   }
+   },
+   "pos": 55
   },
   "Gougou": {
    "name": "Gougou",
@@ -9488,6 +9600,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 19,
    "dnf": 2,
+   "avg_quali": 7.0476190476190474,
+   "avg_finish": 8.19,
+   "score_rate": 85.71428571428571,
    "axes": {
     "pace": 0.640083997413419,
     "consistency": 0.70260663507109,
@@ -9521,7 +9636,8 @@
     "23": 12,
     "24": 8,
     "25": 10
-   }
+   },
+   "pos": 2
   },
   "EasonLeclerc": {
    "name": "EasonLeclerc",
@@ -9546,6 +9662,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 6,
    "dnf": 2,
+   "avg_quali": 10.75,
+   "avg_finish": 12.88,
+   "score_rate": 50.0,
    "axes": {
     "pace": 0.6465113800039878,
     "consistency": 0.7373617693522907,
@@ -9566,7 +9685,8 @@
     "10": 0,
     "11": 0,
     "12": 22
-   }
+   },
+   "pos": 30
   },
   "A380FatLiner": {
    "name": "A380FatLiner",
@@ -9591,6 +9711,9 @@
    "best_lap_track": "巴西",
    "finish_count": 13,
    "dnf": 1,
+   "avg_quali": 17.142857142857142,
+   "avg_finish": 12.29,
+   "score_rate": 78.57142857142857,
    "axes": {
     "pace": 0.6016092403766695,
     "consistency": 0.5225908372827803,
@@ -9617,7 +9740,8 @@
     "23": 4,
     "24": 2,
     "25": 16
-   }
+   },
+   "pos": 25
   },
   "JPer": {
    "name": "JPer",
@@ -9642,6 +9766,9 @@
    "best_lap_track": "摩纳哥",
    "finish_count": 4,
    "dnf": 1,
+   "avg_quali": 8.8,
+   "avg_finish": 8.8,
+   "score_rate": 80.0,
    "axes": {
     "pace": 0.35047760165908987,
     "consistency": 0.46597156398104267,
@@ -9659,7 +9786,8 @@
     "12": 18,
     "16": 4,
     "17": 22
-   }
+   },
+   "pos": 27
   },
   "Tim": {
    "name": "Tim",
@@ -9684,6 +9812,9 @@
    "best_lap_track": "摩纳哥",
    "finish_count": 4,
    "dnf": 2,
+   "avg_quali": 13.333333333333334,
+   "avg_finish": 15.67,
+   "score_rate": 50.0,
    "axes": {
     "pace": 0.4068416447993759,
     "consistency": 0.6132069510268563,
@@ -9702,7 +9833,8 @@
     "8": 12,
     "13": 0,
     "14": 0
-   }
+   },
+   "pos": 38
   },
   "白云": {
    "name": "白云",
@@ -9727,6 +9859,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 20,
    "dnf": 0,
+   "avg_quali": 5.1,
+   "avg_finish": 8.15,
+   "score_rate": 90.0,
    "axes": {
     "pace": 0.6413202269184952,
     "consistency": 0.6320063191153239,
@@ -9759,7 +9894,8 @@
     "23": 16,
     "24": 1,
     "25": 12
-   }
+   },
+   "pos": 5
   },
   "Aisu": {
    "name": "Aisu",
@@ -9784,6 +9920,9 @@
    "best_lap_track": "铃鹿",
    "finish_count": 0,
    "dnf": 1,
+   "avg_quali": 3.0,
+   "avg_finish": 19.0,
+   "score_rate": 0.0,
    "axes": {
     "pace": 0.17216501268941253,
     "consistency": 0.3295418641390204,
@@ -9797,7 +9936,8 @@
    "archetype": "轮胎管理型",
    "per_round": {
     "3": 0
-   }
+   },
+   "pos": 57
   },
   "funanana": {
    "name": "funanana",
@@ -9822,6 +9962,9 @@
    "best_lap_track": "萨基尔",
    "finish_count": 1,
    "dnf": 0,
+   "avg_quali": 17.0,
+   "avg_finish": 3.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.5441697002231133,
     "consistency": 0.9206951026856239,
@@ -9835,7 +9978,8 @@
    "archetype": "稳定型",
    "per_round": {
     "4": 25
-   }
+   },
+   "pos": 35
   },
   "defect": {
    "name": "defect",
@@ -9860,6 +10004,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 17,
    "dnf": 4,
+   "avg_quali": 4.4,
+   "avg_finish": 7.05,
+   "score_rate": 71.42857142857143,
    "axes": {
     "pace": 0.6831801717438355,
     "consistency": 0.6401596408081817,
@@ -9893,7 +10040,8 @@
     "23": 22,
     "24": 25,
     "25": 22
-   }
+   },
+   "pos": 1
   },
   "RIC": {
    "name": "RIC",
@@ -9918,6 +10066,9 @@
    "best_lap_track": "巴西",
    "finish_count": 8,
    "dnf": 3,
+   "avg_quali": 8.272727272727273,
+   "avg_finish": 7.91,
+   "score_rate": 72.72727272727273,
    "axes": {
     "pace": 0.5663799402675571,
     "consistency": 0.6180094786729857,
@@ -9941,7 +10092,8 @@
     "22": 0,
     "23": 6,
     "25": 14
-   }
+   },
+   "pos": 14
   },
   "MinatoNaoko": {
    "name": "MinatoNaoko",
@@ -9966,6 +10118,9 @@
    "best_lap_track": "伊莫拉",
    "finish_count": 1,
    "dnf": 0,
+   "avg_quali": 5.0,
+   "avg_finish": 4.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.8661091146731746,
     "consistency": 0.9443917851500789,
@@ -9979,7 +10134,8 @@
    "archetype": "轮胎管理型",
    "per_round": {
     "5": 18
-   }
+   },
+   "pos": 40
   },
   "HENRY": {
    "name": "HENRY",
@@ -10004,6 +10160,9 @@
    "best_lap_track": "伊莫拉",
    "finish_count": 2,
    "dnf": 2,
+   "avg_quali": 4.0,
+   "avg_finish": 14.75,
+   "score_rate": 25.0,
    "axes": {
     "pace": 0.7050708951716207,
     "consistency": 0.6864928909952606,
@@ -10020,7 +10179,8 @@
     "7": 0,
     "8": 8,
     "18": 0
-   }
+   },
+   "pos": 50
   },
   "糕白": {
    "name": "糕白",
@@ -10045,6 +10205,9 @@
    "best_lap_track": "伊莫拉",
    "finish_count": 2,
    "dnf": 2,
+   "avg_quali": 10.666666666666666,
+   "avg_finish": 13.0,
+   "score_rate": 25.0,
    "axes": {
     "pace": 0.5199627585512742,
     "consistency": 0.9619273301737756,
@@ -10061,7 +10224,8 @@
     "7": 0,
     "13": 25,
     "25": 0
-   }
+   },
+   "pos": 36
   },
   "Mirrorcc": {
    "name": "Mirrorcc",
@@ -10086,6 +10250,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 2,
    "dnf": 0,
+   "avg_quali": 17.5,
+   "avg_finish": 3.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.9293784577558338,
     "consistency": 0.8246445497630331,
@@ -10100,7 +10267,8 @@
    "per_round": {
     "6": 22,
     "11": 18
-   }
+   },
+   "pos": 31
   },
   "Pan1ys": {
    "name": "Pan1ys",
@@ -10125,6 +10293,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 12,
    "dnf": 2,
+   "avg_quali": 9.428571428571429,
+   "avg_finish": 9.5,
+   "score_rate": 71.42857142857143,
    "axes": {
     "pace": 0.6156825430990475,
     "consistency": 0.6319566689234933,
@@ -10151,7 +10322,8 @@
     "23": 0,
     "24": 22,
     "25": 20
-   }
+   },
+   "pos": 9
   },
   "star-falI04": {
    "name": "star-falI04",
@@ -10176,6 +10348,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 11,
    "dnf": 0,
+   "avg_quali": 14.818181818181818,
+   "avg_finish": 14.36,
+   "score_rate": 63.63636363636363,
    "axes": {
     "pace": 0.6406623021221465,
     "consistency": 0.49102398391497903,
@@ -10199,7 +10374,8 @@
     "14": 0,
     "16": 0,
     "25": 0
-   }
+   },
+   "pos": 37
   },
   "TC": {
    "name": "TC",
@@ -10224,6 +10400,9 @@
    "best_lap_track": "吉达",
    "finish_count": 0,
    "dnf": 1,
+   "avg_quali": 20.0,
+   "avg_finish": 21.0,
+   "score_rate": 0.0,
    "axes": {
     "pace": null,
     "consistency": null,
@@ -10237,7 +10416,8 @@
    "archetype": null,
    "per_round": {
     "7": 0
-   }
+   },
+   "pos": 58
   },
   "Anegler": {
    "name": "Anegler",
@@ -10262,6 +10442,9 @@
    "best_lap_track": "加泰罗尼亚",
    "finish_count": 1,
    "dnf": 0,
+   "avg_quali": 7.0,
+   "avg_finish": 8.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.9244689275700677,
     "consistency": 0.9860979462875198,
@@ -10275,7 +10458,8 @@
    "archetype": "稳定型",
    "per_round": {
     "9": 10
-   }
+   },
+   "pos": 45
   },
   "gangteiss": {
    "name": "gangteiss",
@@ -10300,6 +10484,9 @@
    "best_lap_track": "蒙特利尔",
    "finish_count": 5,
    "dnf": 0,
+   "avg_quali": 10.8,
+   "avg_finish": 6.8,
+   "score_rate": 80.0,
    "axes": {
     "pace": 0.7679346632502254,
     "consistency": 0.761516587677725,
@@ -10317,7 +10504,8 @@
     "13": 20,
     "15": 0,
     "16": 22
-   }
+   },
+   "pos": 24
   },
   "高木同学重度依赖": {
    "name": "高木同学重度依赖",
@@ -10342,6 +10530,9 @@
    "best_lap_track": "赞德福特",
    "finish_count": 3,
    "dnf": 1,
+   "avg_quali": 15.5,
+   "avg_finish": 15.25,
+   "score_rate": 25.0,
    "axes": {
     "pace": 0.6650385024490703,
     "consistency": 0.8117693522906793,
@@ -10358,7 +10549,8 @@
     "13": 0,
     "15": 6,
     "23": 0
-   }
+   },
+   "pos": 51
   },
   "黑崎小雪": {
    "name": "黑崎小雪",
@@ -10383,6 +10575,9 @@
    "best_lap_track": "奥地利",
    "finish_count": 12,
    "dnf": 1,
+   "avg_quali": 9.538461538461538,
+   "avg_finish": 9.54,
+   "score_rate": 84.61538461538461,
    "axes": {
     "pace": 0.6251182951423281,
     "consistency": 0.5297525013164823,
@@ -10408,7 +10603,8 @@
     "23": 5,
     "24": 6,
     "25": 8
-   }
+   },
+   "pos": 11
   },
   "leevenchenko": {
    "name": "leevenchenko",
@@ -10433,6 +10629,9 @@
    "best_lap_track": "匈牙利",
    "finish_count": 0,
    "dnf": 3,
+   "avg_quali": 6.666666666666667,
+   "avg_finish": 22.0,
+   "score_rate": 0.0,
    "axes": {
     "pace": 0.19101287933435115,
     "consistency": 0.7747235387045813,
@@ -10448,7 +10647,8 @@
     "12": 0,
     "13": 0,
     "14": 0
-   }
+   },
+   "pos": 59
   },
   "esmac1": {
    "name": "esmac1",
@@ -10473,6 +10673,9 @@
    "best_lap_track": "巴西",
    "finish_count": 7,
    "dnf": 2,
+   "avg_quali": 14.11111111111111,
+   "avg_finish": 13.33,
+   "score_rate": 55.55555555555556,
    "axes": {
     "pace": 0.5443502381807513,
     "consistency": 0.5247323152536423,
@@ -10494,7 +10697,8 @@
     "22": 0,
     "23": 10,
     "24": 14
-   }
+   },
+   "pos": 32
   },
   "哈哈": {
    "name": "哈哈",
@@ -10519,6 +10723,9 @@
    "best_lap_track": "斯帕",
    "finish_count": 1,
    "dnf": 0,
+   "avg_quali": 22.0,
+   "avg_finish": 19.0,
+   "score_rate": 0.0,
    "axes": {
     "pace": 0.0,
     "consistency": 0.7115323854660347,
@@ -10532,7 +10739,8 @@
    "archetype": "轮胎管理型",
    "per_round": {
     "13": 0
-   }
+   },
+   "pos": 60
   },
   "MFGA": {
    "name": "MFGA",
@@ -10557,6 +10765,9 @@
    "best_lap_track": "赞德福特",
    "finish_count": 2,
    "dnf": 1,
+   "avg_quali": 8.0,
+   "avg_finish": 15.0,
+   "score_rate": 33.333333333333336,
    "axes": {
     "pace": 0.5604398189726812,
     "consistency": 0.8001579778830963,
@@ -10572,7 +10783,8 @@
     "14": 10,
     "15": 0,
     "25": 0
-   }
+   },
+   "pos": 46
   },
   "Swizzet3271": {
    "name": "Swizzet3271",
@@ -10597,6 +10809,9 @@
    "best_lap_track": "赞德福特",
    "finish_count": 1,
    "dnf": 0,
+   "avg_quali": 22.0,
+   "avg_finish": 3.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 1.0,
     "consistency": 0.924170616113744,
@@ -10610,7 +10825,8 @@
    "archetype": "轮胎管理型",
    "per_round": {
     "15": 10
-   }
+   },
+   "pos": 47
   },
   "鱼雷王": {
    "name": "鱼雷王",
@@ -10635,6 +10851,9 @@
    "best_lap_track": "蒙扎",
    "finish_count": 4,
    "dnf": 1,
+   "avg_quali": 2.6,
+   "avg_finish": 6.4,
+   "score_rate": 60.0,
    "axes": {
     "pace": 0.4649319010846246,
     "consistency": 0.5915955766192732,
@@ -10652,7 +10871,8 @@
     "18": 25,
     "19": 22,
     "23": 25
-   }
+   },
+   "pos": 21
   },
   "newyeye7": {
    "name": "newyeye7",
@@ -10677,6 +10897,9 @@
    "best_lap_track": "巴西",
    "finish_count": 4,
    "dnf": 1,
+   "avg_quali": 8.4,
+   "avg_finish": 11.4,
+   "score_rate": 80.0,
    "axes": {
     "pace": 0.5209510078058712,
     "consistency": 0.31797788309636643,
@@ -10694,7 +10917,8 @@
     "21": 0,
     "22": 6,
     "23": 14
-   }
+   },
+   "pos": 33
   },
   "Beast": {
    "name": "Beast",
@@ -10719,6 +10943,9 @@
    "best_lap_track": "卢塞尔",
    "finish_count": 4,
    "dnf": 2,
+   "avg_quali": 9.2,
+   "avg_finish": 13.2,
+   "score_rate": 66.66666666666667,
    "axes": {
     "pace": 0.4832515548092624,
     "consistency": 0.5408372827804107,
@@ -10737,7 +10964,8 @@
     "21": 0,
     "23": 2,
     "24": 4
-   }
+   },
+   "pos": 41
   },
   "HEZ": {
    "name": "HEZ",
@@ -10762,6 +10990,9 @@
    "best_lap_track": "巴西",
    "finish_count": 2,
    "dnf": 1,
+   "avg_quali": 11.0,
+   "avg_finish": 10.0,
+   "score_rate": 66.66666666666667,
    "axes": {
     "pace": 0.7259783281214383,
     "consistency": 0.35860979462875203,
@@ -10777,7 +11008,8 @@
     "18": 0,
     "19": 5,
     "22": 8
-   }
+   },
+   "pos": 44
   },
   "FerrariGoat": {
    "name": "FerrariGoat",
@@ -10802,6 +11034,9 @@
    "best_lap_track": "卢塞尔",
    "finish_count": 1,
    "dnf": 0,
+   "avg_quali": 15.0,
+   "avg_finish": 6.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.6630548956503898,
     "consistency": 0.6126382306477093,
@@ -10815,7 +11050,8 @@
    "archetype": "单圈型",
    "per_round": {
     "19": 14
-   }
+   },
+   "pos": 43
   },
   "清蒸猫头凉拌菠萝": {
    "name": "清蒸猫头凉拌菠萝",
@@ -10840,6 +11076,9 @@
    "best_lap_track": "奥斯汀",
    "finish_count": 0,
    "dnf": 0,
+   "avg_quali": null,
+   "avg_finish": null,
+   "score_rate": null,
    "axes": {
     "pace": 0.39167763423773216,
     "consistency": 0.5636650868878357,
@@ -10851,7 +11090,8 @@
    "strength": "discipline",
    "weakness": "reliability",
    "archetype": "轮胎管理型",
-   "per_round": {}
+   "per_round": {},
+   "pos": 61
   },
   "雷电芽衣": {
    "name": "雷电芽衣",
@@ -10876,6 +11116,9 @@
    "best_lap_track": "墨西哥",
    "finish_count": 0,
    "dnf": 2,
+   "avg_quali": 12.0,
+   "avg_finish": 19.5,
+   "score_rate": 0.0,
    "axes": {
     "pace": 0.6249007149978884,
     "consistency": 1.0,
@@ -10890,7 +11133,8 @@
    "per_round": {
     "21": 0,
     "23": 0
-   }
+   },
+   "pos": 62
   },
   "Sliced Onion": {
    "name": "Sliced Onion",
@@ -10915,6 +11159,9 @@
    "best_lap_track": "新加坡",
    "finish_count": 1,
    "dnf": 0,
+   "avg_quali": 6.0,
+   "avg_finish": 3.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.38987609411272844,
     "consistency": 0.0,
@@ -10928,7 +11175,8 @@
    "archetype": "缠斗型",
    "per_round": {
     "24": 20
-   }
+   },
+   "pos": 39
   },
   "UbisoftHongKong": {
    "name": "UbisoftHongKong",
@@ -10953,6 +11201,9 @@
    "best_lap_track": "新加坡",
    "finish_count": 1,
    "dnf": 0,
+   "avg_quali": 17.0,
+   "avg_finish": 16.0,
+   "score_rate": 0.0,
    "axes": {
     "pace": 0.34498155797040675,
     "consistency": 0.02590837282780406,
@@ -10966,7 +11217,8 @@
    "archetype": "缠斗型",
    "per_round": {
     "24": 0
-   }
+   },
+   "pos": 63
   },
   "Surviver": {
    "name": "Surviver",
@@ -10991,6 +11243,9 @@
    "best_lap_track": "阿布扎比",
    "finish_count": 1,
    "dnf": 0,
+   "avg_quali": 17.0,
+   "avg_finish": 19.0,
+   "score_rate": 0.0,
    "axes": {
     "pace": 0.6363442988710138,
     "consistency": 0.8502369668246444,
@@ -11004,7 +11259,8 @@
    "archetype": "稳定型",
    "per_round": {
     "25": 0
-   }
+   },
+   "pos": 64
   }
  },
  "match": {
@@ -12582,6 +12838,3867 @@
    "weaknessOf": 64,
    "points": 0,
    "pos": 64
+  }
+ },
+ "scatters": [
+  {
+   "id": "quali_vs_finish",
+   "title": "平均排位 vs 平均完赛位",
+   "lead": "横轴平均发车位、纵轴平均完赛位（都往右/往上＝名次数字越大＝越靠后）。左下角＝排位和正赛都强；左上角＝排位一般但正赛追回来；右下角＝排位好却守不住。",
+   "xLabel": "平均发车位",
+   "yLabel": "平均完赛位",
+   "xRev": false,
+   "yRev": false,
+   "points": [
+    {
+     "name": "A380FatLiner",
+     "x": 17.143,
+     "y": 12.29,
+     "r": 20,
+     "xLabel": "17.1",
+     "yLabel": "12.3"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "x": 8.929,
+     "y": 10.0,
+     "r": 20,
+     "xLabel": "8.9",
+     "yLabel": "10.0"
+    },
+    {
+     "name": "AyatoSeven",
+     "x": 15.32,
+     "y": 9.52,
+     "r": 31,
+     "xLabel": "15.3",
+     "yLabel": "9.5"
+    },
+    {
+     "name": "Beast",
+     "x": 9.2,
+     "y": 13.2,
+     "r": 12,
+     "xLabel": "9.2",
+     "yLabel": "13.2"
+    },
+    {
+     "name": "DQ",
+     "x": 10.9,
+     "y": 11.8,
+     "r": 17,
+     "xLabel": "10.9",
+     "yLabel": "11.8"
+    },
+    {
+     "name": "EasonLeclerc",
+     "x": 10.75,
+     "y": 12.88,
+     "r": 14,
+     "xLabel": "10.8",
+     "yLabel": "12.9"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "x": 12.818,
+     "y": 12.32,
+     "r": 28,
+     "xLabel": "12.8",
+     "yLabel": "12.3"
+    },
+    {
+     "name": "Gougou",
+     "x": 7.048,
+     "y": 8.19,
+     "r": 27,
+     "xLabel": "7.0",
+     "yLabel": "8.2"
+    },
+    {
+     "name": "HayesCC",
+     "x": 11.08,
+     "y": 10.36,
+     "r": 31,
+     "xLabel": "11.1",
+     "yLabel": "10.4"
+    },
+    {
+     "name": "It57",
+     "x": 13.357,
+     "y": 9.29,
+     "r": 20,
+     "xLabel": "13.4",
+     "yLabel": "9.3"
+    },
+    {
+     "name": "JPer",
+     "x": 8.8,
+     "y": 8.8,
+     "r": 11,
+     "xLabel": "8.8",
+     "yLabel": "8.8"
+    },
+    {
+     "name": "Kagamine RIN",
+     "x": 11.25,
+     "y": 8.5,
+     "r": 18,
+     "xLabel": "11.2",
+     "yLabel": "8.5"
+    },
+    {
+     "name": "Landoooo_W",
+     "x": 14.5,
+     "y": 12.75,
+     "r": 18,
+     "xLabel": "14.5",
+     "yLabel": "12.8"
+    },
+    {
+     "name": "Lei",
+     "x": 4.8,
+     "y": 10.6,
+     "r": 13,
+     "xLabel": "4.8",
+     "yLabel": "10.6"
+    },
+    {
+     "name": "LewisRen",
+     "x": 14.333,
+     "y": 12.67,
+     "r": 18,
+     "xLabel": "14.3",
+     "yLabel": "12.7"
+    },
+    {
+     "name": "Momokong",
+     "x": 9.0,
+     "y": 9.95,
+     "r": 26,
+     "xLabel": "9.0",
+     "yLabel": "9.9"
+    },
+    {
+     "name": "Pan1ys",
+     "x": 9.429,
+     "y": 9.5,
+     "r": 20,
+     "xLabel": "9.4",
+     "yLabel": "9.5"
+    },
+    {
+     "name": "RIC",
+     "x": 8.273,
+     "y": 7.91,
+     "r": 17,
+     "xLabel": "8.3",
+     "yLabel": "7.9"
+    },
+    {
+     "name": "Tim",
+     "x": 13.333,
+     "y": 15.67,
+     "r": 12,
+     "xLabel": "13.3",
+     "yLabel": "15.7"
+    },
+    {
+     "name": "dan",
+     "x": 16.071,
+     "y": 15.86,
+     "r": 20,
+     "xLabel": "16.1",
+     "yLabel": "15.9"
+    },
+    {
+     "name": "defect",
+     "x": 4.4,
+     "y": 7.05,
+     "r": 27,
+     "xLabel": "4.4",
+     "yLabel": "7.0"
+    },
+    {
+     "name": "esmac1",
+     "x": 14.111,
+     "y": 13.33,
+     "r": 15,
+     "xLabel": "14.1",
+     "yLabel": "13.3"
+    },
+    {
+     "name": "gangteiss",
+     "x": 10.8,
+     "y": 6.8,
+     "r": 11,
+     "xLabel": "10.8",
+     "yLabel": "6.8"
+    },
+    {
+     "name": "lm10",
+     "x": 7.538,
+     "y": 5.0,
+     "r": 19,
+     "xLabel": "7.5",
+     "yLabel": "5.0"
+    },
+    {
+     "name": "newyeye7",
+     "x": 8.4,
+     "y": 11.4,
+     "r": 11,
+     "xLabel": "8.4",
+     "yLabel": "11.4"
+    },
+    {
+     "name": "star-falI04",
+     "x": 14.818,
+     "y": 14.36,
+     "r": 17,
+     "xLabel": "14.8",
+     "yLabel": "14.4"
+    },
+    {
+     "name": "tenbergen",
+     "x": 6.84,
+     "y": 8.84,
+     "r": 31,
+     "xLabel": "6.8",
+     "yLabel": "8.8"
+    },
+    {
+     "name": "yi_hua",
+     "x": 9.167,
+     "y": 9.33,
+     "r": 12,
+     "xLabel": "9.2",
+     "yLabel": "9.3"
+    },
+    {
+     "name": "叶yeeeeee",
+     "x": 14.667,
+     "y": 17.14,
+     "r": 13,
+     "xLabel": "14.7",
+     "yLabel": "17.1"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "x": 7.75,
+     "y": 8.0,
+     "r": 18,
+     "xLabel": "7.8",
+     "yLabel": "8.0"
+    },
+    {
+     "name": "白云",
+     "x": 5.1,
+     "y": 8.15,
+     "r": 26,
+     "xLabel": "5.1",
+     "yLabel": "8.2"
+    },
+    {
+     "name": "老吴k423",
+     "x": 7.2,
+     "y": 7.0,
+     "r": 11,
+     "xLabel": "7.2",
+     "yLabel": "7.0"
+    },
+    {
+     "name": "鱼雷王",
+     "x": 2.6,
+     "y": 6.4,
+     "r": 11,
+     "xLabel": "2.6",
+     "yLabel": "6.4"
+    },
+    {
+     "name": "黑崎小雪",
+     "x": 9.538,
+     "y": 9.54,
+     "r": 19,
+     "xLabel": "9.5",
+     "yLabel": "9.5"
+    }
+   ],
+   "quadrants": {
+    "bl": "排位好、正赛也强",
+    "tl": "排位一般、正赛追回来",
+    "br": "排位好但正赛掉位",
+    "tr": "两项都吃亏"
+   },
+   "bestQuad": "bl",
+   "count": 34,
+   "selfCheck": {
+    "top10InBest": 7,
+    "bestQuad": "bl"
+   }
+  },
+  {
+   "id": "pace_vs_consistency",
+   "title": "圈速 vs 节奏稳定性",
+   "lead": "横轴是与各站最快圈的差距%（越小越快），纵轴是逐站干净圈标准差（越小越稳）。**左下角＝又快又稳**。右下角是\"能跑一圈但守不住\"，左上角是\"慢但机器人\"。",
+   "xLabel": "与最快圈差距%",
+   "yLabel": "节奏标准差 (ms)",
+   "xRev": false,
+   "yRev": false,
+   "points": [
+    {
+     "name": "A380FatLiner",
+     "x": 3.076,
+     "y": 1198.941,
+     "r": 20.95,
+     "xLabel": "3.08",
+     "yLabel": "1199"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "x": 1.331,
+     "y": 1305.627,
+     "r": 19.25,
+     "xLabel": "1.33",
+     "yLabel": "1306"
+    },
+    {
+     "name": "AyatoSeven",
+     "x": 2.742,
+     "y": 1140.087,
+     "r": 33.45,
+     "xLabel": "2.74",
+     "yLabel": "1140"
+    },
+    {
+     "name": "Beast",
+     "x": 4.943,
+     "y": 1019.495,
+     "r": 10.15,
+     "xLabel": "4.94",
+     "yLabel": "1019"
+    },
+    {
+     "name": "ColorFirst",
+     "x": 2.702,
+     "y": 832.416,
+     "r": 9.3,
+     "xLabel": "2.70",
+     "yLabel": "832"
+    },
+    {
+     "name": "DQ",
+     "x": 4.031,
+     "y": 1410.977,
+     "r": 16.25,
+     "xLabel": "4.03",
+     "yLabel": "1411"
+    },
+    {
+     "name": "EasonLeclerc",
+     "x": 2.969,
+     "y": 1356.252,
+     "r": 13.9,
+     "xLabel": "2.97",
+     "yLabel": "1356"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "x": 2.636,
+     "y": 1086.071,
+     "r": 27.95,
+     "xLabel": "2.64",
+     "yLabel": "1086"
+    },
+    {
+     "name": "Gougou",
+     "x": 1.633,
+     "y": 1100.663,
+     "r": 27.2,
+     "xLabel": "1.63",
+     "yLabel": "1101"
+    },
+    {
+     "name": "HENRY",
+     "x": 1.867,
+     "y": 828.624,
+     "r": 8.65,
+     "xLabel": "1.87",
+     "yLabel": "829"
+    },
+    {
+     "name": "HayesCC",
+     "x": 3.459,
+     "y": 1284.864,
+     "r": 31.55,
+     "xLabel": "3.46",
+     "yLabel": "1285"
+    },
+    {
+     "name": "It57",
+     "x": 2.503,
+     "y": 1232.043,
+     "r": 20.6,
+     "xLabel": "2.50",
+     "yLabel": "1232"
+    },
+    {
+     "name": "JPer",
+     "x": 5.17,
+     "y": 1675.171,
+     "r": 12.4,
+     "xLabel": "5.17",
+     "yLabel": "1675"
+    },
+    {
+     "name": "Kagamine RIN",
+     "x": 1.941,
+     "y": 1057.784,
+     "r": 17.7,
+     "xLabel": "1.94",
+     "yLabel": "1058"
+    },
+    {
+     "name": "Landoooo_W",
+     "x": 2.317,
+     "y": 1000.235,
+     "r": 16.45,
+     "xLabel": "2.32",
+     "yLabel": "1000"
+    },
+    {
+     "name": "Lei",
+     "x": 1.523,
+     "y": 1112.71,
+     "r": 11.35,
+     "xLabel": "1.52",
+     "yLabel": "1113"
+    },
+    {
+     "name": "LewisRen",
+     "x": 3.374,
+     "y": 1166.968,
+     "r": 16.85,
+     "xLabel": "3.37",
+     "yLabel": "1167"
+    },
+    {
+     "name": "MFGA",
+     "x": 3.15,
+     "y": 1394.85,
+     "r": 8.05,
+     "xLabel": "3.15",
+     "yLabel": "1395"
+    },
+    {
+     "name": "Mirrorcc",
+     "x": 1.151,
+     "y": 998.415,
+     "r": 8.65,
+     "xLabel": "1.15",
+     "yLabel": "998"
+    },
+    {
+     "name": "Momokong",
+     "x": 2.082,
+     "y": 1367.501,
+     "r": 25.65,
+     "xLabel": "2.08",
+     "yLabel": "1368"
+    },
+    {
+     "name": "Oiysi10023000",
+     "x": 4.743,
+     "y": 1626.918,
+     "r": 8.65,
+     "xLabel": "4.74",
+     "yLabel": "1627"
+    },
+    {
+     "name": "Pan1ys",
+     "x": 2.015,
+     "y": 1076.706,
+     "r": 21.65,
+     "xLabel": "2.01",
+     "yLabel": "1077"
+    },
+    {
+     "name": "RIC",
+     "x": 2.2,
+     "y": 1274.622,
+     "r": 15.85,
+     "xLabel": "2.20",
+     "yLabel": "1275"
+    },
+    {
+     "name": "R_ATPER2",
+     "x": 0.585,
+     "y": 1055.099,
+     "r": 10.7,
+     "xLabel": "0.58",
+     "yLabel": "1055"
+    },
+    {
+     "name": "RanXi",
+     "x": 3.196,
+     "y": 985.023,
+     "r": 8.2,
+     "xLabel": "3.20",
+     "yLabel": "985"
+    },
+    {
+     "name": "Tim",
+     "x": 5.143,
+     "y": 1442.671,
+     "r": 8.95,
+     "xLabel": "5.14",
+     "yLabel": "1443"
+    },
+    {
+     "name": "Wanner",
+     "x": 0.132,
+     "y": 842.876,
+     "r": 10.4,
+     "xLabel": "0.13",
+     "yLabel": "843"
+    },
+    {
+     "name": "WuHen",
+     "x": 1.354,
+     "y": 1168.875,
+     "r": 9.7,
+     "xLabel": "1.35",
+     "yLabel": "1169"
+    },
+    {
+     "name": "dan",
+     "x": 4.351,
+     "y": 1276.189,
+     "r": 17.95,
+     "xLabel": "4.35",
+     "yLabel": "1276"
+    },
+    {
+     "name": "defect",
+     "x": 1.713,
+     "y": 1115.879,
+     "r": 26.2,
+     "xLabel": "1.71",
+     "yLabel": "1116"
+    },
+    {
+     "name": "esmac1",
+     "x": 1.956,
+     "y": 1321.752,
+     "r": 14.3,
+     "xLabel": "1.96",
+     "yLabel": "1322"
+    },
+    {
+     "name": "gangteiss",
+     "x": 2.139,
+     "y": 898.166,
+     "r": 11.45,
+     "xLabel": "2.14",
+     "yLabel": "898"
+    },
+    {
+     "name": "leevenchenko",
+     "x": 5.958,
+     "y": 1584.106,
+     "r": 7.6,
+     "xLabel": "5.96",
+     "yLabel": "1584"
+    },
+    {
+     "name": "lm10",
+     "x": 1.576,
+     "y": 901.223,
+     "r": 21.5,
+     "xLabel": "1.58",
+     "yLabel": "901"
+    },
+    {
+     "name": "newyeye7",
+     "x": 1.591,
+     "y": 1509.889,
+     "r": 10.75,
+     "xLabel": "1.59",
+     "yLabel": "1510"
+    },
+    {
+     "name": "star-falI04",
+     "x": 2.871,
+     "y": 1202.42,
+     "r": 18.2,
+     "xLabel": "2.87",
+     "yLabel": "1202"
+    },
+    {
+     "name": "tenbergen",
+     "x": 2.079,
+     "y": 1112.565,
+     "r": 31.15,
+     "xLabel": "2.08",
+     "yLabel": "1113"
+    },
+    {
+     "name": "x1aofeiyang",
+     "x": 2.353,
+     "y": 952.503,
+     "r": 8.8,
+     "xLabel": "2.35",
+     "yLabel": "953"
+    },
+    {
+     "name": "yi_hua",
+     "x": 3.331,
+     "y": 1199.89,
+     "r": 11.7,
+     "xLabel": "3.33",
+     "yLabel": "1200"
+    },
+    {
+     "name": "叶yeeeeee",
+     "x": 2.999,
+     "y": 968.939,
+     "r": 9.65,
+     "xLabel": "3.00",
+     "yLabel": "969"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "x": 2.401,
+     "y": 1097.849,
+     "r": 16.9,
+     "xLabel": "2.40",
+     "yLabel": "1098"
+    },
+    {
+     "name": "白云",
+     "x": 1.86,
+     "y": 1079.339,
+     "r": 27.35,
+     "xLabel": "1.86",
+     "yLabel": "1079"
+    },
+    {
+     "name": "糕白",
+     "x": 10.136,
+     "y": 818.936,
+     "r": 7.85,
+     "xLabel": "10.14",
+     "yLabel": "819"
+    },
+    {
+     "name": "老吴k423",
+     "x": 2.96,
+     "y": 897.274,
+     "r": 12.1,
+     "xLabel": "2.96",
+     "yLabel": "897"
+    },
+    {
+     "name": "高木同学重度依赖",
+     "x": 1.591,
+     "y": 1349.703,
+     "r": 8.95,
+     "xLabel": "1.59",
+     "yLabel": "1350"
+    },
+    {
+     "name": "鱼雷王",
+     "x": 0.507,
+     "y": 973.744,
+     "r": 11.4,
+     "xLabel": "0.51",
+     "yLabel": "974"
+    },
+    {
+     "name": "黑崎小雪",
+     "x": 5.759,
+     "y": 1244.59,
+     "r": 19.3,
+     "xLabel": "5.76",
+     "yLabel": "1245"
+    }
+   ],
+   "quadrants": {
+    "bl": "又快又稳",
+    "br": "快但不稳",
+    "tl": "慢但极稳",
+    "tr": "又慢又飘"
+   },
+   "bestQuad": "bl",
+   "count": 47,
+   "selfCheck": {
+    "top10InBest": 8,
+    "bestQuad": "bl"
+   }
+  },
+  {
+   "id": "overtake_vs_lost",
+   "title": "超车 vs 被超",
+   "lead": "横轴主动超车、纵轴被超（往右/往上都是更多）。右下角＝超得多又很少被超；左上角＝被超多却很少还手；右上角＝缠斗激烈，互有得失。",
+   "xLabel": "主动超车",
+   "yLabel": "被超次数",
+   "xRev": false,
+   "yRev": false,
+   "points": [
+    {
+     "name": "A380FatLiner",
+     "x": 192,
+     "y": 179,
+     "r": 20,
+     "xLabel": "192",
+     "yLabel": "179"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "x": 170,
+     "y": 214,
+     "r": 20,
+     "xLabel": "170",
+     "yLabel": "214"
+    },
+    {
+     "name": "AyatoSeven",
+     "x": 404,
+     "y": 370,
+     "r": 31,
+     "xLabel": "404",
+     "yLabel": "370"
+    },
+    {
+     "name": "Beast",
+     "x": 53,
+     "y": 62,
+     "r": 12,
+     "xLabel": "53",
+     "yLabel": "62"
+    },
+    {
+     "name": "ColorFirst",
+     "x": 27,
+     "y": 39,
+     "r": 9,
+     "xLabel": "27",
+     "yLabel": "39"
+    },
+    {
+     "name": "DQ",
+     "x": 149,
+     "y": 183,
+     "r": 17,
+     "xLabel": "149",
+     "yLabel": "183"
+    },
+    {
+     "name": "EasonLeclerc",
+     "x": 63,
+     "y": 65,
+     "r": 14,
+     "xLabel": "63",
+     "yLabel": "65"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "x": 288,
+     "y": 319,
+     "r": 28,
+     "xLabel": "288",
+     "yLabel": "319"
+    },
+    {
+     "name": "Gougou",
+     "x": 255,
+     "y": 264,
+     "r": 27,
+     "xLabel": "255",
+     "yLabel": "264"
+    },
+    {
+     "name": "HENRY",
+     "x": 35,
+     "y": 24,
+     "r": 10,
+     "xLabel": "35",
+     "yLabel": "24"
+    },
+    {
+     "name": "HayesCC",
+     "x": 319,
+     "y": 348,
+     "r": 31,
+     "xLabel": "319",
+     "yLabel": "348"
+    },
+    {
+     "name": "It57",
+     "x": 199,
+     "y": 190,
+     "r": 20,
+     "xLabel": "199",
+     "yLabel": "190"
+    },
+    {
+     "name": "JPer",
+     "x": 42,
+     "y": 63,
+     "r": 11,
+     "xLabel": "42",
+     "yLabel": "63"
+    },
+    {
+     "name": "Kagamine RIN",
+     "x": 190,
+     "y": 168,
+     "r": 18,
+     "xLabel": "190",
+     "yLabel": "168"
+    },
+    {
+     "name": "Landoooo_W",
+     "x": 187,
+     "y": 136,
+     "r": 18,
+     "xLabel": "187",
+     "yLabel": "136"
+    },
+    {
+     "name": "Lei",
+     "x": 36,
+     "y": 26,
+     "r": 13,
+     "xLabel": "36",
+     "yLabel": "26"
+    },
+    {
+     "name": "LewisRen",
+     "x": 143,
+     "y": 160,
+     "r": 18,
+     "xLabel": "143",
+     "yLabel": "160"
+    },
+    {
+     "name": "MFGA",
+     "x": 24,
+     "y": 23,
+     "r": 9,
+     "xLabel": "24",
+     "yLabel": "23"
+    },
+    {
+     "name": "Mirrorcc",
+     "x": 51,
+     "y": 30,
+     "r": 8,
+     "xLabel": "51",
+     "yLabel": "30"
+    },
+    {
+     "name": "Momokong",
+     "x": 257,
+     "y": 266,
+     "r": 26,
+     "xLabel": "257",
+     "yLabel": "266"
+    },
+    {
+     "name": "Oiysi10023000",
+     "x": 51,
+     "y": 55,
+     "r": 10,
+     "xLabel": "51",
+     "yLabel": "55"
+    },
+    {
+     "name": "Pan1ys",
+     "x": 200,
+     "y": 171,
+     "r": 20,
+     "xLabel": "200",
+     "yLabel": "171"
+    },
+    {
+     "name": "RIC",
+     "x": 120,
+     "y": 115,
+     "r": 17,
+     "xLabel": "120",
+     "yLabel": "115"
+    },
+    {
+     "name": "R_ATPER2",
+     "x": 15,
+     "y": 19,
+     "r": 10,
+     "xLabel": "15",
+     "yLabel": "19"
+    },
+    {
+     "name": "RanXi",
+     "x": 34,
+     "y": 28,
+     "r": 9,
+     "xLabel": "34",
+     "yLabel": "28"
+    },
+    {
+     "name": "Tim",
+     "x": 42,
+     "y": 50,
+     "r": 12,
+     "xLabel": "42",
+     "yLabel": "50"
+    },
+    {
+     "name": "Wanner",
+     "x": 32,
+     "y": 18,
+     "r": 10,
+     "xLabel": "32",
+     "yLabel": "18"
+    },
+    {
+     "name": "WuHen",
+     "x": 26,
+     "y": 23,
+     "r": 10,
+     "xLabel": "26",
+     "yLabel": "23"
+    },
+    {
+     "name": "dan",
+     "x": 153,
+     "y": 138,
+     "r": 20,
+     "xLabel": "153",
+     "yLabel": "138"
+    },
+    {
+     "name": "defect",
+     "x": 164,
+     "y": 162,
+     "r": 27,
+     "xLabel": "164",
+     "yLabel": "162"
+    },
+    {
+     "name": "esmac1",
+     "x": 152,
+     "y": 144,
+     "r": 15,
+     "xLabel": "152",
+     "yLabel": "144"
+    },
+    {
+     "name": "gangteiss",
+     "x": 69,
+     "y": 47,
+     "r": 11,
+     "xLabel": "69",
+     "yLabel": "47"
+    },
+    {
+     "name": "leevenchenko",
+     "x": 18,
+     "y": 30,
+     "r": 9,
+     "xLabel": "18",
+     "yLabel": "30"
+    },
+    {
+     "name": "lm10",
+     "x": 144,
+     "y": 90,
+     "r": 19,
+     "xLabel": "144",
+     "yLabel": "90"
+    },
+    {
+     "name": "newyeye7",
+     "x": 81,
+     "y": 109,
+     "r": 11,
+     "xLabel": "81",
+     "yLabel": "109"
+    },
+    {
+     "name": "star-falI04",
+     "x": 167,
+     "y": 195,
+     "r": 17,
+     "xLabel": "167",
+     "yLabel": "195"
+    },
+    {
+     "name": "tenbergen",
+     "x": 259,
+     "y": 269,
+     "r": 31,
+     "xLabel": "259",
+     "yLabel": "269"
+    },
+    {
+     "name": "x1aofeiyang",
+     "x": 28,
+     "y": 46,
+     "r": 10,
+     "xLabel": "28",
+     "yLabel": "46"
+    },
+    {
+     "name": "yi_hua",
+     "x": 64,
+     "y": 58,
+     "r": 12,
+     "xLabel": "64",
+     "yLabel": "58"
+    },
+    {
+     "name": "叶yeeeeee",
+     "x": 83,
+     "y": 79,
+     "r": 13,
+     "xLabel": "83",
+     "yLabel": "79"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "x": 109,
+     "y": 112,
+     "r": 18,
+     "xLabel": "109",
+     "yLabel": "112"
+    },
+    {
+     "name": "白云",
+     "x": 199,
+     "y": 256,
+     "r": 26,
+     "xLabel": "199",
+     "yLabel": "256"
+    },
+    {
+     "name": "糕白",
+     "x": 22,
+     "y": 27,
+     "r": 10,
+     "xLabel": "22",
+     "yLabel": "27"
+    },
+    {
+     "name": "老吴k423",
+     "x": 58,
+     "y": 53,
+     "r": 11,
+     "xLabel": "58",
+     "yLabel": "53"
+    },
+    {
+     "name": "高木同学重度依赖",
+     "x": 29,
+     "y": 25,
+     "r": 10,
+     "xLabel": "29",
+     "yLabel": "25"
+    },
+    {
+     "name": "鱼雷王",
+     "x": 26,
+     "y": 22,
+     "r": 11,
+     "xLabel": "26",
+     "yLabel": "22"
+    },
+    {
+     "name": "黑崎小雪",
+     "x": 166,
+     "y": 163,
+     "r": 19,
+     "xLabel": "166",
+     "yLabel": "163"
+    }
+   ],
+   "quadrants": {
+    "br": "超得多、很少被超",
+    "tl": "被超多且不还手",
+    "bl": "几乎不参与缠斗",
+    "tr": "缠斗激烈、互有得失"
+   },
+   "bestQuad": null,
+   "count": 47
+  },
+  {
+   "id": "wear_vs_pace",
+   "title": "轮胎磨损 vs 圈速",
+   "lead": "横轴胎段磨损率（%/圈，越小越省胎），纵轴是与最快圈的差距%（越小越快）。**左下角＝又快又省胎**，这是最难同时做到的组合。",
+   "xLabel": "磨损率 %/圈",
+   "yLabel": "与最快圈差距%",
+   "xRev": false,
+   "yRev": false,
+   "points": [
+    {
+     "name": "A380FatLiner",
+     "x": 5.142,
+     "y": 3.076,
+     "r": 48,
+     "xLabel": "5.14",
+     "yLabel": "3.08"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "x": 4.546,
+     "y": 1.331,
+     "r": 48,
+     "xLabel": "4.55",
+     "yLabel": "1.33"
+    },
+    {
+     "name": "AyatoSeven",
+     "x": 4.427,
+     "y": 2.742,
+     "r": 78,
+     "xLabel": "4.43",
+     "yLabel": "2.74"
+    },
+    {
+     "name": "Beast",
+     "x": 5.473,
+     "y": 4.943,
+     "r": 18,
+     "xLabel": "5.47",
+     "yLabel": "4.94"
+    },
+    {
+     "name": "ColorFirst",
+     "x": 3.385,
+     "y": 2.702,
+     "r": 15,
+     "xLabel": "3.39",
+     "yLabel": "2.70"
+    },
+    {
+     "name": "DQ",
+     "x": 3.435,
+     "y": 4.031,
+     "r": 36,
+     "xLabel": "3.43",
+     "yLabel": "4.03"
+    },
+    {
+     "name": "EasonLeclerc",
+     "x": 4.643,
+     "y": 2.969,
+     "r": 27,
+     "xLabel": "4.64",
+     "yLabel": "2.97"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "x": 4.659,
+     "y": 2.636,
+     "r": 69,
+     "xLabel": "4.66",
+     "yLabel": "2.64"
+    },
+    {
+     "name": "Gougou",
+     "x": 4.482,
+     "y": 1.633,
+     "r": 66,
+     "xLabel": "4.48",
+     "yLabel": "1.63"
+    },
+    {
+     "name": "HENRY",
+     "x": 2.899,
+     "y": 1.867,
+     "r": 18,
+     "xLabel": "2.90",
+     "yLabel": "1.87"
+    },
+    {
+     "name": "HayesCC",
+     "x": 3.878,
+     "y": 3.459,
+     "r": 78,
+     "xLabel": "3.88",
+     "yLabel": "3.46"
+    },
+    {
+     "name": "It57",
+     "x": 5.198,
+     "y": 2.503,
+     "r": 45,
+     "xLabel": "5.20",
+     "yLabel": "2.50"
+    },
+    {
+     "name": "JPer",
+     "x": 3.921,
+     "y": 5.17,
+     "r": 21,
+     "xLabel": "3.92",
+     "yLabel": "5.17"
+    },
+    {
+     "name": "Kagamine RIN",
+     "x": 3.943,
+     "y": 1.941,
+     "r": 39,
+     "xLabel": "3.94",
+     "yLabel": "1.94"
+    },
+    {
+     "name": "Landoooo_W",
+     "x": 5.86,
+     "y": 2.317,
+     "r": 36,
+     "xLabel": "5.86",
+     "yLabel": "2.32"
+    },
+    {
+     "name": "Lei",
+     "x": 3.51,
+     "y": 1.523,
+     "r": 21,
+     "xLabel": "3.51",
+     "yLabel": "1.52"
+    },
+    {
+     "name": "LewisRen",
+     "x": 4.143,
+     "y": 3.374,
+     "r": 36,
+     "xLabel": "4.14",
+     "yLabel": "3.37"
+    },
+    {
+     "name": "MFGA",
+     "x": 6.186,
+     "y": 3.15,
+     "r": 15,
+     "xLabel": "6.19",
+     "yLabel": "3.15"
+    },
+    {
+     "name": "Mirrorcc",
+     "x": 4.817,
+     "y": 1.151,
+     "r": 12,
+     "xLabel": "4.82",
+     "yLabel": "1.15"
+    },
+    {
+     "name": "Momokong",
+     "x": 4.553,
+     "y": 2.082,
+     "r": 60,
+     "xLabel": "4.55",
+     "yLabel": "2.08"
+    },
+    {
+     "name": "Oiysi10023000",
+     "x": 5.215,
+     "y": 4.743,
+     "r": 15,
+     "xLabel": "5.21",
+     "yLabel": "4.74"
+    },
+    {
+     "name": "Pan1ys",
+     "x": 4.362,
+     "y": 2.015,
+     "r": 48,
+     "xLabel": "4.36",
+     "yLabel": "2.01"
+    },
+    {
+     "name": "RIC",
+     "x": 4.116,
+     "y": 2.2,
+     "r": 36,
+     "xLabel": "4.12",
+     "yLabel": "2.20"
+    },
+    {
+     "name": "R_ATPER2",
+     "x": 3.037,
+     "y": 0.585,
+     "r": 18,
+     "xLabel": "3.04",
+     "yLabel": "0.58"
+    },
+    {
+     "name": "RanXi",
+     "x": 6.065,
+     "y": 3.196,
+     "r": 12,
+     "xLabel": "6.07",
+     "yLabel": "3.20"
+    },
+    {
+     "name": "Tim",
+     "x": 4.277,
+     "y": 5.143,
+     "r": 18,
+     "xLabel": "4.28",
+     "yLabel": "5.14"
+    },
+    {
+     "name": "Wanner",
+     "x": 5.075,
+     "y": 0.132,
+     "r": 18,
+     "xLabel": "5.07",
+     "yLabel": "0.13"
+    },
+    {
+     "name": "WuHen",
+     "x": 5.624,
+     "y": 1.354,
+     "r": 18,
+     "xLabel": "5.62",
+     "yLabel": "1.35"
+    },
+    {
+     "name": "dan",
+     "x": 4.467,
+     "y": 4.351,
+     "r": 45,
+     "xLabel": "4.47",
+     "yLabel": "4.35"
+    },
+    {
+     "name": "defect",
+     "x": 3.727,
+     "y": 1.713,
+     "r": 63,
+     "xLabel": "3.73",
+     "yLabel": "1.71"
+    },
+    {
+     "name": "esmac1",
+     "x": 5.327,
+     "y": 1.956,
+     "r": 33,
+     "xLabel": "5.33",
+     "yLabel": "1.96"
+    },
+    {
+     "name": "gangteiss",
+     "x": 4.348,
+     "y": 2.139,
+     "r": 21,
+     "xLabel": "4.35",
+     "yLabel": "2.14"
+    },
+    {
+     "name": "leevenchenko",
+     "x": 3.435,
+     "y": 5.958,
+     "r": 12,
+     "xLabel": "3.43",
+     "yLabel": "5.96"
+    },
+    {
+     "name": "lm10",
+     "x": 4.003,
+     "y": 1.576,
+     "r": 45,
+     "xLabel": "4.00",
+     "yLabel": "1.58"
+    },
+    {
+     "name": "newyeye7",
+     "x": 4.247,
+     "y": 1.591,
+     "r": 21,
+     "xLabel": "4.25",
+     "yLabel": "1.59"
+    },
+    {
+     "name": "star-falI04",
+     "x": 4.155,
+     "y": 2.871,
+     "r": 39,
+     "xLabel": "4.16",
+     "yLabel": "2.87"
+    },
+    {
+     "name": "tenbergen",
+     "x": 3.996,
+     "y": 2.079,
+     "r": 75,
+     "xLabel": "4.00",
+     "yLabel": "2.08"
+    },
+    {
+     "name": "x1aofeiyang",
+     "x": 4.447,
+     "y": 2.353,
+     "r": 15,
+     "xLabel": "4.45",
+     "yLabel": "2.35"
+    },
+    {
+     "name": "yi_hua",
+     "x": 4.114,
+     "y": 3.331,
+     "r": 24,
+     "xLabel": "4.11",
+     "yLabel": "3.33"
+    },
+    {
+     "name": "叶yeeeeee",
+     "x": 4.779,
+     "y": 2.999,
+     "r": 21,
+     "xLabel": "4.78",
+     "yLabel": "3.00"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "x": 4.107,
+     "y": 2.401,
+     "r": 39,
+     "xLabel": "4.11",
+     "yLabel": "2.40"
+    },
+    {
+     "name": "白云",
+     "x": 3.56,
+     "y": 1.86,
+     "r": 63,
+     "xLabel": "3.56",
+     "yLabel": "1.86"
+    },
+    {
+     "name": "糕白",
+     "x": 3.597,
+     "y": 10.136,
+     "r": 12,
+     "xLabel": "3.60",
+     "yLabel": "10.14"
+    },
+    {
+     "name": "老吴k423",
+     "x": 4.465,
+     "y": 2.96,
+     "r": 21,
+     "xLabel": "4.46",
+     "yLabel": "2.96"
+    },
+    {
+     "name": "高木同学重度依赖",
+     "x": 4.946,
+     "y": 1.591,
+     "r": 18,
+     "xLabel": "4.95",
+     "yLabel": "1.59"
+    },
+    {
+     "name": "鱼雷王",
+     "x": 5.268,
+     "y": 0.507,
+     "r": 21,
+     "xLabel": "5.27",
+     "yLabel": "0.51"
+    },
+    {
+     "name": "黑崎小雪",
+     "x": 3.799,
+     "y": 5.759,
+     "r": 42,
+     "xLabel": "3.80",
+     "yLabel": "5.76"
+    }
+   ],
+   "quadrants": {
+    "bl": "又快又省胎",
+    "br": "快但费胎",
+    "tl": "慢但省胎",
+    "tr": "又慢又费胎"
+   },
+   "bestQuad": "bl",
+   "count": 47,
+   "selfCheck": {
+    "top10InBest": 6,
+    "bestQuad": "bl"
+   }
+  },
+  {
+   "id": "penalty_vs_collision",
+   "title": "罚单 vs 碰撞",
+   "lead": "横轴罚单数（罚时/警告）、纵轴碰撞参与次数。**左下角＝全季最干净**。两者都高的人不只是运气差，是驾驶风格问题。",
+   "xLabel": "罚单（张）",
+   "yLabel": "碰撞参与（次）",
+   "xRev": false,
+   "yRev": false,
+   "points": [
+    {
+     "name": "A380FatLiner",
+     "x": 0,
+     "y": 85,
+     "r": 20,
+     "xLabel": "0",
+     "yLabel": "85"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "x": 1,
+     "y": 80,
+     "r": 20,
+     "xLabel": "1",
+     "yLabel": "80"
+    },
+    {
+     "name": "AyatoSeven",
+     "x": 5,
+     "y": 193,
+     "r": 31,
+     "xLabel": "5",
+     "yLabel": "193"
+    },
+    {
+     "name": "Beast",
+     "x": 3,
+     "y": 33,
+     "r": 12,
+     "xLabel": "3",
+     "yLabel": "33"
+    },
+    {
+     "name": "ColorFirst",
+     "x": 1,
+     "y": 21,
+     "r": 9,
+     "xLabel": "1",
+     "yLabel": "21"
+    },
+    {
+     "name": "DQ",
+     "x": 1,
+     "y": 84,
+     "r": 17,
+     "xLabel": "1",
+     "yLabel": "84"
+    },
+    {
+     "name": "EasonLeclerc",
+     "x": 0,
+     "y": 31,
+     "r": 14,
+     "xLabel": "0",
+     "yLabel": "31"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "x": 7,
+     "y": 190,
+     "r": 28,
+     "xLabel": "7",
+     "yLabel": "190"
+    },
+    {
+     "name": "Gougou",
+     "x": 3,
+     "y": 129,
+     "r": 27,
+     "xLabel": "3",
+     "yLabel": "129"
+    },
+    {
+     "name": "HENRY",
+     "x": 1,
+     "y": 23,
+     "r": 10,
+     "xLabel": "1",
+     "yLabel": "23"
+    },
+    {
+     "name": "HayesCC",
+     "x": 0,
+     "y": 174,
+     "r": 31,
+     "xLabel": "0",
+     "yLabel": "174"
+    },
+    {
+     "name": "It57",
+     "x": 1,
+     "y": 100,
+     "r": 20,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
+     "name": "JPer",
+     "x": 0,
+     "y": 17,
+     "r": 11,
+     "xLabel": "0",
+     "yLabel": "17"
+    },
+    {
+     "name": "Kagamine RIN",
+     "x": 2,
+     "y": 90,
+     "r": 18,
+     "xLabel": "2",
+     "yLabel": "90"
+    },
+    {
+     "name": "Landoooo_W",
+     "x": 4,
+     "y": 90,
+     "r": 18,
+     "xLabel": "4",
+     "yLabel": "90"
+    },
+    {
+     "name": "Lei",
+     "x": 0,
+     "y": 11,
+     "r": 13,
+     "xLabel": "0",
+     "yLabel": "11"
+    },
+    {
+     "name": "LewisRen",
+     "x": 2,
+     "y": 68,
+     "r": 18,
+     "xLabel": "2",
+     "yLabel": "68"
+    },
+    {
+     "name": "MFGA",
+     "x": 2,
+     "y": 17,
+     "r": 9,
+     "xLabel": "2",
+     "yLabel": "17"
+    },
+    {
+     "name": "Mirrorcc",
+     "x": 0,
+     "y": 12,
+     "r": 8,
+     "xLabel": "0",
+     "yLabel": "12"
+    },
+    {
+     "name": "Momokong",
+     "x": 1,
+     "y": 128,
+     "r": 26,
+     "xLabel": "1",
+     "yLabel": "128"
+    },
+    {
+     "name": "Oiysi10023000",
+     "x": 3,
+     "y": 37,
+     "r": 10,
+     "xLabel": "3",
+     "yLabel": "37"
+    },
+    {
+     "name": "Pan1ys",
+     "x": 0,
+     "y": 86,
+     "r": 20,
+     "xLabel": "0",
+     "yLabel": "86"
+    },
+    {
+     "name": "RIC",
+     "x": 1,
+     "y": 57,
+     "r": 17,
+     "xLabel": "1",
+     "yLabel": "57"
+    },
+    {
+     "name": "R_ATPER2",
+     "x": 0,
+     "y": 5,
+     "r": 10,
+     "xLabel": "0",
+     "yLabel": "5"
+    },
+    {
+     "name": "RanXi",
+     "x": 0,
+     "y": 10,
+     "r": 9,
+     "xLabel": "0",
+     "yLabel": "10"
+    },
+    {
+     "name": "Tim",
+     "x": 0,
+     "y": 29,
+     "r": 12,
+     "xLabel": "0",
+     "yLabel": "29"
+    },
+    {
+     "name": "Wanner",
+     "x": 0,
+     "y": 10,
+     "r": 10,
+     "xLabel": "0",
+     "yLabel": "10"
+    },
+    {
+     "name": "WuHen",
+     "x": 0,
+     "y": 18,
+     "r": 10,
+     "xLabel": "0",
+     "yLabel": "18"
+    },
+    {
+     "name": "dan",
+     "x": 6,
+     "y": 104,
+     "r": 20,
+     "xLabel": "6",
+     "yLabel": "104"
+    },
+    {
+     "name": "defect",
+     "x": 0,
+     "y": 81,
+     "r": 27,
+     "xLabel": "0",
+     "yLabel": "81"
+    },
+    {
+     "name": "esmac1",
+     "x": 2,
+     "y": 81,
+     "r": 15,
+     "xLabel": "2",
+     "yLabel": "81"
+    },
+    {
+     "name": "gangteiss",
+     "x": 1,
+     "y": 25,
+     "r": 11,
+     "xLabel": "1",
+     "yLabel": "25"
+    },
+    {
+     "name": "leevenchenko",
+     "x": 0,
+     "y": 27,
+     "r": 9,
+     "xLabel": "0",
+     "yLabel": "27"
+    },
+    {
+     "name": "lm10",
+     "x": 1,
+     "y": 51,
+     "r": 19,
+     "xLabel": "1",
+     "yLabel": "51"
+    },
+    {
+     "name": "newyeye7",
+     "x": 1,
+     "y": 50,
+     "r": 11,
+     "xLabel": "1",
+     "yLabel": "50"
+    },
+    {
+     "name": "star-falI04",
+     "x": 5,
+     "y": 108,
+     "r": 17,
+     "xLabel": "5",
+     "yLabel": "108"
+    },
+    {
+     "name": "tenbergen",
+     "x": 3,
+     "y": 124,
+     "r": 31,
+     "xLabel": "3",
+     "yLabel": "124"
+    },
+    {
+     "name": "x1aofeiyang",
+     "x": 1,
+     "y": 16,
+     "r": 10,
+     "xLabel": "1",
+     "yLabel": "16"
+    },
+    {
+     "name": "yi_hua",
+     "x": 0,
+     "y": 38,
+     "r": 12,
+     "xLabel": "0",
+     "yLabel": "38"
+    },
+    {
+     "name": "叶yeeeeee",
+     "x": 1,
+     "y": 47,
+     "r": 13,
+     "xLabel": "1",
+     "yLabel": "47"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "x": 1,
+     "y": 47,
+     "r": 18,
+     "xLabel": "1",
+     "yLabel": "47"
+    },
+    {
+     "name": "白云",
+     "x": 0,
+     "y": 120,
+     "r": 26,
+     "xLabel": "0",
+     "yLabel": "120"
+    },
+    {
+     "name": "糕白",
+     "x": 1,
+     "y": 14,
+     "r": 10,
+     "xLabel": "1",
+     "yLabel": "14"
+    },
+    {
+     "name": "老吴k423",
+     "x": 0,
+     "y": 48,
+     "r": 11,
+     "xLabel": "0",
+     "yLabel": "48"
+    },
+    {
+     "name": "高木同学重度依赖",
+     "x": 0,
+     "y": 32,
+     "r": 10,
+     "xLabel": "0",
+     "yLabel": "32"
+    },
+    {
+     "name": "鱼雷王",
+     "x": 0,
+     "y": 12,
+     "r": 11,
+     "xLabel": "0",
+     "yLabel": "12"
+    },
+    {
+     "name": "黑崎小雪",
+     "x": 3,
+     "y": 56,
+     "r": 19,
+     "xLabel": "3",
+     "yLabel": "56"
+    }
+   ],
+   "quadrants": {
+    "bl": "干净",
+    "br": "吃罚单但少碰撞",
+    "tl": "撞得多但不吃罚单",
+    "tr": "又撞又罚"
+   },
+   "bestQuad": null,
+   "count": 47
+  },
+  {
+   "id": "starts_vs_points",
+   "title": "出场数 vs 积分",
+   "lead": "横轴实际出场、纵轴积分。**左上角＝少跑多拿（效率最高）**，右下角＝跑得多但收获有限。对角线越陡说明每场含金量越高。",
+   "xLabel": "出场场次",
+   "yLabel": "积分",
+   "xRev": false,
+   "yRev": false,
+   "points": [
+    {
+     "name": "A380FatLiner",
+     "x": 14,
+     "y": 63,
+     "r": 20,
+     "xLabel": "14",
+     "yLabel": "63"
+    },
+    {
+     "name": "Aisu",
+     "x": 1,
+     "y": 0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "0"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "x": 14,
+     "y": 116,
+     "r": 20,
+     "xLabel": "14",
+     "yLabel": "116"
+    },
+    {
+     "name": "Anegler",
+     "x": 1,
+     "y": 10,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "10"
+    },
+    {
+     "name": "AyatoSeven",
+     "x": 25,
+     "y": 208,
+     "r": 31,
+     "xLabel": "25",
+     "yLabel": "208"
+    },
+    {
+     "name": "Beast",
+     "x": 6,
+     "y": 18,
+     "r": 12,
+     "xLabel": "6",
+     "yLabel": "18"
+    },
+    {
+     "name": "ColorFirst",
+     "x": 3,
+     "y": 16,
+     "r": 9,
+     "xLabel": "3",
+     "yLabel": "16"
+    },
+    {
+     "name": "DQ",
+     "x": 11,
+     "y": 46,
+     "r": 17,
+     "xLabel": "11",
+     "yLabel": "46"
+    },
+    {
+     "name": "EasonLeclerc",
+     "x": 8,
+     "y": 44,
+     "r": 14,
+     "xLabel": "8",
+     "yLabel": "44"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "x": 22,
+     "y": 109,
+     "r": 28,
+     "xLabel": "22",
+     "yLabel": "109"
+    },
+    {
+     "name": "FerrariGoat",
+     "x": 1,
+     "y": 14,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "14"
+    },
+    {
+     "name": "Gougou",
+     "x": 21,
+     "y": 241,
+     "r": 27,
+     "xLabel": "21",
+     "yLabel": "241"
+    },
+    {
+     "name": "HENRY",
+     "x": 4,
+     "y": 8,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "8"
+    },
+    {
+     "name": "HEZ",
+     "x": 3,
+     "y": 13,
+     "r": 9,
+     "xLabel": "3",
+     "yLabel": "13"
+    },
+    {
+     "name": "HayesCC",
+     "x": 25,
+     "y": 166,
+     "r": 31,
+     "xLabel": "25",
+     "yLabel": "166"
+    },
+    {
+     "name": "It57",
+     "x": 14,
+     "y": 107,
+     "r": 20,
+     "xLabel": "14",
+     "yLabel": "107"
+    },
+    {
+     "name": "JPer",
+     "x": 5,
+     "y": 49,
+     "r": 11,
+     "xLabel": "5",
+     "yLabel": "49"
+    },
+    {
+     "name": "Kagamine RIN",
+     "x": 12,
+     "y": 122,
+     "r": 18,
+     "xLabel": "12",
+     "yLabel": "122"
+    },
+    {
+     "name": "Landoooo_W",
+     "x": 12,
+     "y": 75,
+     "r": 18,
+     "xLabel": "12",
+     "yLabel": "75"
+    },
+    {
+     "name": "Lei",
+     "x": 7,
+     "y": 46,
+     "r": 13,
+     "xLabel": "7",
+     "yLabel": "46"
+    },
+    {
+     "name": "LewisRen",
+     "x": 12,
+     "y": 76,
+     "r": 18,
+     "xLabel": "12",
+     "yLabel": "76"
+    },
+    {
+     "name": "MFGA",
+     "x": 3,
+     "y": 10,
+     "r": 9,
+     "xLabel": "3",
+     "yLabel": "10"
+    },
+    {
+     "name": "MinatoNaoko",
+     "x": 1,
+     "y": 18,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "18"
+    },
+    {
+     "name": "Mirrorcc",
+     "x": 2,
+     "y": 40,
+     "r": 8,
+     "xLabel": "2",
+     "yLabel": "40"
+    },
+    {
+     "name": "Momokong",
+     "x": 20,
+     "y": 154,
+     "r": 26,
+     "xLabel": "20",
+     "yLabel": "154"
+    },
+    {
+     "name": "Oiysi10023000",
+     "x": 4,
+     "y": 4,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "4"
+    },
+    {
+     "name": "Pan1ys",
+     "x": 14,
+     "y": 144,
+     "r": 20,
+     "xLabel": "14",
+     "yLabel": "144"
+    },
+    {
+     "name": "Perez",
+     "x": 1,
+     "y": 4,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "4"
+    },
+    {
+     "name": "RIC",
+     "x": 11,
+     "y": 112,
+     "r": 17,
+     "xLabel": "11",
+     "yLabel": "112"
+    },
+    {
+     "name": "R_ATPER2",
+     "x": 4,
+     "y": 92,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "92"
+    },
+    {
+     "name": "RanXi",
+     "x": 3,
+     "y": 2,
+     "r": 9,
+     "xLabel": "3",
+     "yLabel": "2"
+    },
+    {
+     "name": "Sliced Onion",
+     "x": 1,
+     "y": 20,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "20"
+    },
+    {
+     "name": "Surviver",
+     "x": 1,
+     "y": 0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "0"
+    },
+    {
+     "name": "Swizzet3271",
+     "x": 1,
+     "y": 10,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "10"
+    },
+    {
+     "name": "TC",
+     "x": 1,
+     "y": 0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "0"
+    },
+    {
+     "name": "Tim",
+     "x": 6,
+     "y": 20,
+     "r": 12,
+     "xLabel": "6",
+     "yLabel": "20"
+    },
+    {
+     "name": "UbisoftHongKong",
+     "x": 1,
+     "y": 0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "0"
+    },
+    {
+     "name": "Wanner",
+     "x": 4,
+     "y": 97,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "97"
+    },
+    {
+     "name": "WuHen",
+     "x": 4,
+     "y": 58,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "58"
+    },
+    {
+     "name": "dan",
+     "x": 14,
+     "y": 27,
+     "r": 20,
+     "xLabel": "14",
+     "yLabel": "27"
+    },
+    {
+     "name": "defect",
+     "x": 21,
+     "y": 272,
+     "r": 27,
+     "xLabel": "21",
+     "yLabel": "272"
+    },
+    {
+     "name": "esmac1",
+     "x": 9,
+     "y": 37,
+     "r": 15,
+     "xLabel": "9",
+     "yLabel": "37"
+    },
+    {
+     "name": "funanana",
+     "x": 1,
+     "y": 25,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "25"
+    },
+    {
+     "name": "gangteiss",
+     "x": 5,
+     "y": 69,
+     "r": 11,
+     "xLabel": "5",
+     "yLabel": "69"
+    },
+    {
+     "name": "leevenchenko",
+     "x": 3,
+     "y": 0,
+     "r": 9,
+     "xLabel": "3",
+     "yLabel": "0"
+    },
+    {
+     "name": "lm10",
+     "x": 13,
+     "y": 221,
+     "r": 19,
+     "xLabel": "13",
+     "yLabel": "221"
+    },
+    {
+     "name": "newyeye7",
+     "x": 5,
+     "y": 29,
+     "r": 11,
+     "xLabel": "5",
+     "yLabel": "29"
+    },
+    {
+     "name": "star-falI04",
+     "x": 11,
+     "y": 25,
+     "r": 17,
+     "xLabel": "11",
+     "yLabel": "25"
+    },
+    {
+     "name": "tenbergen",
+     "x": 25,
+     "y": 238,
+     "r": 31,
+     "xLabel": "25",
+     "yLabel": "238"
+    },
+    {
+     "name": "x1aofeiyang",
+     "x": 4,
+     "y": 1,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "1"
+    },
+    {
+     "name": "yi_hua",
+     "x": 6,
+     "y": 70,
+     "r": 12,
+     "xLabel": "6",
+     "yLabel": "70"
+    },
+    {
+     "name": "✪x1aofeiyang",
+     "x": 1,
+     "y": 0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "0"
+    },
+    {
+     "name": "叶yeeeeee",
+     "x": 7,
+     "y": 9,
+     "r": 13,
+     "xLabel": "7",
+     "yLabel": "9"
+    },
+    {
+     "name": "哈哈",
+     "x": 1,
+     "y": 0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "0"
+    },
+    {
+     "name": "清蒸猫头凉拌菠萝",
+     "x": 0,
+     "y": 0,
+     "r": 6,
+     "xLabel": "0",
+     "yLabel": "0"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "x": 12,
+     "y": 115,
+     "r": 18,
+     "xLabel": "12",
+     "yLabel": "115"
+    },
+    {
+     "name": "白云",
+     "x": 20,
+     "y": 215,
+     "r": 26,
+     "xLabel": "20",
+     "yLabel": "215"
+    },
+    {
+     "name": "糕白",
+     "x": 4,
+     "y": 25,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "25"
+    },
+    {
+     "name": "老吴k423",
+     "x": 5,
+     "y": 71,
+     "r": 11,
+     "xLabel": "5",
+     "yLabel": "71"
+    },
+    {
+     "name": "芒果",
+     "x": 2,
+     "y": 8,
+     "r": 8,
+     "xLabel": "2",
+     "yLabel": "8"
+    },
+    {
+     "name": "雷电芽衣",
+     "x": 2,
+     "y": 0,
+     "r": 8,
+     "xLabel": "2",
+     "yLabel": "0"
+    },
+    {
+     "name": "高木同学重度依赖",
+     "x": 4,
+     "y": 6,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "6"
+    },
+    {
+     "name": "鱼雷王",
+     "x": 5,
+     "y": 72,
+     "r": 11,
+     "xLabel": "5",
+     "yLabel": "72"
+    },
+    {
+     "name": "黑崎小雪",
+     "x": 13,
+     "y": 121,
+     "r": 19,
+     "xLabel": "13",
+     "yLabel": "121"
+    }
+   ],
+   "quadrants": {
+    "tl": "少跑多拿",
+    "tr": "跑得多也拿得多",
+    "bl": "出场少、收获也少",
+    "br": "全勤但收获有限"
+   },
+   "bestQuad": null,
+   "count": 64
+  },
+  {
+   "id": "lead_vs_points",
+   "title": "领跑圈数 vs 积分",
+   "lead": "横轴领跑圈数、纵轴积分。**右上角＝统治级**；左上角（分高但没领跑过）说明靠稳定而不是靠速度拿分。",
+   "xLabel": "领跑圈数",
+   "yLabel": "积分",
+   "xRev": false,
+   "yRev": false,
+   "points": [
+    {
+     "name": "A380FatLiner",
+     "x": 0,
+     "y": 63,
+     "r": 20,
+     "xLabel": "0",
+     "yLabel": "63"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "x": 0,
+     "y": 116,
+     "r": 20,
+     "xLabel": "0",
+     "yLabel": "116"
+    },
+    {
+     "name": "AyatoSeven",
+     "x": 1,
+     "y": 208,
+     "r": 31,
+     "xLabel": "1",
+     "yLabel": "208"
+    },
+    {
+     "name": "Beast",
+     "x": 4,
+     "y": 18,
+     "r": 12,
+     "xLabel": "4",
+     "yLabel": "18"
+    },
+    {
+     "name": "ColorFirst",
+     "x": 1,
+     "y": 16,
+     "r": 9,
+     "xLabel": "1",
+     "yLabel": "16"
+    },
+    {
+     "name": "DQ",
+     "x": 0,
+     "y": 46,
+     "r": 17,
+     "xLabel": "0",
+     "yLabel": "46"
+    },
+    {
+     "name": "EasonLeclerc",
+     "x": 1,
+     "y": 44,
+     "r": 14,
+     "xLabel": "1",
+     "yLabel": "44"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "x": 0,
+     "y": 109,
+     "r": 28,
+     "xLabel": "0",
+     "yLabel": "109"
+    },
+    {
+     "name": "Gougou",
+     "x": 6,
+     "y": 241,
+     "r": 27,
+     "xLabel": "6",
+     "yLabel": "241"
+    },
+    {
+     "name": "HENRY",
+     "x": 6,
+     "y": 8,
+     "r": 10,
+     "xLabel": "6",
+     "yLabel": "8"
+    },
+    {
+     "name": "HayesCC",
+     "x": 9,
+     "y": 166,
+     "r": 31,
+     "xLabel": "9",
+     "yLabel": "166"
+    },
+    {
+     "name": "It57",
+     "x": 3,
+     "y": 107,
+     "r": 20,
+     "xLabel": "3",
+     "yLabel": "107"
+    },
+    {
+     "name": "JPer",
+     "x": 1,
+     "y": 49,
+     "r": 11,
+     "xLabel": "1",
+     "yLabel": "49"
+    },
+    {
+     "name": "Kagamine RIN",
+     "x": 6,
+     "y": 122,
+     "r": 18,
+     "xLabel": "6",
+     "yLabel": "122"
+    },
+    {
+     "name": "Landoooo_W",
+     "x": 0,
+     "y": 75,
+     "r": 18,
+     "xLabel": "0",
+     "yLabel": "75"
+    },
+    {
+     "name": "Lei",
+     "x": 0,
+     "y": 46,
+     "r": 13,
+     "xLabel": "0",
+     "yLabel": "46"
+    },
+    {
+     "name": "LewisRen",
+     "x": 0,
+     "y": 76,
+     "r": 18,
+     "xLabel": "0",
+     "yLabel": "76"
+    },
+    {
+     "name": "MFGA",
+     "x": 8,
+     "y": 10,
+     "r": 9,
+     "xLabel": "8",
+     "yLabel": "10"
+    },
+    {
+     "name": "Mirrorcc",
+     "x": 8,
+     "y": 40,
+     "r": 8,
+     "xLabel": "8",
+     "yLabel": "40"
+    },
+    {
+     "name": "Momokong",
+     "x": 25,
+     "y": 154,
+     "r": 26,
+     "xLabel": "25",
+     "yLabel": "154"
+    },
+    {
+     "name": "Oiysi10023000",
+     "x": 0,
+     "y": 4,
+     "r": 10,
+     "xLabel": "0",
+     "yLabel": "4"
+    },
+    {
+     "name": "Pan1ys",
+     "x": 0,
+     "y": 144,
+     "r": 20,
+     "xLabel": "0",
+     "yLabel": "144"
+    },
+    {
+     "name": "RIC",
+     "x": 4,
+     "y": 112,
+     "r": 17,
+     "xLabel": "4",
+     "yLabel": "112"
+    },
+    {
+     "name": "R_ATPER2",
+     "x": 71,
+     "y": 92,
+     "r": 10,
+     "xLabel": "71",
+     "yLabel": "92"
+    },
+    {
+     "name": "RanXi",
+     "x": 0,
+     "y": 2,
+     "r": 9,
+     "xLabel": "0",
+     "yLabel": "2"
+    },
+    {
+     "name": "Tim",
+     "x": 0,
+     "y": 20,
+     "r": 12,
+     "xLabel": "0",
+     "yLabel": "20"
+    },
+    {
+     "name": "Wanner",
+     "x": 52,
+     "y": 97,
+     "r": 10,
+     "xLabel": "52",
+     "yLabel": "97"
+    },
+    {
+     "name": "WuHen",
+     "x": 52,
+     "y": 58,
+     "r": 10,
+     "xLabel": "52",
+     "yLabel": "58"
+    },
+    {
+     "name": "dan",
+     "x": 0,
+     "y": 27,
+     "r": 20,
+     "xLabel": "0",
+     "yLabel": "27"
+    },
+    {
+     "name": "defect",
+     "x": 130,
+     "y": 272,
+     "r": 27,
+     "xLabel": "130",
+     "yLabel": "272"
+    },
+    {
+     "name": "esmac1",
+     "x": 0,
+     "y": 37,
+     "r": 15,
+     "xLabel": "0",
+     "yLabel": "37"
+    },
+    {
+     "name": "gangteiss",
+     "x": 20,
+     "y": 69,
+     "r": 11,
+     "xLabel": "20",
+     "yLabel": "69"
+    },
+    {
+     "name": "leevenchenko",
+     "x": 0,
+     "y": 0,
+     "r": 9,
+     "xLabel": "0",
+     "yLabel": "0"
+    },
+    {
+     "name": "lm10",
+     "x": 58,
+     "y": 221,
+     "r": 19,
+     "xLabel": "58",
+     "yLabel": "221"
+    },
+    {
+     "name": "newyeye7",
+     "x": 0,
+     "y": 29,
+     "r": 11,
+     "xLabel": "0",
+     "yLabel": "29"
+    },
+    {
+     "name": "star-falI04",
+     "x": 0,
+     "y": 25,
+     "r": 17,
+     "xLabel": "0",
+     "yLabel": "25"
+    },
+    {
+     "name": "tenbergen",
+     "x": 5,
+     "y": 238,
+     "r": 31,
+     "xLabel": "5",
+     "yLabel": "238"
+    },
+    {
+     "name": "x1aofeiyang",
+     "x": 0,
+     "y": 1,
+     "r": 10,
+     "xLabel": "0",
+     "yLabel": "1"
+    },
+    {
+     "name": "yi_hua",
+     "x": 39,
+     "y": 70,
+     "r": 12,
+     "xLabel": "39",
+     "yLabel": "70"
+    },
+    {
+     "name": "叶yeeeeee",
+     "x": 0,
+     "y": 9,
+     "r": 13,
+     "xLabel": "0",
+     "yLabel": "9"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "x": 0,
+     "y": 115,
+     "r": 18,
+     "xLabel": "0",
+     "yLabel": "115"
+    },
+    {
+     "name": "白云",
+     "x": 43,
+     "y": 215,
+     "r": 26,
+     "xLabel": "43",
+     "yLabel": "215"
+    },
+    {
+     "name": "糕白",
+     "x": 23,
+     "y": 25,
+     "r": 10,
+     "xLabel": "23",
+     "yLabel": "25"
+    },
+    {
+     "name": "老吴k423",
+     "x": 28,
+     "y": 71,
+     "r": 11,
+     "xLabel": "28",
+     "yLabel": "71"
+    },
+    {
+     "name": "高木同学重度依赖",
+     "x": 0,
+     "y": 6,
+     "r": 10,
+     "xLabel": "0",
+     "yLabel": "6"
+    },
+    {
+     "name": "鱼雷王",
+     "x": 81,
+     "y": 72,
+     "r": 11,
+     "xLabel": "81",
+     "yLabel": "72"
+    },
+    {
+     "name": "黑崎小雪",
+     "x": 29,
+     "y": 121,
+     "r": 19,
+     "xLabel": "29",
+     "yLabel": "121"
+    }
+   ],
+   "quadrants": {
+    "tr": "分数与领跑都顶尖",
+    "tl": "靠稳定拿分、很少领跑",
+    "br": "领跑过但没换来分",
+    "bl": "两者都不突出"
+   },
+   "bestQuad": "tr",
+   "count": 47,
+   "selfCheck": {
+    "top10InBest": 4,
+    "bestQuad": "tr"
+   }
+  },
+  {
+   "id": "dnf_vs_pace",
+   "title": "退赛次数 vs 圈速",
+   "lead": "横轴退赛场次、纵轴是与最快圈的差距%（往上＝更慢）。右下角＝快但脆（速度有、完赛率没有），左上角＝慢而可靠。",
+   "xLabel": "退赛场次",
+   "yLabel": "与最快圈差距%",
+   "xRev": false,
+   "yRev": false,
+   "points": [
+    {
+     "name": "A380FatLiner",
+     "x": 1,
+     "y": 3.076,
+     "r": 20,
+     "xLabel": "1",
+     "yLabel": "3.08"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "x": 1,
+     "y": 1.331,
+     "r": 20,
+     "xLabel": "1",
+     "yLabel": "1.33"
+    },
+    {
+     "name": "AyatoSeven",
+     "x": 0,
+     "y": 2.742,
+     "r": 31,
+     "xLabel": "0",
+     "yLabel": "2.74"
+    },
+    {
+     "name": "Beast",
+     "x": 2,
+     "y": 4.943,
+     "r": 12,
+     "xLabel": "2",
+     "yLabel": "4.94"
+    },
+    {
+     "name": "ColorFirst",
+     "x": 0,
+     "y": 2.702,
+     "r": 9,
+     "xLabel": "0",
+     "yLabel": "2.70"
+    },
+    {
+     "name": "DQ",
+     "x": 3,
+     "y": 4.031,
+     "r": 17,
+     "xLabel": "3",
+     "yLabel": "4.03"
+    },
+    {
+     "name": "EasonLeclerc",
+     "x": 2,
+     "y": 2.969,
+     "r": 14,
+     "xLabel": "2",
+     "yLabel": "2.97"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "x": 2,
+     "y": 2.636,
+     "r": 28,
+     "xLabel": "2",
+     "yLabel": "2.64"
+    },
+    {
+     "name": "Gougou",
+     "x": 2,
+     "y": 1.633,
+     "r": 27,
+     "xLabel": "2",
+     "yLabel": "1.63"
+    },
+    {
+     "name": "HENRY",
+     "x": 2,
+     "y": 1.867,
+     "r": 10,
+     "xLabel": "2",
+     "yLabel": "1.87"
+    },
+    {
+     "name": "HayesCC",
+     "x": 1,
+     "y": 3.459,
+     "r": 31,
+     "xLabel": "1",
+     "yLabel": "3.46"
+    },
+    {
+     "name": "It57",
+     "x": 0,
+     "y": 2.503,
+     "r": 20,
+     "xLabel": "0",
+     "yLabel": "2.50"
+    },
+    {
+     "name": "JPer",
+     "x": 1,
+     "y": 5.17,
+     "r": 11,
+     "xLabel": "1",
+     "yLabel": "5.17"
+    },
+    {
+     "name": "Kagamine RIN",
+     "x": 0,
+     "y": 1.941,
+     "r": 18,
+     "xLabel": "0",
+     "yLabel": "1.94"
+    },
+    {
+     "name": "Landoooo_W",
+     "x": 2,
+     "y": 2.317,
+     "r": 18,
+     "xLabel": "2",
+     "yLabel": "2.32"
+    },
+    {
+     "name": "Lei",
+     "x": 4,
+     "y": 1.523,
+     "r": 13,
+     "xLabel": "4",
+     "yLabel": "1.52"
+    },
+    {
+     "name": "LewisRen",
+     "x": 3,
+     "y": 3.374,
+     "r": 18,
+     "xLabel": "3",
+     "yLabel": "3.37"
+    },
+    {
+     "name": "MFGA",
+     "x": 1,
+     "y": 3.15,
+     "r": 9,
+     "xLabel": "1",
+     "yLabel": "3.15"
+    },
+    {
+     "name": "Mirrorcc",
+     "x": 0,
+     "y": 1.151,
+     "r": 8,
+     "xLabel": "0",
+     "yLabel": "1.15"
+    },
+    {
+     "name": "Momokong",
+     "x": 4,
+     "y": 2.082,
+     "r": 26,
+     "xLabel": "4",
+     "yLabel": "2.08"
+    },
+    {
+     "name": "Oiysi10023000",
+     "x": 1,
+     "y": 4.743,
+     "r": 10,
+     "xLabel": "1",
+     "yLabel": "4.74"
+    },
+    {
+     "name": "Pan1ys",
+     "x": 2,
+     "y": 2.015,
+     "r": 20,
+     "xLabel": "2",
+     "yLabel": "2.01"
+    },
+    {
+     "name": "RIC",
+     "x": 3,
+     "y": 2.2,
+     "r": 17,
+     "xLabel": "3",
+     "yLabel": "2.20"
+    },
+    {
+     "name": "R_ATPER2",
+     "x": 0,
+     "y": 0.585,
+     "r": 10,
+     "xLabel": "0",
+     "yLabel": "0.58"
+    },
+    {
+     "name": "RanXi",
+     "x": 1,
+     "y": 3.196,
+     "r": 9,
+     "xLabel": "1",
+     "yLabel": "3.20"
+    },
+    {
+     "name": "Tim",
+     "x": 2,
+     "y": 5.143,
+     "r": 12,
+     "xLabel": "2",
+     "yLabel": "5.14"
+    },
+    {
+     "name": "Wanner",
+     "x": 0,
+     "y": 0.132,
+     "r": 10,
+     "xLabel": "0",
+     "yLabel": "0.13"
+    },
+    {
+     "name": "WuHen",
+     "x": 1,
+     "y": 1.354,
+     "r": 10,
+     "xLabel": "1",
+     "yLabel": "1.35"
+    },
+    {
+     "name": "dan",
+     "x": 3,
+     "y": 4.351,
+     "r": 20,
+     "xLabel": "3",
+     "yLabel": "4.35"
+    },
+    {
+     "name": "defect",
+     "x": 4,
+     "y": 1.713,
+     "r": 27,
+     "xLabel": "4",
+     "yLabel": "1.71"
+    },
+    {
+     "name": "esmac1",
+     "x": 2,
+     "y": 1.956,
+     "r": 15,
+     "xLabel": "2",
+     "yLabel": "1.96"
+    },
+    {
+     "name": "gangteiss",
+     "x": 0,
+     "y": 2.139,
+     "r": 11,
+     "xLabel": "0",
+     "yLabel": "2.14"
+    },
+    {
+     "name": "leevenchenko",
+     "x": 3,
+     "y": 5.958,
+     "r": 9,
+     "xLabel": "3",
+     "yLabel": "5.96"
+    },
+    {
+     "name": "lm10",
+     "x": 1,
+     "y": 1.576,
+     "r": 19,
+     "xLabel": "1",
+     "yLabel": "1.58"
+    },
+    {
+     "name": "newyeye7",
+     "x": 1,
+     "y": 1.591,
+     "r": 11,
+     "xLabel": "1",
+     "yLabel": "1.59"
+    },
+    {
+     "name": "star-falI04",
+     "x": 0,
+     "y": 2.871,
+     "r": 17,
+     "xLabel": "0",
+     "yLabel": "2.87"
+    },
+    {
+     "name": "tenbergen",
+     "x": 1,
+     "y": 2.079,
+     "r": 31,
+     "xLabel": "1",
+     "yLabel": "2.08"
+    },
+    {
+     "name": "x1aofeiyang",
+     "x": 2,
+     "y": 2.353,
+     "r": 10,
+     "xLabel": "2",
+     "yLabel": "2.35"
+    },
+    {
+     "name": "yi_hua",
+     "x": 1,
+     "y": 3.331,
+     "r": 12,
+     "xLabel": "1",
+     "yLabel": "3.33"
+    },
+    {
+     "name": "叶yeeeeee",
+     "x": 5,
+     "y": 2.999,
+     "r": 13,
+     "xLabel": "5",
+     "yLabel": "3.00"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "x": 1,
+     "y": 2.401,
+     "r": 18,
+     "xLabel": "1",
+     "yLabel": "2.40"
+    },
+    {
+     "name": "白云",
+     "x": 0,
+     "y": 1.86,
+     "r": 26,
+     "xLabel": "0",
+     "yLabel": "1.86"
+    },
+    {
+     "name": "糕白",
+     "x": 2,
+     "y": 10.136,
+     "r": 10,
+     "xLabel": "2",
+     "yLabel": "10.14"
+    },
+    {
+     "name": "老吴k423",
+     "x": 1,
+     "y": 2.96,
+     "r": 11,
+     "xLabel": "1",
+     "yLabel": "2.96"
+    },
+    {
+     "name": "高木同学重度依赖",
+     "x": 1,
+     "y": 1.591,
+     "r": 10,
+     "xLabel": "1",
+     "yLabel": "1.59"
+    },
+    {
+     "name": "鱼雷王",
+     "x": 1,
+     "y": 0.507,
+     "r": 11,
+     "xLabel": "1",
+     "yLabel": "0.51"
+    },
+    {
+     "name": "黑崎小雪",
+     "x": 1,
+     "y": 5.759,
+     "r": 19,
+     "xLabel": "1",
+     "yLabel": "5.76"
+    }
+   ],
+   "quadrants": {
+    "br": "快但完赛率差",
+    "tr": "又慢又不完赛",
+    "bl": "又快又可靠",
+    "tl": "慢但可靠"
+   },
+   "bestQuad": "bl",
+   "count": 47,
+   "selfCheck": {
+    "top10InBest": 5,
+    "bestQuad": "bl"
+   }
+  },
+  {
+   "id": "starts_vs_scorerate",
+   "title": "出勤 vs 得分率",
+   "lead": "横轴出场场次、纵轴得分率（有分场次 ÷ 出场）。**左上角＝来得少但次次有分**；右下角＝全勤但常常空手。",
+   "xLabel": "出场场次",
+   "yLabel": "得分率 (%)",
+   "xRev": false,
+   "yRev": false,
+   "points": [
+    {
+     "name": "A380FatLiner",
+     "x": 14,
+     "y": 78.571,
+     "r": 20,
+     "xLabel": "14",
+     "yLabel": "79"
+    },
+    {
+     "name": "Aisu",
+     "x": 1,
+     "y": 0.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "0"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "x": 14,
+     "y": 71.429,
+     "r": 20,
+     "xLabel": "14",
+     "yLabel": "71"
+    },
+    {
+     "name": "Anegler",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
+     "name": "AyatoSeven",
+     "x": 25,
+     "y": 84.0,
+     "r": 31,
+     "xLabel": "25",
+     "yLabel": "84"
+    },
+    {
+     "name": "Beast",
+     "x": 6,
+     "y": 66.667,
+     "r": 12,
+     "xLabel": "6",
+     "yLabel": "67"
+    },
+    {
+     "name": "ColorFirst",
+     "x": 3,
+     "y": 66.667,
+     "r": 9,
+     "xLabel": "3",
+     "yLabel": "67"
+    },
+    {
+     "name": "DQ",
+     "x": 11,
+     "y": 72.727,
+     "r": 17,
+     "xLabel": "11",
+     "yLabel": "73"
+    },
+    {
+     "name": "EasonLeclerc",
+     "x": 8,
+     "y": 50.0,
+     "r": 14,
+     "xLabel": "8",
+     "yLabel": "50"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "x": 22,
+     "y": 72.727,
+     "r": 28,
+     "xLabel": "22",
+     "yLabel": "73"
+    },
+    {
+     "name": "FerrariGoat",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
+     "name": "Gougou",
+     "x": 21,
+     "y": 85.714,
+     "r": 27,
+     "xLabel": "21",
+     "yLabel": "86"
+    },
+    {
+     "name": "HENRY",
+     "x": 4,
+     "y": 25.0,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "25"
+    },
+    {
+     "name": "HEZ",
+     "x": 3,
+     "y": 66.667,
+     "r": 9,
+     "xLabel": "3",
+     "yLabel": "67"
+    },
+    {
+     "name": "HayesCC",
+     "x": 25,
+     "y": 92.0,
+     "r": 31,
+     "xLabel": "25",
+     "yLabel": "92"
+    },
+    {
+     "name": "It57",
+     "x": 14,
+     "y": 100.0,
+     "r": 20,
+     "xLabel": "14",
+     "yLabel": "100"
+    },
+    {
+     "name": "JPer",
+     "x": 5,
+     "y": 80.0,
+     "r": 11,
+     "xLabel": "5",
+     "yLabel": "80"
+    },
+    {
+     "name": "Kagamine RIN",
+     "x": 12,
+     "y": 100.0,
+     "r": 18,
+     "xLabel": "12",
+     "yLabel": "100"
+    },
+    {
+     "name": "Landoooo_W",
+     "x": 12,
+     "y": 58.333,
+     "r": 18,
+     "xLabel": "12",
+     "yLabel": "58"
+    },
+    {
+     "name": "Lei",
+     "x": 7,
+     "y": 42.857,
+     "r": 13,
+     "xLabel": "7",
+     "yLabel": "43"
+    },
+    {
+     "name": "LewisRen",
+     "x": 12,
+     "y": 50.0,
+     "r": 18,
+     "xLabel": "12",
+     "yLabel": "50"
+    },
+    {
+     "name": "MFGA",
+     "x": 3,
+     "y": 33.333,
+     "r": 9,
+     "xLabel": "3",
+     "yLabel": "33"
+    },
+    {
+     "name": "MinatoNaoko",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
+     "name": "Mirrorcc",
+     "x": 2,
+     "y": 100.0,
+     "r": 8,
+     "xLabel": "2",
+     "yLabel": "100"
+    },
+    {
+     "name": "Momokong",
+     "x": 20,
+     "y": 75.0,
+     "r": 26,
+     "xLabel": "20",
+     "yLabel": "75"
+    },
+    {
+     "name": "Oiysi10023000",
+     "x": 4,
+     "y": 50.0,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "50"
+    },
+    {
+     "name": "Pan1ys",
+     "x": 14,
+     "y": 71.429,
+     "r": 20,
+     "xLabel": "14",
+     "yLabel": "71"
+    },
+    {
+     "name": "Perez",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
+     "name": "RIC",
+     "x": 11,
+     "y": 72.727,
+     "r": 17,
+     "xLabel": "11",
+     "yLabel": "73"
+    },
+    {
+     "name": "R_ATPER2",
+     "x": 4,
+     "y": 100.0,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "100"
+    },
+    {
+     "name": "RanXi",
+     "x": 3,
+     "y": 33.333,
+     "r": 9,
+     "xLabel": "3",
+     "yLabel": "33"
+    },
+    {
+     "name": "Sliced Onion",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
+     "name": "Surviver",
+     "x": 1,
+     "y": 0.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "0"
+    },
+    {
+     "name": "Swizzet3271",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
+     "name": "TC",
+     "x": 1,
+     "y": 0.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "0"
+    },
+    {
+     "name": "Tim",
+     "x": 6,
+     "y": 50.0,
+     "r": 12,
+     "xLabel": "6",
+     "yLabel": "50"
+    },
+    {
+     "name": "UbisoftHongKong",
+     "x": 1,
+     "y": 0.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "0"
+    },
+    {
+     "name": "Wanner",
+     "x": 4,
+     "y": 100.0,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "100"
+    },
+    {
+     "name": "WuHen",
+     "x": 4,
+     "y": 75.0,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "75"
+    },
+    {
+     "name": "dan",
+     "x": 14,
+     "y": 35.714,
+     "r": 20,
+     "xLabel": "14",
+     "yLabel": "36"
+    },
+    {
+     "name": "defect",
+     "x": 21,
+     "y": 71.429,
+     "r": 27,
+     "xLabel": "21",
+     "yLabel": "71"
+    },
+    {
+     "name": "esmac1",
+     "x": 9,
+     "y": 55.556,
+     "r": 15,
+     "xLabel": "9",
+     "yLabel": "56"
+    },
+    {
+     "name": "funanana",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
+     "name": "gangteiss",
+     "x": 5,
+     "y": 80.0,
+     "r": 11,
+     "xLabel": "5",
+     "yLabel": "80"
+    },
+    {
+     "name": "leevenchenko",
+     "x": 3,
+     "y": 0.0,
+     "r": 9,
+     "xLabel": "3",
+     "yLabel": "0"
+    },
+    {
+     "name": "lm10",
+     "x": 13,
+     "y": 92.308,
+     "r": 19,
+     "xLabel": "13",
+     "yLabel": "92"
+    },
+    {
+     "name": "newyeye7",
+     "x": 5,
+     "y": 80.0,
+     "r": 11,
+     "xLabel": "5",
+     "yLabel": "80"
+    },
+    {
+     "name": "star-falI04",
+     "x": 11,
+     "y": 63.636,
+     "r": 17,
+     "xLabel": "11",
+     "yLabel": "64"
+    },
+    {
+     "name": "tenbergen",
+     "x": 25,
+     "y": 92.0,
+     "r": 31,
+     "xLabel": "25",
+     "yLabel": "92"
+    },
+    {
+     "name": "x1aofeiyang",
+     "x": 4,
+     "y": 25.0,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "25"
+    },
+    {
+     "name": "yi_hua",
+     "x": 6,
+     "y": 66.667,
+     "r": 12,
+     "xLabel": "6",
+     "yLabel": "67"
+    },
+    {
+     "name": "✪x1aofeiyang",
+     "x": 1,
+     "y": 0.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "0"
+    },
+    {
+     "name": "叶yeeeeee",
+     "x": 7,
+     "y": 28.571,
+     "r": 13,
+     "xLabel": "7",
+     "yLabel": "29"
+    },
+    {
+     "name": "哈哈",
+     "x": 1,
+     "y": 0.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "0"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "x": 12,
+     "y": 91.667,
+     "r": 18,
+     "xLabel": "12",
+     "yLabel": "92"
+    },
+    {
+     "name": "白云",
+     "x": 20,
+     "y": 90.0,
+     "r": 26,
+     "xLabel": "20",
+     "yLabel": "90"
+    },
+    {
+     "name": "糕白",
+     "x": 4,
+     "y": 25.0,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "25"
+    },
+    {
+     "name": "老吴k423",
+     "x": 5,
+     "y": 80.0,
+     "r": 11,
+     "xLabel": "5",
+     "yLabel": "80"
+    },
+    {
+     "name": "芒果",
+     "x": 2,
+     "y": 100.0,
+     "r": 8,
+     "xLabel": "2",
+     "yLabel": "100"
+    },
+    {
+     "name": "雷电芽衣",
+     "x": 2,
+     "y": 0.0,
+     "r": 8,
+     "xLabel": "2",
+     "yLabel": "0"
+    },
+    {
+     "name": "高木同学重度依赖",
+     "x": 4,
+     "y": 25.0,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "25"
+    },
+    {
+     "name": "鱼雷王",
+     "x": 5,
+     "y": 60.0,
+     "r": 11,
+     "xLabel": "5",
+     "yLabel": "60"
+    },
+    {
+     "name": "黑崎小雪",
+     "x": 13,
+     "y": 84.615,
+     "r": 19,
+     "xLabel": "13",
+     "yLabel": "85"
+    }
+   ],
+   "quadrants": {
+    "tl": "少出场、次次有分",
+    "tr": "全勤且次次有分",
+    "bl": "出场少且常空手",
+    "br": "全勤但常空手"
+   },
+   "bestQuad": "tr",
+   "count": 63,
+   "selfCheck": {
+    "top10InBest": 10,
+    "bestQuad": "tr"
+   }
+  }
+ ],
+ "compare": {
+  "metrics": [
+   {
+    "key": "points",
+    "label": "积分",
+    "fmt": "int",
+    "higherBetter": true
+   },
+   {
+    "key": "pos",
+    "label": "赛季排名",
+    "fmt": "pos",
+    "higherBetter": false
+   },
+   {
+    "key": "starts",
+    "label": "出场",
+    "fmt": "int",
+    "higherBetter": true
+   },
+   {
+    "key": "wins",
+    "label": "冠军",
+    "fmt": "int",
+    "higherBetter": true
+   },
+   {
+    "key": "podiums",
+    "label": "领奖台",
+    "fmt": "int",
+    "higherBetter": true
+   },
+   {
+    "key": "poles",
+    "label": "杆位",
+    "fmt": "int",
+    "higherBetter": true
+   },
+   {
+    "key": "fastest_laps",
+    "label": "最快圈",
+    "fmt": "int",
+    "higherBetter": true
+   },
+   {
+    "key": "laps_led",
+    "label": "领跑圈数",
+    "fmt": "int",
+    "higherBetter": true
+   },
+   {
+    "key": "finish_count",
+    "label": "完赛",
+    "fmt": "int",
+    "higherBetter": true
+   },
+   {
+    "key": "dnf",
+    "label": "未完赛",
+    "fmt": "int",
+    "higherBetter": false
+   },
+   {
+    "key": "pace_avg",
+    "label": "干净圈均速",
+    "fmt": "ms",
+    "higherBetter": false
+   },
+   {
+    "key": "pace_sd",
+    "label": "节奏标准差",
+    "fmt": "sd2",
+    "higherBetter": false
+   },
+   {
+    "key": "wear_rate",
+    "label": "磨损率 %/圈",
+    "fmt": "f2",
+    "higherBetter": false
+   },
+   {
+    "key": "ov_made",
+    "label": "超车",
+    "fmt": "int",
+    "higherBetter": true
+   },
+   {
+    "key": "ov_lost",
+    "label": "被超",
+    "fmt": "int",
+    "higherBetter": false
+   },
+   {
+    "key": "collisions",
+    "label": "碰撞",
+    "fmt": "int",
+    "higherBetter": false
+   },
+   {
+    "key": "penalty_cards",
+    "label": "罚单",
+    "fmt": "int",
+    "higherBetter": false
+   },
+   {
+    "key": "best_lap",
+    "label": "全季最快圈",
+    "fmt": "ms",
+    "higherBetter": false
+   }
+  ],
+  "axes": {
+   "pace": "速度",
+   "consistency": "节奏稳定性",
+   "combat": "缠斗",
+   "tyre": "轮胎管理",
+   "discipline": "纪律",
+   "reliability": "完赛"
   }
  },
  "matchNote": "匹配用的是**技术画像**，不是成就：参照档案的六维取值按这些车手公认的技术特点给定，再在本赛季六维空间里取最近的一个。所以积分为 0 的人也可能匹配到世界冠军——这说的是\"你像哪种类型的车手\"，不是\"你等于某某\"。"
