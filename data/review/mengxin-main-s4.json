@@ -699,31 +699,31 @@
     {
      "name": "lm10",
      "value": 901.2228243277548,
-     "display": "901 ms",
+     "display": "0.90 s",
      "detail": "逐站标准差均值（13 站有足够干净圈）"
     },
     {
      "name": "Landoooo_W",
      "value": 1000.235485570994,
-     "display": "1000 ms",
+     "display": "1.00 s",
      "detail": "逐站标准差均值（9 站有足够干净圈）"
     },
     {
      "name": "Kagamine RIN",
      "value": 1057.783518943504,
-     "display": "1058 ms",
+     "display": "1.06 s",
      "detail": "逐站标准差均值（10 站有足够干净圈）"
     },
     {
      "name": "Pan1ys",
      "value": 1076.7064354584415,
-     "display": "1077 ms",
+     "display": "1.08 s",
      "detail": "逐站标准差均值（14 站有足够干净圈）"
     },
     {
      "name": "白云",
      "value": 1079.3393209982958,
-     "display": "1079 ms",
+     "display": "1.08 s",
      "detail": "逐站标准差均值（17 站有足够干净圈）"
     }
    ],
@@ -741,31 +741,31 @@
     {
      "name": "白云",
      "value": -18.434247406862877,
-     "display": "-18 ms/圈",
+     "display": "-0.018 s/圈",
      "detail": "19 站有足够长的胎段样本 · 未做燃油修正"
     },
     {
      "name": "star-falI04",
      "value": -15.35136480814429,
-     "display": "-15 ms/圈",
+     "display": "-0.015 s/圈",
      "detail": "11 站有足够长的胎段样本 · 未做燃油修正"
     },
     {
      "name": "EasonLeclerc",
      "value": 9.837122445400132,
-     "display": "+10 ms/圈",
+     "display": "+0.010 s/圈",
      "detail": "7 站有足够长的胎段样本 · 未做燃油修正"
     },
     {
      "name": "It57",
      "value": 42.21342626543288,
-     "display": "+42 ms/圈",
+     "display": "+0.042 s/圈",
      "detail": "13 站有足够长的胎段样本 · 未做燃油修正"
     },
     {
      "name": "AyatoSeven",
      "value": 61.873490093460305,
-     "display": "+62 ms/圈",
+     "display": "+0.062 s/圈",
      "detail": "24 站有足够长的胎段样本 · 未做燃油修正"
     }
    ],
@@ -783,31 +783,31 @@
     {
      "name": "RIC",
      "value": 333.9051230632113,
-     "display": "+334 ms/圈",
+     "display": "+0.334 s/圈",
      "detail": "9 站有足够长的胎段样本"
     },
     {
      "name": "Er1sed-FOX",
      "value": 305.3989942016409,
-     "display": "+305 ms/圈",
+     "display": "+0.305 s/圈",
      "detail": "21 站有足够长的胎段样本"
     },
     {
      "name": "Momokong",
      "value": 252.487767675447,
-     "display": "+252 ms/圈",
+     "display": "+0.252 s/圈",
      "detail": "17 站有足够长的胎段样本"
     },
     {
      "name": "黑崎小雪",
      "value": 195.13797438191583,
-     "display": "+195 ms/圈",
+     "display": "+0.195 s/圈",
      "detail": "12 站有足够长的胎段样本"
     },
     {
      "name": "A380FatLiner",
      "value": 187.18707217805826,
-     "display": "+187 ms/圈",
+     "display": "+0.187 s/圈",
      "detail": "13 站有足够长的胎段样本"
     }
    ],
@@ -859,40 +859,40 @@
    "id": "top_speed_avg",
    "group": "pace",
    "title": "平均尾速",
-   "lead": "遥测层 · 各圈尾速平均",
+   "lead": "遥测层 · 各圈尾速平均；门槛：≥3 场",
    "color": "blue",
-   "qualified": 63,
+   "qualified": 47,
    "insufficient": 0,
    "rows": [
-    {
-     "name": "Anegler",
-     "value": 350.0,
-     "display": "350.0 km/h",
-     "detail": "各圈尾速平均"
-    },
-    {
-     "name": "清蒸猫头凉拌菠萝",
-     "value": 349.0,
-     "display": "349.0 km/h",
-     "detail": "各圈尾速平均"
-    },
-    {
-     "name": "雷电芽衣",
-     "value": 346.0,
-     "display": "346.0 km/h",
-     "detail": "各圈尾速平均"
-    },
     {
      "name": "gangteiss",
      "value": 344.0,
      "display": "344.0 km/h",
-     "detail": "各圈尾速平均"
+     "detail": "5 场 · 各圈尾速平均"
     },
     {
      "name": "RanXi",
      "value": 343.0,
      "display": "343.0 km/h",
-     "detail": "各圈尾速平均"
+     "detail": "3 场 · 各圈尾速平均"
+    },
+    {
+     "name": "WuHen",
+     "value": 341.5,
+     "display": "341.5 km/h",
+     "detail": "4 场 · 各圈尾速平均"
+    },
+    {
+     "name": "x1aofeiyang",
+     "value": 341.0,
+     "display": "341.0 km/h",
+     "detail": "3 场 · 各圈尾速平均"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 339.72727272727275,
+     "display": "339.7 km/h",
+     "detail": "11 场 · 各圈尾速平均"
     }
    ],
    "note": ""
@@ -1237,40 +1237,40 @@
    "id": "avg_stint",
    "group": "tyre",
    "title": "平均胎段",
-   "lead": "遥测层 · 平均每段胎圈数",
+   "lead": "遥测层 · 平均每段胎圈数；门槛：≥3 场（不然只跑 1 场耐力赛的人会霸榜）",
    "color": "blue",
-   "qualified": 64,
+   "qualified": 47,
    "insufficient": 0,
    "rows": [
-    {
-     "name": "funanana",
-     "value": 57.0,
-     "display": "57.0 圈",
-     "detail": "1 个胎段"
-    },
-    {
-     "name": "MinatoNaoko",
-     "value": 32.0,
-     "display": "32.0 圈",
-     "detail": "1 个胎段"
-    },
     {
      "name": "R_ATPER2",
      "value": 30.5,
      "display": "30.5 圈",
-     "detail": "4 个胎段"
+     "detail": "4 个胎段 · 4 场"
     },
     {
-     "name": "FerrariGoat",
-     "value": 29.0,
-     "display": "29.0 圈",
-     "detail": "1 个胎段"
+     "name": "老吴k423",
+     "value": 27.333333333333332,
+     "display": "27.3 圈",
+     "detail": "6 个胎段 · 5 场"
     },
     {
-     "name": "Surviver",
-     "value": 29.0,
-     "display": "29.0 圈",
-     "detail": "1 个胎段"
+     "name": "lm10",
+     "value": 25.857142857142858,
+     "display": "25.9 圈",
+     "detail": "14 个胎段 · 13 场"
+    },
+    {
+     "name": "ColorFirst",
+     "value": 24.0,
+     "display": "24.0 圈",
+     "detail": "4 个胎段 · 3 场"
+    },
+    {
+     "name": "JPer",
+     "value": 23.75,
+     "display": "23.8 圈",
+     "detail": "4 个胎段 · 5 场"
     }
    ],
    "note": ""
@@ -2311,39 +2311,39 @@
    "id": "unlucky",
    "group": "fun",
    "title": "赛季最倒霉",
-   "lead": "自建综合分 · 退赛 40 + 罚单 20 + 被撞 20 + 车损 10 + 掉线 10（各自先归一化）",
+   "lead": "自建综合分 · 退赛 40 + 罚单 20 + 被撞 20 + 车损 10 + 掉线 10（各自先归一化）；门槛：出场 ≥3 场",
    "color": "orange",
-   "qualified": 58,
+   "qualified": 47,
    "insufficient": 0,
    "rows": [
     {
      "name": "Er1sed-FOX",
      "value": 65.04545454545455,
-     "display": "65.0 分",
+     "display": "65.0",
      "detail": "退赛 2 · 罚单 7 · 碰撞 190 · 车损 38"
     },
     {
      "name": "defect",
      "value": 63.7899396992596,
-     "display": "63.8 分",
+     "display": "63.8",
      "detail": "退赛 4 · 罚单 0 · 碰撞 81 · 车损 20"
     },
     {
      "name": "dan",
      "value": 61.34753072284558,
-     "display": "61.3 分",
+     "display": "61.3",
      "detail": "退赛 3 · 罚单 6 · 碰撞 104 · 车损 40"
     },
     {
      "name": "Momokong",
      "value": 58.88222273108923,
-     "display": "58.9 分",
+     "display": "58.9",
      "detail": "退赛 4 · 罚单 1 · 碰撞 128 · 车损 36"
     },
     {
      "name": "叶yeeeeee",
      "value": 53.023566903289826,
-     "display": "53.0 分",
+     "display": "53.0",
      "detail": "退赛 5 · 罚单 1 · 碰撞 47 · 车损 7"
     }
    ],
@@ -2353,39 +2353,39 @@
    "id": "lucky",
    "group": "fun",
    "title": "赛季最幸运",
-   "lead": "自建综合分 · 受益于他人退赛 50 + 低退赛率 30 + 完赛率 20",
+   "lead": "自建综合分 · 受益于他人退赛 50 + 低退赛率 30 + 完赛率 20；门槛：出场 ≥3 场",
    "color": "orange",
-   "qualified": 64,
+   "qualified": 47,
    "insufficient": 0,
    "rows": [
     {
      "name": "AyatoSeven",
      "value": 100.0,
-     "display": "100.0 分",
+     "display": "100.0",
      "detail": "完赛率 100% · 退赛 0"
     },
     {
      "name": "A380FatLiner",
      "value": 69.37555228276878,
-     "display": "69.4 分",
+     "display": "69.4",
      "detail": "完赛率 93% · 退赛 1"
     },
     {
      "name": "It57",
      "value": 68.55670103092784,
-     "display": "68.6 分",
+     "display": "68.6",
      "detail": "完赛率 100% · 退赛 0"
     },
     {
      "name": "HayesCC",
      "value": 63.81855670103093,
-     "display": "63.8 分",
+     "display": "63.8",
      "detail": "完赛率 96% · 退赛 1"
     },
     {
      "name": "Kagamine RIN",
      "value": 61.855670103092784,
-     "display": "61.9 分",
+     "display": "61.9",
      "detail": "完赛率 100% · 退赛 0"
     }
    ],
@@ -2395,39 +2395,39 @@
    "id": "allround",
    "group": "fun",
    "title": "最全能",
-   "lead": "自建综合分 · 速度 25 + 稳定 20 + 超车 20 + 轮胎 15 + 纪律 10 + 完赛 10",
+   "lead": "自建综合分 · 速度 25 + 稳定 20 + 超车 20 + 轮胎 15 + 纪律 10 + 完赛 10；门槛：出场 ≥3 场且六维齐全（否则单场极值就能霸榜）",
    "color": "orange",
-   "qualified": 62,
+   "qualified": 47,
    "insufficient": 0,
    "rows": [
     {
-     "name": "Swizzet3271",
-     "value": 77.9962756626703,
-     "display": "78 分",
-     "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
-    },
-    {
      "name": "R_ATPER2",
      "value": 75.2110908309234,
-     "display": "75 分",
-     "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
-    },
-    {
-     "name": "MinatoNaoko",
-     "value": 74.58315883381444,
-     "display": "75 分",
+     "display": "75",
      "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
     },
     {
      "name": "lm10",
      "value": 74.3202580367968,
-     "display": "74 分",
+     "display": "74",
      "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
     },
     {
-     "name": "Perez",
-     "value": 73.72974970784945,
-     "display": "74 分",
+     "name": "Mirrorcc",
+     "value": 71.22791522283204,
+     "display": "71",
+     "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
+    },
+    {
+     "name": "gangteiss",
+     "value": 68.58428362828583,
+     "display": "69",
+     "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
+    },
+    {
+     "name": "HENRY",
+     "value": 68.45482082679813,
+     "display": "68",
      "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
     }
    ],
@@ -2437,40 +2437,40 @@
    "id": "specialist",
    "group": "fun",
    "title": "最偏科",
-   "lead": "自建综合分 · 六维中最高与最低项之差，越大越偏科",
+   "lead": "自建综合分 · 六维中最高与最低项的归一化极差（0–100%），越大越偏科；门槛：出场 ≥3 场。满分 100% 表示「某一维全场最好、另一维全场最差」，是真实极值不是 bug",
    "color": "orange",
-   "qualified": 62,
+   "qualified": 47,
    "insufficient": 0,
    "rows": [
     {
      "name": "AyatoSeven",
      "value": 99.50980392156863,
-     "display": "100 分差",
-     "detail": "六维里最强与最弱项的差距"
+     "display": "100%",
+     "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
     },
     {
-     "name": "哈哈",
-     "value": 99.50980392156863,
-     "display": "100 分差",
-     "detail": "六维里最强与最弱项的差距"
+     "name": "RanXi",
+     "value": 91.42541176102932,
+     "display": "91%",
+     "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
     },
     {
-     "name": "雷电芽衣",
-     "value": 96.42857142857143,
-     "display": "96 分差",
-     "detail": "六维里最强与最弱项的差距"
+     "name": "MFGA",
+     "value": 89.70588235294117,
+     "display": "90%",
+     "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
     },
     {
-     "name": "UbisoftHongKong",
-     "value": 94.95818232506272,
-     "display": "95 分差",
-     "detail": "六维里最强与最弱项的差距"
+     "name": "HENRY",
+     "value": 89.28571428571429,
+     "display": "89%",
+     "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
     },
     {
-     "name": "Sliced Onion",
-     "value": 94.11764705882352,
-     "display": "94 分差",
-     "detail": "六维里最强与最弱项的差距"
+     "name": "Lei",
+     "value": 87.46498599439776,
+     "display": "87%",
+     "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
     }
    ],
    "note": ""
@@ -2613,31 +2613,31 @@
     {
      "name": "Er1sed-FOX",
      "value": 4396.493760366448,
-     "display": "4396 ms",
+     "display": "4.40 s",
      "detail": "逐站「平均干净圈 − 最快圈」的均值（21 站）"
     },
     {
      "name": "It57",
      "value": 4382.272300057264,
-     "display": "4382 ms",
+     "display": "4.38 s",
      "detail": "逐站「平均干净圈 − 最快圈」的均值（13 站）"
     },
     {
      "name": "esmac1",
      "value": 4106.069039267947,
-     "display": "4106 ms",
+     "display": "4.11 s",
      "detail": "逐站「平均干净圈 − 最快圈」的均值（9 站）"
     },
     {
      "name": "白云",
      "value": 4061.962106188936,
-     "display": "4062 ms",
+     "display": "4.06 s",
      "detail": "逐站「平均干净圈 − 最快圈」的均值（19 站）"
     },
     {
      "name": "A380FatLiner",
      "value": 4014.8477807130694,
-     "display": "4015 ms",
+     "display": "4.01 s",
      "detail": "逐站「平均干净圈 − 最快圈」的均值（13 站）"
     }
    ],
@@ -2933,6 +2933,384 @@
      "value": 106,
      "display": "106 分",
      "detail": "只算赛季后半段"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wet_king",
+   "group": "weather",
+   "title": "雨战之王",
+   "lead": "遥测层 · 雨战之王对应的平均完赛位；门槛：该类天气至少 2 场。全雨与全干分开比；混合场次两边都不计入",
+   "color": "blue",
+   "qualified": 28,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "Lei",
+     "value": 2.0,
+     "display": "P2.0",
+     "detail": "2 场 · 18 分 · 完赛率 50%"
+    },
+    {
+     "name": "lm10",
+     "value": 3.3333333333333335,
+     "display": "P3.3",
+     "detail": "3 场 · 47 分 · 完赛率 100%"
+    },
+    {
+     "name": "RIC",
+     "value": 3.5,
+     "display": "P3.5",
+     "detail": "3 场 · 33 分 · 完赛率 67%"
+    },
+    {
+     "name": "It57",
+     "value": 5.333333333333333,
+     "display": "P5.3",
+     "detail": "3 场 · 29 分 · 完赛率 100%"
+    },
+    {
+     "name": "黑崎小雪",
+     "value": 5.666666666666667,
+     "display": "P5.7",
+     "detail": "3 场 · 43 分 · 完赛率 100%"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "dry_king",
+   "group": "weather",
+   "title": "干地之王",
+   "lead": "遥测层 · 干地之王对应的平均完赛位；门槛：该类天气至少 2 场。全雨与全干分开比；混合场次两边都不计入",
+   "color": "blue",
+   "qualified": 45,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "Wanner",
+     "value": 1.25,
+     "display": "P1.2",
+     "detail": "4 场 · 93 分 · 完赛率 100%"
+    },
+    {
+     "name": "鱼雷王",
+     "value": 1.3333333333333333,
+     "display": "P1.3",
+     "detail": "3 场 · 68 分 · 完赛率 100%"
+    },
+    {
+     "name": "R_ATPER2",
+     "value": 2.0,
+     "display": "P2.0",
+     "detail": "3 场 · 58 分 · 完赛率 100%"
+    },
+    {
+     "name": "Mirrorcc",
+     "value": 3.0,
+     "display": "P3.0",
+     "detail": "2 场 · 30 分 · 完赛率 100%"
+    },
+    {
+     "name": "lm10",
+     "value": 4.333333333333333,
+     "display": "P4.3",
+     "detail": "10 场 · 121 分 · 完赛率 90%"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wet_boost",
+   "group": "weather",
+   "title": "雨天加成最大",
+   "lead": "遥测层 · 平均完赛位「雨 − 干」。负数＝雨天名次更靠前，即雨天比干地强；门槛：两种天气各至少 2 场",
+   "color": "green",
+   "qualified": 26,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "EasonLeclerc",
+     "value": -11.666666666666668,
+     "display": "-11.7 位",
+     "detail": "雨 3 场 P6.3 · 干 4 场 P18.0"
+    },
+    {
+     "name": "Lei",
+     "value": -8.0,
+     "display": "-8.0 位",
+     "detail": "雨 2 场 P2.0 · 干 2 场 P10.0"
+    },
+    {
+     "name": "黑崎小雪",
+     "value": -5.190476190476191,
+     "display": "-5.2 位",
+     "detail": "雨 3 场 P5.7 · 干 8 场 P10.9"
+    },
+    {
+     "name": "It57",
+     "value": -5.000000000000001,
+     "display": "-5.0 位",
+     "detail": "雨 3 场 P5.3 · 干 9 场 P10.3"
+    },
+    {
+     "name": "DQ",
+     "value": -4.6,
+     "display": "-4.6 位",
+     "detail": "雨 3 场 P7.0 · 干 6 场 P11.6"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wet_flop",
+   "group": "weather",
+   "title": "雨天最拉胯",
+   "lead": "遥测层 · 同上口径，正值＝下雨反而掉名次；门槛：两种天气各至少 2 场",
+   "color": "red",
+   "qualified": 26,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "esmac1",
+     "value": 6.75,
+     "display": "+6.8 位",
+     "detail": "雨 2 场 P21.0 · 干 5 场 P14.2"
+    },
+    {
+     "name": "Pan1ys",
+     "value": 6.25,
+     "display": "+6.2 位",
+     "detail": "雨 3 场 P13.0 · 干 9 场 P6.8"
+    },
+    {
+     "name": "白云",
+     "value": 4.85,
+     "display": "+4.8 位",
+     "detail": "雨 5 场 P11.6 · 干 12 场 P6.8"
+    },
+    {
+     "name": "tenbergen",
+     "value": 4.783333333333333,
+     "display": "+4.8 位",
+     "detail": "雨 5 场 P12.2 · 干 16 场 P7.5"
+    },
+    {
+     "name": "newyeye7",
+     "value": 4.5,
+     "display": "+4.5 位",
+     "detail": "雨 2 场 P10.5 · 干 3 场 P6.0"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wet_finish_rate",
+   "group": "weather",
+   "title": "雨战完赛率",
+   "lead": "遥测层 · 雨战完赛场次 ÷ 雨战场次；门槛：雨战至少 2 场",
+   "color": "blue",
+   "qualified": 28,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "lm10",
+     "value": 100.0,
+     "display": "100%",
+     "detail": "3 场雨战 · 退赛 0 次"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 100.0,
+     "display": "100%",
+     "detail": "6 场雨战 · 退赛 0 次"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": 100.0,
+     "display": "100%",
+     "detail": "2 场雨战 · 退赛 0 次"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 100.0,
+     "display": "100%",
+     "detail": "5 场雨战 · 退赛 0 次"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 100.0,
+     "display": "100%",
+     "detail": "4 场雨战 · 退赛 0 次"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wet_overtaker",
+   "group": "weather",
+   "title": "雨战超车最多",
+   "lead": "遥测层 · 雨战场次的主动超车合计；门槛：雨战至少 2 场",
+   "color": "blue",
+   "qualified": 28,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "AyatoSeven",
+     "value": 70,
+     "display": "70 次",
+     "detail": "6 场雨战"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 58,
+     "display": "58 次",
+     "detail": "4 场雨战"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 56,
+     "display": "56 次",
+     "detail": "5 场雨战"
+    },
+    {
+     "name": "Gougou",
+     "value": 55,
+     "display": "55 次",
+     "detail": "4 场雨战"
+    },
+    {
+     "name": "Momokong",
+     "value": 52,
+     "display": "52 次",
+     "detail": "5 场雨战"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "car_variety",
+   "group": "cars",
+   "title": "开过最多不同的车",
+   "lead": "官方层 · 全季用过的不同车型数量（按场分配，不计缺席）",
+   "color": "orange",
+   "qualified": 64,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "白云",
+     "value": 9,
+     "display": "9 种",
+     "detail": "哈斯×5、威廉姆斯×5、小红牛×2…"
+    },
+    {
+     "name": "dan",
+     "value": 9,
+     "display": "9 种",
+     "detail": "红牛×3、迈凯伦×2、Alpine×2…"
+    },
+    {
+     "name": "Gougou",
+     "value": 8,
+     "display": "8 种",
+     "detail": "凯迪拉克×9、奥迪×3、威廉姆斯×2…"
+    },
+    {
+     "name": "A380FatLiner",
+     "value": 8,
+     "display": "8 种",
+     "detail": "哈斯×3、Alpine×3、小红牛×2…"
+    },
+    {
+     "name": "Kagamine RIN",
+     "value": 8,
+     "display": "8 种",
+     "detail": "阿斯顿马丁×3、小红牛×2、凯迪拉克×2…"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "car_loyal",
+   "group": "cars",
+   "title": "开过的车最少",
+   "lead": "官方层 · 出场 ≥5 场的车手按用过的不同车型数量升序；同数量时按出场多的在前（车按场轮换，所以这衡量的是「分到的车有多稳定」）",
+   "color": "green",
+   "qualified": 34,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "Lei",
+     "value": 2,
+     "display": "2 种 / 5 场",
+     "detail": "阿斯顿马丁×3、奥迪×2"
+    },
+    {
+     "name": "老吴k423",
+     "value": 2,
+     "display": "2 种 / 5 场",
+     "detail": "凯迪拉克×4、阿斯顿马丁×1"
+    },
+    {
+     "name": "star-falI04",
+     "value": 3,
+     "display": "3 种 / 11 场",
+     "detail": "法拉利×6、梅赛德斯×4、小红牛×1"
+    },
+    {
+     "name": "gangteiss",
+     "value": 3,
+     "display": "3 种 / 5 场",
+     "detail": "哈斯×2、迈凯伦×2、威廉姆斯×1"
+    },
+    {
+     "name": "鱼雷王",
+     "value": 3,
+     "display": "3 种 / 5 场",
+     "detail": "Alpine×2、红牛×2、奥迪×1"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "car_best_driver",
+   "group": "cars",
+   "title": "每辆车的最强者",
+   "lead": "官方层 · 每辆车里平均完赛位最好的车手（该车至少开 3 场）",
+   "color": "blue",
+   "qualified": 5,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "威廉姆斯",
+     "value": -4.0,
+     "display": "白云 P4.0",
+     "detail": "该车共 48 场 · 该车手开 5 场"
+    },
+    {
+     "name": "小红牛",
+     "value": -4.333333333333333,
+     "display": "Pan1ys P4.3",
+     "detail": "该车共 50 场 · 该车手开 3 场"
+    },
+    {
+     "name": "Alpine",
+     "value": -4.333333333333333,
+     "display": "defect P4.3",
+     "detail": "该车共 49 场 · 该车手开 3 场"
+    },
+    {
+     "name": "哈斯",
+     "value": -7.375,
+     "display": "AyatoSeven P7.4",
+     "detail": "该车共 49 场 · 该车手开 8 场"
+    },
+    {
+     "name": "凯迪拉克",
+     "value": -7.555555555555555,
+     "display": "Gougou P7.6",
+     "detail": "该车共 49 场 · 该车手开 9 场"
     }
    ],
    "note": ""
@@ -13141,385 +13519,385 @@
    "title": "圈速 vs 节奏稳定性",
    "lead": "横轴是与各站最快圈的差距%（越小越快），纵轴是逐站干净圈标准差（越小越稳）。**左下角＝又快又稳**。右下角是\"能跑一圈但守不住\"，左上角是\"慢但机器人\"。",
    "xLabel": "与最快圈差距%",
-   "yLabel": "节奏标准差 (ms)",
+   "yLabel": "节奏标准差 (s)",
    "xRev": false,
    "yRev": false,
    "points": [
     {
      "name": "A380FatLiner",
      "x": 3.076,
-     "y": 1198.941,
+     "y": 1.199,
      "r": 20.95,
      "xLabel": "3.08",
-     "yLabel": "1199"
+     "yLabel": "1.20"
     },
     {
      "name": "Ak_Langley_S",
      "x": 1.331,
-     "y": 1305.627,
+     "y": 1.306,
      "r": 19.25,
      "xLabel": "1.33",
-     "yLabel": "1306"
+     "yLabel": "1.31"
     },
     {
      "name": "AyatoSeven",
      "x": 2.742,
-     "y": 1140.087,
+     "y": 1.14,
      "r": 33.45,
      "xLabel": "2.74",
-     "yLabel": "1140"
+     "yLabel": "1.14"
     },
     {
      "name": "Beast",
      "x": 4.943,
-     "y": 1019.495,
+     "y": 1.019,
      "r": 10.15,
      "xLabel": "4.94",
-     "yLabel": "1019"
+     "yLabel": "1.02"
     },
     {
      "name": "ColorFirst",
      "x": 2.702,
-     "y": 832.416,
+     "y": 0.832,
      "r": 9.3,
      "xLabel": "2.70",
-     "yLabel": "832"
+     "yLabel": "0.83"
     },
     {
      "name": "DQ",
      "x": 4.031,
-     "y": 1410.977,
+     "y": 1.411,
      "r": 16.25,
      "xLabel": "4.03",
-     "yLabel": "1411"
+     "yLabel": "1.41"
     },
     {
      "name": "EasonLeclerc",
      "x": 2.969,
-     "y": 1356.252,
+     "y": 1.356,
      "r": 13.9,
      "xLabel": "2.97",
-     "yLabel": "1356"
+     "yLabel": "1.36"
     },
     {
      "name": "Er1sed-FOX",
      "x": 2.636,
-     "y": 1086.071,
+     "y": 1.086,
      "r": 27.95,
      "xLabel": "2.64",
-     "yLabel": "1086"
+     "yLabel": "1.09"
     },
     {
      "name": "Gougou",
      "x": 1.633,
-     "y": 1100.663,
+     "y": 1.101,
      "r": 27.2,
      "xLabel": "1.63",
-     "yLabel": "1101"
+     "yLabel": "1.10"
     },
     {
      "name": "HENRY",
      "x": 1.867,
-     "y": 828.624,
+     "y": 0.829,
      "r": 8.65,
      "xLabel": "1.87",
-     "yLabel": "829"
+     "yLabel": "0.83"
     },
     {
      "name": "HayesCC",
      "x": 3.459,
-     "y": 1284.864,
+     "y": 1.285,
      "r": 31.55,
      "xLabel": "3.46",
-     "yLabel": "1285"
+     "yLabel": "1.28"
     },
     {
      "name": "It57",
      "x": 2.503,
-     "y": 1232.043,
+     "y": 1.232,
      "r": 20.6,
      "xLabel": "2.50",
-     "yLabel": "1232"
+     "yLabel": "1.23"
     },
     {
      "name": "JPer",
      "x": 5.17,
-     "y": 1675.171,
+     "y": 1.675,
      "r": 12.4,
      "xLabel": "5.17",
-     "yLabel": "1675"
+     "yLabel": "1.68"
     },
     {
      "name": "Kagamine RIN",
      "x": 1.941,
-     "y": 1057.784,
+     "y": 1.058,
      "r": 17.7,
      "xLabel": "1.94",
-     "yLabel": "1058"
+     "yLabel": "1.06"
     },
     {
      "name": "Landoooo_W",
      "x": 2.317,
-     "y": 1000.235,
+     "y": 1.0,
      "r": 16.45,
      "xLabel": "2.32",
-     "yLabel": "1000"
+     "yLabel": "1.00"
     },
     {
      "name": "Lei",
      "x": 1.523,
-     "y": 1112.71,
+     "y": 1.113,
      "r": 11.35,
      "xLabel": "1.52",
-     "yLabel": "1113"
+     "yLabel": "1.11"
     },
     {
      "name": "LewisRen",
      "x": 3.374,
-     "y": 1166.968,
+     "y": 1.167,
      "r": 16.85,
      "xLabel": "3.37",
-     "yLabel": "1167"
+     "yLabel": "1.17"
     },
     {
      "name": "MFGA",
      "x": 3.15,
-     "y": 1394.85,
+     "y": 1.395,
      "r": 8.05,
      "xLabel": "3.15",
-     "yLabel": "1395"
+     "yLabel": "1.39"
     },
     {
      "name": "Mirrorcc",
      "x": 1.151,
-     "y": 998.415,
+     "y": 0.998,
      "r": 8.65,
      "xLabel": "1.15",
-     "yLabel": "998"
+     "yLabel": "1.00"
     },
     {
      "name": "Momokong",
      "x": 2.082,
-     "y": 1367.501,
+     "y": 1.368,
      "r": 25.65,
      "xLabel": "2.08",
-     "yLabel": "1368"
+     "yLabel": "1.37"
     },
     {
      "name": "Oiysi10023000",
      "x": 4.743,
-     "y": 1626.918,
+     "y": 1.627,
      "r": 8.65,
      "xLabel": "4.74",
-     "yLabel": "1627"
+     "yLabel": "1.63"
     },
     {
      "name": "Pan1ys",
      "x": 2.015,
-     "y": 1076.706,
+     "y": 1.077,
      "r": 21.65,
      "xLabel": "2.01",
-     "yLabel": "1077"
+     "yLabel": "1.08"
     },
     {
      "name": "RIC",
      "x": 2.2,
-     "y": 1274.622,
+     "y": 1.275,
      "r": 15.85,
      "xLabel": "2.20",
-     "yLabel": "1275"
+     "yLabel": "1.27"
     },
     {
      "name": "R_ATPER2",
      "x": 0.585,
-     "y": 1055.099,
+     "y": 1.055,
      "r": 10.7,
      "xLabel": "0.58",
-     "yLabel": "1055"
+     "yLabel": "1.06"
     },
     {
      "name": "RanXi",
      "x": 3.196,
-     "y": 985.023,
+     "y": 0.985,
      "r": 8.2,
      "xLabel": "3.20",
-     "yLabel": "985"
+     "yLabel": "0.99"
     },
     {
      "name": "Tim",
      "x": 5.143,
-     "y": 1442.671,
+     "y": 1.443,
      "r": 8.95,
      "xLabel": "5.14",
-     "yLabel": "1443"
+     "yLabel": "1.44"
     },
     {
      "name": "Wanner",
      "x": 0.132,
-     "y": 842.876,
+     "y": 0.843,
      "r": 10.4,
      "xLabel": "0.13",
-     "yLabel": "843"
+     "yLabel": "0.84"
     },
     {
      "name": "WuHen",
      "x": 1.354,
-     "y": 1168.875,
+     "y": 1.169,
      "r": 9.7,
      "xLabel": "1.35",
-     "yLabel": "1169"
+     "yLabel": "1.17"
     },
     {
      "name": "dan",
      "x": 4.351,
-     "y": 1276.189,
+     "y": 1.276,
      "r": 17.95,
      "xLabel": "4.35",
-     "yLabel": "1276"
+     "yLabel": "1.28"
     },
     {
      "name": "defect",
      "x": 1.713,
-     "y": 1115.879,
+     "y": 1.116,
      "r": 26.2,
      "xLabel": "1.71",
-     "yLabel": "1116"
+     "yLabel": "1.12"
     },
     {
      "name": "esmac1",
      "x": 1.956,
-     "y": 1321.752,
+     "y": 1.322,
      "r": 14.3,
      "xLabel": "1.96",
-     "yLabel": "1322"
+     "yLabel": "1.32"
     },
     {
      "name": "gangteiss",
      "x": 2.139,
-     "y": 898.166,
+     "y": 0.898,
      "r": 11.45,
      "xLabel": "2.14",
-     "yLabel": "898"
+     "yLabel": "0.90"
     },
     {
      "name": "leevenchenko",
      "x": 5.958,
-     "y": 1584.106,
+     "y": 1.584,
      "r": 7.6,
      "xLabel": "5.96",
-     "yLabel": "1584"
+     "yLabel": "1.58"
     },
     {
      "name": "lm10",
      "x": 1.576,
-     "y": 901.223,
+     "y": 0.901,
      "r": 21.5,
      "xLabel": "1.58",
-     "yLabel": "901"
+     "yLabel": "0.90"
     },
     {
      "name": "newyeye7",
      "x": 1.591,
-     "y": 1509.889,
+     "y": 1.51,
      "r": 10.75,
      "xLabel": "1.59",
-     "yLabel": "1510"
+     "yLabel": "1.51"
     },
     {
      "name": "star-falI04",
      "x": 2.871,
-     "y": 1202.42,
+     "y": 1.202,
      "r": 18.2,
      "xLabel": "2.87",
-     "yLabel": "1202"
+     "yLabel": "1.20"
     },
     {
      "name": "tenbergen",
      "x": 2.079,
-     "y": 1112.565,
+     "y": 1.113,
      "r": 31.15,
      "xLabel": "2.08",
-     "yLabel": "1113"
+     "yLabel": "1.11"
     },
     {
      "name": "x1aofeiyang",
      "x": 2.353,
-     "y": 952.503,
+     "y": 0.953,
      "r": 8.8,
      "xLabel": "2.35",
-     "yLabel": "953"
+     "yLabel": "0.95"
     },
     {
      "name": "yi_hua",
      "x": 3.331,
-     "y": 1199.89,
+     "y": 1.2,
      "r": 11.7,
      "xLabel": "3.33",
-     "yLabel": "1200"
+     "yLabel": "1.20"
     },
     {
      "name": "叶yeeeeee",
      "x": 2.999,
-     "y": 968.939,
+     "y": 0.969,
      "r": 9.65,
      "xLabel": "3.00",
-     "yLabel": "969"
+     "yLabel": "0.97"
     },
     {
      "name": "清蒸猫头鹰凉拌菠萝",
      "x": 2.401,
-     "y": 1097.849,
+     "y": 1.098,
      "r": 16.9,
      "xLabel": "2.40",
-     "yLabel": "1098"
+     "yLabel": "1.10"
     },
     {
      "name": "白云",
      "x": 1.86,
-     "y": 1079.339,
+     "y": 1.079,
      "r": 27.35,
      "xLabel": "1.86",
-     "yLabel": "1079"
+     "yLabel": "1.08"
     },
     {
      "name": "糕白",
      "x": 10.136,
-     "y": 818.936,
+     "y": 0.819,
      "r": 7.85,
      "xLabel": "10.14",
-     "yLabel": "819"
+     "yLabel": "0.82"
     },
     {
      "name": "老吴k423",
      "x": 2.96,
-     "y": 897.274,
+     "y": 0.897,
      "r": 12.1,
      "xLabel": "2.96",
-     "yLabel": "897"
+     "yLabel": "0.90"
     },
     {
      "name": "高木同学重度依赖",
      "x": 1.591,
-     "y": 1349.703,
+     "y": 1.35,
      "r": 8.95,
      "xLabel": "1.59",
-     "yLabel": "1350"
+     "yLabel": "1.35"
     },
     {
      "name": "鱼雷王",
      "x": 0.507,
-     "y": 973.744,
+     "y": 0.974,
      "r": 11.4,
      "xLabel": "0.51",
-     "yLabel": "974"
+     "yLabel": "0.97"
     },
     {
      "name": "黑崎小雪",
      "x": 5.759,
-     "y": 1244.59,
+     "y": 1.245,
      "r": 19.3,
      "xLabel": "5.76",
-     "yLabel": "1245"
+     "yLabel": "1.24"
     }
    ],
    "quadrants": {
@@ -16579,6 +16957,237 @@
     "top10InBest": 10,
     "bestQuad": "tr"
    }
+  },
+  {
+   "id": "dry_vs_wet",
+   "title": "干地 vs 雨天 平均完赛位",
+   "lead": "横轴干地平均完赛、纵轴雨天平均完赛（都往右/往上＝名次数字越大＝越靠后）。**左下角＝两种天气都强**；右下角＝干地一般但雨天更强（雨神）；左上角＝干地强、下雨反而拖后腿。混合天气的场次不计入。",
+   "xLabel": "干地平均完赛位",
+   "yLabel": "雨天平均完赛位",
+   "xRev": false,
+   "yRev": false,
+   "points": [
+    {
+     "name": "lm10",
+     "x": 4.333,
+     "y": 3.333,
+     "r": 19,
+     "xLabel": "P4.3",
+     "yLabel": "P3.3"
+    },
+    {
+     "name": "LewisRen",
+     "x": 11.571,
+     "y": 11.0,
+     "r": 17,
+     "xLabel": "P11.6",
+     "yLabel": "P11.0"
+    },
+    {
+     "name": "HayesCC",
+     "x": 10.562,
+     "y": 9.4,
+     "r": 28,
+     "xLabel": "P10.6",
+     "yLabel": "P9.4"
+    },
+    {
+     "name": "Landoooo_W",
+     "x": 11.429,
+     "y": 8.0,
+     "r": 16,
+     "xLabel": "P11.4",
+     "yLabel": "P8.0"
+    },
+    {
+     "name": "AyatoSeven",
+     "x": 9.938,
+     "y": 7.833,
+     "r": 28,
+     "xLabel": "P9.9",
+     "yLabel": "P7.8"
+    },
+    {
+     "name": "Kagamine RIN",
+     "x": 8.714,
+     "y": 8.0,
+     "r": 15,
+     "xLabel": "P8.7",
+     "yLabel": "P8.0"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "x": 11.714,
+     "y": 10.6,
+     "r": 26,
+     "xLabel": "P11.7",
+     "yLabel": "P10.6"
+    },
+    {
+     "name": "tenbergen",
+     "x": 7.467,
+     "y": 12.25,
+     "r": 27,
+     "xLabel": "P7.5",
+     "yLabel": "P12.2"
+    },
+    {
+     "name": "dan",
+     "x": 13.714,
+     "y": 14.0,
+     "r": 19,
+     "xLabel": "P13.7",
+     "yLabel": "P14.0"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "x": 9.125,
+     "y": 8.25,
+     "r": 19,
+     "xLabel": "P9.1",
+     "yLabel": "P8.2"
+    },
+    {
+     "name": "Momokong",
+     "x": 8.111,
+     "y": 7.75,
+     "r": 22,
+     "xLabel": "P8.1",
+     "yLabel": "P7.8"
+    },
+    {
+     "name": "Lei",
+     "x": 10.0,
+     "y": 2.0,
+     "r": 10,
+     "xLabel": "P10.0",
+     "yLabel": "P2.0"
+    },
+    {
+     "name": "It57",
+     "x": 10.333,
+     "y": 5.333,
+     "r": 18,
+     "xLabel": "P10.3",
+     "yLabel": "P5.3"
+    },
+    {
+     "name": "DQ",
+     "x": 11.6,
+     "y": 7.0,
+     "r": 15,
+     "xLabel": "P11.6",
+     "yLabel": "P7.0"
+    },
+    {
+     "name": "Gougou",
+     "x": 7.692,
+     "y": 6.75,
+     "r": 24,
+     "xLabel": "P7.7",
+     "yLabel": "P6.8"
+    },
+    {
+     "name": "EasonLeclerc",
+     "x": 18.0,
+     "y": 6.333,
+     "r": 13,
+     "xLabel": "P18.0",
+     "yLabel": "P6.3"
+    },
+    {
+     "name": "A380FatLiner",
+     "x": 11.889,
+     "y": 9.0,
+     "r": 18,
+     "xLabel": "P11.9",
+     "yLabel": "P9.0"
+    },
+    {
+     "name": "Tim",
+     "x": 10.0,
+     "y": 14.0,
+     "r": 12,
+     "xLabel": "P10.0",
+     "yLabel": "P14.0"
+    },
+    {
+     "name": "白云",
+     "x": 6.75,
+     "y": 11.6,
+     "r": 23,
+     "xLabel": "P6.8",
+     "yLabel": "P11.6"
+    },
+    {
+     "name": "defect",
+     "x": 5.0,
+     "y": 8.667,
+     "r": 23,
+     "xLabel": "P5.0",
+     "yLabel": "P8.7"
+    },
+    {
+     "name": "RIC",
+     "x": 7.2,
+     "y": 3.5,
+     "r": 16,
+     "xLabel": "P7.2",
+     "yLabel": "P3.5"
+    },
+    {
+     "name": "Pan1ys",
+     "x": 6.75,
+     "y": 13.0,
+     "r": 18,
+     "xLabel": "P6.8",
+     "yLabel": "P13.0"
+    },
+    {
+     "name": "star-falI04",
+     "x": 15.5,
+     "y": 13.0,
+     "r": 15,
+     "xLabel": "P15.5",
+     "yLabel": "P13.0"
+    },
+    {
+     "name": "黑崎小雪",
+     "x": 10.857,
+     "y": 5.667,
+     "r": 17,
+     "xLabel": "P10.9",
+     "yLabel": "P5.7"
+    },
+    {
+     "name": "esmac1",
+     "x": 14.25,
+     "y": 21.0,
+     "r": 13,
+     "xLabel": "P14.2",
+     "yLabel": "P21.0"
+    },
+    {
+     "name": "newyeye7",
+     "x": 6.0,
+     "y": 10.5,
+     "r": 11,
+     "xLabel": "P6.0",
+     "yLabel": "P10.5"
+    }
+   ],
+   "count": 26,
+   "bestQuad": "bl",
+   "quadrants": {
+    "bl": "两种天气都强",
+    "br": "雨神（雨天更强）",
+    "tl": "雨战拖后腿",
+    "tr": "两种天气都吃力"
+   },
+   "selfCheck": {
+    "top10InBest": 6,
+    "bestQuad": "bl"
+   }
   }
  ],
  "compare": {
@@ -16646,13 +17255,13 @@
    {
     "key": "pace_avg",
     "label": "干净圈均速",
-    "fmt": "ms",
+    "fmt": "lap",
     "higherBetter": false
    },
    {
     "key": "pace_sd",
     "label": "节奏标准差",
-    "fmt": "sd2",
+    "fmt": "secs",
     "higherBetter": false
    },
    {
@@ -16688,7 +17297,7 @@
    {
     "key": "best_lap",
     "label": "全季最快圈",
-    "fmt": "ms",
+    "fmt": "lap",
     "higherBetter": false
    }
   ],
@@ -16700,6 +17309,2079 @@
    "discipline": "纪律",
    "reliability": "完赛"
   }
+ },
+ "weather": {
+  "wet": [
+   {
+    "round": 3,
+    "track": "铃鹿",
+    "slug": "2026-07-31-suzuka",
+    "wetLaps": 24,
+    "timedLaps": 27,
+    "wetFraction": 0.889,
+    "transitions": 1,
+    "segments": [
+     {
+      "kind": "wet",
+      "laps": 24
+     },
+     {
+      "kind": "dry",
+      "laps": 3
+     }
+    ]
+   },
+   {
+    "round": 8,
+    "track": "摩纳哥",
+    "slug": "2026-08-12-monaco",
+    "wetLaps": 28,
+    "timedLaps": 39,
+    "wetFraction": 0.718,
+    "transitions": 1,
+    "segments": [
+     {
+      "kind": "wet",
+      "laps": 28
+     },
+     {
+      "kind": "dry",
+      "laps": 11
+     }
+    ]
+   },
+   {
+    "round": 12,
+    "track": "银石",
+    "slug": "2026-08-21-银石",
+    "wetLaps": 26,
+    "timedLaps": 26,
+    "wetFraction": 1.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "wet",
+      "laps": 26
+     }
+    ]
+   },
+   {
+    "round": 14,
+    "track": "匈牙利",
+    "slug": "2026-08-26-hungaroring",
+    "wetLaps": 19,
+    "timedLaps": 20,
+    "wetFraction": 0.95,
+    "transitions": 1,
+    "segments": [
+     {
+      "kind": "wet",
+      "laps": 19
+     },
+     {
+      "kind": "dry",
+      "laps": 1
+     }
+    ]
+   },
+   {
+    "round": 17,
+    "track": "Madrid",
+    "slug": "2026-09-03-madrid",
+    "wetLaps": 29,
+    "timedLaps": 29,
+    "wetFraction": 1.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "wet",
+      "laps": 29
+     }
+    ]
+   },
+   {
+    "round": 22,
+    "track": "巴西",
+    "slug": "2026-09-20-brazil",
+    "wetLaps": 22,
+    "timedLaps": 36,
+    "wetFraction": 0.611,
+    "transitions": 1,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 14
+     },
+     {
+      "kind": "wet",
+      "laps": 22
+     }
+    ]
+   }
+  ],
+  "mixed": [
+   {
+    "round": 10,
+    "track": "蒙特利尔",
+    "slug": "2026-08-16-montreal",
+    "wetLaps": 6,
+    "timedLaps": 35,
+    "wetFraction": 0.171,
+    "transitions": 2,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 14
+     },
+     {
+      "kind": "wet",
+      "laps": 6
+     },
+     {
+      "kind": "dry",
+      "laps": 15
+     }
+    ]
+   },
+   {
+    "round": 16,
+    "track": "蒙扎",
+    "slug": "2026-08-31-monza",
+    "wetLaps": 7,
+    "timedLaps": 27,
+    "wetFraction": 0.259,
+    "transitions": 1,
+    "segments": [
+     {
+      "kind": "wet",
+      "laps": 7
+     },
+     {
+      "kind": "dry",
+      "laps": 20
+     }
+    ]
+   },
+   {
+    "round": 24,
+    "track": "新加坡",
+    "slug": "2026-09-27-singapore",
+    "wetLaps": 4,
+    "timedLaps": 31,
+    "wetFraction": 0.129,
+    "transitions": 1,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 27
+     },
+     {
+      "kind": "wet",
+      "laps": 4
+     }
+    ]
+   }
+  ],
+  "dry": [
+   {
+    "round": 1,
+    "track": "墨尔本",
+    "slug": "2026-07-24-melbourne",
+    "wetLaps": 0,
+    "timedLaps": 29,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 29
+     }
+    ]
+   },
+   {
+    "round": 2,
+    "track": "上海",
+    "slug": "2026-07-29-shanghai",
+    "wetLaps": 0,
+    "timedLaps": 28,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 28
+     }
+    ]
+   },
+   {
+    "round": 4,
+    "track": "萨基尔",
+    "slug": "2026-08-02-sakhir",
+    "wetLaps": 0,
+    "timedLaps": 0,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": []
+   },
+   {
+    "round": 5,
+    "track": "伊莫拉",
+    "slug": "2026-08-04-imola",
+    "wetLaps": 0,
+    "timedLaps": 32,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 32
+     }
+    ]
+   },
+   {
+    "round": 6,
+    "track": "迈阿密",
+    "slug": "2026-08-06-miami",
+    "wetLaps": 0,
+    "timedLaps": 29,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 29
+     }
+    ]
+   },
+   {
+    "round": 7,
+    "track": "吉达",
+    "slug": "2026-08-10-jeddah",
+    "wetLaps": 0,
+    "timedLaps": 25,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 25
+     }
+    ]
+   },
+   {
+    "round": 9,
+    "track": "加泰罗尼亚",
+    "slug": "2026-08-14-catalunya",
+    "wetLaps": 0,
+    "timedLaps": 33,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 33
+     }
+    ]
+   },
+   {
+    "round": 11,
+    "track": "奥地利",
+    "slug": "2026-08-19-austria",
+    "wetLaps": 0,
+    "timedLaps": 36,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 36
+     }
+    ]
+   },
+   {
+    "round": 13,
+    "track": "斯帕",
+    "slug": "2026-08-24-spa",
+    "wetLaps": 0,
+    "timedLaps": 22,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 22
+     }
+    ]
+   },
+   {
+    "round": 15,
+    "track": "赞德福特",
+    "slug": "2026-08-28-zandvoort",
+    "wetLaps": 0,
+    "timedLaps": 24,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 24
+     }
+    ]
+   },
+   {
+    "round": 18,
+    "track": "巴库",
+    "slug": "2026-09-09-baku",
+    "wetLaps": 0,
+    "timedLaps": 26,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 26
+     }
+    ]
+   },
+   {
+    "round": 19,
+    "track": "卢塞尔",
+    "slug": "2026-09-11-losail",
+    "wetLaps": 0,
+    "timedLaps": 29,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 29
+     }
+    ]
+   },
+   {
+    "round": 20,
+    "track": "奥斯汀",
+    "slug": "2026-09-14-texas",
+    "wetLaps": 0,
+    "timedLaps": 28,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 28
+     }
+    ]
+   },
+   {
+    "round": 21,
+    "track": "墨西哥",
+    "slug": "2026-09-17-mexico",
+    "wetLaps": 0,
+    "timedLaps": 36,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 36
+     }
+    ]
+   },
+   {
+    "round": 23,
+    "track": "拉斯维加斯",
+    "slug": "2026-09-23-las-vegas",
+    "wetLaps": 0,
+    "timedLaps": 25,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 25
+     }
+    ]
+   },
+   {
+    "round": 25,
+    "track": "阿布扎比",
+    "slug": "2026-09-30-abu-dhabi",
+    "wetLaps": 0,
+    "timedLaps": 29,
+    "wetFraction": 0.0,
+    "transitions": 0,
+    "segments": [
+     {
+      "kind": "dry",
+      "laps": 29
+     }
+    ]
+   }
+  ]
+ },
+ "cars": {
+  "drivers": [
+   {
+    "name": "白云",
+    "total": 20,
+    "distinct": 9,
+    "cars": [
+     {
+      "car": "哈斯",
+      "count": 5
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 5
+     },
+     {
+      "car": "小红牛",
+      "count": 2
+     },
+     {
+      "car": "Alpine",
+      "count": 2
+     },
+     {
+      "car": "迈凯伦",
+      "count": 2
+     },
+     {
+      "car": "法拉利",
+      "count": 1
+     },
+     {
+      "car": "红牛",
+      "count": 1
+     },
+     {
+      "car": "梅赛德斯",
+      "count": 1
+     },
+     {
+      "car": "奥迪",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "dan",
+    "total": 14,
+    "distinct": 9,
+    "cars": [
+     {
+      "car": "红牛",
+      "count": 3
+     },
+     {
+      "car": "迈凯伦",
+      "count": 2
+     },
+     {
+      "car": "Alpine",
+      "count": 2
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 2
+     },
+     {
+      "car": "法拉利",
+      "count": 1
+     },
+     {
+      "car": "梅赛德斯",
+      "count": 1
+     },
+     {
+      "car": "哈斯",
+      "count": 1
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     },
+     {
+      "car": "凯迪拉克",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Gougou",
+    "total": 21,
+    "distinct": 8,
+    "cars": [
+     {
+      "car": "凯迪拉克",
+      "count": 9
+     },
+     {
+      "car": "奥迪",
+      "count": 3
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 2
+     },
+     {
+      "car": "小红牛",
+      "count": 2
+     },
+     {
+      "car": "哈斯",
+      "count": 2
+     },
+     {
+      "car": "迈凯伦",
+      "count": 1
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     },
+     {
+      "car": "Alpine",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "A380FatLiner",
+    "total": 14,
+    "distinct": 8,
+    "cars": [
+     {
+      "car": "哈斯",
+      "count": 3
+     },
+     {
+      "car": "Alpine",
+      "count": 3
+     },
+     {
+      "car": "小红牛",
+      "count": 2
+     },
+     {
+      "car": "奥迪",
+      "count": 2
+     },
+     {
+      "car": "凯迪拉克",
+      "count": 1
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     },
+     {
+      "car": "迈凯伦",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Kagamine RIN",
+    "total": 12,
+    "distinct": 8,
+    "cars": [
+     {
+      "car": "阿斯顿马丁",
+      "count": 3
+     },
+     {
+      "car": "小红牛",
+      "count": 2
+     },
+     {
+      "car": "凯迪拉克",
+      "count": 2
+     },
+     {
+      "car": "法拉利",
+      "count": 1
+     },
+     {
+      "car": "迈凯伦",
+      "count": 1
+     },
+     {
+      "car": "Alpine",
+      "count": 1
+     },
+     {
+      "car": "哈斯",
+      "count": 1
+     },
+     {
+      "car": "奥迪",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Er1sed-FOX",
+    "total": 22,
+    "distinct": 7,
+    "cars": [
+     {
+      "car": "奥迪",
+      "count": 6
+     },
+     {
+      "car": "红牛",
+      "count": 3
+     },
+     {
+      "car": "凯迪拉克",
+      "count": 3
+     },
+     {
+      "car": "小红牛",
+      "count": 3
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 3
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 3
+     },
+     {
+      "car": "Alpine",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "defect",
+    "total": 20,
+    "distinct": 7,
+    "cars": [
+     {
+      "car": "红牛",
+      "count": 6
+     },
+     {
+      "car": "小红牛",
+      "count": 4
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 4
+     },
+     {
+      "car": "Alpine",
+      "count": 3
+     },
+     {
+      "car": "迈凯伦",
+      "count": 1
+     },
+     {
+      "car": "奥迪",
+      "count": 1
+     },
+     {
+      "car": "哈斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Momokong",
+    "total": 19,
+    "distinct": 7,
+    "cars": [
+     {
+      "car": "哈斯",
+      "count": 5
+     },
+     {
+      "car": "Alpine",
+      "count": 4
+     },
+     {
+      "car": "红牛",
+      "count": 3
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 2
+     },
+     {
+      "car": "小红牛",
+      "count": 2
+     },
+     {
+      "car": "迈凯伦",
+      "count": 2
+     },
+     {
+      "car": "凯迪拉克",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Ak_Langley_S",
+    "total": 14,
+    "distinct": 7,
+    "cars": [
+     {
+      "car": "红牛",
+      "count": 4
+     },
+     {
+      "car": "迈凯伦",
+      "count": 3
+     },
+     {
+      "car": "小红牛",
+      "count": 2
+     },
+     {
+      "car": "Alpine",
+      "count": 2
+     },
+     {
+      "car": "奥迪",
+      "count": 1
+     },
+     {
+      "car": "梅赛德斯",
+      "count": 1
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Pan1ys",
+    "total": 14,
+    "distinct": 7,
+    "cars": [
+     {
+      "car": "阿斯顿马丁",
+      "count": 3
+     },
+     {
+      "car": "小红牛",
+      "count": 3
+     },
+     {
+      "car": "奥迪",
+      "count": 2
+     },
+     {
+      "car": "Alpine",
+      "count": 2
+     },
+     {
+      "car": "哈斯",
+      "count": 2
+     },
+     {
+      "car": "红牛",
+      "count": 1
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "lm10",
+    "total": 13,
+    "distinct": 7,
+    "cars": [
+     {
+      "car": "奥迪",
+      "count": 3
+     },
+     {
+      "car": "凯迪拉克",
+      "count": 2
+     },
+     {
+      "car": "哈斯",
+      "count": 2
+     },
+     {
+      "car": "小红牛",
+      "count": 2
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 2
+     },
+     {
+      "car": "Alpine",
+      "count": 1
+     },
+     {
+      "car": "红牛",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "DQ",
+    "total": 10,
+    "distinct": 7,
+    "cars": [
+     {
+      "car": "红牛",
+      "count": 3
+     },
+     {
+      "car": "迈凯伦",
+      "count": 2
+     },
+     {
+      "car": "哈斯",
+      "count": 1
+     },
+     {
+      "car": "法拉利",
+      "count": 1
+     },
+     {
+      "car": "梅赛德斯",
+      "count": 1
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "tenbergen",
+    "total": 25,
+    "distinct": 6,
+    "cars": [
+     {
+      "car": "梅赛德斯",
+      "count": 9
+     },
+     {
+      "car": "迈凯伦",
+      "count": 7
+     },
+     {
+      "car": "法拉利",
+      "count": 4
+     },
+     {
+      "car": "Alpine",
+      "count": 2
+     },
+     {
+      "car": "红牛",
+      "count": 2
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "黑崎小雪",
+    "total": 13,
+    "distinct": 6,
+    "cars": [
+     {
+      "car": "Alpine",
+      "count": 3
+     },
+     {
+      "car": "奥迪",
+      "count": 3
+     },
+     {
+      "car": "哈斯",
+      "count": 3
+     },
+     {
+      "car": "迈凯伦",
+      "count": 2
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Landoooo_W",
+    "total": 12,
+    "distinct": 6,
+    "cars": [
+     {
+      "car": "哈斯",
+      "count": 4
+     },
+     {
+      "car": "Alpine",
+      "count": 3
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 2
+     },
+     {
+      "car": "奥迪",
+      "count": 1
+     },
+     {
+      "car": "凯迪拉克",
+      "count": 1
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "LewisRen",
+    "total": 12,
+    "distinct": 6,
+    "cars": [
+     {
+      "car": "阿斯顿马丁",
+      "count": 4
+     },
+     {
+      "car": "奥迪",
+      "count": 2
+     },
+     {
+      "car": "Alpine",
+      "count": 2
+     },
+     {
+      "car": "凯迪拉克",
+      "count": 2
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     },
+     {
+      "car": "哈斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "清蒸猫头鹰凉拌菠萝",
+    "total": 12,
+    "distinct": 6,
+    "cars": [
+     {
+      "car": "威廉姆斯",
+      "count": 4
+     },
+     {
+      "car": "法拉利",
+      "count": 2
+     },
+     {
+      "car": "迈凯伦",
+      "count": 2
+     },
+     {
+      "car": "红牛",
+      "count": 2
+     },
+     {
+      "car": "Alpine",
+      "count": 1
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "esmac1",
+    "total": 9,
+    "distinct": 6,
+    "cars": [
+     {
+      "car": "威廉姆斯",
+      "count": 3
+     },
+     {
+      "car": "梅赛德斯",
+      "count": 2
+     },
+     {
+      "car": "法拉利",
+      "count": 1
+     },
+     {
+      "car": "哈斯",
+      "count": 1
+     },
+     {
+      "car": "Alpine",
+      "count": 1
+     },
+     {
+      "car": "红牛",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "EasonLeclerc",
+    "total": 8,
+    "distinct": 6,
+    "cars": [
+     {
+      "car": "奥迪",
+      "count": 2
+     },
+     {
+      "car": "Alpine",
+      "count": 2
+     },
+     {
+      "car": "哈斯",
+      "count": 1
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     },
+     {
+      "car": "凯迪拉克",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "HayesCC",
+    "total": 25,
+    "distinct": 5,
+    "cars": [
+     {
+      "car": "梅赛德斯",
+      "count": 11
+     },
+     {
+      "car": "法拉利",
+      "count": 6
+     },
+     {
+      "car": "迈凯伦",
+      "count": 5
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 2
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "It57",
+    "total": 14,
+    "distinct": 5,
+    "cars": [
+     {
+      "car": "梅赛德斯",
+      "count": 4
+     },
+     {
+      "car": "法拉利",
+      "count": 3
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 3
+     },
+     {
+      "car": "迈凯伦",
+      "count": 2
+     },
+     {
+      "car": "红牛",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "name": "RIC",
+    "total": 11,
+    "distinct": 5,
+    "cars": [
+     {
+      "car": "阿斯顿马丁",
+      "count": 4
+     },
+     {
+      "car": "凯迪拉克",
+      "count": 3
+     },
+     {
+      "car": "奥迪",
+      "count": 2
+     },
+     {
+      "car": "Alpine",
+      "count": 1
+     },
+     {
+      "car": "哈斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "AyatoSeven",
+    "total": 25,
+    "distinct": 4,
+    "cars": [
+     {
+      "car": "凯迪拉克",
+      "count": 10
+     },
+     {
+      "car": "哈斯",
+      "count": 8
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 5
+     },
+     {
+      "car": "奥迪",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "name": "叶yeeeeee",
+    "total": 7,
+    "distinct": 4,
+    "cars": [
+     {
+      "car": "凯迪拉克",
+      "count": 4
+     },
+     {
+      "car": "奥迪",
+      "count": 1
+     },
+     {
+      "car": "红牛",
+      "count": 1
+     },
+     {
+      "car": "Alpine",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Tim",
+    "total": 6,
+    "distinct": 4,
+    "cars": [
+     {
+      "car": "Alpine",
+      "count": 2
+     },
+     {
+      "car": "迈凯伦",
+      "count": 2
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "yi_hua",
+    "total": 6,
+    "distinct": 4,
+    "cars": [
+     {
+      "car": "红牛",
+      "count": 2
+     },
+     {
+      "car": "奥迪",
+      "count": 2
+     },
+     {
+      "car": "Alpine",
+      "count": 1
+     },
+     {
+      "car": "哈斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Beast",
+    "total": 5,
+    "distinct": 4,
+    "cars": [
+     {
+      "car": "小红牛",
+      "count": 2
+     },
+     {
+      "car": "哈斯",
+      "count": 1
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     },
+     {
+      "car": "红牛",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "JPer",
+    "total": 5,
+    "distinct": 4,
+    "cars": [
+     {
+      "car": "凯迪拉克",
+      "count": 2
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     },
+     {
+      "car": "奥迪",
+      "count": 1
+     },
+     {
+      "car": "哈斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "newyeye7",
+    "total": 5,
+    "distinct": 4,
+    "cars": [
+     {
+      "car": "威廉姆斯",
+      "count": 2
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     },
+     {
+      "car": "梅赛德斯",
+      "count": 1
+     },
+     {
+      "car": "迈凯伦",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Oiysi10023000",
+    "total": 4,
+    "distinct": 4,
+    "cars": [
+     {
+      "car": "小红牛",
+      "count": 1
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     },
+     {
+      "car": "Alpine",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Wanner",
+    "total": 4,
+    "distinct": 4,
+    "cars": [
+     {
+      "car": "小红牛",
+      "count": 1
+     },
+     {
+      "car": "Alpine",
+      "count": 1
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     },
+     {
+      "car": "哈斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "x1aofeiyang",
+    "total": 4,
+    "distinct": 4,
+    "cars": [
+     {
+      "car": "小红牛",
+      "count": 1
+     },
+     {
+      "car": "凯迪拉克",
+      "count": 1
+     },
+     {
+      "car": "红牛",
+      "count": 1
+     },
+     {
+      "car": "奥迪",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "高木同学重度依赖",
+    "total": 4,
+    "distinct": 4,
+    "cars": [
+     {
+      "car": "小红牛",
+      "count": 1
+     },
+     {
+      "car": "红牛",
+      "count": 1
+     },
+     {
+      "car": "迈凯伦",
+      "count": 1
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "star-falI04",
+    "total": 11,
+    "distinct": 3,
+    "cars": [
+     {
+      "car": "法拉利",
+      "count": 6
+     },
+     {
+      "car": "梅赛德斯",
+      "count": 4
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "gangteiss",
+    "total": 5,
+    "distinct": 3,
+    "cars": [
+     {
+      "car": "哈斯",
+      "count": 2
+     },
+     {
+      "car": "迈凯伦",
+      "count": 2
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "鱼雷王",
+    "total": 5,
+    "distinct": 3,
+    "cars": [
+     {
+      "car": "Alpine",
+      "count": 2
+     },
+     {
+      "car": "红牛",
+      "count": 2
+     },
+     {
+      "car": "奥迪",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "HENRY",
+    "total": 4,
+    "distinct": 3,
+    "cars": [
+     {
+      "car": "小红牛",
+      "count": 2
+     },
+     {
+      "car": "红牛",
+      "count": 1
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "R_ATPER2",
+    "total": 4,
+    "distinct": 3,
+    "cars": [
+     {
+      "car": "阿斯顿马丁",
+      "count": 2
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "WuHen",
+    "total": 4,
+    "distinct": 3,
+    "cars": [
+     {
+      "car": "小红牛",
+      "count": 2
+     },
+     {
+      "car": "迈凯伦",
+      "count": 1
+     },
+     {
+      "car": "Alpine",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "ColorFirst",
+    "total": 3,
+    "distinct": 3,
+    "cars": [
+     {
+      "car": "红牛",
+      "count": 1
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     },
+     {
+      "car": "奥迪",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "MFGA",
+    "total": 3,
+    "distinct": 3,
+    "cars": [
+     {
+      "car": "Alpine",
+      "count": 1
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "leevenchenko",
+    "total": 3,
+    "distinct": 3,
+    "cars": [
+     {
+      "car": "奥迪",
+      "count": 1
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Lei",
+    "total": 5,
+    "distinct": 2,
+    "cars": [
+     {
+      "car": "阿斯顿马丁",
+      "count": 3
+     },
+     {
+      "car": "奥迪",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "name": "老吴k423",
+    "total": 5,
+    "distinct": 2,
+    "cars": [
+     {
+      "car": "凯迪拉克",
+      "count": 4
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "RanXi",
+    "total": 3,
+    "distinct": 2,
+    "cars": [
+     {
+      "car": "法拉利",
+      "count": 2
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "糕白",
+    "total": 3,
+    "distinct": 2,
+    "cars": [
+     {
+      "car": "红牛",
+      "count": 2
+     },
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "HEZ",
+    "total": 2,
+    "distinct": 2,
+    "cars": [
+     {
+      "car": "奥迪",
+      "count": 1
+     },
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Mirrorcc",
+    "total": 2,
+    "distinct": 2,
+    "cars": [
+     {
+      "car": "凯迪拉克",
+      "count": 1
+     },
+     {
+      "car": "小红牛",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "芒果",
+    "total": 2,
+    "distinct": 2,
+    "cars": [
+     {
+      "car": "红牛",
+      "count": 1
+     },
+     {
+      "car": "迈凯伦",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "雷电芽衣",
+    "total": 2,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "奥迪",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "name": "Aisu",
+    "total": 1,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Anegler",
+    "total": 1,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "小红牛",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "FerrariGoat",
+    "total": 1,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "MinatoNaoko",
+    "total": 1,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "凯迪拉克",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "OGlockex",
+    "total": 1,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "威廉姆斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Ocean Wu",
+    "total": 1,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "奥迪",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Perez",
+    "total": 1,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "梅赛德斯",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Sliced Onion",
+    "total": 1,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Surviver",
+    "total": 1,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "Alpine",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "Swizzet3271",
+    "total": 1,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "TC",
+    "total": 1,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "Alpine",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "UbisoftHongKong",
+    "total": 1,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "funanana",
+    "total": 1,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "阿斯顿马丁",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "name": "哈哈",
+    "total": 1,
+    "distinct": 1,
+    "cars": [
+     {
+      "car": "哈斯",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "cars": [
+   {
+    "car": "小红牛",
+    "races": 50,
+    "drivers": 33,
+    "wins": 3,
+    "podiums": 7,
+    "avgFinish": 10.62
+   },
+   {
+    "car": "哈斯",
+    "races": 49,
+    "drivers": 23,
+    "wins": 2,
+    "podiums": 3,
+    "avgFinish": 9.49
+   },
+   {
+    "car": "凯迪拉克",
+    "races": 49,
+    "drivers": 18,
+    "wins": 1,
+    "podiums": 1,
+    "avgFinish": 11.41
+   },
+   {
+    "car": "Alpine",
+    "races": 49,
+    "drivers": 29,
+    "wins": 3,
+    "podiums": 6,
+    "avgFinish": 10.22
+   },
+   {
+    "car": "威廉姆斯",
+    "races": 48,
+    "drivers": 27,
+    "wins": 1,
+    "podiums": 9,
+    "avgFinish": 9.6
+   },
+   {
+    "car": "阿斯顿马丁",
+    "races": 48,
+    "drivers": 27,
+    "wins": 3,
+    "podiums": 7,
+    "avgFinish": 11.02
+   },
+   {
+    "car": "奥迪",
+    "races": 46,
+    "drivers": 26,
+    "wins": 0,
+    "podiums": 4,
+    "avgFinish": 12.33
+   },
+   {
+    "car": "红牛",
+    "races": 45,
+    "drivers": 23,
+    "wins": 7,
+    "podiums": 5,
+    "avgFinish": 9.09
+   },
+   {
+    "car": "迈凯伦",
+    "races": 41,
+    "drivers": 20,
+    "wins": 4,
+    "podiums": 4,
+    "avgFinish": 8.39
+   },
+   {
+    "car": "梅赛德斯",
+    "races": 36,
+    "drivers": 11,
+    "wins": 0,
+    "podiums": 2,
+    "avgFinish": 11.31
+   },
+   {
+    "car": "法拉利",
+    "races": 28,
+    "drivers": 11,
+    "wins": 1,
+    "podiums": 2,
+    "avgFinish": 10.46
+   }
+  ],
+  "boards": [
+   {
+    "id": "car_variety",
+    "group": "cars",
+    "title": "开过最多不同的车",
+    "lead": "官方层 · 全季用过的不同车型数量（按场分配，不计缺席）",
+    "color": "orange",
+    "qualified": 64,
+    "insufficient": 0,
+    "rows": [
+     {
+      "name": "白云",
+      "value": 9,
+      "display": "9 种",
+      "detail": "哈斯×5、威廉姆斯×5、小红牛×2…"
+     },
+     {
+      "name": "dan",
+      "value": 9,
+      "display": "9 种",
+      "detail": "红牛×3、迈凯伦×2、Alpine×2…"
+     },
+     {
+      "name": "Gougou",
+      "value": 8,
+      "display": "8 种",
+      "detail": "凯迪拉克×9、奥迪×3、威廉姆斯×2…"
+     },
+     {
+      "name": "A380FatLiner",
+      "value": 8,
+      "display": "8 种",
+      "detail": "哈斯×3、Alpine×3、小红牛×2…"
+     },
+     {
+      "name": "Kagamine RIN",
+      "value": 8,
+      "display": "8 种",
+      "detail": "阿斯顿马丁×3、小红牛×2、凯迪拉克×2…"
+     }
+    ],
+    "note": ""
+   },
+   {
+    "id": "car_loyal",
+    "group": "cars",
+    "title": "开过的车最少",
+    "lead": "官方层 · 出场 ≥5 场的车手按用过的不同车型数量升序；同数量时按出场多的在前（车按场轮换，所以这衡量的是「分到的车有多稳定」）",
+    "color": "green",
+    "qualified": 34,
+    "insufficient": 0,
+    "rows": [
+     {
+      "name": "Lei",
+      "value": 2,
+      "display": "2 种 / 5 场",
+      "detail": "阿斯顿马丁×3、奥迪×2"
+     },
+     {
+      "name": "老吴k423",
+      "value": 2,
+      "display": "2 种 / 5 场",
+      "detail": "凯迪拉克×4、阿斯顿马丁×1"
+     },
+     {
+      "name": "star-falI04",
+      "value": 3,
+      "display": "3 种 / 11 场",
+      "detail": "法拉利×6、梅赛德斯×4、小红牛×1"
+     },
+     {
+      "name": "gangteiss",
+      "value": 3,
+      "display": "3 种 / 5 场",
+      "detail": "哈斯×2、迈凯伦×2、威廉姆斯×1"
+     },
+     {
+      "name": "鱼雷王",
+      "value": 3,
+      "display": "3 种 / 5 场",
+      "detail": "Alpine×2、红牛×2、奥迪×1"
+     }
+    ],
+    "note": ""
+   },
+   {
+    "id": "car_best_driver",
+    "group": "cars",
+    "title": "每辆车的最强者",
+    "lead": "官方层 · 每辆车里平均完赛位最好的车手（该车至少开 3 场）",
+    "color": "blue",
+    "qualified": 5,
+    "insufficient": 0,
+    "rows": [
+     {
+      "name": "威廉姆斯",
+      "value": -4.0,
+      "display": "白云 P4.0",
+      "detail": "该车共 48 场 · 该车手开 5 场"
+     },
+     {
+      "name": "小红牛",
+      "value": -4.333333333333333,
+      "display": "Pan1ys P4.3",
+      "detail": "该车共 50 场 · 该车手开 3 场"
+     },
+     {
+      "name": "Alpine",
+      "value": -4.333333333333333,
+      "display": "defect P4.3",
+      "detail": "该车共 49 场 · 该车手开 3 场"
+     },
+     {
+      "name": "哈斯",
+      "value": -7.375,
+      "display": "AyatoSeven P7.4",
+      "detail": "该车共 49 场 · 该车手开 8 场"
+     },
+     {
+      "name": "凯迪拉克",
+      "value": -7.555555555555555,
+      "display": "Gougou P7.6",
+      "detail": "该车共 49 场 · 该车手开 9 场"
+     }
+    ],
+    "note": ""
+   }
+  ],
+  "note": "萌新杯的车是**按场分配**的（官网成绩的 car 字段），不是车队归属，所以这里统计\"谁开过什么车、各开了多少次\"，不是车队积分榜。"
  },
  "matchNote": "匹配用的是**技术画像**，不是成就：参照档案的六维取值按这些车手公认的技术特点给定，再在本赛季六维空间里取最近的一个。所以积分为 0 的人也可能匹配到世界冠军——这说的是\"你像哪种类型的车手\"，不是\"你等于某某\"。"
 }
