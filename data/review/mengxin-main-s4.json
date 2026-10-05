@@ -19165,60 +19165,13 @@
   ],
   "cars": [
    {
-    "car": "小红牛",
-    "races": 50,
-    "drivers": 33,
-    "wins": 3,
-    "podiums": 7,
-    "avgFinish": 10.62
-   },
-   {
-    "car": "哈斯",
-    "races": 49,
-    "drivers": 23,
-    "wins": 2,
-    "podiums": 3,
-    "avgFinish": 9.49
-   },
-   {
-    "car": "凯迪拉克",
-    "races": 49,
-    "drivers": 18,
-    "wins": 1,
-    "podiums": 1,
-    "avgFinish": 11.41
-   },
-   {
-    "car": "Alpine",
-    "races": 49,
-    "drivers": 29,
-    "wins": 3,
-    "podiums": 6,
-    "avgFinish": 10.22
-   },
-   {
-    "car": "威廉姆斯",
-    "races": 48,
-    "drivers": 27,
-    "wins": 1,
-    "podiums": 9,
-    "avgFinish": 9.6
-   },
-   {
-    "car": "阿斯顿马丁",
-    "races": 48,
-    "drivers": 27,
-    "wins": 3,
-    "podiums": 7,
-    "avgFinish": 11.02
-   },
-   {
-    "car": "奥迪",
-    "races": 46,
-    "drivers": 26,
-    "wins": 0,
+    "car": "迈凯伦",
+    "races": 41,
+    "drivers": 20,
+    "wins": 4,
     "podiums": 4,
-    "avgFinish": 12.33
+    "avgFinish": 8.39,
+    "pos": 1
    },
    {
     "car": "红牛",
@@ -19226,23 +19179,35 @@
     "drivers": 23,
     "wins": 7,
     "podiums": 5,
-    "avgFinish": 9.09
+    "avgFinish": 9.09,
+    "pos": 2
    },
    {
-    "car": "迈凯伦",
-    "races": 41,
-    "drivers": 20,
-    "wins": 4,
-    "podiums": 4,
-    "avgFinish": 8.39
+    "car": "哈斯",
+    "races": 49,
+    "drivers": 23,
+    "wins": 2,
+    "podiums": 3,
+    "avgFinish": 9.49,
+    "pos": 3
    },
    {
-    "car": "梅赛德斯",
-    "races": 36,
-    "drivers": 11,
-    "wins": 0,
-    "podiums": 2,
-    "avgFinish": 11.31
+    "car": "威廉姆斯",
+    "races": 48,
+    "drivers": 27,
+    "wins": 1,
+    "podiums": 9,
+    "avgFinish": 9.6,
+    "pos": 4
+   },
+   {
+    "car": "Alpine",
+    "races": 49,
+    "drivers": 29,
+    "wins": 3,
+    "podiums": 6,
+    "avgFinish": 10.22,
+    "pos": 5
    },
    {
     "car": "法拉利",
@@ -19250,7 +19215,53 @@
     "drivers": 11,
     "wins": 1,
     "podiums": 2,
-    "avgFinish": 10.46
+    "avgFinish": 10.46,
+    "pos": 6
+   },
+   {
+    "car": "小红牛",
+    "races": 50,
+    "drivers": 33,
+    "wins": 3,
+    "podiums": 7,
+    "avgFinish": 10.62,
+    "pos": 7
+   },
+   {
+    "car": "阿斯顿马丁",
+    "races": 48,
+    "drivers": 27,
+    "wins": 3,
+    "podiums": 7,
+    "avgFinish": 11.02,
+    "pos": 8
+   },
+   {
+    "car": "梅赛德斯",
+    "races": 36,
+    "drivers": 11,
+    "wins": 0,
+    "podiums": 2,
+    "avgFinish": 11.31,
+    "pos": 9
+   },
+   {
+    "car": "凯迪拉克",
+    "races": 49,
+    "drivers": 18,
+    "wins": 1,
+    "podiums": 1,
+    "avgFinish": 11.41,
+    "pos": 10
+   },
+   {
+    "car": "奥迪",
+    "races": 46,
+    "drivers": 26,
+    "wins": 0,
+    "podiums": 4,
+    "avgFinish": 12.33,
+    "pos": 11
    }
   ],
   "boards": [
@@ -19381,7 +19392,7 @@
     "note": ""
    }
   ],
-  "note": "萌新杯的车是**按场分配**的（官网成绩的 car 字段），不是车队归属，所以这里统计\"谁开过什么车、各开了多少次\"，不是车队积分榜。"
+  "note": "萌新杯的车是**按场分配**的（官网成绩的 car 字段），不是车队归属，所以这里统计\"谁开过什么车、各开了多少次\"，不是车队积分榜。车辆总表按**平均完赛位**排（成绩最好在前）——但由于车按场轮换，一辆车的平均完赛位**更多反映谁开过它**，而不是车本身有多强。"
  },
  "matchNote": "匹配用的是**技术画像**，不是成就：参照档案的六维取值按这些车手公认的技术特点给定，再在本赛季六维空间里取最近的一个。所以积分为 0 的人也可能匹配到世界冠军——这说的是\"你像哪种类型的车手\"，不是\"你等于某某\"。"
 }
