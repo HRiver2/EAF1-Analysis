@@ -2985,7 +2985,7 @@
    "title": "干地之王",
    "lead": "遥测层 · 干地之王对应的平均完赛位；门槛：该类天气至少 2 场。全雨与全干分开比；混合场次两边都不计入",
    "color": "blue",
-   "qualified": 45,
+   "qualified": 43,
    "insufficient": 0,
    "rows": [
     {
@@ -3013,10 +3013,10 @@
      "detail": "2 场 · 30 分 · 完赛率 100%"
     },
     {
-     "name": "lm10",
-     "value": 4.333333333333333,
-     "display": "P4.3",
-     "detail": "10 场 · 121 分 · 完赛率 90%"
+     "name": "defect",
+     "value": 4.090909090909091,
+     "display": "P4.1",
+     "detail": "12 场 · 165 分 · 完赛率 92%"
     }
    ],
    "note": ""
@@ -3027,14 +3027,14 @@
    "title": "雨天加成最大",
    "lead": "遥测层 · 平均完赛位「雨 − 干」。负数＝雨天名次更靠前，即雨天比干地强；门槛：两种天气各至少 2 场",
    "color": "green",
-   "qualified": 26,
+   "qualified": 25,
    "insufficient": 0,
    "rows": [
     {
      "name": "EasonLeclerc",
      "value": -11.666666666666668,
      "display": "-11.7 位",
-     "detail": "雨 3 场 P6.3 · 干 4 场 P18.0"
+     "detail": "雨 3 场 P6.3 · 干 3 场 P18.0"
     },
     {
      "name": "Lei",
@@ -3043,16 +3043,16 @@
      "detail": "雨 2 场 P2.0 · 干 2 场 P10.0"
     },
     {
+     "name": "It57",
+     "value": -5.416666666666667,
+     "display": "-5.4 位",
+     "detail": "雨 3 场 P5.3 · 干 8 场 P10.8"
+    },
+    {
      "name": "黑崎小雪",
      "value": -5.190476190476191,
      "display": "-5.2 位",
      "detail": "雨 3 场 P5.7 · 干 8 场 P10.9"
-    },
-    {
-     "name": "It57",
-     "value": -5.000000000000001,
-     "display": "-5.0 位",
-     "detail": "雨 3 场 P5.3 · 干 9 场 P10.3"
     },
     {
      "name": "DQ",
@@ -3069,7 +3069,7 @@
    "title": "雨天最拉胯",
    "lead": "遥测层 · 同上口径，正值＝下雨反而掉名次；门槛：两种天气各至少 2 场",
    "color": "red",
-   "qualified": 26,
+   "qualified": 25,
    "insufficient": 0,
    "rows": [
     {
@@ -3085,22 +3085,22 @@
      "detail": "雨 3 场 P13.0 · 干 9 场 P6.8"
     },
     {
-     "name": "白云",
-     "value": 4.85,
-     "display": "+4.8 位",
-     "detail": "雨 5 场 P11.6 · 干 12 场 P6.8"
-    },
-    {
      "name": "tenbergen",
      "value": 4.783333333333333,
      "display": "+4.8 位",
-     "detail": "雨 5 场 P12.2 · 干 16 场 P7.5"
+     "detail": "雨 5 场 P12.2 · 干 15 场 P7.5"
     },
     {
-     "name": "newyeye7",
-     "value": 4.5,
-     "display": "+4.5 位",
-     "detail": "雨 2 场 P10.5 · 干 3 场 P6.0"
+     "name": "白云",
+     "value": 4.6,
+     "display": "+4.6 位",
+     "detail": "雨 5 场 P11.6 · 干 11 场 P7.0"
+    },
+    {
+     "name": "defect",
+     "value": 4.575757575757575,
+     "display": "+4.6 位",
+     "detail": "雨 4 场 P8.7 · 干 12 场 P4.1"
     }
    ],
    "note": ""
@@ -3235,7 +3235,7 @@
    "id": "car_loyal",
    "group": "cars",
    "title": "开过的车最少",
-   "lead": "官方层 · 出场 ≥5 场的车手按用过的不同车型数量升序；同数量时按出场多的在前（车按场轮换，所以这衡量的是「分到的车有多稳定」）",
+   "lead": "官方层 · 出场 ≥5 场的车手按用过的不同车型数量升序；车按场轮换，所以这衡量的是「分到的车有多稳定」",
    "color": "green",
    "qualified": 34,
    "insufficient": 0,
@@ -3277,40 +3277,286 @@
    "id": "car_best_driver",
    "group": "cars",
    "title": "每辆车的最强者",
-   "lead": "官方层 · 每辆车里平均完赛位最好的车手（该车至少开 3 场）",
+   "lead": "官方层 · 每辆车里平均完赛位最好的车手（在该车至少开 2 场）；按权威车序排列，**每辆车都有一行**",
    "color": "blue",
-   "qualified": 5,
+   "qualified": 11,
    "insufficient": 0,
    "rows": [
+    {
+     "name": "法拉利",
+     "value": -4.0,
+     "display": "清蒸猫头鹰凉拌菠萝 P4.0",
+     "detail": "车序第 1 · 该车 28 场 · 清蒸猫头鹰凉拌菠萝 开了 2 场"
+    },
+    {
+     "name": "梅赛德斯",
+     "value": -8.5,
+     "display": "It57 P8.5",
+     "detail": "车序第 2 · 该车 36 场 · It57 开了 4 场"
+    },
+    {
+     "name": "迈凯伦",
+     "value": -2.0,
+     "display": "黑崎小雪 P2.0",
+     "detail": "车序第 3 · 该车 41 场 · 黑崎小雪 开了 2 场"
+    },
+    {
+     "name": "红牛",
+     "value": -1.0,
+     "display": "鱼雷王 P1.0",
+     "detail": "车序第 4 · 该车 45 场 · 鱼雷王 开了 2 场"
+    },
     {
      "name": "威廉姆斯",
      "value": -4.0,
      "display": "白云 P4.0",
-     "detail": "该车共 48 场 · 该车手开 5 场"
-    },
-    {
-     "name": "小红牛",
-     "value": -4.333333333333333,
-     "display": "Pan1ys P4.3",
-     "detail": "该车共 50 场 · 该车手开 3 场"
+     "detail": "车序第 5 · 该车 48 场 · 白云 开了 5 场"
     },
     {
      "name": "Alpine",
-     "value": -4.333333333333333,
-     "display": "defect P4.3",
-     "detail": "该车共 49 场 · 该车手开 3 场"
+     "value": -3.5,
+     "display": "EasonLeclerc P3.5",
+     "detail": "车序第 6 · 该车 49 场 · EasonLeclerc 开了 2 场"
+    },
+    {
+     "name": "小红牛",
+     "value": -1.5,
+     "display": "lm10 P1.5",
+     "detail": "车序第 7 · 该车 50 场 · lm10 开了 2 场"
     },
     {
      "name": "哈斯",
-     "value": -7.375,
-     "display": "AyatoSeven P7.4",
-     "detail": "该车共 49 场 · 该车手开 8 场"
+     "value": -3.5,
+     "display": "lm10 P3.5",
+     "detail": "车序第 8 · 该车 49 场 · lm10 开了 2 场"
+    },
+    {
+     "name": "奥迪",
+     "value": -5.333333333333333,
+     "display": "Gougou P5.3",
+     "detail": "车序第 9 · 该车 46 场 · Gougou 开了 3 场"
+    },
+    {
+     "name": "阿斯顿马丁",
+     "value": -2.0,
+     "display": "R_ATPER2 P2.0",
+     "detail": "车序第 10 · 该车 48 场 · R_ATPER2 开了 2 场"
     },
     {
      "name": "凯迪拉克",
-     "value": -7.555555555555555,
-     "display": "Gougou P7.6",
-     "detail": "该车共 49 场 · 该车手开 9 场"
+     "value": -4.5,
+     "display": "lm10 P4.5",
+     "detail": "车序第 11 · 该车 49 场 · lm10 开了 2 场"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "car_points",
+   "group": "cars",
+   "title": "车队积分榜（趣味）",
+   "lead": "官方层 · 把「车」当成队，累计开过它的车手拿到的积分。**不是真实车队榜**——车按场分配、同一个人一个赛季会开很多辆车，所以这反映的是\"这辆车被分给了谁\"",
+   "color": "orange",
+   "qualified": 11,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "红牛",
+     "value": 469,
+     "display": "469 分",
+     "detail": "贡献：defect 93、鱼雷王 50"
+    },
+    {
+     "name": "迈凯伦",
+     "value": 447,
+     "display": "447 分",
+     "detail": "贡献：tenbergen 72、HayesCC 47"
+    },
+    {
+     "name": "威廉姆斯",
+     "value": 432,
+     "display": "432 分",
+     "detail": "贡献：白云 82、Gougou 40"
+    },
+    {
+     "name": "哈斯",
+     "value": 419,
+     "display": "419 分",
+     "detail": "贡献：AyatoSeven 88、Momokong 45"
+    },
+    {
+     "name": "Alpine",
+     "value": 419,
+     "display": "419 分",
+     "detail": "贡献：defect 43、Landoooo_W 40"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "car_advantage",
+   "group": "cars",
+   "title": "分到的车最好",
+   "lead": "官方层 · 平均车序相对全场均值的优势（车序 1 = 最快）。CBAS 的设计是**强者开慢车**，所以这个值高不代表车手强，反而多半说明他 CR 低",
+   "color": "orange",
+   "qualified": 64,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "star-falI04",
+     "value": 4.09,
+     "display": "+4.09 档",
+     "detail": "平均车序 1.91（1=最快，全场均值 6.0）· 11 场"
+    },
+    {
+     "name": "Perez",
+     "value": 4.0,
+     "display": "+4.00 档",
+     "detail": "平均车序 2.00（1=最快，全场均值 6.0）· 1 场"
+    },
+    {
+     "name": "RanXi",
+     "value": 3.67,
+     "display": "+3.67 档",
+     "detail": "平均车序 2.33（1=最快，全场均值 6.0）· 3 场"
+    },
+    {
+     "name": "HayesCC",
+     "value": 3.6,
+     "display": "+3.60 档",
+     "detail": "平均车序 2.40（1=最快，全场均值 6.0）· 25 场"
+    },
+    {
+     "name": "tenbergen",
+     "value": 3.28,
+     "display": "+3.28 档",
+     "detail": "平均车序 2.72（1=最快，全场均值 6.0）· 25 场"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "car_disadvantage",
+   "group": "cars",
+   "title": "分到的车最差",
+   "lead": "官方层 · 平均车序相对全场均值最吃亏的那一端",
+   "color": "red",
+   "qualified": 64,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "MinatoNaoko",
+     "value": -5.0,
+     "display": "-5.00 档",
+     "detail": "平均车序 11.00（1=最快，全场均值 6.0）· 1 场"
+    },
+    {
+     "name": "老吴k423",
+     "value": -4.8,
+     "display": "-4.80 档",
+     "detail": "平均车序 10.80（1=最快，全场均值 6.0）· 5 场"
+    },
+    {
+     "name": "funanana",
+     "value": -4.0,
+     "display": "-4.00 档",
+     "detail": "平均车序 10.00（1=最快，全场均值 6.0）· 1 场"
+    },
+    {
+     "name": "FerrariGoat",
+     "value": -4.0,
+     "display": "-4.00 档",
+     "detail": "平均车序 10.00（1=最快，全场均值 6.0）· 1 场"
+    },
+    {
+     "name": "Swizzet3271",
+     "value": -4.0,
+     "display": "-4.00 档",
+     "detail": "平均车序 10.00（1=最快，全场均值 6.0）· 1 场"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "over_perform",
+   "group": "cars",
+   "title": "超额完成最多",
+   "lead": "官方层 · 「这辆车通常跑第几」−「他实际跑第几」。正值＝比这辆车的一般水平更好，负值＝没跑出车该有的位置",
+   "color": "green",
+   "qualified": 62,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "R_ATPER2",
+     "value": 8.82,
+     "display": "+8.82 位",
+     "detail": "车通常 P10.6 · 他跑 P1.8 · 车序 8.0"
+    },
+    {
+     "name": "Wanner",
+     "value": 8.73,
+     "display": "+8.73 位",
+     "detail": "车通常 P10.0 · 他跑 P1.2 · 车序 6.5"
+    },
+    {
+     "name": "Mirrorcc",
+     "value": 8.02,
+     "display": "+8.02 位",
+     "detail": "车通常 P11.0 · 他跑 P3.0 · 车序 9.0"
+    },
+    {
+     "name": "funanana",
+     "value": 8.02,
+     "display": "+8.02 位",
+     "detail": "车通常 P11.0 · 他跑 P3.0 · 车序 10.0"
+    },
+    {
+     "name": "Swizzet3271",
+     "value": 8.02,
+     "display": "+8.02 位",
+     "detail": "车通常 P11.0 · 他跑 P3.0 · 车序 10.0"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "under_perform",
+   "group": "cars",
+   "title": "最没跑出车的水平",
+   "lead": "官方层 · 同上口径，负得最多的那一端",
+   "color": "red",
+   "qualified": 62,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "TC",
+     "value": -10.78,
+     "display": "-10.78 位",
+     "detail": "车通常 P10.2 · 他跑 P21.0 · 车序 6.0"
+    },
+    {
+     "name": "leevenchenko",
+     "value": -10.67,
+     "display": "-10.67 位",
+     "detail": "车通常 P11.3 · 他跑 P22.0 · 车序 8.7"
+    },
+    {
+     "name": "哈哈",
+     "value": -9.51,
+     "display": "-9.51 位",
+     "detail": "车通常 P9.5 · 他跑 P19.0 · 车序 8.0"
+    },
+    {
+     "name": "Aisu",
+     "value": -9.4,
+     "display": "-9.40 位",
+     "detail": "车通常 P9.6 · 他跑 P19.0 · 车序 5.0"
+    },
+    {
+     "name": "Surviver",
+     "value": -8.78,
+     "display": "-8.78 位",
+     "detail": "车通常 P10.2 · 他跑 P19.0 · 车序 6.0"
     }
    ],
    "note": ""
@@ -11644,12 +11890,13 @@
  "match": {
   "Wanner": {
    "name": "Wanner",
-   "ref": "Oscar Piastri",
-   "refTrait": "冷静、干净、全面，几乎不犯错",
-   "similarity": 0.567,
-   "distance": 0.866,
+   "ref": "Nico Rosberg",
+   "refTrait": "拼到极致的冠军，纪律极好",
+   "refEra": "2010s",
+   "similarity": 0.524,
+   "distance": 0.952,
    "weakMatch": false,
-   "why": "97 分排在 17/64。4 场里 4 场完赛、3 个冠军、1 次登台、2 个杆位。他的节奏稳定性排在场上前 6/63。比「Oscar Piastri」更倚重缠斗。而完赛是他的相对短板（场上第 25/64）。全季领跑 52 圈（4 站）。",
+   "why": "97 分排在 17/64。4 场里 4 场完赛、3 个冠军、1 次登台、2 个杆位。他的节奏稳定性排在场上前 6/63。比「Nico Rosberg」更倚重缠斗。而完赛是他的相对短板（场上第 25/64）。全季领跑 52 圈（4 站）。他平均开的是第 6.5 档车（全场均值 6.0），比这辆车的一般水平快 8.7 位。",
    "axes": {
     "pace": 0.7938981479928201,
     "consistency": 0.9300947867298577,
@@ -11669,12 +11916,13 @@
   },
   "R_ATPER2": {
    "name": "R_ATPER2",
-   "ref": "Lewis Hamilton",
-   "refTrait": "轮胎管理大师，正赛越长越强",
-   "similarity": 0.613,
-   "distance": 0.773,
+   "ref": "Jim Clark",
+   "refTrait": "单圈与节奏都是时代顶点的绅士",
+   "refEra": "1960s",
+   "similarity": 0.802,
+   "distance": 0.396,
    "weakMatch": false,
-   "why": "92 分排在 18/64。4 场里 4 场完赛、2 个冠军、2 次登台、3 个杆位。他的轮胎管理排在场上前 2/62。比「Lewis Hamilton」更倚重速度。而完赛是他的相对短板（场上第 26/64）。全季领跑 71 圈（3 站）。",
+   "why": "92 分排在 18/64。4 场里 4 场完赛、2 个冠军、2 次登台、3 个杆位。他的轮胎管理排在场上前 2/62。而速度是他的相对短板（场上第 5/63）。全季领跑 71 圈（3 站）。他平均开的是第 8.0 档车（全场均值 6.0），比这辆车的一般水平快 8.8 位。",
    "axes": {
     "pace": 0.8630571003423971,
     "consistency": 0.8729857819905212,
@@ -11694,12 +11942,13 @@
   },
   "yi_hua": {
    "name": "yi_hua",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.791,
-   "distance": 0.419,
+   "ref": "Nelson Piquet",
+   "refTrait": "聪明强硬的三冠",
+   "refEra": "1980s",
+   "similarity": 0.838,
+   "distance": 0.324,
    "weakMatch": false,
-   "why": "70 分排在 23/64。6 场里 5 场完赛、1 个冠军、2 次登台。他的节奏稳定性排在场上前 15/63。比「Carlos Sainz」更倚重缠斗。而完赛是他的相对短板（场上第 27/64）。全季领跑 39 圈（2 站）。",
+   "why": "70 分排在 23/64。6 场里 5 场完赛、1 个冠军、2 次登台。他的节奏稳定性排在场上前 15/63。比「Nelson Piquet」更倚重纪律。而完赛是他的相对短板（场上第 27/64）。全季领跑 39 圈（2 站）。他平均开的是第 6.7 档车（全场均值 6.0），比这辆车的一般水平快 1.1 位。",
    "axes": {
     "pace": 0.5418158428901765,
     "consistency": 0.8180094786729856,
@@ -11720,11 +11969,12 @@
   "lm10": {
    "name": "lm10",
    "ref": "Fernando Alonso",
-   "refTrait": "比赛智慧与轮胎保全，缠斗老辣",
-   "similarity": 0.551,
-   "distance": 0.897,
+   "refTrait": "轮胎与比赛智慧顶级，缠斗老辣",
+   "refEra": "2000s",
+   "similarity": 0.54,
+   "distance": 0.921,
    "weakMatch": false,
-   "why": "221 分排在 4/64。13 场里 12 场完赛、2 个冠军、4 次登台、2 个杆位。他的缠斗排在场上前 1/64。而轮胎管理是他的相对短板（场上第 21/62）。全季领跑 58 圈（3 站）。",
+   "why": "221 分排在 4/64。13 场里 12 场完赛、2 个冠军、4 次登台、2 个杆位。他的缠斗排在场上前 1/64。而轮胎管理是他的相对短板（场上第 21/62）。全季领跑 58 圈（3 站）。他平均开的是第 8.4 档车（全场均值 6.0），比这辆车的一般水平快 5.9 位。",
    "axes": {
     "pace": 0.6746807663231672,
     "consistency": 0.7544537610888321,
@@ -11744,12 +11994,13 @@
   },
   "LewisRen": {
    "name": "LewisRen",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.766,
-   "distance": 0.469,
+   "ref": "Heinz-Harald Frentzen",
+   "refTrait": "速度尚可、时运不济",
+   "refEra": "1990s",
+   "similarity": 0.782,
+   "distance": 0.436,
    "weakMatch": false,
-   "why": "76 分排在 19/64。12 场里 9 场完赛、1 次登台。他的完赛排在场上前 20/64。比「Carlos Sainz」更倚重速度。完成 143 次超车。",
+   "why": "76 分排在 19/64。12 场里 9 场完赛、1 次登台。他的完赛排在场上前 20/64。比「Heinz-Harald Frentzen」更倚重速度。完成 143 次超车。他平均开的是第 8.9 档车（全场均值 6.0），比这辆车的一般水平慢 1.7 位。",
    "axes": {
     "pace": 0.6362535770506587,
     "consistency": 0.7391641533821629,
@@ -11771,10 +12022,11 @@
    "name": "清蒸猫头鹰凉拌菠萝",
    "ref": "Carlos Sainz",
    "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.872,
-   "distance": 0.256,
+   "refEra": "2020s",
+   "similarity": 0.845,
+   "distance": 0.311,
    "weakMatch": false,
-   "why": "115 分排在 13/64。12 场里 11 场完赛、1 次登台。他的完赛排在场上前 16/64。比「Carlos Sainz」更倚重速度。而轮胎管理是他的相对短板（场上第 23/62）。完成 109 次超车。",
+   "why": "115 分排在 13/64。12 场里 11 场完赛、1 次登台。他的完赛排在场上前 16/64。比「Carlos Sainz」更倚重速度。而轮胎管理是他的相对短板（场上第 23/62）。完成 109 次超车。他平均开的是第 4.1 档车（全场均值 6.0），比这辆车的一般水平快 1.6 位。",
    "axes": {
     "pace": 0.6586312882650962,
     "consistency": 0.7221599885106994,
@@ -11794,12 +12046,13 @@
   },
   "HayesCC": {
    "name": "HayesCC",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.217,
-   "distance": 1.565,
+   "ref": "Sergio Pérez",
+   "refTrait": "极端省胎，单圈速度普通",
+   "refEra": "2010s",
+   "similarity": 0.177,
+   "distance": 1.646,
    "weakMatch": true,
-   "why": "166 分排在 7/64。25 场里 24 场完赛、1 个冠军、1 个杆位。他的完赛排在场上前 2/64。全季领跑 9 圈（3 站）。",
+   "why": "166 分排在 7/64。25 场里 24 场完赛、1 个冠军、1 个杆位。他的完赛排在场上前 2/64。全季领跑 9 圈（3 站）。他平均开的是第 2.4 档车（全场均值 6.0），比这辆车的一般水平慢 0.0 位。",
    "axes": {
     "pace": 0.5815027900555925,
     "consistency": 0.6962216956292785,
@@ -11819,12 +12072,13 @@
   },
   "Landoooo_W": {
    "name": "Landoooo_W",
-   "ref": "Yuki Tsunoda",
-   "refTrait": "速度与火气都足，纪律代价明显",
-   "similarity": 0.398,
-   "distance": 1.204,
-   "weakMatch": true,
-   "why": "75 分排在 20/64。12 场里 10 场完赛。他的缠斗排在场上前 2/64。比「Yuki Tsunoda」更倚重完赛。完成 187 次超车。",
+   "ref": "Juan Pablo Montoya",
+   "refTrait": "凶悍超车型，与人对撞也不退",
+   "refEra": "2000s",
+   "similarity": 0.514,
+   "distance": 0.972,
+   "weakMatch": false,
+   "why": "75 分排在 20/64。12 场里 10 场完赛。他的缠斗排在场上前 2/64。比「Juan Pablo Montoya」更倚重完赛。完成 187 次超车。他平均开的是第 8.1 档车（全场均值 6.0），比这辆车的一般水平慢 2.3 位。",
    "axes": {
     "pace": 0.7547033201460281,
     "consistency": 0.7102972856527358,
@@ -11844,12 +12098,13 @@
   },
   "叶yeeeeee": {
    "name": "叶yeeeeee",
-   "ref": "Daniel Ricciardo",
-   "refTrait": "晚刹车、超车型，单圈略逊",
-   "similarity": 0.637,
-   "distance": 0.726,
+   "ref": "Dan Gurney",
+   "refTrait": "全能型，什么都自己动手",
+   "refEra": "1960s",
+   "similarity": 0.728,
+   "distance": 0.543,
    "weakMatch": false,
-   "why": "9 分排在 48/64。7 场里 2 场完赛。他的节奏稳定性排在场上前 10/63。完成 83 次超车。",
+   "why": "9 分排在 48/64。7 场里 2 场完赛。他的节奏稳定性排在场上前 10/63。完成 83 次超车。他平均开的是第 9.0 档车（全场均值 6.0），比这辆车的一般水平慢 6.1 位。",
    "axes": {
     "pace": 0.5902092860952621,
     "consistency": 0.864876250658241,
@@ -11870,11 +12125,12 @@
   "AyatoSeven": {
    "name": "AyatoSeven",
    "ref": "Max Verstappen",
-   "refTrait": "三项都在顶档，缠斗强硬且很少自失",
-   "similarity": 0.176,
-   "distance": 1.649,
+   "refTrait": "三项顶档，缠斗强硬极少自失",
+   "refEra": "2010s",
+   "similarity": 0.165,
+   "distance": 1.669,
    "weakMatch": true,
-   "why": "208 分排在 6/64。25 场里 25 场完赛。他的完赛排在场上前 1/64。全季领跑 1 圈（1 站）。",
+   "why": "208 分排在 6/64。25 场里 25 场完赛。他的完赛排在场上前 1/64。全季领跑 1 圈（1 站）。他平均开的是第 9.7 档车（全场均值 6.0），比这辆车的一般水平快 1.3 位。",
    "axes": {
     "pace": 0.5866790914831889,
     "consistency": 0.6317472353870457,
@@ -11896,10 +12152,11 @@
    "name": "芒果",
    "ref": "Pierre Gasly",
    "refTrait": "中游标杆，六维都在均值偏上",
-   "similarity": 0.605,
-   "distance": 0.791,
+   "refEra": "2020s",
+   "similarity": 0.621,
+   "distance": 0.757,
    "weakMatch": false,
-   "why": "8 分排在 49/64。2 场里 2 场完赛。他的轮胎管理排在场上前 13/62。完成 24 次超车。",
+   "why": "8 分排在 49/64。2 场里 2 场完赛。他的轮胎管理排在场上前 13/62。完成 24 次超车。他平均开的是第 3.5 档车（全场均值 6.0），比这辆车的一般水平慢 3.3 位。",
    "axes": {
     "pace": 0.4174460250624887,
     "consistency": 0.39004739336492894,
@@ -11920,11 +12177,12 @@
   "Perez": {
    "name": "Perez",
    "ref": "Lando Norris",
-   "refTrait": "各项均衡、节奏干净，少有失误",
-   "similarity": 0.585,
-   "distance": 0.83,
+   "refTrait": "各项均衡、节奏干净",
+   "refEra": "2020s",
+   "similarity": 0.493,
+   "distance": 1.014,
    "weakMatch": false,
-   "why": "4 分排在 52/64。1 场里 1 场完赛。他的节奏稳定性排在场上前 3/63。比「Lando Norris」更倚重缠斗。完成 11 次超车。",
+   "why": "4 分排在 52/64。1 场里 1 场完赛。他的节奏稳定性排在场上前 3/63。比「Lando Norris」更倚重缠斗。完成 11 次超车。他平均开的是第 2.0 档车（全场均值 6.0），比这辆车的一般水平慢 0.7 位。",
    "axes": {
     "pace": 0.8040258629160008,
     "consistency": 0.9848341232227488,
@@ -11944,12 +12202,13 @@
   },
   "Kagamine RIN": {
    "name": "Kagamine RIN",
-   "ref": "Fernando Alonso",
-   "refTrait": "比赛智慧与轮胎保全，缠斗老辣",
-   "similarity": 0.598,
-   "distance": 0.804,
+   "ref": "Nigel Mansell",
+   "refTrait": "凶猛超车型，敢打敢拼",
+   "refEra": "1980s",
+   "similarity": 0.567,
+   "distance": 0.867,
    "weakMatch": false,
-   "why": "122 分排在 10/64。12 场里 12 场完赛、3 次登台、1 个杆位。他的缠斗排在场上前 5/64。比「Fernando Alonso」更倚重速度。全季领跑 6 圈（1 站）。",
+   "why": "122 分排在 10/64。12 场里 12 场完赛、3 次登台、1 个杆位。他的缠斗排在场上前 5/64。比「Nigel Mansell」更倚重完赛。而速度是他的相对短板（场上第 33/63）。全季领跑 6 圈（1 站）。他平均开的是第 7.8 档车（全场均值 6.0），比这辆车的一般水平快 2.2 位。",
    "axes": {
     "pace": 0.5911271323611328,
     "consistency": 0.6299583512853654,
@@ -11969,12 +12228,13 @@
   },
   "Er1sed-FOX": {
    "name": "Er1sed-FOX",
-   "ref": "George Russell",
-   "refTrait": "排位突出、执行稳定",
-   "similarity": 0.174,
-   "distance": 1.652,
+   "ref": "Rubens Barrichello",
+   "refTrait": "可靠的老二，轮胎不错",
+   "refEra": "1990s",
+   "similarity": 0.086,
+   "distance": 1.828,
    "weakMatch": true,
-   "why": "109 分排在 15/64。22 场里 20 场完赛。他的完赛排在场上前 5/64。拿下 1 次全场最快圈。",
+   "why": "109 分排在 15/64。22 场里 20 场完赛。他的完赛排在场上前 5/64。拿下 1 次全场最快圈。他平均开的是第 7.8 档车（全场均值 6.0），比这辆车的一般水平慢 1.4 位。",
    "axes": {
     "pace": 0.5681203103079575,
     "consistency": 0.6809421226482838,
@@ -11994,12 +12254,13 @@
   },
   "tenbergen": {
    "name": "tenbergen",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.388,
-   "distance": 1.223,
+   "ref": "Nick Heidfeld",
+   "refTrait": "低调可靠，少有失误",
+   "refEra": "2000s",
+   "similarity": 0.355,
+   "distance": 1.29,
    "weakMatch": true,
-   "why": "238 分排在 3/64。25 场里 24 场完赛、2 次登台、1 个杆位。他的完赛排在场上前 3/64。全季领跑 5 圈（2 站）。",
+   "why": "238 分排在 3/64。25 场里 24 场完赛、2 次登台、1 个杆位。他的完赛排在场上前 3/64。全季领跑 5 圈（2 站）。他平均开的是第 2.7 档车（全场均值 6.0），比这辆车的一般水平快 1.2 位。",
    "axes": {
     "pace": 0.5928324135140843,
     "consistency": 0.681332280147446,
@@ -12019,12 +12280,13 @@
   },
   "✪x1aofeiyang": {
    "name": "✪x1aofeiyang",
-   "ref": "Charles Leclerc",
-   "refTrait": "一圈速度顶级，稳定与完赛是短板",
-   "similarity": 0.552,
-   "distance": 0.896,
+   "ref": "Stirling Moss",
+   "refTrait": "速度与缠斗俱佳，却总与冠军擦肩",
+   "refEra": "1950s",
+   "similarity": 0.596,
+   "distance": 0.808,
    "weakMatch": false,
-   "why": "0 分排在 56/64。1 场里 0 场完赛。他的纪律排在场上前 4/64。比「Charles Leclerc」更倚重轮胎管理。完成 17 次超车。",
+   "why": "0 分排在 56/64。1 场里 0 场完赛。他的纪律排在场上前 4/64。完成 17 次超车。",
    "axes": {
     "pace": 0.8129749542869605,
     "consistency": 0.39020537124802523,
@@ -12044,12 +12306,13 @@
   },
   "dan": {
    "name": "dan",
-   "ref": "Daniel Ricciardo",
-   "refTrait": "晚刹车、超车型，单圈略逊",
-   "similarity": 0.619,
-   "distance": 0.763,
+   "ref": "Jacques Villeneuve",
+   "refTrait": "两轮世界冠军转来拿四轮冠军",
+   "refEra": "1990s",
+   "similarity": 0.716,
+   "distance": 0.569,
    "weakMatch": false,
-   "why": "27 分排在 34/64。14 场里 11 场完赛。他的缠斗排在场上前 8/64。比「Daniel Ricciardo」更倚重完赛。完成 153 次超车。",
+   "why": "27 分排在 34/64。14 场里 11 场完赛。他的缠斗排在场上前 8/64。比「Jacques Villeneuve」更倚重完赛。完成 153 次超车。他平均开的是第 4.9 档车（全场均值 6.0），比这辆车的一般水平慢 6.1 位。",
    "axes": {
     "pace": 0.5755333971735441,
     "consistency": 0.6846761453396524,
@@ -12069,12 +12332,13 @@
   },
   "Ak_Langley_S": {
    "name": "Ak_Langley_S",
-   "ref": "Pierre Gasly",
-   "refTrait": "中游标杆，六维都在均值偏上",
-   "similarity": 0.523,
-   "distance": 0.955,
+   "ref": "Valtteri Bottas",
+   "refTrait": "排位强、正赛偏软",
+   "refEra": "2010s",
+   "similarity": 0.626,
+   "distance": 0.748,
    "weakMatch": false,
-   "why": "116 分排在 12/64。14 场里 13 场完赛、2 次登台。他的完赛排在场上前 10/64。拿下 1 次全场最快圈。",
+   "why": "116 分排在 12/64。14 场里 13 场完赛、2 次登台。他的完赛排在场上前 10/64。拿下 1 次全场最快圈。他平均开的是第 4.8 档车（全场均值 6.0），比这辆车的一般水平慢 0.2 位。",
    "axes": {
     "pace": 0.5002665710361801,
     "consistency": 0.5935906116000902,
@@ -12094,12 +12358,13 @@
   },
   "老吴k423": {
    "name": "老吴k423",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.66,
-   "distance": 0.68,
+   "ref": "Kimi Räikkönen",
+   "refTrait": "冰人：纯速度，话少",
+   "refEra": "2000s",
+   "similarity": 0.888,
+   "distance": 0.224,
    "weakMatch": false,
-   "why": "71 分排在 22/64。5 场里 4 场完赛、1 个冠军。他的速度排在场上前 8/63。而轮胎管理是他的相对短板（场上第 35/62）。全季领跑 28 圈（1 站）。",
+   "why": "71 分排在 22/64。5 场里 4 场完赛、1 个冠军。他的速度排在场上前 8/63。比「Kimi Räikkönen」更倚重节奏稳定性。而完赛是他的相对短板（场上第 29/64）。全季领跑 28 圈（1 站）。他平均开的是第 10.8 档车（全场均值 6.0），比这辆车的一般水平快 4.3 位。",
    "axes": {
     "pace": 0.7943041098971995,
     "consistency": 0.8211690363349131,
@@ -12119,12 +12384,13 @@
   },
   "Momokong": {
    "name": "Momokong",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.498,
-   "distance": 1.004,
+   "ref": "Mike Hawthorn",
+   "refTrait": "稳中取胜，纪律一般",
+   "refEra": "1950s",
+   "similarity": 0.599,
+   "distance": 0.803,
    "weakMatch": false,
-   "why": "154 分排在 8/64。20 场里 16 场完赛、3 次登台、1 个杆位。他的完赛排在场上前 11/64。全季领跑 25 圈（4 站）。",
+   "why": "154 分排在 8/64。20 场里 16 场完赛、3 次登台、1 个杆位。他的完赛排在场上前 11/64。全季领跑 25 圈（4 站）。他平均开的是第 6.2 档车（全场均值 6.0），比这辆车的一般水平慢 0.2 位。",
    "axes": {
     "pace": 0.5939704375991879,
     "consistency": 0.5409495302236633,
@@ -12144,12 +12410,13 @@
   },
   "Lei": {
    "name": "Lei",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.618,
-   "distance": 0.763,
+   "ref": "Emerson Fittipaldi",
+   "refTrait": "年轻冠军，节奏干净",
+   "refEra": "1970s",
+   "similarity": 0.568,
+   "distance": 0.864,
    "weakMatch": false,
-   "why": "46 分排在 28/64。7 场里 3 场完赛、1 次登台。他的轮胎管理排在场上前 8/62。比「Carlos Sainz」更倚重缠斗。完成 36 次超车。",
+   "why": "46 分排在 28/64。7 场里 3 场完赛、1 次登台。他的轮胎管理排在场上前 8/62。比「Emerson Fittipaldi」更倚重缠斗。完成 36 次超车。他平均开的是第 9.6 档车（全场均值 6.0），比这辆车的一般水平快 0.9 位。",
    "axes": {
     "pace": 0.6143231264003367,
     "consistency": 0.599304897314376,
@@ -12169,12 +12436,13 @@
   },
   "Oiysi10023000": {
    "name": "Oiysi10023000",
-   "ref": "Lance Stroll",
-   "refTrait": "雨战偶有神来之笔，平时起伏大",
-   "similarity": 0.723,
-   "distance": 0.553,
+   "ref": "Johnny Herbert",
+   "refTrait": "中游常青树",
+   "refEra": "1990s",
+   "similarity": 0.85,
+   "distance": 0.299,
    "weakMatch": false,
-   "why": "4 分排在 53/64。4 场里 3 场完赛。他的完赛排在场上前 35/64。比「Lance Stroll」更倚重缠斗。完成 51 次超车。",
+   "why": "4 分排在 53/64。4 场里 3 场完赛。他的完赛排在场上前 35/64。完成 51 次超车。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平慢 5.4 位。",
    "axes": {
     "pace": 0.37187719880748865,
     "consistency": 0.5601895734597155,
@@ -12194,12 +12462,13 @@
   },
   "ColorFirst": {
    "name": "ColorFirst",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.656,
-   "distance": 0.689,
+   "ref": "David Coulthard",
+   "refTrait": "稳健的职业车手",
+   "refEra": "1990s",
+   "similarity": 0.633,
+   "distance": 0.734,
    "weakMatch": false,
-   "why": "16 分排在 42/64。3 场里 3 场完赛。他的轮胎管理排在场上前 3/62。全季领跑 1 圈（1 站）。",
+   "why": "16 分排在 42/64。3 场里 3 场完赛。他的轮胎管理排在场上前 3/62。全季领跑 1 圈（1 站）。他平均开的是第 6.7 档车（全场均值 6.0），比这辆车的一般水平慢 1.3 位。",
    "axes": {
     "pace": 0.5714110879474655,
     "consistency": 0.49878883622959447,
@@ -12219,12 +12488,13 @@
   },
   "It57": {
    "name": "It57",
-   "ref": "Daniel Ricciardo",
-   "refTrait": "晚刹车、超车型，单圈略逊",
-   "similarity": 0.546,
-   "distance": 0.908,
+   "ref": "Eddie Irvine",
+   "refTrait": "嘴和车都快",
+   "refEra": "1990s",
+   "similarity": 0.603,
+   "distance": 0.794,
    "weakMatch": false,
-   "why": "107 分排在 16/64。14 场里 14 场完赛、1 次登台。他的完赛排在场上前 7/64。全季领跑 3 圈（2 站）。",
+   "why": "107 分排在 16/64。14 场里 14 场完赛、1 次登台。他的完赛排在场上前 7/64。全季领跑 3 圈（2 站）。他平均开的是第 2.9 档车（全场均值 6.0），比这辆车的一般水平快 0.7 位。",
    "axes": {
     "pace": 0.5707170725362585,
     "consistency": 0.6084856691491762,
@@ -12244,12 +12514,13 @@
   },
   "WuHen": {
    "name": "WuHen",
-   "ref": "Daniel Ricciardo",
-   "refTrait": "晚刹车、超车型，单圈略逊",
-   "similarity": 0.62,
-   "distance": 0.76,
+   "ref": "Graham Hill",
+   "refTrait": "稳健老练，两冠在手",
+   "refEra": "1960s",
+   "similarity": 0.588,
+   "distance": 0.825,
    "weakMatch": false,
-   "why": "58 分排在 26/64。4 场里 3 场完赛、2 个冠军、1 个杆位。他的节奏稳定性排在场上前 12/63。全季领跑 52 圈（2 站）。",
+   "why": "58 分排在 26/64。4 场里 3 场完赛、2 个冠军、1 个杆位。他的节奏稳定性排在场上前 12/63。全季领跑 52 圈（2 站）。他平均开的是第 5.8 档车（全场均值 6.0），比这辆车的一般水平快 3.2 位。",
    "axes": {
     "pace": 0.4978042325763383,
     "consistency": 0.846129541864139,
@@ -12269,12 +12540,13 @@
   },
   "DQ": {
    "name": "DQ",
-   "ref": "Sergio Pérez",
-   "refTrait": "极端省胎，单圈速度普通",
-   "similarity": 0.599,
-   "distance": 0.802,
+   "ref": "Jarno Trulli",
+   "refTrait": "排位高手，正赛偏保守",
+   "refEra": "2000s",
+   "similarity": 0.679,
+   "distance": 0.642,
    "weakMatch": false,
-   "why": "46 分排在 29/64。11 场里 8 场完赛。他的轮胎管理排在场上前 5/62。比「Sergio Pérez」更倚重节奏稳定性。完成 149 次超车。",
+   "why": "46 分排在 29/64。11 场里 8 场完赛。他的轮胎管理排在场上前 5/62。完成 149 次超车。他平均开的是第 4.1 档车（全场均值 6.0），比这辆车的一般水平慢 2.2 位。",
    "axes": {
     "pace": 0.4735376225782524,
     "consistency": 0.6799684044233807,
@@ -12294,12 +12566,13 @@
   },
   "RanXi": {
    "name": "RanXi",
-   "ref": "Daniel Ricciardo",
-   "refTrait": "晚刹车、超车型，单圈略逊",
-   "similarity": 0.505,
-   "distance": 0.989,
+   "ref": "Giuseppe Farina",
+   "refTrait": "首位世界冠军，强硬但易出事",
+   "refEra": "1950s",
+   "similarity": 0.461,
+   "distance": 1.077,
    "weakMatch": false,
-   "why": "2 分排在 54/64。3 场里 2 场完赛。他的纪律排在场上前 16/64。完成 34 次超车。",
+   "why": "2 分排在 54/64。3 场里 2 场完赛。他的纪律排在场上前 16/64。完成 34 次超车。他平均开的是第 2.3 档车（全场均值 6.0），比这辆车的一般水平慢 4.5 位。",
    "axes": {
     "pace": 0.26662482976753854,
     "consistency": 0.6943654555028963,
@@ -12319,12 +12592,13 @@
   },
   "x1aofeiyang": {
    "name": "x1aofeiyang",
-   "ref": "Nico Hülkenberg",
-   "refTrait": "排位常年超水平，正赛温吞",
-   "similarity": 0.798,
-   "distance": 0.404,
+   "ref": "Felipe Massa",
+   "refTrait": "速度不错，雨战偏弱",
+   "refEra": "2000s",
+   "similarity": 0.741,
+   "distance": 0.517,
    "weakMatch": false,
-   "why": "1 分排在 55/64。4 场里 2 场完赛。他的速度排在场上前 13/63。比「Nico Hülkenberg」更倚重轮胎管理。完成 28 次超车。",
+   "why": "1 分排在 55/64。4 场里 2 场完赛。他的速度排在场上前 13/63。完成 28 次超车。他平均开的是第 7.8 档车（全场均值 6.0），比这辆车的一般水平慢 6.1 位。",
    "axes": {
     "pace": 0.7247332107928308,
     "consistency": 0.6928909952606633,
@@ -12346,10 +12620,11 @@
    "name": "Gougou",
    "ref": "George Russell",
    "refTrait": "排位突出、执行稳定",
-   "similarity": 0.475,
-   "distance": 1.05,
+   "refEra": "2020s",
+   "similarity": 0.49,
+   "distance": 1.02,
    "weakMatch": false,
-   "why": "241 分排在 2/64。21 场里 19 场完赛、2 个冠军、1 次登台、1 个杆位。他的完赛排在场上前 6/64。全季领跑 6 圈（3 站）。",
+   "why": "241 分排在 2/64。21 场里 19 场完赛、2 个冠军、1 次登台、1 个杆位。他的完赛排在场上前 6/64。比「George Russell」更倚重缠斗。全季领跑 6 圈（3 站）。他平均开的是第 8.8 档车（全场均值 6.0），比这辆车的一般水平快 2.7 位。",
    "axes": {
     "pace": 0.640083997413419,
     "consistency": 0.70260663507109,
@@ -12369,12 +12644,13 @@
   },
   "EasonLeclerc": {
    "name": "EasonLeclerc",
-   "ref": "Nico Hülkenberg",
-   "refTrait": "排位常年超水平，正赛温吞",
-   "similarity": 0.785,
-   "distance": 0.431,
+   "ref": "Robert Kubica",
+   "refTrait": "速度与胆量兼备",
+   "refEra": "2000s",
+   "similarity": 0.9,
+   "distance": 0.201,
    "weakMatch": false,
-   "why": "44 分排在 30/64。8 场里 6 场完赛、1 次登台。他的速度排在场上前 20/63。比「Nico Hülkenberg」更倚重缠斗。全季领跑 1 圈（1 站）。",
+   "why": "44 分排在 30/64。8 场里 6 场完赛、1 次登台。他的速度排在场上前 20/63。比「Robert Kubica」更倚重完赛。全季领跑 1 圈（1 站）。他平均开的是第 7.6 档车（全场均值 6.0），比这辆车的一般水平慢 2.1 位。",
    "axes": {
     "pace": 0.6465113800039878,
     "consistency": 0.7373617693522907,
@@ -12394,12 +12670,13 @@
   },
   "A380FatLiner": {
    "name": "A380FatLiner",
-   "ref": "Daniel Ricciardo",
-   "refTrait": "晚刹车、超车型，单圈略逊",
-   "similarity": 0.631,
-   "distance": 0.738,
+   "ref": "Keke Rosberg",
+   "refTrait": "单圈凶悍的冠军",
+   "refEra": "1980s",
+   "similarity": 0.709,
+   "distance": 0.582,
    "weakMatch": false,
-   "why": "63 分排在 25/64。14 场里 13 场完赛。他的缠斗排在场上前 10/64。比「Daniel Ricciardo」更倚重完赛。完成 192 次超车。",
+   "why": "63 分排在 25/64。14 场里 13 场完赛。他的缠斗排在场上前 10/64。比「Keke Rosberg」更倚重完赛。完成 192 次超车。他平均开的是第 7.4 档车（全场均值 6.0），比这辆车的一般水平慢 1.9 位。",
    "axes": {
     "pace": 0.6016092403766695,
     "consistency": 0.5225908372827803,
@@ -12419,12 +12696,13 @@
   },
   "JPer": {
    "name": "JPer",
-   "ref": "Pierre Gasly",
-   "refTrait": "中游标杆，六维都在均值偏上",
-   "similarity": 0.657,
-   "distance": 0.686,
+   "ref": "Franco Colapinto 型",
+   "refTrait": "新秀型：速度有、经验少",
+   "refEra": "2020s",
+   "similarity": 0.737,
+   "distance": 0.526,
    "weakMatch": false,
-   "why": "49 分排在 27/64。5 场里 4 场完赛、1 次登台。他的轮胎管理排在场上前 18/62。全季领跑 1 圈（1 站）。",
+   "why": "49 分排在 27/64。5 场里 4 场完赛、1 次登台。他的轮胎管理排在场上前 18/62。全季领跑 1 圈（1 站）。他平均开的是第 8.8 档车（全场均值 6.0），比这辆车的一般水平快 2.0 位。",
    "axes": {
     "pace": 0.35047760165908987,
     "consistency": 0.46597156398104267,
@@ -12444,12 +12722,13 @@
   },
   "Tim": {
    "name": "Tim",
-   "ref": "Pierre Gasly",
-   "refTrait": "中游标杆，六维都在均值偏上",
-   "similarity": 0.826,
-   "distance": 0.347,
+   "ref": "Giancarlo Fisichella",
+   "refTrait": "中游稳定输出",
+   "refEra": "2000s",
+   "similarity": 0.879,
+   "distance": 0.243,
    "weakMatch": false,
-   "why": "20 分排在 38/64。6 场里 4 场完赛。他的轮胎管理排在场上前 29/62。而完赛是他的相对短板（场上第 37/64）。完成 42 次超车。",
+   "why": "20 分排在 38/64。6 场里 4 场完赛。他的轮胎管理排在场上前 29/62。而完赛是他的相对短板（场上第 37/64）。完成 42 次超车。他平均开的是第 5.8 档车（全场均值 6.0），比这辆车的一般水平慢 5.9 位。",
    "axes": {
     "pace": 0.4068416447993759,
     "consistency": 0.6132069510268563,
@@ -12469,12 +12748,13 @@
   },
   "白云": {
    "name": "白云",
-   "ref": "George Russell",
-   "refTrait": "排位突出、执行稳定",
-   "similarity": 0.247,
-   "distance": 1.506,
+   "ref": "Alberto Ascari",
+   "refTrait": "连霸两年，节奏稳定得像机器",
+   "refEra": "1950s",
+   "similarity": 0.384,
+   "distance": 1.233,
    "weakMatch": true,
-   "why": "215 分排在 5/64。20 场里 20 场完赛、1 个冠军、3 次登台、1 个杆位。他的完赛排在场上前 4/64。比「George Russell」更倚重轮胎管理。全季领跑 43 圈（5 站）。",
+   "why": "215 分排在 5/64。20 场里 20 场完赛、1 个冠军、3 次登台、1 个杆位。他的完赛排在场上前 4/64。全季领跑 43 圈（5 站）。他平均开的是第 5.7 档车（全场均值 6.0），比这辆车的一般水平快 1.7 位。",
    "axes": {
     "pace": 0.6413202269184952,
     "consistency": 0.6320063191153239,
@@ -12496,10 +12776,11 @@
    "name": "Aisu",
    "ref": "Lance Stroll",
    "refTrait": "雨战偶有神来之笔，平时起伏大",
-   "similarity": 0.583,
-   "distance": 0.834,
+   "refEra": "2020s",
+   "similarity": 0.519,
+   "distance": 0.961,
    "weakMatch": false,
-   "why": "0 分排在 57/64。1 场里 0 场完赛。他的纪律排在场上前 5/64。完成 6 次超车。",
+   "why": "0 分排在 57/64。1 场里 0 场完赛。他的纪律排在场上前 5/64。完成 6 次超车。他平均开的是第 5.0 档车（全场均值 6.0），比这辆车的一般水平慢 9.4 位。",
    "axes": {
     "pace": 0.17216501268941253,
     "consistency": 0.3295418641390204,
@@ -12519,12 +12800,13 @@
   },
   "funanana": {
    "name": "funanana",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.648,
-   "distance": 0.705,
+   "ref": "Damon Hill",
+   "refTrait": "稳健的冠军，速度不顶尖",
+   "refEra": "1990s",
+   "similarity": 0.738,
+   "distance": 0.525,
    "weakMatch": false,
-   "why": "25 分排在 35/64。1 场里 1 场完赛、1 次登台。他的纪律排在场上前 1/64。比「Carlos Sainz」更倚重节奏稳定性。",
+   "why": "25 分排在 35/64。1 场里 1 场完赛、1 次登台。他的纪律排在场上前 1/64。比「Damon Hill」更倚重缠斗。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
    "axes": {
     "pace": 0.5441697002231133,
     "consistency": 0.9206951026856239,
@@ -12544,12 +12826,13 @@
   },
   "defect": {
    "name": "defect",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.708,
-   "distance": 0.584,
+   "ref": "Sebastian Vettel",
+   "refTrait": "四冠，单圈与杆位机器",
+   "refEra": "2010s",
+   "similarity": 0.801,
+   "distance": 0.397,
    "weakMatch": false,
-   "why": "272 分排在 1/64。21 场里 17 场完赛、4 个冠军、6 次登台、5 个杆位。他的完赛排在场上前 8/64。全季领跑 130 圈（7 站）。",
+   "why": "272 分排在 1/64。21 场里 17 场完赛、4 个冠军、6 次登台、5 个杆位。他的完赛排在场上前 8/64。比「Sebastian Vettel」更倚重轮胎管理。而速度是他的相对短板（场上第 15/63）。全季领跑 130 圈（7 站）。他平均开的是第 5.5 档车（全场均值 6.0），比这辆车的一般水平快 2.8 位。",
    "axes": {
     "pace": 0.6831801717438355,
     "consistency": 0.6401596408081817,
@@ -12569,12 +12852,13 @@
   },
   "RIC": {
    "name": "RIC",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.764,
-   "distance": 0.473,
+   "ref": "Gerhard Berger",
+   "refTrait": "直来直去的快枪手",
+   "refEra": "1980s",
+   "similarity": 0.871,
+   "distance": 0.257,
    "weakMatch": false,
-   "why": "112 分排在 14/64。11 场里 8 场完赛、2 个冠军。他的完赛排在场上前 22/64。比「Carlos Sainz」更倚重缠斗。全季领跑 4 圈（2 站）。",
+   "why": "112 分排在 14/64。11 场里 8 场完赛、2 个冠军。他的完赛排在场上前 22/64。比「Gerhard Berger」更倚重轮胎管理。全季领跑 4 圈（2 站）。他平均开的是第 9.6 档车（全场均值 6.0），比这辆车的一般水平快 3.2 位。",
    "axes": {
     "pace": 0.5663799402675571,
     "consistency": 0.6180094786729857,
@@ -12594,12 +12878,13 @@
   },
   "MinatoNaoko": {
    "name": "MinatoNaoko",
-   "ref": "Lando Norris",
-   "refTrait": "各项均衡、节奏干净，少有失误",
-   "similarity": 0.578,
-   "distance": 0.844,
+   "ref": "Juan Manuel Fangio",
+   "refTrait": "五冠，靠判断力与轮胎管理赢下不同车队",
+   "refEra": "1950s",
+   "similarity": 0.469,
+   "distance": 1.062,
    "weakMatch": false,
-   "why": "18 分排在 40/64。1 场里 1 场完赛。他的速度排在场上前 4/63。比「Lando Norris」更倚重缠斗。完成 14 次超车。",
+   "why": "18 分排在 40/64。1 场里 1 场完赛。他的速度排在场上前 4/63。比「Juan Manuel Fangio」更倚重缠斗。完成 14 次超车。他平均开的是第 11.0 档车（全场均值 6.0），比这辆车的一般水平快 7.4 位。",
    "axes": {
     "pace": 0.8661091146731746,
     "consistency": 0.9443917851500789,
@@ -12619,12 +12904,13 @@
   },
   "HENRY": {
    "name": "HENRY",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.58,
-   "distance": 0.84,
+   "ref": "Jenson Button",
+   "refTrait": "丝滑的轮胎管理，节奏极稳",
+   "refEra": "2000s",
+   "similarity": 0.472,
+   "distance": 1.056,
    "weakMatch": false,
-   "why": "8 分排在 50/64。4 场里 2 场完赛、1 个杆位。他的轮胎管理排在场上前 1/62。全季领跑 6 圈（1 站）。",
+   "why": "8 分排在 50/64。4 场里 2 场完赛、1 个杆位。他的轮胎管理排在场上前 1/62。比「Jenson Button」更倚重速度。全季领跑 6 圈（1 站）。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平慢 4.4 位。",
    "axes": {
     "pace": 0.7050708951716207,
     "consistency": 0.6864928909952606,
@@ -12644,12 +12930,13 @@
   },
   "糕白": {
    "name": "糕白",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.643,
-   "distance": 0.713,
+   "ref": "Jacky Ickx",
+   "refTrait": "雨战与耐力赛之王",
+   "refEra": "1970s",
+   "similarity": 0.674,
+   "distance": 0.652,
    "weakMatch": false,
-   "why": "25 分排在 36/64。4 场里 2 场完赛、1 个冠军、1 个杆位。他的节奏稳定性排在场上前 4/63。全季领跑 23 圈（1 站）。",
+   "why": "25 分排在 36/64。4 场里 2 场完赛、1 个冠军、1 个杆位。他的节奏稳定性排在场上前 4/63。全季领跑 23 圈（1 站）。他平均开的是第 6.0 档车（全场均值 6.0），比这辆车的一般水平慢 3.3 位。",
    "axes": {
     "pace": 0.5199627585512742,
     "consistency": 0.9619273301737756,
@@ -12669,12 +12956,13 @@
   },
   "Mirrorcc": {
    "name": "Mirrorcc",
-   "ref": "Max Verstappen",
-   "refTrait": "三项都在顶档，缠斗强硬且很少自失",
-   "similarity": 0.507,
-   "distance": 0.986,
+   "ref": "Mika Häkkinen",
+   "refTrait": "纯速度型两冠",
+   "refEra": "1990s",
+   "similarity": 0.764,
+   "distance": 0.472,
    "weakMatch": false,
-   "why": "40 分排在 31/64。2 场里 2 场完赛、1 次登台。他的速度排在场上前 2/63。比「Max Verstappen」更倚重纪律。而完赛是他的相对短板（场上第 38/64）。全季领跑 8 圈（1 站）。",
+   "why": "40 分排在 31/64。2 场里 2 场完赛、1 次登台。他的速度排在场上前 2/63。比「Mika Häkkinen」更倚重纪律。全季领跑 8 圈（1 站）。他平均开的是第 9.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
    "axes": {
     "pace": 0.9293784577558338,
     "consistency": 0.8246445497630331,
@@ -12695,11 +12983,12 @@
   "Pan1ys": {
    "name": "Pan1ys",
    "ref": "Daniel Ricciardo",
-   "refTrait": "晚刹车、超车型，单圈略逊",
-   "similarity": 0.638,
-   "distance": 0.725,
+   "refTrait": "晚刹车超车型，笑容与速度并存",
+   "refEra": "2010s",
+   "similarity": 0.735,
+   "distance": 0.53,
    "weakMatch": false,
-   "why": "144 分排在 9/64。14 场里 12 场完赛、3 次登台。他的缠斗排在场上前 4/64。比「Daniel Ricciardo」更倚重完赛。完成 200 次超车。",
+   "why": "144 分排在 9/64。14 场里 12 场完赛、3 次登台。他的缠斗排在场上前 4/64。比「Daniel Ricciardo」更倚重完赛。完成 200 次超车。他平均开的是第 7.6 档车（全场均值 6.0），比这辆车的一般水平快 1.1 位。",
    "axes": {
     "pace": 0.6156825430990475,
     "consistency": 0.6319566689234933,
@@ -12719,12 +13008,13 @@
   },
   "star-falI04": {
    "name": "star-falI04",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.48,
-   "distance": 1.04,
+   "ref": "Valtteri Bottas 型",
+   "refTrait": "排位快、正赛偏软的中上游",
+   "refEra": "2010s",
+   "similarity": 0.531,
+   "distance": 0.938,
    "weakMatch": false,
-   "why": "25 分排在 37/64。11 场里 11 场完赛。他的完赛排在场上前 14/64。拿下 1 次全场最快圈。",
+   "why": "25 分排在 37/64。11 场里 11 场完赛。他的完赛排在场上前 14/64。比「Valtteri Bottas 型」更倚重轮胎管理。拿下 1 次全场最快圈。他平均开的是第 1.9 档车（全场均值 6.0），比这辆车的一般水平慢 3.6 位。",
    "axes": {
     "pace": 0.6406623021221465,
     "consistency": 0.49102398391497903,
@@ -12744,12 +13034,13 @@
   },
   "Anegler": {
    "name": "Anegler",
-   "ref": "Lando Norris",
-   "refTrait": "各项均衡、节奏干净，少有失误",
-   "similarity": 0.51,
-   "distance": 0.98,
+   "ref": "Oscar Piastri",
+   "refTrait": "冷静、干净、几乎不犯错",
+   "refEra": "2020s",
+   "similarity": 0.43,
+   "distance": 1.14,
    "weakMatch": false,
-   "why": "10 分排在 45/64。1 场里 1 场完赛。他的节奏稳定性排在场上前 2/63。比「Lando Norris」更倚重速度。完成 12 次超车。",
+   "why": "10 分排在 45/64。1 场里 1 场完赛。他的节奏稳定性排在场上前 2/63。比「Oscar Piastri」更倚重速度。完成 12 次超车。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平快 2.6 位。",
    "axes": {
     "pace": 0.9244689275700677,
     "consistency": 0.9860979462875198,
@@ -12769,12 +13060,13 @@
   },
   "gangteiss": {
    "name": "gangteiss",
-   "ref": "Daniel Ricciardo",
-   "refTrait": "晚刹车、超车型，单圈略逊",
-   "similarity": 0.641,
-   "distance": 0.719,
+   "ref": "Mario Andretti",
+   "refTrait": "全能老将，通吃各种赛道",
+   "refEra": "1970s",
+   "similarity": 0.79,
+   "distance": 0.42,
    "weakMatch": false,
-   "why": "69 分排在 24/64。5 场里 5 场完赛、3 次登台。他的缠斗排在场上前 6/64。比「Daniel Ricciardo」更倚重速度。全季领跑 20 圈（1 站）。",
+   "why": "69 分排在 24/64。5 场里 5 场完赛、3 次登台。他的缠斗排在场上前 6/64。比「Mario Andretti」更倚重速度。全季领跑 20 圈（1 站）。他平均开的是第 5.4 档车（全场均值 6.0），比这辆车的一般水平快 2.3 位。",
    "axes": {
     "pace": 0.7679346632502254,
     "consistency": 0.761516587677725,
@@ -12794,12 +13086,13 @@
   },
   "高木同学重度依赖": {
    "name": "高木同学重度依赖",
-   "ref": "Daniel Ricciardo",
-   "refTrait": "晚刹车、超车型，单圈略逊",
-   "similarity": 0.693,
-   "distance": 0.614,
+   "ref": "Mark Webber",
+   "refTrait": "起步一般、正赛强硬",
+   "refEra": "2000s",
+   "similarity": 0.768,
+   "distance": 0.463,
    "weakMatch": false,
-   "why": "6 分排在 51/64。4 场里 3 场完赛。他的节奏稳定性排在场上前 16/63。而缠斗是他的相对短板（场上第 28/64）。完成 29 次超车。",
+   "why": "6 分排在 51/64。4 场里 3 场完赛。他的节奏稳定性排在场上前 16/63。完成 29 次超车。他平均开的是第 4.8 档车（全场均值 6.0），比这辆车的一般水平慢 5.8 位。",
    "axes": {
     "pace": 0.6650385024490703,
     "consistency": 0.8117693522906793,
@@ -12819,12 +13112,13 @@
   },
   "黑崎小雪": {
    "name": "黑崎小雪",
-   "ref": "Carlos Sainz",
-   "refTrait": "策略型，靠轮胎与节奏取胜",
-   "similarity": 0.719,
-   "distance": 0.561,
+   "ref": "Jody Scheckter",
+   "refTrait": "稳扎稳打的冠军",
+   "refEra": "1970s",
+   "similarity": 0.65,
+   "distance": 0.7,
    "weakMatch": false,
-   "why": "121 分排在 11/64。13 场里 12 场完赛、1 个冠军、3 次登台、1 个杆位。他的轮胎管理排在场上前 15/62。比「Carlos Sainz」更倚重完赛。全季领跑 29 圈（2 站）。",
+   "why": "121 分排在 11/64。13 场里 12 场完赛、1 个冠军、3 次登台、1 个杆位。他的轮胎管理排在场上前 15/62。比「Jody Scheckter」更倚重速度。全季领跑 29 圈（2 站）。他平均开的是第 7.1 档车（全场均值 6.0），比这辆车的一般水平快 0.8 位。",
    "axes": {
     "pace": 0.6251182951423281,
     "consistency": 0.5297525013164823,
@@ -12844,12 +13138,13 @@
   },
   "leevenchenko": {
    "name": "leevenchenko",
-   "ref": "Pierre Gasly",
-   "refTrait": "中游标杆，六维都在均值偏上",
-   "similarity": 0.48,
-   "distance": 1.04,
+   "ref": "Michele Alboreto",
+   "refTrait": "稳定但缺一击致命的速度",
+   "refEra": "1980s",
+   "similarity": 0.526,
+   "distance": 0.947,
    "weakMatch": false,
-   "why": "0 分排在 59/64。3 场里 0 场完赛。他的轮胎管理排在场上前 4/62。完成 18 次超车。",
+   "why": "0 分排在 59/64。3 场里 0 场完赛。他的轮胎管理排在场上前 4/62。完成 18 次超车。他平均开的是第 8.7 档车（全场均值 6.0），比这辆车的一般水平慢 10.7 位。",
    "axes": {
     "pace": 0.19101287933435115,
     "consistency": 0.7747235387045813,
@@ -12869,12 +13164,13 @@
   },
   "esmac1": {
    "name": "esmac1",
-   "ref": "Daniel Ricciardo",
-   "refTrait": "晚刹车、超车型，单圈略逊",
-   "similarity": 0.737,
-   "distance": 0.526,
+   "ref": "René Arnoux",
+   "refTrait": "缠斗好手，名局制造者",
+   "refEra": "1980s",
+   "similarity": 0.801,
+   "distance": 0.398,
    "weakMatch": false,
-   "why": "37 分排在 32/64。9 场里 7 场完赛。他的缠斗排在场上前 18/64。比「Daniel Ricciardo」更倚重完赛。完成 152 次超车。",
+   "why": "37 分排在 32/64。9 场里 7 场完赛。他的缠斗排在场上前 18/64。比「René Arnoux」更倚重完赛。完成 152 次超车。他平均开的是第 4.2 档车（全场均值 6.0），比这辆车的一般水平慢 3.3 位。",
    "axes": {
     "pace": 0.5443502381807513,
     "consistency": 0.5247323152536423,
@@ -12894,12 +13190,13 @@
   },
   "哈哈": {
    "name": "哈哈",
-   "ref": "Pierre Gasly",
-   "refTrait": "中游标杆，六维都在均值偏上",
-   "similarity": 0.331,
-   "distance": 1.337,
+   "ref": "Denny Hulme",
+   "refTrait": "低调稳健的冠军",
+   "refEra": "1960s",
+   "similarity": 0.374,
+   "distance": 1.252,
    "weakMatch": true,
-   "why": "0 分排在 60/64。1 场里 1 场完赛。他的纪律排在场上前 3/64。比「Pierre Gasly」更倚重轮胎管理。完成 8 次超车。",
+   "why": "0 分排在 60/64。1 场里 1 场完赛。他的纪律排在场上前 3/64。比「Denny Hulme」更倚重缠斗。完成 8 次超车。他平均开的是第 8.0 档车（全场均值 6.0），比这辆车的一般水平慢 9.5 位。",
    "axes": {
     "pace": 0.0,
     "consistency": 0.7115323854660347,
@@ -12919,12 +13216,13 @@
   },
   "MFGA": {
    "name": "MFGA",
-   "ref": "Nico Hülkenberg",
-   "refTrait": "排位常年超水平，正赛温吞",
-   "similarity": 0.541,
-   "distance": 0.919,
-   "weakMatch": false,
-   "why": "10 分排在 46/64。3 场里 2 场完赛、1 次登台。他的节奏稳定性排在场上前 17/63。比「Nico Hülkenberg」更倚重缠斗。全季领跑 8 圈（1 站）。",
+   "ref": "Ronnie Peterson",
+   "refTrait": "超车型，速度快但脆",
+   "refEra": "1970s",
+   "similarity": 0.295,
+   "distance": 1.411,
+   "weakMatch": true,
+   "why": "10 分排在 46/64。3 场里 2 场完赛、1 次登台。他的节奏稳定性排在场上前 17/63。全季领跑 8 圈（1 站）。他平均开的是第 7.7 档车（全场均值 6.0），比这辆车的一般水平慢 4.4 位。",
    "axes": {
     "pace": 0.5604398189726812,
     "consistency": 0.8001579778830963,
@@ -12944,12 +13242,13 @@
   },
   "Swizzet3271": {
    "name": "Swizzet3271",
-   "ref": "Lando Norris",
-   "refTrait": "各项均衡、节奏干净，少有失误",
-   "similarity": 0.483,
-   "distance": 1.034,
+   "ref": "Ayrton Senna",
+   "refTrait": "单圈神话与雨战之王，缠斗极硬",
+   "refEra": "1980s",
+   "similarity": 0.45,
+   "distance": 1.099,
    "weakMatch": false,
-   "why": "10 分排在 47/64。1 场里 1 场完赛、1 次登台。他的速度排在场上前 1/63。完成 15 次超车。",
+   "why": "10 分排在 47/64。1 场里 1 场完赛、1 次登台。他的速度排在场上前 1/63。比「Ayrton Senna」更倚重纪律。而缠斗是他的相对短板（场上第 16/64）。完成 15 次超车。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
    "axes": {
     "pace": 1.0,
     "consistency": 0.924170616113744,
@@ -12969,12 +13268,13 @@
   },
   "鱼雷王": {
    "name": "鱼雷王",
-   "ref": "Daniel Ricciardo",
-   "refTrait": "晚刹车、超车型，单圈略逊",
-   "similarity": 0.766,
-   "distance": 0.468,
+   "ref": "John Surtees",
+   "refTrait": "摩托与四轮双料冠军，全能",
+   "refEra": "1960s",
+   "similarity": 0.724,
+   "distance": 0.551,
    "weakMatch": false,
-   "why": "72 分排在 21/64。5 场里 4 场完赛、2 个冠军、1 次登台、2 个杆位。他的纪律排在场上前 19/64。而缠斗是他的相对短板（场上第 29/64）。全季领跑 81 圈（4 站）。",
+   "why": "72 分排在 21/64。5 场里 4 场完赛、2 个冠军、1 次登台、2 个杆位。他的纪律排在场上前 19/64。全季领跑 81 圈（4 站）。他平均开的是第 5.8 档车（全场均值 6.0），比这辆车的一般水平快 3.8 位。",
    "axes": {
     "pace": 0.4649319010846246,
     "consistency": 0.5915955766192732,
@@ -12994,12 +13294,13 @@
   },
   "newyeye7": {
    "name": "newyeye7",
-   "ref": "Lance Stroll",
-   "refTrait": "雨战偶有神来之笔，平时起伏大",
-   "similarity": 0.661,
-   "distance": 0.678,
+   "ref": "Nico Hülkenberg",
+   "refTrait": "排位常年超水平，正赛温吞",
+   "refEra": "2020s",
+   "similarity": 0.564,
+   "distance": 0.871,
    "weakMatch": false,
-   "why": "29 分排在 33/64。5 场里 4 场完赛。他的轮胎管理排在场上前 28/62。比「Lance Stroll」更倚重速度。完成 81 次超车。",
+   "why": "29 分排在 33/64。5 场里 4 场完赛。他的轮胎管理排在场上前 28/62。完成 81 次超车。他平均开的是第 5.0 档车（全场均值 6.0），比这辆车的一般水平慢 1.4 位。",
    "axes": {
     "pace": 0.5209510078058712,
     "consistency": 0.31797788309636643,
@@ -13019,12 +13320,13 @@
   },
   "Beast": {
    "name": "Beast",
-   "ref": "Nico Hülkenberg",
-   "refTrait": "排位常年超水平，正赛温吞",
-   "similarity": 0.702,
-   "distance": 0.597,
+   "ref": "Esteban Ocon",
+   "refTrait": "队友内战从不手软",
+   "refEra": "2020s",
+   "similarity": 0.733,
+   "distance": 0.535,
    "weakMatch": false,
-   "why": "18 分排在 41/64。6 场里 4 场完赛、1 个杆位。他的纪律排在场上前 37/64。比「Nico Hülkenberg」更倚重缠斗。全季领跑 4 圈（1 站）。",
+   "why": "18 分排在 41/64。6 场里 4 场完赛、1 个杆位。他的纪律排在场上前 37/64。全季领跑 4 圈（1 站）。他平均开的是第 7.2 档车（全场均值 6.0），比这辆车的一般水平慢 3.0 位。",
    "axes": {
     "pace": 0.4832515548092624,
     "consistency": 0.5408372827804107,
@@ -13046,10 +13348,11 @@
    "name": "HEZ",
    "ref": "Charles Leclerc",
    "refTrait": "一圈速度顶级，稳定与完赛是短板",
+   "refEra": "2020s",
    "similarity": 0.687,
-   "distance": 0.625,
+   "distance": 0.627,
    "weakMatch": false,
-   "why": "13 分排在 44/64。3 场里 2 场完赛。他的速度排在场上前 12/63。比「Charles Leclerc」更倚重完赛。完成 35 次超车。",
+   "why": "13 分排在 44/64。3 场里 2 场完赛。他的速度排在场上前 12/63。比「Charles Leclerc」更倚重纪律。完成 35 次超车。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平快 1.0 位。",
    "axes": {
     "pace": 0.7259783281214383,
     "consistency": 0.35860979462875203,
@@ -13069,12 +13372,13 @@
   },
   "FerrariGoat": {
    "name": "FerrariGoat",
-   "ref": "Daniel Ricciardo",
-   "refTrait": "晚刹车、超车型，单圈略逊",
-   "similarity": 0.599,
-   "distance": 0.801,
+   "ref": "Jean Alesi",
+   "refTrait": "热血缠斗型，成绩配不上天赋",
+   "refEra": "1990s",
+   "similarity": 0.437,
+   "distance": 1.127,
    "weakMatch": false,
-   "why": "14 分排在 43/64。1 场里 1 场完赛。他的纪律排在场上前 6/64。拿下 1 次全场最快圈。",
+   "why": "14 分排在 43/64。1 场里 1 场完赛。他的纪律排在场上前 6/64。拿下 1 次全场最快圈。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平快 5.0 位。",
    "axes": {
     "pace": 0.6630548956503898,
     "consistency": 0.6126382306477093,
@@ -13094,12 +13398,13 @@
   },
   "清蒸猫头凉拌菠萝": {
    "name": "清蒸猫头凉拌菠萝",
-   "ref": "Pierre Gasly",
-   "refTrait": "中游标杆，六维都在均值偏上",
-   "similarity": 0.688,
-   "distance": 0.624,
+   "ref": "Ralf Schumacher",
+   "refTrait": "稳但不惊艳",
+   "refEra": "2000s",
+   "similarity": 0.672,
+   "distance": 0.656,
    "weakMatch": false,
-   "why": "0 分排在 61/64。0 场里 0 场完赛。他的纪律排在场上前 7/64。比「Pierre Gasly」更倚重缠斗。完成 14 次超车。",
+   "why": "0 分排在 61/64。0 场里 0 场完赛。他的纪律排在场上前 7/64。比「Ralf Schumacher」更倚重缠斗。完成 14 次超车。",
    "axes": {
     "pace": 0.39167763423773216,
     "consistency": 0.5636650868878357,
@@ -13119,12 +13424,13 @@
   },
   "雷电芽衣": {
    "name": "雷电芽衣",
-   "ref": "Nico Hülkenberg",
-   "refTrait": "排位常年超水平，正赛温吞",
-   "similarity": 0.592,
-   "distance": 0.817,
+   "ref": "Jack Brabham",
+   "refTrait": "自己造车自己开，工程型车手",
+   "refEra": "1960s",
+   "similarity": 0.517,
+   "distance": 0.966,
    "weakMatch": false,
-   "why": "0 分排在 62/64。2 场里 0 场完赛。他的节奏稳定性排在场上前 1/63。完成 15 次超车。",
+   "why": "0 分排在 62/64。2 场里 0 场完赛。他的节奏稳定性排在场上前 1/63。完成 15 次超车。他平均开的是第 9.0 档车（全场均值 6.0），比这辆车的一般水平慢 7.2 位。",
    "axes": {
     "pace": 0.6249007149978884,
     "consistency": 1.0,
@@ -13144,12 +13450,13 @@
   },
   "Sliced Onion": {
    "name": "Sliced Onion",
-   "ref": "Lance Stroll",
-   "refTrait": "雨战偶有神来之笔，平时起伏大",
-   "similarity": 0.415,
-   "distance": 1.169,
-   "weakMatch": false,
-   "why": "20 分排在 39/64。1 场里 1 场完赛、1 次登台。他的缠斗排在场上前 19/64。完成 15 次超车。",
+   "ref": "Takuma Sato",
+   "refTrait": "攻击性极强，事故也不少",
+   "refEra": "2000s",
+   "similarity": 0.268,
+   "distance": 1.463,
+   "weakMatch": true,
+   "why": "20 分排在 39/64。1 场里 1 场完赛、1 次登台。他的缠斗排在场上前 19/64。比「Takuma Sato」更倚重纪律。完成 15 次超车。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
    "axes": {
     "pace": 0.38987609411272844,
     "consistency": 0.0,
@@ -13169,12 +13476,13 @@
   },
   "UbisoftHongKong": {
    "name": "UbisoftHongKong",
-   "ref": "Lance Stroll",
-   "refTrait": "雨战偶有神来之笔，平时起伏大",
-   "similarity": 0.436,
-   "distance": 1.128,
-   "weakMatch": false,
-   "why": "0 分排在 63/64。1 场里 1 场完赛。他的纪律排在场上前 10/64。完成 18 次超车。",
+   "ref": "Logan Sargeant 型",
+   "refTrait": "速度与稳定性都偏弱的新秀",
+   "refEra": "2020s",
+   "similarity": 0.269,
+   "distance": 1.463,
+   "weakMatch": true,
+   "why": "0 分排在 63/64。1 场里 1 场完赛。他的纪律排在场上前 10/64。比「Logan Sargeant 型」更倚重缠斗。完成 18 次超车。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平慢 5.0 位。",
    "axes": {
     "pace": 0.34498155797040675,
     "consistency": 0.02590837282780406,
@@ -13194,12 +13502,13 @@
   },
   "Surviver": {
    "name": "Surviver",
-   "ref": "Nico Hülkenberg",
-   "refTrait": "排位常年超水平，正赛温吞",
-   "similarity": 0.72,
-   "distance": 0.561,
+   "ref": "Alex Albon",
+   "refTrait": "稳、干净、少失误",
+   "refEra": "2020s",
+   "similarity": 0.611,
+   "distance": 0.778,
    "weakMatch": false,
-   "why": "0 分排在 64/64。1 场里 1 场完赛。他的纪律排在场上前 8/64。比「Nico Hülkenberg」更倚重节奏稳定性。完成 13 次超车。",
+   "why": "0 分排在 64/64。1 场里 1 场完赛。他的纪律排在场上前 8/64。比「Alex Albon」更倚重节奏稳定性。完成 13 次超车。他平均开的是第 6.0 档车（全场均值 6.0），比这辆车的一般水平慢 8.8 位。",
    "axes": {
     "pace": 0.6363442988710138,
     "consistency": 0.8502369668246444,
@@ -16977,34 +17286,34 @@
     },
     {
      "name": "LewisRen",
-     "x": 11.571,
+     "x": 13.167,
      "y": 11.0,
-     "r": 17,
-     "xLabel": "P11.6",
+     "r": 16,
+     "xLabel": "P13.2",
      "yLabel": "P11.0"
     },
     {
      "name": "HayesCC",
-     "x": 10.562,
+     "x": 10.867,
      "y": 9.4,
-     "r": 28,
-     "xLabel": "P10.6",
+     "r": 27,
+     "xLabel": "P10.9",
      "yLabel": "P9.4"
     },
     {
      "name": "Landoooo_W",
-     "x": 11.429,
+     "x": 12.5,
      "y": 8.0,
-     "r": 16,
-     "xLabel": "P11.4",
+     "r": 15,
+     "xLabel": "P12.5",
      "yLabel": "P8.0"
     },
     {
      "name": "AyatoSeven",
-     "x": 9.938,
+     "x": 10.0,
      "y": 7.833,
-     "r": 28,
-     "xLabel": "P9.9",
+     "r": 27,
+     "xLabel": "P10.0",
      "yLabel": "P7.8"
     },
     {
@@ -17017,26 +17326,26 @@
     },
     {
      "name": "Er1sed-FOX",
-     "x": 11.714,
+     "x": 12.0,
      "y": 10.6,
-     "r": 26,
-     "xLabel": "P11.7",
+     "r": 25,
+     "xLabel": "P12.0",
      "yLabel": "P10.6"
     },
     {
      "name": "tenbergen",
      "x": 7.467,
      "y": 12.25,
-     "r": 27,
+     "r": 26,
      "xLabel": "P7.5",
      "yLabel": "P12.2"
     },
     {
      "name": "dan",
-     "x": 13.714,
+     "x": 14.167,
      "y": 14.0,
-     "r": 19,
-     "xLabel": "P13.7",
+     "r": 18,
+     "xLabel": "P14.2",
      "yLabel": "P14.0"
     },
     {
@@ -17049,10 +17358,10 @@
     },
     {
      "name": "Momokong",
-     "x": 8.111,
+     "x": 7.5,
      "y": 7.75,
-     "r": 22,
-     "xLabel": "P8.1",
+     "r": 21,
+     "xLabel": "P7.5",
      "yLabel": "P7.8"
     },
     {
@@ -17065,10 +17374,10 @@
     },
     {
      "name": "It57",
-     "x": 10.333,
+     "x": 10.75,
      "y": 5.333,
-     "r": 18,
-     "xLabel": "P10.3",
+     "r": 17,
+     "xLabel": "P10.8",
      "yLabel": "P5.3"
     },
     {
@@ -17081,17 +17390,17 @@
     },
     {
      "name": "Gougou",
-     "x": 7.692,
+     "x": 8.25,
      "y": 6.75,
-     "r": 24,
-     "xLabel": "P7.7",
+     "r": 23,
+     "xLabel": "P8.2",
      "yLabel": "P6.8"
     },
     {
      "name": "EasonLeclerc",
      "x": 18.0,
      "y": 6.333,
-     "r": 13,
+     "r": 12,
      "xLabel": "P18.0",
      "yLabel": "P6.3"
     },
@@ -17104,34 +17413,26 @@
      "yLabel": "P9.0"
     },
     {
-     "name": "Tim",
-     "x": 10.0,
-     "y": 14.0,
-     "r": 12,
-     "xLabel": "P10.0",
-     "yLabel": "P14.0"
-    },
-    {
      "name": "白云",
-     "x": 6.75,
+     "x": 7.0,
      "y": 11.6,
-     "r": 23,
-     "xLabel": "P6.8",
+     "r": 22,
+     "xLabel": "P7.0",
      "yLabel": "P11.6"
     },
     {
      "name": "defect",
-     "x": 5.0,
+     "x": 4.091,
      "y": 8.667,
-     "r": 23,
-     "xLabel": "P5.0",
+     "r": 22,
+     "xLabel": "P4.1",
      "yLabel": "P8.7"
     },
     {
      "name": "RIC",
      "x": 7.2,
      "y": 3.5,
-     "r": 16,
+     "r": 15,
      "xLabel": "P7.2",
      "yLabel": "P3.5"
     },
@@ -17176,7 +17477,7 @@
      "yLabel": "P10.5"
     }
    ],
-   "count": 26,
+   "count": 25,
    "bestQuad": "bl",
    "quadrants": {
     "bl": "两种天气都强",
@@ -17187,6 +17488,113 @@
    "selfCheck": {
     "top10InBest": 6,
     "bestQuad": "bl"
+   }
+  },
+  {
+   "id": "car_order_vs_points",
+   "title": "车序 vs 车队积分",
+   "lead": "横轴权威车序（1 = 最快）、纵轴把车当队累计的积分。**如果车越快分越多，点应该从左下往右上走——实际是反的**：车序第 1 的法拉利积分靠后。这不是异常，是 CBAS 的设计：CR 越高拿越快的车，所以最快的车落在最慢的人手上。",
+   "xLabel": "车序（1 = 最快）",
+   "yLabel": "积分",
+   "xRev": false,
+   "yRev": false,
+   "points": [
+    {
+     "name": "迈凯伦",
+     "x": 3,
+     "y": 447,
+     "r": 12.833333333333332,
+     "xLabel": "车序 3",
+     "yLabel": "447 分"
+    },
+    {
+     "name": "红牛",
+     "x": 4,
+     "y": 469,
+     "r": 13.5,
+     "xLabel": "车序 4",
+     "yLabel": "469 分"
+    },
+    {
+     "name": "哈斯",
+     "x": 8,
+     "y": 419,
+     "r": 14.166666666666666,
+     "xLabel": "车序 8",
+     "yLabel": "419 分"
+    },
+    {
+     "name": "威廉姆斯",
+     "x": 5,
+     "y": 432,
+     "r": 14.0,
+     "xLabel": "车序 5",
+     "yLabel": "432 分"
+    },
+    {
+     "name": "Alpine",
+     "x": 6,
+     "y": 419,
+     "r": 14.166666666666666,
+     "xLabel": "车序 6",
+     "yLabel": "419 分"
+    },
+    {
+     "name": "法拉利",
+     "x": 1,
+     "y": 202,
+     "r": 10.666666666666668,
+     "xLabel": "车序 1",
+     "yLabel": "202 分"
+    },
+    {
+     "name": "小红牛",
+     "x": 7,
+     "y": 397,
+     "r": 14.333333333333334,
+     "xLabel": "车序 7",
+     "yLabel": "397 分"
+    },
+    {
+     "name": "阿斯顿马丁",
+     "x": 10,
+     "y": 376,
+     "r": 14.0,
+     "xLabel": "车序 10",
+     "yLabel": "376 分"
+    },
+    {
+     "name": "梅赛德斯",
+     "x": 2,
+     "y": 219,
+     "r": 12.0,
+     "xLabel": "车序 2",
+     "yLabel": "219 分"
+    },
+    {
+     "name": "凯迪拉克",
+     "x": 11,
+     "y": 324,
+     "r": 14.166666666666666,
+     "xLabel": "车序 11",
+     "yLabel": "324 分"
+    },
+    {
+     "name": "奥迪",
+     "x": 9,
+     "y": 284,
+     "r": 13.666666666666668,
+     "xLabel": "车序 9",
+     "yLabel": "284 分"
+    }
+   ],
+   "count": 11,
+   "bestQuad": null,
+   "quadrants": {
+    "tl": "车慢但分高（人被低估）",
+    "tr": "车快且分高（正常）",
+    "bl": "车快但分低（CBAS 让车生效）",
+    "br": "车慢且分低"
    }
   }
  ],
@@ -17316,107 +17724,170 @@
     "round": 3,
     "track": "铃鹿",
     "slug": "2026-07-31-suzuka",
-    "wetLaps": 24,
-    "timedLaps": 27,
-    "wetFraction": 0.889,
+    "wetLaps": 478,
+    "timedLaps": 525,
+    "wetFraction": 0.91,
     "transitions": 1,
     "segments": [
      {
+      "weather": "Light Rain",
       "kind": "wet",
+      "from": 1,
+      "to": 24,
       "laps": 24
      },
      {
+      "weather": "Overcast",
       "kind": "dry",
+      "from": 25,
+      "to": 27,
       "laps": 3
      }
-    ]
+    ],
+    "dominant": "Light Rain",
+    "source": "scan_race_weather"
    },
    {
     "round": 8,
     "track": "摩纳哥",
     "slug": "2026-08-12-monaco",
-    "wetLaps": 28,
-    "timedLaps": 39,
-    "wetFraction": 0.718,
-    "transitions": 1,
+    "wetLaps": 445,
+    "timedLaps": 561,
+    "wetFraction": 0.793,
+    "transitions": 2,
     "segments": [
      {
+      "weather": "Storm",
       "kind": "wet",
-      "laps": 28
+      "from": 1,
+      "to": 9,
+      "laps": 9
      },
      {
+      "weather": "Light Rain",
+      "kind": "wet",
+      "from": 10,
+      "to": 28,
+      "laps": 19
+     },
+     {
+      "weather": "Overcast",
       "kind": "dry",
+      "from": 29,
+      "to": 39,
       "laps": 11
      }
-    ]
+    ],
+    "dominant": "Light Rain",
+    "source": "scan_race_weather"
    },
    {
     "round": 12,
     "track": "银石",
     "slug": "2026-08-21-银石",
-    "wetLaps": 26,
-    "timedLaps": 26,
+    "wetLaps": 512,
+    "timedLaps": 512,
     "wetFraction": 1.0,
     "transitions": 0,
     "segments": [
      {
+      "weather": "Storm",
       "kind": "wet",
+      "from": 1,
+      "to": 26,
       "laps": 26
      }
-    ]
+    ],
+    "dominant": "Storm",
+    "source": "scan_race_weather"
    },
    {
     "round": 14,
     "track": "匈牙利",
     "slug": "2026-08-26-hungaroring",
-    "wetLaps": 19,
-    "timedLaps": 20,
-    "wetFraction": 0.95,
-    "transitions": 1,
+    "wetLaps": 408,
+    "timedLaps": 426,
+    "wetFraction": 0.958,
+    "transitions": 2,
     "segments": [
      {
+      "weather": "Storm",
       "kind": "wet",
-      "laps": 19
+      "from": 1,
+      "to": 7,
+      "laps": 7
      },
      {
+      "weather": "Light Rain",
+      "kind": "wet",
+      "from": 8,
+      "to": 19,
+      "laps": 12
+     },
+     {
+      "weather": "Overcast",
       "kind": "dry",
+      "from": 20,
+      "to": 20,
       "laps": 1
      }
-    ]
+    ],
+    "dominant": "Light Rain",
+    "source": "scan_race_weather"
    },
    {
     "round": 17,
     "track": "Madrid",
     "slug": "2026-09-03-madrid",
-    "wetLaps": 29,
-    "timedLaps": 29,
+    "wetLaps": 340,
+    "timedLaps": 340,
     "wetFraction": 1.0,
     "transitions": 0,
     "segments": [
      {
+      "weather": "Light Rain",
       "kind": "wet",
+      "from": 1,
+      "to": 29,
       "laps": 29
      }
-    ]
+    ],
+    "dominant": "Light Rain",
+    "source": "scan_race_weather"
    },
    {
     "round": 22,
     "track": "巴西",
     "slug": "2026-09-20-brazil",
-    "wetLaps": 22,
-    "timedLaps": 36,
-    "wetFraction": 0.611,
-    "transitions": 1,
+    "wetLaps": 276,
+    "timedLaps": 491,
+    "wetFraction": 0.562,
+    "transitions": 2,
     "segments": [
      {
+      "weather": "Overcast",
       "kind": "dry",
+      "from": 1,
+      "to": 14,
       "laps": 14
      },
      {
+      "weather": "Light Rain",
       "kind": "wet",
-      "laps": 22
+      "from": 15,
+      "to": 24,
+      "laps": 10
+     },
+     {
+      "weather": "Storm",
+      "kind": "wet",
+      "from": 25,
+      "to": 36,
+      "laps": 12
      }
-    ]
+    ],
+    "dominant": "Overcast",
+    "source": "scan_race_weather"
    }
   ],
   "mixed": [
@@ -17424,62 +17895,110 @@
     "round": 10,
     "track": "蒙特利尔",
     "slug": "2026-08-16-montreal",
-    "wetLaps": 6,
-    "timedLaps": 35,
-    "wetFraction": 0.171,
-    "transitions": 2,
+    "wetLaps": 103,
+    "timedLaps": 609,
+    "wetFraction": 0.169,
+    "transitions": 4,
     "segments": [
      {
+      "weather": "Light Cloud",
       "kind": "dry",
-      "laps": 14
+      "from": 1,
+      "to": 5,
+      "laps": 5
      },
      {
+      "weather": "Overcast",
+      "kind": "dry",
+      "from": 6,
+      "to": 14,
+      "laps": 9
+     },
+     {
+      "weather": "Light Rain",
       "kind": "wet",
+      "from": 15,
+      "to": 20,
       "laps": 6
      },
      {
+      "weather": "Overcast",
       "kind": "dry",
-      "laps": 15
+      "from": 21,
+      "to": 27,
+      "laps": 7
+     },
+     {
+      "weather": "Light Cloud",
+      "kind": "dry",
+      "from": 28,
+      "to": 35,
+      "laps": 8
      }
-    ]
+    ],
+    "dominant": "Overcast",
+    "source": "scan_race_weather"
    },
    {
     "round": 16,
     "track": "蒙扎",
     "slug": "2026-08-31-monza",
-    "wetLaps": 7,
-    "timedLaps": 27,
-    "wetFraction": 0.259,
-    "transitions": 1,
+    "wetLaps": 154,
+    "timedLaps": 582,
+    "wetFraction": 0.265,
+    "transitions": 2,
     "segments": [
      {
+      "weather": "Light Rain",
       "kind": "wet",
+      "from": 1,
+      "to": 7,
       "laps": 7
      },
      {
+      "weather": "Overcast",
       "kind": "dry",
-      "laps": 20
+      "from": 8,
+      "to": 20,
+      "laps": 13
+     },
+     {
+      "weather": "Light Cloud",
+      "kind": "dry",
+      "from": 21,
+      "to": 27,
+      "laps": 7
      }
-    ]
+    ],
+    "dominant": "Overcast",
+    "source": "scan_race_weather"
    },
    {
     "round": 24,
     "track": "新加坡",
     "slug": "2026-09-27-singapore",
-    "wetLaps": 4,
-    "timedLaps": 31,
-    "wetFraction": 0.129,
+    "wetLaps": 68,
+    "timedLaps": 554,
+    "wetFraction": 0.123,
     "transitions": 1,
     "segments": [
      {
+      "weather": "Overcast",
       "kind": "dry",
+      "from": 1,
+      "to": 27,
       "laps": 27
      },
      {
+      "weather": "Light Rain",
       "kind": "wet",
+      "from": 28,
+      "to": 31,
       "laps": 4
      }
-    ]
+    ],
+    "dominant": "Overcast",
+    "source": "scan_race_weather"
    }
   ],
   "dry": [
@@ -17488,235 +18007,349 @@
     "track": "墨尔本",
     "slug": "2026-07-24-melbourne",
     "wetLaps": 0,
-    "timedLaps": 29,
+    "timedLaps": 577,
     "wetFraction": 0.0,
-    "transitions": 0,
+    "transitions": 2,
     "segments": [
      {
+      "weather": "Light Cloud",
       "kind": "dry",
-      "laps": 29
+      "from": 1,
+      "to": 3,
+      "laps": 3
+     },
+     {
+      "weather": "Clear",
+      "kind": "dry",
+      "from": 4,
+      "to": 12,
+      "laps": 9
+     },
+     {
+      "weather": "Light Cloud",
+      "kind": "dry",
+      "from": 13,
+      "to": 29,
+      "laps": 17
      }
-    ]
+    ],
+    "dominant": "Light Cloud",
+    "source": "scan_race_weather"
    },
    {
     "round": 2,
     "track": "上海",
     "slug": "2026-07-29-shanghai",
     "wetLaps": 0,
-    "timedLaps": 28,
+    "timedLaps": 584,
     "wetFraction": 0.0,
     "transitions": 0,
     "segments": [
      {
+      "weather": "Overcast",
       "kind": "dry",
+      "from": 1,
+      "to": 28,
       "laps": 28
      }
-    ]
-   },
-   {
-    "round": 4,
-    "track": "萨基尔",
-    "slug": "2026-08-02-sakhir",
-    "wetLaps": 0,
-    "timedLaps": 0,
-    "wetFraction": 0.0,
-    "transitions": 0,
-    "segments": []
+    ],
+    "dominant": "Overcast",
+    "source": "scan_race_weather"
    },
    {
     "round": 5,
     "track": "伊莫拉",
     "slug": "2026-08-04-imola",
     "wetLaps": 0,
-    "timedLaps": 32,
+    "timedLaps": 605,
     "wetFraction": 0.0,
-    "transitions": 0,
+    "transitions": 1,
     "segments": [
      {
+      "weather": "Overcast",
       "kind": "dry",
-      "laps": 32
+      "from": 1,
+      "to": 19,
+      "laps": 19
+     },
+     {
+      "weather": "Light Cloud",
+      "kind": "dry",
+      "from": 20,
+      "to": 32,
+      "laps": 13
      }
-    ]
+    ],
+    "dominant": "Overcast",
+    "source": "scan_race_weather"
    },
    {
     "round": 6,
     "track": "迈阿密",
     "slug": "2026-08-06-miami",
     "wetLaps": 0,
-    "timedLaps": 29,
+    "timedLaps": 531,
     "wetFraction": 0.0,
     "transitions": 0,
     "segments": [
      {
+      "weather": "Overcast",
       "kind": "dry",
+      "from": 1,
+      "to": 29,
       "laps": 29
      }
-    ]
+    ],
+    "dominant": "Overcast",
+    "source": "scan_race_weather"
    },
    {
     "round": 7,
     "track": "吉达",
     "slug": "2026-08-10-jeddah",
     "wetLaps": 0,
-    "timedLaps": 25,
+    "timedLaps": 453,
     "wetFraction": 0.0,
     "transitions": 0,
     "segments": [
      {
+      "weather": "Clear",
       "kind": "dry",
+      "from": 1,
+      "to": 25,
       "laps": 25
      }
-    ]
+    ],
+    "dominant": "Clear",
+    "source": "scan_race_weather"
    },
    {
     "round": 9,
     "track": "加泰罗尼亚",
     "slug": "2026-08-14-catalunya",
     "wetLaps": 0,
-    "timedLaps": 33,
+    "timedLaps": 598,
     "wetFraction": 0.0,
     "transitions": 0,
     "segments": [
      {
+      "weather": "Clear",
       "kind": "dry",
+      "from": 1,
+      "to": 33,
       "laps": 33
      }
-    ]
+    ],
+    "dominant": "Clear",
+    "source": "scan_race_weather"
    },
    {
     "round": 11,
     "track": "奥地利",
     "slug": "2026-08-19-austria",
     "wetLaps": 0,
-    "timedLaps": 36,
+    "timedLaps": 748,
     "wetFraction": 0.0,
     "transitions": 0,
     "segments": [
      {
+      "weather": "Overcast",
       "kind": "dry",
+      "from": 1,
+      "to": 36,
       "laps": 36
      }
-    ]
+    ],
+    "dominant": "Overcast",
+    "source": "scan_race_weather"
    },
    {
     "round": 13,
     "track": "斯帕",
     "slug": "2026-08-24-spa",
     "wetLaps": 0,
-    "timedLaps": 22,
+    "timedLaps": 418,
     "wetFraction": 0.0,
     "transitions": 0,
     "segments": [
      {
+      "weather": "Clear",
       "kind": "dry",
+      "from": 1,
+      "to": 22,
       "laps": 22
      }
-    ]
+    ],
+    "dominant": "Clear",
+    "source": "scan_race_weather"
    },
    {
     "round": 15,
     "track": "赞德福特",
     "slug": "2026-08-28-zandvoort",
     "wetLaps": 0,
-    "timedLaps": 24,
+    "timedLaps": 448,
     "wetFraction": 0.0,
     "transitions": 0,
     "segments": [
      {
+      "weather": "Overcast",
       "kind": "dry",
+      "from": 1,
+      "to": 24,
       "laps": 24
      }
-    ]
+    ],
+    "dominant": "Overcast",
+    "source": "scan_race_weather"
    },
    {
     "round": 18,
     "track": "巴库",
     "slug": "2026-09-09-baku",
     "wetLaps": 0,
-    "timedLaps": 26,
+    "timedLaps": 374,
     "wetFraction": 0.0,
-    "transitions": 0,
+    "transitions": 1,
     "segments": [
      {
+      "weather": "Clear",
       "kind": "dry",
-      "laps": 26
+      "from": 1,
+      "to": 10,
+      "laps": 10
+     },
+     {
+      "weather": "Light Cloud",
+      "kind": "dry",
+      "from": 11,
+      "to": 26,
+      "laps": 16
      }
-    ]
+    ],
+    "dominant": "Light Cloud",
+    "source": "scan_race_weather"
    },
    {
     "round": 19,
     "track": "卢塞尔",
     "slug": "2026-09-11-losail",
     "wetLaps": 0,
-    "timedLaps": 29,
+    "timedLaps": 331,
     "wetFraction": 0.0,
     "transitions": 0,
     "segments": [
      {
+      "weather": "Clear",
       "kind": "dry",
+      "from": 1,
+      "to": 29,
       "laps": 29
      }
-    ]
+    ],
+    "dominant": "Clear",
+    "source": "scan_race_weather"
    },
    {
     "round": 20,
     "track": "奥斯汀",
     "slug": "2026-09-14-texas",
     "wetLaps": 0,
-    "timedLaps": 28,
+    "timedLaps": 468,
     "wetFraction": 0.0,
-    "transitions": 0,
+    "transitions": 1,
     "segments": [
      {
+      "weather": "Light Cloud",
       "kind": "dry",
-      "laps": 28
+      "from": 1,
+      "to": 20,
+      "laps": 20
+     },
+     {
+      "weather": "Clear",
+      "kind": "dry",
+      "from": 21,
+      "to": 28,
+      "laps": 8
      }
-    ]
+    ],
+    "dominant": "Light Cloud",
+    "source": "scan_race_weather"
    },
    {
     "round": 21,
     "track": "墨西哥",
     "slug": "2026-09-17-mexico",
     "wetLaps": 0,
-    "timedLaps": 36,
+    "timedLaps": 645,
     "wetFraction": 0.0,
-    "transitions": 0,
+    "transitions": 2,
     "segments": [
      {
+      "weather": "Clear",
       "kind": "dry",
-      "laps": 36
+      "from": 1,
+      "to": 9,
+      "laps": 9
+     },
+     {
+      "weather": "Light Cloud",
+      "kind": "dry",
+      "from": 10,
+      "to": 29,
+      "laps": 20
+     },
+     {
+      "weather": "Overcast",
+      "kind": "dry",
+      "from": 30,
+      "to": 36,
+      "laps": 7
      }
-    ]
+    ],
+    "dominant": "Light Cloud",
+    "source": "scan_race_weather"
    },
    {
     "round": 23,
     "track": "拉斯维加斯",
     "slug": "2026-09-23-las-vegas",
     "wetLaps": 0,
-    "timedLaps": 25,
+    "timedLaps": 481,
     "wetFraction": 0.0,
     "transitions": 0,
     "segments": [
      {
+      "weather": "Clear",
       "kind": "dry",
+      "from": 1,
+      "to": 25,
       "laps": 25
      }
-    ]
+    ],
+    "dominant": "Clear",
+    "source": "scan_race_weather"
    },
    {
     "round": 25,
     "track": "阿布扎比",
     "slug": "2026-09-30-abu-dhabi",
     "wetLaps": 0,
-    "timedLaps": 29,
+    "timedLaps": 605,
     "wetFraction": 0.0,
     "transitions": 0,
     "segments": [
      {
+      "weather": "Light Cloud",
       "kind": "dry",
+      "from": 1,
+      "to": 29,
       "laps": 29
      }
-    ]
+    ],
+    "dominant": "Light Cloud",
+    "source": "scan_race_weather"
    }
   ]
  },
@@ -19166,102 +19799,1049 @@
   "cars": [
    {
     "car": "迈凯伦",
+    "order": 3,
     "races": 41,
     "drivers": 20,
     "wins": 4,
     "podiums": 4,
     "avgFinish": 8.39,
+    "points": 447,
+    "topScorers": [
+     {
+      "name": "tenbergen",
+      "points": 72
+     },
+     {
+      "name": "HayesCC",
+      "points": 47
+     },
+     {
+      "name": "黑崎小雪",
+      "points": 45
+     }
+    ],
     "pos": 1
    },
    {
     "car": "红牛",
+    "order": 4,
     "races": 45,
     "drivers": 23,
     "wins": 7,
     "podiums": 5,
     "avgFinish": 9.09,
+    "points": 469,
+    "topScorers": [
+     {
+      "name": "defect",
+      "points": 93
+     },
+     {
+      "name": "鱼雷王",
+      "points": 50
+     },
+     {
+      "name": "yi_hua",
+      "points": 45
+     }
+    ],
     "pos": 2
    },
    {
     "car": "哈斯",
+    "order": 8,
     "races": 49,
     "drivers": 23,
     "wins": 2,
     "podiums": 3,
     "avgFinish": 9.49,
+    "points": 419,
+    "topScorers": [
+     {
+      "name": "AyatoSeven",
+      "points": 88
+     },
+     {
+      "name": "Momokong",
+      "points": 45
+     },
+     {
+      "name": "lm10",
+      "points": 38
+     }
+    ],
     "pos": 3
    },
    {
     "car": "威廉姆斯",
+    "order": 5,
     "races": 48,
     "drivers": 27,
     "wins": 1,
     "podiums": 9,
     "avgFinish": 9.6,
+    "points": 432,
+    "topScorers": [
+     {
+      "name": "白云",
+      "points": 82
+     },
+     {
+      "name": "Gougou",
+      "points": 40
+     },
+     {
+      "name": "defect",
+      "points": 38
+     }
+    ],
     "pos": 4
    },
    {
     "car": "Alpine",
+    "order": 6,
     "races": 49,
     "drivers": 29,
     "wins": 3,
     "podiums": 6,
     "avgFinish": 10.22,
+    "points": 419,
+    "topScorers": [
+     {
+      "name": "defect",
+      "points": 43
+     },
+     {
+      "name": "Landoooo_W",
+      "points": 40
+     },
+     {
+      "name": "EasonLeclerc",
+      "points": 38
+     }
+    ],
     "pos": 5
    },
    {
     "car": "法拉利",
+    "order": 1,
     "races": 28,
     "drivers": 11,
     "wins": 1,
     "podiums": 2,
     "avgFinish": 10.46,
+    "points": 202,
+    "topScorers": [
+     {
+      "name": "tenbergen",
+      "points": 49
+     },
+     {
+      "name": "HayesCC",
+      "points": 37
+     },
+     {
+      "name": "清蒸猫头鹰凉拌菠萝",
+      "points": 36
+     }
+    ],
     "pos": 6
    },
    {
     "car": "小红牛",
+    "order": 7,
     "races": 50,
     "drivers": 33,
     "wins": 3,
     "podiums": 7,
     "avgFinish": 10.62,
+    "points": 397,
+    "topScorers": [
+     {
+      "name": "Pan1ys",
+      "points": 52
+     },
+     {
+      "name": "defect",
+      "points": 48
+     },
+     {
+      "name": "lm10",
+      "points": 47
+     }
+    ],
     "pos": 7
    },
    {
     "car": "阿斯顿马丁",
+    "order": 10,
     "races": 48,
     "drivers": 27,
     "wins": 3,
     "podiums": 7,
     "avgFinish": 11.02,
+    "points": 376,
+    "topScorers": [
+     {
+      "name": "AyatoSeven",
+      "points": 45
+     },
+     {
+      "name": "R_ATPER2",
+      "points": 45
+     },
+     {
+      "name": "Lei",
+      "points": 40
+     }
+    ],
     "pos": 8
    },
    {
     "car": "梅赛德斯",
+    "order": 2,
     "races": 36,
     "drivers": 11,
     "wins": 0,
     "podiums": 2,
     "avgFinish": 11.31,
+    "points": 219,
+    "topScorers": [
+     {
+      "name": "tenbergen",
+      "points": 80
+     },
+     {
+      "name": "HayesCC",
+      "points": 49
+     },
+     {
+      "name": "It57",
+      "points": 31
+     }
+    ],
     "pos": 9
    },
    {
     "car": "凯迪拉克",
+    "order": 11,
     "races": 49,
     "drivers": 18,
     "wins": 1,
     "podiums": 1,
     "avgFinish": 11.41,
+    "points": 324,
+    "topScorers": [
+     {
+      "name": "Gougou",
+      "points": 100
+     },
+     {
+      "name": "AyatoSeven",
+      "points": 57
+     },
+     {
+      "name": "老吴k423",
+      "points": 46
+     }
+    ],
     "pos": 10
    },
    {
     "car": "奥迪",
+    "order": 9,
     "races": 46,
     "drivers": 26,
     "wins": 0,
     "podiums": 4,
     "avgFinish": 12.33,
+    "points": 284,
+    "topScorers": [
+     {
+      "name": "Gougou",
+      "points": 46
+     },
+     {
+      "name": "Er1sed-FOX",
+      "points": 39
+     },
+     {
+      "name": "lm10",
+      "points": 38
+     }
+    ],
     "pos": 11
+   }
+  ],
+  "order": [
+   "法拉利",
+   "梅赛德斯",
+   "迈凯伦",
+   "红牛",
+   "威廉姆斯",
+   "Alpine",
+   "小红牛",
+   "哈斯",
+   "奥迪",
+   "阿斯顿马丁",
+   "凯迪拉克"
+  ],
+  "impact": [
+   {
+    "name": "star-falI04",
+    "avgCarOrder": 1.91,
+    "carAdvantage": 4.09,
+    "expectedFinish": 10.78,
+    "actualFinish": 14.36,
+    "overPerformance": -3.58,
+    "races": 11,
+    "carPaceEffect": 0.963
+   },
+   {
+    "name": "Perez",
+    "avgCarOrder": 2.0,
+    "carAdvantage": 4.0,
+    "expectedFinish": 11.31,
+    "actualFinish": 12.0,
+    "overPerformance": -0.69,
+    "races": 1,
+    "carPaceEffect": 0.945
+   },
+   {
+    "name": "RanXi",
+    "avgCarOrder": 2.33,
+    "carAdvantage": 3.67,
+    "expectedFinish": 10.17,
+    "actualFinish": 14.67,
+    "overPerformance": -4.5,
+    "races": 3,
+    "carPaceEffect": 0.88
+   },
+   {
+    "name": "HayesCC",
+    "avgCarOrder": 2.4,
+    "carAdvantage": 3.6,
+    "expectedFinish": 10.36,
+    "actualFinish": 10.36,
+    "overPerformance": -0.0,
+    "races": 25,
+    "carPaceEffect": 0.867
+   },
+   {
+    "name": "tenbergen",
+    "avgCarOrder": 2.72,
+    "carAdvantage": 3.28,
+    "expectedFinish": 10.02,
+    "actualFinish": 8.84,
+    "overPerformance": 1.18,
+    "races": 25,
+    "carPaceEffect": 0.804
+   },
+   {
+    "name": "It57",
+    "avgCarOrder": 2.86,
+    "carAdvantage": 3.14,
+    "expectedFinish": 10.03,
+    "actualFinish": 9.29,
+    "overPerformance": 0.74,
+    "races": 14,
+    "carPaceEffect": 0.777
+   },
+   {
+    "name": "芒果",
+    "avgCarOrder": 3.5,
+    "carAdvantage": 2.5,
+    "expectedFinish": 8.74,
+    "actualFinish": 12.0,
+    "overPerformance": -3.26,
+    "races": 2,
+    "carPaceEffect": 0.652
+   },
+   {
+    "name": "清蒸猫头鹰凉拌菠萝",
+    "avgCarOrder": 4.08,
+    "carAdvantage": 1.92,
+    "expectedFinish": 9.59,
+    "actualFinish": 8.0,
+    "overPerformance": 1.59,
+    "races": 12,
+    "carPaceEffect": 0.538
+   },
+   {
+    "name": "DQ",
+    "avgCarOrder": 4.1,
+    "carAdvantage": 1.9,
+    "expectedFinish": 9.55,
+    "actualFinish": 11.8,
+    "overPerformance": -2.25,
+    "races": 10,
+    "carPaceEffect": 0.534
+   },
+   {
+    "name": "esmac1",
+    "avgCarOrder": 4.22,
+    "carAdvantage": 1.78,
+    "expectedFinish": 10.07,
+    "actualFinish": 13.33,
+    "overPerformance": -3.26,
+    "races": 9,
+    "carPaceEffect": 0.511
+   },
+   {
+    "name": "高木同学重度依赖",
+    "avgCarOrder": 4.75,
+    "carAdvantage": 1.25,
+    "expectedFinish": 9.42,
+    "actualFinish": 15.25,
+    "overPerformance": -5.83,
+    "races": 4,
+    "carPaceEffect": 0.407
+   },
+   {
+    "name": "Ak_Langley_S",
+    "avgCarOrder": 4.79,
+    "carAdvantage": 1.21,
+    "expectedFinish": 9.75,
+    "actualFinish": 10.0,
+    "overPerformance": -0.25,
+    "races": 14,
+    "carPaceEffect": 0.399
+   },
+   {
+    "name": "dan",
+    "avgCarOrder": 4.93,
+    "carAdvantage": 1.07,
+    "expectedFinish": 9.78,
+    "actualFinish": 15.86,
+    "overPerformance": -6.08,
+    "races": 14,
+    "carPaceEffect": 0.372
+   },
+   {
+    "name": "OGlockex",
+    "avgCarOrder": 5.0,
+    "carAdvantage": 1.0,
+    "expectedFinish": 9.6,
+    "actualFinish": null,
+    "overPerformance": null,
+    "races": 1
+   },
+   {
+    "name": "Aisu",
+    "avgCarOrder": 5.0,
+    "carAdvantage": 1.0,
+    "expectedFinish": 9.6,
+    "actualFinish": 19.0,
+    "overPerformance": -9.4,
+    "races": 1,
+    "carPaceEffect": 0.358
+   },
+   {
+    "name": "newyeye7",
+    "avgCarOrder": 5.0,
+    "carAdvantage": 1.0,
+    "expectedFinish": 9.98,
+    "actualFinish": 11.4,
+    "overPerformance": -1.42,
+    "races": 5,
+    "carPaceEffect": 0.358
+   },
+   {
+    "name": "gangteiss",
+    "avgCarOrder": 5.4,
+    "carAdvantage": 0.6,
+    "expectedFinish": 9.07,
+    "actualFinish": 6.8,
+    "overPerformance": 2.27,
+    "races": 5,
+    "carPaceEffect": 0.28
+   },
+   {
+    "name": "defect",
+    "avgCarOrder": 5.5,
+    "carAdvantage": 0.5,
+    "expectedFinish": 9.82,
+    "actualFinish": 7.05,
+    "overPerformance": 2.77,
+    "races": 20,
+    "carPaceEffect": 0.26
+   },
+   {
+    "name": "白云",
+    "avgCarOrder": 5.65,
+    "carAdvantage": 0.35,
+    "expectedFinish": 9.85,
+    "actualFinish": 8.15,
+    "overPerformance": 1.7,
+    "races": 20,
+    "carPaceEffect": 0.231
+   },
+   {
+    "name": "WuHen",
+    "avgCarOrder": 5.75,
+    "carAdvantage": 0.25,
+    "expectedFinish": 9.97,
+    "actualFinish": 6.75,
+    "overPerformance": 3.22,
+    "races": 4,
+    "carPaceEffect": 0.212
+   },
+   {
+    "name": "鱼雷王",
+    "avgCarOrder": 5.8,
+    "carAdvantage": 0.2,
+    "expectedFinish": 10.19,
+    "actualFinish": 6.4,
+    "overPerformance": 3.79,
+    "races": 5,
+    "carPaceEffect": 0.202
+   },
+   {
+    "name": "Tim",
+    "avgCarOrder": 5.83,
+    "carAdvantage": 0.17,
+    "expectedFinish": 9.81,
+    "actualFinish": 15.67,
+    "overPerformance": -5.86,
+    "races": 6,
+    "carPaceEffect": 0.196
+   },
+   {
+    "name": "TC",
+    "avgCarOrder": 6.0,
+    "carAdvantage": 0.0,
+    "expectedFinish": 10.22,
+    "actualFinish": 21.0,
+    "overPerformance": -10.78,
+    "races": 1,
+    "carPaceEffect": 0.163
+   },
+   {
+    "name": "糕白",
+    "avgCarOrder": 6.0,
+    "carAdvantage": 0.0,
+    "expectedFinish": 9.73,
+    "actualFinish": 13.0,
+    "overPerformance": -3.27,
+    "races": 3,
+    "carPaceEffect": 0.163
+   },
+   {
+    "name": "Surviver",
+    "avgCarOrder": 6.0,
+    "carAdvantage": 0.0,
+    "expectedFinish": 10.22,
+    "actualFinish": 19.0,
+    "overPerformance": -8.78,
+    "races": 1,
+    "carPaceEffect": 0.163
+   },
+   {
+    "name": "Momokong",
+    "avgCarOrder": 6.16,
+    "carAdvantage": -0.16,
+    "expectedFinish": 9.7,
+    "actualFinish": 9.95,
+    "overPerformance": -0.25,
+    "races": 19,
+    "carPaceEffect": 0.131
+   },
+   {
+    "name": "Wanner",
+    "avgCarOrder": 6.5,
+    "carAdvantage": -0.5,
+    "expectedFinish": 9.98,
+    "actualFinish": 1.25,
+    "overPerformance": 8.73,
+    "races": 4,
+    "carPaceEffect": 0.065
+   },
+   {
+    "name": "ColorFirst",
+    "avgCarOrder": 6.67,
+    "carAdvantage": -0.67,
+    "expectedFinish": 10.68,
+    "actualFinish": 12.0,
+    "overPerformance": -1.32,
+    "races": 3,
+    "carPaceEffect": 0.032
+   },
+   {
+    "name": "yi_hua",
+    "avgCarOrder": 6.67,
+    "carAdvantage": -0.67,
+    "expectedFinish": 10.43,
+    "actualFinish": 9.33,
+    "overPerformance": 1.1,
+    "races": 6,
+    "carPaceEffect": 0.032
+   },
+   {
+    "name": "Oiysi10023000",
+    "avgCarOrder": 7.0,
+    "carAdvantage": -1.0,
+    "expectedFinish": 10.37,
+    "actualFinish": 15.75,
+    "overPerformance": -5.38,
+    "races": 4,
+    "carPaceEffect": -0.033
+   },
+   {
+    "name": "HENRY",
+    "avgCarOrder": 7.0,
+    "carAdvantage": -1.0,
+    "expectedFinish": 10.34,
+    "actualFinish": 14.75,
+    "overPerformance": -4.41,
+    "races": 4,
+    "carPaceEffect": -0.033
+   },
+   {
+    "name": "Anegler",
+    "avgCarOrder": 7.0,
+    "carAdvantage": -1.0,
+    "expectedFinish": 10.62,
+    "actualFinish": 8.0,
+    "overPerformance": 2.62,
+    "races": 1,
+    "carPaceEffect": -0.033
+   },
+   {
+    "name": "HEZ",
+    "avgCarOrder": 7.0,
+    "carAdvantage": -1.0,
+    "expectedFinish": 10.96,
+    "actualFinish": 10.0,
+    "overPerformance": 0.96,
+    "races": 2,
+    "carPaceEffect": -0.033
+   },
+   {
+    "name": "黑崎小雪",
+    "avgCarOrder": 7.08,
+    "carAdvantage": -1.08,
+    "expectedFinish": 10.35,
+    "actualFinish": 9.54,
+    "overPerformance": 0.81,
+    "races": 13,
+    "carPaceEffect": -0.049
+   },
+   {
+    "name": "Beast",
+    "avgCarOrder": 7.2,
+    "carAdvantage": -1.2,
+    "expectedFinish": 10.17,
+    "actualFinish": 13.2,
+    "overPerformance": -3.03,
+    "races": 5,
+    "carPaceEffect": -0.072
+   },
+   {
+    "name": "A380FatLiner",
+    "avgCarOrder": 7.36,
+    "carAdvantage": -1.36,
+    "expectedFinish": 10.39,
+    "actualFinish": 12.29,
+    "overPerformance": -1.9,
+    "races": 14,
+    "carPaceEffect": -0.103
+   },
+   {
+    "name": "Pan1ys",
+    "avgCarOrder": 7.57,
+    "carAdvantage": -1.57,
+    "expectedFinish": 10.55,
+    "actualFinish": 9.5,
+    "overPerformance": 1.05,
+    "races": 14,
+    "carPaceEffect": -0.144
+   },
+   {
+    "name": "EasonLeclerc",
+    "avgCarOrder": 7.62,
+    "carAdvantage": -1.62,
+    "expectedFinish": 10.78,
+    "actualFinish": 12.88,
+    "overPerformance": -2.1,
+    "races": 8,
+    "carPaceEffect": -0.154
+   },
+   {
+    "name": "MFGA",
+    "avgCarOrder": 7.67,
+    "carAdvantage": -1.67,
+    "expectedFinish": 10.62,
+    "actualFinish": 15.0,
+    "overPerformance": -4.38,
+    "races": 3,
+    "carPaceEffect": -0.164
+   },
+   {
+    "name": "x1aofeiyang",
+    "avgCarOrder": 7.75,
+    "carAdvantage": -1.75,
+    "expectedFinish": 10.86,
+    "actualFinish": 17.0,
+    "overPerformance": -6.14,
+    "races": 4,
+    "carPaceEffect": -0.18
+   },
+   {
+    "name": "Kagamine RIN",
+    "avgCarOrder": 7.75,
+    "carAdvantage": -1.75,
+    "expectedFinish": 10.67,
+    "actualFinish": 8.5,
+    "overPerformance": 2.17,
+    "races": 12,
+    "carPaceEffect": -0.18
+   },
+   {
+    "name": "Er1sed-FOX",
+    "avgCarOrder": 7.77,
+    "carAdvantage": -1.77,
+    "expectedFinish": 10.88,
+    "actualFinish": 12.32,
+    "overPerformance": -1.44,
+    "races": 22,
+    "carPaceEffect": -0.183
+   },
+   {
+    "name": "R_ATPER2",
+    "avgCarOrder": 8.0,
+    "carAdvantage": -2.0,
+    "expectedFinish": 10.57,
+    "actualFinish": 1.75,
+    "overPerformance": 8.82,
+    "races": 4,
+    "carPaceEffect": -0.228
+   },
+   {
+    "name": "哈哈",
+    "avgCarOrder": 8.0,
+    "carAdvantage": -2.0,
+    "expectedFinish": 9.49,
+    "actualFinish": 19.0,
+    "overPerformance": -9.51,
+    "races": 1,
+    "carPaceEffect": -0.228
+   },
+   {
+    "name": "Landoooo_W",
+    "avgCarOrder": 8.08,
+    "carAdvantage": -2.08,
+    "expectedFinish": 10.42,
+    "actualFinish": 12.75,
+    "overPerformance": -2.33,
+    "races": 12,
+    "carPaceEffect": -0.244
+   },
+   {
+    "name": "lm10",
+    "avgCarOrder": 8.38,
+    "carAdvantage": -2.38,
+    "expectedFinish": 10.88,
+    "actualFinish": 5.0,
+    "overPerformance": 5.88,
+    "races": 13,
+    "carPaceEffect": -0.303
+   },
+   {
+    "name": "leevenchenko",
+    "avgCarOrder": 8.67,
+    "carAdvantage": -2.67,
+    "expectedFinish": 11.33,
+    "actualFinish": 22.0,
+    "overPerformance": -10.67,
+    "races": 3,
+    "carPaceEffect": -0.359
+   },
+   {
+    "name": "JPer",
+    "avgCarOrder": 8.8,
+    "carAdvantage": -2.8,
+    "expectedFinish": 10.85,
+    "actualFinish": 8.8,
+    "overPerformance": 2.05,
+    "races": 5,
+    "carPaceEffect": -0.385
+   },
+   {
+    "name": "Gougou",
+    "avgCarOrder": 8.81,
+    "carAdvantage": -2.81,
+    "expectedFinish": 10.89,
+    "actualFinish": 8.19,
+    "overPerformance": 2.7,
+    "races": 21,
+    "carPaceEffect": -0.387
+   },
+   {
+    "name": "LewisRen",
+    "avgCarOrder": 8.92,
+    "carAdvantage": -2.92,
+    "expectedFinish": 11.01,
+    "actualFinish": 12.67,
+    "overPerformance": -1.66,
+    "races": 12,
+    "carPaceEffect": -0.408
+   },
+   {
+    "name": "Mirrorcc",
+    "avgCarOrder": 9.0,
+    "carAdvantage": -3.0,
+    "expectedFinish": 11.02,
+    "actualFinish": 3.0,
+    "overPerformance": 8.02,
+    "races": 2,
+    "carPaceEffect": -0.424
+   },
+   {
+    "name": "叶yeeeeee",
+    "avgCarOrder": 9.0,
+    "carAdvantage": -3.0,
+    "expectedFinish": 11.04,
+    "actualFinish": 17.14,
+    "overPerformance": -6.1,
+    "races": 7,
+    "carPaceEffect": -0.424
+   },
+   {
+    "name": "Ocean Wu",
+    "avgCarOrder": 9.0,
+    "carAdvantage": -3.0,
+    "expectedFinish": 12.33,
+    "actualFinish": null,
+    "overPerformance": null,
+    "races": 1
+   },
+   {
+    "name": "雷电芽衣",
+    "avgCarOrder": 9.0,
+    "carAdvantage": -3.0,
+    "expectedFinish": 12.33,
+    "actualFinish": 19.5,
+    "overPerformance": -7.17,
+    "races": 2,
+    "carPaceEffect": -0.424
+   },
+   {
+    "name": "RIC",
+    "avgCarOrder": 9.55,
+    "carAdvantage": -3.55,
+    "expectedFinish": 11.15,
+    "actualFinish": 7.91,
+    "overPerformance": 3.24,
+    "races": 11,
+    "carPaceEffect": -0.532
+   },
+   {
+    "name": "Lei",
+    "avgCarOrder": 9.6,
+    "carAdvantage": -3.6,
+    "expectedFinish": 11.55,
+    "actualFinish": 10.6,
+    "overPerformance": 0.95,
+    "races": 5,
+    "carPaceEffect": -0.541
+   },
+   {
+    "name": "AyatoSeven",
+    "avgCarOrder": 9.68,
+    "carAdvantage": -3.68,
+    "expectedFinish": 10.79,
+    "actualFinish": 9.52,
+    "overPerformance": 1.27,
+    "races": 25,
+    "carPaceEffect": -0.557
+   },
+   {
+    "name": "funanana",
+    "avgCarOrder": 10.0,
+    "carAdvantage": -4.0,
+    "expectedFinish": 11.02,
+    "actualFinish": 3.0,
+    "overPerformance": 8.02,
+    "races": 1,
+    "carPaceEffect": -0.62
+   },
+   {
+    "name": "FerrariGoat",
+    "avgCarOrder": 10.0,
+    "carAdvantage": -4.0,
+    "expectedFinish": 11.02,
+    "actualFinish": 6.0,
+    "overPerformance": 5.02,
+    "races": 1,
+    "carPaceEffect": -0.62
+   },
+   {
+    "name": "Swizzet3271",
+    "avgCarOrder": 10.0,
+    "carAdvantage": -4.0,
+    "expectedFinish": 11.02,
+    "actualFinish": 3.0,
+    "overPerformance": 8.02,
+    "races": 1,
+    "carPaceEffect": -0.62
+   },
+   {
+    "name": "Sliced Onion",
+    "avgCarOrder": 10.0,
+    "carAdvantage": -4.0,
+    "expectedFinish": 11.02,
+    "actualFinish": 3.0,
+    "overPerformance": 8.02,
+    "races": 1,
+    "carPaceEffect": -0.62
+   },
+   {
+    "name": "UbisoftHongKong",
+    "avgCarOrder": 10.0,
+    "carAdvantage": -4.0,
+    "expectedFinish": 11.02,
+    "actualFinish": 16.0,
+    "overPerformance": -4.98,
+    "races": 1,
+    "carPaceEffect": -0.62
+   },
+   {
+    "name": "老吴k423",
+    "avgCarOrder": 10.8,
+    "carAdvantage": -4.8,
+    "expectedFinish": 11.33,
+    "actualFinish": 7.0,
+    "overPerformance": 4.33,
+    "races": 5,
+    "carPaceEffect": -0.776
+   },
+   {
+    "name": "MinatoNaoko",
+    "avgCarOrder": 11.0,
+    "carAdvantage": -5.0,
+    "expectedFinish": 11.41,
+    "actualFinish": 4.0,
+    "overPerformance": 7.41,
+    "races": 1,
+    "carPaceEffect": -0.815
+   }
+  ],
+  "prOrderCorr": 0.514,
+  "fieldAvgOrder": 6.0,
+  "paceFit": {
+   "slope": -0.1956,
+   "meanOrder": 6.83,
+   "meanGap": 3.048,
+   "n": 62,
+   "note": "斜率是**负的**：车序越大（车越慢）圈速差距反而越小。这不是\"慢车更快\"，而是 CBAS 把快车配给慢人的结果——所以这个回归**不能**用来估计车的性能，只能当机制证据。"
+  },
+  "scatters": [
+   {
+    "id": "car_order_vs_points",
+    "title": "车序 vs 车队积分",
+    "lead": "横轴权威车序（1 = 最快）、纵轴把车当队累计的积分。**如果车越快分越多，点应该从左下往右上走——实际是反的**：车序第 1 的法拉利积分靠后。这不是异常，是 CBAS 的设计：CR 越高拿越快的车，所以最快的车落在最慢的人手上。",
+    "xLabel": "车序（1 = 最快）",
+    "yLabel": "积分",
+    "xRev": false,
+    "yRev": false,
+    "points": [
+     {
+      "name": "迈凯伦",
+      "x": 3,
+      "y": 447,
+      "r": 12.833333333333332,
+      "xLabel": "车序 3",
+      "yLabel": "447 分"
+     },
+     {
+      "name": "红牛",
+      "x": 4,
+      "y": 469,
+      "r": 13.5,
+      "xLabel": "车序 4",
+      "yLabel": "469 分"
+     },
+     {
+      "name": "哈斯",
+      "x": 8,
+      "y": 419,
+      "r": 14.166666666666666,
+      "xLabel": "车序 8",
+      "yLabel": "419 分"
+     },
+     {
+      "name": "威廉姆斯",
+      "x": 5,
+      "y": 432,
+      "r": 14.0,
+      "xLabel": "车序 5",
+      "yLabel": "432 分"
+     },
+     {
+      "name": "Alpine",
+      "x": 6,
+      "y": 419,
+      "r": 14.166666666666666,
+      "xLabel": "车序 6",
+      "yLabel": "419 分"
+     },
+     {
+      "name": "法拉利",
+      "x": 1,
+      "y": 202,
+      "r": 10.666666666666668,
+      "xLabel": "车序 1",
+      "yLabel": "202 分"
+     },
+     {
+      "name": "小红牛",
+      "x": 7,
+      "y": 397,
+      "r": 14.333333333333334,
+      "xLabel": "车序 7",
+      "yLabel": "397 分"
+     },
+     {
+      "name": "阿斯顿马丁",
+      "x": 10,
+      "y": 376,
+      "r": 14.0,
+      "xLabel": "车序 10",
+      "yLabel": "376 分"
+     },
+     {
+      "name": "梅赛德斯",
+      "x": 2,
+      "y": 219,
+      "r": 12.0,
+      "xLabel": "车序 2",
+      "yLabel": "219 分"
+     },
+     {
+      "name": "凯迪拉克",
+      "x": 11,
+      "y": 324,
+      "r": 14.166666666666666,
+      "xLabel": "车序 11",
+      "yLabel": "324 分"
+     },
+     {
+      "name": "奥迪",
+      "x": 9,
+      "y": 284,
+      "r": 13.666666666666668,
+      "xLabel": "车序 9",
+      "yLabel": "284 分"
+     }
+    ],
+    "count": 11,
+    "bestQuad": null,
+    "quadrants": {
+     "tl": "车慢但分高（人被低估）",
+     "tr": "车快且分高（正常）",
+     "bl": "车快但分低（CBAS 让车生效）",
+     "br": "车慢且分低"
+    }
    }
   ],
   "boards": [
@@ -19311,7 +20891,7 @@
     "id": "car_loyal",
     "group": "cars",
     "title": "开过的车最少",
-    "lead": "官方层 · 出场 ≥5 场的车手按用过的不同车型数量升序；同数量时按出场多的在前（车按场轮换，所以这衡量的是「分到的车有多稳定」）",
+    "lead": "官方层 · 出场 ≥5 场的车手按用过的不同车型数量升序；车按场轮换，所以这衡量的是「分到的车有多稳定」",
     "color": "green",
     "qualified": 34,
     "insufficient": 0,
@@ -19353,46 +20933,292 @@
     "id": "car_best_driver",
     "group": "cars",
     "title": "每辆车的最强者",
-    "lead": "官方层 · 每辆车里平均完赛位最好的车手（该车至少开 3 场）",
+    "lead": "官方层 · 每辆车里平均完赛位最好的车手（在该车至少开 2 场）；按权威车序排列，**每辆车都有一行**",
     "color": "blue",
-    "qualified": 5,
+    "qualified": 11,
     "insufficient": 0,
     "rows": [
+     {
+      "name": "法拉利",
+      "value": -4.0,
+      "display": "清蒸猫头鹰凉拌菠萝 P4.0",
+      "detail": "车序第 1 · 该车 28 场 · 清蒸猫头鹰凉拌菠萝 开了 2 场"
+     },
+     {
+      "name": "梅赛德斯",
+      "value": -8.5,
+      "display": "It57 P8.5",
+      "detail": "车序第 2 · 该车 36 场 · It57 开了 4 场"
+     },
+     {
+      "name": "迈凯伦",
+      "value": -2.0,
+      "display": "黑崎小雪 P2.0",
+      "detail": "车序第 3 · 该车 41 场 · 黑崎小雪 开了 2 场"
+     },
+     {
+      "name": "红牛",
+      "value": -1.0,
+      "display": "鱼雷王 P1.0",
+      "detail": "车序第 4 · 该车 45 场 · 鱼雷王 开了 2 场"
+     },
      {
       "name": "威廉姆斯",
       "value": -4.0,
       "display": "白云 P4.0",
-      "detail": "该车共 48 场 · 该车手开 5 场"
-     },
-     {
-      "name": "小红牛",
-      "value": -4.333333333333333,
-      "display": "Pan1ys P4.3",
-      "detail": "该车共 50 场 · 该车手开 3 场"
+      "detail": "车序第 5 · 该车 48 场 · 白云 开了 5 场"
      },
      {
       "name": "Alpine",
-      "value": -4.333333333333333,
-      "display": "defect P4.3",
-      "detail": "该车共 49 场 · 该车手开 3 场"
+      "value": -3.5,
+      "display": "EasonLeclerc P3.5",
+      "detail": "车序第 6 · 该车 49 场 · EasonLeclerc 开了 2 场"
+     },
+     {
+      "name": "小红牛",
+      "value": -1.5,
+      "display": "lm10 P1.5",
+      "detail": "车序第 7 · 该车 50 场 · lm10 开了 2 场"
      },
      {
       "name": "哈斯",
-      "value": -7.375,
-      "display": "AyatoSeven P7.4",
-      "detail": "该车共 49 场 · 该车手开 8 场"
+      "value": -3.5,
+      "display": "lm10 P3.5",
+      "detail": "车序第 8 · 该车 49 场 · lm10 开了 2 场"
+     },
+     {
+      "name": "奥迪",
+      "value": -5.333333333333333,
+      "display": "Gougou P5.3",
+      "detail": "车序第 9 · 该车 46 场 · Gougou 开了 3 场"
+     },
+     {
+      "name": "阿斯顿马丁",
+      "value": -2.0,
+      "display": "R_ATPER2 P2.0",
+      "detail": "车序第 10 · 该车 48 场 · R_ATPER2 开了 2 场"
      },
      {
       "name": "凯迪拉克",
-      "value": -7.555555555555555,
-      "display": "Gougou P7.6",
-      "detail": "该车共 49 场 · 该车手开 9 场"
+      "value": -4.5,
+      "display": "lm10 P4.5",
+      "detail": "车序第 11 · 该车 49 场 · lm10 开了 2 场"
+     }
+    ],
+    "note": ""
+   },
+   {
+    "id": "car_points",
+    "group": "cars",
+    "title": "车队积分榜（趣味）",
+    "lead": "官方层 · 把「车」当成队，累计开过它的车手拿到的积分。**不是真实车队榜**——车按场分配、同一个人一个赛季会开很多辆车，所以这反映的是\"这辆车被分给了谁\"",
+    "color": "orange",
+    "qualified": 11,
+    "insufficient": 0,
+    "rows": [
+     {
+      "name": "红牛",
+      "value": 469,
+      "display": "469 分",
+      "detail": "贡献：defect 93、鱼雷王 50"
+     },
+     {
+      "name": "迈凯伦",
+      "value": 447,
+      "display": "447 分",
+      "detail": "贡献：tenbergen 72、HayesCC 47"
+     },
+     {
+      "name": "威廉姆斯",
+      "value": 432,
+      "display": "432 分",
+      "detail": "贡献：白云 82、Gougou 40"
+     },
+     {
+      "name": "哈斯",
+      "value": 419,
+      "display": "419 分",
+      "detail": "贡献：AyatoSeven 88、Momokong 45"
+     },
+     {
+      "name": "Alpine",
+      "value": 419,
+      "display": "419 分",
+      "detail": "贡献：defect 43、Landoooo_W 40"
+     }
+    ],
+    "note": ""
+   },
+   {
+    "id": "car_advantage",
+    "group": "cars",
+    "title": "分到的车最好",
+    "lead": "官方层 · 平均车序相对全场均值的优势（车序 1 = 最快）。CBAS 的设计是**强者开慢车**，所以这个值高不代表车手强，反而多半说明他 CR 低",
+    "color": "orange",
+    "qualified": 64,
+    "insufficient": 0,
+    "rows": [
+     {
+      "name": "star-falI04",
+      "value": 4.09,
+      "display": "+4.09 档",
+      "detail": "平均车序 1.91（1=最快，全场均值 6.0）· 11 场"
+     },
+     {
+      "name": "Perez",
+      "value": 4.0,
+      "display": "+4.00 档",
+      "detail": "平均车序 2.00（1=最快，全场均值 6.0）· 1 场"
+     },
+     {
+      "name": "RanXi",
+      "value": 3.67,
+      "display": "+3.67 档",
+      "detail": "平均车序 2.33（1=最快，全场均值 6.0）· 3 场"
+     },
+     {
+      "name": "HayesCC",
+      "value": 3.6,
+      "display": "+3.60 档",
+      "detail": "平均车序 2.40（1=最快，全场均值 6.0）· 25 场"
+     },
+     {
+      "name": "tenbergen",
+      "value": 3.28,
+      "display": "+3.28 档",
+      "detail": "平均车序 2.72（1=最快，全场均值 6.0）· 25 场"
+     }
+    ],
+    "note": ""
+   },
+   {
+    "id": "car_disadvantage",
+    "group": "cars",
+    "title": "分到的车最差",
+    "lead": "官方层 · 平均车序相对全场均值最吃亏的那一端",
+    "color": "red",
+    "qualified": 64,
+    "insufficient": 0,
+    "rows": [
+     {
+      "name": "MinatoNaoko",
+      "value": -5.0,
+      "display": "-5.00 档",
+      "detail": "平均车序 11.00（1=最快，全场均值 6.0）· 1 场"
+     },
+     {
+      "name": "老吴k423",
+      "value": -4.8,
+      "display": "-4.80 档",
+      "detail": "平均车序 10.80（1=最快，全场均值 6.0）· 5 场"
+     },
+     {
+      "name": "funanana",
+      "value": -4.0,
+      "display": "-4.00 档",
+      "detail": "平均车序 10.00（1=最快，全场均值 6.0）· 1 场"
+     },
+     {
+      "name": "FerrariGoat",
+      "value": -4.0,
+      "display": "-4.00 档",
+      "detail": "平均车序 10.00（1=最快，全场均值 6.0）· 1 场"
+     },
+     {
+      "name": "Swizzet3271",
+      "value": -4.0,
+      "display": "-4.00 档",
+      "detail": "平均车序 10.00（1=最快，全场均值 6.0）· 1 场"
+     }
+    ],
+    "note": ""
+   },
+   {
+    "id": "over_perform",
+    "group": "cars",
+    "title": "超额完成最多",
+    "lead": "官方层 · 「这辆车通常跑第几」−「他实际跑第几」。正值＝比这辆车的一般水平更好，负值＝没跑出车该有的位置",
+    "color": "green",
+    "qualified": 62,
+    "insufficient": 0,
+    "rows": [
+     {
+      "name": "R_ATPER2",
+      "value": 8.82,
+      "display": "+8.82 位",
+      "detail": "车通常 P10.6 · 他跑 P1.8 · 车序 8.0"
+     },
+     {
+      "name": "Wanner",
+      "value": 8.73,
+      "display": "+8.73 位",
+      "detail": "车通常 P10.0 · 他跑 P1.2 · 车序 6.5"
+     },
+     {
+      "name": "Mirrorcc",
+      "value": 8.02,
+      "display": "+8.02 位",
+      "detail": "车通常 P11.0 · 他跑 P3.0 · 车序 9.0"
+     },
+     {
+      "name": "funanana",
+      "value": 8.02,
+      "display": "+8.02 位",
+      "detail": "车通常 P11.0 · 他跑 P3.0 · 车序 10.0"
+     },
+     {
+      "name": "Swizzet3271",
+      "value": 8.02,
+      "display": "+8.02 位",
+      "detail": "车通常 P11.0 · 他跑 P3.0 · 车序 10.0"
+     }
+    ],
+    "note": ""
+   },
+   {
+    "id": "under_perform",
+    "group": "cars",
+    "title": "最没跑出车的水平",
+    "lead": "官方层 · 同上口径，负得最多的那一端",
+    "color": "red",
+    "qualified": 62,
+    "insufficient": 0,
+    "rows": [
+     {
+      "name": "TC",
+      "value": -10.78,
+      "display": "-10.78 位",
+      "detail": "车通常 P10.2 · 他跑 P21.0 · 车序 6.0"
+     },
+     {
+      "name": "leevenchenko",
+      "value": -10.67,
+      "display": "-10.67 位",
+      "detail": "车通常 P11.3 · 他跑 P22.0 · 车序 8.7"
+     },
+     {
+      "name": "哈哈",
+      "value": -9.51,
+      "display": "-9.51 位",
+      "detail": "车通常 P9.5 · 他跑 P19.0 · 车序 8.0"
+     },
+     {
+      "name": "Aisu",
+      "value": -9.4,
+      "display": "-9.40 位",
+      "detail": "车通常 P9.6 · 他跑 P19.0 · 车序 5.0"
+     },
+     {
+      "name": "Surviver",
+      "value": -8.78,
+      "display": "-8.78 位",
+      "detail": "车通常 P10.2 · 他跑 P19.0 · 车序 6.0"
      }
     ],
     "note": ""
    }
   ],
-  "note": "萌新杯的车是**按场分配**的（官网成绩的 car 字段），不是车队归属，所以这里统计\"谁开过什么车、各开了多少次\"，不是车队积分榜。车辆总表按**平均完赛位**排（成绩最好在前）——但由于车按场轮换，一辆车的平均完赛位**更多反映谁开过它**，而不是车本身有多强。"
+  "note": "萌新杯的车是**按场分配**的（官网成绩的 car 字段），不是车队归属，所以这里统计\"谁开过什么车、各开了多少次\"，不是真实的车队积分榜。分配由 **CBAS** 决定，而它的设计是**强者开慢车**，因此：① 车辆总表按平均完赛位排（成绩最好在前），但这更多反映\"谁开过它\"；② \"分到的车最好\"那几张榜上的人，多半是因为 CR 低而不是因为强；③ 车性能顺序用的是**用户提供的权威值**，不是从圈速反推的。"
  },
  "matchNote": "匹配用的是**技术画像**，不是成就：参照档案的六维取值按这些车手公认的技术特点给定，再在本赛季六维空间里取最近的一个。所以积分为 0 的人也可能匹配到世界冠军——这说的是\"你像哪种类型的车手\"，不是\"你等于某某\"。"
 }
