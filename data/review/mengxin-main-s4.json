@@ -7137,16 +7137,16 @@
   ]
  },
  "records": {
-  "season": [
+  "current": [
    {
     "track": "中国",
     "type": "排位最快圈",
-    "time": "01:32.871",
-    "driver": "Kagamine RIN",
-    "round": 2,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
+    "time": "01:32.602",
+    "driver": "lm10",
+    "round": 4,
+    "season": 3,
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "中国",
@@ -7155,510 +7155,8 @@
     "driver": "yi_hua",
     "round": 2,
     "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "伊莫拉",
-    "type": "排位最快圈",
-    "time": "01:15.644",
-    "driver": "lm10",
-    "round": 5,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "伊莫拉",
-    "type": "正赛最快圈",
-    "time": "01:18.226",
-    "driver": "Gougou",
-    "round": 5,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "加拿大",
-    "type": "排位最快圈",
-    "time": "01:12.950",
-    "driver": "R_ATPER2",
-    "round": 10,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "加拿大",
-    "type": "正赛最快圈",
-    "time": "01:12.950",
-    "driver": "R_ATPER2",
-    "round": 10,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "匈牙利",
-    "type": "排位最快圈",
-    "time": "01:16.967",
-    "driver": "tenbergen",
-    "round": 14,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "匈牙利",
-    "type": "正赛最快圈",
-    "time": "01:26.724",
-    "driver": "Er1sed-FOX",
-    "round": 14,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "卡塔尔",
-    "type": "排位最快圈",
-    "time": "01:23.522",
-    "driver": "defect",
-    "round": 19,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "卡塔尔",
-    "type": "正赛最快圈",
-    "time": "01:26.186",
-    "driver": "FerrariGoat",
-    "round": 19,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "墨西哥",
-    "type": "排位最快圈",
-    "time": "01:15.860",
-    "driver": "defect",
-    "round": 21,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "墨西哥",
-    "type": "正赛最快圈",
-    "time": "01:18.323",
-    "driver": "defect",
-    "round": 21,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "奥地利",
-    "type": "排位最快圈",
-    "time": "01:10.925",
-    "driver": "Momokong",
-    "round": 11,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "奥地利",
-    "type": "正赛最快圈",
-    "time": "01:06.764",
-    "driver": "Wanner",
-    "round": 11,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "巴林",
-    "type": "排位最快圈",
-    "time": "01:28.678",
-    "driver": "Gougou",
-    "round": 4,
-    "season": 4,
-    "permanent": false,
-    "race_type": "100%耐力赛"
-   },
-   {
-    "track": "巴林",
-    "type": "正赛最快圈",
-    "time": "01:31.082",
-    "driver": "Momokong",
-    "round": 4,
-    "season": 4,
-    "permanent": false,
-    "race_type": "100%耐力赛"
-   },
-   {
-    "track": "巴西",
-    "type": "排位最快圈",
-    "time": "01:09.108",
-    "driver": "lm10",
-    "round": 22,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "巴西",
-    "type": "正赛最快圈",
-    "time": "01:12.169",
-    "driver": "lm10",
-    "round": 22,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "拉斯维加斯",
-    "type": "排位最快圈",
-    "time": "01:32.071",
-    "driver": "defect",
-    "round": 23,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "拉斯维加斯",
-    "type": "正赛最快圈",
-    "time": "01:33.302",
-    "driver": "defect",
-    "round": 23,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "摩纳哥",
-    "type": "排位最快圈",
-    "time": "01:11.756",
-    "driver": "HENRY",
-    "round": 8,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "摩纳哥",
-    "type": "正赛最快圈",
-    "time": "01:16.600",
-    "driver": "Gougou",
-    "round": 8,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "新加坡",
-    "type": "排位最快圈",
-    "time": "01:30.004",
-    "driver": "Beast",
-    "round": 24,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "新加坡",
-    "type": "正赛最快圈",
-    "time": "01:33.014",
-    "driver": "defect",
-    "round": 24,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "日本",
-    "type": "排位最快圈",
-    "time": "01:29.269",
-    "driver": "WuHen",
-    "round": 3,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "日本",
-    "type": "正赛最快圈",
-    "time": "01:31.385",
-    "driver": "WuHen",
-    "round": 3,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "比利时",
-    "type": "排位最快圈",
-    "time": "01:45.684",
-    "driver": "糕白",
-    "round": 13,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "比利时",
-    "type": "正赛最快圈",
-    "time": "01:47.618",
-    "driver": "糕白",
-    "round": 13,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "沙特",
-    "type": "排位最快圈",
-    "time": "01:29.158",
-    "driver": "R_ATPER2",
-    "round": 7,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "沙特",
-    "type": "正赛最快圈",
-    "time": "01:31.541",
-    "driver": "R_ATPER2",
-    "round": 7,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "澳大利亚",
-    "type": "排位最快圈",
-    "time": "01:17.019",
-    "driver": "R_ATPER2",
-    "round": 1,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "澳大利亚",
-    "type": "正赛最快圈",
-    "time": "01:19.237",
-    "driver": "Wanner",
-    "round": 1,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "美国",
-    "type": "排位最快圈",
-    "time": "01:32.837",
-    "driver": "Wanner",
-    "round": 20,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "美国",
-    "type": "正赛最快圈",
-    "time": "01:35.833",
-    "driver": "Wanner",
-    "round": 20,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "英国",
-    "type": "排位最快圈",
-    "time": "01:28.150",
-    "driver": "HayesCC",
-    "round": 12,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "英国",
-    "type": "正赛最快圈",
-    "time": "01:43.225",
-    "driver": "黑崎小雪",
-    "round": 12,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "荷兰",
-    "type": "排位最快圈",
-    "time": "1:10.586",
-    "driver": "白云",
-    "round": 15,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "荷兰",
-    "type": "正赛最快圈",
-    "time": "01:13.004",
-    "driver": "白云",
-    "round": 15,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "蒙扎",
-    "type": "排位最快圈",
-    "time": "01:19.734",
-    "driver": "黑崎小雪",
-    "round": 16,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "蒙扎",
-    "type": "正赛最快圈",
-    "time": "01:21.662",
-    "driver": "star-falI04",
-    "round": 16,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "西班牙",
-    "type": "排位最快圈",
-    "time": "01:13.788",
-    "driver": "defect",
-    "round": 9,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "西班牙",
-    "type": "正赛最快圈",
-    "time": "01:15.915",
-    "driver": "白云",
-    "round": 9,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "迈阿密",
-    "type": "排位最快圈",
-    "time": "01:26.320",
-    "driver": "Wanner",
-    "round": 6,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "迈阿密",
-    "type": "正赛最快圈",
-    "time": "01:28.825",
-    "driver": "Gougou",
-    "round": 6,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "阿塞拜疆",
-    "type": "排位最快圈",
-    "time": "01:39.487",
-    "driver": "鱼雷王",
-    "round": 18,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "阿塞拜疆",
-    "type": "正赛最快圈",
-    "time": "01:42.545",
-    "driver": "Ak_Langley_S",
-    "round": 18,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "阿布扎比",
-    "type": "排位最快圈",
-    "time": "01:23.496",
-    "driver": "defect",
-    "round": 25,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "阿布扎比",
-    "type": "正赛最快圈",
-    "time": "01:26.256",
-    "driver": "tenbergen",
-    "round": 25,
-    "season": 4,
-    "permanent": false,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "马德里",
-    "type": "排位最快圈",
-    "time": "01:30.805",
-    "driver": "鱼雷王",
-    "round": 17,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "马德里",
-    "type": "正赛最快圈",
-    "time": "01:46.081",
-    "driver": "鱼雷王",
-    "round": 17,
-    "season": 4,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   }
-  ],
-  "legacy": [
-   {
-    "track": "中国",
-    "type": "排位最快圈",
-    "time": "01:32.602",
-    "driver": "lm10",
-    "round": 4,
-    "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
-   },
-   {
-    "track": "中国",
-    "type": "正赛最快圈",
-    "time": "01:36.279",
-    "driver": "lm10",
-    "round": 4,
-    "season": 3,
-    "permanent": false,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
    },
    {
     "track": "伊莫拉",
@@ -7667,8 +7165,8 @@
     "driver": "A380FatLiner",
     "round": 11,
     "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "伊莫拉",
@@ -7677,8 +7175,28 @@
     "driver": "RIC",
     "round": 11,
     "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
+   },
+   {
+    "track": "加拿大",
+    "type": "排位最快圈",
+    "time": "01:12.950",
+    "driver": "R_ATPER2",
+    "round": 10,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
+   },
+   {
+    "track": "加拿大",
+    "type": "正赛最快圈",
+    "time": "01:12.950",
+    "driver": "R_ATPER2",
+    "round": 10,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
    },
    {
     "track": "匈牙利",
@@ -7687,8 +7205,8 @@
     "driver": "RIC",
     "round": 16,
     "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "匈牙利",
@@ -7697,8 +7215,8 @@
     "driver": "A380FatLiner",
     "round": 16,
     "season": 3,
-    "permanent": false,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "卡塔尔",
@@ -7707,8 +7225,8 @@
     "driver": "老吴k423",
     "round": 18,
     "season": 3,
-    "permanent": false,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "卡塔尔",
@@ -7717,8 +7235,8 @@
     "driver": "Gougou",
     "round": 18,
     "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "墨西哥",
@@ -7727,18 +7245,18 @@
     "driver": "老吴k423",
     "round": 21,
     "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "墨西哥",
     "type": "正赛最快圈",
-    "time": "01:26.913",
-    "driver": "lm10",
+    "time": "01:18.323",
+    "driver": "defect",
     "round": 21,
-    "season": 3,
-    "permanent": false,
-    "race_type": "50%标准赛"
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
    },
    {
     "track": "奥地利",
@@ -7747,18 +7265,18 @@
     "driver": "RIC",
     "round": 12,
     "season": 3,
-    "permanent": true,
-    "race_type": "100%耐力赛"
+    "race_type": "100%耐力赛",
+    "fromThisSeason": false
    },
    {
     "track": "奥地利",
     "type": "正赛最快圈",
-    "time": "01:06.934",
-    "driver": "RIC",
-    "round": 12,
-    "season": 3,
-    "permanent": false,
-    "race_type": "100%耐力赛"
+    "time": "01:06.764",
+    "driver": "Wanner",
+    "round": 11,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
    },
    {
     "track": "巴林",
@@ -7767,8 +7285,8 @@
     "driver": "凛音CheLsie",
     "round": 7,
     "season": 3,
-    "permanent": true,
-    "race_type": "100%耐力赛"
+    "race_type": "100%耐力赛",
+    "fromThisSeason": false
    },
    {
     "track": "巴林",
@@ -7777,8 +7295,8 @@
     "driver": "King_of_Knowledge",
     "round": 7,
     "season": 3,
-    "permanent": true,
-    "race_type": "100%耐力赛"
+    "race_type": "100%耐力赛",
+    "fromThisSeason": false
    },
    {
     "track": "巴西",
@@ -7787,18 +7305,18 @@
     "driver": "老吴k423",
     "round": 15,
     "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "巴西",
     "type": "正赛最快圈",
-    "time": "01:20.428",
-    "driver": "老吴k423",
-    "round": 15,
-    "season": 3,
-    "permanent": false,
-    "race_type": "50%标准赛"
+    "time": "01:12.169",
+    "driver": "lm10",
+    "round": 22,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
    },
    {
     "track": "拉斯维加斯",
@@ -7807,18 +7325,58 @@
     "driver": "老吴k423",
     "round": 19,
     "season": 3,
-    "permanent": false,
-    "race_type": "100%耐力赛"
+    "race_type": "100%耐力赛",
+    "fromThisSeason": false
    },
    {
     "track": "拉斯维加斯",
     "type": "正赛最快圈",
-    "time": "01:33.731",
-    "driver": "A380FatLiner",
-    "round": 19,
-    "season": 3,
-    "permanent": false,
-    "race_type": "100%耐力赛"
+    "time": "01:33.302",
+    "driver": "defect",
+    "round": 23,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
+   },
+   {
+    "track": "摩纳哥",
+    "type": "排位最快圈",
+    "time": "01:11.756",
+    "driver": "HENRY",
+    "round": 8,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
+   },
+   {
+    "track": "摩纳哥",
+    "type": "正赛最快圈",
+    "time": "01:16.600",
+    "driver": "Gougou",
+    "round": 8,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
+   },
+   {
+    "track": "新加坡",
+    "type": "排位最快圈",
+    "time": "01:30.004",
+    "driver": "Beast",
+    "round": 24,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
+   },
+   {
+    "track": "新加坡",
+    "type": "正赛最快圈",
+    "time": "01:33.014",
+    "driver": "defect",
+    "round": 24,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
    },
    {
     "track": "日本",
@@ -7827,8 +7385,8 @@
     "driver": "JPer",
     "round": 6,
     "season": 3,
-    "permanent": false,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "日本",
@@ -7837,18 +7395,18 @@
     "driver": "MinatoNaoko",
     "round": 6,
     "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "比利时",
     "type": "排位最快圈",
-    "time": "01:53.875",
-    "driver": "lm10",
-    "round": 9,
-    "season": 3,
-    "permanent": false,
-    "race_type": "50%标准赛"
+    "time": "01:45.684",
+    "driver": "糕白",
+    "round": 13,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
    },
    {
     "track": "比利时",
@@ -7857,8 +7415,8 @@
     "driver": "凛音CheLsie",
     "round": 9,
     "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "沙特",
@@ -7867,8 +7425,8 @@
     "driver": "lm10",
     "round": 10,
     "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "沙特",
@@ -7877,8 +7435,8 @@
     "driver": "凛音CheLsie",
     "round": 10,
     "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "澳大利亚",
@@ -7887,28 +7445,48 @@
     "driver": "MinatoNaoko",
     "round": 5,
     "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "澳大利亚",
     "type": "正赛最快圈",
-    "time": "01:19.530",
-    "driver": "MinatoNaoko",
-    "round": 5,
-    "season": 3,
-    "permanent": false,
-    "race_type": "50%标准赛"
+    "time": "01:19.237",
+    "driver": "Wanner",
+    "round": 1,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
+   },
+   {
+    "track": "美国",
+    "type": "排位最快圈",
+    "time": "01:32.837",
+    "driver": "Wanner",
+    "round": 20,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
+   },
+   {
+    "track": "美国",
+    "type": "正赛最快圈",
+    "time": "01:35.833",
+    "driver": "Wanner",
+    "round": 20,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
    },
    {
     "track": "英国",
     "type": "排位最快圈",
-    "time": "1:40.905",
-    "driver": "Gougou",
-    "round": 1,
-    "season": 3,
-    "permanent": false,
-    "race_type": "100%耐力赛"
+    "time": "01:28.150",
+    "driver": "HayesCC",
+    "round": 12,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
    },
    {
     "track": "英国",
@@ -7917,8 +7495,28 @@
     "driver": "hester",
     "round": 1,
     "season": 3,
-    "permanent": true,
-    "race_type": "100%耐力赛"
+    "race_type": "100%耐力赛",
+    "fromThisSeason": false
+   },
+   {
+    "track": "荷兰",
+    "type": "排位最快圈",
+    "time": "1:10.586",
+    "driver": "白云",
+    "round": 15,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
+   },
+   {
+    "track": "荷兰",
+    "type": "正赛最快圈",
+    "time": "01:13.004",
+    "driver": "白云",
+    "round": 15,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
    },
    {
     "track": "蒙扎",
@@ -7927,18 +7525,18 @@
     "driver": "JPer",
     "round": 2,
     "season": 3,
-    "permanent": true,
-    "race_type": "100%耐力赛"
+    "race_type": "100%耐力赛",
+    "fromThisSeason": false
    },
    {
     "track": "蒙扎",
     "type": "正赛最快圈",
-    "time": "01:23.483",
-    "driver": "hester",
-    "round": 2,
-    "season": 3,
-    "permanent": false,
-    "race_type": "100%耐力赛"
+    "time": "01:21.662",
+    "driver": "star-falI04",
+    "round": 16,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
    },
    {
     "track": "西班牙",
@@ -7947,8 +7545,8 @@
     "driver": "BiliMichael",
     "round": 13,
     "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "西班牙",
@@ -7957,8 +7555,28 @@
     "driver": "BiliMichael",
     "round": 13,
     "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
+   },
+   {
+    "track": "迈阿密",
+    "type": "排位最快圈",
+    "time": "01:26.320",
+    "driver": "Wanner",
+    "round": 6,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
+   },
+   {
+    "track": "迈阿密",
+    "type": "正赛最快圈",
+    "time": "01:28.825",
+    "driver": "Gougou",
+    "round": 6,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
    },
    {
     "track": "阿塞拜疆",
@@ -7967,8 +7585,8 @@
     "driver": "老吴k423",
     "round": 20,
     "season": 3,
-    "permanent": false,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "阿塞拜疆",
@@ -7977,8 +7595,8 @@
     "driver": "老吴k423",
     "round": 20,
     "season": 3,
-    "permanent": true,
-    "race_type": "50%标准赛"
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "阿布扎比",
@@ -7987,8 +7605,8 @@
     "driver": "defect",
     "round": 22,
     "season": 3,
-    "permanent": true,
-    "race_type": "100%耐力赛"
+    "race_type": "100%耐力赛",
+    "fromThisSeason": false
    },
    {
     "track": "阿布扎比",
@@ -7997,8 +7615,530 @@
     "driver": "Gougou",
     "round": 22,
     "season": 3,
-    "permanent": true,
-    "race_type": "100%耐力赛"
+    "race_type": "100%耐力赛",
+    "fromThisSeason": false
+   },
+   {
+    "track": "马德里",
+    "type": "排位最快圈",
+    "time": "01:30.805",
+    "driver": "鱼雷王",
+    "round": 17,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
+   },
+   {
+    "track": "马德里",
+    "type": "正赛最快圈",
+    "time": "01:46.081",
+    "driver": "鱼雷王",
+    "round": 17,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "fromThisSeason": true
+   }
+  ],
+  "season": [
+   {
+    "track": "中国",
+    "type": "排位最快圈",
+    "time": "01:32.871",
+    "driver": "Kagamine RIN",
+    "round": 2,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "中国",
+    "type": "正赛最快圈",
+    "time": "01:34.027",
+    "driver": "yi_hua",
+    "round": 2,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "伊莫拉",
+    "type": "排位最快圈",
+    "time": "01:15.644",
+    "driver": "lm10",
+    "round": 5,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "伊莫拉",
+    "type": "正赛最快圈",
+    "time": "01:18.226",
+    "driver": "Gougou",
+    "round": 5,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "加拿大",
+    "type": "排位最快圈",
+    "time": "01:12.950",
+    "driver": "R_ATPER2",
+    "round": 10,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "加拿大",
+    "type": "正赛最快圈",
+    "time": "01:12.950",
+    "driver": "R_ATPER2",
+    "round": 10,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "匈牙利",
+    "type": "排位最快圈",
+    "time": "01:16.967",
+    "driver": "tenbergen",
+    "round": 14,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "匈牙利",
+    "type": "正赛最快圈",
+    "time": "01:26.724",
+    "driver": "Er1sed-FOX",
+    "round": 14,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "卡塔尔",
+    "type": "排位最快圈",
+    "time": "01:23.522",
+    "driver": "defect",
+    "round": 19,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "卡塔尔",
+    "type": "正赛最快圈",
+    "time": "01:26.186",
+    "driver": "FerrariGoat",
+    "round": 19,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "墨西哥",
+    "type": "排位最快圈",
+    "time": "01:15.860",
+    "driver": "defect",
+    "round": 21,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "墨西哥",
+    "type": "正赛最快圈",
+    "time": "01:18.323",
+    "driver": "defect",
+    "round": 21,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "奥地利",
+    "type": "排位最快圈",
+    "time": "01:10.925",
+    "driver": "Momokong",
+    "round": 11,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "奥地利",
+    "type": "正赛最快圈",
+    "time": "01:06.764",
+    "driver": "Wanner",
+    "round": 11,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "巴林",
+    "type": "排位最快圈",
+    "time": "01:28.678",
+    "driver": "Gougou",
+    "round": 4,
+    "season": 4,
+    "race_type": "100%耐力赛",
+    "isRecord": false
+   },
+   {
+    "track": "巴林",
+    "type": "正赛最快圈",
+    "time": "01:31.082",
+    "driver": "Momokong",
+    "round": 4,
+    "season": 4,
+    "race_type": "100%耐力赛",
+    "isRecord": false
+   },
+   {
+    "track": "巴西",
+    "type": "排位最快圈",
+    "time": "01:09.108",
+    "driver": "lm10",
+    "round": 22,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "巴西",
+    "type": "正赛最快圈",
+    "time": "01:12.169",
+    "driver": "lm10",
+    "round": 22,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "拉斯维加斯",
+    "type": "排位最快圈",
+    "time": "01:32.071",
+    "driver": "defect",
+    "round": 23,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "拉斯维加斯",
+    "type": "正赛最快圈",
+    "time": "01:33.302",
+    "driver": "defect",
+    "round": 23,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "摩纳哥",
+    "type": "排位最快圈",
+    "time": "01:11.756",
+    "driver": "HENRY",
+    "round": 8,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "摩纳哥",
+    "type": "正赛最快圈",
+    "time": "01:16.600",
+    "driver": "Gougou",
+    "round": 8,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "新加坡",
+    "type": "排位最快圈",
+    "time": "01:30.004",
+    "driver": "Beast",
+    "round": 24,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "新加坡",
+    "type": "正赛最快圈",
+    "time": "01:33.014",
+    "driver": "defect",
+    "round": 24,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "日本",
+    "type": "排位最快圈",
+    "time": "01:29.269",
+    "driver": "WuHen",
+    "round": 3,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "日本",
+    "type": "正赛最快圈",
+    "time": "01:31.385",
+    "driver": "WuHen",
+    "round": 3,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "比利时",
+    "type": "排位最快圈",
+    "time": "01:45.684",
+    "driver": "糕白",
+    "round": 13,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "比利时",
+    "type": "正赛最快圈",
+    "time": "01:47.618",
+    "driver": "糕白",
+    "round": 13,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "沙特",
+    "type": "排位最快圈",
+    "time": "01:29.158",
+    "driver": "R_ATPER2",
+    "round": 7,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "沙特",
+    "type": "正赛最快圈",
+    "time": "01:31.541",
+    "driver": "R_ATPER2",
+    "round": 7,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "澳大利亚",
+    "type": "排位最快圈",
+    "time": "01:17.019",
+    "driver": "R_ATPER2",
+    "round": 1,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "澳大利亚",
+    "type": "正赛最快圈",
+    "time": "01:19.237",
+    "driver": "Wanner",
+    "round": 1,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "美国",
+    "type": "排位最快圈",
+    "time": "01:32.837",
+    "driver": "Wanner",
+    "round": 20,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "美国",
+    "type": "正赛最快圈",
+    "time": "01:35.833",
+    "driver": "Wanner",
+    "round": 20,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "英国",
+    "type": "排位最快圈",
+    "time": "01:28.150",
+    "driver": "HayesCC",
+    "round": 12,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "英国",
+    "type": "正赛最快圈",
+    "time": "01:43.225",
+    "driver": "黑崎小雪",
+    "round": 12,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "荷兰",
+    "type": "排位最快圈",
+    "time": "1:10.586",
+    "driver": "白云",
+    "round": 15,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "荷兰",
+    "type": "正赛最快圈",
+    "time": "01:13.004",
+    "driver": "白云",
+    "round": 15,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "蒙扎",
+    "type": "排位最快圈",
+    "time": "01:19.734",
+    "driver": "黑崎小雪",
+    "round": 16,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "蒙扎",
+    "type": "正赛最快圈",
+    "time": "01:21.662",
+    "driver": "star-falI04",
+    "round": 16,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "西班牙",
+    "type": "排位最快圈",
+    "time": "01:13.788",
+    "driver": "defect",
+    "round": 9,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "西班牙",
+    "type": "正赛最快圈",
+    "time": "01:15.915",
+    "driver": "白云",
+    "round": 9,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "迈阿密",
+    "type": "排位最快圈",
+    "time": "01:26.320",
+    "driver": "Wanner",
+    "round": 6,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "迈阿密",
+    "type": "正赛最快圈",
+    "time": "01:28.825",
+    "driver": "Gougou",
+    "round": 6,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "阿塞拜疆",
+    "type": "排位最快圈",
+    "time": "01:39.487",
+    "driver": "鱼雷王",
+    "round": 18,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "阿塞拜疆",
+    "type": "正赛最快圈",
+    "time": "01:42.545",
+    "driver": "Ak_Langley_S",
+    "round": 18,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "阿布扎比",
+    "type": "排位最快圈",
+    "time": "01:23.496",
+    "driver": "defect",
+    "round": 25,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "阿布扎比",
+    "type": "正赛最快圈",
+    "time": "01:26.256",
+    "driver": "tenbergen",
+    "round": 25,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": false
+   },
+   {
+    "track": "马德里",
+    "type": "排位最快圈",
+    "time": "01:30.805",
+    "driver": "鱼雷王",
+    "round": 17,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
+   },
+   {
+    "track": "马德里",
+    "type": "正赛最快圈",
+    "time": "01:46.081",
+    "driver": "鱼雷王",
+    "round": 17,
+    "season": 4,
+    "race_type": "50%标准赛",
+    "isRecord": true
    }
   ]
  },
@@ -10866,5 +11006,1583 @@
     "25": 0
    }
   }
- }
+ },
+ "match": {
+  "Wanner": {
+   "name": "Wanner",
+   "ref": "Oscar Piastri",
+   "refTrait": "冷静、干净、全面，几乎不犯错",
+   "similarity": 0.567,
+   "distance": 0.866,
+   "weakMatch": false,
+   "why": "97 分排在 17/64。4 场里 4 场完赛、3 个冠军、1 次登台、2 个杆位。他的节奏稳定性排在场上前 6/63。比「Oscar Piastri」更倚重缠斗。而完赛是他的相对短板（场上第 25/64）。全季领跑 52 圈（4 站）。",
+   "axes": {
+    "pace": 0.7938981479928201,
+    "consistency": 0.9300947867298577,
+    "combat": 0.6396396396396397,
+    "tyre": 0.3380621192195676,
+    "discipline": 0.9509803921568627,
+    "reliability": 0.25
+   },
+   "strength": "consistency",
+   "strengthRank": 6,
+   "strengthOf": 63,
+   "weakness": "tyre",
+   "weaknessRank": 49,
+   "weaknessOf": 62,
+   "points": 97,
+   "pos": 17
+  },
+  "R_ATPER2": {
+   "name": "R_ATPER2",
+   "ref": "Lewis Hamilton",
+   "refTrait": "轮胎管理大师，正赛越长越强",
+   "similarity": 0.613,
+   "distance": 0.773,
+   "weakMatch": false,
+   "why": "92 分排在 18/64。4 场里 4 场完赛、2 个冠军、2 次登台、3 个杆位。他的轮胎管理排在场上前 2/62。比「Lewis Hamilton」更倚重速度。而完赛是他的相对短板（场上第 26/64）。全季领跑 71 圈（3 站）。",
+   "axes": {
+    "pace": 0.8630571003423971,
+    "consistency": 0.8729857819905212,
+    "combat": 0.4774774774774775,
+    "tyre": 0.9580330781479452,
+    "discipline": 0.9754901960784313,
+    "reliability": 0.25
+   },
+   "strength": "tyre",
+   "strengthRank": 2,
+   "strengthOf": 62,
+   "weakness": "combat",
+   "weaknessRank": 42,
+   "weaknessOf": 64,
+   "points": 92,
+   "pos": 18
+  },
+  "yi_hua": {
+   "name": "yi_hua",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.791,
+   "distance": 0.419,
+   "weakMatch": false,
+   "why": "70 分排在 23/64。6 场里 5 场完赛、1 个冠军、2 次登台。他的节奏稳定性排在场上前 15/63。比「Carlos Sainz」更倚重缠斗。而完赛是他的相对短板（场上第 27/64）。全季领跑 39 圈（2 站）。",
+   "axes": {
+    "pace": 0.5418158428901765,
+    "consistency": 0.8180094786729856,
+    "combat": 0.5675675675675675,
+    "tyre": 0.6304141854991558,
+    "discipline": 0.8137254901960784,
+    "reliability": 0.25
+   },
+   "strength": "consistency",
+   "strengthRank": 15,
+   "strengthOf": 63,
+   "weakness": "pace",
+   "weaknessRank": 45,
+   "weaknessOf": 63,
+   "points": 70,
+   "pos": 23
+  },
+  "lm10": {
+   "name": "lm10",
+   "ref": "Fernando Alonso",
+   "refTrait": "比赛智慧与轮胎保全，缠斗老辣",
+   "similarity": 0.551,
+   "distance": 0.897,
+   "weakMatch": false,
+   "why": "221 分排在 4/64。13 场里 12 场完赛、2 个冠军、4 次登台、2 个杆位。他的缠斗排在场上前 1/64。而轮胎管理是他的相对短板（场上第 21/62）。全季领跑 58 圈（3 站）。",
+   "axes": {
+    "pace": 0.6746807663231672,
+    "consistency": 0.7544537610888321,
+    "combat": 1.0,
+    "tyre": 0.6641468581751498,
+    "discipline": 0.7401960784313726,
+    "reliability": 0.5
+   },
+   "strength": "combat",
+   "strengthRank": 1,
+   "strengthOf": 64,
+   "weakness": "discipline",
+   "weaknessRank": 43,
+   "weaknessOf": 64,
+   "points": 221,
+   "pos": 4
+  },
+  "LewisRen": {
+   "name": "LewisRen",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.766,
+   "distance": 0.469,
+   "weakMatch": false,
+   "why": "76 分排在 19/64。12 场里 9 场完赛、1 次登台。他的完赛排在场上前 20/64。比「Carlos Sainz」更倚重速度。完成 143 次超车。",
+   "axes": {
+    "pace": 0.6362535770506587,
+    "consistency": 0.7391641533821629,
+    "combat": 0.36036036036036034,
+    "tyre": 0.6214265905986719,
+    "discipline": 0.6470588235294118,
+    "reliability": 0.32142857142857145
+   },
+   "strength": "reliability",
+   "strengthRank": 20,
+   "strengthOf": 64,
+   "weakness": "combat",
+   "weaknessRank": 55,
+   "weaknessOf": 64,
+   "points": 76,
+   "pos": 19
+  },
+  "清蒸猫头鹰凉拌菠萝": {
+   "name": "清蒸猫头鹰凉拌菠萝",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.872,
+   "distance": 0.256,
+   "weakMatch": false,
+   "why": "115 分排在 13/64。12 场里 11 场完赛、1 次登台。他的完赛排在场上前 16/64。比「Carlos Sainz」更倚重速度。而轮胎管理是他的相对短板（场上第 23/62）。完成 109 次超车。",
+   "axes": {
+    "pace": 0.6586312882650962,
+    "consistency": 0.7221599885106994,
+    "combat": 0.4864864864864865,
+    "tyre": 0.632447516746239,
+    "discipline": 0.7598039215686274,
+    "reliability": 0.4642857142857143
+   },
+   "strength": "reliability",
+   "strengthRank": 16,
+   "strengthOf": 64,
+   "weakness": "combat",
+   "weaknessRank": 41,
+   "weaknessOf": 64,
+   "points": 115,
+   "pos": 13
+  },
+  "HayesCC": {
+   "name": "HayesCC",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.217,
+   "distance": 1.565,
+   "weakMatch": true,
+   "why": "166 分排在 7/64。25 场里 24 场完赛、1 个冠军、1 个杆位。他的完赛排在场上前 2/64。全季领跑 9 圈（3 站）。",
+   "axes": {
+    "pace": 0.5815027900555925,
+    "consistency": 0.6962216956292785,
+    "combat": 0.25225225225225223,
+    "tyre": 0.7019872050027853,
+    "discipline": 0.14705882352941177,
+    "reliability": 0.9285714285714286
+   },
+   "strength": "reliability",
+   "strengthRank": 2,
+   "strengthOf": 64,
+   "weakness": "discipline",
+   "weaknessRank": 62,
+   "weaknessOf": 64,
+   "points": 166,
+   "pos": 7
+  },
+  "Landoooo_W": {
+   "name": "Landoooo_W",
+   "ref": "Yuki Tsunoda",
+   "refTrait": "速度与火气都足，纪律代价明显",
+   "similarity": 0.398,
+   "distance": 1.204,
+   "weakMatch": true,
+   "why": "75 分排在 20/64。12 场里 10 场完赛。他的缠斗排在场上前 2/64。比「Yuki Tsunoda」更倚重完赛。完成 187 次超车。",
+   "axes": {
+    "pace": 0.7547033201460281,
+    "consistency": 0.7102972856527358,
+    "combat": 0.972972972972973,
+    "tyre": 0.09923288071276355,
+    "discipline": 0.5196078431372549,
+    "reliability": 0.39285714285714285
+   },
+   "strength": "combat",
+   "strengthRank": 2,
+   "strengthOf": 64,
+   "weakness": "tyre",
+   "weaknessRank": 59,
+   "weaknessOf": 62,
+   "points": 75,
+   "pos": 20
+  },
+  "叶yeeeeee": {
+   "name": "叶yeeeeee",
+   "ref": "Daniel Ricciardo",
+   "refTrait": "晚刹车、超车型，单圈略逊",
+   "similarity": 0.637,
+   "distance": 0.726,
+   "weakMatch": false,
+   "why": "9 分排在 48/64。7 场里 2 场完赛。他的节奏稳定性排在场上前 10/63。完成 83 次超车。",
+   "axes": {
+    "pace": 0.5902092860952621,
+    "consistency": 0.864876250658241,
+    "combat": 0.5495495495495496,
+    "tyre": 0.42807263787652333,
+    "discipline": 0.7598039215686274,
+    "reliability": 0.0
+   },
+   "strength": "consistency",
+   "strengthRank": 10,
+   "strengthOf": 63,
+   "weakness": "reliability",
+   "weaknessRank": 63,
+   "weaknessOf": 64,
+   "points": 9,
+   "pos": 48
+  },
+  "AyatoSeven": {
+   "name": "AyatoSeven",
+   "ref": "Max Verstappen",
+   "refTrait": "三项都在顶档，缠斗强硬且很少自失",
+   "similarity": 0.176,
+   "distance": 1.649,
+   "weakMatch": true,
+   "why": "208 分排在 6/64。25 场里 25 场完赛。他的完赛排在场上前 1/64。全季领跑 1 圈（1 站）。",
+   "axes": {
+    "pace": 0.5866790914831889,
+    "consistency": 0.6317472353870457,
+    "combat": 0.8198198198198198,
+    "tyre": 0.5352270195567291,
+    "discipline": 0.004901960784313725,
+    "reliability": 1.0
+   },
+   "strength": "reliability",
+   "strengthRank": 1,
+   "strengthOf": 64,
+   "weakness": "discipline",
+   "weaknessRank": 63,
+   "weaknessOf": 64,
+   "points": 208,
+   "pos": 6
+  },
+  "芒果": {
+   "name": "芒果",
+   "ref": "Pierre Gasly",
+   "refTrait": "中游标杆，六维都在均值偏上",
+   "similarity": 0.605,
+   "distance": 0.791,
+   "weakMatch": false,
+   "why": "8 分排在 49/64。2 场里 2 场完赛。他的轮胎管理排在场上前 13/62。完成 24 次超车。",
+   "axes": {
+    "pace": 0.4174460250624887,
+    "consistency": 0.39004739336492894,
+    "combat": 0.46846846846846846,
+    "tyre": 0.7405416146054017,
+    "discipline": 0.9215686274509803,
+    "reliability": 0.17857142857142858
+   },
+   "strength": "tyre",
+   "strengthRank": 13,
+   "strengthOf": 62,
+   "weakness": "consistency",
+   "weaknessRank": 58,
+   "weaknessOf": 63,
+   "points": 8,
+   "pos": 49
+  },
+  "Perez": {
+   "name": "Perez",
+   "ref": "Lando Norris",
+   "refTrait": "各项均衡、节奏干净，少有失误",
+   "similarity": 0.585,
+   "distance": 0.83,
+   "weakMatch": false,
+   "why": "4 分排在 52/64。1 场里 1 场完赛。他的节奏稳定性排在场上前 3/63。比「Lando Norris」更倚重缠斗。完成 11 次超车。",
+   "axes": {
+    "pace": 0.8040258629160008,
+    "consistency": 0.9848341232227488,
+    "combat": 0.5945945945945946,
+    "tyre": 0.736875588041291,
+    "discipline": 0.9558823529411765,
+    "reliability": 0.14285714285714285
+   },
+   "strength": "consistency",
+   "strengthRank": 3,
+   "strengthOf": 63,
+   "weakness": "reliability",
+   "weaknessRank": 41,
+   "weaknessOf": 64,
+   "points": 4,
+   "pos": 52
+  },
+  "Kagamine RIN": {
+   "name": "Kagamine RIN",
+   "ref": "Fernando Alonso",
+   "refTrait": "比赛智慧与轮胎保全，缠斗老辣",
+   "similarity": 0.598,
+   "distance": 0.804,
+   "weakMatch": false,
+   "why": "122 分排在 10/64。12 场里 12 场完赛、3 次登台、1 个杆位。他的缠斗排在场上前 5/64。比「Fernando Alonso」更倚重速度。全季领跑 6 圈（1 站）。",
+   "axes": {
+    "pace": 0.5911271323611328,
+    "consistency": 0.6299583512853654,
+    "combat": 0.7117117117117117,
+    "tyre": 0.6823598285506801,
+    "discipline": 0.5392156862745098,
+    "reliability": 0.5357142857142857
+   },
+   "strength": "combat",
+   "strengthRank": 5,
+   "strengthOf": 64,
+   "weakness": "discipline",
+   "weaknessRank": 53,
+   "weaknessOf": 64,
+   "points": 122,
+   "pos": 10
+  },
+  "Er1sed-FOX": {
+   "name": "Er1sed-FOX",
+   "ref": "George Russell",
+   "refTrait": "排位突出、执行稳定",
+   "similarity": 0.174,
+   "distance": 1.652,
+   "weakMatch": true,
+   "why": "109 分排在 15/64。22 场里 20 场完赛。他的完赛排在场上前 5/64。拿下 1 次全场最快圈。",
+   "axes": {
+    "pace": 0.5681203103079575,
+    "consistency": 0.6809421226482838,
+    "combat": 0.23423423423423423,
+    "tyre": 0.46466294931032515,
+    "discipline": 0.0,
+    "reliability": 0.75
+   },
+   "strength": "reliability",
+   "strengthRank": 5,
+   "strengthOf": 64,
+   "weakness": "discipline",
+   "weaknessRank": 64,
+   "weaknessOf": 64,
+   "points": 109,
+   "pos": 15
+  },
+  "tenbergen": {
+   "name": "tenbergen",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.388,
+   "distance": 1.223,
+   "weakMatch": true,
+   "why": "238 分排在 3/64。25 场里 24 场完赛、2 次登台、1 个杆位。他的完赛排在场上前 3/64。全季领跑 5 圈（2 站）。",
+   "axes": {
+    "pace": 0.5928324135140843,
+    "consistency": 0.681332280147446,
+    "combat": 0.42342342342342343,
+    "tyre": 0.6662990630230217,
+    "discipline": 0.3627450980392157,
+    "reliability": 0.9285714285714286
+   },
+   "strength": "reliability",
+   "strengthRank": 3,
+   "strengthOf": 64,
+   "weakness": "discipline",
+   "weaknessRank": 59,
+   "weaknessOf": 64,
+   "points": 238,
+   "pos": 3
+  },
+  "✪x1aofeiyang": {
+   "name": "✪x1aofeiyang",
+   "ref": "Charles Leclerc",
+   "refTrait": "一圈速度顶级，稳定与完赛是短板",
+   "similarity": 0.552,
+   "distance": 0.896,
+   "weakMatch": false,
+   "why": "0 分排在 56/64。1 场里 0 场完赛。他的纪律排在场上前 4/64。比「Charles Leclerc」更倚重轮胎管理。完成 17 次超车。",
+   "axes": {
+    "pace": 0.8129749542869605,
+    "consistency": 0.39020537124802523,
+    "combat": 0.6036036036036037,
+    "tyre": 0.7174033829817281,
+    "discipline": 0.9803921568627451,
+    "reliability": 0.10714285714285714
+   },
+   "strength": "discipline",
+   "strengthRank": 4,
+   "strengthOf": 64,
+   "weakness": "consistency",
+   "weaknessRank": 57,
+   "weaknessOf": 63,
+   "points": 0,
+   "pos": 56
+  },
+  "dan": {
+   "name": "dan",
+   "ref": "Daniel Ricciardo",
+   "refTrait": "晚刹车、超车型，单圈略逊",
+   "similarity": 0.619,
+   "distance": 0.763,
+   "weakMatch": false,
+   "why": "27 分排在 34/64。14 场里 11 场完赛。他的缠斗排在场上前 8/64。比「Daniel Ricciardo」更倚重完赛。完成 153 次超车。",
+   "axes": {
+    "pace": 0.5755333971735441,
+    "consistency": 0.6846761453396524,
+    "combat": 0.6486486486486487,
+    "tyre": 0.5230051581420939,
+    "discipline": 0.43137254901960786,
+    "reliability": 0.39285714285714285
+   },
+   "strength": "combat",
+   "strengthRank": 8,
+   "strengthOf": 64,
+   "weakness": "discipline",
+   "weaknessRank": 56,
+   "weaknessOf": 64,
+   "points": 27,
+   "pos": 34
+  },
+  "Ak_Langley_S": {
+   "name": "Ak_Langley_S",
+   "ref": "Pierre Gasly",
+   "refTrait": "中游标杆，六维都在均值偏上",
+   "similarity": 0.523,
+   "distance": 0.955,
+   "weakMatch": false,
+   "why": "116 分排在 12/64。14 场里 13 场完赛、2 次登台。他的完赛排在场上前 10/64。拿下 1 次全场最快圈。",
+   "axes": {
+    "pace": 0.5002665710361801,
+    "consistency": 0.5935906116000902,
+    "combat": 0.11711711711711711,
+    "tyre": 0.4988477226483457,
+    "discipline": 0.5980392156862745,
+    "reliability": 0.5357142857142857
+   },
+   "strength": "reliability",
+   "strengthRank": 10,
+   "strengthOf": 64,
+   "weakness": "combat",
+   "weaknessRank": 63,
+   "weaknessOf": 64,
+   "points": 116,
+   "pos": 12
+  },
+  "老吴k423": {
+   "name": "老吴k423",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.66,
+   "distance": 0.68,
+   "weakMatch": false,
+   "why": "71 分排在 22/64。5 场里 4 场完赛、1 个冠军。他的速度排在场上前 8/63。而轮胎管理是他的相对短板（场上第 35/62）。全季领跑 28 圈（1 站）。",
+   "axes": {
+    "pace": 0.7943041098971995,
+    "consistency": 0.8211690363349131,
+    "combat": 0.5585585585585585,
+    "tyre": 0.52362357330397,
+    "discipline": 0.7647058823529411,
+    "reliability": 0.21428571428571427
+   },
+   "strength": "pace",
+   "strengthRank": 8,
+   "strengthOf": 63,
+   "weakness": "discipline",
+   "weaknessRank": 39,
+   "weaknessOf": 64,
+   "points": 71,
+   "pos": 22
+  },
+  "Momokong": {
+   "name": "Momokong",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.498,
+   "distance": 1.004,
+   "weakMatch": false,
+   "why": "154 分排在 8/64。20 场里 16 场完赛、3 次登台、1 个杆位。他的完赛排在场上前 11/64。全季领跑 25 圈（4 站）。",
+   "axes": {
+    "pace": 0.5939704375991879,
+    "consistency": 0.5409495302236633,
+    "combat": 0.43243243243243246,
+    "tyre": 0.4968400237004587,
+    "discipline": 0.3627450980392157,
+    "reliability": 0.5357142857142857
+   },
+   "strength": "reliability",
+   "strengthRank": 11,
+   "strengthOf": 64,
+   "weakness": "discipline",
+   "weaknessRank": 60,
+   "weaknessOf": 64,
+   "points": 154,
+   "pos": 8
+  },
+  "Lei": {
+   "name": "Lei",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.618,
+   "distance": 0.763,
+   "weakMatch": false,
+   "why": "46 分排在 28/64。7 场里 3 场完赛、1 次登台。他的轮胎管理排在场上前 8/62。比「Carlos Sainz」更倚重缠斗。完成 36 次超车。",
+   "axes": {
+    "pace": 0.6143231264003367,
+    "consistency": 0.599304897314376,
+    "combat": 0.6036036036036037,
+    "tyre": 0.8138828196742217,
+    "discipline": 0.946078431372549,
+    "reliability": 0.07142857142857142
+   },
+   "strength": "tyre",
+   "strengthRank": 8,
+   "strengthOf": 62,
+   "weakness": "reliability",
+   "weaknessRank": 59,
+   "weaknessOf": 64,
+   "points": 46,
+   "pos": 28
+  },
+  "Oiysi10023000": {
+   "name": "Oiysi10023000",
+   "ref": "Lance Stroll",
+   "refTrait": "雨战偶有神来之笔，平时起伏大",
+   "similarity": 0.723,
+   "distance": 0.553,
+   "weakMatch": false,
+   "why": "4 分排在 53/64。4 场里 3 场完赛。他的完赛排在场上前 35/64。比「Lance Stroll」更倚重缠斗。完成 51 次超车。",
+   "axes": {
+    "pace": 0.37187719880748865,
+    "consistency": 0.5601895734597155,
+    "combat": 0.4774774774774775,
+    "tyre": 0.2954287932590108,
+    "discipline": 0.7892156862745098,
+    "reliability": 0.17857142857142858
+   },
+   "strength": "reliability",
+   "strengthRank": 35,
+   "strengthOf": 64,
+   "weakness": "pace",
+   "weaknessRank": 57,
+   "weaknessOf": 63,
+   "points": 4,
+   "pos": 53
+  },
+  "ColorFirst": {
+   "name": "ColorFirst",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.656,
+   "distance": 0.689,
+   "weakMatch": false,
+   "why": "16 分排在 42/64。3 场里 3 场完赛。他的轮胎管理排在场上前 3/62。全季领跑 1 圈（1 站）。",
+   "axes": {
+    "pace": 0.5714110879474655,
+    "consistency": 0.49878883622959447,
+    "combat": 0.40540540540540543,
+    "tyre": 0.8520120434457897,
+    "discipline": 0.8872549019607843,
+    "reliability": 0.21428571428571427
+   },
+   "strength": "tyre",
+   "strengthRank": 3,
+   "strengthOf": 62,
+   "weakness": "consistency",
+   "weaknessRank": 54,
+   "weaknessOf": 63,
+   "points": 16,
+   "pos": 42
+  },
+  "It57": {
+   "name": "It57",
+   "ref": "Daniel Ricciardo",
+   "refTrait": "晚刹车、超车型，单圈略逊",
+   "similarity": 0.546,
+   "distance": 0.908,
+   "weakMatch": false,
+   "why": "107 分排在 16/64。14 场里 14 场完赛、1 次登台。他的完赛排在场上前 7/64。全季领跑 3 圈（2 站）。",
+   "axes": {
+    "pace": 0.5707170725362585,
+    "consistency": 0.6084856691491762,
+    "combat": 0.5945945945945946,
+    "tyre": 0.30069024644105313,
+    "discipline": 0.5,
+    "reliability": 0.6071428571428571
+   },
+   "strength": "reliability",
+   "strengthRank": 7,
+   "strengthOf": 64,
+   "weakness": "discipline",
+   "weaknessRank": 55,
+   "weaknessOf": 64,
+   "points": 107,
+   "pos": 16
+  },
+  "WuHen": {
+   "name": "WuHen",
+   "ref": "Daniel Ricciardo",
+   "refTrait": "晚刹车、超车型，单圈略逊",
+   "similarity": 0.62,
+   "distance": 0.76,
+   "weakMatch": false,
+   "why": "58 分排在 26/64。4 场里 3 场完赛、2 个冠军、1 个杆位。他的节奏稳定性排在场上前 12/63。全季领跑 52 圈（2 站）。",
+   "axes": {
+    "pace": 0.4978042325763383,
+    "consistency": 0.846129541864139,
+    "combat": 0.5405405405405406,
+    "tyre": 0.17101754209844955,
+    "discipline": 0.9117647058823529,
+    "reliability": 0.17857142857142858
+   },
+   "strength": "consistency",
+   "strengthRank": 12,
+   "strengthOf": 63,
+   "weakness": "tyre",
+   "weaknessRank": 58,
+   "weaknessOf": 62,
+   "points": 58,
+   "pos": 26
+  },
+  "DQ": {
+   "name": "DQ",
+   "ref": "Sergio Pérez",
+   "refTrait": "极端省胎，单圈速度普通",
+   "similarity": 0.599,
+   "distance": 0.802,
+   "weakMatch": false,
+   "why": "46 分排在 29/64。11 场里 8 场完赛。他的轮胎管理排在场上前 5/62。比「Sergio Pérez」更倚重节奏稳定性。完成 149 次超车。",
+   "axes": {
+    "pace": 0.4735376225782524,
+    "consistency": 0.6799684044233807,
+    "combat": 0.2072072072072072,
+    "tyre": 0.8368843070396464,
+    "discipline": 0.5784313725490197,
+    "reliability": 0.2857142857142857
+   },
+   "strength": "tyre",
+   "strengthRank": 5,
+   "strengthOf": 62,
+   "weakness": "combat",
+   "weaknessRank": 62,
+   "weaknessOf": 64,
+   "points": 46,
+   "pos": 29
+  },
+  "RanXi": {
+   "name": "RanXi",
+   "ref": "Daniel Ricciardo",
+   "refTrait": "晚刹车、超车型，单圈略逊",
+   "similarity": 0.505,
+   "distance": 0.989,
+   "weakMatch": false,
+   "why": "2 分排在 54/64。3 场里 2 场完赛。他的纪律排在场上前 16/64。完成 34 次超车。",
+   "axes": {
+    "pace": 0.26662482976753854,
+    "consistency": 0.6943654555028963,
+    "combat": 0.5675675675675675,
+    "tyre": 0.03672627454656943,
+    "discipline": 0.9509803921568627,
+    "reliability": 0.14285714285714285
+   },
+   "strength": "discipline",
+   "strengthRank": 16,
+   "strengthOf": 64,
+   "weakness": "tyre",
+   "weaknessRank": 61,
+   "weaknessOf": 62,
+   "points": 2,
+   "pos": 54
+  },
+  "x1aofeiyang": {
+   "name": "x1aofeiyang",
+   "ref": "Nico Hülkenberg",
+   "refTrait": "排位常年超水平，正赛温吞",
+   "similarity": 0.798,
+   "distance": 0.404,
+   "weakMatch": false,
+   "why": "1 分排在 55/64。4 场里 2 场完赛。他的速度排在场上前 13/63。比「Nico Hülkenberg」更倚重轮胎管理。完成 28 次超车。",
+   "axes": {
+    "pace": 0.7247332107928308,
+    "consistency": 0.6928909952606633,
+    "combat": 0.35135135135135137,
+    "tyre": 0.5291363055479643,
+    "discipline": 0.9117647058823529,
+    "reliability": 0.10714285714285714
+   },
+   "strength": "pace",
+   "strengthRank": 13,
+   "strengthOf": 63,
+   "weakness": "combat",
+   "weaknessRank": 56,
+   "weaknessOf": 64,
+   "points": 1,
+   "pos": 55
+  },
+  "Gougou": {
+   "name": "Gougou",
+   "ref": "George Russell",
+   "refTrait": "排位突出、执行稳定",
+   "similarity": 0.475,
+   "distance": 1.05,
+   "weakMatch": false,
+   "why": "241 分排在 2/64。21 场里 19 场完赛、2 个冠军、1 次登台、1 个杆位。他的完赛排在场上前 6/64。全季领跑 6 圈（3 站）。",
+   "axes": {
+    "pace": 0.640083997413419,
+    "consistency": 0.70260663507109,
+    "combat": 0.43243243243243246,
+    "tyre": 0.518339578273118,
+    "discipline": 0.3382352941176471,
+    "reliability": 0.7142857142857143
+   },
+   "strength": "reliability",
+   "strengthRank": 6,
+   "strengthOf": 64,
+   "weakness": "discipline",
+   "weaknessRank": 61,
+   "weaknessOf": 64,
+   "points": 241,
+   "pos": 2
+  },
+  "EasonLeclerc": {
+   "name": "EasonLeclerc",
+   "ref": "Nico Hülkenberg",
+   "refTrait": "排位常年超水平，正赛温吞",
+   "similarity": 0.785,
+   "distance": 0.431,
+   "weakMatch": false,
+   "why": "44 分排在 30/64。8 场里 6 场完赛、1 次登台。他的速度排在场上前 20/63。比「Nico Hülkenberg」更倚重缠斗。全季领跑 1 圈（1 站）。",
+   "axes": {
+    "pace": 0.6465113800039878,
+    "consistency": 0.7373617693522907,
+    "combat": 0.4954954954954955,
+    "tyre": 0.46931449773492384,
+    "discipline": 0.8480392156862745,
+    "reliability": 0.25
+   },
+   "strength": "pace",
+   "strengthRank": 20,
+   "strengthOf": 63,
+   "weakness": "tyre",
+   "weaknessRank": 43,
+   "weaknessOf": 62,
+   "points": 44,
+   "pos": 30
+  },
+  "A380FatLiner": {
+   "name": "A380FatLiner",
+   "ref": "Daniel Ricciardo",
+   "refTrait": "晚刹车、超车型，单圈略逊",
+   "similarity": 0.631,
+   "distance": 0.738,
+   "weakMatch": false,
+   "why": "63 分排在 25/64。14 场里 13 场完赛。他的缠斗排在场上前 10/64。比「Daniel Ricciardo」更倚重完赛。完成 192 次超车。",
+   "axes": {
+    "pace": 0.6016092403766695,
+    "consistency": 0.5225908372827803,
+    "combat": 0.6306306306306306,
+    "tyre": 0.31755902598880065,
+    "discipline": 0.5833333333333334,
+    "reliability": 0.5357142857142857
+   },
+   "strength": "combat",
+   "strengthRank": 10,
+   "strengthOf": 64,
+   "weakness": "consistency",
+   "weaknessRank": 53,
+   "weaknessOf": 63,
+   "points": 63,
+   "pos": 25
+  },
+  "JPer": {
+   "name": "JPer",
+   "ref": "Pierre Gasly",
+   "refTrait": "中游标杆，六维都在均值偏上",
+   "similarity": 0.657,
+   "distance": 0.686,
+   "weakMatch": false,
+   "why": "49 分排在 27/64。5 场里 4 场完赛、1 次登台。他的轮胎管理排在场上前 18/62。全季领跑 1 圈（1 站）。",
+   "axes": {
+    "pace": 0.35047760165908987,
+    "consistency": 0.46597156398104267,
+    "combat": 0.32432432432432434,
+    "tyre": 0.6890895695595828,
+    "discipline": 0.9166666666666666,
+    "reliability": 0.21428571428571427
+   },
+   "strength": "tyre",
+   "strengthRank": 18,
+   "strengthOf": 62,
+   "weakness": "pace",
+   "weaknessRank": 58,
+   "weaknessOf": 63,
+   "points": 49,
+   "pos": 27
+  },
+  "Tim": {
+   "name": "Tim",
+   "ref": "Pierre Gasly",
+   "refTrait": "中游标杆，六维都在均值偏上",
+   "similarity": 0.826,
+   "distance": 0.347,
+   "weakMatch": false,
+   "why": "20 分排在 38/64。6 场里 4 场完赛。他的轮胎管理排在场上前 29/62。而完赛是他的相对短板（场上第 37/64）。完成 42 次超车。",
+   "axes": {
+    "pace": 0.4068416447993759,
+    "consistency": 0.6132069510268563,
+    "combat": 0.44144144144144143,
+    "tyre": 0.5806556794571536,
+    "discipline": 0.8578431372549019,
+    "reliability": 0.17857142857142858
+   },
+   "strength": "tyre",
+   "strengthRank": 29,
+   "strengthOf": 62,
+   "weakness": "pace",
+   "weaknessRank": 54,
+   "weaknessOf": 63,
+   "points": 20,
+   "pos": 38
+  },
+  "白云": {
+   "name": "白云",
+   "ref": "George Russell",
+   "refTrait": "排位突出、执行稳定",
+   "similarity": 0.247,
+   "distance": 1.506,
+   "weakMatch": true,
+   "why": "215 分排在 5/64。20 场里 20 场完赛、1 个冠军、3 次登台、1 个杆位。他的完赛排在场上前 4/64。比「George Russell」更倚重轮胎管理。全季领跑 43 圈（5 站）。",
+   "axes": {
+    "pace": 0.6413202269184952,
+    "consistency": 0.6320063191153239,
+    "combat": 0.0,
+    "tyre": 0.7989627209280888,
+    "discipline": 0.4117647058823529,
+    "reliability": 0.8214285714285714
+   },
+   "strength": "reliability",
+   "strengthRank": 4,
+   "strengthOf": 64,
+   "weakness": "combat",
+   "weaknessRank": 64,
+   "weaknessOf": 64,
+   "points": 215,
+   "pos": 5
+  },
+  "Aisu": {
+   "name": "Aisu",
+   "ref": "Lance Stroll",
+   "refTrait": "雨战偶有神来之笔，平时起伏大",
+   "similarity": 0.583,
+   "distance": 0.834,
+   "weakMatch": false,
+   "why": "0 分排在 57/64。1 场里 0 场完赛。他的纪律排在场上前 5/64。完成 6 次超车。",
+   "axes": {
+    "pace": 0.17216501268941253,
+    "consistency": 0.3295418641390204,
+    "combat": 0.5225225225225225,
+    "tyre": 0.48804615581269917,
+    "discipline": 0.9803921568627451,
+    "reliability": 0.07142857142857142
+   },
+   "strength": "discipline",
+   "strengthRank": 5,
+   "strengthOf": 64,
+   "weakness": "pace",
+   "weaknessRank": 62,
+   "weaknessOf": 63,
+   "points": 0,
+   "pos": 57
+  },
+  "funanana": {
+   "name": "funanana",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.648,
+   "distance": 0.705,
+   "weakMatch": false,
+   "why": "25 分排在 35/64。1 场里 1 场完赛、1 次登台。他的纪律排在场上前 1/64。比「Carlos Sainz」更倚重节奏稳定性。",
+   "axes": {
+    "pace": 0.5441697002231133,
+    "consistency": 0.9206951026856239,
+    "combat": 0.5135135135135135,
+    "tyre": null,
+    "discipline": 1.0,
+    "reliability": 0.14285714285714285
+   },
+   "strength": "discipline",
+   "strengthRank": 1,
+   "strengthOf": 64,
+   "weakness": "pace",
+   "weaknessRank": 44,
+   "weaknessOf": 63,
+   "points": 25,
+   "pos": 35
+  },
+  "defect": {
+   "name": "defect",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.708,
+   "distance": 0.584,
+   "weakMatch": false,
+   "why": "272 分排在 1/64。21 场里 17 场完赛、4 个冠军、6 次登台、5 个杆位。他的完赛排在场上前 8/64。全季领跑 130 圈（7 站）。",
+   "axes": {
+    "pace": 0.6831801717438355,
+    "consistency": 0.6401596408081817,
+    "combat": 0.5315315315315315,
+    "tyre": 0.7479659335053079,
+    "discipline": 0.6029411764705882,
+    "reliability": 0.5714285714285714
+   },
+   "strength": "reliability",
+   "strengthRank": 8,
+   "strengthOf": 64,
+   "weakness": "discipline",
+   "weaknessRank": 47,
+   "weaknessOf": 64,
+   "points": 272,
+   "pos": 1
+  },
+  "RIC": {
+   "name": "RIC",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.764,
+   "distance": 0.473,
+   "weakMatch": false,
+   "why": "112 分排在 14/64。11 场里 8 场完赛、2 个冠军。他的完赛排在场上前 22/64。比「Carlos Sainz」更倚重缠斗。全季领跑 4 圈（2 站）。",
+   "axes": {
+    "pace": 0.5663799402675571,
+    "consistency": 0.6180094786729857,
+    "combat": 0.5585585585585585,
+    "tyre": 0.6297743809717381,
+    "discipline": 0.7107843137254902,
+    "reliability": 0.2857142857142857
+   },
+   "strength": "reliability",
+   "strengthRank": 22,
+   "strengthOf": 64,
+   "weakness": "discipline",
+   "weaknessRank": 44,
+   "weaknessOf": 64,
+   "points": 112,
+   "pos": 14
+  },
+  "MinatoNaoko": {
+   "name": "MinatoNaoko",
+   "ref": "Lando Norris",
+   "refTrait": "各项均衡、节奏干净，少有失误",
+   "similarity": 0.578,
+   "distance": 0.844,
+   "weakMatch": false,
+   "why": "18 分排在 40/64。1 场里 1 场完赛。他的速度排在场上前 4/63。比「Lando Norris」更倚重缠斗。完成 14 次超车。",
+   "axes": {
+    "pace": 0.8661091146731746,
+    "consistency": 0.9443917851500789,
+    "combat": 0.5855855855855856,
+    "tyre": 0.7562325729525724,
+    "discipline": 0.9558823529411765,
+    "reliability": 0.14285714285714285
+   },
+   "strength": "pace",
+   "strengthRank": 4,
+   "strengthOf": 63,
+   "weakness": "reliability",
+   "weaknessRank": 44,
+   "weaknessOf": 64,
+   "points": 18,
+   "pos": 40
+  },
+  "HENRY": {
+   "name": "HENRY",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.58,
+   "distance": 0.84,
+   "weakMatch": false,
+   "why": "8 分排在 50/64。4 场里 2 场完赛、1 个杆位。他的轮胎管理排在场上前 1/62。全季领跑 6 圈（1 站）。",
+   "axes": {
+    "pace": 0.7050708951716207,
+    "consistency": 0.6864928909952606,
+    "combat": 0.6126126126126126,
+    "tyre": 1.0,
+    "discipline": 0.8774509803921569,
+    "reliability": 0.10714285714285714
+   },
+   "strength": "tyre",
+   "strengthRank": 1,
+   "strengthOf": 62,
+   "weakness": "reliability",
+   "weaknessRank": 56,
+   "weaknessOf": 64,
+   "points": 8,
+   "pos": 50
+  },
+  "糕白": {
+   "name": "糕白",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.643,
+   "distance": 0.713,
+   "weakMatch": false,
+   "why": "25 分排在 36/64。4 场里 2 场完赛、1 个冠军、1 个杆位。他的节奏稳定性排在场上前 4/63。全季领跑 23 圈（1 站）。",
+   "axes": {
+    "pace": 0.5199627585512742,
+    "consistency": 0.9619273301737756,
+    "combat": 0.46846846846846846,
+    "tyre": 0.7875191357263109,
+    "discipline": 0.9215686274509803,
+    "reliability": 0.10714285714285714
+   },
+   "strength": "consistency",
+   "strengthRank": 4,
+   "strengthOf": 63,
+   "weakness": "reliability",
+   "weaknessRank": 57,
+   "weaknessOf": 64,
+   "points": 25,
+   "pos": 36
+  },
+  "Mirrorcc": {
+   "name": "Mirrorcc",
+   "ref": "Max Verstappen",
+   "refTrait": "三项都在顶档，缠斗强硬且很少自失",
+   "similarity": 0.507,
+   "distance": 0.986,
+   "weakMatch": false,
+   "why": "40 分排在 31/64。2 场里 2 场完赛、1 次登台。他的速度排在场上前 2/63。比「Max Verstappen」更倚重纪律。而完赛是他的相对短板（场上第 38/64）。全季领跑 8 圈（1 站）。",
+   "axes": {
+    "pace": 0.9293784577558338,
+    "consistency": 0.8246445497630331,
+    "combat": 0.7027027027027027,
+    "tyre": 0.4166019825349889,
+    "discipline": 0.9411764705882353,
+    "reliability": 0.17857142857142858
+   },
+   "strength": "pace",
+   "strengthRank": 2,
+   "strengthOf": 63,
+   "weakness": "tyre",
+   "weaknessRank": 46,
+   "weaknessOf": 62,
+   "points": 40,
+   "pos": 31
+  },
+  "Pan1ys": {
+   "name": "Pan1ys",
+   "ref": "Daniel Ricciardo",
+   "refTrait": "晚刹车、超车型，单圈略逊",
+   "similarity": 0.638,
+   "distance": 0.725,
+   "weakMatch": false,
+   "why": "144 分排在 9/64。14 场里 12 场完赛、3 次登台。他的缠斗排在场上前 4/64。比「Daniel Ricciardo」更倚重完赛。完成 200 次超车。",
+   "axes": {
+    "pace": 0.6156825430990475,
+    "consistency": 0.6319566689234933,
+    "combat": 0.7747747747747747,
+    "tyre": 0.554766802705471,
+    "discipline": 0.5784313725490197,
+    "reliability": 0.4642857142857143
+   },
+   "strength": "combat",
+   "strengthRank": 4,
+   "strengthOf": 64,
+   "weakness": "discipline",
+   "weaknessRank": 52,
+   "weaknessOf": 64,
+   "points": 144,
+   "pos": 9
+  },
+  "star-falI04": {
+   "name": "star-falI04",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.48,
+   "distance": 1.04,
+   "weakMatch": false,
+   "why": "25 分排在 37/64。11 场里 11 场完赛。他的完赛排在场上前 14/64。拿下 1 次全场最快圈。",
+   "axes": {
+    "pace": 0.6406623021221465,
+    "consistency": 0.49102398391497903,
+    "combat": 0.26126126126126126,
+    "tyre": 0.6177621745121032,
+    "discipline": 0.4215686274509804,
+    "reliability": 0.5
+   },
+   "strength": "reliability",
+   "strengthRank": 14,
+   "strengthOf": 64,
+   "weakness": "combat",
+   "weaknessRank": 58,
+   "weaknessOf": 64,
+   "points": 25,
+   "pos": 37
+  },
+  "Anegler": {
+   "name": "Anegler",
+   "ref": "Lando Norris",
+   "refTrait": "各项均衡、节奏干净，少有失误",
+   "similarity": 0.51,
+   "distance": 0.98,
+   "weakMatch": false,
+   "why": "10 分排在 45/64。1 场里 1 场完赛。他的节奏稳定性排在场上前 2/63。比「Lando Norris」更倚重速度。完成 12 次超车。",
+   "axes": {
+    "pace": 0.9244689275700677,
+    "consistency": 0.9860979462875198,
+    "combat": 0.4954954954954955,
+    "tyre": 0.3176071946217991,
+    "discipline": 0.9558823529411765,
+    "reliability": 0.14285714285714285
+   },
+   "strength": "consistency",
+   "strengthRank": 2,
+   "strengthOf": 63,
+   "weakness": "tyre",
+   "weaknessRank": 50,
+   "weaknessOf": 62,
+   "points": 10,
+   "pos": 45
+  },
+  "gangteiss": {
+   "name": "gangteiss",
+   "ref": "Daniel Ricciardo",
+   "refTrait": "晚刹车、超车型，单圈略逊",
+   "similarity": 0.641,
+   "distance": 0.719,
+   "weakMatch": false,
+   "why": "69 分排在 24/64。5 场里 5 场完赛、3 次登台。他的缠斗排在场上前 6/64。比「Daniel Ricciardo」更倚重速度。全季领跑 20 圈（1 站）。",
+   "axes": {
+    "pace": 0.7679346632502254,
+    "consistency": 0.761516587677725,
+    "combat": 0.7117117117117117,
+    "tyre": 0.5591825075908874,
+    "discipline": 0.8676470588235294,
+    "reliability": 0.2857142857142857
+   },
+   "strength": "combat",
+   "strengthRank": 6,
+   "strengthOf": 64,
+   "weakness": "tyre",
+   "weaknessRank": 31,
+   "weaknessOf": 62,
+   "points": 69,
+   "pos": 24
+  },
+  "高木同学重度依赖": {
+   "name": "高木同学重度依赖",
+   "ref": "Daniel Ricciardo",
+   "refTrait": "晚刹车、超车型，单圈略逊",
+   "similarity": 0.693,
+   "distance": 0.614,
+   "weakMatch": false,
+   "why": "6 分排在 51/64。4 场里 3 场完赛。他的节奏稳定性排在场上前 16/63。而缠斗是他的相对短板（场上第 28/64）。完成 29 次超车。",
+   "axes": {
+    "pace": 0.6650385024490703,
+    "consistency": 0.8117693522906793,
+    "combat": 0.5495495495495496,
+    "tyre": 0.3771145060225247,
+    "discipline": 0.8431372549019608,
+    "reliability": 0.17857142857142858
+   },
+   "strength": "consistency",
+   "strengthRank": 16,
+   "strengthOf": 63,
+   "weakness": "tyre",
+   "weaknessRank": 47,
+   "weaknessOf": 62,
+   "points": 6,
+   "pos": 51
+  },
+  "黑崎小雪": {
+   "name": "黑崎小雪",
+   "ref": "Carlos Sainz",
+   "refTrait": "策略型，靠轮胎与节奏取胜",
+   "similarity": 0.719,
+   "distance": 0.561,
+   "weakMatch": false,
+   "why": "121 分排在 11/64。13 场里 12 场完赛、1 个冠军、3 次登台、1 个杆位。他的轮胎管理排在场上前 15/62。比「Carlos Sainz」更倚重完赛。全季领跑 29 圈（2 站）。",
+   "axes": {
+    "pace": 0.6251182951423281,
+    "consistency": 0.5297525013164823,
+    "combat": 0.5405405405405406,
+    "tyre": 0.7259858141228736,
+    "discipline": 0.696078431372549,
+    "reliability": 0.5
+   },
+   "strength": "tyre",
+   "strengthRank": 15,
+   "strengthOf": 62,
+   "weakness": "consistency",
+   "weaknessRank": 51,
+   "weaknessOf": 63,
+   "points": 121,
+   "pos": 11
+  },
+  "leevenchenko": {
+   "name": "leevenchenko",
+   "ref": "Pierre Gasly",
+   "refTrait": "中游标杆，六维都在均值偏上",
+   "similarity": 0.48,
+   "distance": 1.04,
+   "weakMatch": false,
+   "why": "0 分排在 59/64。3 场里 0 场完赛。他的轮胎管理排在场上前 4/62。完成 18 次超车。",
+   "axes": {
+    "pace": 0.19101287933435115,
+    "consistency": 0.7747235387045813,
+    "combat": 0.40540540540540543,
+    "tyre": 0.836942387590506,
+    "discipline": 0.8676470588235294,
+    "reliability": 0.0
+   },
+   "strength": "tyre",
+   "strengthRank": 4,
+   "strengthOf": 62,
+   "weakness": "reliability",
+   "weaknessRank": 64,
+   "weaknessOf": 64,
+   "points": 0,
+   "pos": 59
+  },
+  "esmac1": {
+   "name": "esmac1",
+   "ref": "Daniel Ricciardo",
+   "refTrait": "晚刹车、超车型，单圈略逊",
+   "similarity": 0.737,
+   "distance": 0.526,
+   "weakMatch": false,
+   "why": "37 分排在 32/64。9 场里 7 场完赛。他的缠斗排在场上前 18/64。比「Daniel Ricciardo」更倚重完赛。完成 152 次超车。",
+   "axes": {
+    "pace": 0.5443502381807513,
+    "consistency": 0.5247323152536423,
+    "combat": 0.5855855855855856,
+    "tyre": 0.2612221594655988,
+    "discipline": 0.5833333333333334,
+    "reliability": 0.2857142857142857
+   },
+   "strength": "combat",
+   "strengthRank": 18,
+   "strengthOf": 64,
+   "weakness": "tyre",
+   "weaknessRank": 56,
+   "weaknessOf": 62,
+   "points": 37,
+   "pos": 32
+  },
+  "哈哈": {
+   "name": "哈哈",
+   "ref": "Pierre Gasly",
+   "refTrait": "中游标杆，六维都在均值偏上",
+   "similarity": 0.331,
+   "distance": 1.337,
+   "weakMatch": true,
+   "why": "0 分排在 60/64。1 场里 1 场完赛。他的纪律排在场上前 3/64。比「Pierre Gasly」更倚重轮胎管理。完成 8 次超车。",
+   "axes": {
+    "pace": 0.0,
+    "consistency": 0.7115323854660347,
+    "combat": 0.5675675675675675,
+    "tyre": 0.8172297536745171,
+    "discipline": 0.9950980392156863,
+    "reliability": 0.14285714285714285
+   },
+   "strength": "discipline",
+   "strengthRank": 3,
+   "strengthOf": 64,
+   "weakness": "pace",
+   "weaknessRank": 63,
+   "weaknessOf": 63,
+   "points": 0,
+   "pos": 60
+  },
+  "MFGA": {
+   "name": "MFGA",
+   "ref": "Nico Hülkenberg",
+   "refTrait": "排位常年超水平，正赛温吞",
+   "similarity": 0.541,
+   "distance": 0.919,
+   "weakMatch": false,
+   "why": "10 分排在 46/64。3 场里 2 场完赛、1 次登台。他的节奏稳定性排在场上前 17/63。比「Nico Hülkenberg」更倚重缠斗。全季领跑 8 圈（1 站）。",
+   "axes": {
+    "pace": 0.5604398189726812,
+    "consistency": 0.8001579778830963,
+    "combat": 0.5225225225225225,
+    "tyre": 0.0,
+    "discipline": 0.8970588235294118,
+    "reliability": 0.14285714285714285
+   },
+   "strength": "consistency",
+   "strengthRank": 17,
+   "strengthOf": 63,
+   "weakness": "tyre",
+   "weaknessRank": 62,
+   "weaknessOf": 62,
+   "points": 10,
+   "pos": 46
+  },
+  "Swizzet3271": {
+   "name": "Swizzet3271",
+   "ref": "Lando Norris",
+   "refTrait": "各项均衡、节奏干净，少有失误",
+   "similarity": 0.483,
+   "distance": 1.034,
+   "weakMatch": false,
+   "why": "10 分排在 47/64。1 场里 1 场完赛、1 次登台。他的速度排在场上前 1/63。完成 15 次超车。",
+   "axes": {
+    "pace": 1.0,
+    "consistency": 0.924170616113744,
+    "combat": 0.5945945945945946,
+    "tyre": 0.8147874523091988,
+    "discipline": 0.8970588235294118,
+    "reliability": 0.14285714285714285
+   },
+   "strength": "pace",
+   "strengthRank": 1,
+   "strengthOf": 63,
+   "weakness": "reliability",
+   "weaknessRank": 48,
+   "weaknessOf": 64,
+   "points": 10,
+   "pos": 47
+  },
+  "鱼雷王": {
+   "name": "鱼雷王",
+   "ref": "Daniel Ricciardo",
+   "refTrait": "晚刹车、超车型，单圈略逊",
+   "similarity": 0.766,
+   "distance": 0.468,
+   "weakMatch": false,
+   "why": "72 分排在 21/64。5 场里 4 场完赛、2 个冠军、1 次登台、2 个杆位。他的纪律排在场上前 19/64。而缠斗是他的相对短板（场上第 29/64）。全季领跑 81 圈（4 站）。",
+   "axes": {
+    "pace": 0.4649319010846246,
+    "consistency": 0.5915955766192732,
+    "combat": 0.5495495495495496,
+    "tyre": 0.27938200583168676,
+    "discipline": 0.9411764705882353,
+    "reliability": 0.21428571428571427
+   },
+   "strength": "discipline",
+   "strengthRank": 19,
+   "strengthOf": 64,
+   "weakness": "tyre",
+   "weaknessRank": 54,
+   "weaknessOf": 62,
+   "points": 72,
+   "pos": 21
+  },
+  "newyeye7": {
+   "name": "newyeye7",
+   "ref": "Lance Stroll",
+   "refTrait": "雨战偶有神来之笔，平时起伏大",
+   "similarity": 0.661,
+   "distance": 0.678,
+   "weakMatch": false,
+   "why": "29 分排在 33/64。5 场里 4 场完赛。他的轮胎管理排在场上前 28/62。比「Lance Stroll」更倚重速度。完成 81 次超车。",
+   "axes": {
+    "pace": 0.5209510078058712,
+    "consistency": 0.31797788309636643,
+    "combat": 0.26126126126126126,
+    "tyre": 0.5899449346169975,
+    "discipline": 0.7450980392156863,
+    "reliability": 0.21428571428571427
+   },
+   "strength": "tyre",
+   "strengthRank": 28,
+   "strengthOf": 62,
+   "weakness": "consistency",
+   "weaknessRank": 61,
+   "weaknessOf": 63,
+   "points": 29,
+   "pos": 33
+  },
+  "Beast": {
+   "name": "Beast",
+   "ref": "Nico Hülkenberg",
+   "refTrait": "排位常年超水平，正赛温吞",
+   "similarity": 0.702,
+   "distance": 0.597,
+   "weakMatch": false,
+   "why": "18 分排在 41/64。6 场里 4 场完赛、1 个杆位。他的纪律排在场上前 37/64。比「Nico Hülkenberg」更倚重缠斗。全季领跑 4 圈（1 站）。",
+   "axes": {
+    "pace": 0.4832515548092624,
+    "consistency": 0.5408372827804107,
+    "combat": 0.43243243243243246,
+    "tyre": 0.21703074111540804,
+    "discipline": 0.8088235294117647,
+    "reliability": 0.17857142857142858
+   },
+   "strength": "discipline",
+   "strengthRank": 37,
+   "strengthOf": 64,
+   "weakness": "tyre",
+   "weaknessRank": 57,
+   "weaknessOf": 62,
+   "points": 18,
+   "pos": 41
+  },
+  "HEZ": {
+   "name": "HEZ",
+   "ref": "Charles Leclerc",
+   "refTrait": "一圈速度顶级，稳定与完赛是短板",
+   "similarity": 0.687,
+   "distance": 0.625,
+   "weakMatch": false,
+   "why": "13 分排在 44/64。3 场里 2 场完赛。他的速度排在场上前 12/63。比「Charles Leclerc」更倚重完赛。完成 35 次超车。",
+   "axes": {
+    "pace": 0.7259783281214383,
+    "consistency": 0.35860979462875203,
+    "combat": 0.5405405405405406,
+    "tyre": 0.2620840823463626,
+    "discipline": 0.8921568627450981,
+    "reliability": 0.14285714285714285
+   },
+   "strength": "pace",
+   "strengthRank": 12,
+   "strengthOf": 63,
+   "weakness": "consistency",
+   "weaknessRank": 59,
+   "weaknessOf": 63,
+   "points": 13,
+   "pos": 44
+  },
+  "FerrariGoat": {
+   "name": "FerrariGoat",
+   "ref": "Daniel Ricciardo",
+   "refTrait": "晚刹车、超车型，单圈略逊",
+   "similarity": 0.599,
+   "distance": 0.801,
+   "weakMatch": false,
+   "why": "14 分排在 43/64。1 场里 1 场完赛。他的纪律排在场上前 6/64。拿下 1 次全场最快圈。",
+   "axes": {
+    "pace": 0.6630548956503898,
+    "consistency": 0.6126382306477093,
+    "combat": 0.5675675675675675,
+    "tyre": 0.04937342326713762,
+    "discipline": 0.9803921568627451,
+    "reliability": 0.14285714285714285
+   },
+   "strength": "discipline",
+   "strengthRank": 6,
+   "strengthOf": 64,
+   "weakness": "tyre",
+   "weaknessRank": 60,
+   "weaknessOf": 62,
+   "points": 14,
+   "pos": 43
+  },
+  "清蒸猫头凉拌菠萝": {
+   "name": "清蒸猫头凉拌菠萝",
+   "ref": "Pierre Gasly",
+   "refTrait": "中游标杆，六维都在均值偏上",
+   "similarity": 0.688,
+   "distance": 0.624,
+   "weakMatch": false,
+   "why": "0 分排在 61/64。0 场里 0 场完赛。他的纪律排在场上前 7/64。比「Pierre Gasly」更倚重缠斗。完成 14 次超车。",
+   "axes": {
+    "pace": 0.39167763423773216,
+    "consistency": 0.5636650868878357,
+    "combat": 0.5315315315315315,
+    "tyre": 0.6332293036547241,
+    "discipline": 0.9803921568627451,
+    "reliability": 0.10714285714285714
+   },
+   "strength": "discipline",
+   "strengthRank": 7,
+   "strengthOf": 64,
+   "weakness": "reliability",
+   "weaknessRank": 58,
+   "weaknessOf": 64,
+   "points": 0,
+   "pos": 61
+  },
+  "雷电芽衣": {
+   "name": "雷电芽衣",
+   "ref": "Nico Hülkenberg",
+   "refTrait": "排位常年超水平，正赛温吞",
+   "similarity": 0.592,
+   "distance": 0.817,
+   "weakMatch": false,
+   "why": "0 分排在 62/64。2 场里 0 场完赛。他的节奏稳定性排在场上前 1/63。完成 15 次超车。",
+   "axes": {
+    "pace": 0.6249007149978884,
+    "consistency": 1.0,
+    "combat": 0.40540540540540543,
+    "tyre": 0.48029677783971303,
+    "discipline": 0.9607843137254902,
+    "reliability": 0.03571428571428571
+   },
+   "strength": "consistency",
+   "strengthRank": 1,
+   "strengthOf": 63,
+   "weakness": "reliability",
+   "weaknessRank": 62,
+   "weaknessOf": 64,
+   "points": 0,
+   "pos": 62
+  },
+  "Sliced Onion": {
+   "name": "Sliced Onion",
+   "ref": "Lance Stroll",
+   "refTrait": "雨战偶有神来之笔，平时起伏大",
+   "similarity": 0.415,
+   "distance": 1.169,
+   "weakMatch": false,
+   "why": "20 分排在 39/64。1 场里 1 场完赛、1 次登台。他的缠斗排在场上前 19/64。完成 15 次超车。",
+   "axes": {
+    "pace": 0.38987609411272844,
+    "consistency": 0.0,
+    "combat": 0.5765765765765766,
+    "tyre": 0.5129402918499627,
+    "discipline": 0.9411764705882353,
+    "reliability": 0.14285714285714285
+   },
+   "strength": "combat",
+   "strengthRank": 19,
+   "strengthOf": 64,
+   "weakness": "consistency",
+   "weaknessRank": 63,
+   "weaknessOf": 63,
+   "points": 20,
+   "pos": 39
+  },
+  "UbisoftHongKong": {
+   "name": "UbisoftHongKong",
+   "ref": "Lance Stroll",
+   "refTrait": "雨战偶有神来之笔，平时起伏大",
+   "similarity": 0.436,
+   "distance": 1.128,
+   "weakMatch": false,
+   "why": "0 分排在 63/64。1 场里 1 场完赛。他的纪律排在场上前 10/64。完成 18 次超车。",
+   "axes": {
+    "pace": 0.34498155797040675,
+    "consistency": 0.02590837282780406,
+    "combat": 0.5315315315315315,
+    "tyre": 0.5762587013369673,
+    "discipline": 0.9754901960784313,
+    "reliability": 0.14285714285714285
+   },
+   "strength": "discipline",
+   "strengthRank": 10,
+   "strengthOf": 64,
+   "weakness": "consistency",
+   "weaknessRank": 62,
+   "weaknessOf": 63,
+   "points": 0,
+   "pos": 63
+  },
+  "Surviver": {
+   "name": "Surviver",
+   "ref": "Nico Hülkenberg",
+   "refTrait": "排位常年超水平，正赛温吞",
+   "similarity": 0.72,
+   "distance": 0.561,
+   "weakMatch": false,
+   "why": "0 分排在 64/64。1 场里 1 场完赛。他的纪律排在场上前 8/64。比「Nico Hülkenberg」更倚重节奏稳定性。完成 13 次超车。",
+   "axes": {
+    "pace": 0.6363442988710138,
+    "consistency": 0.8502369668246444,
+    "combat": 0.4774774774774775,
+    "tyre": 0.35612495999879673,
+    "discipline": 0.9803921568627451,
+    "reliability": 0.14285714285714285
+   },
+   "strength": "discipline",
+   "strengthRank": 8,
+   "strengthOf": 64,
+   "weakness": "reliability",
+   "weaknessRank": 53,
+   "weaknessOf": 64,
+   "points": 0,
+   "pos": 64
+  }
+ },
+ "matchNote": "匹配用的是**技术画像**，不是成就：参照档案的六维取值按这些车手公认的技术特点给定，再在本赛季六维空间里取最近的一个。所以积分为 0 的人也可能匹配到世界冠军——这说的是\"你像哪种类型的车手\"，不是\"你等于某某\"。"
 }
