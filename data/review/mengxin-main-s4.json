@@ -10,7 +10,7 @@
  },
  "coverage": {
   "rounds": 25,
-  "drivers": 64,
+  "drivers": 62,
   "abortedRounds": [
    14,
    15
@@ -66,8 +66,8 @@
   {
    "key": "drivers",
    "label": "位车手",
-   "value": 64,
-   "display": "64",
+   "value": 62,
+   "display": "62",
    "lead": "官方 + 遥测合计"
   },
   {
@@ -148,7 +148,7 @@
    "title": "积分王",
    "lead": "官方层 · 全季积分合计",
    "color": "green",
-   "qualified": 55,
+   "qualified": 54,
    "insufficient": 0,
    "rows": [
     {
@@ -580,7 +580,7 @@
    "title": "铁人",
    "lead": "官方层 · 非缺席的实际出场场次",
    "color": "green",
-   "qualified": 63,
+   "qualified": 62,
    "insufficient": 0,
    "rows": [
     {
@@ -941,7 +941,7 @@
    "lead": "遥测层 · 各站「与全场最快圈的差距%」再跨站平均（消除赛道长度差异）；门槛：≥3 站且 ≥150 圈",
    "color": "blue",
    "qualified": 24,
-   "insufficient": 40,
+   "insufficient": 38,
    "rows": [
     {
      "name": "Ak_Langley_S",
@@ -1012,7 +1012,7 @@
    "title": "全季最快单圈",
    "lead": "遥测层 · 各站最快圈的赛季最小值",
    "color": "blue",
-   "qualified": 64,
+   "qualified": 62,
    "insufficient": 0,
    "rows": [
     {
@@ -1085,7 +1085,7 @@
    "lead": "遥测层 · 先按站算干净圈标准差（107% 规则剔除事故圈）再跨站平均；门槛：≥3 站且 ≥150 圈",
    "color": "blue",
    "qualified": 24,
-   "insufficient": 40,
+   "insufficient": 38,
    "rows": [
     {
      "name": "lm10",
@@ -1098,6 +1098,12 @@
      "value": 1000.235485570994,
      "display": "1.00 s",
      "detail": "逐站标准差均值（9 站有足够干净圈）"
+    },
+    {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 1043.3322641875932,
+     "display": "1.04 s",
+     "detail": "逐站标准差均值（12 站有足够干净圈）"
     },
     {
      "name": "Kagamine RIN",
@@ -1122,12 +1128,6 @@
      "value": 1086.0706347511775,
      "display": "1.09 s",
      "detail": "逐站标准差均值（17 站有足够干净圈）"
-    },
-    {
-     "name": "清蒸猫头鹰凉拌菠萝",
-     "value": 1097.848767962616,
-     "display": "1.10 s",
-     "detail": "逐站标准差均值（11 站有足够干净圈）"
     },
     {
      "name": "Gougou",
@@ -1157,7 +1157,7 @@
    "lead": "遥测层 · 每个胎段内「后 1/3 均值 − 前 1/3 均值」÷ 圈距，再跨站平均；负值＝越跑越快（燃油变轻），未做燃油修正；门槛：≥3 站且 ≥150 圈",
    "color": "blue",
    "qualified": 24,
-   "insufficient": 40,
+   "insufficient": 38,
    "rows": [
     {
      "name": "白云",
@@ -1191,9 +1191,9 @@
     },
     {
      "name": "清蒸猫头鹰凉拌菠萝",
-     "value": 66.74852919344143,
-     "display": "+0.067 s/圈",
-     "detail": "11 站有足够长的胎段样本 · 未做燃油修正"
+     "value": 68.01403532199815,
+     "display": "+0.068 s/圈",
+     "detail": "12 站有足够长的胎段样本 · 未做燃油修正"
     },
     {
      "name": "Pan1ys",
@@ -1229,7 +1229,7 @@
    "lead": "遥测层 · 每个胎段内后段比前段慢得最多（正值）；门槛：≥3 站且 ≥150 圈",
    "color": "red",
    "qualified": 24,
-   "insufficient": 40,
+   "insufficient": 38,
    "rows": [
     {
      "name": "RIC",
@@ -1300,7 +1300,7 @@
    "title": "尾速之王",
    "lead": "遥测层 · 单圈最高尾速",
    "color": "blue",
-   "qualified": 63,
+   "qualified": 61,
    "insufficient": 0,
    "rows": [
     {
@@ -1394,16 +1394,16 @@
      "detail": "4 场 · 各圈尾速平均"
     },
     {
-     "name": "x1aofeiyang",
-     "value": 341.0,
-     "display": "341.0 km/h",
-     "detail": "3 场 · 各圈尾速平均"
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 340.5,
+     "display": "340.5 km/h",
+     "detail": "12 场 · 各圈尾速平均"
     },
     {
-     "name": "清蒸猫头鹰凉拌菠萝",
-     "value": 339.72727272727275,
-     "display": "339.7 km/h",
-     "detail": "11 场 · 各圈尾速平均"
+     "name": "⊗x1aofeiyang",
+     "value": 339.5,
+     "display": "339.5 km/h",
+     "detail": "4 场 · 各圈尾速平均"
     },
     {
      "name": "高木同学重度依赖",
@@ -1496,16 +1496,16 @@
      "detail": "300/383 圈在前十"
     },
     {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 75.0,
+     "display": "75%",
+     "detail": "243/324 圈在前十"
+    },
+    {
      "name": "gangteiss",
      "value": 73.57142857142857,
      "display": "74%",
      "detail": "103/140 圈在前十"
-    },
-    {
-     "name": "清蒸猫头鹰凉拌菠萝",
-     "value": 72.63513513513513,
-     "display": "73%",
-     "detail": "215/296 圈在前十"
     }
    ],
    "note": ""
@@ -1517,7 +1517,7 @@
    "lead": "遥测层 · 胎段磨损率（四轮中最快的那条）%/圈；门槛：≥3 站、累计 ≥150 圈且 ≥3 个胎段样本",
    "color": "green",
    "qualified": 27,
-   "insufficient": 37,
+   "insufficient": 35,
    "rows": [
     {
      "name": "DQ",
@@ -1569,9 +1569,9 @@
     },
     {
      "name": "清蒸猫头鹰凉拌菠萝",
-     "value": 4.1069451355982105,
+     "value": 4.106730957631693,
      "display": "4.11 %/圈",
-     "detail": "11 个胎段样本 · 累计 296 圈"
+     "detail": "12 个胎段样本 · 累计 324 圈"
     },
     {
      "name": "yi_hua",
@@ -1589,7 +1589,7 @@
    "lead": "遥测层 · 胎段磨损率最高；门槛：≥3 站、累计 ≥150 圈且 ≥3 个胎段样本",
    "color": "red",
    "qualified": 27,
-   "insufficient": 37,
+   "insufficient": 35,
    "rows": [
     {
      "name": "Landoooo_W",
@@ -1660,7 +1660,7 @@
    "title": "单次进站赚最多",
    "lead": "遥测层 · 单次进站带来的名次变化最小值（负值＝赚位）",
    "color": "green",
-   "qualified": 44,
+   "qualified": 43,
    "insufficient": 0,
    "rows": [
     {
@@ -1732,7 +1732,7 @@
    "title": "单次进站亏最多",
    "lead": "遥测层 · 单次进站带来的名次变化最大值（正值＝掉位）",
    "color": "red",
-   "qualified": 59,
+   "qualified": 58,
    "insufficient": 0,
    "rows": [
     {
@@ -1804,7 +1804,7 @@
    "title": "进站最多",
    "lead": "遥测层 · 全季停站次数",
    "color": "red",
-   "qualified": 64,
+   "qualified": 62,
    "insufficient": 0,
    "rows": [
     {
@@ -1876,7 +1876,7 @@
    "title": "进站最少",
    "lead": "遥测层 · 全季停站次数",
    "color": "green",
-   "qualified": 64,
+   "qualified": 62,
    "insufficient": 0,
    "rows": [
     {
@@ -1899,12 +1899,6 @@
     },
     {
      "name": "FerrariGoat",
-     "value": 1,
-     "display": "1 次",
-     "detail": ""
-    },
-    {
-     "name": "清蒸猫头凉拌菠萝",
      "value": 1,
      "display": "1 次",
      "detail": ""
@@ -1938,6 +1932,12 @@
      "value": 2,
      "display": "2 次",
      "detail": ""
+    },
+    {
+     "name": "Swizzet3271",
+     "value": 2,
+     "display": "2 次",
+     "detail": ""
     }
    ],
    "note": ""
@@ -1948,7 +1948,7 @@
    "title": "最长胎段",
    "lead": "遥测层 · 单个胎段最长连续圈数",
    "color": "blue",
-   "qualified": 64,
+   "qualified": 62,
    "insufficient": 0,
    "rows": [
     {
@@ -2164,7 +2164,7 @@
    "title": "维修区净赚最多",
    "lead": "遥测层 · 进站期间净赚的位置数",
    "color": "green",
-   "qualified": 61,
+   "qualified": 59,
    "insufficient": 0,
    "rows": [
     {
@@ -2172,12 +2172,6 @@
      "value": 3,
      "display": "+3",
      "detail": "维修区赚 4 · 亏 1"
-    },
-    {
-     "name": "x1aofeiyang",
-     "value": 2,
-     "display": "+2",
-     "detail": "维修区赚 2 · 亏 0"
     },
     {
      "name": "哈哈",
@@ -2190,6 +2184,12 @@
      "value": -1,
      "display": "-1",
      "detail": "维修区赚 0 · 亏 1"
+    },
+    {
+     "name": "⊗x1aofeiyang",
+     "value": -2,
+     "display": "-2",
+     "detail": "维修区赚 2 · 亏 4"
     },
     {
      "name": "Swizzet3271",
@@ -2210,12 +2210,6 @@
      "detail": "维修区赚 0 · 亏 3"
     },
     {
-     "name": "✪x1aofeiyang",
-     "value": -4,
-     "display": "-4",
-     "detail": "维修区赚 0 · 亏 4"
-    },
-    {
      "name": "老吴k423",
      "value": -4,
      "display": "-4",
@@ -2223,6 +2217,12 @@
     },
     {
      "name": "MFGA",
+     "value": -4,
+     "display": "-4",
+     "detail": "维修区赚 0 · 亏 4"
+    },
+    {
+     "name": "雷电芽衣",
      "value": -4,
      "display": "-4",
      "detail": "维修区赚 0 · 亏 4"
@@ -2236,7 +2236,7 @@
    "title": "维修区净亏最多",
    "lead": "遥测层 · 进站期间净亏的位置数",
    "color": "red",
-   "qualified": 61,
+   "qualified": 59,
    "insufficient": 0,
    "rows": [
     {
@@ -2308,7 +2308,7 @@
    "title": "最会超车",
    "lead": "遥测层 · 超车事件原始计数（含进站让位，未筛选）",
    "color": "green",
-   "qualified": 63,
+   "qualified": 61,
    "insufficient": 0,
    "rows": [
     {
@@ -2380,7 +2380,7 @@
    "title": "净超车最多",
    "lead": "遥测层 · 超车次数 − 被超次数",
    "color": "green",
-   "qualified": 63,
+   "qualified": 61,
    "insufficient": 0,
    "rows": [
     {
@@ -2452,7 +2452,7 @@
    "title": "净被超最多",
    "lead": "遥测层 · 超车次数 − 被超次数（负得越多＝净丢位越多）",
    "color": "red",
-   "qualified": 63,
+   "qualified": 61,
    "insufficient": 0,
    "rows": [
     {
@@ -2504,16 +2504,16 @@
      "detail": "超 42 · 被超 63"
     },
     {
-     "name": "x1aofeiyang",
-     "value": -18,
-     "display": "-18",
-     "detail": "超 28 · 被超 46"
-    },
-    {
      "name": "LewisRen",
      "value": -17,
      "display": "-17",
      "detail": "超 143 · 被超 160"
+    },
+    {
+     "name": "ColorFirst",
+     "value": -12,
+     "display": "-12",
+     "detail": "超 27 · 被超 39"
     }
    ],
    "note": ""
@@ -2596,7 +2596,7 @@
    "title": "被超最多",
    "lead": "遥测层 · 被超车事件计数",
    "color": "red",
-   "qualified": 62,
+   "qualified": 60,
    "insufficient": 0,
    "rows": [
     {
@@ -2668,7 +2668,7 @@
    "title": "起步狂人",
    "lead": "遥测层 · 第 1 圈净赚位置合计",
    "color": "green",
-   "qualified": 58,
+   "qualified": 56,
    "insufficient": 0,
    "rows": [
     {
@@ -2740,7 +2740,7 @@
    "title": "起步梦游",
    "lead": "遥测层 · 第 1 圈净丢位置合计",
    "color": "red",
-   "qualified": 58,
+   "qualified": 56,
    "insufficient": 0,
    "rows": [
     {
@@ -2780,6 +2780,12 @@
      "detail": "第 1 圈净丢位置合计"
     },
     {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": -13,
+     "display": "-13",
+     "detail": "第 1 圈净丢位置合计"
+    },
+    {
      "name": "JPer",
      "value": -13,
      "display": "-13",
@@ -2789,12 +2795,6 @@
      "name": "leevenchenko",
      "value": -13,
      "display": "-13",
-     "detail": "第 1 圈净丢位置合计"
-    },
-    {
-     "name": "清蒸猫头鹰凉拌菠萝",
-     "value": -12,
-     "display": "-12",
      "detail": "第 1 圈净丢位置合计"
     },
     {
@@ -2812,7 +2812,7 @@
    "title": "单场最大逆转",
    "lead": "官方层 · 发车位 − 终位 的最大值",
    "color": "green",
-   "qualified": 61,
+   "qualified": 59,
    "insufficient": 0,
    "rows": [
     {
@@ -2884,7 +2884,7 @@
    "title": "单场最大崩盘",
    "lead": "官方层 · 发车位 − 终位 的最小值",
    "color": "red",
-   "qualified": 61,
+   "qualified": 59,
    "insufficient": 0,
    "rows": [
     {
@@ -2956,7 +2956,7 @@
    "title": "末段杀手",
    "lead": "遥测层 · 最后 5 圈内的主动超车次数",
    "color": "blue",
-   "qualified": 56,
+   "qualified": 54,
    "insufficient": 0,
    "rows": [
     {
@@ -3002,6 +3002,12 @@
      "detail": "全季主动超车 152 次"
     },
     {
+     "name": "清蒸猫头鹰凉拌菠萝",
+     "value": 24,
+     "display": "24 次",
+     "detail": "全季主动超车 123 次"
+    },
+    {
      "name": "Ak_Langley_S",
      "value": 23,
      "display": "23 次",
@@ -3012,12 +3018,6 @@
      "value": 23,
      "display": "23 次",
      "detail": "全季主动超车 199 次"
-    },
-    {
-     "name": "清蒸猫头鹰凉拌菠萝",
-     "value": 22,
-     "display": "22 次",
-     "detail": "全季主动超车 109 次"
     }
    ],
    "note": ""
@@ -3194,7 +3194,7 @@
      "detail": "驾照分 —"
     },
     {
-     "name": "x1aofeiyang",
+     "name": "⊗x1aofeiyang",
      "value": -24.0,
      "display": "-24",
      "detail": "驾照分 —"
@@ -3244,7 +3244,7 @@
    "title": "碰撞最多",
    "lead": "遥测层 · COLLISION 事件计数",
    "color": "red",
-   "qualified": 63,
+   "qualified": 61,
    "insufficient": 0,
    "rows": [
     {
@@ -3316,7 +3316,7 @@
    "title": "严重碰撞最多",
    "lead": "遥测层 · 高严重度 COLLISION 事件",
    "color": "red",
-   "qualified": 49,
+   "qualified": 48,
    "insufficient": 0,
    "rows": [
     {
@@ -3388,15 +3388,9 @@
    "title": "碰撞对手最多",
    "lead": "遥测层 · 全季跟自己发生过碰撞的**不同车手**数；事件里没有主动方字段，所以数不出\"谁撞谁\"，只数得出\"跟多少人撞过\"",
    "color": "red",
-   "qualified": 63,
+   "qualified": 61,
    "insufficient": 0,
    "rows": [
-    {
-     "name": "HayesCC",
-     "value": 40,
-     "display": "40 人",
-     "detail": "碰撞参与 174 次（46 中等 / 32 严重）"
-    },
     {
      "name": "AyatoSeven",
      "value": 40,
@@ -3404,9 +3398,15 @@
      "detail": "碰撞参与 193 次（58 中等 / 37 严重）"
     },
     {
-     "name": "Er1sed-FOX",
+     "name": "HayesCC",
      "value": 39,
      "display": "39 人",
+     "detail": "碰撞参与 174 次（46 中等 / 32 严重）"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 38,
+     "display": "38 人",
      "detail": "碰撞参与 190 次（53 中等 / 38 严重）"
     },
     {
@@ -3435,8 +3435,8 @@
     },
     {
      "name": "Gougou",
-     "value": 32,
-     "display": "32 人",
+     "value": 31,
+     "display": "31 人",
      "detail": "碰撞参与 129 次（37 中等 / 17 严重）"
     },
     {
@@ -3574,7 +3574,7 @@
    "title": "未完赛之王",
    "lead": "官方层 · 未完赛场次",
    "color": "red",
-   "qualified": 41,
+   "qualified": 40,
    "insufficient": 0,
    "rows": [
     {
@@ -3656,12 +3656,6 @@
      "detail": "报名但缺席"
     },
     {
-     "name": "✪x1aofeiyang",
-     "value": 1,
-     "display": "1 场",
-     "detail": "报名但缺席"
-    },
-    {
      "name": "Momokong",
      "value": 1,
      "display": "1 场",
@@ -3695,6 +3689,12 @@
      "name": "HEZ",
      "value": 1,
      "display": "1 场",
+     "detail": "报名但缺席"
+    },
+    {
+     "name": "⊗x1aofeiyang",
+     "value": -3,
+     "display": "-3 场",
      "detail": "报名但缺席"
     }
    ],
@@ -3854,16 +3854,16 @@
      "detail": "退赛 2 次"
     },
     {
+     "name": "⊗x1aofeiyang",
+     "value": 25,
+     "display": "还差 25 圈",
+     "detail": "退赛 0 次"
+    },
+    {
      "name": "dan",
      "value": 25,
      "display": "还差 25 圈",
      "detail": "退赛 3 次"
-    },
-    {
-     "name": "x1aofeiyang",
-     "value": 25,
-     "display": "还差 25 圈",
-     "detail": "退赛 2 次"
     }
    ],
    "note": ""
@@ -3987,8 +3987,8 @@
     },
     {
      "name": "清蒸猫头鹰凉拌菠萝",
-     "value": 56.55735599333129,
-     "display": "56.6",
+     "value": 57.27900547786737,
+     "display": "57.3",
      "detail": "分到的车 4.08 档（1=最快） · 完赛率 92% · 退赛 1"
     },
     {
@@ -4306,7 +4306,7 @@
    "title": "最会忍",
    "lead": "遥测层 · 被动丢位次数（被超未回击）",
    "color": "orange",
-   "qualified": 63,
+   "qualified": 61,
    "insufficient": 0,
    "rows": [
     {
@@ -4379,7 +4379,7 @@
    "lead": "遥测层 · 逐站算「平均干净圈 − 最快圈」再平均，越大越\"只会跑一圈\"；门槛：≥3 站且 ≥150 圈",
    "color": "orange",
    "qualified": 24,
-   "insufficient": 40,
+   "insufficient": 38,
    "rows": [
     {
      "name": "Er1sed-FOX",
@@ -4810,7 +4810,7 @@
    "title": "剔除缺席的场均分",
    "lead": "假想 · 总分 ÷ 实际出场（缺席不计入分母）；门槛：出场 ≥3 场",
    "color": "grey",
-   "qualified": 46,
+   "qualified": 45,
    "insufficient": 0,
    "rows": [
     {
@@ -4954,7 +4954,7 @@
    "title": "下雨后涨位最多",
    "lead": "遥测层 · 「下雨前一圈的位置」→「比赛结束的位置」，正＝下雨后往上爬。**这才是雨战的主口径**——整场平均完赛位里含下雨前就拉开的名次，那部分与雨无关",
    "color": "green",
-   "qualified": 44,
+   "qualified": 43,
    "insufficient": 0,
    "rows": [
     {
@@ -5026,7 +5026,7 @@
    "title": "下雨后掉位最多",
    "lead": "遥测层 · 同上口径，负得越多＝下雨后掉得越狠",
    "color": "red",
-   "qualified": 44,
+   "qualified": 43,
    "insufficient": 0,
    "rows": [
     {
@@ -6152,12 +6152,6 @@
      "detail": "车通常 P12.3 · 他跑 P19.5 · 车序 9.0"
     },
     {
-     "name": "x1aofeiyang",
-     "value": -6.14,
-     "display": "-6.14 位",
-     "detail": "车通常 P10.9 · 他跑 P17.0 · 车序 7.8"
-    },
-    {
      "name": "叶yeeeeee",
      "value": -6.1,
      "display": "-6.10 位",
@@ -6174,6 +6168,12 @@
      "value": -5.86,
      "display": "-5.86 位",
      "detail": "车通常 P9.8 · 他跑 P15.7 · 车序 5.8"
+    },
+    {
+     "name": "高木同学重度依赖",
+     "value": -5.83,
+     "display": "-5.83 位",
+     "detail": "车通常 P9.4 · 他跑 P15.2 · 车序 4.8"
     }
    ],
    "note": ""
@@ -7382,7 +7382,7 @@
       "handled_by": "Momokong"
      },
      {
-      "driver": "x1aofeiyang",
+      "driver": "⊗x1aofeiyang",
       "type": "安全分变动",
       "points": -2,
       "reason": "违反安全车规定",
@@ -7390,7 +7390,7 @@
       "handled_by": "Momokong"
      },
      {
-      "driver": "x1aofeiyang",
+      "driver": "⊗x1aofeiyang",
       "type": "安全分变动",
       "points": -2,
       "reason": "超出赛道限制>3次/切弯",
@@ -7398,7 +7398,7 @@
       "handled_by": "Momokong"
      },
      {
-      "driver": "x1aofeiyang",
+      "driver": "⊗x1aofeiyang",
       "type": "安全分变动",
       "points": -5,
       "reason": "取消资格（DSQ）",
@@ -7406,7 +7406,7 @@
       "handled_by": "Momokong"
      },
      {
-      "driver": "x1aofeiyang",
+      "driver": "⊗x1aofeiyang",
       "type": "安全分变动",
       "points": -3,
       "reason": "危险返回赛道导致后车事故",
@@ -7494,7 +7494,7 @@
       "handled_by": "It57"
      },
      {
-      "driver": "x1aofeiyang",
+      "driver": "⊗x1aofeiyang",
       "type": "罚时",
       "points": 5,
       "reason": "危险返回赛道导致后车事故",
@@ -7652,7 +7652,7 @@
       "handled_by": "Mirrorcc"
      },
      {
-      "driver": "x1aofeiyang",
+      "driver": "⊗x1aofeiyang",
       "type": "安全分变动",
       "points": -2,
       "reason": "超出赛道限制>3次/切弯",
@@ -7660,7 +7660,7 @@
       "handled_by": "Er1sed-FOX"
      },
      {
-      "driver": "x1aofeiyang",
+      "driver": "⊗x1aofeiyang",
       "type": "安全分变动",
       "points": -2,
       "reason": "维修区超速",
@@ -8542,7 +8542,7 @@
       "handled_by": "Er1sed-FOX"
      },
      {
-      "driver": "x1aofeiyang",
+      "driver": "⊗x1aofeiyang",
       "type": "安全分变动",
       "points": -6,
       "reason": "xiaofeiyang有明显将star-fall04挤出赛道的动作，根据白皮书6.1，碰撞导致对方赛车失控受损扣3分罚时五秒，但因DNF换算5秒罚时为3分安全分。",
@@ -8660,7 +8660,7 @@
       "handled_by": "It57"
      },
      {
-      "driver": "x1aofeiyang",
+      "driver": "⊗x1aofeiyang",
       "type": "安全分变动",
       "points": -2,
       "reason": "超出赛道限制>3次/切弯",
@@ -9808,7 +9808,7 @@
       "handled_by": "Momokong"
      },
      {
-      "driver": "清蒸猫头凉拌菠萝",
+      "driver": "清蒸猫头鹰凉拌菠萝",
       "type": "安全分变动",
       "points": -2,
       "reason": "超出赛道限制>3次/切弯",
@@ -11636,17 +11636,17 @@
    "podiums": 1,
    "poles": 0,
    "fastest_laps": 0,
-   "laps": 296,
-   "clean_laps": 218,
+   "laps": 324,
+   "clean_laps": 240,
    "laps_led": 0,
    "led_races": 0,
-   "ov_made": 109,
-   "ov_lost": 112,
-   "collisions": 47,
+   "ov_made": 123,
+   "ov_lost": 124,
+   "collisions": 51,
    "penalty_cards": 1,
-   "wear_rate": 4.1069451355982105,
-   "pace_avg": 88941.22018348624,
-   "pace_sd": 1.5663636363636364,
+   "wear_rate": 4.106730957631693,
+   "pace_avg": 89913.70416666666,
+   "pace_sd": 1.6081666666666665,
    "best_lap": 67535,
    "best_lap_track": "奥地利",
    "finish_count": 11,
@@ -11655,11 +11655,11 @@
    "avg_finish": 8.0,
    "score_rate": 91.66666666666667,
    "axes": {
-    "pace": 0.6586312882650962,
-    "consistency": 0.7221599885106994,
-    "combat": 0.4864864864864865,
-    "tyre": 0.632447516746239,
-    "discipline": 0.7598039215686274,
+    "pace": 0.6341605366459212,
+    "consistency": 0.7089520800421274,
+    "combat": 0.5045045045045045,
+    "tyre": 0.6325126656552794,
+    "discipline": 0.7401960784313726,
     "reliability": 0.4642857142857143
    },
    "strength": "discipline",
@@ -12181,39 +12181,39 @@
    },
    "pos": 3
   },
-  "✪x1aofeiyang": {
-   "name": "✪x1aofeiyang",
+  "⊗x1aofeiyang": {
+   "name": "⊗x1aofeiyang",
    "points": 0,
    "starts": 1,
    "wins": 0,
    "podiums": 0,
    "poles": 0,
    "fastest_laps": 0,
-   "laps": 29,
-   "clean_laps": 12,
+   "laps": 99,
+   "clean_laps": 68,
    "laps_led": 0,
    "led_races": 0,
-   "ov_made": 17,
-   "ov_lost": 7,
-   "collisions": 4,
-   "penalty_cards": 0,
-   "wear_rate": 3.827651515151515,
-   "pace_avg": 82807.5,
-   "pace_sd": 2.617,
-   "best_lap": 81179,
-   "best_lap_track": "墨尔本",
-   "finish_count": 0,
+   "ov_made": 45,
+   "ov_lost": 53,
+   "collisions": 20,
+   "penalty_cards": 1,
+   "wear_rate": 4.291849539349539,
+   "pace_avg": 85695.44117647059,
+   "pace_sd": 1.8985,
+   "best_lap": 74490,
+   "best_lap_track": "蒙特利尔",
+   "finish_count": 2,
    "dnf": 0,
-   "avg_quali": null,
+   "avg_quali": 14.5,
    "avg_finish": 16.0,
    "score_rate": 0.0,
    "axes": {
-    "pace": 0.8129749542869605,
-    "consistency": 0.39020537124802523,
-    "combat": 0.6036036036036037,
-    "tyre": 0.7174033829817281,
-    "discipline": 0.9803921568627451,
-    "reliability": 0.10714285714285714
+    "pace": 0.7403052831741478,
+    "consistency": 0.6172195892575039,
+    "combat": 0.44144144144144143,
+    "tyre": 0.5762030749064052,
+    "discipline": 0.8921568627450981,
+    "reliability": 0.17857142857142858
    },
    "strength": "discipline",
    "weakness": "reliability",
@@ -12221,7 +12221,7 @@
    "per_round": {
     "1": 0
    },
-   "pos": 56
+   "pos": 55
   },
   "dan": {
    "name": "dan",
@@ -12773,51 +12773,6 @@
    },
    "pos": 54
   },
-  "x1aofeiyang": {
-   "name": "x1aofeiyang",
-   "points": 1,
-   "starts": 4,
-   "wins": 0,
-   "podiums": 0,
-   "poles": 0,
-   "fastest_laps": 0,
-   "laps": 70,
-   "clean_laps": 56,
-   "laps_led": 0,
-   "led_races": 0,
-   "ov_made": 28,
-   "ov_lost": 46,
-   "collisions": 16,
-   "penalty_cards": 1,
-   "wear_rate": 4.4465822140822135,
-   "pace_avg": 86314.28571428571,
-   "pace_sd": 1.659,
-   "best_lap": 74490,
-   "best_lap_track": "蒙特利尔",
-   "finish_count": 2,
-   "dnf": 2,
-   "avg_quali": 14.5,
-   "avg_finish": 17.0,
-   "score_rate": 25.0,
-   "axes": {
-    "pace": 0.7247332107928308,
-    "consistency": 0.6928909952606633,
-    "combat": 0.35135135135135137,
-    "tyre": 0.5291363055479643,
-    "discipline": 0.9117647058823529,
-    "reliability": 0.10714285714285714
-   },
-   "strength": "discipline",
-   "weakness": "reliability",
-   "archetype": "轮胎管理型",
-   "per_round": {
-    "1": 0,
-    "2": 0,
-    "9": 0,
-    "10": 1
-   },
-   "pos": 55
-  },
   "Gougou": {
    "name": "Gougou",
    "points": 241,
@@ -13178,7 +13133,7 @@
    "per_round": {
     "3": 0
    },
-   "pos": 57
+   "pos": 56
   },
   "funanana": {
    "name": "funanana",
@@ -13658,7 +13613,7 @@
    "per_round": {
     "7": 0
    },
-   "pos": 58
+   "pos": 57
   },
   "Anegler": {
    "name": "Anegler",
@@ -13889,7 +13844,7 @@
     "13": 0,
     "14": 0
    },
-   "pos": 59
+   "pos": 58
   },
   "esmac1": {
    "name": "esmac1",
@@ -13981,7 +13936,7 @@
    "per_round": {
     "13": 0
    },
-   "pos": 60
+   "pos": 59
   },
   "MFGA": {
    "name": "MFGA",
@@ -14294,46 +14249,6 @@
    },
    "pos": 43
   },
-  "清蒸猫头凉拌菠萝": {
-   "name": "清蒸猫头凉拌菠萝",
-   "points": 0,
-   "starts": 0,
-   "wins": 0,
-   "podiums": 0,
-   "poles": 0,
-   "fastest_laps": 0,
-   "laps": 28,
-   "clean_laps": 22,
-   "laps_led": 0,
-   "led_races": 0,
-   "ov_made": 14,
-   "ov_lost": 12,
-   "collisions": 4,
-   "penalty_cards": 0,
-   "wear_rate": 4.104375,
-   "pace_avg": 99550.13636363637,
-   "pace_sd": 2.068,
-   "best_lap": 98598,
-   "best_lap_track": "奥斯汀",
-   "finish_count": 0,
-   "dnf": 0,
-   "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
-   "axes": {
-    "pace": 0.39167763423773216,
-    "consistency": 0.5636650868878357,
-    "combat": 0.5315315315315315,
-    "tyre": 0.6332293036547241,
-    "discipline": 0.9803921568627451,
-    "reliability": 0.10714285714285714
-   },
-   "strength": "discipline",
-   "weakness": "reliability",
-   "archetype": "轮胎管理型",
-   "per_round": {},
-   "pos": 61
-  },
   "雷电芽衣": {
    "name": "雷电芽衣",
    "points": 0,
@@ -14375,7 +14290,7 @@
     "21": 0,
     "23": 0
    },
-   "pos": 62
+   "pos": 60
   },
   "Sliced Onion": {
    "name": "Sliced Onion",
@@ -14459,7 +14374,7 @@
    "per_round": {
     "24": 0
    },
-   "pos": 63
+   "pos": 61
   },
   "Surviver": {
    "name": "Surviver",
@@ -14501,7 +14416,7 @@
    "per_round": {
     "25": 0
    },
-   "pos": 64
+   "pos": 62
   }
  },
  "match": {
@@ -14513,7 +14428,7 @@
    "similarity": 0.524,
    "distance": 0.952,
    "weakMatch": false,
-   "why": "97 分排在 17/64。4 场里 4 场完赛、3 个冠军、1 次登台、2 个杆位。他的节奏稳定性排在场上前 6/63。比「Nico Rosberg」更倚重缠斗。而完赛是他的相对短板（场上第 25/64）。全季领跑 52 圈（4 站）。他平均开的是第 6.5 档车（全场均值 6.0），比这辆车的一般水平快 8.7 位。",
+   "why": "97 分排在 17/62。4 场里 4 场完赛、3 个冠军、1 次登台、2 个杆位。他的节奏稳定性排在场上前 6/61。比「Nico Rosberg」更倚重缠斗。而完赛是他的相对短板（场上第 25/62）。全季领跑 52 圈（4 站）。他平均开的是第 6.5 档车（全场均值 6.0），比这辆车的一般水平快 8.7 位。",
    "axes": {
     "pace": 0.7938981479928201,
     "consistency": 0.9300947867298577,
@@ -14524,10 +14439,10 @@
    },
    "strength": "consistency",
    "strengthRank": 6,
-   "strengthOf": 63,
+   "strengthOf": 61,
    "weakness": "tyre",
-   "weaknessRank": 49,
-   "weaknessOf": 62,
+   "weaknessRank": 47,
+   "weaknessOf": 60,
    "points": 97,
    "pos": 17
   },
@@ -14536,10 +14451,10 @@
    "ref": "Jim Clark",
    "refTrait": "单圈与节奏都是时代顶点的绅士",
    "refEra": "1960s",
-   "similarity": 0.802,
-   "distance": 0.396,
+   "similarity": 0.803,
+   "distance": 0.393,
    "weakMatch": false,
-   "why": "92 分排在 18/64。4 场里 4 场完赛、2 个冠军、2 次登台、3 个杆位。他的轮胎管理排在场上前 2/62。而速度是他的相对短板（场上第 5/63）。全季领跑 71 圈（3 站）。他平均开的是第 8.0 档车（全场均值 6.0），比这辆车的一般水平快 8.8 位。",
+   "why": "92 分排在 18/62。4 场里 4 场完赛、2 个冠军、2 次登台、3 个杆位。他的轮胎管理排在场上前 2/60。而节奏稳定性是他的相对短板（场上第 9/61）。全季领跑 71 圈（3 站）。他平均开的是第 8.0 档车（全场均值 6.0），比这辆车的一般水平快 8.8 位。",
    "axes": {
     "pace": 0.8630571003423971,
     "consistency": 0.8729857819905212,
@@ -14550,10 +14465,10 @@
    },
    "strength": "tyre",
    "strengthRank": 2,
-   "strengthOf": 62,
+   "strengthOf": 60,
    "weakness": "combat",
-   "weaknessRank": 42,
-   "weaknessOf": 64,
+   "weaknessRank": 40,
+   "weaknessOf": 62,
    "points": 92,
    "pos": 18
   },
@@ -14562,10 +14477,10 @@
    "ref": "Nelson Piquet",
    "refTrait": "聪明强硬的三冠",
    "refEra": "1980s",
-   "similarity": 0.838,
-   "distance": 0.324,
+   "similarity": 0.833,
+   "distance": 0.334,
    "weakMatch": false,
-   "why": "70 分排在 23/64。6 场里 5 场完赛、1 个冠军、2 次登台。他的节奏稳定性排在场上前 15/63。比「Nelson Piquet」更倚重纪律。而完赛是他的相对短板（场上第 27/64）。全季领跑 39 圈（2 站）。他平均开的是第 6.7 档车（全场均值 6.0），比这辆车的一般水平快 1.1 位。",
+   "why": "70 分排在 23/62。6 场里 5 场完赛、1 个冠军、2 次登台。他的节奏稳定性排在场上前 15/61。比「Nelson Piquet」更倚重纪律。而完赛是他的相对短板（场上第 27/62）。全季领跑 39 圈（2 站）。他平均开的是第 6.7 档车（全场均值 6.0），比这辆车的一般水平快 1.1 位。",
    "axes": {
     "pace": 0.5418158428901765,
     "consistency": 0.8180094786729856,
@@ -14576,10 +14491,10 @@
    },
    "strength": "consistency",
    "strengthRank": 15,
-   "strengthOf": 63,
+   "strengthOf": 61,
    "weakness": "pace",
-   "weaknessRank": 45,
-   "weaknessOf": 63,
+   "weaknessRank": 44,
+   "weaknessOf": 61,
    "points": 70,
    "pos": 23
   },
@@ -14588,10 +14503,10 @@
    "ref": "Fernando Alonso",
    "refTrait": "轮胎与比赛智慧顶级，缠斗老辣",
    "refEra": "2000s",
-   "similarity": 0.54,
-   "distance": 0.921,
+   "similarity": 0.541,
+   "distance": 0.918,
    "weakMatch": false,
-   "why": "221 分排在 4/64。13 场里 12 场完赛、2 个冠军、4 次登台、2 个杆位。他的缠斗排在场上前 1/64。而轮胎管理是他的相对短板（场上第 21/62）。全季领跑 58 圈（3 站）。他平均开的是第 8.4 档车（全场均值 6.0），比这辆车的一般水平快 5.9 位。",
+   "why": "221 分排在 4/62。13 场里 12 场完赛、2 个冠军、4 次登台、2 个杆位。他的缠斗排在场上前 1/62。而轮胎管理是他的相对短板（场上第 20/60）。全季领跑 58 圈（3 站）。他平均开的是第 8.4 档车（全场均值 6.0），比这辆车的一般水平快 5.9 位。",
    "axes": {
     "pace": 0.6746807663231672,
     "consistency": 0.7544537610888321,
@@ -14602,10 +14517,10 @@
    },
    "strength": "combat",
    "strengthRank": 1,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "discipline",
-   "weaknessRank": 43,
-   "weaknessOf": 64,
+   "weaknessRank": 40,
+   "weaknessOf": 62,
    "points": 221,
    "pos": 4
   },
@@ -14614,10 +14529,10 @@
    "ref": "Heinz-Harald Frentzen",
    "refTrait": "速度尚可、时运不济",
    "refEra": "1990s",
-   "similarity": 0.782,
-   "distance": 0.436,
+   "similarity": 0.789,
+   "distance": 0.422,
    "weakMatch": false,
-   "why": "76 分排在 19/64。12 场里 9 场完赛、1 次登台。他的完赛排在场上前 20/64。比「Heinz-Harald Frentzen」更倚重速度。完成 143 次超车。他平均开的是第 8.9 档车（全场均值 6.0），比这辆车的一般水平慢 1.7 位。",
+   "why": "76 分排在 19/62。12 场里 9 场完赛、1 次登台。他的完赛排在场上前 20/62。比「Heinz-Harald Frentzen」更倚重速度。完成 143 次超车。他平均开的是第 8.9 档车（全场均值 6.0），比这辆车的一般水平慢 1.7 位。",
    "axes": {
     "pace": 0.6362535770506587,
     "consistency": 0.7391641533821629,
@@ -14628,10 +14543,10 @@
    },
    "strength": "reliability",
    "strengthRank": 20,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "combat",
-   "weaknessRank": 55,
-   "weaknessOf": 64,
+   "weaknessRank": 54,
+   "weaknessOf": 62,
    "points": 76,
    "pos": 19
   },
@@ -14640,36 +14555,36 @@
    "ref": "Carlos Sainz",
    "refTrait": "策略型，靠轮胎与节奏取胜",
    "refEra": "2020s",
-   "similarity": 0.845,
-   "distance": 0.311,
+   "similarity": 0.843,
+   "distance": 0.315,
    "weakMatch": false,
-   "why": "115 分排在 13/64。12 场里 11 场完赛、1 次登台。他的完赛排在场上前 16/64。比「Carlos Sainz」更倚重速度。而轮胎管理是他的相对短板（场上第 23/62）。完成 109 次超车。他平均开的是第 4.1 档车（全场均值 6.0），比这辆车的一般水平快 1.6 位。",
+   "why": "115 分排在 13/62。12 场里 11 场完赛、1 次登台。他的完赛排在场上前 16/62。比「Carlos Sainz」更倚重速度。而轮胎管理是他的相对短板（场上第 21/60）。完成 123 次超车。他平均开的是第 4.1 档车（全场均值 6.0），比这辆车的一般水平快 1.6 位。",
    "axes": {
-    "pace": 0.6586312882650962,
-    "consistency": 0.7221599885106994,
-    "combat": 0.4864864864864865,
-    "tyre": 0.632447516746239,
-    "discipline": 0.7598039215686274,
+    "pace": 0.6341605366459212,
+    "consistency": 0.7089520800421274,
+    "combat": 0.5045045045045045,
+    "tyre": 0.6325126656552794,
+    "discipline": 0.7401960784313726,
     "reliability": 0.4642857142857143
    },
    "strength": "reliability",
    "strengthRank": 16,
-   "strengthOf": 64,
-   "weakness": "combat",
+   "strengthOf": 62,
+   "weakness": "discipline",
    "weaknessRank": 41,
-   "weaknessOf": 64,
+   "weaknessOf": 62,
    "points": 115,
    "pos": 13
   },
   "HayesCC": {
    "name": "HayesCC",
-   "ref": "Sergio Pérez",
-   "refTrait": "极端省胎，单圈速度普通",
-   "refEra": "2010s",
-   "similarity": 0.177,
-   "distance": 1.646,
+   "ref": "Nick Heidfeld",
+   "refTrait": "低调可靠，少有失误",
+   "refEra": "2000s",
+   "similarity": 0.198,
+   "distance": 1.604,
    "weakMatch": true,
-   "why": "166 分排在 7/64。25 场里 24 场完赛、1 个冠军、1 个杆位。他的完赛排在场上前 2/64。全季领跑 9 圈（3 站）。他平均开的是第 2.4 档车（全场均值 6.0），比这辆车的一般水平慢 0.0 位。",
+   "why": "166 分排在 7/62。25 场里 24 场完赛、1 个冠军、1 个杆位。他的完赛排在场上前 2/62。全季领跑 9 圈（3 站）。他平均开的是第 2.4 档车（全场均值 6.0），比这辆车的一般水平慢 0.0 位。",
    "axes": {
     "pace": 0.5815027900555925,
     "consistency": 0.6962216956292785,
@@ -14680,10 +14595,10 @@
    },
    "strength": "reliability",
    "strengthRank": 2,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "discipline",
-   "weaknessRank": 62,
-   "weaknessOf": 64,
+   "weaknessRank": 60,
+   "weaknessOf": 62,
    "points": 166,
    "pos": 7
   },
@@ -14692,10 +14607,10 @@
    "ref": "Juan Pablo Montoya",
    "refTrait": "凶悍超车型，与人对撞也不退",
    "refEra": "2000s",
-   "similarity": 0.514,
-   "distance": 0.972,
+   "similarity": 0.524,
+   "distance": 0.951,
    "weakMatch": false,
-   "why": "75 分排在 20/64。12 场里 10 场完赛。他的缠斗排在场上前 2/64。比「Juan Pablo Montoya」更倚重完赛。完成 187 次超车。他平均开的是第 8.1 档车（全场均值 6.0），比这辆车的一般水平慢 2.3 位。",
+   "why": "75 分排在 20/62。12 场里 10 场完赛。他的缠斗排在场上前 2/62。比「Juan Pablo Montoya」更倚重完赛。完成 187 次超车。他平均开的是第 8.1 档车（全场均值 6.0），比这辆车的一般水平慢 2.3 位。",
    "axes": {
     "pace": 0.7547033201460281,
     "consistency": 0.7102972856527358,
@@ -14706,10 +14621,10 @@
    },
    "strength": "combat",
    "strengthRank": 2,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "tyre",
-   "weaknessRank": 59,
-   "weaknessOf": 62,
+   "weaknessRank": 57,
+   "weaknessOf": 60,
    "points": 75,
    "pos": 20
   },
@@ -14718,10 +14633,10 @@
    "ref": "Dan Gurney",
    "refTrait": "全能型，什么都自己动手",
    "refEra": "1960s",
-   "similarity": 0.728,
-   "distance": 0.543,
+   "similarity": 0.731,
+   "distance": 0.537,
    "weakMatch": false,
-   "why": "9 分排在 48/64。7 场里 2 场完赛。他的节奏稳定性排在场上前 10/63。完成 83 次超车。他平均开的是第 9.0 档车（全场均值 6.0），比这辆车的一般水平慢 6.1 位。",
+   "why": "9 分排在 48/62。7 场里 2 场完赛。他的节奏稳定性排在场上前 10/61。完成 83 次超车。他平均开的是第 9.0 档车（全场均值 6.0），比这辆车的一般水平慢 6.1 位。",
    "axes": {
     "pace": 0.5902092860952621,
     "consistency": 0.864876250658241,
@@ -14732,10 +14647,10 @@
    },
    "strength": "consistency",
    "strengthRank": 10,
-   "strengthOf": 63,
+   "strengthOf": 61,
    "weakness": "reliability",
-   "weaknessRank": 63,
-   "weaknessOf": 64,
+   "weaknessRank": 61,
+   "weaknessOf": 62,
    "points": 9,
    "pos": 48
   },
@@ -14744,10 +14659,10 @@
    "ref": "Max Verstappen",
    "refTrait": "三项顶档，缠斗强硬极少自失",
    "refEra": "2010s",
-   "similarity": 0.165,
-   "distance": 1.669,
+   "similarity": 0.171,
+   "distance": 1.657,
    "weakMatch": true,
-   "why": "208 分排在 6/64。25 场里 25 场完赛。他的完赛排在场上前 1/64。全季领跑 1 圈（1 站）。他平均开的是第 9.7 档车（全场均值 6.0），比这辆车的一般水平快 1.3 位。",
+   "why": "208 分排在 6/62。25 场里 25 场完赛。他的完赛排在场上前 1/62。全季领跑 1 圈（1 站）。他平均开的是第 9.7 档车（全场均值 6.0），比这辆车的一般水平快 1.3 位。",
    "axes": {
     "pace": 0.5866790914831889,
     "consistency": 0.6317472353870457,
@@ -14758,10 +14673,10 @@
    },
    "strength": "reliability",
    "strengthRank": 1,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "discipline",
-   "weaknessRank": 63,
-   "weaknessOf": 64,
+   "weaknessRank": 61,
+   "weaknessOf": 62,
    "points": 208,
    "pos": 6
   },
@@ -14770,10 +14685,10 @@
    "ref": "Pierre Gasly",
    "refTrait": "中游标杆，六维都在均值偏上",
    "refEra": "2020s",
-   "similarity": 0.621,
-   "distance": 0.757,
+   "similarity": 0.614,
+   "distance": 0.772,
    "weakMatch": false,
-   "why": "8 分排在 49/64。2 场里 2 场完赛。他的轮胎管理排在场上前 13/62。完成 24 次超车。他平均开的是第 3.5 档车（全场均值 6.0），比这辆车的一般水平慢 3.3 位。",
+   "why": "8 分排在 49/62。2 场里 2 场完赛。他的轮胎管理排在场上前 13/60。完成 24 次超车。他平均开的是第 3.5 档车（全场均值 6.0），比这辆车的一般水平慢 3.3 位。",
    "axes": {
     "pace": 0.4174460250624887,
     "consistency": 0.39004739336492894,
@@ -14784,10 +14699,10 @@
    },
    "strength": "tyre",
    "strengthRank": 13,
-   "strengthOf": 62,
+   "strengthOf": 60,
    "weakness": "consistency",
-   "weaknessRank": 58,
-   "weaknessOf": 63,
+   "weaknessRank": 56,
+   "weaknessOf": 61,
    "points": 8,
    "pos": 49
   },
@@ -14796,10 +14711,10 @@
    "ref": "Lando Norris",
    "refTrait": "各项均衡、节奏干净",
    "refEra": "2020s",
-   "similarity": 0.493,
-   "distance": 1.014,
+   "similarity": 0.49,
+   "distance": 1.02,
    "weakMatch": false,
-   "why": "4 分排在 52/64。1 场里 1 场完赛。他的节奏稳定性排在场上前 3/63。比「Lando Norris」更倚重缠斗。完成 11 次超车。他平均开的是第 2.0 档车（全场均值 6.0），比这辆车的一般水平慢 0.7 位。",
+   "why": "4 分排在 52/62。1 场里 1 场完赛。他的节奏稳定性排在场上前 3/61。比「Lando Norris」更倚重缠斗。完成 11 次超车。他平均开的是第 2.0 档车（全场均值 6.0），比这辆车的一般水平慢 0.7 位。",
    "axes": {
     "pace": 0.8040258629160008,
     "consistency": 0.9848341232227488,
@@ -14810,10 +14725,10 @@
    },
    "strength": "consistency",
    "strengthRank": 3,
-   "strengthOf": 63,
+   "strengthOf": 61,
    "weakness": "reliability",
-   "weaknessRank": 41,
-   "weaknessOf": 64,
+   "weaknessRank": 42,
+   "weaknessOf": 62,
    "points": 4,
    "pos": 52
   },
@@ -14822,10 +14737,10 @@
    "ref": "Nigel Mansell",
    "refTrait": "凶猛超车型，敢打敢拼",
    "refEra": "1980s",
-   "similarity": 0.567,
-   "distance": 0.867,
+   "similarity": 0.573,
+   "distance": 0.854,
    "weakMatch": false,
-   "why": "122 分排在 10/64。12 场里 12 场完赛、3 次登台、1 个杆位。他的缠斗排在场上前 5/64。比「Nigel Mansell」更倚重完赛。而速度是他的相对短板（场上第 33/63）。全季领跑 6 圈（1 站）。他平均开的是第 7.8 档车（全场均值 6.0），比这辆车的一般水平快 2.2 位。",
+   "why": "122 分排在 10/62。12 场里 12 场完赛、3 次登台、1 个杆位。他的缠斗排在场上前 5/62。比「Nigel Mansell」更倚重完赛。而速度是他的相对短板（场上第 32/61）。全季领跑 6 圈（1 站）。他平均开的是第 7.8 档车（全场均值 6.0），比这辆车的一般水平快 2.2 位。",
    "axes": {
     "pace": 0.5911271323611328,
     "consistency": 0.6299583512853654,
@@ -14836,22 +14751,22 @@
    },
    "strength": "combat",
    "strengthRank": 5,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "discipline",
-   "weaknessRank": 53,
-   "weaknessOf": 64,
+   "weaknessRank": 51,
+   "weaknessOf": 62,
    "points": 122,
    "pos": 10
   },
   "Er1sed-FOX": {
    "name": "Er1sed-FOX",
-   "ref": "Rubens Barrichello",
-   "refTrait": "可靠的老二，轮胎不错",
-   "refEra": "1990s",
-   "similarity": 0.086,
-   "distance": 1.828,
+   "ref": "Sergio Pérez",
+   "refTrait": "极端省胎，单圈速度普通",
+   "refEra": "2010s",
+   "similarity": 0.151,
+   "distance": 1.699,
    "weakMatch": true,
-   "why": "109 分排在 15/64。22 场里 20 场完赛。他的完赛排在场上前 5/64。拿下 1 次全场最快圈。他平均开的是第 7.8 档车（全场均值 6.0），比这辆车的一般水平慢 1.4 位。",
+   "why": "109 分排在 15/62。22 场里 20 场完赛。他的完赛排在场上前 5/62。拿下 1 次全场最快圈。他平均开的是第 7.8 档车（全场均值 6.0），比这辆车的一般水平慢 1.4 位。",
    "axes": {
     "pace": 0.5681203103079575,
     "consistency": 0.6809421226482838,
@@ -14862,22 +14777,22 @@
    },
    "strength": "reliability",
    "strengthRank": 5,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "discipline",
-   "weaknessRank": 64,
-   "weaknessOf": 64,
+   "weaknessRank": 62,
+   "weaknessOf": 62,
    "points": 109,
    "pos": 15
   },
   "tenbergen": {
    "name": "tenbergen",
-   "ref": "Nick Heidfeld",
-   "refTrait": "低调可靠，少有失误",
-   "refEra": "2000s",
-   "similarity": 0.355,
-   "distance": 1.29,
-   "weakMatch": true,
-   "why": "238 分排在 3/64。25 场里 24 场完赛、2 次登台、1 个杆位。他的完赛排在场上前 3/64。全季领跑 5 圈（2 站）。他平均开的是第 2.7 档车（全场均值 6.0），比这辆车的一般水平快 1.2 位。",
+   "ref": "Jody Scheckter",
+   "refTrait": "稳扎稳打的冠军",
+   "refEra": "1970s",
+   "similarity": 0.412,
+   "distance": 1.177,
+   "weakMatch": false,
+   "why": "238 分排在 3/62。25 场里 24 场完赛、2 次登台、1 个杆位。他的完赛排在场上前 3/62。全季领跑 5 圈（2 站）。他平均开的是第 2.7 档车（全场均值 6.0），比这辆车的一般水平快 1.2 位。",
    "axes": {
     "pace": 0.5928324135140843,
     "consistency": 0.681332280147446,
@@ -14888,48 +14803,48 @@
    },
    "strength": "reliability",
    "strengthRank": 3,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "discipline",
-   "weaknessRank": 59,
-   "weaknessOf": 64,
+   "weaknessRank": 57,
+   "weaknessOf": 62,
    "points": 238,
    "pos": 3
   },
-  "✪x1aofeiyang": {
-   "name": "✪x1aofeiyang",
-   "ref": "Stirling Moss",
-   "refTrait": "速度与缠斗俱佳，却总与冠军擦肩",
-   "refEra": "1950s",
-   "similarity": 0.596,
-   "distance": 0.808,
+  "⊗x1aofeiyang": {
+   "name": "⊗x1aofeiyang",
+   "ref": "Felipe Massa",
+   "refTrait": "速度不错，雨战偏弱",
+   "refEra": "2000s",
+   "similarity": 0.784,
+   "distance": 0.432,
    "weakMatch": false,
-   "why": "0 分排在 56/64。1 场里 0 场完赛。他的纪律排在场上前 4/64。完成 17 次超车。",
+   "why": "0 分排在 55/62。1 场里 2 场完赛。他的速度排在场上前 11/61。而完赛是他的相对短板（场上第 35/62）。完成 45 次超车。他平均开的是第 7.8 档车（全场均值 6.0），比这辆车的一般水平慢 5.1 位。",
    "axes": {
-    "pace": 0.8129749542869605,
-    "consistency": 0.39020537124802523,
-    "combat": 0.6036036036036037,
-    "tyre": 0.7174033829817281,
-    "discipline": 0.9803921568627451,
-    "reliability": 0.10714285714285714
+    "pace": 0.7403052831741478,
+    "consistency": 0.6172195892575039,
+    "combat": 0.44144144144144143,
+    "tyre": 0.5762030749064052,
+    "discipline": 0.8921568627450981,
+    "reliability": 0.17857142857142858
    },
-   "strength": "discipline",
-   "strengthRank": 4,
-   "strengthOf": 64,
-   "weakness": "consistency",
-   "weaknessRank": 57,
-   "weaknessOf": 63,
+   "strength": "pace",
+   "strengthRank": 11,
+   "strengthOf": 61,
+   "weakness": "combat",
+   "weaknessRank": 45,
+   "weaknessOf": 62,
    "points": 0,
-   "pos": 56
+   "pos": 55
   },
   "dan": {
    "name": "dan",
    "ref": "Jacques Villeneuve",
    "refTrait": "两轮世界冠军转来拿四轮冠军",
    "refEra": "1990s",
-   "similarity": 0.716,
-   "distance": 0.569,
+   "similarity": 0.725,
+   "distance": 0.549,
    "weakMatch": false,
-   "why": "27 分排在 34/64。14 场里 11 场完赛。他的缠斗排在场上前 8/64。比「Jacques Villeneuve」更倚重完赛。完成 153 次超车。他平均开的是第 4.9 档车（全场均值 6.0），比这辆车的一般水平慢 6.1 位。",
+   "why": "27 分排在 34/62。14 场里 11 场完赛。他的缠斗排在场上前 8/62。比「Jacques Villeneuve」更倚重完赛。完成 153 次超车。他平均开的是第 4.9 档车（全场均值 6.0），比这辆车的一般水平慢 6.1 位。",
    "axes": {
     "pace": 0.5755333971735441,
     "consistency": 0.6846761453396524,
@@ -14940,22 +14855,22 @@
    },
    "strength": "combat",
    "strengthRank": 8,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "discipline",
-   "weaknessRank": 56,
-   "weaknessOf": 64,
+   "weaknessRank": 54,
+   "weaknessOf": 62,
    "points": 27,
    "pos": 34
   },
   "Ak_Langley_S": {
    "name": "Ak_Langley_S",
-   "ref": "Valtteri Bottas",
-   "refTrait": "排位强、正赛偏软",
+   "ref": "Valtteri Bottas 型",
+   "refTrait": "排位快、正赛偏软的中上游",
    "refEra": "2010s",
-   "similarity": 0.626,
-   "distance": 0.748,
+   "similarity": 0.632,
+   "distance": 0.735,
    "weakMatch": false,
-   "why": "116 分排在 12/64。14 场里 13 场完赛、2 次登台。他的完赛排在场上前 10/64。拿下 1 次全场最快圈。他平均开的是第 4.8 档车（全场均值 6.0），比这辆车的一般水平慢 0.2 位。",
+   "why": "116 分排在 12/62。14 场里 13 场完赛、2 次登台。他的完赛排在场上前 10/62。比「Valtteri Bottas 型」更倚重轮胎管理。拿下 1 次全场最快圈。他平均开的是第 4.8 档车（全场均值 6.0），比这辆车的一般水平慢 0.2 位。",
    "axes": {
     "pace": 0.5002665710361801,
     "consistency": 0.5935906116000902,
@@ -14966,10 +14881,10 @@
    },
    "strength": "reliability",
    "strengthRank": 10,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "combat",
-   "weaknessRank": 63,
-   "weaknessOf": 64,
+   "weaknessRank": 61,
+   "weaknessOf": 62,
    "points": 116,
    "pos": 12
   },
@@ -14978,10 +14893,10 @@
    "ref": "Kimi Räikkönen",
    "refTrait": "冰人：纯速度，话少",
    "refEra": "2000s",
-   "similarity": 0.888,
-   "distance": 0.224,
+   "similarity": 0.887,
+   "distance": 0.225,
    "weakMatch": false,
-   "why": "71 分排在 22/64。5 场里 4 场完赛、1 个冠军。他的速度排在场上前 8/63。比「Kimi Räikkönen」更倚重节奏稳定性。而完赛是他的相对短板（场上第 29/64）。全季领跑 28 圈（1 站）。他平均开的是第 10.8 档车（全场均值 6.0），比这辆车的一般水平快 4.3 位。",
+   "why": "71 分排在 22/62。5 场里 4 场完赛、1 个冠军。他的速度排在场上前 7/61。比「Kimi Räikkönen」更倚重节奏稳定性。而完赛是他的相对短板（场上第 29/62）。全季领跑 28 圈（1 站）。他平均开的是第 10.8 档车（全场均值 6.0），比这辆车的一般水平快 4.3 位。",
    "axes": {
     "pace": 0.7943041098971995,
     "consistency": 0.8211690363349131,
@@ -14991,11 +14906,11 @@
     "reliability": 0.21428571428571427
    },
    "strength": "pace",
-   "strengthRank": 8,
-   "strengthOf": 63,
+   "strengthRank": 7,
+   "strengthOf": 61,
    "weakness": "discipline",
-   "weaknessRank": 39,
-   "weaknessOf": 64,
+   "weaknessRank": 37,
+   "weaknessOf": 62,
    "points": 71,
    "pos": 22
   },
@@ -15004,10 +14919,10 @@
    "ref": "Mike Hawthorn",
    "refTrait": "稳中取胜，纪律一般",
    "refEra": "1950s",
-   "similarity": 0.599,
-   "distance": 0.803,
+   "similarity": 0.604,
+   "distance": 0.793,
    "weakMatch": false,
-   "why": "154 分排在 8/64。20 场里 16 场完赛、3 次登台、1 个杆位。他的完赛排在场上前 11/64。全季领跑 25 圈（4 站）。他平均开的是第 6.2 档车（全场均值 6.0），比这辆车的一般水平慢 0.2 位。",
+   "why": "154 分排在 8/62。20 场里 16 场完赛、3 次登台、1 个杆位。他的完赛排在场上前 11/62。全季领跑 25 圈（4 站）。他平均开的是第 6.2 档车（全场均值 6.0），比这辆车的一般水平慢 0.2 位。",
    "axes": {
     "pace": 0.5939704375991879,
     "consistency": 0.5409495302236633,
@@ -15018,22 +14933,22 @@
    },
    "strength": "reliability",
    "strengthRank": 11,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "discipline",
-   "weaknessRank": 60,
-   "weaknessOf": 64,
+   "weaknessRank": 58,
+   "weaknessOf": 62,
    "points": 154,
    "pos": 8
   },
   "Lei": {
    "name": "Lei",
-   "ref": "Emerson Fittipaldi",
-   "refTrait": "年轻冠军，节奏干净",
-   "refEra": "1970s",
-   "similarity": 0.568,
-   "distance": 0.864,
+   "ref": "Stirling Moss",
+   "refTrait": "速度与缠斗俱佳，却总与冠军擦肩",
+   "refEra": "1950s",
+   "similarity": 0.572,
+   "distance": 0.855,
    "weakMatch": false,
-   "why": "46 分排在 28/64。7 场里 3 场完赛、1 次登台。他的轮胎管理排在场上前 8/62。比「Emerson Fittipaldi」更倚重缠斗。完成 36 次超车。他平均开的是第 9.6 档车（全场均值 6.0），比这辆车的一般水平快 0.9 位。",
+   "why": "46 分排在 28/62。7 场里 3 场完赛、1 次登台。他的轮胎管理排在场上前 8/60。而速度是他的相对短板（场上第 28/61）。完成 36 次超车。他平均开的是第 9.6 档车（全场均值 6.0），比这辆车的一般水平快 0.9 位。",
    "axes": {
     "pace": 0.6143231264003367,
     "consistency": 0.599304897314376,
@@ -15044,10 +14959,10 @@
    },
    "strength": "tyre",
    "strengthRank": 8,
-   "strengthOf": 62,
+   "strengthOf": 60,
    "weakness": "reliability",
-   "weaknessRank": 59,
-   "weaknessOf": 64,
+   "weaknessRank": 57,
+   "weaknessOf": 62,
    "points": 46,
    "pos": 28
   },
@@ -15056,10 +14971,10 @@
    "ref": "Johnny Herbert",
    "refTrait": "中游常青树",
    "refEra": "1990s",
-   "similarity": 0.85,
-   "distance": 0.299,
+   "similarity": 0.854,
+   "distance": 0.292,
    "weakMatch": false,
-   "why": "4 分排在 53/64。4 场里 3 场完赛。他的完赛排在场上前 35/64。完成 51 次超车。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平慢 5.4 位。",
+   "why": "4 分排在 53/62。4 场里 3 场完赛。他的纪律排在场上前 36/62。完成 51 次超车。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平慢 5.4 位。",
    "axes": {
     "pace": 0.37187719880748865,
     "consistency": 0.5601895734597155,
@@ -15068,12 +14983,12 @@
     "discipline": 0.7892156862745098,
     "reliability": 0.17857142857142858
    },
-   "strength": "reliability",
-   "strengthRank": 35,
-   "strengthOf": 64,
+   "strength": "discipline",
+   "strengthRank": 36,
+   "strengthOf": 62,
    "weakness": "pace",
-   "weaknessRank": 57,
-   "weaknessOf": 63,
+   "weaknessRank": 55,
+   "weaknessOf": 61,
    "points": 4,
    "pos": 53
   },
@@ -15082,10 +14997,10 @@
    "ref": "David Coulthard",
    "refTrait": "稳健的职业车手",
    "refEra": "1990s",
-   "similarity": 0.633,
-   "distance": 0.734,
+   "similarity": 0.627,
+   "distance": 0.746,
    "weakMatch": false,
-   "why": "16 分排在 42/64。3 场里 3 场完赛。他的轮胎管理排在场上前 3/62。全季领跑 1 圈（1 站）。他平均开的是第 6.7 档车（全场均值 6.0），比这辆车的一般水平慢 1.3 位。",
+   "why": "16 分排在 42/62。3 场里 3 场完赛。他的轮胎管理排在场上前 3/60。全季领跑 1 圈（1 站）。他平均开的是第 6.7 档车（全场均值 6.0），比这辆车的一般水平慢 1.3 位。",
    "axes": {
     "pace": 0.5714110879474655,
     "consistency": 0.49878883622959447,
@@ -15096,10 +15011,10 @@
    },
    "strength": "tyre",
    "strengthRank": 3,
-   "strengthOf": 62,
+   "strengthOf": 60,
    "weakness": "consistency",
-   "weaknessRank": 54,
-   "weaknessOf": 63,
+   "weaknessRank": 53,
+   "weaknessOf": 61,
    "points": 16,
    "pos": 42
   },
@@ -15108,10 +15023,10 @@
    "ref": "Eddie Irvine",
    "refTrait": "嘴和车都快",
    "refEra": "1990s",
-   "similarity": 0.603,
-   "distance": 0.794,
+   "similarity": 0.612,
+   "distance": 0.776,
    "weakMatch": false,
-   "why": "107 分排在 16/64。14 场里 14 场完赛、1 次登台。他的完赛排在场上前 7/64。全季领跑 3 圈（2 站）。他平均开的是第 2.9 档车（全场均值 6.0），比这辆车的一般水平快 0.7 位。",
+   "why": "107 分排在 16/62。14 场里 14 场完赛、1 次登台。他的完赛排在场上前 7/62。全季领跑 3 圈（2 站）。他平均开的是第 2.9 档车（全场均值 6.0），比这辆车的一般水平快 0.7 位。",
    "axes": {
     "pace": 0.5707170725362585,
     "consistency": 0.6084856691491762,
@@ -15122,10 +15037,10 @@
    },
    "strength": "reliability",
    "strengthRank": 7,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "discipline",
-   "weaknessRank": 55,
-   "weaknessOf": 64,
+   "weaknessRank": 53,
+   "weaknessOf": 62,
    "points": 107,
    "pos": 16
   },
@@ -15134,10 +15049,10 @@
    "ref": "Graham Hill",
    "refTrait": "稳健老练，两冠在手",
    "refEra": "1960s",
-   "similarity": 0.588,
-   "distance": 0.825,
+   "similarity": 0.592,
+   "distance": 0.817,
    "weakMatch": false,
-   "why": "58 分排在 26/64。4 场里 3 场完赛、2 个冠军、1 个杆位。他的节奏稳定性排在场上前 12/63。全季领跑 52 圈（2 站）。他平均开的是第 5.8 档车（全场均值 6.0），比这辆车的一般水平快 3.2 位。",
+   "why": "58 分排在 26/62。4 场里 3 场完赛、2 个冠军、1 个杆位。他的节奏稳定性排在场上前 12/61。全季领跑 52 圈（2 站）。他平均开的是第 5.8 档车（全场均值 6.0），比这辆车的一般水平快 3.2 位。",
    "axes": {
     "pace": 0.4978042325763383,
     "consistency": 0.846129541864139,
@@ -15148,10 +15063,10 @@
    },
    "strength": "consistency",
    "strengthRank": 12,
-   "strengthOf": 63,
+   "strengthOf": 61,
    "weakness": "tyre",
-   "weaknessRank": 58,
-   "weaknessOf": 62,
+   "weaknessRank": 56,
+   "weaknessOf": 60,
    "points": 58,
    "pos": 26
   },
@@ -15160,10 +15075,10 @@
    "ref": "Jarno Trulli",
    "refTrait": "排位高手，正赛偏保守",
    "refEra": "2000s",
-   "similarity": 0.679,
-   "distance": 0.642,
+   "similarity": 0.682,
+   "distance": 0.636,
    "weakMatch": false,
-   "why": "46 分排在 29/64。11 场里 8 场完赛。他的轮胎管理排在场上前 5/62。完成 149 次超车。他平均开的是第 4.1 档车（全场均值 6.0），比这辆车的一般水平慢 2.2 位。",
+   "why": "46 分排在 29/62。11 场里 8 场完赛。他的轮胎管理排在场上前 5/60。完成 149 次超车。他平均开的是第 4.1 档车（全场均值 6.0），比这辆车的一般水平慢 2.2 位。",
    "axes": {
     "pace": 0.4735376225782524,
     "consistency": 0.6799684044233807,
@@ -15174,10 +15089,10 @@
    },
    "strength": "tyre",
    "strengthRank": 5,
-   "strengthOf": 62,
+   "strengthOf": 60,
    "weakness": "combat",
-   "weaknessRank": 62,
-   "weaknessOf": 64,
+   "weaknessRank": 60,
+   "weaknessOf": 62,
    "points": 46,
    "pos": 29
   },
@@ -15189,7 +15104,7 @@
    "similarity": 0.461,
    "distance": 1.077,
    "weakMatch": false,
-   "why": "2 分排在 54/64。3 场里 2 场完赛。他的纪律排在场上前 16/64。完成 34 次超车。他平均开的是第 2.3 档车（全场均值 6.0），比这辆车的一般水平慢 4.5 位。",
+   "why": "2 分排在 54/62。3 场里 2 场完赛。他的纪律排在场上前 14/62。完成 34 次超车。他平均开的是第 2.3 档车（全场均值 6.0），比这辆车的一般水平慢 4.5 位。",
    "axes": {
     "pace": 0.26662482976753854,
     "consistency": 0.6943654555028963,
@@ -15199,49 +15114,23 @@
     "reliability": 0.14285714285714285
    },
    "strength": "discipline",
-   "strengthRank": 16,
-   "strengthOf": 64,
+   "strengthRank": 14,
+   "strengthOf": 62,
    "weakness": "tyre",
-   "weaknessRank": 61,
-   "weaknessOf": 62,
+   "weaknessRank": 59,
+   "weaknessOf": 60,
    "points": 2,
    "pos": 54
-  },
-  "x1aofeiyang": {
-   "name": "x1aofeiyang",
-   "ref": "Felipe Massa",
-   "refTrait": "速度不错，雨战偏弱",
-   "refEra": "2000s",
-   "similarity": 0.741,
-   "distance": 0.517,
-   "weakMatch": false,
-   "why": "1 分排在 55/64。4 场里 2 场完赛。他的速度排在场上前 13/63。完成 28 次超车。他平均开的是第 7.8 档车（全场均值 6.0），比这辆车的一般水平慢 6.1 位。",
-   "axes": {
-    "pace": 0.7247332107928308,
-    "consistency": 0.6928909952606633,
-    "combat": 0.35135135135135137,
-    "tyre": 0.5291363055479643,
-    "discipline": 0.9117647058823529,
-    "reliability": 0.10714285714285714
-   },
-   "strength": "pace",
-   "strengthRank": 13,
-   "strengthOf": 63,
-   "weakness": "combat",
-   "weaknessRank": 56,
-   "weaknessOf": 64,
-   "points": 1,
-   "pos": 55
   },
   "Gougou": {
    "name": "Gougou",
    "ref": "George Russell",
    "refTrait": "排位突出、执行稳定",
    "refEra": "2020s",
-   "similarity": 0.49,
-   "distance": 1.02,
+   "similarity": 0.496,
+   "distance": 1.007,
    "weakMatch": false,
-   "why": "241 分排在 2/64。21 场里 19 场完赛、2 个冠军、1 次登台、1 个杆位。他的完赛排在场上前 6/64。比「George Russell」更倚重缠斗。全季领跑 6 圈（3 站）。他平均开的是第 8.8 档车（全场均值 6.0），比这辆车的一般水平快 2.7 位。",
+   "why": "241 分排在 2/62。21 场里 19 场完赛、2 个冠军、1 次登台、1 个杆位。他的完赛排在场上前 6/62。比「George Russell」更倚重缠斗。全季领跑 6 圈（3 站）。他平均开的是第 8.8 档车（全场均值 6.0），比这辆车的一般水平快 2.7 位。",
    "axes": {
     "pace": 0.640083997413419,
     "consistency": 0.70260663507109,
@@ -15252,10 +15141,10 @@
    },
    "strength": "reliability",
    "strengthRank": 6,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "discipline",
-   "weaknessRank": 61,
-   "weaknessOf": 64,
+   "weaknessRank": 59,
+   "weaknessOf": 62,
    "points": 241,
    "pos": 2
   },
@@ -15264,10 +15153,10 @@
    "ref": "Robert Kubica",
    "refTrait": "速度与胆量兼备",
    "refEra": "2000s",
-   "similarity": 0.9,
-   "distance": 0.201,
+   "similarity": 0.905,
+   "distance": 0.191,
    "weakMatch": false,
-   "why": "44 分排在 30/64。8 场里 6 场完赛、1 次登台。他的速度排在场上前 20/63。比「Robert Kubica」更倚重完赛。全季领跑 1 圈（1 站）。他平均开的是第 7.6 档车（全场均值 6.0），比这辆车的一般水平慢 2.1 位。",
+   "why": "44 分排在 30/62。8 场里 6 场完赛、1 次登台。他的速度排在场上前 18/61。全季领跑 1 圈（1 站）。他平均开的是第 7.6 档车（全场均值 6.0），比这辆车的一般水平慢 2.1 位。",
    "axes": {
     "pace": 0.6465113800039878,
     "consistency": 0.7373617693522907,
@@ -15277,11 +15166,11 @@
     "reliability": 0.25
    },
    "strength": "pace",
-   "strengthRank": 20,
-   "strengthOf": 63,
+   "strengthRank": 18,
+   "strengthOf": 61,
    "weakness": "tyre",
-   "weaknessRank": 43,
-   "weaknessOf": 62,
+   "weaknessRank": 41,
+   "weaknessOf": 60,
    "points": 44,
    "pos": 30
   },
@@ -15290,10 +15179,10 @@
    "ref": "Keke Rosberg",
    "refTrait": "单圈凶悍的冠军",
    "refEra": "1980s",
-   "similarity": 0.709,
-   "distance": 0.582,
+   "similarity": 0.717,
+   "distance": 0.567,
    "weakMatch": false,
-   "why": "63 分排在 25/64。14 场里 13 场完赛。他的缠斗排在场上前 10/64。比「Keke Rosberg」更倚重完赛。完成 192 次超车。他平均开的是第 7.4 档车（全场均值 6.0），比这辆车的一般水平慢 1.9 位。",
+   "why": "63 分排在 25/62。14 场里 13 场完赛。他的缠斗排在场上前 10/62。比「Keke Rosberg」更倚重完赛。完成 192 次超车。他平均开的是第 7.4 档车（全场均值 6.0），比这辆车的一般水平慢 1.9 位。",
    "axes": {
     "pace": 0.6016092403766695,
     "consistency": 0.5225908372827803,
@@ -15304,10 +15193,10 @@
    },
    "strength": "combat",
    "strengthRank": 10,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "consistency",
-   "weaknessRank": 53,
-   "weaknessOf": 63,
+   "weaknessRank": 52,
+   "weaknessOf": 61,
    "points": 63,
    "pos": 25
   },
@@ -15316,10 +15205,10 @@
    "ref": "Franco Colapinto 型",
    "refTrait": "新秀型：速度有、经验少",
    "refEra": "2020s",
-   "similarity": 0.737,
-   "distance": 0.526,
+   "similarity": 0.731,
+   "distance": 0.538,
    "weakMatch": false,
-   "why": "49 分排在 27/64。5 场里 4 场完赛、1 次登台。他的轮胎管理排在场上前 18/62。全季领跑 1 圈（1 站）。他平均开的是第 8.8 档车（全场均值 6.0），比这辆车的一般水平快 2.0 位。",
+   "why": "49 分排在 27/62。5 场里 4 场完赛、1 次登台。他的轮胎管理排在场上前 17/60。全季领跑 1 圈（1 站）。他平均开的是第 8.8 档车（全场均值 6.0），比这辆车的一般水平快 2.0 位。",
    "axes": {
     "pace": 0.35047760165908987,
     "consistency": 0.46597156398104267,
@@ -15329,11 +15218,11 @@
     "reliability": 0.21428571428571427
    },
    "strength": "tyre",
-   "strengthRank": 18,
-   "strengthOf": 62,
+   "strengthRank": 17,
+   "strengthOf": 60,
    "weakness": "pace",
-   "weaknessRank": 58,
-   "weaknessOf": 63,
+   "weaknessRank": 56,
+   "weaknessOf": 61,
    "points": 49,
    "pos": 27
   },
@@ -15342,10 +15231,10 @@
    "ref": "Giancarlo Fisichella",
    "refTrait": "中游稳定输出",
    "refEra": "2000s",
-   "similarity": 0.879,
-   "distance": 0.243,
+   "similarity": 0.87,
+   "distance": 0.26,
    "weakMatch": false,
-   "why": "20 分排在 38/64。6 场里 4 场完赛。他的轮胎管理排在场上前 29/62。而完赛是他的相对短板（场上第 37/64）。完成 42 次超车。他平均开的是第 5.8 档车（全场均值 6.0），比这辆车的一般水平慢 5.9 位。",
+   "why": "20 分排在 38/62。6 场里 4 场完赛。他的轮胎管理排在场上前 27/60。完成 42 次超车。他平均开的是第 5.8 档车（全场均值 6.0），比这辆车的一般水平慢 5.9 位。",
    "axes": {
     "pace": 0.4068416447993759,
     "consistency": 0.6132069510268563,
@@ -15355,11 +15244,11 @@
     "reliability": 0.17857142857142858
    },
    "strength": "tyre",
-   "strengthRank": 29,
-   "strengthOf": 62,
+   "strengthRank": 27,
+   "strengthOf": 60,
    "weakness": "pace",
-   "weaknessRank": 54,
-   "weaknessOf": 63,
+   "weaknessRank": 53,
+   "weaknessOf": 61,
    "points": 20,
    "pos": 38
   },
@@ -15368,10 +15257,10 @@
    "ref": "Alberto Ascari",
    "refTrait": "连霸两年，节奏稳定得像机器",
    "refEra": "1950s",
-   "similarity": 0.384,
-   "distance": 1.233,
+   "similarity": 0.391,
+   "distance": 1.217,
    "weakMatch": true,
-   "why": "215 分排在 5/64。20 场里 20 场完赛、1 个冠军、3 次登台、1 个杆位。他的完赛排在场上前 4/64。全季领跑 43 圈（5 站）。他平均开的是第 5.7 档车（全场均值 6.0），比这辆车的一般水平快 1.7 位。",
+   "why": "215 分排在 5/62。20 场里 20 场完赛、1 个冠军、3 次登台、1 个杆位。他的完赛排在场上前 4/62。全季领跑 43 圈（5 站）。他平均开的是第 5.7 档车（全场均值 6.0），比这辆车的一般水平快 1.7 位。",
    "axes": {
     "pace": 0.6413202269184952,
     "consistency": 0.6320063191153239,
@@ -15382,10 +15271,10 @@
    },
    "strength": "reliability",
    "strengthRank": 4,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "combat",
-   "weaknessRank": 64,
-   "weaknessOf": 64,
+   "weaknessRank": 62,
+   "weaknessOf": 62,
    "points": 215,
    "pos": 5
   },
@@ -15394,10 +15283,10 @@
    "ref": "Lance Stroll",
    "refTrait": "雨战偶有神来之笔，平时起伏大",
    "refEra": "2020s",
-   "similarity": 0.519,
-   "distance": 0.961,
+   "similarity": 0.514,
+   "distance": 0.972,
    "weakMatch": false,
-   "why": "0 分排在 57/64。1 场里 0 场完赛。他的纪律排在场上前 5/64。完成 6 次超车。他平均开的是第 5.0 档车（全场均值 6.0），比这辆车的一般水平慢 9.4 位。",
+   "why": "0 分排在 56/62。1 场里 0 场完赛。他的纪律排在场上前 4/62。完成 6 次超车。他平均开的是第 5.0 档车（全场均值 6.0），比这辆车的一般水平慢 9.4 位。",
    "axes": {
     "pace": 0.17216501268941253,
     "consistency": 0.3295418641390204,
@@ -15407,23 +15296,23 @@
     "reliability": 0.07142857142857142
    },
    "strength": "discipline",
-   "strengthRank": 5,
-   "strengthOf": 64,
+   "strengthRank": 4,
+   "strengthOf": 62,
    "weakness": "pace",
-   "weaknessRank": 62,
-   "weaknessOf": 63,
+   "weaknessRank": 60,
+   "weaknessOf": 61,
    "points": 0,
-   "pos": 57
+   "pos": 56
   },
   "funanana": {
    "name": "funanana",
    "ref": "Damon Hill",
    "refTrait": "稳健的冠军，速度不顶尖",
    "refEra": "1990s",
-   "similarity": 0.738,
-   "distance": 0.525,
+   "similarity": 0.734,
+   "distance": 0.531,
    "weakMatch": false,
-   "why": "25 分排在 35/64。1 场里 1 场完赛、1 次登台。他的纪律排在场上前 1/64。比「Damon Hill」更倚重缠斗。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
+   "why": "25 分排在 35/62。1 场里 1 场完赛、1 次登台。他的纪律排在场上前 1/62。比「Damon Hill」更倚重缠斗。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
    "axes": {
     "pace": 0.5441697002231133,
     "consistency": 0.9206951026856239,
@@ -15434,10 +15323,10 @@
    },
    "strength": "discipline",
    "strengthRank": 1,
-   "strengthOf": 64,
-   "weakness": "pace",
+   "strengthOf": 62,
+   "weakness": "reliability",
    "weaknessRank": 44,
-   "weaknessOf": 63,
+   "weaknessOf": 62,
    "points": 25,
    "pos": 35
   },
@@ -15446,10 +15335,10 @@
    "ref": "Sebastian Vettel",
    "refTrait": "四冠，单圈与杆位机器",
    "refEra": "2010s",
-   "similarity": 0.801,
+   "similarity": 0.802,
    "distance": 0.397,
    "weakMatch": false,
-   "why": "272 分排在 1/64。21 场里 17 场完赛、4 个冠军、6 次登台、5 个杆位。他的完赛排在场上前 8/64。比「Sebastian Vettel」更倚重轮胎管理。而速度是他的相对短板（场上第 15/63）。全季领跑 130 圈（7 站）。他平均开的是第 5.5 档车（全场均值 6.0），比这辆车的一般水平快 2.8 位。",
+   "why": "272 分排在 1/62。21 场里 17 场完赛、4 个冠军、6 次登台、5 个杆位。他的完赛排在场上前 8/62。比「Sebastian Vettel」更倚重轮胎管理。而节奏稳定性是他的相对短板（场上第 34/61）。全季领跑 130 圈（7 站）。他平均开的是第 5.5 档车（全场均值 6.0），比这辆车的一般水平快 2.8 位。",
    "axes": {
     "pace": 0.6831801717438355,
     "consistency": 0.6401596408081817,
@@ -15460,10 +15349,10 @@
    },
    "strength": "reliability",
    "strengthRank": 8,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "discipline",
-   "weaknessRank": 47,
-   "weaknessOf": 64,
+   "weaknessRank": 45,
+   "weaknessOf": 62,
    "points": 272,
    "pos": 1
   },
@@ -15472,10 +15361,10 @@
    "ref": "Gerhard Berger",
    "refTrait": "直来直去的快枪手",
    "refEra": "1980s",
-   "similarity": 0.871,
-   "distance": 0.257,
+   "similarity": 0.867,
+   "distance": 0.265,
    "weakMatch": false,
-   "why": "112 分排在 14/64。11 场里 8 场完赛、2 个冠军。他的完赛排在场上前 22/64。比「Gerhard Berger」更倚重轮胎管理。全季领跑 4 圈（2 站）。他平均开的是第 9.6 档车（全场均值 6.0），比这辆车的一般水平快 3.2 位。",
+   "why": "112 分排在 14/62。11 场里 8 场完赛、2 个冠军。他的完赛排在场上前 22/62。比「Gerhard Berger」更倚重轮胎管理。全季领跑 4 圈（2 站）。他平均开的是第 9.6 档车（全场均值 6.0），比这辆车的一般水平快 3.2 位。",
    "axes": {
     "pace": 0.5663799402675571,
     "consistency": 0.6180094786729857,
@@ -15486,10 +15375,10 @@
    },
    "strength": "reliability",
    "strengthRank": 22,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "discipline",
-   "weaknessRank": 44,
-   "weaknessOf": 64,
+   "weaknessRank": 42,
+   "weaknessOf": 62,
    "points": 112,
    "pos": 14
   },
@@ -15498,10 +15387,10 @@
    "ref": "Juan Manuel Fangio",
    "refTrait": "五冠，靠判断力与轮胎管理赢下不同车队",
    "refEra": "1950s",
-   "similarity": 0.469,
-   "distance": 1.062,
+   "similarity": 0.463,
+   "distance": 1.073,
    "weakMatch": false,
-   "why": "18 分排在 40/64。1 场里 1 场完赛。他的速度排在场上前 4/63。比「Juan Manuel Fangio」更倚重缠斗。完成 14 次超车。他平均开的是第 11.0 档车（全场均值 6.0），比这辆车的一般水平快 7.4 位。",
+   "why": "18 分排在 40/62。1 场里 1 场完赛。他的速度排在场上前 4/61。比「Juan Manuel Fangio」更倚重缠斗。完成 14 次超车。他平均开的是第 11.0 档车（全场均值 6.0），比这辆车的一般水平快 7.4 位。",
    "axes": {
     "pace": 0.8661091146731746,
     "consistency": 0.9443917851500789,
@@ -15512,10 +15401,10 @@
    },
    "strength": "pace",
    "strengthRank": 4,
-   "strengthOf": 63,
+   "strengthOf": 61,
    "weakness": "reliability",
-   "weaknessRank": 44,
-   "weaknessOf": 64,
+   "weaknessRank": 45,
+   "weaknessOf": 62,
    "points": 18,
    "pos": 40
   },
@@ -15524,10 +15413,10 @@
    "ref": "Jenson Button",
    "refTrait": "丝滑的轮胎管理，节奏极稳",
    "refEra": "2000s",
-   "similarity": 0.472,
-   "distance": 1.056,
+   "similarity": 0.467,
+   "distance": 1.066,
    "weakMatch": false,
-   "why": "8 分排在 50/64。4 场里 2 场完赛、1 个杆位。他的轮胎管理排在场上前 1/62。比「Jenson Button」更倚重速度。全季领跑 6 圈（1 站）。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平慢 4.4 位。",
+   "why": "8 分排在 50/62。4 场里 2 场完赛、1 个杆位。他的轮胎管理排在场上前 1/60。比「Jenson Button」更倚重速度。全季领跑 6 圈（1 站）。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平慢 4.4 位。",
    "axes": {
     "pace": 0.7050708951716207,
     "consistency": 0.6864928909952606,
@@ -15538,22 +15427,22 @@
    },
    "strength": "tyre",
    "strengthRank": 1,
-   "strengthOf": 62,
+   "strengthOf": 60,
    "weakness": "reliability",
-   "weaknessRank": 56,
-   "weaknessOf": 64,
+   "weaknessRank": 55,
+   "weaknessOf": 62,
    "points": 8,
    "pos": 50
   },
   "糕白": {
    "name": "糕白",
-   "ref": "Jacky Ickx",
-   "refTrait": "雨战与耐力赛之王",
+   "ref": "Emerson Fittipaldi",
+   "refTrait": "年轻冠军，节奏干净",
    "refEra": "1970s",
-   "similarity": 0.674,
-   "distance": 0.652,
+   "similarity": 0.67,
+   "distance": 0.66,
    "weakMatch": false,
-   "why": "25 分排在 36/64。4 场里 2 场完赛、1 个冠军、1 个杆位。他的节奏稳定性排在场上前 4/63。全季领跑 23 圈（1 站）。他平均开的是第 6.0 档车（全场均值 6.0），比这辆车的一般水平慢 3.3 位。",
+   "why": "25 分排在 36/62。4 场里 2 场完赛、1 个冠军、1 个杆位。他的节奏稳定性排在场上前 4/61。全季领跑 23 圈（1 站）。他平均开的是第 6.0 档车（全场均值 6.0），比这辆车的一般水平慢 3.3 位。",
    "axes": {
     "pace": 0.5199627585512742,
     "consistency": 0.9619273301737756,
@@ -15564,10 +15453,10 @@
    },
    "strength": "consistency",
    "strengthRank": 4,
-   "strengthOf": 63,
+   "strengthOf": 61,
    "weakness": "reliability",
-   "weaknessRank": 57,
-   "weaknessOf": 64,
+   "weaknessRank": 56,
+   "weaknessOf": 62,
    "points": 25,
    "pos": 36
   },
@@ -15576,10 +15465,10 @@
    "ref": "Mika Häkkinen",
    "refTrait": "纯速度型两冠",
    "refEra": "1990s",
-   "similarity": 0.764,
-   "distance": 0.472,
+   "similarity": 0.765,
+   "distance": 0.47,
    "weakMatch": false,
-   "why": "40 分排在 31/64。2 场里 2 场完赛、1 次登台。他的速度排在场上前 2/63。比「Mika Häkkinen」更倚重纪律。全季领跑 8 圈（1 站）。他平均开的是第 9.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
+   "why": "40 分排在 31/62。2 场里 2 场完赛、1 次登台。他的速度排在场上前 2/61。比「Mika Häkkinen」更倚重纪律。全季领跑 8 圈（1 站）。他平均开的是第 9.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
    "axes": {
     "pace": 0.9293784577558338,
     "consistency": 0.8246445497630331,
@@ -15590,10 +15479,10 @@
    },
    "strength": "pace",
    "strengthRank": 2,
-   "strengthOf": 63,
+   "strengthOf": 61,
    "weakness": "tyre",
-   "weaknessRank": 46,
-   "weaknessOf": 62,
+   "weaknessRank": 44,
+   "weaknessOf": 60,
    "points": 40,
    "pos": 31
   },
@@ -15602,10 +15491,10 @@
    "ref": "Daniel Ricciardo",
    "refTrait": "晚刹车超车型，笑容与速度并存",
    "refEra": "2010s",
-   "similarity": 0.735,
-   "distance": 0.53,
+   "similarity": 0.742,
+   "distance": 0.515,
    "weakMatch": false,
-   "why": "144 分排在 9/64。14 场里 12 场完赛、3 次登台。他的缠斗排在场上前 4/64。比「Daniel Ricciardo」更倚重完赛。完成 200 次超车。他平均开的是第 7.6 档车（全场均值 6.0），比这辆车的一般水平快 1.1 位。",
+   "why": "144 分排在 9/62。14 场里 12 场完赛、3 次登台。他的缠斗排在场上前 4/62。比「Daniel Ricciardo」更倚重完赛。完成 200 次超车。他平均开的是第 7.6 档车（全场均值 6.0），比这辆车的一般水平快 1.1 位。",
    "axes": {
     "pace": 0.6156825430990475,
     "consistency": 0.6319566689234933,
@@ -15616,22 +15505,22 @@
    },
    "strength": "combat",
    "strengthRank": 4,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "discipline",
-   "weaknessRank": 52,
-   "weaknessOf": 64,
+   "weaknessRank": 50,
+   "weaknessOf": 62,
    "points": 144,
    "pos": 9
   },
   "star-falI04": {
    "name": "star-falI04",
-   "ref": "Valtteri Bottas 型",
-   "refTrait": "排位快、正赛偏软的中上游",
+   "ref": "Valtteri Bottas",
+   "refTrait": "排位强、正赛偏软",
    "refEra": "2010s",
-   "similarity": 0.531,
-   "distance": 0.938,
+   "similarity": 0.535,
+   "distance": 0.93,
    "weakMatch": false,
-   "why": "25 分排在 37/64。11 场里 11 场完赛。他的完赛排在场上前 14/64。比「Valtteri Bottas 型」更倚重轮胎管理。拿下 1 次全场最快圈。他平均开的是第 1.9 档车（全场均值 6.0），比这辆车的一般水平慢 3.6 位。",
+   "why": "25 分排在 37/62。11 场里 11 场完赛。他的完赛排在场上前 14/62。比「Valtteri Bottas」更倚重轮胎管理。拿下 1 次全场最快圈。他平均开的是第 1.9 档车（全场均值 6.0），比这辆车的一般水平慢 3.6 位。",
    "axes": {
     "pace": 0.6406623021221465,
     "consistency": 0.49102398391497903,
@@ -15642,10 +15531,10 @@
    },
    "strength": "reliability",
    "strengthRank": 14,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "combat",
-   "weaknessRank": 58,
-   "weaknessOf": 64,
+   "weaknessRank": 56,
+   "weaknessOf": 62,
    "points": 25,
    "pos": 37
   },
@@ -15654,10 +15543,10 @@
    "ref": "Oscar Piastri",
    "refTrait": "冷静、干净、几乎不犯错",
    "refEra": "2020s",
-   "similarity": 0.43,
-   "distance": 1.14,
+   "similarity": 0.429,
+   "distance": 1.141,
    "weakMatch": false,
-   "why": "10 分排在 45/64。1 场里 1 场完赛。他的节奏稳定性排在场上前 2/63。比「Oscar Piastri」更倚重速度。完成 12 次超车。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平快 2.6 位。",
+   "why": "10 分排在 45/62。1 场里 1 场完赛。他的节奏稳定性排在场上前 2/61。比「Oscar Piastri」更倚重速度。完成 12 次超车。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平快 2.6 位。",
    "axes": {
     "pace": 0.9244689275700677,
     "consistency": 0.9860979462875198,
@@ -15668,10 +15557,10 @@
    },
    "strength": "consistency",
    "strengthRank": 2,
-   "strengthOf": 63,
+   "strengthOf": 61,
    "weakness": "tyre",
-   "weaknessRank": 50,
-   "weaknessOf": 62,
+   "weaknessRank": 48,
+   "weaknessOf": 60,
    "points": 10,
    "pos": 45
   },
@@ -15680,10 +15569,10 @@
    "ref": "Mario Andretti",
    "refTrait": "全能老将，通吃各种赛道",
    "refEra": "1970s",
-   "similarity": 0.79,
-   "distance": 0.42,
+   "similarity": 0.791,
+   "distance": 0.417,
    "weakMatch": false,
-   "why": "69 分排在 24/64。5 场里 5 场完赛、3 次登台。他的缠斗排在场上前 6/64。比「Mario Andretti」更倚重速度。全季领跑 20 圈（1 站）。他平均开的是第 5.4 档车（全场均值 6.0），比这辆车的一般水平快 2.3 位。",
+   "why": "69 分排在 24/62。5 场里 5 场完赛、3 次登台。他的缠斗排在场上前 6/62。比「Mario Andretti」更倚重速度。全季领跑 20 圈（1 站）。他平均开的是第 5.4 档车（全场均值 6.0），比这辆车的一般水平快 2.3 位。",
    "axes": {
     "pace": 0.7679346632502254,
     "consistency": 0.761516587677725,
@@ -15694,10 +15583,10 @@
    },
    "strength": "combat",
    "strengthRank": 6,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "tyre",
-   "weaknessRank": 31,
-   "weaknessOf": 62,
+   "weaknessRank": 30,
+   "weaknessOf": 60,
    "points": 69,
    "pos": 24
   },
@@ -15706,10 +15595,10 @@
    "ref": "Mark Webber",
    "refTrait": "起步一般、正赛强硬",
    "refEra": "2000s",
-   "similarity": 0.768,
-   "distance": 0.463,
+   "similarity": 0.772,
+   "distance": 0.457,
    "weakMatch": false,
-   "why": "6 分排在 51/64。4 场里 3 场完赛。他的节奏稳定性排在场上前 16/63。完成 29 次超车。他平均开的是第 4.8 档车（全场均值 6.0），比这辆车的一般水平慢 5.8 位。",
+   "why": "6 分排在 51/62。4 场里 3 场完赛。他的速度排在场上前 16/61。比「Mark Webber」更倚重节奏稳定性。完成 29 次超车。他平均开的是第 4.8 档车（全场均值 6.0），比这辆车的一般水平慢 5.8 位。",
    "axes": {
     "pace": 0.6650385024490703,
     "consistency": 0.8117693522906793,
@@ -15718,24 +15607,24 @@
     "discipline": 0.8431372549019608,
     "reliability": 0.17857142857142858
    },
-   "strength": "consistency",
+   "strength": "pace",
    "strengthRank": 16,
-   "strengthOf": 63,
+   "strengthOf": 61,
    "weakness": "tyre",
-   "weaknessRank": 47,
-   "weaknessOf": 62,
+   "weaknessRank": 45,
+   "weaknessOf": 60,
    "points": 6,
    "pos": 51
   },
   "黑崎小雪": {
    "name": "黑崎小雪",
-   "ref": "Jody Scheckter",
-   "refTrait": "稳扎稳打的冠军",
+   "ref": "Jacky Ickx",
+   "refTrait": "雨战与耐力赛之王",
    "refEra": "1970s",
-   "similarity": 0.65,
-   "distance": 0.7,
+   "similarity": 0.676,
+   "distance": 0.647,
    "weakMatch": false,
-   "why": "121 分排在 11/64。13 场里 12 场完赛、1 个冠军、3 次登台、1 个杆位。他的轮胎管理排在场上前 15/62。比「Jody Scheckter」更倚重速度。全季领跑 29 圈（2 站）。他平均开的是第 7.1 档车（全场均值 6.0），比这辆车的一般水平快 0.8 位。",
+   "why": "121 分排在 11/62。13 场里 12 场完赛、1 个冠军、3 次登台、1 个杆位。他的轮胎管理排在场上前 15/60。比「Jacky Ickx」更倚重完赛。全季领跑 29 圈（2 站）。他平均开的是第 7.1 档车（全场均值 6.0），比这辆车的一般水平快 0.8 位。",
    "axes": {
     "pace": 0.6251182951423281,
     "consistency": 0.5297525013164823,
@@ -15746,10 +15635,10 @@
    },
    "strength": "tyre",
    "strengthRank": 15,
-   "strengthOf": 62,
+   "strengthOf": 60,
    "weakness": "consistency",
-   "weaknessRank": 51,
-   "weaknessOf": 63,
+   "weaknessRank": 50,
+   "weaknessOf": 61,
    "points": 121,
    "pos": 11
   },
@@ -15758,10 +15647,10 @@
    "ref": "Michele Alboreto",
    "refTrait": "稳定但缺一击致命的速度",
    "refEra": "1980s",
-   "similarity": 0.526,
-   "distance": 0.947,
+   "similarity": 0.522,
+   "distance": 0.956,
    "weakMatch": false,
-   "why": "0 分排在 59/64。3 场里 0 场完赛。他的轮胎管理排在场上前 4/62。完成 18 次超车。他平均开的是第 8.7 档车（全场均值 6.0），比这辆车的一般水平慢 10.7 位。",
+   "why": "0 分排在 58/62。3 场里 0 场完赛。他的轮胎管理排在场上前 4/60。完成 18 次超车。他平均开的是第 8.7 档车（全场均值 6.0），比这辆车的一般水平慢 10.7 位。",
    "axes": {
     "pace": 0.19101287933435115,
     "consistency": 0.7747235387045813,
@@ -15772,22 +15661,22 @@
    },
    "strength": "tyre",
    "strengthRank": 4,
-   "strengthOf": 62,
+   "strengthOf": 60,
    "weakness": "reliability",
-   "weaknessRank": 64,
-   "weaknessOf": 64,
+   "weaknessRank": 62,
+   "weaknessOf": 62,
    "points": 0,
-   "pos": 59
+   "pos": 58
   },
   "esmac1": {
    "name": "esmac1",
    "ref": "René Arnoux",
    "refTrait": "缠斗好手，名局制造者",
    "refEra": "1980s",
-   "similarity": 0.801,
-   "distance": 0.398,
+   "similarity": 0.808,
+   "distance": 0.383,
    "weakMatch": false,
-   "why": "37 分排在 32/64。9 场里 7 场完赛。他的缠斗排在场上前 18/64。比「René Arnoux」更倚重完赛。完成 152 次超车。他平均开的是第 4.2 档车（全场均值 6.0），比这辆车的一般水平慢 3.3 位。",
+   "why": "37 分排在 32/62。9 场里 7 场完赛。他的缠斗排在场上前 17/62。比「René Arnoux」更倚重完赛。完成 152 次超车。他平均开的是第 4.2 档车（全场均值 6.0），比这辆车的一般水平慢 3.3 位。",
    "axes": {
     "pace": 0.5443502381807513,
     "consistency": 0.5247323152536423,
@@ -15797,11 +15686,11 @@
     "reliability": 0.2857142857142857
    },
    "strength": "combat",
-   "strengthRank": 18,
-   "strengthOf": 64,
+   "strengthRank": 17,
+   "strengthOf": 62,
    "weakness": "tyre",
-   "weaknessRank": 56,
-   "weaknessOf": 62,
+   "weaknessRank": 54,
+   "weaknessOf": 60,
    "points": 37,
    "pos": 32
   },
@@ -15810,10 +15699,10 @@
    "ref": "Denny Hulme",
    "refTrait": "低调稳健的冠军",
    "refEra": "1960s",
-   "similarity": 0.374,
-   "distance": 1.252,
+   "similarity": 0.367,
+   "distance": 1.266,
    "weakMatch": true,
-   "why": "0 分排在 60/64。1 场里 1 场完赛。他的纪律排在场上前 3/64。比「Denny Hulme」更倚重缠斗。完成 8 次超车。他平均开的是第 8.0 档车（全场均值 6.0），比这辆车的一般水平慢 9.5 位。",
+   "why": "0 分排在 59/62。1 场里 1 场完赛。他的纪律排在场上前 3/62。比「Denny Hulme」更倚重缠斗。完成 8 次超车。他平均开的是第 8.0 档车（全场均值 6.0），比这辆车的一般水平慢 9.5 位。",
    "axes": {
     "pace": 0.0,
     "consistency": 0.7115323854660347,
@@ -15824,22 +15713,22 @@
    },
    "strength": "discipline",
    "strengthRank": 3,
-   "strengthOf": 64,
+   "strengthOf": 62,
    "weakness": "pace",
-   "weaknessRank": 63,
-   "weaknessOf": 63,
+   "weaknessRank": 61,
+   "weaknessOf": 61,
    "points": 0,
-   "pos": 60
+   "pos": 59
   },
   "MFGA": {
    "name": "MFGA",
-   "ref": "Ronnie Peterson",
-   "refTrait": "超车型，速度快但脆",
-   "refEra": "1970s",
-   "similarity": 0.295,
-   "distance": 1.411,
-   "weakMatch": true,
-   "why": "10 分排在 46/64。3 场里 2 场完赛、1 次登台。他的节奏稳定性排在场上前 17/63。全季领跑 8 圈（1 站）。他平均开的是第 7.7 档车（全场均值 6.0），比这辆车的一般水平慢 4.4 位。",
+   "ref": "Alex Albon",
+   "refTrait": "稳、干净、少失误",
+   "refEra": "2020s",
+   "similarity": 0.448,
+   "distance": 1.104,
+   "weakMatch": false,
+   "why": "10 分排在 46/62。3 场里 2 场完赛、1 次登台。他的节奏稳定性排在场上前 17/61。比「Alex Albon」更倚重缠斗。全季领跑 8 圈（1 站）。他平均开的是第 7.7 档车（全场均值 6.0），比这辆车的一般水平慢 4.4 位。",
    "axes": {
     "pace": 0.5604398189726812,
     "consistency": 0.8001579778830963,
@@ -15850,10 +15739,10 @@
    },
    "strength": "consistency",
    "strengthRank": 17,
-   "strengthOf": 63,
+   "strengthOf": 61,
    "weakness": "tyre",
-   "weaknessRank": 62,
-   "weaknessOf": 62,
+   "weaknessRank": 60,
+   "weaknessOf": 60,
    "points": 10,
    "pos": 46
   },
@@ -15862,10 +15751,10 @@
    "ref": "Ayrton Senna",
    "refTrait": "单圈神话与雨战之王，缠斗极硬",
    "refEra": "1980s",
-   "similarity": 0.45,
-   "distance": 1.099,
+   "similarity": 0.449,
+   "distance": 1.103,
    "weakMatch": false,
-   "why": "10 分排在 47/64。1 场里 1 场完赛、1 次登台。他的速度排在场上前 1/63。比「Ayrton Senna」更倚重纪律。而缠斗是他的相对短板（场上第 16/64）。完成 15 次超车。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
+   "why": "10 分排在 47/62。1 场里 1 场完赛、1 次登台。他的速度排在场上前 1/61。比「Ayrton Senna」更倚重纪律。而缠斗是他的相对短板（场上第 15/62）。完成 15 次超车。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
    "axes": {
     "pace": 1.0,
     "consistency": 0.924170616113744,
@@ -15876,10 +15765,10 @@
    },
    "strength": "pace",
    "strengthRank": 1,
-   "strengthOf": 63,
+   "strengthOf": 61,
    "weakness": "reliability",
-   "weaknessRank": 48,
-   "weaknessOf": 64,
+   "weaknessRank": 49,
+   "weaknessOf": 62,
    "points": 10,
    "pos": 47
   },
@@ -15888,10 +15777,10 @@
    "ref": "John Surtees",
    "refTrait": "摩托与四轮双料冠军，全能",
    "refEra": "1960s",
-   "similarity": 0.724,
-   "distance": 0.551,
+   "similarity": 0.723,
+   "distance": 0.554,
    "weakMatch": false,
-   "why": "72 分排在 21/64。5 场里 4 场完赛、2 个冠军、1 次登台、2 个杆位。他的纪律排在场上前 19/64。全季领跑 81 圈（4 站）。他平均开的是第 5.8 档车（全场均值 6.0），比这辆车的一般水平快 3.8 位。",
+   "why": "72 分排在 21/62。5 场里 4 场完赛、2 个冠军、1 次登台、2 个杆位。他的纪律排在场上前 17/62。全季领跑 81 圈（4 站）。他平均开的是第 5.8 档车（全场均值 6.0），比这辆车的一般水平快 3.8 位。",
    "axes": {
     "pace": 0.4649319010846246,
     "consistency": 0.5915955766192732,
@@ -15901,11 +15790,11 @@
     "reliability": 0.21428571428571427
    },
    "strength": "discipline",
-   "strengthRank": 19,
-   "strengthOf": 64,
+   "strengthRank": 17,
+   "strengthOf": 62,
    "weakness": "tyre",
-   "weaknessRank": 54,
-   "weaknessOf": 62,
+   "weaknessRank": 52,
+   "weaknessOf": 60,
    "points": 72,
    "pos": 21
   },
@@ -15914,10 +15803,10 @@
    "ref": "Nico Hülkenberg",
    "refTrait": "排位常年超水平，正赛温吞",
    "refEra": "2020s",
-   "similarity": 0.564,
-   "distance": 0.871,
+   "similarity": 0.56,
+   "distance": 0.88,
    "weakMatch": false,
-   "why": "29 分排在 33/64。5 场里 4 场完赛。他的轮胎管理排在场上前 28/62。完成 81 次超车。他平均开的是第 5.0 档车（全场均值 6.0），比这辆车的一般水平慢 1.4 位。",
+   "why": "29 分排在 33/62。5 场里 4 场完赛。他的轮胎管理排在场上前 26/60。完成 81 次超车。他平均开的是第 5.0 档车（全场均值 6.0），比这辆车的一般水平慢 1.4 位。",
    "axes": {
     "pace": 0.5209510078058712,
     "consistency": 0.31797788309636643,
@@ -15927,11 +15816,11 @@
     "reliability": 0.21428571428571427
    },
    "strength": "tyre",
-   "strengthRank": 28,
-   "strengthOf": 62,
+   "strengthRank": 26,
+   "strengthOf": 60,
    "weakness": "consistency",
-   "weaknessRank": 61,
-   "weaknessOf": 63,
+   "weaknessRank": 59,
+   "weaknessOf": 61,
    "points": 29,
    "pos": 33
   },
@@ -15940,10 +15829,10 @@
    "ref": "Esteban Ocon",
    "refTrait": "队友内战从不手软",
    "refEra": "2020s",
-   "similarity": 0.733,
+   "similarity": 0.732,
    "distance": 0.535,
    "weakMatch": false,
-   "why": "18 分排在 41/64。6 场里 4 场完赛、1 个杆位。他的纪律排在场上前 37/64。全季领跑 4 圈（1 站）。他平均开的是第 7.2 档车（全场均值 6.0），比这辆车的一般水平慢 3.0 位。",
+   "why": "18 分排在 41/62。6 场里 4 场完赛、1 个杆位。他的纪律排在场上前 35/62。全季领跑 4 圈（1 站）。他平均开的是第 7.2 档车（全场均值 6.0），比这辆车的一般水平慢 3.0 位。",
    "axes": {
     "pace": 0.4832515548092624,
     "consistency": 0.5408372827804107,
@@ -15953,11 +15842,11 @@
     "reliability": 0.17857142857142858
    },
    "strength": "discipline",
-   "strengthRank": 37,
-   "strengthOf": 64,
+   "strengthRank": 35,
+   "strengthOf": 62,
    "weakness": "tyre",
-   "weaknessRank": 57,
-   "weaknessOf": 62,
+   "weaknessRank": 55,
+   "weaknessOf": 60,
    "points": 18,
    "pos": 41
   },
@@ -15966,10 +15855,10 @@
    "ref": "Charles Leclerc",
    "refTrait": "一圈速度顶级，稳定与完赛是短板",
    "refEra": "2020s",
-   "similarity": 0.687,
+   "similarity": 0.686,
    "distance": 0.627,
    "weakMatch": false,
-   "why": "13 分排在 44/64。3 场里 2 场完赛。他的速度排在场上前 12/63。比「Charles Leclerc」更倚重纪律。完成 35 次超车。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平快 1.0 位。",
+   "why": "13 分排在 44/62。3 场里 2 场完赛。他的速度排在场上前 12/61。比「Charles Leclerc」更倚重纪律。完成 35 次超车。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平快 1.0 位。",
    "axes": {
     "pace": 0.7259783281214383,
     "consistency": 0.35860979462875203,
@@ -15980,10 +15869,10 @@
    },
    "strength": "pace",
    "strengthRank": 12,
-   "strengthOf": 63,
+   "strengthOf": 61,
    "weakness": "consistency",
-   "weaknessRank": 59,
-   "weaknessOf": 63,
+   "weaknessRank": 57,
+   "weaknessOf": 61,
    "points": 13,
    "pos": 44
   },
@@ -15992,10 +15881,10 @@
    "ref": "Jean Alesi",
    "refTrait": "热血缠斗型，成绩配不上天赋",
    "refEra": "1990s",
-   "similarity": 0.437,
-   "distance": 1.127,
+   "similarity": 0.439,
+   "distance": 1.122,
    "weakMatch": false,
-   "why": "14 分排在 43/64。1 场里 1 场完赛。他的纪律排在场上前 6/64。拿下 1 次全场最快圈。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平快 5.0 位。",
+   "why": "14 分排在 43/62。1 场里 1 场完赛。他的纪律排在场上前 5/62。拿下 1 次全场最快圈。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平快 5.0 位。",
    "axes": {
     "pace": 0.6630548956503898,
     "consistency": 0.6126382306477093,
@@ -16005,49 +15894,23 @@
     "reliability": 0.14285714285714285
    },
    "strength": "discipline",
-   "strengthRank": 6,
-   "strengthOf": 64,
+   "strengthRank": 5,
+   "strengthOf": 62,
    "weakness": "tyre",
-   "weaknessRank": 60,
-   "weaknessOf": 62,
+   "weaknessRank": 58,
+   "weaknessOf": 60,
    "points": 14,
    "pos": 43
-  },
-  "清蒸猫头凉拌菠萝": {
-   "name": "清蒸猫头凉拌菠萝",
-   "ref": "Ralf Schumacher",
-   "refTrait": "稳但不惊艳",
-   "refEra": "2000s",
-   "similarity": 0.672,
-   "distance": 0.656,
-   "weakMatch": false,
-   "why": "0 分排在 61/64。0 场里 0 场完赛。他的纪律排在场上前 7/64。比「Ralf Schumacher」更倚重缠斗。完成 14 次超车。",
-   "axes": {
-    "pace": 0.39167763423773216,
-    "consistency": 0.5636650868878357,
-    "combat": 0.5315315315315315,
-    "tyre": 0.6332293036547241,
-    "discipline": 0.9803921568627451,
-    "reliability": 0.10714285714285714
-   },
-   "strength": "discipline",
-   "strengthRank": 7,
-   "strengthOf": 64,
-   "weakness": "reliability",
-   "weaknessRank": 58,
-   "weaknessOf": 64,
-   "points": 0,
-   "pos": 61
   },
   "雷电芽衣": {
    "name": "雷电芽衣",
    "ref": "Jack Brabham",
    "refTrait": "自己造车自己开，工程型车手",
    "refEra": "1960s",
-   "similarity": 0.517,
-   "distance": 0.966,
+   "similarity": 0.515,
+   "distance": 0.969,
    "weakMatch": false,
-   "why": "0 分排在 62/64。2 场里 0 场完赛。他的节奏稳定性排在场上前 1/63。完成 15 次超车。他平均开的是第 9.0 档车（全场均值 6.0），比这辆车的一般水平慢 7.2 位。",
+   "why": "0 分排在 60/62。2 场里 0 场完赛。他的节奏稳定性排在场上前 1/61。完成 15 次超车。他平均开的是第 9.0 档车（全场均值 6.0），比这辆车的一般水平慢 7.2 位。",
    "axes": {
     "pace": 0.6249007149978884,
     "consistency": 1.0,
@@ -16058,22 +15921,22 @@
    },
    "strength": "consistency",
    "strengthRank": 1,
-   "strengthOf": 63,
+   "strengthOf": 61,
    "weakness": "reliability",
-   "weaknessRank": 62,
-   "weaknessOf": 64,
+   "weaknessRank": 60,
+   "weaknessOf": 62,
    "points": 0,
-   "pos": 62
+   "pos": 60
   },
   "Sliced Onion": {
    "name": "Sliced Onion",
    "ref": "Takuma Sato",
    "refTrait": "攻击性极强，事故也不少",
    "refEra": "2000s",
-   "similarity": 0.268,
-   "distance": 1.463,
+   "similarity": 0.261,
+   "distance": 1.477,
    "weakMatch": true,
-   "why": "20 分排在 39/64。1 场里 1 场完赛、1 次登台。他的缠斗排在场上前 19/64。比「Takuma Sato」更倚重纪律。完成 15 次超车。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
+   "why": "20 分排在 39/62。1 场里 1 场完赛、1 次登台。他的缠斗排在场上前 18/62。比「Takuma Sato」更倚重纪律。完成 15 次超车。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
    "axes": {
     "pace": 0.38987609411272844,
     "consistency": 0.0,
@@ -16083,11 +15946,11 @@
     "reliability": 0.14285714285714285
    },
    "strength": "combat",
-   "strengthRank": 19,
-   "strengthOf": 64,
+   "strengthRank": 18,
+   "strengthOf": 62,
    "weakness": "consistency",
-   "weaknessRank": 63,
-   "weaknessOf": 63,
+   "weaknessRank": 61,
+   "weaknessOf": 61,
    "points": 20,
    "pos": 39
   },
@@ -16096,10 +15959,10 @@
    "ref": "Logan Sargeant 型",
    "refTrait": "速度与稳定性都偏弱的新秀",
    "refEra": "2020s",
-   "similarity": 0.269,
-   "distance": 1.463,
+   "similarity": 0.264,
+   "distance": 1.473,
    "weakMatch": true,
-   "why": "0 分排在 63/64。1 场里 1 场完赛。他的纪律排在场上前 10/64。比「Logan Sargeant 型」更倚重缠斗。完成 18 次超车。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平慢 5.0 位。",
+   "why": "0 分排在 61/62。1 场里 1 场完赛。他的纪律排在场上前 8/62。比「Logan Sargeant 型」更倚重缠斗。完成 18 次超车。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平慢 5.0 位。",
    "axes": {
     "pace": 0.34498155797040675,
     "consistency": 0.02590837282780406,
@@ -16109,23 +15972,23 @@
     "reliability": 0.14285714285714285
    },
    "strength": "discipline",
-   "strengthRank": 10,
-   "strengthOf": 64,
+   "strengthRank": 8,
+   "strengthOf": 62,
    "weakness": "consistency",
-   "weaknessRank": 62,
-   "weaknessOf": 63,
+   "weaknessRank": 60,
+   "weaknessOf": 61,
    "points": 0,
-   "pos": 63
+   "pos": 61
   },
   "Surviver": {
    "name": "Surviver",
-   "ref": "Alex Albon",
-   "refTrait": "稳、干净、少失误",
-   "refEra": "2020s",
-   "similarity": 0.611,
-   "distance": 0.778,
+   "ref": "Ralf Schumacher",
+   "refTrait": "稳但不惊艳",
+   "refEra": "2000s",
+   "similarity": 0.633,
+   "distance": 0.733,
    "weakMatch": false,
-   "why": "0 分排在 64/64。1 场里 1 场完赛。他的纪律排在场上前 8/64。比「Alex Albon」更倚重节奏稳定性。完成 13 次超车。他平均开的是第 6.0 档车（全场均值 6.0），比这辆车的一般水平慢 8.8 位。",
+   "why": "0 分排在 62/62。1 场里 1 场完赛。他的纪律排在场上前 6/62。比「Ralf Schumacher」更倚重速度。完成 13 次超车。他平均开的是第 6.0 档车（全场均值 6.0），比这辆车的一般水平慢 8.8 位。",
    "axes": {
     "pace": 0.6363442988710138,
     "consistency": 0.8502369668246444,
@@ -16135,13 +15998,13 @@
     "reliability": 0.14285714285714285
    },
    "strength": "discipline",
-   "strengthRank": 8,
-   "strengthOf": 64,
+   "strengthRank": 6,
+   "strengthOf": 62,
    "weakness": "reliability",
-   "weaknessRank": 53,
-   "weaknessOf": 64,
+   "weaknessRank": 54,
+   "weaknessOf": 62,
    "points": 0,
-   "pos": 64
+   "pos": 62
   }
  },
  "scatters": [
@@ -16746,20 +16609,20 @@
      "yLabel": "1.11"
     },
     {
-     "name": "x1aofeiyang",
-     "x": 2.353,
-     "y": 0.953,
-     "r": 8.8,
-     "xLabel": "2.35",
-     "yLabel": "0.95"
-    },
-    {
      "name": "yi_hua",
      "x": 3.331,
      "y": 1.2,
      "r": 11.7,
      "xLabel": "3.33",
      "yLabel": "1.20"
+    },
+    {
+     "name": "⊗x1aofeiyang",
+     "x": 2.378,
+     "y": 0.966,
+     "r": 9.4,
+     "xLabel": "2.38",
+     "yLabel": "0.97"
     },
     {
      "name": "叶yeeeeee",
@@ -16771,11 +16634,11 @@
     },
     {
      "name": "清蒸猫头鹰凉拌菠萝",
-     "x": 2.401,
-     "y": 1.098,
-     "r": 16.9,
-     "xLabel": "2.40",
-     "yLabel": "1.10"
+     "x": 2.441,
+     "y": 1.043,
+     "r": 18.0,
+     "xLabel": "2.44",
+     "yLabel": "1.04"
     },
     {
      "name": "白云",
@@ -17145,20 +17008,20 @@
      "yLabel": "269"
     },
     {
-     "name": "x1aofeiyang",
-     "x": 28,
-     "y": 46,
-     "r": 10,
-     "xLabel": "28",
-     "yLabel": "46"
-    },
-    {
      "name": "yi_hua",
      "x": 64,
      "y": 58,
      "r": 12,
      "xLabel": "64",
      "yLabel": "58"
+    },
+    {
+     "name": "⊗x1aofeiyang",
+     "x": 45,
+     "y": 53,
+     "r": 7,
+     "xLabel": "45",
+     "yLabel": "53"
     },
     {
      "name": "叶yeeeeee",
@@ -17170,11 +17033,11 @@
     },
     {
      "name": "清蒸猫头鹰凉拌菠萝",
-     "x": 109,
-     "y": 112,
+     "x": 123,
+     "y": 124,
      "r": 18,
-     "xLabel": "109",
-     "yLabel": "112"
+     "xLabel": "123",
+     "yLabel": "124"
     },
     {
      "name": "白云",
@@ -17540,20 +17403,20 @@
      "yLabel": "2.08"
     },
     {
-     "name": "x1aofeiyang",
-     "x": 4.447,
-     "y": 2.353,
-     "r": 15,
-     "xLabel": "4.45",
-     "yLabel": "2.35"
-    },
-    {
      "name": "yi_hua",
      "x": 4.114,
      "y": 3.331,
      "r": 24,
      "xLabel": "4.11",
      "yLabel": "3.33"
+    },
+    {
+     "name": "⊗x1aofeiyang",
+     "x": 4.292,
+     "y": 2.378,
+     "r": 18,
+     "xLabel": "4.29",
+     "yLabel": "2.38"
     },
     {
      "name": "叶yeeeeee",
@@ -17566,10 +17429,10 @@
     {
      "name": "清蒸猫头鹰凉拌菠萝",
      "x": 4.107,
-     "y": 2.401,
-     "r": 39,
+     "y": 2.441,
+     "r": 42,
      "xLabel": "4.11",
-     "yLabel": "2.40"
+     "yLabel": "2.44"
     },
     {
      "name": "白云",
@@ -17939,20 +17802,20 @@
      "yLabel": "124"
     },
     {
-     "name": "x1aofeiyang",
-     "x": 1,
-     "y": 16,
-     "r": 10,
-     "xLabel": "1",
-     "yLabel": "16"
-    },
-    {
      "name": "yi_hua",
      "x": 0,
      "y": 38,
      "r": 12,
      "xLabel": "0",
      "yLabel": "38"
+    },
+    {
+     "name": "⊗x1aofeiyang",
+     "x": 1,
+     "y": 20,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "20"
     },
     {
      "name": "叶yeeeeee",
@@ -17965,10 +17828,10 @@
     {
      "name": "清蒸猫头鹰凉拌菠萝",
      "x": 1,
-     "y": 47,
+     "y": 51,
      "r": 18,
      "xLabel": "1",
-     "yLabel": "47"
+     "yLabel": "51"
     },
     {
      "name": "白云",
@@ -18430,14 +18293,6 @@
      "yLabel": "238"
     },
     {
-     "name": "x1aofeiyang",
-     "x": 4,
-     "y": 1,
-     "r": 10,
-     "xLabel": "4",
-     "yLabel": "1"
-    },
-    {
      "name": "yi_hua",
      "x": 6,
      "y": 70,
@@ -18446,7 +18301,7 @@
      "yLabel": "70"
     },
     {
-     "name": "✪x1aofeiyang",
+     "name": "⊗x1aofeiyang",
      "x": 1,
      "y": 0,
      "r": 7,
@@ -18467,14 +18322,6 @@
      "y": 0,
      "r": 7,
      "xLabel": "1",
-     "yLabel": "0"
-    },
-    {
-     "name": "清蒸猫头凉拌菠萝",
-     "x": 0,
-     "y": 0,
-     "r": 6,
-     "xLabel": "0",
      "yLabel": "0"
     },
     {
@@ -18557,7 +18404,7 @@
     "br": "全勤但收获有限"
    },
    "bestQuad": null,
-   "count": 64
+   "count": 62
   },
   {
    "id": "lead_vs_points",
@@ -18865,20 +18712,20 @@
      "yLabel": "238"
     },
     {
-     "name": "x1aofeiyang",
-     "x": 0,
-     "y": 1,
-     "r": 10,
-     "xLabel": "0",
-     "yLabel": "1"
-    },
-    {
      "name": "yi_hua",
      "x": 39,
      "y": 70,
      "r": 12,
      "xLabel": "39",
      "yLabel": "70"
+    },
+    {
+     "name": "⊗x1aofeiyang",
+     "x": 0,
+     "y": 0,
+     "r": 7,
+     "xLabel": "0",
+     "yLabel": "0"
     },
     {
      "name": "叶yeeeeee",
@@ -19264,20 +19111,20 @@
      "yLabel": "2.08"
     },
     {
-     "name": "x1aofeiyang",
-     "x": 2,
-     "y": 2.353,
-     "r": 10,
-     "xLabel": "2",
-     "yLabel": "2.35"
-    },
-    {
      "name": "yi_hua",
      "x": 1,
      "y": 3.331,
      "r": 12,
      "xLabel": "1",
      "yLabel": "3.33"
+    },
+    {
+     "name": "⊗x1aofeiyang",
+     "x": 0,
+     "y": 2.378,
+     "r": 7,
+     "xLabel": "0",
+     "yLabel": "2.38"
     },
     {
      "name": "叶yeeeeee",
@@ -19290,10 +19137,10 @@
     {
      "name": "清蒸猫头鹰凉拌菠萝",
      "x": 1,
-     "y": 2.401,
+     "y": 2.441,
      "r": 18,
      "xLabel": "1",
-     "yLabel": "2.40"
+     "yLabel": "2.44"
     },
     {
      "name": "白云",
@@ -19759,14 +19606,6 @@
      "yLabel": "92"
     },
     {
-     "name": "x1aofeiyang",
-     "x": 4,
-     "y": 25.0,
-     "r": 10,
-     "xLabel": "4",
-     "yLabel": "25"
-    },
-    {
      "name": "yi_hua",
      "x": 6,
      "y": 66.667,
@@ -19775,7 +19614,7 @@
      "yLabel": "67"
     },
     {
-     "name": "✪x1aofeiyang",
+     "name": "⊗x1aofeiyang",
      "x": 1,
      "y": 0.0,
      "r": 7,
@@ -19878,7 +19717,7 @@
     "br": "全勤但常空手"
    },
    "bestQuad": "tr",
-   "count": 63,
+   "count": 62,
    "selfCheck": {
     "top10InBest": 10,
     "bestQuad": "tr"
@@ -21926,7 +21765,7 @@
     ]
    },
    {
-    "name": "x1aofeiyang",
+    "name": "⊗x1aofeiyang",
     "total": 4,
     "distinct": 4,
     "cars": [
@@ -22712,7 +22551,7 @@
     "actualFinish": 14.36,
     "overPerformance": -3.58,
     "races": 11,
-    "carPaceEffect": 0.963
+    "carPaceEffect": 0.964
    },
    {
     "name": "Perez",
@@ -22722,7 +22561,7 @@
     "actualFinish": 12.0,
     "overPerformance": -0.69,
     "races": 1,
-    "carPaceEffect": 0.945
+    "carPaceEffect": 0.946
    },
    {
     "name": "RanXi",
@@ -22732,7 +22571,7 @@
     "actualFinish": 14.67,
     "overPerformance": -4.5,
     "races": 3,
-    "carPaceEffect": 0.88
+    "carPaceEffect": 0.882
    },
    {
     "name": "HayesCC",
@@ -22742,7 +22581,7 @@
     "actualFinish": 10.36,
     "overPerformance": -0.0,
     "races": 25,
-    "carPaceEffect": 0.867
+    "carPaceEffect": 0.868
    },
    {
     "name": "tenbergen",
@@ -22752,7 +22591,7 @@
     "actualFinish": 8.84,
     "overPerformance": 1.18,
     "races": 25,
-    "carPaceEffect": 0.804
+    "carPaceEffect": 0.805
    },
    {
     "name": "It57",
@@ -22762,7 +22601,7 @@
     "actualFinish": 9.29,
     "overPerformance": 0.74,
     "races": 14,
-    "carPaceEffect": 0.777
+    "carPaceEffect": 0.778
    },
    {
     "name": "芒果",
@@ -22772,7 +22611,7 @@
     "actualFinish": 12.0,
     "overPerformance": -3.26,
     "races": 2,
-    "carPaceEffect": 0.652
+    "carPaceEffect": 0.653
    },
    {
     "name": "清蒸猫头鹰凉拌菠萝",
@@ -22782,7 +22621,7 @@
     "actualFinish": 8.0,
     "overPerformance": 1.59,
     "races": 12,
-    "carPaceEffect": 0.538
+    "carPaceEffect": 0.539
    },
    {
     "name": "DQ",
@@ -22792,7 +22631,7 @@
     "actualFinish": 11.8,
     "overPerformance": -2.25,
     "races": 10,
-    "carPaceEffect": 0.534
+    "carPaceEffect": 0.535
    },
    {
     "name": "esmac1",
@@ -22802,7 +22641,7 @@
     "actualFinish": 13.33,
     "overPerformance": -3.26,
     "races": 9,
-    "carPaceEffect": 0.511
+    "carPaceEffect": 0.512
    },
    {
     "name": "高木同学重度依赖",
@@ -22812,7 +22651,7 @@
     "actualFinish": 15.25,
     "overPerformance": -5.83,
     "races": 4,
-    "carPaceEffect": 0.407
+    "carPaceEffect": 0.408
    },
    {
     "name": "Ak_Langley_S",
@@ -22822,7 +22661,7 @@
     "actualFinish": 10.0,
     "overPerformance": -0.25,
     "races": 14,
-    "carPaceEffect": 0.399
+    "carPaceEffect": 0.4
    },
    {
     "name": "dan",
@@ -22851,7 +22690,7 @@
     "actualFinish": 19.0,
     "overPerformance": -9.4,
     "races": 1,
-    "carPaceEffect": 0.358
+    "carPaceEffect": 0.359
    },
    {
     "name": "newyeye7",
@@ -22861,7 +22700,7 @@
     "actualFinish": 11.4,
     "overPerformance": -1.42,
     "races": 5,
-    "carPaceEffect": 0.358
+    "carPaceEffect": 0.359
    },
    {
     "name": "gangteiss",
@@ -22881,7 +22720,7 @@
     "actualFinish": 7.05,
     "overPerformance": 2.77,
     "races": 20,
-    "carPaceEffect": 0.26
+    "carPaceEffect": 0.261
    },
    {
     "name": "白云",
@@ -22961,7 +22800,7 @@
     "actualFinish": 9.95,
     "overPerformance": -0.25,
     "races": 19,
-    "carPaceEffect": 0.131
+    "carPaceEffect": 0.132
    },
    {
     "name": "Wanner",
@@ -23071,7 +22910,7 @@
     "actualFinish": 9.5,
     "overPerformance": 1.05,
     "races": 14,
-    "carPaceEffect": -0.144
+    "carPaceEffect": -0.145
    },
    {
     "name": "EasonLeclerc",
@@ -23094,12 +22933,12 @@
     "carPaceEffect": -0.164
    },
    {
-    "name": "x1aofeiyang",
+    "name": "⊗x1aofeiyang",
     "avgCarOrder": 7.75,
     "carAdvantage": -1.75,
     "expectedFinish": 10.86,
-    "actualFinish": 17.0,
-    "overPerformance": -6.14,
+    "actualFinish": 16.0,
+    "overPerformance": -5.14,
     "races": 4,
     "carPaceEffect": -0.18
    },
@@ -23121,7 +22960,7 @@
     "actualFinish": 12.32,
     "overPerformance": -1.44,
     "races": 22,
-    "carPaceEffect": -0.183
+    "carPaceEffect": -0.184
    },
    {
     "name": "R_ATPER2",
@@ -23131,7 +22970,7 @@
     "actualFinish": 1.75,
     "overPerformance": 8.82,
     "races": 4,
-    "carPaceEffect": -0.228
+    "carPaceEffect": -0.229
    },
    {
     "name": "哈哈",
@@ -23141,7 +22980,7 @@
     "actualFinish": 19.0,
     "overPerformance": -9.51,
     "races": 1,
-    "carPaceEffect": -0.228
+    "carPaceEffect": -0.229
    },
    {
     "name": "Landoooo_W",
@@ -23171,7 +23010,7 @@
     "actualFinish": 22.0,
     "overPerformance": -10.67,
     "races": 3,
-    "carPaceEffect": -0.359
+    "carPaceEffect": -0.36
    },
    {
     "name": "JPer",
@@ -23201,7 +23040,7 @@
     "actualFinish": 12.67,
     "overPerformance": -1.66,
     "races": 12,
-    "carPaceEffect": -0.408
+    "carPaceEffect": -0.409
    },
    {
     "name": "Mirrorcc",
@@ -23211,7 +23050,7 @@
     "actualFinish": 3.0,
     "overPerformance": 8.02,
     "races": 2,
-    "carPaceEffect": -0.424
+    "carPaceEffect": -0.425
    },
    {
     "name": "叶yeeeeee",
@@ -23221,7 +23060,7 @@
     "actualFinish": 17.14,
     "overPerformance": -6.1,
     "races": 7,
-    "carPaceEffect": -0.424
+    "carPaceEffect": -0.425
    },
    {
     "name": "Ocean Wu",
@@ -23240,7 +23079,7 @@
     "actualFinish": 19.5,
     "overPerformance": -7.17,
     "races": 2,
-    "carPaceEffect": -0.424
+    "carPaceEffect": -0.425
    },
    {
     "name": "RIC",
@@ -23260,7 +23099,7 @@
     "actualFinish": 10.6,
     "overPerformance": 0.95,
     "races": 5,
-    "carPaceEffect": -0.541
+    "carPaceEffect": -0.542
    },
    {
     "name": "AyatoSeven",
@@ -23270,7 +23109,7 @@
     "actualFinish": 9.52,
     "overPerformance": 1.27,
     "races": 25,
-    "carPaceEffect": -0.557
+    "carPaceEffect": -0.558
    },
    {
     "name": "funanana",
@@ -23330,7 +23169,7 @@
     "actualFinish": 7.0,
     "overPerformance": 4.33,
     "races": 5,
-    "carPaceEffect": -0.776
+    "carPaceEffect": -0.777
    },
    {
     "name": "MinatoNaoko",
@@ -23340,15 +23179,15 @@
     "actualFinish": 4.0,
     "overPerformance": 7.41,
     "races": 1,
-    "carPaceEffect": -0.815
+    "carPaceEffect": -0.816
    }
   ],
   "prOrderCorr": 0.514,
   "fieldAvgOrder": 6.0,
   "paceFit": {
-   "slope": -0.1956,
+   "slope": -0.1958,
    "meanOrder": 6.83,
-   "meanGap": 3.048,
+   "meanGap": 3.049,
    "n": 62,
    "note": "斜率是**负的**：车序越大（车越慢）圈速差距反而越小。这不是\"慢车更快\"，而是 CBAS 把快车配给慢人的结果——所以这个回归**不能**用来估计车的性能，只能当机制证据。"
   },
@@ -24018,12 +23857,6 @@
       "detail": "车通常 P12.3 · 他跑 P19.5 · 车序 9.0"
      },
      {
-      "name": "x1aofeiyang",
-      "value": -6.14,
-      "display": "-6.14 位",
-      "detail": "车通常 P10.9 · 他跑 P17.0 · 车序 7.8"
-     },
-     {
       "name": "叶yeeeeee",
       "value": -6.1,
       "display": "-6.10 位",
@@ -24040,6 +23873,12 @@
       "value": -5.86,
       "display": "-5.86 位",
       "detail": "车通常 P9.8 · 他跑 P15.7 · 车序 5.8"
+     },
+     {
+      "name": "高木同学重度依赖",
+      "value": -5.83,
+      "display": "-5.83 位",
+      "detail": "车通常 P9.4 · 他跑 P15.2 · 车序 4.8"
      }
     ],
     "note": ""
