@@ -20,6 +20,47 @@
   "thresholds": {
    "minRaces": 3,
    "minLaps": 60
+  },
+  "sessionFacts": {
+   "equalCarPerformance": true,
+   "carDamage": [
+    "REDUCED",
+    "STANDARD"
+   ],
+   "collisions": [
+    "ON"
+   ],
+   "spectatedRaces": 12,
+   "pausedRaces": 11,
+   "redFlags": 0,
+   "scPeriods": 2,
+   "vscPeriods": 2,
+   "scLaps": 13,
+   "airTempRange": [
+    16.0,
+    25.0
+   ],
+   "trackTempRange": [
+    21.0,
+    35.0
+   ],
+   "archiveVersions": [
+    "4.3.0",
+    "4.4.1"
+   ],
+   "gameVersions": [
+    "1.26",
+    "None.None"
+   ],
+   "pitWindowRounds": 12,
+   "timeOfDayRange": [
+    333.0,
+    1172.0
+   ],
+   "saveReasons": {
+    "Auto-save after final classification": 11,
+    "Just_in_case": 1
+   }
   }
  },
  "weights": {
@@ -105,8 +146,8 @@
   {
    "key": "collisions",
    "label": "次碰撞",
-   "value": 1037,
-   "display": "1,037",
+   "value": 1051,
+   "display": "1,051",
    "lead": "遥测层 · COLLISION 事件"
   },
   {
@@ -1289,14 +1330,14 @@
     },
     {
      "name": "AyatoSeven",
-     "value": 339.125,
-     "display": "339.1 km/h",
+     "value": 339.25,
+     "display": "339.2 km/h",
      "detail": "8 场 · 各圈尾速平均"
     },
     {
      "name": "冬马和纱应援会",
-     "value": 338.5,
-     "display": "338.5 km/h",
+     "value": 338.25,
+     "display": "338.2 km/h",
      "detail": "4 场 · 各圈尾速平均"
     },
     {
@@ -1307,15 +1348,15 @@
     },
     {
      "name": "UbisoftHongKong",
-     "value": 337.72727272727275,
-     "display": "337.7 km/h",
+     "value": 337.8181818181818,
+     "display": "337.8 km/h",
      "detail": "11 场 · 各圈尾速平均"
     },
     {
-     "name": "Camellia",
-     "value": 337.6666666666667,
-     "display": "337.7 km/h",
-     "detail": "3 场 · 各圈尾速平均"
+     "name": "Webs1te",
+     "value": 337.625,
+     "display": "337.6 km/h",
+     "detail": "9 场 · 各圈尾速平均"
     }
    ],
    "note": ""
@@ -1445,7 +1486,7 @@
     },
     {
      "name": "Ak_Langley_S",
-     "value": 3.5883867521367523,
+     "value": 3.589312678062678,
      "display": "3.59 %/圈",
      "detail": "6 个胎段样本 · 累计 135 圈"
     },
@@ -1573,7 +1614,7 @@
      "name": "Webs1te",
      "value": -2,
      "display": "-2 位",
-     "detail": "全季 10 次进站 · 净 -7"
+     "detail": "全季 10 次进站 · 净 -6"
     },
     {
      "name": "鱼雷王",
@@ -2011,7 +2052,7 @@
      "name": "Hamisner",
      "value": 3,
      "display": "3 次",
-     "detail": "尝试 8 次 · 成功率 38%"
+     "detail": "尝试 7 次 · 成功率 43%"
     },
     {
      "name": "OGlockex",
@@ -2190,68 +2231,68 @@
    "title": "最会超车",
    "lead": "遥测层 · 超车事件原始计数（含进站让位，未筛选）",
    "color": "green",
-   "qualified": 64,
+   "qualified": 63,
    "insufficient": 0,
    "rows": [
     {
      "name": "UbisoftHongKong",
-     "value": 98,
-     "display": "98 次",
-     "detail": "被超 87 · 净 +11"
+     "value": 99,
+     "display": "99 次",
+     "detail": "被超 88 · 净 +11"
+    },
+    {
+     "name": "star-falI04",
+     "value": 80,
+     "display": "80 次",
+     "detail": "被超 91 · 净 -11"
     },
     {
      "name": "newyeye7",
-     "value": 80,
-     "display": "80 次",
-     "detail": "被超 40 · 净 +40"
+     "value": 79,
+     "display": "79 次",
+     "detail": "被超 39 · 净 +40"
     },
     {
      "name": "Landoooo_W",
      "value": 79,
      "display": "79 次",
-     "detail": "被超 77 · 净 +2"
-    },
-    {
-     "name": "star-falI04",
-     "value": 78,
-     "display": "78 次",
-     "detail": "被超 90 · 净 -12"
-    },
-    {
-     "name": "AyatoSeven",
-     "value": 74,
-     "display": "74 次",
-     "detail": "被超 56 · 净 +18"
-    },
-    {
-     "name": "esmac1",
-     "value": 69,
-     "display": "69 次",
-     "detail": "被超 66 · 净 +3"
-    },
-    {
-     "name": "Ak_Langley_S",
-     "value": 67,
-     "display": "67 次",
-     "detail": "被超 63 · 净 +4"
+     "detail": "被超 78 · 净 +1"
     },
     {
      "name": "冬马和纱应援会",
-     "value": 67,
-     "display": "67 次",
-     "detail": "被超 71 · 净 -4"
+     "value": 73,
+     "display": "73 次",
+     "detail": "被超 71 · 净 +2"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 72,
+     "display": "72 次",
+     "detail": "被超 55 · 净 +17"
+    },
+    {
+     "name": "esmac1",
+     "value": 72,
+     "display": "72 次",
+     "detail": "被超 64 · 净 +8"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 66,
+     "display": "66 次",
+     "detail": "被超 62 · 净 +4"
     },
     {
      "name": "tenbergen",
      "value": 64,
      "display": "64 次",
-     "detail": "被超 54 · 净 +10"
+     "detail": "被超 55 · 净 +9"
     },
     {
      "name": "Hamisner",
-     "value": 63,
-     "display": "63 次",
-     "detail": "被超 95 · 净 -32"
+     "value": 64,
+     "display": "64 次",
+     "detail": "被超 101 · 净 -37"
     }
    ],
    "note": ""
@@ -2262,20 +2303,14 @@
    "title": "净超车最多",
    "lead": "遥测层 · 超车次数 − 被超次数",
    "color": "green",
-   "qualified": 59,
+   "qualified": 58,
    "insufficient": 0,
    "rows": [
     {
      "name": "newyeye7",
      "value": 40,
      "display": "+40",
-     "detail": "超 80 · 被超 40"
-    },
-    {
-     "name": "Sliced Onion",
-     "value": 23,
-     "display": "+23",
-     "detail": "超 39 · 被超 16"
+     "detail": "超 79 · 被超 39"
     },
     {
      "name": "Er1sed-FOX",
@@ -2284,10 +2319,16 @@
      "detail": "超 58 · 被超 37"
     },
     {
+     "name": "Sliced Onion",
+     "value": 21,
+     "display": "+21",
+     "detail": "超 38 · 被超 17"
+    },
+    {
      "name": "AyatoSeven",
-     "value": 18,
-     "display": "+18",
-     "detail": "超 74 · 被超 56"
+     "value": 17,
+     "display": "+17",
+     "detail": "超 72 · 被超 55"
     },
     {
      "name": "鱼雷王",
@@ -2299,13 +2340,19 @@
      "name": "UbisoftHongKong",
      "value": 11,
      "display": "+11",
-     "detail": "超 98 · 被超 87"
+     "detail": "超 99 · 被超 88"
     },
     {
      "name": "tenbergen",
-     "value": 10,
-     "display": "+10",
-     "detail": "超 64 · 被超 54"
+     "value": 9,
+     "display": "+9",
+     "detail": "超 64 · 被超 55"
+    },
+    {
+     "name": "esmac1",
+     "value": 8,
+     "display": "+8",
+     "detail": "超 72 · 被超 64"
     },
     {
      "name": "Swizzet3271",
@@ -2318,12 +2365,6 @@
      "value": 7,
      "display": "+7",
      "detail": "超 54 · 被超 47"
-    },
-    {
-     "name": "Momokong",
-     "value": 6,
-     "display": "+6",
-     "detail": "超 18 · 被超 12"
     }
    ],
    "note": ""
@@ -2334,38 +2375,38 @@
    "title": "净被超最多",
    "lead": "遥测层 · 超车次数 − 被超次数（负得越多＝净丢位越多）",
    "color": "red",
-   "qualified": 59,
+   "qualified": 58,
    "insufficient": 0,
    "rows": [
     {
      "name": "Hamisner",
-     "value": -32,
-     "display": "-32",
-     "detail": "超 63 · 被超 95"
+     "value": -37,
+     "display": "-37",
+     "detail": "超 64 · 被超 101"
     },
     {
      "name": "Webs1te",
-     "value": -18,
-     "display": "-18",
-     "detail": "超 60 · 被超 78"
+     "value": -25,
+     "display": "-25",
+     "detail": "超 60 · 被超 85"
     },
     {
      "name": "dan",
-     "value": -14,
-     "display": "-14",
-     "detail": "超 49 · 被超 63"
-    },
-    {
-     "name": "star-falI04",
-     "value": -12,
-     "display": "-12",
-     "detail": "超 78 · 被超 90"
+     "value": -22,
+     "display": "-22",
+     "detail": "超 45 · 被超 67"
     },
     {
      "name": "RanXi",
      "value": -11,
      "display": "-11",
      "detail": "超 22 · 被超 33"
+    },
+    {
+     "name": "star-falI04",
+     "value": -11,
+     "display": "-11",
+     "detail": "超 80 · 被超 91"
     },
     {
      "name": "Yachiyo",
@@ -2381,21 +2422,21 @@
     },
     {
      "name": "Camellia",
-     "value": -10,
-     "display": "-10",
-     "detail": "超 25 · 被超 35"
-    },
-    {
-     "name": "ZF with you",
      "value": -9,
      "display": "-9",
-     "detail": "超 11 · 被超 20"
+     "detail": "超 26 · 被超 35"
     },
     {
      "name": "Perez",
      "value": -7,
      "display": "-7",
      "detail": "超 6 · 被超 13"
+    },
+    {
+     "name": "Map13ss",
+     "value": -6,
+     "display": "-6",
+     "detail": "超 18 · 被超 24"
     }
    ],
    "note": ""
@@ -2410,16 +2451,22 @@
    "insufficient": 0,
    "rows": [
     {
-     "name": "HayesCC",
-     "value": 80.0,
-     "display": "80.0 次/百圈",
-     "detail": "32 次 / 40 圈"
+     "name": "冬马和纱应援会",
+     "value": 86.9047619047619,
+     "display": "86.9 次/百圈",
+     "detail": "73 次 / 84 圈"
     },
     {
-     "name": "冬马和纱应援会",
-     "value": 79.76190476190476,
-     "display": "79.8 次/百圈",
-     "detail": "67 次 / 84 圈"
+     "name": "HayesCC",
+     "value": 82.5,
+     "display": "82.5 次/百圈",
+     "detail": "33 次 / 40 圈"
+    },
+    {
+     "name": "star-falI04",
+     "value": 74.07407407407408,
+     "display": "74.1 次/百圈",
+     "detail": "80 次 / 108 圈"
     },
     {
      "name": "Howid",
@@ -2434,40 +2481,34 @@
      "detail": "38 次 / 52 圈"
     },
     {
-     "name": "star-falI04",
-     "value": 72.22222222222223,
-     "display": "72.2 次/百圈",
-     "detail": "78 次 / 108 圈"
-    },
-    {
-     "name": "Sliced Onion",
-     "value": 65.0,
-     "display": "65.0 次/百圈",
-     "detail": "39 次 / 60 圈"
-    },
-    {
      "name": "Landoooo_W",
      "value": 64.75409836065573,
      "display": "64.8 次/百圈",
      "detail": "79 次 / 122 圈"
     },
     {
+     "name": "Sliced Onion",
+     "value": 63.333333333333336,
+     "display": "63.3 次/百圈",
+     "detail": "38 次 / 60 圈"
+    },
+    {
      "name": "newyeye7",
-     "value": 61.06870229007634,
-     "display": "61.1 次/百圈",
-     "detail": "80 次 / 131 圈"
+     "value": 60.30534351145038,
+     "display": "60.3 次/百圈",
+     "detail": "79 次 / 131 圈"
+    },
+    {
+     "name": "esmac1",
+     "value": 59.50413223140496,
+     "display": "59.5 次/百圈",
+     "detail": "72 次 / 121 圈"
     },
     {
      "name": "DQ",
      "value": 58.064516129032256,
      "display": "58.1 次/百圈",
      "detail": "54 次 / 93 圈"
-    },
-    {
-     "name": "esmac1",
-     "value": 57.02479338842975,
-     "display": "57.0 次/百圈",
-     "detail": "69 次 / 121 圈"
     }
    ],
    "note": ""
@@ -2483,57 +2524,57 @@
    "rows": [
     {
      "name": "Hamisner",
-     "value": 95,
-     "display": "95 次",
-     "detail": "主动超 63 · 被动丢位 48"
+     "value": 101,
+     "display": "101 次",
+     "detail": "主动超 64 · 被动丢位 41"
     },
     {
      "name": "star-falI04",
-     "value": 90,
-     "display": "90 次",
-     "detail": "主动超 78 · 被动丢位 45"
+     "value": 91,
+     "display": "91 次",
+     "detail": "主动超 80 · 被动丢位 45"
     },
     {
      "name": "UbisoftHongKong",
-     "value": 87,
-     "display": "87 次",
-     "detail": "主动超 98 · 被动丢位 77"
+     "value": 88,
+     "display": "88 次",
+     "detail": "主动超 99 · 被动丢位 76"
     },
     {
      "name": "Webs1te",
-     "value": 78,
-     "display": "78 次",
-     "detail": "主动超 60 · 被动丢位 28"
+     "value": 85,
+     "display": "85 次",
+     "detail": "主动超 60 · 被动丢位 19"
     },
     {
      "name": "Landoooo_W",
-     "value": 77,
-     "display": "77 次",
-     "detail": "主动超 79 · 被动丢位 60"
+     "value": 78,
+     "display": "78 次",
+     "detail": "主动超 79 · 被动丢位 59"
     },
     {
      "name": "冬马和纱应援会",
      "value": 71,
      "display": "71 次",
-     "detail": "主动超 67 · 被动丢位 21"
-    },
-    {
-     "name": "esmac1",
-     "value": 66,
-     "display": "66 次",
-     "detail": "主动超 69 · 被动丢位 36"
+     "detail": "主动超 73 · 被动丢位 20"
     },
     {
      "name": "dan",
-     "value": 63,
-     "display": "63 次",
-     "detail": "主动超 49 · 被动丢位 28"
+     "value": 67,
+     "display": "67 次",
+     "detail": "主动超 45 · 被动丢位 19"
+    },
+    {
+     "name": "esmac1",
+     "value": 64,
+     "display": "64 次",
+     "detail": "主动超 72 · 被动丢位 35"
     },
     {
      "name": "Ak_Langley_S",
-     "value": 63,
-     "display": "63 次",
-     "detail": "主动超 67 · 被动丢位 28"
+     "value": 62,
+     "display": "62 次",
+     "detail": "主动超 66 · 被动丢位 29"
     },
     {
      "name": "好女孩风妖精",
@@ -2845,7 +2886,7 @@
      "name": "UbisoftHongKong",
      "value": 24,
      "display": "24 次",
-     "detail": "全季主动超车 98 次"
+     "detail": "全季主动超车 99 次"
     },
     {
      "name": "好女孩风妖精",
@@ -2863,7 +2904,7 @@
      "name": "star-falI04",
      "value": 17,
      "display": "17 次",
-     "detail": "全季主动超车 78 次"
+     "detail": "全季主动超车 80 次"
     },
     {
      "name": "It57",
@@ -2887,19 +2928,19 @@
      "name": "Beast",
      "value": 13,
      "display": "13 次",
-     "detail": "全季主动超车 35 次"
+     "detail": "全季主动超车 37 次"
     },
     {
      "name": "Ak_Langley_S",
      "value": 13,
      "display": "13 次",
-     "detail": "全季主动超车 67 次"
+     "detail": "全季主动超车 66 次"
     },
     {
      "name": "冬马和纱应援会",
      "value": 13,
      "display": "13 次",
-     "detail": "全季主动超车 67 次"
+     "detail": "全季主动超车 73 次"
     }
    ],
    "note": ""
@@ -3061,19 +3102,19 @@
      "name": "star-falI04",
      "value": 57,
      "display": "57 次",
-     "detail": "严重 9 · 中等 7"
+     "detail": "严重 7 · 中等 5"
     },
     {
      "name": "UbisoftHongKong",
      "value": 55,
      "display": "55 次",
-     "detail": "严重 3 · 中等 3"
+     "detail": "严重 3 · 中等 1"
     },
     {
      "name": "Landoooo_W",
-     "value": 49,
-     "display": "49 次",
-     "detail": "严重 0 · 中等 3"
+     "value": 51,
+     "display": "51 次",
+     "detail": "严重 0 · 中等 0"
     },
     {
      "name": "Er1sed-FOX",
@@ -3089,33 +3130,33 @@
     },
     {
      "name": "冬马和纱应援会",
-     "value": 40,
-     "display": "40 次",
-     "detail": "严重 8 · 中等 15"
+     "value": 42,
+     "display": "42 次",
+     "detail": "严重 5 · 中等 7"
     },
     {
      "name": "newyeye7",
-     "value": 39,
-     "display": "39 次",
-     "detail": "严重 2 · 中等 3"
+     "value": 40,
+     "display": "40 次",
+     "detail": "严重 0 · 中等 0"
     },
     {
      "name": "Webs1te",
      "value": 37,
      "display": "37 次",
-     "detail": "严重 2 · 中等 0"
+     "detail": "严重 0 · 中等 0"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 31,
+     "display": "31 次",
+     "detail": "严重 0 · 中等 0"
     },
     {
      "name": "esmac1",
      "value": 31,
      "display": "31 次",
-     "detail": "严重 5 · 中等 6"
-    },
-    {
-     "name": "AyatoSeven",
-     "value": 30,
-     "display": "30 次",
-     "detail": "严重 0 · 中等 5"
+     "detail": "严重 2 · 中等 4"
     }
    ],
    "note": ""
@@ -3126,20 +3167,14 @@
    "title": "严重碰撞最多",
    "lead": "遥测层 · 高严重度 COLLISION 事件",
    "color": "red",
-   "qualified": 25,
+   "qualified": 17,
    "insufficient": 0,
    "rows": [
     {
      "name": "star-falI04",
-     "value": 9,
-     "display": "9 次",
+     "value": 7,
+     "display": "7 次",
      "detail": "总碰撞 57"
-    },
-    {
-     "name": "冬马和纱应援会",
-     "value": 8,
-     "display": "8 次",
-     "detail": "总碰撞 40"
     },
     {
      "name": "Yachiyo",
@@ -3148,16 +3183,10 @@
      "detail": "总碰撞 15"
     },
     {
-     "name": "dan",
-     "value": 6,
-     "display": "6 次",
-     "detail": "总碰撞 30"
-    },
-    {
-     "name": "esmac1",
+     "name": "冬马和纱应援会",
      "value": 5,
      "display": "5 次",
-     "detail": "总碰撞 31"
+     "detail": "总碰撞 42"
     },
     {
      "name": "Surviver",
@@ -3172,22 +3201,34 @@
      "detail": "总碰撞 11"
     },
     {
+     "name": "dan",
+     "value": 3,
+     "display": "3 次",
+     "detail": "总碰撞 29"
+    },
+    {
      "name": "Ak_Langley_S",
      "value": 3,
      "display": "3 次",
      "detail": "总碰撞 23"
     },
     {
-     "name": "tenbergen",
-     "value": 3,
-     "display": "3 次",
-     "detail": "总碰撞 29"
-    },
-    {
      "name": "UbisoftHongKong",
      "value": 3,
      "display": "3 次",
      "detail": "总碰撞 55"
+    },
+    {
+     "name": "KirigayaAqua",
+     "value": 3,
+     "display": "3 次",
+     "detail": "总碰撞 9"
+    },
+    {
+     "name": "esmac1",
+     "value": 2,
+     "display": "2 次",
+     "detail": "总碰撞 31"
     }
    ],
    "note": ""
@@ -3205,31 +3246,31 @@
      "name": "UbisoftHongKong",
      "value": 26,
      "display": "26 人",
-     "detail": "碰撞参与 55 次（3 中等 / 3 严重）"
+     "detail": "碰撞参与 55 次（1 中等 / 3 严重）"
     },
     {
      "name": "star-falI04",
      "value": 24,
      "display": "24 人",
-     "detail": "碰撞参与 57 次（7 中等 / 9 严重）"
+     "detail": "碰撞参与 57 次（5 中等 / 7 严重）"
     },
     {
      "name": "newyeye7",
-     "value": 20,
-     "display": "20 人",
-     "detail": "碰撞参与 39 次（3 中等 / 2 严重）"
+     "value": 21,
+     "display": "21 人",
+     "detail": "碰撞参与 40 次（0 中等 / 0 严重）"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": 21,
+     "display": "21 人",
+     "detail": "碰撞参与 51 次（0 中等 / 0 严重）"
     },
     {
      "name": "Webs1te",
      "value": 20,
      "display": "20 人",
-     "detail": "碰撞参与 37 次（0 中等 / 2 严重）"
-    },
-    {
-     "name": "Landoooo_W",
-     "value": 20,
-     "display": "20 人",
-     "detail": "碰撞参与 49 次（3 中等 / 0 严重）"
+     "detail": "碰撞参与 37 次（0 中等 / 0 严重）"
     },
     {
      "name": "好女孩风妖精",
@@ -3247,19 +3288,19 @@
      "name": "Hamisner",
      "value": 18,
      "display": "18 人",
-     "detail": "碰撞参与 27 次（2 中等 / 0 严重）"
+     "detail": "碰撞参与 27 次（0 中等 / 0 严重）"
     },
     {
      "name": "esmac1",
      "value": 17,
      "display": "17 人",
-     "detail": "碰撞参与 31 次（6 中等 / 5 严重）"
+     "detail": "碰撞参与 31 次（4 中等 / 2 严重）"
     },
     {
-     "name": "dan",
+     "name": "冬马和纱应援会",
      "value": 17,
      "display": "17 人",
-     "detail": "碰撞参与 30 次（7 中等 / 6 严重）"
+     "detail": "碰撞参与 42 次（7 中等 / 5 严重）"
     }
    ],
    "note": ""
@@ -3270,13 +3311,13 @@
    "title": "车损最多",
    "lead": "遥测层 · 车损事件计数",
    "color": "red",
-   "qualified": 26,
+   "qualified": 15,
    "insufficient": 0,
    "rows": [
     {
      "name": "dan",
-     "value": 14,
-     "display": "14 次",
+     "value": 11,
+     "display": "11 次",
      "detail": "CAR_DAMAGE 事件计数"
     },
     {
@@ -3292,15 +3333,15 @@
      "detail": "CAR_DAMAGE 事件计数"
     },
     {
-     "name": "star-falI04",
-     "value": 5,
-     "display": "5 次",
-     "detail": "CAR_DAMAGE 事件计数"
-    },
-    {
      "name": "Swizzet3271",
      "value": 4,
      "display": "4 次",
+     "detail": "CAR_DAMAGE 事件计数"
+    },
+    {
+     "name": "star-falI04",
+     "value": 3,
+     "display": "3 次",
      "detail": "CAR_DAMAGE 事件计数"
     },
     {
@@ -3316,21 +3357,21 @@
      "detail": "CAR_DAMAGE 事件计数"
     },
     {
-     "name": "Webs1te",
-     "value": 2,
-     "display": "2 次",
-     "detail": "CAR_DAMAGE 事件计数"
-    },
-    {
      "name": "Ak_Langley_S",
      "value": 2,
      "display": "2 次",
      "detail": "CAR_DAMAGE 事件计数"
     },
     {
-     "name": "冬马和纱应援会",
+     "name": "好女孩风妖精",
      "value": 2,
      "display": "2 次",
+     "detail": "CAR_DAMAGE 事件计数"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 1,
+     "display": "1 次",
      "detail": "CAR_DAMAGE 事件计数"
     }
    ],
@@ -3581,63 +3622,63 @@
    "rows": [
     {
      "name": "dan",
-     "value": 87.25806451612902,
-     "display": "87.3",
-     "detail": "退赛 5 · 罚单 0 · 碰撞 30 · 车损 14"
+     "value": 86.57894736842105,
+     "display": "86.6",
+     "detail": "退赛 5 · 罚单 0 · 碰撞 29 · 车损 11"
     },
     {
      "name": "star-falI04",
-     "value": 42.60803938771859,
-     "display": "42.6",
-     "detail": "退赛 1 · 罚单 1 · 碰撞 57 · 车损 5"
+     "value": 36.21969696969697,
+     "display": "36.2",
+     "detail": "退赛 1 · 罚单 1 · 碰撞 57 · 车损 3"
     },
     {
      "name": "Webs1te",
-     "value": 34.65801511111869,
-     "display": "34.7",
-     "detail": "退赛 2 · 罚单 0 · 碰撞 37 · 车损 2"
+     "value": 31.681818181818183,
+     "display": "31.7",
+     "detail": "退赛 2 · 罚单 0 · 碰撞 37 · 车损 1"
     },
     {
      "name": "冬马和纱应援会",
-     "value": 26.761288618959597,
-     "display": "26.8",
-     "detail": "退赛 0 · 罚单 0 · 碰撞 40 · 车损 2"
+     "value": 24.144736842105264,
+     "display": "24.1",
+     "detail": "退赛 0 · 罚单 0 · 碰撞 42 · 车损 1"
     },
     {
      "name": "Landoooo_W",
-     "value": 23.64976958525346,
-     "display": "23.6",
-     "detail": "退赛 2 · 罚单 0 · 碰撞 49 · 车损 1"
+     "value": 21.0,
+     "display": "21.0",
+     "detail": "退赛 2 · 罚单 0 · 碰撞 51 · 车损 0"
     },
     {
-     "name": "Camellia",
-     "value": 18.410444900636303,
-     "display": "18.4",
-     "detail": "退赛 1 · 罚单 0 · 碰撞 20 · 车损 2"
+     "name": "好女孩风妖精",
+     "value": 18.889553429027114,
+     "display": "18.9",
+     "detail": "退赛 0 · 罚单 1 · 碰撞 44 · 车损 2"
     },
     {
-     "name": "newyeye7",
-     "value": 18.255500566453996,
-     "display": "18.3",
-     "detail": "退赛 1 · 罚单 2 · 碰撞 39 · 车损 0"
+     "name": "Swizzet3271",
+     "value": 17.393939393939394,
+     "display": "17.4",
+     "detail": "退赛 1 · 罚单 2 · 碰撞 13 · 车损 4"
     },
     {
-     "name": "tenbergen",
-     "value": 18.23041474654378,
-     "display": "18.2",
-     "detail": "退赛 1 · 罚单 0 · 碰撞 29 · 车损 1"
+     "name": "Howid",
+     "value": 16.241626794258373,
+     "display": "16.2",
+     "detail": "退赛 1 · 罚单 3 · 碰撞 17 · 车损 0"
     },
     {
      "name": "弱智发牌员",
-     "value": 18.23041474654378,
-     "display": "18.2",
-     "detail": "退赛 1 · 罚单 0 · 碰撞 15 · 车损 1"
+     "value": 16.157894736842106,
+     "display": "16.2",
+     "detail": "退赛 1 · 罚单 0 · 碰撞 16 · 车损 0"
     },
     {
-     "name": "esmac1",
-     "value": 17.367735120999683,
-     "display": "17.4",
-     "detail": "退赛 0 · 罚单 1 · 碰撞 31 · 车损 1"
+     "name": "UbisoftHongKong",
+     "value": 15.777511961722489,
+     "display": "15.8",
+     "detail": "退赛 0 · 罚单 9 · 碰撞 55 · 车损 0"
     }
    ],
    "note": ""
@@ -3725,62 +3766,62 @@
    "rows": [
     {
      "name": "Beast",
-     "value": 71.78977142563404,
-     "display": "72",
+     "value": 72.68813865961772,
+     "display": "73",
      "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
     },
     {
      "name": "tenbergen",
-     "value": 71.21159593558386,
+     "value": 71.35599491559928,
      "display": "71",
      "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
     },
     {
      "name": "AyatoSeven",
-     "value": 70.63284056053607,
+     "value": 70.63293939625133,
      "display": "71",
      "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
     },
     {
      "name": "Sliced Onion",
-     "value": 69.88339176006022,
+     "value": 69.67054904721752,
      "display": "70",
      "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
     },
     {
-     "name": "Er1sed-FOX",
-     "value": 68.86041942822766,
+     "name": "Ak_Langley_S",
+     "value": 69.36743057912902,
      "display": "69",
      "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
     },
     {
-     "name": "Ak_Langley_S",
-     "value": 68.72014059578562,
+     "name": "Er1sed-FOX",
+     "value": 69.2031322709405,
      "display": "69",
      "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
     },
     {
      "name": "newyeye7",
-     "value": 65.87068532294232,
+     "value": 65.73369902157246,
+     "display": "66",
+     "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
+    },
+    {
+     "name": "esmac1",
+     "value": 65.60942884575995,
      "display": "66",
      "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
     },
     {
      "name": "UbisoftHongKong",
-     "value": 64.94767641380076,
+     "value": 65.47076443688879,
      "display": "65",
      "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
     },
     {
-     "name": "esmac1",
-     "value": 63.64333937967048,
+     "name": "冬马和纱应援会",
+     "value": 64.09778610110185,
      "display": "64",
-     "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
-    },
-    {
-     "name": "好女孩风妖精",
-     "value": 62.71353857435709,
-     "display": "63",
      "detail": "速度/稳定/超车/轮胎/纪律/完赛 六维加权"
     }
    ],
@@ -3832,27 +3873,27 @@
      "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
     },
     {
+     "name": "Webs1te",
+     "value": 60.92559922347156,
+     "display": "61%",
+     "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
+    },
+    {
      "name": "Camellia",
      "value": 60.35746576373471,
      "display": "60%",
      "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
     },
     {
-     "name": "Webs1te",
-     "value": 57.06557036344271,
-     "display": "57%",
+     "name": "King_of_Knowledge",
+     "value": 54.68176785593939,
+     "display": "55%",
      "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
     },
     {
      "name": "Beast",
-     "value": 56.22733826088429,
-     "display": "56%",
-     "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
-    },
-    {
-     "name": "King_of_Knowledge",
-     "value": 54.68176785593939,
-     "display": "55%",
+     "value": 53.64797318151921,
+     "display": "54%",
      "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
     }
    ],
@@ -3899,8 +3940,8 @@
     },
     {
      "name": "Camellia",
-     "value": 60,
-     "display": "60 次",
+     "value": 61,
+     "display": "61 次",
      "detail": "参与的超车事件最少"
     },
     {
@@ -3917,8 +3958,8 @@
     },
     {
      "name": "Beast",
-     "value": 73,
-     "display": "73 次",
+     "value": 76,
+     "display": "76 次",
      "detail": "参与的超车事件最少"
     },
     {
@@ -3941,27 +3982,33 @@
    "rows": [
     {
      "name": "UbisoftHongKong",
-     "value": 263,
-     "display": "263",
-     "detail": "超车 98 · 碰撞 55"
+     "value": 264,
+     "display": "264",
+     "detail": "超车 99 · 碰撞 55"
     },
     {
      "name": "star-falI04",
-     "value": 249,
-     "display": "249",
-     "detail": "超车 78 · 碰撞 57"
+     "value": 251,
+     "display": "251",
+     "detail": "超车 80 · 碰撞 57"
     },
     {
      "name": "Landoooo_W",
-     "value": 226,
-     "display": "226",
-     "detail": "超车 79 · 碰撞 49"
+     "value": 232,
+     "display": "232",
+     "detail": "超车 79 · 碰撞 51"
     },
     {
      "name": "newyeye7",
-     "value": 197,
-     "display": "197",
-     "detail": "超车 80 · 碰撞 39"
+     "value": 199,
+     "display": "199",
+     "detail": "超车 79 · 碰撞 40"
+    },
+    {
+     "name": "冬马和纱应援会",
+     "value": 199,
+     "display": "199",
+     "detail": "超车 73 · 碰撞 42"
     },
     {
      "name": "Er1sed-FOX",
@@ -3976,12 +4023,6 @@
      "detail": "超车 58 · 碰撞 44"
     },
     {
-     "name": "冬马和纱应援会",
-     "value": 187,
-     "display": "187",
-     "detail": "超车 67 · 碰撞 40"
-    },
-    {
      "name": "Webs1te",
      "value": 171,
      "display": "171",
@@ -3989,15 +4030,15 @@
     },
     {
      "name": "AyatoSeven",
-     "value": 164,
-     "display": "164",
-     "detail": "超车 74 · 碰撞 30"
+     "value": 165,
+     "display": "165",
+     "detail": "超车 72 · 碰撞 31"
     },
     {
      "name": "esmac1",
-     "value": 162,
-     "display": "162",
-     "detail": "超车 69 · 碰撞 31"
+     "value": 165,
+     "display": "165",
+     "detail": "超车 72 · 碰撞 31"
     }
    ],
    "note": ""
@@ -4008,25 +4049,25 @@
    "title": "最会忍",
    "lead": "遥测层 · 被动丢位次数（被超未回击）",
    "color": "orange",
-   "qualified": 62,
+   "qualified": 60,
    "insufficient": 0,
    "rows": [
     {
      "name": "newyeye7",
-     "value": 99,
-     "display": "99 次",
+     "value": 100,
+     "display": "100 次",
      "detail": "被超之后没能反超回来"
     },
     {
      "name": "UbisoftHongKong",
-     "value": 77,
-     "display": "77 次",
+     "value": 76,
+     "display": "76 次",
      "detail": "被超之后没能反超回来"
     },
     {
      "name": "Landoooo_W",
-     "value": 60,
-     "display": "60 次",
+     "value": 59,
+     "display": "59 次",
      "detail": "被超之后没能反超回来"
     },
     {
@@ -4039,12 +4080,6 @@
      "name": "Er1sed-FOX",
      "value": 50,
      "display": "50 次",
-     "detail": "被超之后没能反超回来"
-    },
-    {
-     "name": "Hamisner",
-     "value": 48,
-     "display": "48 次",
      "detail": "被超之后没能反超回来"
     },
     {
@@ -4067,6 +4102,12 @@
     },
     {
      "name": "AyatoSeven",
+     "value": 41,
+     "display": "41 次",
+     "detail": "被超之后没能反超回来"
+    },
+    {
+     "name": "Hamisner",
      "value": 41,
      "display": "41 次",
      "detail": "被超之后没能反超回来"
@@ -4388,6 +4429,798 @@
      "value": 10,
      "display": "10 圈",
      "detail": "占其总圈数 23%"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "fuel_saver",
+   "group": "tyre",
+   "title": "每圈耗油最少",
+   "lead": "遥测层 · 逐圈 `fuel-in-tank` 的每圈变化量（取各站中位数）。低＝油门更细腻、滑行更多；高＝开得更猛",
+   "color": "green",
+   "qualified": 28,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "Beast",
+     "value": 1.0722,
+     "display": "1.072 kg/圈",
+     "detail": "2 站样本 · 全季共 48 kg"
+    },
+    {
+     "name": "tenbergen",
+     "value": 1.0754,
+     "display": "1.075 kg/圈",
+     "detail": "5 站样本 · 全季共 124 kg"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 1.1184500000000002,
+     "display": "1.118 kg/圈",
+     "detail": "6 站样本 · 全季共 138 kg"
+    },
+    {
+     "name": "Webs1te",
+     "value": 1.1642000000000001,
+     "display": "1.164 kg/圈",
+     "detail": "8 站样本 · 全季共 178 kg"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": 1.1672,
+     "display": "1.167 kg/圈",
+     "detail": "5 站样本 · 全季共 114 kg"
+    },
+    {
+     "name": "dan",
+     "value": 1.1899,
+     "display": "1.190 kg/圈",
+     "detail": "5 站样本 · 全季共 104 kg"
+    },
+    {
+     "name": "好女孩风妖精",
+     "value": 1.2038,
+     "display": "1.204 kg/圈",
+     "detail": "5 站样本 · 全季共 115 kg"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 1.20545,
+     "display": "1.205 kg/圈",
+     "detail": "8 站样本 · 全季共 194 kg"
+    },
+    {
+     "name": "Camellia",
+     "value": 1.2065,
+     "display": "1.206 kg/圈",
+     "detail": "3 站样本 · 全季共 62 kg"
+    },
+    {
+     "name": "King_of_Knowledge",
+     "value": 1.207,
+     "display": "1.207 kg/圈",
+     "detail": "3 站样本 · 全季共 75 kg"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "fuel_burner",
+   "group": "tyre",
+   "title": "每圈耗油最多",
+   "lead": "遥测层 · 同上口径的另一端",
+   "color": "red",
+   "qualified": 28,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "Sliced Onion",
+     "value": 1.50905,
+     "display": "1.509 kg/圈",
+     "detail": "2 站样本 · 全季共 52 kg"
+    },
+    {
+     "name": "弱智发牌员",
+     "value": 1.33615,
+     "display": "1.336 kg/圈",
+     "detail": "4 站样本 · 全季共 84 kg"
+    },
+    {
+     "name": "LI WEN",
+     "value": 1.3325,
+     "display": "1.333 kg/圈",
+     "detail": "4 站样本 · 全季共 92 kg"
+    },
+    {
+     "name": "guys can u do sth?",
+     "value": 1.2978,
+     "display": "1.298 kg/圈",
+     "detail": "4 站样本 · 全季共 90 kg"
+    },
+    {
+     "name": "Howid",
+     "value": 1.2967499999999998,
+     "display": "1.297 kg/圈",
+     "detail": "4 站样本 · 全季共 89 kg"
+    },
+    {
+     "name": "Swizzet3271",
+     "value": 1.29005,
+     "display": "1.290 kg/圈",
+     "detail": "4 站样本 · 全季共 87 kg"
+    },
+    {
+     "name": "UbisoftHongKong",
+     "value": 1.2898,
+     "display": "1.290 kg/圈",
+     "detail": "11 站样本 · 全季共 275 kg"
+    },
+    {
+     "name": "DQ",
+     "value": 1.287,
+     "display": "1.287 kg/圈",
+     "detail": "5 站样本 · 全季共 113 kg"
+    },
+    {
+     "name": "千星散荷",
+     "value": 1.285,
+     "display": "1.285 kg/圈",
+     "detail": "3 站样本 · 全季共 74 kg"
+    },
+    {
+     "name": "HayesCC",
+     "value": 1.2656,
+     "display": "1.266 kg/圈",
+     "detail": "2 站样本 · 全季共 49 kg"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "sector1_king",
+   "group": "pace",
+   "title": "第一段最强",
+   "lead": "遥测层 · 每人该段相对**当站最快**的差距（逐场算完再平均，跨站比秒数没有意义）；门槛：≥3 站",
+   "color": "blue",
+   "qualified": 27,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "Camellia",
+     "value": 0.5988051376271195,
+     "display": "+0.60%",
+     "detail": "3 站样本 · 相对该站最快第一段"
+    },
+    {
+     "name": "Beast",
+     "value": 0.8691629622656638,
+     "display": "+0.87%",
+     "detail": "3 站样本 · 相对该站最快第一段"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 0.8909419778259263,
+     "display": "+0.89%",
+     "detail": "7 站样本 · 相对该站最快第一段"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 0.9347589023552488,
+     "display": "+0.93%",
+     "detail": "8 站样本 · 相对该站最快第一段"
+    },
+    {
+     "name": "tenbergen",
+     "value": 0.9716745454775285,
+     "display": "+0.97%",
+     "detail": "5 站样本 · 相对该站最快第一段"
+    },
+    {
+     "name": "newyeye7",
+     "value": 1.0648855923152976,
+     "display": "+1.06%",
+     "detail": "7 站样本 · 相对该站最快第一段"
+    },
+    {
+     "name": "Sliced Onion",
+     "value": 1.1092814930647947,
+     "display": "+1.11%",
+     "detail": "3 站样本 · 相对该站最快第一段"
+    },
+    {
+     "name": "Swizzet3271",
+     "value": 1.22228990669569,
+     "display": "+1.22%",
+     "detail": "4 站样本 · 相对该站最快第一段"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 1.2799924365170916,
+     "display": "+1.28%",
+     "detail": "6 站样本 · 相对该站最快第一段"
+    },
+    {
+     "name": "UbisoftHongKong",
+     "value": 1.421342573228122,
+     "display": "+1.42%",
+     "detail": "11 站样本 · 相对该站最快第一段"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "sector2_king",
+   "group": "pace",
+   "title": "第二段最强",
+   "lead": "遥测层 · 每人该段相对**当站最快**的差距（逐场算完再平均，跨站比秒数没有意义）；门槛：≥3 站",
+   "color": "blue",
+   "qualified": 27,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "Sliced Onion",
+     "value": 0.04829127500196534,
+     "display": "+0.05%",
+     "detail": "3 站样本 · 相对该站最快第二段"
+    },
+    {
+     "name": "Beast",
+     "value": 0.6655231077819895,
+     "display": "+0.67%",
+     "detail": "3 站样本 · 相对该站最快第二段"
+    },
+    {
+     "name": "Swizzet3271",
+     "value": 1.0341035539217927,
+     "display": "+1.03%",
+     "detail": "4 站样本 · 相对该站最快第二段"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 1.056018907942917,
+     "display": "+1.06%",
+     "detail": "7 站样本 · 相对该站最快第二段"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 1.1322625374269086,
+     "display": "+1.13%",
+     "detail": "6 站样本 · 相对该站最快第二段"
+    },
+    {
+     "name": "Camellia",
+     "value": 1.2221411058709206,
+     "display": "+1.22%",
+     "detail": "3 站样本 · 相对该站最快第二段"
+    },
+    {
+     "name": "好女孩风妖精",
+     "value": 1.2554444749828997,
+     "display": "+1.26%",
+     "detail": "5 站样本 · 相对该站最快第二段"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 1.2890263959476043,
+     "display": "+1.29%",
+     "detail": "8 站样本 · 相对该站最快第二段"
+    },
+    {
+     "name": "It57",
+     "value": 1.3346071460256694,
+     "display": "+1.33%",
+     "detail": "4 站样本 · 相对该站最快第二段"
+    },
+    {
+     "name": "UbisoftHongKong",
+     "value": 1.493169476478834,
+     "display": "+1.49%",
+     "detail": "11 站样本 · 相对该站最快第二段"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "sector3_king",
+   "group": "pace",
+   "title": "第三段最强",
+   "lead": "遥测层 · 每人该段相对**当站最快**的差距（逐场算完再平均，跨站比秒数没有意义）；门槛：≥3 站",
+   "color": "blue",
+   "qualified": 27,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "Camellia",
+     "value": 0.6092102043627111,
+     "display": "+0.61%",
+     "detail": "3 站样本 · 相对该站最快第三段"
+    },
+    {
+     "name": "好女孩风妖精",
+     "value": 0.7939032666103668,
+     "display": "+0.79%",
+     "detail": "5 站样本 · 相对该站最快第三段"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 1.0650115007429606,
+     "display": "+1.07%",
+     "detail": "8 站样本 · 相对该站最快第三段"
+    },
+    {
+     "name": "Beast",
+     "value": 1.07399348817853,
+     "display": "+1.07%",
+     "detail": "3 站样本 · 相对该站最快第三段"
+    },
+    {
+     "name": "Swizzet3271",
+     "value": 1.2560007187115998,
+     "display": "+1.26%",
+     "detail": "4 站样本 · 相对该站最快第三段"
+    },
+    {
+     "name": "Sliced Onion",
+     "value": 1.341057122385101,
+     "display": "+1.34%",
+     "detail": "3 站样本 · 相对该站最快第三段"
+    },
+    {
+     "name": "Sunpayus",
+     "value": 1.4065936911220038,
+     "display": "+1.41%",
+     "detail": "3 站样本 · 相对该站最快第三段"
+    },
+    {
+     "name": "tenbergen",
+     "value": 1.4432731518195436,
+     "display": "+1.44%",
+     "detail": "5 站样本 · 相对该站最快第三段"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": 1.5299884162489645,
+     "display": "+1.53%",
+     "detail": "6 站样本 · 相对该站最快第三段"
+    },
+    {
+     "name": "UbisoftHongKong",
+     "value": 1.5512627899159142,
+     "display": "+1.55%",
+     "detail": "11 站样本 · 相对该站最快第三段"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "tyre_keeper",
+   "group": "tyre",
+   "title": "最省胎（四轮平均）",
+   "lead": "遥测层 · 逐圈四轮胎损速率（FL/FR/RL/RR 平均）；门槛：≥3 站且 ≥60 圈",
+   "color": "green",
+   "qualified": 18,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "dan",
+     "value": 0.694075,
+     "display": "0.694 %/圈",
+     "detail": "四轮平均磨损速率"
+    },
+    {
+     "name": "esmac1",
+     "value": 0.87358,
+     "display": "0.874 %/圈",
+     "detail": "四轮平均磨损速率"
+    },
+    {
+     "name": "LI WEN",
+     "value": 0.9946416666666666,
+     "display": "0.995 %/圈",
+     "detail": "四轮平均磨损速率"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 1.0311071428571428,
+     "display": "1.031 %/圈",
+     "detail": "四轮平均磨损速率"
+    },
+    {
+     "name": "Webs1te",
+     "value": 1.0452875000000001,
+     "display": "1.045 %/圈",
+     "detail": "四轮平均磨损速率"
+    },
+    {
+     "name": "newyeye7",
+     "value": 1.046645,
+     "display": "1.047 %/圈",
+     "detail": "四轮平均磨损速率"
+    },
+    {
+     "name": "DQ",
+     "value": 1.0479625,
+     "display": "1.048 %/圈",
+     "detail": "四轮平均磨损速率"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": 1.08250625,
+     "display": "1.083 %/圈",
+     "detail": "四轮平均磨损速率"
+    },
+    {
+     "name": "It57",
+     "value": 1.11459375,
+     "display": "1.115 %/圈",
+     "detail": "四轮平均磨损速率"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 1.1163208333333334,
+     "display": "1.116 %/圈",
+     "detail": "四轮平均磨损速率"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "tyre_push",
+   "group": "tyre",
+   "title": "最推头（前轮磨得快）",
+   "lead": "遥测层 · 前轮平均磨损速率 − 后轮。正值＝转向不足倾向，也说明调校偏保守或入弯太急",
+   "color": "orange",
+   "qualified": 18,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "star-falI04",
+     "value": 0.3587,
+     "display": "+0.359",
+     "detail": "正值＝前轮磨得更快（推头倾向）"
+    },
+    {
+     "name": "newyeye7",
+     "value": 0.10948,
+     "display": "+0.109",
+     "detail": "正值＝前轮磨得更快（推头倾向）"
+    },
+    {
+     "name": "esmac1",
+     "value": 0.10942,
+     "display": "+0.109",
+     "detail": "正值＝前轮磨得更快（推头倾向）"
+    },
+    {
+     "name": "UbisoftHongKong",
+     "value": 0.07876999999999999,
+     "display": "+0.079",
+     "detail": "正值＝前轮磨得更快（推头倾向）"
+    },
+    {
+     "name": "冬马和纱应援会",
+     "value": 0.025699999999999994,
+     "display": "+0.026",
+     "detail": "正值＝前轮磨得更快（推头倾向）"
+    },
+    {
+     "name": "LI WEN",
+     "value": 0.00943333333333334,
+     "display": "+0.009",
+     "detail": "正值＝前轮磨得更快（推头倾向）"
+    },
+    {
+     "name": "DQ",
+     "value": -0.0005250000000000012,
+     "display": "-0.001",
+     "detail": "正值＝前轮磨得更快（推头倾向）"
+    },
+    {
+     "name": "Webs1te",
+     "value": -0.047837500000000005,
+     "display": "-0.048",
+     "detail": "正值＝前轮磨得更快（推头倾向）"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": -0.087275,
+     "display": "-0.087",
+     "detail": "正值＝前轮磨得更快（推头倾向）"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": -0.09809999999999999,
+     "display": "-0.098",
+     "detail": "正值＝前轮磨得更快（推头倾向）"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "tyre_loose",
+   "group": "tyre",
+   "title": "最甩尾（后轮磨得快）",
+   "lead": "遥测层 · 同上口径的下端；负值＝转向过度倾向",
+   "color": "red",
+   "qualified": 18,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "Er1sed-FOX",
+     "value": -0.27216666666666667,
+     "display": "-0.272",
+     "detail": "负值＝后轮磨得更快（甩尾倾向）"
+    },
+    {
+     "name": "Hamisner",
+     "value": -0.24151250000000002,
+     "display": "-0.242",
+     "detail": "负值＝后轮磨得更快（甩尾倾向）"
+    },
+    {
+     "name": "tenbergen",
+     "value": -0.232975,
+     "display": "-0.233",
+     "detail": "负值＝后轮磨得更快（甩尾倾向）"
+    },
+    {
+     "name": "好女孩风妖精",
+     "value": -0.231825,
+     "display": "-0.232",
+     "detail": "负值＝后轮磨得更快（甩尾倾向）"
+    },
+    {
+     "name": "guys can u do sth?",
+     "value": -0.18753333333333333,
+     "display": "-0.188",
+     "detail": "负值＝后轮磨得更快（甩尾倾向）"
+    },
+    {
+     "name": "dan",
+     "value": -0.17262,
+     "display": "-0.173",
+     "detail": "负值＝后轮磨得更快（甩尾倾向）"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": -0.16968571428571427,
+     "display": "-0.170",
+     "detail": "负值＝后轮磨得更快（甩尾倾向）"
+    },
+    {
+     "name": "It57",
+     "value": -0.113375,
+     "display": "-0.113",
+     "detail": "负值＝后轮磨得更快（甩尾倾向）"
+    },
+    {
+     "name": "Ak_Langley_S",
+     "value": -0.09809999999999999,
+     "display": "-0.098",
+     "detail": "负值＝后轮磨得更快（甩尾倾向）"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": -0.087275,
+     "display": "-0.087",
+     "detail": "负值＝后轮磨得更快（甩尾倾向）"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "engine_wear",
+   "group": "reliability",
+   "title": "最费引擎",
+   "lead": "遥测层 · ICE/MGU-K/MGU-H/CE/ES/TC 六个部件里磨损最重的那一项取最大值；门槛：≥3 站",
+   "color": "red",
+   "qualified": 28,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "Howid",
+     "value": 8,
+     "display": "8%",
+     "detail": "无爆缸"
+    },
+    {
+     "name": "star-falI04",
+     "value": 6,
+     "display": "6%",
+     "detail": "无爆缸"
+    },
+    {
+     "name": "Sliced Onion",
+     "value": 6,
+     "display": "6%",
+     "detail": "无爆缸"
+    },
+    {
+     "name": "Hamisner",
+     "value": 6,
+     "display": "6%",
+     "detail": "无爆缸"
+    },
+    {
+     "name": "HayesCC",
+     "value": 6,
+     "display": "6%",
+     "detail": "无爆缸"
+    },
+    {
+     "name": "好女孩风妖精",
+     "value": 6,
+     "display": "6%",
+     "detail": "无爆缸"
+    },
+    {
+     "name": "千星散荷",
+     "value": 6,
+     "display": "6%",
+     "detail": "无爆缸"
+    },
+    {
+     "name": "DQ",
+     "value": 5,
+     "display": "5%",
+     "detail": "无爆缸"
+    },
+    {
+     "name": "Beast",
+     "value": 5,
+     "display": "5%",
+     "detail": "无爆缸"
+    },
+    {
+     "name": "Er1sed-FOX",
+     "value": 5,
+     "display": "5%",
+     "detail": "无爆缸"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "sc_victim",
+   "group": "reliability",
+   "title": "安全车下跑得最多",
+   "lead": "遥测层 · 处于安全车/VSC 状态的圈数合计。这个数高不代表开得多，而是\"比赛被中性化掉的部分更多\"",
+   "color": "orange",
+   "qualified": 20,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "Webs1te",
+     "value": 15,
+     "display": "15 圈",
+     "detail": "9 站里的累计值"
+    },
+    {
+     "name": "esmac1",
+     "value": 14,
+     "display": "14 圈",
+     "detail": "6 站里的累计值"
+    },
+    {
+     "name": "AyatoSeven",
+     "value": 13,
+     "display": "13 圈",
+     "detail": "8 站里的累计值"
+    },
+    {
+     "name": "newyeye7",
+     "value": 13,
+     "display": "13 圈",
+     "detail": "7 站里的累计值"
+    },
+    {
+     "name": "Beast",
+     "value": 13,
+     "display": "13 圈",
+     "detail": "3 站里的累计值"
+    },
+    {
+     "name": "dan",
+     "value": 10,
+     "display": "10 圈",
+     "detail": "6 站里的累计值"
+    },
+    {
+     "name": "star-falI04",
+     "value": 9,
+     "display": "9 圈",
+     "detail": "6 站里的累计值"
+    },
+    {
+     "name": "tenbergen",
+     "value": 8,
+     "display": "8 圈",
+     "detail": "5 站里的累计值"
+    },
+    {
+     "name": "冬马和纱应援会",
+     "value": 8,
+     "display": "8 圈",
+     "detail": "4 站里的累计值"
+    },
+    {
+     "name": "弱智发牌员",
+     "value": 8,
+     "display": "8 圈",
+     "detail": "5 站里的累计值"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "no_tc_king",
+   "group": "reliability",
+   "title": "关掉 TC 的人里最强",
+   "lead": "遥测层 · 只取牵引力控制设为 OFF 的车手，按积分排。**为什么要单独排**：TC FULL 在出弯和稳定性上占明显便宜，两种设置混在一张榜上比成绩并不公平",
+   "color": "blue",
+   "qualified": 16,
+   "insufficient": 0,
+   "rows": [
+    {
+     "name": "esmac1",
+     "value": 71,
+     "display": "71 分",
+     "detail": "6 站 · 无牵引力控制"
+    },
+    {
+     "name": "Swizzet3271",
+     "value": 70,
+     "display": "70 分",
+     "detail": "5 站 · 无牵引力控制"
+    },
+    {
+     "name": "Landoooo_W",
+     "value": 57,
+     "display": "57 分",
+     "detail": "7 站 · 无牵引力控制"
+    },
+    {
+     "name": "Hamisner",
+     "value": 51,
+     "display": "51 分",
+     "detail": "8 站 · 无牵引力控制"
+    },
+    {
+     "name": "Sakuraba Ema",
+     "value": 50,
+     "display": "50 分",
+     "detail": "2 站 · 无牵引力控制"
+    },
+    {
+     "name": "Map13ss",
+     "value": 43,
+     "display": "43 分",
+     "detail": "3 站 · 无牵引力控制"
+    },
+    {
+     "name": "OGlockex",
+     "value": 43,
+     "display": "43 分",
+     "detail": "2 站 · 无牵引力控制"
+    },
+    {
+     "name": "star-falI04",
+     "value": 36,
+     "display": "36 分",
+     "detail": "6 站 · 无牵引力控制"
+    },
+    {
+     "name": "鱼雷王",
+     "value": 25,
+     "display": "25 分",
+     "detail": "1 站 · 无牵引力控制"
+    },
+    {
+     "name": "雷电芽衣",
+     "value": 25,
+     "display": "25 分",
+     "detail": "1 站 · 无牵引力控制"
     }
    ],
    "note": ""
@@ -7328,6 +8161,31 @@
    "penalty_cards": 0,
    "wear_rate": 3.396103896103896,
    "pace_avg": 81515.5,
+   "fuelPerLap": 1.2442,
+   "lapsPerKg": 0.8,
+   "fuelUsedTotal": 24.9,
+   "sectorBests": [
+    [
+     27302,
+     17671,
+     33390
+    ]
+   ],
+   "cornerRates": [
+    1.0455,
+    0.6818,
+    1.0909,
+    0.8636
+   ],
+   "frontRearBias": -0.1136,
+   "leftRightBias": 0.2955,
+   "assists": {
+    "OFF": 1
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 6,
    "pace_sd": 1.113,
    "best_lap": 79346,
    "best_lap_track": "墨尔本",
@@ -7339,7 +8197,7 @@
    "axes": {
     "pace": 0.8850930956917283,
     "consistency": 0.872522276777596,
-    "combat": 0.6666666666666666,
+    "combat": 0.6883116883116883,
     "tyre": 0.49612701838221124,
     "discipline": 1.0,
     "reliability": 0.2857142857142857
@@ -7364,12 +8222,72 @@
    "clean_laps": 140,
    "laps_led": 35,
    "led_races": 4,
-   "ov_made": 74,
-   "ov_lost": 56,
-   "collisions": 30,
+   "ov_made": 72,
+   "ov_lost": 55,
+   "collisions": 31,
    "penalty_cards": 1,
    "wear_rate": 3.4936302846459095,
    "pace_avg": 84988.83571428571,
+   "fuelPerLap": 1.20545,
+   "lapsPerKg": 0.8525,
+   "fuelUsedTotal": 194.5,
+   "sectorBests": [
+    [
+     27798,
+     17736,
+     34257
+    ],
+    [
+     16142,
+     30016,
+     20467
+    ],
+    [
+     26893,
+     27677,
+     27806
+    ],
+    [
+     29192,
+     39221,
+     22259
+    ],
+    [
+     20954,
+     23113,
+     28930
+    ],
+    [
+     27965,
+     37181,
+     24293
+    ],
+    [
+     31624,
+     47371,
+     29734
+    ],
+    [
+     28588,
+     29565,
+     19930
+    ]
+   ],
+   "cornerRates": [
+    1.1276,
+    0.7649,
+    1.2138,
+    1.0181
+   ],
+   "frontRearBias": -0.16968571428571427,
+   "leftRightBias": 0.27925714285714287,
+   "assists": {
+    "FULL": 8
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 13,
    "pace_sd": 1.526875,
    "best_lap": 68003,
    "best_lap_track": "奥地利",
@@ -7381,14 +8299,14 @@
    "axes": {
     "pace": 0.8040136076781048,
     "consistency": 0.7972585924713583,
-    "combat": 0.6944444444444444,
+    "combat": 0.7012987012987013,
     "tyre": 0.48165722779734277,
-    "discipline": 0.5616438356164384,
+    "discipline": 0.547945205479452,
     "reliability": 0.7857142857142857
    },
    "strength": "pace",
    "weakness": "tyre",
-   "archetype": "单圈型",
+   "archetype": "稳定型",
    "per_round": {
     "1": 22,
     "2": 16,
@@ -7419,6 +8337,46 @@
    "penalty_cards": 0,
    "wear_rate": 4.0862230477855475,
    "pace_avg": 91197.4328358209,
+   "fuelPerLap": 1.20795,
+   "lapsPerKg": 0.7949999999999999,
+   "fuelUsedTotal": 100.3,
+   "sectorBests": [
+    [
+     28223,
+     17681,
+     34844
+    ],
+    [
+     29409,
+     39545,
+     22379
+    ],
+    [
+     31934,
+     47031,
+     29613
+    ],
+    [
+     28794,
+     29511,
+     20157
+    ]
+   ],
+   "cornerRates": [
+    1.3351,
+    0.7807,
+    1.2774,
+    1.0652
+   ],
+   "frontRearBias": -0.113375,
+   "leftRightBias": 0.38327500000000003,
+   "assists": {
+    "FULL": 4
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 6,
    "pace_sd": 1.5535,
    "best_lap": 78674,
    "best_lap_track": "墨西哥",
@@ -7430,7 +8388,7 @@
    "axes": {
     "pace": 0.6590838003385769,
     "consistency": 0.792416803055101,
-    "combat": 0.3055555555555556,
+    "combat": 0.35064935064935066,
     "tyre": 0.3937354528508089,
     "discipline": 0.6438356164383562,
     "reliability": 0.5
@@ -7458,12 +8416,67 @@
    "clean_laps": 89,
    "laps_led": 1,
    "led_races": 1,
-   "ov_made": 80,
-   "ov_lost": 40,
-   "collisions": 39,
+   "ov_made": 79,
+   "ov_lost": 39,
+   "collisions": 40,
    "penalty_cards": 2,
    "wear_rate": 5.090793650793651,
    "pace_avg": 88824.08988764045,
+   "fuelPerLap": 1.2198,
+   "lapsPerKg": 0.8071428571428572,
+   "fuelUsedTotal": 150.3,
+   "sectorBests": [
+    [
+     27740,
+     18417,
+     35150
+    ],
+    [
+     16230,
+     30345,
+     20431
+    ],
+    [
+     27334,
+     27753,
+     27936
+    ],
+    [
+     29199,
+     39701,
+     22094
+    ],
+    [
+     28284,
+     37393,
+     24759
+    ],
+    [
+     31441,
+     47064,
+     29825
+    ],
+    [
+     26262,
+     38002,
+     31816
+    ]
+   ],
+   "cornerRates": [
+    1.3683,
+    0.8344,
+    1.1132,
+    0.8706
+   ],
+   "frontRearBias": 0.10948,
+   "leftRightBias": 0.38828,
+   "assists": {
+    "FULL": 7
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 13,
    "pace_sd": 1.9202857142857144,
    "best_lap": 67127,
    "best_lap_track": "奥地利",
@@ -7477,7 +8490,7 @@
     "consistency": 0.7257163640142363,
     "combat": 1.0,
     "tyre": 0.2446893693184494,
-    "discipline": 0.410958904109589,
+    "discipline": 0.3972602739726027,
     "reliability": 0.5714285714285714
    },
    "strength": "combat",
@@ -7512,6 +8525,51 @@
    "penalty_cards": 2,
    "wear_rate": 3.804992784992785,
    "pace_avg": 95696.39130434782,
+   "fuelPerLap": 1.287,
+   "lapsPerKg": 0.758,
+   "fuelUsedTotal": 112.6,
+   "sectorBests": [
+    [
+     28146,
+     18489,
+     34547
+    ],
+    [
+     29207,
+     39673,
+     22538
+    ],
+    [
+     28651,
+     37660,
+     24712
+    ],
+    [
+     32354,
+     46554,
+     30039
+    ],
+    [
+     26372,
+     37957,
+     31746
+    ]
+   ],
+   "cornerRates": [
+    1.3284,
+    0.767,
+    1.1556,
+    0.9409
+   ],
+   "frontRearBias": -0.0005250000000000012,
+   "leftRightBias": 0.388075,
+   "assists": {
+    "FULL": 5
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 6,
    "pace_sd": 1.6751999999999998,
    "best_lap": 82064,
    "best_lap_track": "墨尔本",
@@ -7523,7 +8581,7 @@
    "axes": {
     "pace": 0.5540627833022973,
     "consistency": 0.7702855064557191,
-    "combat": 0.3888888888888889,
+    "combat": 0.42857142857142855,
     "tyre": 0.43546101112866686,
     "discipline": 0.5753424657534246,
     "reliability": 0.5714285714285714
@@ -7552,12 +8610,62 @@
    "clean_laps": 89,
    "laps_led": 2,
    "led_races": 1,
-   "ov_made": 69,
-   "ov_lost": 66,
+   "ov_made": 72,
+   "ov_lost": 64,
    "collisions": 31,
    "penalty_cards": 1,
    "wear_rate": 4.15486982924483,
    "pace_avg": 87319.34831460674,
+   "fuelPerLap": 1.241,
+   "lapsPerKg": 0.835,
+   "fuelUsedTotal": 142.5,
+   "sectorBests": [
+    [
+     28221,
+     18416,
+     34753
+    ],
+    [
+     16367,
+     29681,
+     20591
+    ],
+    [
+     26920,
+     27439,
+     27908
+    ],
+    [
+     29292,
+     39640,
+     22470
+    ],
+    [
+     28495,
+     37560,
+     24775
+    ],
+    [
+     17969,
+     35926,
+     31883
+    ]
+   ],
+   "cornerRates": [
+    0.9739,
+    0.8827,
+    0.846,
+    0.7917
+   ],
+   "frontRearBias": 0.10942,
+   "leftRightBias": 0.07275999999999998,
+   "assists": {
+    "OFF": 6
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 14,
    "pace_sd": 1.094,
    "best_lap": 67583,
    "best_lap_track": "奥地利",
@@ -7569,7 +8677,7 @@
    "axes": {
     "pace": 0.7496115043437929,
     "consistency": 0.8759774504455354,
-    "combat": 0.4861111111111111,
+    "combat": 0.5844155844155844,
     "tyre": 0.3835504704384525,
     "discipline": 0.547945205479452,
     "reliability": 0.6428571428571429
@@ -7599,12 +8707,47 @@
    "clean_laps": 44,
    "laps_led": 7,
    "led_races": 2,
-   "ov_made": 35,
-   "ov_lost": 38,
-   "collisions": 25,
+   "ov_made": 37,
+   "ov_lost": 39,
+   "collisions": 26,
    "penalty_cards": 0,
    "wear_rate": 2.189814814814815,
    "pace_avg": 78090.20454545454,
+   "fuelPerLap": 1.0722,
+   "lapsPerKg": 0.95,
+   "fuelUsedTotal": 47.5,
+   "sectorBests": [
+    [
+     27225,
+     17640,
+     34439
+    ],
+    [
+     16371,
+     29839,
+     20168
+    ],
+    [
+     27067,
+     27510,
+     27412
+    ]
+   ],
+   "cornerRates": [
+    1.0577,
+    0.8319,
+    0.9977,
+    0.8088
+   ],
+   "frontRearBias": 0.0417,
+   "leftRightBias": 0.2074,
+   "assists": {
+    "FULL": 3
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 13,
    "pace_sd": 0.7913333333333332,
    "best_lap": 66913,
    "best_lap_track": "奥地利",
@@ -7616,13 +8759,13 @@
    "axes": {
     "pace": 0.9650511603866206,
     "consistency": 0.9310177608049949,
-    "combat": 0.4027777777777778,
+    "combat": 0.45454545454545453,
     "tyre": 0.6751016595230245,
-    "discipline": 0.6575342465753424,
+    "discipline": 0.6438356164383562,
     "reliability": 0.42857142857142855
    },
    "strength": "pace",
-   "weakness": "combat",
+   "weakness": "reliability",
    "archetype": "稳定型",
    "per_round": {
     "1": 12,
@@ -7649,6 +8792,61 @@
    "penalty_cards": 0,
    "wear_rate": 3.9901175610104183,
    "pace_avg": 86284.33884297521,
+   "fuelPerLap": 1.2564,
+   "lapsPerKg": 0.7985714285714286,
+   "fuelUsedTotal": 175.1,
+   "sectorBests": [
+    [
+     27352,
+     17643,
+     34365
+    ],
+    [
+     27025,
+     27775,
+     27660
+    ],
+    [
+     29054,
+     39830,
+     22153
+    ],
+    [
+     20681,
+     23175,
+     29425
+    ],
+    [
+     28192,
+     36867,
+     25021
+    ],
+    [
+     31797,
+     28787,
+     25483
+    ],
+    [
+     18067,
+     35586,
+     32682
+    ]
+   ],
+   "cornerRates": [
+    1.1465,
+    0.814,
+    1.3451,
+    1.1597
+   ],
+   "frontRearBias": -0.27216666666666667,
+   "leftRightBias": 0.2589166666666667,
+   "assists": {
+    "FULL": 7
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 6,
    "pace_sd": 1.0832857142857144,
    "best_lap": 73711,
    "best_lap_track": "蒙特利尔",
@@ -7660,14 +8858,14 @@
    "axes": {
     "pace": 0.7737721513276083,
     "consistency": 0.8779258566492609,
-    "combat": 0.7361111111111112,
+    "combat": 0.7532467532467533,
     "tyre": 0.4079944271497895,
     "discipline": 0.3972602739726027,
     "reliability": 0.7142857142857143
    },
    "strength": "consistency",
    "weakness": "discipline",
-   "archetype": "稳定型",
+   "archetype": "缠斗型",
    "per_round": {
     "1": 10,
     "3": 16,
@@ -7697,6 +8895,36 @@
    "penalty_cards": 0,
    "wear_rate": 4.843849206349206,
    "pace_avg": 90543.39285714286,
+   "fuelPerLap": 1.2675999999999998,
+   "lapsPerKg": 0.79,
+   "fuelUsedTotal": 48.1,
+   "sectorBests": [
+    [
+     27899,
+     18067,
+     35355
+    ],
+    [
+     28815,
+     38238,
+     25406
+    ]
+   ],
+   "cornerRates": [
+    2.3823,
+    1.2336,
+    1.2494,
+    0.9652
+   ],
+   "frontRearBias": 0.70065,
+   "leftRightBias": 0.7165,
+   "assists": {
+    "FULL": 2
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 6,
    "pace_sd": 0.8935,
    "best_lap": 81819,
    "best_lap_track": "墨尔本",
@@ -7708,7 +8936,7 @@
    "axes": {
     "pace": 0.6743513215267967,
     "consistency": 0.9124386252045827,
-    "combat": 0.2916666666666667,
+    "combat": 0.33766233766233766,
     "tyre": 0.2813280109274175,
     "discipline": 0.7808219178082192,
     "reliability": 0.35714285714285715
@@ -7734,12 +8962,62 @@
    "clean_laps": 84,
    "laps_led": 0,
    "led_races": 0,
-   "ov_made": 78,
-   "ov_lost": 90,
+   "ov_made": 80,
+   "ov_lost": 91,
    "collisions": 57,
    "penalty_cards": 1,
    "wear_rate": 4.454811507936508,
    "pace_avg": 86188.58333333333,
+   "fuelPerLap": 1.22515,
+   "lapsPerKg": 0.8516666666666667,
+   "fuelUsedTotal": 127.9,
+   "sectorBests": [
+    [
+     28316,
+     17988,
+     34149
+    ],
+    [
+     16661,
+     30245,
+     20566
+    ],
+    [
+     27225,
+     27518,
+     28045
+    ],
+    [
+     29239,
+     39611,
+     22355
+    ],
+    [
+     28502,
+     29828,
+     19891
+    ],
+    [
+     18289,
+     35965,
+     32876
+    ]
+   ],
+   "cornerRates": [
+    2.383,
+    1.9309,
+    1.9055,
+    1.691
+   ],
+   "frontRearBias": 0.3587,
+   "leftRightBias": 0.3333333333333333,
+   "assists": {
+    "OFF": 6
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 6,
+   "engineBlown": 0,
+   "scLaps": 9,
    "pace_sd": 1.4460000000000002,
    "best_lap": 69007,
    "best_lap_track": "奥地利",
@@ -7751,7 +9029,7 @@
    "axes": {
     "pace": 0.7760074111282418,
     "consistency": 0.811965811965812,
-    "combat": 0.2777777777777778,
+    "combat": 0.33766233766233766,
     "tyre": 0.33904873769488003,
     "discipline": 0.1917808219178082,
     "reliability": 0.5
@@ -7787,6 +9065,31 @@
    "penalty_cards": 1,
    "wear_rate": 2.5619047619047617,
    "pace_avg": 82787.4,
+   "fuelPerLap": 1.1967,
+   "lapsPerKg": 0.84,
+   "fuelUsedTotal": 23.9,
+   "sectorBests": [
+    [
+     27285,
+     17783,
+     34250
+    ]
+   ],
+   "cornerRates": [
+    0.4783,
+    0.2609,
+    0.4348,
+    0.3043
+   ],
+   "frontRearBias": 0.0,
+   "leftRightBias": 0.1739,
+   "assists": {
+    "MEDIUM": 1
+   },
+   "assistsMain": "MEDIUM",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 6,
    "pace_sd": 1.25,
    "best_lap": 81019,
    "best_lap_track": "墨尔本",
@@ -7798,7 +9101,7 @@
    "axes": {
     "pace": 0.8554026167724641,
     "consistency": 0.8476086561192944,
-    "combat": 0.4583333333333333,
+    "combat": 0.4935064935064935,
     "tyre": 0.6198954359191747,
     "discipline": 0.8082191780821918,
     "reliability": 0.2857142857142857
@@ -7824,11 +9127,76 @@
    "laps_led": 0,
    "led_races": 0,
    "ov_made": 60,
-   "ov_lost": 78,
+   "ov_lost": 85,
    "collisions": 37,
    "penalty_cards": 0,
    "wear_rate": 3.4466293272308306,
    "pace_avg": 87771.76033057852,
+   "fuelPerLap": 1.1642000000000001,
+   "lapsPerKg": 2.3975,
+   "fuelUsedTotal": 177.7,
+   "sectorBests": [
+    [
+     28670,
+     17937,
+     34888
+    ],
+    [
+     16364,
+     30190,
+     21137
+    ],
+    [
+     33775,
+     28831,
+     29679
+    ],
+    [
+     29366,
+     40281,
+     22302
+    ],
+    [
+     21848,
+     23650,
+     29684
+    ],
+    [
+     28646,
+     39302,
+     25421
+    ],
+    [
+     32463,
+     48645,
+     30437
+    ],
+    [
+     27584,
+     40142,
+     34901
+    ],
+    [
+     28693,
+     29689,
+     20027
+    ]
+   ],
+   "cornerRates": [
+    1.1441,
+    0.8986,
+    1.1277,
+    1.0107
+   ],
+   "frontRearBias": -0.047837500000000005,
+   "leftRightBias": 0.181225,
+   "assists": {
+    "FULL": 9
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 15,
    "pace_sd": 1.7037142857142857,
    "best_lap": 69539,
    "best_lap_track": "奥地利",
@@ -7840,7 +9208,7 @@
    "axes": {
     "pace": 0.7390506666812158,
     "consistency": 0.7651001480788715,
-    "combat": 0.19444444444444445,
+    "combat": 0.15584415584415584,
     "tyre": 0.4886306636156037,
     "discipline": 0.4931506849315068,
     "reliability": 0.5714285714285714
@@ -7879,6 +9247,31 @@
    "penalty_cards": 0,
    "wear_rate": 1.375,
    "pace_avg": 85531.77777777778,
+   "fuelPerLap": 1.3352,
+   "lapsPerKg": 0.75,
+   "fuelUsedTotal": 25.4,
+   "sectorBests": [
+    [
+     28955,
+     18068,
+     35327
+    ]
+   ],
+   "cornerRates": [
+    0.4545,
+    0.2727,
+    0.3636,
+    0.3182
+   ],
+   "frontRearBias": 0.0227,
+   "leftRightBias": 0.1136,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 7,
    "pace_sd": 0.763,
    "best_lap": 83093,
    "best_lap_track": "墨尔本",
@@ -7890,7 +9283,7 @@
    "axes": {
     "pace": 0.7913394903021372,
     "consistency": 0.9361702127659575,
-    "combat": 0.4305555555555556,
+    "combat": 0.4675324675324675,
     "tyre": 0.7959940652818991,
     "discipline": 0.8493150684931506,
     "reliability": 0.2857142857142857
@@ -7921,6 +9314,31 @@
    "penalty_cards": 0,
    "wear_rate": 4.541666666666667,
    "pace_avg": 82582.7,
+   "fuelPerLap": 1.2227,
+   "lapsPerKg": 0.82,
+   "fuelUsedTotal": 22.0,
+   "sectorBests": [
+    [
+     28168,
+     18252,
+     34831
+    ]
+   ],
+   "cornerRates": [
+    0.8,
+    0.55,
+    1.35,
+    1.15
+   ],
+   "frontRearBias": -0.575,
+   "leftRightBias": 0.225,
+   "assists": {
+    "MEDIUM": 1
+   },
+   "assistsMain": "MEDIUM",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 8,
    "pace_sd": 0.412,
    "best_lap": 81724,
    "best_lap_track": "墨尔本",
@@ -7932,7 +9350,7 @@
    "axes": {
     "pace": 0.8601810121139009,
     "consistency": 1.0,
-    "combat": 0.4444444444444444,
+    "combat": 0.4805194805194805,
     "tyre": 0.3261622156280909,
     "discipline": 0.9041095890410958,
     "reliability": 0.14285714285714285
@@ -7957,12 +9375,62 @@
    "clean_laps": 82,
    "laps_led": 0,
    "led_races": 0,
-   "ov_made": 49,
-   "ov_lost": 63,
-   "collisions": 30,
+   "ov_made": 45,
+   "ov_lost": 67,
+   "collisions": 29,
    "penalty_cards": 0,
    "wear_rate": 3.346366943241943,
    "pace_avg": 86875.69512195123,
+   "fuelPerLap": 1.1899,
+   "lapsPerKg": 0.8480000000000001,
+   "fuelUsedTotal": 104.4,
+   "sectorBests": [
+    [
+     28458,
+     18151,
+     34852
+    ],
+    [
+     16573,
+     30586,
+     21004
+    ],
+    [
+     20950,
+     23714,
+     29276
+    ],
+    [
+     32553,
+     47850,
+     30615
+    ],
+    [
+     29706,
+     31274,
+     21033
+    ],
+    [
+     18551,
+     36597,
+     33049
+    ]
+   ],
+   "cornerRates": [
+    0.6939,
+    0.5217,
+    0.8353,
+    0.7254
+   ],
+   "frontRearBias": -0.17262,
+   "leftRightBias": 0.14106000000000002,
+   "assists": {
+    "FULL": 6
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 10,
    "pace_sd": 2.3131666666666666,
    "best_lap": 68519,
    "best_lap_track": "奥地利",
@@ -7974,9 +9442,9 @@
    "axes": {
     "pace": 0.7599678812319153,
     "consistency": 0.6542704734194096,
-    "combat": 0.25,
+    "combat": 0.19480519480519481,
     "tyre": 0.5035063882430352,
-    "discipline": 0.589041095890411,
+    "discipline": 0.6027397260273972,
     "reliability": 0.0
    },
    "strength": "pace",
@@ -8011,6 +9479,46 @@
    "penalty_cards": 2,
    "wear_rate": 4.190376082251082,
    "pace_avg": 88253.8448275862,
+   "fuelPerLap": 1.29005,
+   "lapsPerKg": 0.78,
+   "fuelUsedTotal": 87.3,
+   "sectorBests": [
+    [
+     27780,
+     18135,
+     34544
+    ],
+    [
+     20492,
+     23232,
+     29176
+    ],
+    [
+     31792,
+     46438,
+     29508
+    ],
+    [
+     31678,
+     28277,
+     25125
+    ]
+   ],
+   "cornerRates": [
+    1.499,
+    0.978,
+    1.4355,
+    1.1521
+   ],
+   "frontRearBias": -0.055299999999999995,
+   "leftRightBias": 0.402225,
+   "assists": {
+    "OFF": 4
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 2,
    "pace_sd": 1.9855,
    "best_lap": 73390,
    "best_lap_track": "蒙特利尔",
@@ -8022,7 +9530,7 @@
    "axes": {
     "pace": 0.7277971722274766,
     "consistency": 0.7138570649208946,
-    "combat": 0.5416666666666666,
+    "combat": 0.5714285714285714,
     "tyre": 0.3782824803781777,
     "discipline": 0.7671232876712328,
     "reliability": 0.42857142857142855
@@ -8051,12 +9559,62 @@
    "clean_laps": 110,
    "laps_led": 9,
    "led_races": 2,
-   "ov_made": 67,
-   "ov_lost": 63,
+   "ov_made": 66,
+   "ov_lost": 62,
    "collisions": 23,
    "penalty_cards": 0,
-   "wear_rate": 3.5883867521367523,
+   "wear_rate": 3.589312678062678,
    "pace_avg": 81912.61818181818,
+   "fuelPerLap": 1.1184500000000002,
+   "lapsPerKg": 0.9066666666666667,
+   "fuelUsedTotal": 137.7,
+   "sectorBests": [
+    [
+     16440,
+     30256,
+     20472
+    ],
+    [
+     29175,
+     39431,
+     22401
+    ],
+    [
+     20732,
+     23191,
+     29234
+    ],
+    [
+     26259,
+     38301,
+     32342
+    ],
+    [
+     17953,
+     36228,
+     16365
+    ],
+    [
+     18231,
+     35904,
+     32555
+    ]
+   ],
+   "cornerRates": [
+    1.4548,
+    1.3484,
+    1.5236,
+    1.4758
+   ],
+   "frontRearBias": -0.09809999999999999,
+   "leftRightBias": 0.07712000000000001,
+   "assists": {
+    "MEDIUM": 6
+   },
+   "assistsMain": "MEDIUM",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 7,
    "pace_sd": 1.3653333333333333,
    "best_lap": 67522,
    "best_lap_track": "奥地利",
@@ -8068,8 +9626,8 @@
    "axes": {
     "pace": 0.8758230044850853,
     "consistency": 0.8266351457840819,
-    "combat": 0.5,
-    "tyre": 0.46759840472748476,
+    "combat": 0.5324675324675324,
+    "tyre": 0.46746102699366787,
     "discipline": 0.684931506849315,
     "reliability": 0.6428571428571429
    },
@@ -8099,11 +9657,56 @@
    "laps_led": 0,
    "led_races": 0,
    "ov_made": 64,
-   "ov_lost": 54,
-   "collisions": 29,
+   "ov_lost": 55,
+   "collisions": 30,
    "penalty_cards": 0,
    "wear_rate": 3.503164905356082,
    "pace_avg": 79853.08163265306,
+   "fuelPerLap": 1.0754,
+   "lapsPerKg": 0.908,
+   "fuelUsedTotal": 124.1,
+   "sectorBests": [
+    [
+     16354,
+     30498,
+     20735
+    ],
+    [
+     26791,
+     27174,
+     27716
+    ],
+    [
+     29344,
+     39562,
+     22243
+    ],
+    [
+     28284,
+     29354,
+     20008
+    ],
+    [
+     18074,
+     36543,
+     16468
+    ]
+   ],
+   "cornerRates": [
+    1.3736,
+    1.2936,
+    1.5908,
+    1.5424
+   ],
+   "frontRearBias": -0.232975,
+   "leftRightBias": 0.06422499999999999,
+   "assists": {
+    "FULL": 5
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 8,
    "pace_sd": 0.9023999999999999,
    "best_lap": 68017,
    "best_lap_track": "奥地利",
@@ -8115,9 +9718,9 @@
    "axes": {
     "pace": 0.923899603664613,
     "consistency": 0.9108201491180214,
-    "combat": 0.5833333333333334,
+    "combat": 0.5974025974025974,
     "tyre": 0.48024259564449817,
-    "discipline": 0.6027397260273972,
+    "discipline": 0.589041095890411,
     "reliability": 0.5
    },
    "strength": "pace",
@@ -8145,12 +9748,47 @@
    "clean_laps": 47,
    "laps_led": 18,
    "led_races": 2,
-   "ov_made": 39,
-   "ov_lost": 16,
+   "ov_made": 38,
+   "ov_lost": 17,
    "collisions": 17,
    "penalty_cards": 0,
    "wear_rate": 2.380780022446689,
    "pace_avg": 86767.3829787234,
+   "fuelPerLap": 1.50905,
+   "lapsPerKg": 0.6799999999999999,
+   "fuelUsedTotal": 51.7,
+   "sectorBests": [
+    [
+     16251,
+     29724,
+     20629
+    ],
+    [
+     32275,
+     46352,
+     29583
+    ],
+    [
+     31138,
+     28100,
+     25316
+    ]
+   ],
+   "cornerRates": [
+    1.0171,
+    0.5894,
+    0.9202,
+    0.7086
+   ],
+   "frontRearBias": -0.011099999999999999,
+   "leftRightBias": 0.31975,
+   "assists": {
+    "MEDIUM": 3
+   },
+   "assistsMain": "MEDIUM",
+   "engineWearMax": 6,
+   "engineBlown": 0,
+   "scLaps": 7,
    "pace_sd": 1.897,
    "best_lap": 68187,
    "best_lap_track": "奥地利",
@@ -8162,7 +9800,7 @@
    "axes": {
     "pace": 0.7624962556365117,
     "consistency": 0.729950900163666,
-    "combat": 0.7638888888888888,
+    "combat": 0.7532467532467533,
     "tyre": 0.646768542663696,
     "discipline": 0.7671232876712328,
     "reliability": 0.35714285714285715
@@ -8190,12 +9828,52 @@
    "clean_laps": 69,
    "laps_led": 0,
    "led_races": 0,
-   "ov_made": 67,
+   "ov_made": 73,
    "ov_lost": 71,
-   "collisions": 40,
+   "collisions": 42,
    "penalty_cards": 0,
    "wear_rate": 4.064943181818181,
    "pace_avg": 84670.0,
+   "fuelPerLap": 1.22455,
+   "lapsPerKg": 0.87,
+   "fuelUsedTotal": 95.6,
+   "sectorBests": [
+    [
+     16355,
+     30467,
+     20879
+    ],
+    [
+     27031,
+     27860,
+     28043
+    ],
+    [
+     29568,
+     40311,
+     22489
+    ],
+    [
+     18374,
+     36002,
+     32802
+    ]
+   ],
+   "cornerRates": [
+    1.3995,
+    1.2467,
+    1.357,
+    1.2378
+   ],
+   "frontRearBias": 0.025699999999999994,
+   "leftRightBias": 0.13599999999999998,
+   "assists": {
+    "FULL": 4
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 8,
    "pace_sd": 0.8295,
    "best_lap": 68095,
    "best_lap_track": "奥地利",
@@ -8207,13 +9885,13 @@
    "axes": {
     "pace": 0.8114563194115025,
     "consistency": 0.9240771049281686,
-    "combat": 0.3888888888888889,
+    "combat": 0.5064935064935064,
     "tyre": 0.39689270299433504,
-    "discipline": 0.4520547945205479,
+    "discipline": 0.4246575342465753,
     "reliability": 0.5
    },
    "strength": "consistency",
-   "weakness": "combat",
+   "weakness": "tyre",
    "archetype": "稳定型",
    "per_round": {
     "2": 14,
@@ -8236,11 +9914,62 @@
    "laps_led": 9,
    "led_races": 2,
    "ov_made": 79,
-   "ov_lost": 77,
-   "collisions": 49,
+   "ov_lost": 78,
+   "collisions": 51,
    "penalty_cards": 0,
    "wear_rate": 3.639400553150553,
    "pace_avg": 87139.17171717172,
+   "fuelPerLap": 1.1672,
+   "lapsPerKg": 0.9019999999999999,
+   "fuelUsedTotal": 114.0,
+   "sectorBests": [
+    [
+     16518,
+     29971,
+     20491
+    ],
+    [
+     26749,
+     27991,
+     28071
+    ],
+    [
+     29234,
+     39618,
+     22297
+    ],
+    [
+     20534,
+     23215,
+     29136
+    ],
+    [
+     29090,
+     38137,
+     25276
+    ],
+    [
+     32367,
+     46487,
+     30437
+    ]
+   ],
+   "cornerRates": [
+    1.0951,
+    0.9826,
+    1.1955,
+    1.0568
+   ],
+   "frontRearBias": -0.087275,
+   "leftRightBias": 0.1256,
+   "assists": {
+    "OFF": 5,
+    "FULL": 1
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 7,
    "pace_sd": 1.5961666666666667,
    "best_lap": 67819,
    "best_lap_track": "奥地利",
@@ -8252,9 +9981,9 @@
    "axes": {
     "pace": 0.753817439926692,
     "consistency": 0.7846578165727102,
-    "combat": 0.4722222222222222,
+    "combat": 0.4935064935064935,
     "tyre": 0.4600295915206894,
-    "discipline": 0.3287671232876712,
+    "discipline": 0.3013698630136986,
     "reliability": 0.42857142857142855
    },
    "strength": "consistency",
@@ -8283,12 +10012,47 @@
    "clean_laps": 45,
    "laps_led": 8,
    "led_races": 2,
-   "ov_made": 25,
+   "ov_made": 26,
    "ov_lost": 35,
-   "collisions": 20,
+   "collisions": 22,
    "penalty_cards": 0,
    "wear_rate": 3.9825396825396826,
    "pace_avg": 81335.75555555556,
+   "fuelPerLap": 1.2065,
+   "lapsPerKg": 0.8933333333333334,
+   "fuelUsedTotal": 61.9,
+   "sectorBests": [
+    [
+     16211,
+     30068,
+     20302
+    ],
+    [
+     26862,
+     27560,
+     27390
+    ],
+    [
+     29329,
+     39501,
+     22351
+    ]
+   ],
+   "cornerRates": [
+    1.3432,
+    1.3728,
+    1.8106,
+    1.6898
+   ],
+   "frontRearBias": -0.3922,
+   "leftRightBias": 0.0456,
+   "assists": {
+    "OFF": 3
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 7,
    "pace_sd": 1.7566666666666666,
    "best_lap": 66583,
    "best_lap_track": "奥地利",
@@ -8300,9 +10064,9 @@
    "axes": {
     "pace": 0.8892889433516328,
     "consistency": 0.7554706916409043,
-    "combat": 0.3055555555555556,
+    "combat": 0.36363636363636365,
     "tyre": 0.40911874146295507,
-    "discipline": 0.726027397260274,
+    "discipline": 0.6986301369863014,
     "reliability": 0.2857142857142857
    },
    "strength": "pace",
@@ -8327,12 +10091,42 @@
    "clean_laps": 33,
    "laps_led": 10,
    "led_races": 1,
-   "ov_made": 35,
-   "ov_lost": 40,
-   "collisions": 19,
+   "ov_made": 36,
+   "ov_lost": 41,
+   "collisions": 22,
    "penalty_cards": 1,
    "wear_rate": 4.625971479500892,
    "pace_avg": 76719.69696969698,
+   "fuelPerLap": 1.08165,
+   "lapsPerKg": 0.9450000000000001,
+   "fuelUsedTotal": 44.1,
+   "sectorBests": [
+    [
+     16432,
+     30517,
+     20579
+    ],
+    [
+     27265,
+     27203,
+     27597
+    ]
+   ],
+   "cornerRates": [
+    2.4744,
+    2.881,
+    2.0066,
+    1.8105
+   ],
+   "frontRearBias": 0.7691,
+   "leftRightBias": -0.1053,
+   "assists": {
+    "MEDIUM": 2
+   },
+   "assistsMain": "MEDIUM",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 8,
    "pace_sd": 0.978,
    "best_lap": 67789,
    "best_lap_track": "奥地利",
@@ -8344,9 +10138,9 @@
    "axes": {
     "pace": 0.9970434760456521,
     "consistency": 0.8970721949445354,
-    "combat": 0.375,
+    "combat": 0.4155844155844156,
     "tyre": 0.31365408316010496,
-    "discipline": 0.7123287671232876,
+    "discipline": 0.6712328767123288,
     "reliability": 0.35714285714285715
    },
    "strength": "pace",
@@ -8370,12 +10164,87 @@
    "clean_laps": 196,
    "laps_led": 0,
    "led_races": 0,
-   "ov_made": 98,
-   "ov_lost": 87,
+   "ov_made": 99,
+   "ov_lost": 88,
    "collisions": 55,
    "penalty_cards": 9,
    "wear_rate": 3.682352395079668,
    "pace_avg": 85464.3469387755,
+   "fuelPerLap": 1.2898,
+   "lapsPerKg": 0.8090909090909091,
+   "fuelUsedTotal": 275.1,
+   "sectorBests": [
+    [
+     16437,
+     30160,
+     20276
+    ],
+    [
+     27337,
+     27237,
+     28181
+    ],
+    [
+     29439,
+     39540,
+     22297
+    ],
+    [
+     20781,
+     23201,
+     29274
+    ],
+    [
+     28338,
+     37648,
+     25149
+    ],
+    [
+     32597,
+     47197,
+     29570
+    ],
+    [
+     25953,
+     37790,
+     32172
+    ],
+    [
+     28159,
+     29514,
+     20094
+    ],
+    [
+     17824,
+     36520,
+     16375
+    ],
+    [
+     32101,
+     28556,
+     25451
+    ],
+    [
+     17950,
+     36191,
+     32168
+    ]
+   ],
+   "cornerRates": [
+    1.4247,
+    1.0659,
+    1.2278,
+    1.1052
+   ],
+   "frontRearBias": 0.07876999999999999,
+   "leftRightBias": 0.24072,
+   "assists": {
+    "FULL": 11
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 7,
    "pace_sd": 1.4085454545454545,
    "best_lap": 67775,
    "best_lap_track": "奥地利",
@@ -8387,7 +10256,7 @@
    "axes": {
     "pace": 0.792913555797778,
     "consistency": 0.8187769677131379,
-    "combat": 0.5972222222222222,
+    "combat": 0.6233766233766234,
     "tyre": 0.45365691467660707,
     "discipline": 0.0,
     "reliability": 1.0
@@ -8422,12 +10291,57 @@
    "clean_laps": 50,
    "laps_led": 4,
    "led_races": 1,
-   "ov_made": 47,
+   "ov_made": 49,
    "ov_lost": 45,
-   "collisions": 15,
+   "collisions": 16,
    "penalty_cards": 0,
    "wear_rate": 3.6070816993464057,
    "pace_avg": 91275.76,
+   "fuelPerLap": 1.33615,
+   "lapsPerKg": 0.7725,
+   "fuelUsedTotal": 83.8,
+   "sectorBests": [
+    [
+     16816,
+     30163,
+     20451
+    ],
+    [
+     28439,
+     37624,
+     24953
+    ],
+    [
+     32075,
+     47564,
+     29791
+    ],
+    [
+     26005,
+     37877,
+     32226
+    ],
+    [
+     18323,
+     36335,
+     32927
+    ]
+   ],
+   "cornerRates": [
+    0.7343,
+    0.7367,
+    0.6118,
+    0.5563
+   ],
+   "frontRearBias": 0.15146666666666667,
+   "leftRightBias": 0.0266,
+   "assists": {
+    "FULL": 5
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 8,
    "pace_sd": 1.7134,
    "best_lap": 68344,
    "best_lap_track": "奥地利",
@@ -8439,9 +10353,9 @@
    "axes": {
     "pace": 0.6572553774933335,
     "consistency": 0.7633387888707037,
-    "combat": 0.4722222222222222,
+    "combat": 0.5324675324675324,
     "tyre": 0.4648246736874769,
-    "discipline": 0.7945205479452054,
+    "discipline": 0.7808219178082192,
     "reliability": 0.42857142857142855
    },
    "strength": "discipline",
@@ -8468,12 +10382,32 @@
    "clean_laps": 7,
    "laps_led": 0,
    "led_races": 0,
-   "ov_made": 11,
-   "ov_lost": 20,
-   "collisions": 6,
+   "ov_made": 0,
+   "ov_lost": 0,
+   "collisions": 7,
    "penalty_cards": 0,
    "wear_rate": 0.0,
    "pace_avg": 79379.28571428571,
+   "fuelPerLap": null,
+   "lapsPerKg": null,
+   "fuelUsedTotal": 0,
+   "sectorBests": [
+    [
+     16299,
+     30895,
+     21098
+    ]
+   ],
+   "cornerRates": null,
+   "frontRearBias": null,
+   "leftRightBias": null,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": null,
+   "engineBlown": 0,
+   "scLaps": 8,
    "pace_sd": 2.656,
    "best_lap": 68991,
    "best_lap_track": "奥地利",
@@ -8485,9 +10419,9 @@
    "axes": {
     "pace": 0.9349596144565929,
     "consistency": 0.591925804691762,
-    "combat": 0.3194444444444444,
+    "combat": 0.4805194805194805,
     "tyre": 1.0,
-    "discipline": 0.9178082191780822,
+    "discipline": 0.9041095890410958,
     "reliability": 0.14285714285714285
    },
    "strength": "tyre",
@@ -8510,12 +10444,72 @@
    "clean_laps": 127,
    "laps_led": 0,
    "led_races": 0,
-   "ov_made": 63,
-   "ov_lost": 95,
+   "ov_made": 64,
+   "ov_lost": 101,
    "collisions": 27,
    "penalty_cards": 0,
    "wear_rate": 3.8766996495567922,
    "pace_avg": 89628.22047244094,
+   "fuelPerLap": 1.259,
+   "lapsPerKg": 0.80625,
+   "fuelUsedTotal": 180.2,
+   "sectorBests": [
+    [
+     32390,
+     35300,
+     33387
+    ],
+    [
+     27732,
+     27998,
+     28274
+    ],
+    [
+     28716,
+     37529,
+     25237
+    ],
+    [
+     32229,
+     47022,
+     30020
+    ],
+    [
+     28623,
+     29666,
+     20008
+    ],
+    [
+     18235,
+     36303,
+     16598
+    ],
+    [
+     31799,
+     28744,
+     25437
+    ],
+    [
+     18141,
+     36243,
+     32362
+    ]
+   ],
+   "cornerRates": [
+    1.247,
+    1.0245,
+    1.4271,
+    1.3274
+   ],
+   "frontRearBias": -0.24151250000000002,
+   "leftRightBias": 0.16113750000000002,
+   "assists": {
+    "OFF": 8
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 6,
+   "engineBlown": 0,
+   "scLaps": 1,
    "pace_sd": 1.5742857142857143,
    "best_lap": 72064,
    "best_lap_track": "巴西",
@@ -8560,11 +10554,30 @@
    "laps_led": 0,
    "led_races": 0,
    "ov_made": 2,
-   "ov_lost": 0,
+   "ov_lost": 2,
    "collisions": 1,
    "penalty_cards": 0,
    "wear_rate": null,
    "pace_avg": null,
+   "fuelPerLap": null,
+   "lapsPerKg": null,
+   "fuelUsedTotal": 0,
+   "sectorBests": [],
+   "cornerRates": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "frontRearBias": 0.0,
+   "leftRightBias": 0.0,
+   "assists": {
+    "OFF": 1
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": null,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": null,
    "best_lap": null,
    "best_lap_track": "",
@@ -8576,7 +10589,7 @@
    "axes": {
     "pace": null,
     "consistency": null,
-    "combat": 0.4722222222222222,
+    "combat": 0.4805194805194805,
     "tyre": null,
     "discipline": 0.9863013698630136,
     "reliability": 0.14285714285714285
@@ -8601,12 +10614,42 @@
    "clean_laps": 35,
    "laps_led": 2,
    "led_races": 1,
-   "ov_made": 32,
-   "ov_lost": 32,
+   "ov_made": 33,
+   "ov_lost": 31,
    "collisions": 14,
    "penalty_cards": 0,
    "wear_rate": 4.11155303030303,
    "pace_avg": 88496.88571428572,
+   "fuelPerLap": 1.2656,
+   "lapsPerKg": 0.79,
+   "fuelUsedTotal": 49.4,
+   "sectorBests": [
+    [
+     32273,
+     28358,
+     25889
+    ],
+    [
+     18199,
+     35959,
+     32239
+    ]
+   ],
+   "cornerRates": [
+    0.9652,
+    0.8658,
+    0.8063,
+    0.7734
+   ],
+   "frontRearBias": 0.12563333333333335,
+   "leftRightBias": 0.06616666666666665,
+   "assists": {
+    "FULL": 3
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 6,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 1.0055,
    "best_lap": 86699,
    "best_lap_track": "卢塞尔",
@@ -8618,7 +10661,7 @@
    "axes": {
     "pace": 0.7221237699764576,
     "consistency": 0.892071285688307,
-    "combat": 0.4444444444444444,
+    "combat": 0.5064935064935064,
     "tyre": 0.3899772952072655,
     "discipline": 0.8082191780821918,
     "reliability": 0.35714285714285715
@@ -8650,6 +10693,51 @@
    "penalty_cards": 1,
    "wear_rate": 3.7137602952602946,
    "pace_avg": 82896.42222222222,
+   "fuelPerLap": 1.2038,
+   "lapsPerKg": 0.858,
+   "fuelUsedTotal": 115.3,
+   "sectorBests": [
+    [
+     27485,
+     27741,
+     27706
+    ],
+    [
+     26235,
+     38044,
+     32008
+    ],
+    [
+     28435,
+     29647,
+     19936
+    ],
+    [
+     18241,
+     35668,
+     16438
+    ],
+    [
+     17928,
+     35527,
+     31530
+    ]
+   ],
+   "cornerRates": [
+    1.2921,
+    1.0712,
+    1.4574,
+    1.3695
+   ],
+   "frontRearBias": -0.231825,
+   "leftRightBias": 0.154425,
+   "assists": {
+    "FULL": 5
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 6,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 1.1086,
    "best_lap": 70867,
    "best_lap_track": "巴西",
@@ -8661,7 +10749,7 @@
    "axes": {
     "pace": 0.8528576667051474,
     "consistency": 0.8733224222585925,
-    "combat": 0.3888888888888889,
+    "combat": 0.42857142857142855,
     "tyre": 0.44899698883378414,
     "discipline": 0.3698630136986301,
     "reliability": 0.5714285714285714
@@ -8696,6 +10784,36 @@
    "penalty_cards": 0,
    "wear_rate": 4.223101851851852,
    "pace_avg": 83011.02702702703,
+   "fuelPerLap": 1.1598000000000002,
+   "lapsPerKg": 0.865,
+   "fuelUsedTotal": 50.6,
+   "sectorBests": [
+    [
+     27100,
+     27113,
+     27679
+    ],
+    [
+     28196,
+     28703,
+     19653
+    ]
+   ],
+   "cornerRates": [
+    1.363,
+    0.7307,
+    1.5508,
+    1.1858
+   ],
+   "frontRearBias": -0.32149999999999995,
+   "leftRightBias": 0.49870000000000003,
+   "assists": {
+    "FULL": 2
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 2.1929999999999996,
    "best_lap": 76873,
    "best_lap_track": "墨西哥",
@@ -8707,7 +10825,7 @@
    "axes": {
     "pace": 0.8501824001424431,
     "consistency": 0.6761229314420805,
-    "combat": 0.5277777777777778,
+    "combat": 0.5584415584415584,
     "tyre": 0.3734270249477964,
     "discipline": 0.8082191780821918,
     "reliability": 0.35714285714285715
@@ -8739,6 +10857,46 @@
    "penalty_cards": 0,
    "wear_rate": 5.159632936507936,
    "pace_avg": 90303.19354838709,
+   "fuelPerLap": 1.3325,
+   "lapsPerKg": 0.765,
+   "fuelUsedTotal": 92.4,
+   "sectorBests": [
+    [
+     27361,
+     27893,
+     28521
+    ],
+    [
+     33566,
+     47633,
+     29909
+    ],
+    [
+     26113,
+     38627,
+     32465
+    ],
+    [
+     18436,
+     36826,
+     16719
+    ]
+   ],
+   "cornerRates": [
+    1.1777,
+    0.821,
+    1.0148,
+    0.965
+   ],
+   "frontRearBias": 0.00943333333333334,
+   "leftRightBias": 0.20323333333333335,
+   "assists": {
+    "FULL": 4
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 1.85875,
    "best_lap": 72010,
    "best_lap_track": "巴西",
@@ -8750,7 +10908,7 @@
    "axes": {
     "pace": 0.6799583916683446,
     "consistency": 0.7369067103109657,
-    "combat": 0.4305555555555556,
+    "combat": 0.4675324675324675,
     "tyre": 0.23447582544392628,
     "discipline": 0.9178082191780822,
     "reliability": 0.5
@@ -8784,6 +10942,41 @@
    "penalty_cards": 0,
    "wear_rate": 4.147194989106754,
    "pace_avg": 98754.3,
+   "fuelPerLap": 1.207,
+   "lapsPerKg": 0.7333333333333334,
+   "fuelUsedTotal": 74.7,
+   "sectorBests": [
+    [
+     27668,
+     28112,
+     27949
+    ],
+    [
+     29693,
+     40288,
+     22451
+    ],
+    [
+     32738,
+     48431,
+     29997
+    ]
+   ],
+   "cornerRates": [
+    1.8392,
+    1.059,
+    1.5493,
+    1.248
+   ],
+   "frontRearBias": 0.05046666666666667,
+   "leftRightBias": 0.5407,
+   "assists": {
+    "FULL": 3
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 2.442,
    "best_lap": 85015,
    "best_lap_track": "蒙扎",
@@ -8795,7 +10988,7 @@
    "axes": {
     "pace": 0.48268077711840235,
     "consistency": 0.6308419712675031,
-    "combat": 0.4166666666666667,
+    "combat": 0.45454545454545453,
     "tyre": 0.3846891707556745,
     "discipline": 0.9315068493150684,
     "reliability": 0.42857142857142855
@@ -8828,6 +11021,36 @@
    "penalty_cards": 1,
    "wear_rate": 3.298482142857143,
    "pace_avg": 85715.47368421052,
+   "fuelPerLap": 1.1703000000000001,
+   "lapsPerKg": 0.87,
+   "fuelUsedTotal": 48.2,
+   "sectorBests": [
+    [
+     27912,
+     28383,
+     28308
+    ],
+    [
+     21758,
+     23907,
+     29794
+    ]
+   ],
+   "cornerRates": [
+    1.7205,
+    0.6751,
+    1.3074,
+    0.9856
+   ],
+   "frontRearBias": 0.05134999999999998,
+   "leftRightBias": 0.6836000000000001,
+   "assists": {
+    "MEDIUM": 2
+   },
+   "assistsMain": "MEDIUM",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 2.6879999999999997,
    "best_lap": 75875,
    "best_lap_track": "蒙特利尔",
@@ -8839,7 +11062,7 @@
    "axes": {
     "pace": 0.7870514020581744,
     "consistency": 0.5861065648299691,
-    "combat": 0.4166666666666667,
+    "combat": 0.45454545454545453,
     "tyre": 0.5106109580330648,
     "discipline": 0.9452054794520548,
     "reliability": 0.21428571428571427
@@ -8871,6 +11094,31 @@
    "penalty_cards": 0,
    "wear_rate": 2.4,
    "pace_avg": 97581.64705882352,
+   "fuelPerLap": 1.2191,
+   "lapsPerKg": 0.82,
+   "fuelUsedTotal": 20.7,
+   "sectorBests": [
+    [
+     28262,
+     29972,
+     29665
+    ]
+   ],
+   "cornerRates": [
+    2.0479,
+    0.9586,
+    1.8955,
+    1.4161
+   ],
+   "frontRearBias": -0.1525,
+   "leftRightBias": 0.7843,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 3,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 2.519,
    "best_lap": 89449,
    "best_lap_track": "蒙扎",
@@ -8882,7 +11130,7 @@
    "axes": {
     "pace": 0.5100544915846446,
     "consistency": 0.6168394253500636,
-    "combat": 0.4444444444444444,
+    "combat": 0.4805194805194805,
     "tyre": 0.6439169139465876,
     "discipline": 0.9726027397260274,
     "reliability": 0.14285714285714285
@@ -8913,6 +11161,31 @@
    "penalty_cards": 0,
    "wear_rate": 5.949999999999999,
    "pace_avg": 87820.44444444444,
+   "fuelPerLap": 1.2674,
+   "lapsPerKg": 0.79,
+   "fuelUsedTotal": 13.9,
+   "sectorBests": [
+    [
+     27737,
+     27996,
+     28394
+    ]
+   ],
+   "cornerRates": [
+    0.6188,
+    0.0977,
+    0.2597,
+    0.0319
+   ],
+   "frontRearBias": 0.2124,
+   "leftRightBias": 0.3745,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 2,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 1.302,
    "best_lap": 85069,
    "best_lap_track": "蒙扎",
@@ -8924,7 +11197,7 @@
    "axes": {
     "pace": 0.7379142136138055,
     "consistency": 0.8381523913438808,
-    "combat": 0.4166666666666667,
+    "combat": 0.45454545454545453,
     "tyre": 0.11721068249258162,
     "discipline": 1.0,
     "reliability": 0.07142857142857142
@@ -8956,6 +11229,31 @@
    "penalty_cards": 1,
    "wear_rate": 4.6,
    "pace_avg": 94991.94444444444,
+   "fuelPerLap": 1.2605,
+   "lapsPerKg": 0.79,
+   "fuelUsedTotal": 25.2,
+   "sectorBests": [
+    [
+     29447,
+     39560,
+     22443
+    ]
+   ],
+   "cornerRates": [
+    1.7003,
+    1.0835,
+    1.6254,
+    1.345
+   ],
+   "frontRearBias": -0.0933,
+   "leftRightBias": 0.4486,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 1.734,
    "best_lap": 92640,
    "best_lap_track": "萨基尔",
@@ -8967,7 +11265,7 @@
    "axes": {
     "pace": 0.570506972816963,
     "consistency": 0.7595926532096745,
-    "combat": 0.375,
+    "combat": 0.4155844155844156,
     "tyre": 0.3175074183976261,
     "discipline": 0.9041095890410958,
     "reliability": 0.2857142857142857
@@ -8998,6 +11296,26 @@
    "penalty_cards": 0,
    "wear_rate": 0.0,
    "pace_avg": 93277.94444444444,
+   "fuelPerLap": null,
+   "lapsPerKg": null,
+   "fuelUsedTotal": 0,
+   "sectorBests": [
+    [
+     29176,
+     39328,
+     22302
+    ]
+   ],
+   "cornerRates": null,
+   "frontRearBias": null,
+   "leftRightBias": null,
+   "assists": {
+    "OFF": 1
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": null,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 1.139,
    "best_lap": 91373,
    "best_lap_track": "萨基尔",
@@ -9009,7 +11327,7 @@
    "axes": {
     "pace": 0.610517571816585,
     "consistency": 0.867794144389889,
-    "combat": 0.4444444444444444,
+    "combat": 0.4805194805194805,
     "tyre": 1.0,
     "discipline": 0.6575342465753424,
     "reliability": 0.14285714285714285
@@ -9040,6 +11358,31 @@
    "penalty_cards": 0,
    "wear_rate": 3.282843137254902,
    "pace_avg": 78098.60869565218,
+   "fuelPerLap": -0.1686,
+   "lapsPerKg": null,
+   "fuelUsedTotal": -4.2,
+   "sectorBests": [
+    [
+     21290,
+     23522,
+     29395
+    ]
+   ],
+   "cornerRates": [
+    0.4377,
+    0.3171,
+    1.0563,
+    0.9357
+   ],
+   "frontRearBias": -0.6186,
+   "leftRightBias": 0.1206,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 2.834,
    "best_lap": 74678,
    "best_lap_track": "蒙特利尔",
@@ -9051,7 +11394,7 @@
    "axes": {
     "pace": 0.9648549788910022,
     "consistency": 0.5595562829605383,
-    "combat": 0.3888888888888889,
+    "combat": 0.42857142857142855,
     "tyre": 0.5129312852737534,
     "discipline": 0.9726027397260274,
     "reliability": 0.2857142857142857
@@ -9082,6 +11425,31 @@
    "penalty_cards": 0,
    "wear_rate": 3.4588888888888882,
    "pace_avg": 78528.85,
+   "fuelPerLap": -0.2411,
+   "lapsPerKg": null,
+   "fuelUsedTotal": -5.8,
+   "sectorBests": [
+    [
+     21525,
+     23675,
+     29066
+    ]
+   ],
+   "cornerRates": [
+    0.3625,
+    0.2566,
+    0.8607,
+    0.7548
+   ],
+   "frontRearBias": -0.4982,
+   "leftRightBias": 0.1059,
+   "assists": {
+    "OFF": 1
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 2.75,
    "best_lap": 74902,
    "best_lap_track": "蒙特利尔",
@@ -9093,7 +11461,7 @@
    "axes": {
     "pace": 0.9548116811656024,
     "consistency": 0.574831787597745,
-    "combat": 0.3888888888888889,
+    "combat": 0.42857142857142855,
     "tyre": 0.4868117375535774,
     "discipline": 0.9178082191780822,
     "reliability": 0.2857142857142857
@@ -9124,6 +11492,41 @@
    "penalty_cards": 0,
    "wear_rate": 4.172954545454545,
    "pace_avg": 94014.32653061225,
+   "fuelPerLap": 1.285,
+   "lapsPerKg": 0.7766666666666667,
+   "fuelUsedTotal": 73.6,
+   "sectorBests": [
+    [
+     21378,
+     23870,
+     29939
+    ],
+    [
+     29307,
+     38132,
+     25627
+    ],
+    [
+     32408,
+     49734,
+     30027
+    ]
+   ],
+   "cornerRates": [
+    1.1734,
+    0.7256,
+    1.1109,
+    0.9243
+   ],
+   "frontRearBias": -0.06813333333333334,
+   "leftRightBias": 0.31716666666666665,
+   "assists": {
+    "FULL": 3
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 6,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 3.4866666666666664,
    "best_lap": 76080,
    "best_lap_track": "蒙特利尔",
@@ -9135,7 +11538,7 @@
    "axes": {
     "pace": 0.5933279053287406,
     "consistency": 0.44086803661271745,
-    "combat": 0.3888888888888889,
+    "combat": 0.42857142857142855,
     "tyre": 0.38086727812247095,
     "discipline": 0.7945205479452054,
     "reliability": 0.42857142857142855
@@ -9168,6 +11571,31 @@
    "penalty_cards": 0,
    "wear_rate": 2.9766666666666666,
    "pace_avg": 86358.8125,
+   "fuelPerLap": 1.0016,
+   "lapsPerKg": 1.0,
+   "fuelUsedTotal": 20.0,
+   "sectorBests": [
+    [
+     21526,
+     23707,
+     30716
+    ]
+   ],
+   "cornerRates": [
+    1.2617,
+    0.9037,
+    1.7735,
+    1.6029
+   ],
+   "frontRearBias": -0.6055,
+   "leftRightBias": 0.2643,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 7,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 3.369,
    "best_lap": 77042,
    "best_lap_track": "蒙特利尔",
@@ -9179,7 +11607,7 @@
    "axes": {
     "pace": 0.7720336824669,
     "consistency": 0.46226586652118556,
-    "combat": 0.4444444444444444,
+    "combat": 0.4805194805194805,
     "tyre": 0.5583580613254203,
     "discipline": 0.9452054794520548,
     "reliability": 0.14285714285714285
@@ -9210,6 +11638,25 @@
    "penalty_cards": 0,
    "wear_rate": null,
    "pace_avg": null,
+   "fuelPerLap": null,
+   "lapsPerKg": null,
+   "fuelUsedTotal": 0,
+   "sectorBests": [],
+   "cornerRates": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "frontRearBias": 0.0,
+   "leftRightBias": 0.0,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": null,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": null,
    "best_lap": null,
    "best_lap_track": "",
@@ -9221,7 +11668,7 @@
    "axes": {
     "pace": null,
     "consistency": null,
-    "combat": 0.4444444444444444,
+    "combat": 0.4805194805194805,
     "tyre": null,
     "discipline": 1.0,
     "reliability": 0.14285714285714285
@@ -9252,6 +11699,26 @@
    "penalty_cards": 0,
    "wear_rate": 4.253571428571428,
    "pace_avg": 91377.93333333333,
+   "fuelPerLap": 1.3371,
+   "lapsPerKg": 0.75,
+   "fuelUsedTotal": 21.4,
+   "sectorBests": [
+    [
+     28193,
+     36683,
+     24455
+    ]
+   ],
+   "cornerRates": null,
+   "frontRearBias": null,
+   "leftRightBias": null,
+   "assists": {
+    "OFF": 1
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 0.948,
    "best_lap": 89411,
    "best_lap_track": "银石",
@@ -9263,7 +11730,7 @@
    "axes": {
     "pace": 0.6548703038244567,
     "consistency": 0.9025277323149663,
-    "combat": 0.4305555555555556,
+    "combat": 0.4675324675324675,
     "tyre": 0.3689063162356931,
     "discipline": 0.9726027397260274,
     "reliability": 0.2857142857142857
@@ -9294,6 +11761,46 @@
    "penalty_cards": 0,
    "wear_rate": 2.8466927680162977,
    "pace_avg": 92405.20634920635,
+   "fuelPerLap": 1.2978,
+   "lapsPerKg": 0.78,
+   "fuelUsedTotal": 89.5,
+   "sectorBests": [
+    [
+     28900,
+     37879,
+     25250
+    ],
+    [
+     32226,
+     48662,
+     29886
+    ],
+    [
+     26808,
+     37920,
+     32591
+    ],
+    [
+     18599,
+     36940,
+     16790
+    ]
+   ],
+   "cornerRates": [
+    1.1416,
+    1.08,
+    1.3467,
+    1.2498
+   ],
+   "frontRearBias": -0.18753333333333333,
+   "leftRightBias": 0.07920000000000002,
+   "assists": {
+    "FULL": 4
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 1.88275,
    "best_lap": 72858,
    "best_lap_track": "巴西",
@@ -9305,7 +11812,7 @@
    "axes": {
     "pace": 0.630890252073449,
     "consistency": 0.7325422804146209,
-    "combat": 0.4444444444444444,
+    "combat": 0.4805194805194805,
     "tyre": 0.5776420225495107,
     "discipline": 0.7397260273972602,
     "reliability": 0.5714285714285714
@@ -9340,6 +11847,46 @@
    "penalty_cards": 3,
    "wear_rate": 3.917906746031746,
    "pace_avg": 98130.82456140351,
+   "fuelPerLap": 1.2967499999999998,
+   "lapsPerKg": 0.7325,
+   "fuelUsedTotal": 88.6,
+   "sectorBests": [
+    [
+     28554,
+     38116,
+     25118
+    ],
+    [
+     32279,
+     46936,
+     30309
+    ],
+    [
+     26300,
+     38591,
+     32284
+    ],
+    [
+     18300,
+     35849,
+     32639
+    ]
+   ],
+   "cornerRates": [
+    0.9554,
+    0.8007,
+    0.9196,
+    0.8719
+   ],
+   "frontRearBias": -0.017700000000000004,
+   "leftRightBias": 0.10113333333333331,
+   "assists": {
+    "FULL": 4
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 8,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 2.14575,
    "best_lap": 87092,
    "best_lap_track": "阿布扎比",
@@ -9351,7 +11898,7 @@
    "axes": {
     "pace": 0.49723481781840095,
     "consistency": 0.6847154028005091,
-    "combat": 0.5416666666666666,
+    "combat": 0.5714285714285714,
     "tyre": 0.4187081979181385,
     "discipline": 0.684931506849315,
     "reliability": 0.5
@@ -9387,6 +11934,31 @@
    "penalty_cards": 0,
    "wear_rate": 4.95625,
    "pace_avg": 94862.375,
+   "fuelPerLap": 1.3273,
+   "lapsPerKg": 0.75,
+   "fuelUsedTotal": 23.9,
+   "sectorBests": [
+    [
+     28873,
+     38236,
+     25077
+    ]
+   ],
+   "cornerRates": [
+    1.878,
+    0.8477,
+    0.7842,
+    0.5783
+   ],
+   "frontRearBias": 0.6816,
+   "leftRightBias": 0.6181,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 0.911,
    "best_lap": 92868,
    "best_lap_track": "银石",
@@ -9398,7 +11970,7 @@
    "axes": {
     "pace": 0.5735315650481593,
     "consistency": 0.9092562284051646,
-    "combat": 0.4027777777777778,
+    "combat": 0.44155844155844154,
     "tyre": 0.26465133531157264,
     "discipline": 0.9726027397260274,
     "reliability": 0.2857142857142857
@@ -9429,6 +12001,42 @@
    "penalty_cards": 2,
    "wear_rate": 3.508472222222222,
    "pace_avg": 91648.81818181818,
+   "fuelPerLap": 1.2567,
+   "lapsPerKg": 0.77,
+   "fuelUsedTotal": 67.5,
+   "sectorBests": [
+    [
+     28672,
+     37637,
+     24938
+    ],
+    [
+     32355,
+     46897,
+     29752
+    ],
+    [
+     28280,
+     29299,
+     19798
+    ]
+   ],
+   "cornerRates": [
+    0.5228,
+    0.4271,
+    0.6228,
+    0.5473
+   ],
+   "frontRearBias": -0.11013333333333332,
+   "leftRightBias": 0.08566666666666667,
+   "assists": {
+    "FULL": 1,
+    "MEDIUM": 2
+   },
+   "assistsMain": "MEDIUM",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 2.7533333333333334,
    "best_lap": 77863,
    "best_lap_track": "墨西哥",
@@ -9440,7 +12048,7 @@
    "axes": {
     "pace": 0.6485469286507108,
     "consistency": 0.5742256167788082,
-    "combat": 0.5,
+    "combat": 0.5324675324675324,
     "tyre": 0.4794551599076821,
     "discipline": 0.6438356164383562,
     "reliability": 0.2857142857142857
@@ -9473,6 +12081,31 @@
    "penalty_cards": 0,
    "wear_rate": 6.4944444444444445,
    "pace_avg": 116170.92307692308,
+   "fuelPerLap": 1.7761,
+   "lapsPerKg": 0.56,
+   "fuelUsedTotal": 26.6,
+   "sectorBests": [
+    [
+     32118,
+     47735,
+     30469
+    ]
+   ],
+   "cornerRates": [
+    1.646,
+    1.3986,
+    1.9397,
+    1.718
+   ],
+   "frontRearBias": -0.3066,
+   "leftRightBias": 0.2346,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 5.314,
    "best_lap": 110603,
    "best_lap_track": "斯帕",
@@ -9484,7 +12117,7 @@
    "axes": {
     "pace": 0.07611746214854907,
     "consistency": 0.10856519367157658,
-    "combat": 0.4722222222222222,
+    "combat": 0.5064935064935064,
     "tyre": 0.03643257500824256,
     "discipline": 0.9041095890410958,
     "reliability": 0.2857142857142857
@@ -9515,6 +12148,31 @@
    "penalty_cards": 1,
    "wear_rate": 5.66375,
    "pace_avg": 119431.69230769231,
+   "fuelPerLap": 1.8141,
+   "lapsPerKg": 0.55,
+   "fuelUsedTotal": 27.2,
+   "sectorBests": [
+    [
+     32216,
+     48853,
+     30894
+    ]
+   ],
+   "cornerRates": [
+    1.569,
+    1.3726,
+    2.3286,
+    2.108
+   ],
+   "frontRearBias": -0.7475,
+   "leftRightBias": 0.2085,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 5.911,
    "best_lap": 113038,
    "best_lap_track": "斯帕",
@@ -9526,7 +12184,7 @@
    "axes": {
     "pace": 0.0,
     "consistency": 0.0,
-    "combat": 0.4166666666666667,
+    "combat": 0.45454545454545453,
     "tyre": 0.15968100890207704,
     "discipline": 0.8767123287671232,
     "reliability": 0.2857142857142857
@@ -9557,6 +12215,36 @@
    "penalty_cards": 0,
    "wear_rate": 3.1744642857142855,
    "pace_avg": 76593.04347826086,
+   "fuelPerLap": 1.0467,
+   "lapsPerKg": 0.9550000000000001,
+   "fuelUsedTotal": 52.3,
+   "sectorBests": [
+    [
+     28273,
+     29482,
+     19855
+    ],
+    [
+     17729,
+     36575,
+     16348
+    ]
+   ],
+   "cornerRates": [
+    0.8828,
+    0.8762,
+    1.2601,
+    1.2831
+   ],
+   "frontRearBias": -0.392,
+   "leftRightBias": -0.008249999999999993,
+   "assists": {
+    "FULL": 2
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 6,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 0.6225,
    "best_lap": 71466,
    "best_lap_track": "巴西",
@@ -9568,7 +12256,7 @@
    "axes": {
     "pace": 1.0,
     "consistency": 0.9617203127841425,
-    "combat": 0.4583333333333333,
+    "combat": 0.4935064935064935,
     "tyre": 0.5290112335735481,
     "discipline": 0.9178082191780822,
     "reliability": 0.35714285714285715
@@ -9600,6 +12288,31 @@
    "penalty_cards": 0,
    "wear_rate": 2.945,
    "pace_avg": 80182.21739130435,
+   "fuelPerLap": 1.0715,
+   "lapsPerKg": 0.93,
+   "fuelUsedTotal": 26.8,
+   "sectorBests": [
+    [
+     28277,
+     29166,
+     19861
+    ]
+   ],
+   "cornerRates": [
+    1.2971,
+    1.1161,
+    1.5236,
+    1.403
+   ],
+   "frontRearBias": -0.2567,
+   "leftRightBias": 0.1508,
+   "assists": {
+    "OFF": 1
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 1.779,
    "best_lap": 77560,
    "best_lap_track": "墨西哥",
@@ -9611,7 +12324,7 @@
    "axes": {
     "pace": 0.9162164538070674,
     "consistency": 0.751409347154028,
-    "combat": 0.5,
+    "combat": 0.5324675324675324,
     "tyre": 0.5630563798219584,
     "discipline": 0.958904109589041,
     "reliability": 0.2857142857142857
@@ -9642,6 +12355,36 @@
    "penalty_cards": 0,
    "wear_rate": 2.316889880952381,
    "pace_avg": 76963.47826086957,
+   "fuelPerLap": 1.0521500000000001,
+   "lapsPerKg": 0.95,
+   "fuelUsedTotal": 52.6,
+   "sectorBests": [
+    [
+     28451,
+     29133,
+     20183
+    ],
+    [
+     18087,
+     36687,
+     16529
+    ]
+   ],
+   "cornerRates": [
+    1.3424,
+    1.4329,
+    1.1768,
+    1.2898
+   ],
+   "frontRearBias": 0.1543,
+   "leftRightBias": -0.10170000000000001,
+   "assists": {
+    "OFF": 2
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 6,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 1.9285,
    "best_lap": 72116,
    "best_lap_track": "巴西",
@@ -9653,7 +12396,7 @@
    "axes": {
     "pace": 0.9913527902319318,
     "consistency": 0.7242225859247136,
-    "combat": 0.3611111111111111,
+    "combat": 0.4025974025974026,
     "tyre": 0.6562477921435637,
     "discipline": 0.9315068493150684,
     "reliability": 0.42857142857142855
@@ -9686,6 +12429,25 @@
    "penalty_cards": 0,
    "wear_rate": null,
    "pace_avg": null,
+   "fuelPerLap": null,
+   "lapsPerKg": null,
+   "fuelUsedTotal": 0,
+   "sectorBests": [],
+   "cornerRates": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "frontRearBias": 0.0,
+   "leftRightBias": 0.0,
+   "assists": {
+    "MEDIUM": 1
+   },
+   "assistsMain": "MEDIUM",
+   "engineWearMax": null,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": null,
    "best_lap": null,
    "best_lap_track": "",
@@ -9697,7 +12459,7 @@
    "axes": {
     "pace": null,
     "consistency": null,
-    "combat": 0.4444444444444444,
+    "combat": 0.4805194805194805,
     "tyre": null,
     "discipline": 1.0,
     "reliability": 0.14285714285714285
@@ -9728,6 +12490,36 @@
    "penalty_cards": 0,
    "wear_rate": 3.2094642857142857,
    "pace_avg": 78825.5,
+   "fuelPerLap": 1.1277,
+   "lapsPerKg": 0.8899999999999999,
+   "fuelUsedTotal": 49.1,
+   "sectorBests": [
+    [
+     18008,
+     36121,
+     16438
+    ],
+    [
+     17936,
+     36011,
+     31948
+    ]
+   ],
+   "cornerRates": [
+    1.4013,
+    1.6584,
+    1.4707,
+    1.5876
+   ],
+   "frontRearBias": 0.0006999999999999992,
+   "leftRightBias": -0.187,
+   "assists": {
+    "OFF": 2
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 0.9750000000000001,
    "best_lap": 71283,
    "best_lap_track": "巴西",
@@ -9739,7 +12531,7 @@
    "axes": {
     "pace": 0.9478868595826166,
     "consistency": 0.8976177486815785,
-    "combat": 0.5138888888888888,
+    "combat": 0.5454545454545454,
     "tyre": 0.5238183552352691,
     "discipline": 0.9315068493150684,
     "reliability": 0.35714285714285715
@@ -9771,6 +12563,37 @@
    "penalty_cards": 0,
    "wear_rate": 4.22107683982684,
    "pace_avg": 79224.19512195123,
+   "fuelPerLap": 1.1848999999999998,
+   "lapsPerKg": 0.855,
+   "fuelUsedTotal": 52.6,
+   "sectorBests": [
+    [
+     17791,
+     36857,
+     16539
+    ],
+    [
+     31914,
+     28476,
+     25336
+    ]
+   ],
+   "cornerRates": [
+    1.5395,
+    1.3108,
+    1.3252,
+    1.3791
+   ],
+   "frontRearBias": 0.073,
+   "leftRightBias": 0.08739999999999998,
+   "assists": {
+    "MEDIUM": 1,
+    "OFF": 1
+   },
+   "assistsMain": "MEDIUM",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 0.6194999999999999,
    "best_lap": 71821,
    "best_lap_track": "巴西",
@@ -9782,7 +12605,7 @@
    "axes": {
     "pace": 0.9385799572211838,
     "consistency": 0.9622658665211856,
-    "combat": 0.4583333333333333,
+    "combat": 0.4935064935064935,
     "tyre": 0.3737274718357803,
     "discipline": 0.9178082191780822,
     "reliability": 0.35714285714285715
@@ -9814,6 +12637,36 @@
    "penalty_cards": 0,
    "wear_rate": 3.8875,
    "pace_avg": 87528.34285714285,
+   "fuelPerLap": 1.27085,
+   "lapsPerKg": 0.785,
+   "fuelUsedTotal": 49.6,
+   "sectorBests": [
+    [
+     32024,
+     28216,
+     25338
+    ],
+    [
+     17997,
+     36125,
+     32314
+    ]
+   ],
+   "cornerRates": [
+    1.5173,
+    1.1952,
+    1.2914,
+    1.1458
+   ],
+   "frontRearBias": 0.13765,
+   "leftRightBias": 0.23390000000000002,
+   "assists": {
+    "OFF": 2
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 0.838,
    "best_lap": 85957,
    "best_lap_track": "卢塞尔",
@@ -9825,7 +12678,7 @@
    "axes": {
     "pace": 0.7447328597495562,
     "consistency": 0.9225313693398799,
-    "combat": 0.5138888888888888,
+    "combat": 0.5454545454545454,
     "tyre": 0.42321958456973285,
     "discipline": 0.958904109589041,
     "reliability": 0.35714285714285715
@@ -9857,6 +12710,31 @@
    "penalty_cards": 0,
    "wear_rate": 4.301298701298702,
    "pace_avg": 87011.33333333333,
+   "fuelPerLap": 1.2678,
+   "lapsPerKg": 0.79,
+   "fuelUsedTotal": 25.4,
+   "sectorBests": [
+    [
+     31395,
+     28342,
+     24946
+    ]
+   ],
+   "cornerRates": [
+    2.4299,
+    0.953,
+    1.2901,
+    0.8596
+   ],
+   "frontRearBias": 0.6166,
+   "leftRightBias": 0.9537,
+   "assists": {
+    "OFF": 1
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 0.549,
    "best_lap": 85510,
    "best_lap_track": "卢塞尔",
@@ -9868,7 +12746,7 @@
    "axes": {
     "pace": 0.7568016233062238,
     "consistency": 0.9750863793416984,
-    "combat": 0.5138888888888888,
+    "combat": 0.5454545454545454,
     "tyre": 0.3618251185016762,
     "discipline": 0.958904109589041,
     "reliability": 0.2857142857142857
@@ -9899,6 +12777,31 @@
    "penalty_cards": 0,
    "wear_rate": 5.123749999999999,
    "pace_avg": 87810.72222222222,
+   "fuelPerLap": 1.2612,
+   "lapsPerKg": 0.79,
+   "fuelUsedTotal": 25.2,
+   "sectorBests": [
+    [
+     31904,
+     28331,
+     25684
+    ]
+   ],
+   "cornerRates": [
+    2.465,
+    0.9711,
+    1.1204,
+    0.859
+   ],
+   "frontRearBias": 0.7283,
+   "leftRightBias": 0.8777,
+   "assists": {
+    "MEDIUM": 1
+   },
+   "assistsMain": "MEDIUM",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 0.487,
    "best_lap": 86352,
    "best_lap_track": "卢塞尔",
@@ -9910,7 +12813,7 @@
    "axes": {
     "pace": 0.738141163400689,
     "consistency": 0.9863611565739225,
-    "combat": 0.5138888888888888,
+    "combat": 0.5454545454545454,
     "tyre": 0.23979970326409497,
     "discipline": 0.8904109589041096,
     "reliability": 0.2857142857142857
@@ -9941,6 +12844,31 @@
    "penalty_cards": 0,
    "wear_rate": 4.7212499999999995,
    "pace_avg": 88816.16666666667,
+   "fuelPerLap": 1.2665,
+   "lapsPerKg": 0.79,
+   "fuelUsedTotal": 25.3,
+   "sectorBests": [
+    [
+     32414,
+     28464,
+     26058
+    ]
+   ],
+   "cornerRates": [
+    1.5127,
+    0.5418,
+    0.691,
+    0.4857
+   ],
+   "frontRearBias": 0.4389,
+   "leftRightBias": 0.5881,
+   "assists": {
+    "OFF": 1
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 0.78,
    "best_lap": 87221,
    "best_lap_track": "卢塞尔",
@@ -9952,7 +12880,7 @@
    "axes": {
     "pace": 0.7146706648691461,
     "consistency": 0.9330787415893799,
-    "combat": 0.4027777777777778,
+    "combat": 0.44155844155844154,
     "tyre": 0.2995178041543027,
     "discipline": 0.9863013698630136,
     "reliability": 0.2857142857142857
@@ -9983,6 +12911,31 @@
    "penalty_cards": 0,
    "wear_rate": 4.17625,
    "pace_avg": 89053.38888888889,
+   "fuelPerLap": 1.2688,
+   "lapsPerKg": 0.79,
+   "fuelUsedTotal": 25.4,
+   "sectorBests": [
+    [
+     32200,
+     28697,
+     25929
+    ]
+   ],
+   "cornerRates": [
+    1.8114,
+    0.7656,
+    0.9337,
+    0.5976
+   ],
+   "frontRearBias": 0.5229,
+   "leftRightBias": 0.691,
+   "assists": {
+    "OFF": 1
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 6,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 0.519,
    "best_lap": 86952,
    "best_lap_track": "卢塞尔",
@@ -9994,7 +12947,7 @@
    "axes": {
     "pace": 0.7091330900691856,
     "consistency": 0.9805419167121294,
-    "combat": 0.375,
+    "combat": 0.4155844155844156,
     "tyre": 0.38037833827893175,
     "discipline": 0.9726027397260274,
     "reliability": 0.2857142857142857
@@ -10025,6 +12978,36 @@
    "penalty_cards": 0,
    "wear_rate": 5.594444444444444,
    "pace_avg": 89712.72727272728,
+   "fuelPerLap": 1.31465,
+   "lapsPerKg": 0.76,
+   "fuelUsedTotal": 51.3,
+   "sectorBests": [
+    [
+     32303,
+     28927,
+     25859
+    ],
+    [
+     18266,
+     36310,
+     32639
+    ]
+   ],
+   "cornerRates": [
+    1.8302,
+    1.5593,
+    1.522,
+    1.438
+   ],
+   "frontRearBias": 0.21475,
+   "leftRightBias": 0.17745000000000002,
+   "assists": {
+    "MEDIUM": 2
+   },
+   "assistsMain": "MEDIUM",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 0.6265000000000001,
    "best_lap": 87833,
    "best_lap_track": "卢塞尔",
@@ -10036,7 +13019,7 @@
    "axes": {
     "pace": 0.6937418860547069,
     "consistency": 0.9609929078014184,
-    "combat": 0.3888888888888889,
+    "combat": 0.42857142857142855,
     "tyre": 0.1699637322782723,
     "discipline": 0.8904109589041096,
     "reliability": 0.35714285714285715
@@ -10068,6 +13051,31 @@
    "penalty_cards": 0,
    "wear_rate": 5.594444444444445,
    "pace_avg": 89864.83333333333,
+   "fuelPerLap": 1.3733,
+   "lapsPerKg": 0.73,
+   "fuelUsedTotal": 27.5,
+   "sectorBests": [
+    [
+     32230,
+     28947,
+     26111
+    ]
+   ],
+   "cornerRates": [
+    2.3156,
+    0.9897,
+    1.2138,
+    0.8777
+   ],
+   "frontRearBias": 0.6069,
+   "leftRightBias": 0.831,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 0.806,
    "best_lap": 87871,
    "best_lap_track": "卢塞尔",
@@ -10079,7 +13087,7 @@
    "axes": {
     "pace": 0.6901912124279153,
     "consistency": 0.928350609201673,
-    "combat": 0.3472222222222222,
+    "combat": 0.38961038961038963,
     "tyre": 0.16996373227827216,
     "discipline": 0.9041095890410958,
     "reliability": 0.2857142857142857
@@ -10110,6 +13118,31 @@
    "penalty_cards": 0,
    "wear_rate": 3.652857142857143,
    "pace_avg": 89091.70588235294,
+   "fuelPerLap": 1.2541,
+   "lapsPerKg": 0.8,
+   "fuelUsedTotal": 23.8,
+   "sectorBests": [
+    [
+     18305,
+     35603,
+     32553
+    ]
+   ],
+   "cornerRates": [
+    0.6667,
+    1.2353,
+    0.9608,
+    1.1765
+   ],
+   "frontRearBias": -0.1177,
+   "leftRightBias": -0.3922,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 2.23,
    "best_lap": 86708,
    "best_lap_track": "阿布扎比",
@@ -10121,7 +13154,7 @@
    "axes": {
     "pace": 0.7082386409091149,
     "consistency": 0.6693944353518821,
-    "combat": 0.3888888888888889,
+    "combat": 0.42857142857142855,
     "tyre": 0.4580330648579906,
     "discipline": 0.821917808219178,
     "reliability": 0.2857142857142857
@@ -10152,6 +13185,31 @@
    "penalty_cards": 0,
    "wear_rate": 3.7764285714285717,
    "pace_avg": 89480.35294117648,
+   "fuelPerLap": 1.2024,
+   "lapsPerKg": 0.83,
+   "fuelUsedTotal": 22.9,
+   "sectorBests": [
+    [
+     17908,
+     36169,
+     32261
+    ]
+   ],
+   "cornerRates": [
+    1.4314,
+    1.8235,
+    1.3335,
+    1.3532
+   ],
+   "frontRearBias": 0.2841,
+   "leftRightBias": -0.2059,
+   "assists": {
+    "OFF": 1
+   },
+   "assistsMain": "OFF",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 2.32,
    "best_lap": 86427,
    "best_lap_track": "阿布扎比",
@@ -10163,7 +13221,7 @@
    "axes": {
     "pace": 0.6991662945713255,
     "consistency": 0.6530278232405892,
-    "combat": 0.4861111111111111,
+    "combat": 0.5194805194805194,
     "tyre": 0.4396990250105976,
     "discipline": 0.8767123287671232,
     "reliability": 0.2857142857142857
@@ -10194,6 +13252,31 @@
    "penalty_cards": 0,
    "wear_rate": 3.3257142857142856,
    "pace_avg": 89702.5294117647,
+   "fuelPerLap": 1.2522,
+   "lapsPerKg": 0.8,
+   "fuelUsedTotal": 23.8,
+   "sectorBests": [
+    [
+     18134,
+     35973,
+     32865
+    ]
+   ],
+   "cornerRates": [
+    0.6471,
+    1.1176,
+    0.8433,
+    0.9609
+   ],
+   "frontRearBias": -0.0197,
+   "leftRightBias": -0.2941,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 5,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 1.181,
    "best_lap": 87675,
    "best_lap_track": "阿布扎比",
@@ -10205,7 +13288,7 @@
    "axes": {
     "pace": 0.6939799388701255,
     "consistency": 0.8601563920712857,
-    "combat": 0.4444444444444444,
+    "combat": 0.4805194805194805,
     "tyre": 0.506570580754557,
     "discipline": 0.8493150684931506,
     "reliability": 0.2857142857142857
@@ -10236,6 +13319,31 @@
    "penalty_cards": 0,
    "wear_rate": 6.739999999999999,
    "pace_avg": 89945.82352941176,
+   "fuelPerLap": 1.3015,
+   "lapsPerKg": 0.77,
+   "fuelUsedTotal": 24.7,
+   "sectorBests": [
+    [
+     18198,
+     35566,
+     32783
+    ]
+   ],
+   "cornerRates": [
+    1.1765,
+    2.4314,
+    1.3533,
+    1.5297
+   ],
+   "frontRearBias": 0.3624,
+   "leftRightBias": -0.7157,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": 4,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 1.129,
    "best_lap": 86976,
    "best_lap_track": "阿布扎比",
@@ -10247,7 +13355,7 @@
    "axes": {
     "pace": 0.6883006253461212,
     "consistency": 0.8696126568466994,
-    "combat": 0.4861111111111111,
+    "combat": 0.5194805194805194,
     "tyre": 0.0,
     "discipline": 0.9178082191780822,
     "reliability": 0.2857142857142857
@@ -10278,6 +13386,26 @@
    "penalty_cards": 0,
    "wear_rate": 0.0,
    "pace_avg": 90505.94117647059,
+   "fuelPerLap": null,
+   "lapsPerKg": null,
+   "fuelUsedTotal": 0,
+   "sectorBests": [
+    [
+     18248,
+     36376,
+     33368
+    ]
+   ],
+   "cornerRates": null,
+   "frontRearBias": null,
+   "leftRightBias": null,
+   "assists": {
+    "FULL": 1
+   },
+   "assistsMain": "FULL",
+   "engineWearMax": null,
+   "engineBlown": 0,
+   "scLaps": 0,
    "pace_sd": 1.013,
    "best_lap": 88297,
    "best_lap_track": "阿布扎比",
@@ -10289,7 +13417,7 @@
    "axes": {
     "pace": 0.6752255713384886,
     "consistency": 0.8907074013456993,
-    "combat": 0.2916666666666667,
+    "combat": 0.33766233766233766,
     "tyre": 1.0,
     "discipline": 0.7945205479452054,
     "reliability": 0.2857142857142857
@@ -10306,17 +13434,17 @@
  "match": {
   "鱼雷王": {
    "name": "鱼雷王",
-   "ref": "Stirling Moss",
-   "refTrait": "速度与缠斗俱佳，却总与冠军擦肩",
-   "refEra": "1950s",
-   "similarity": 0.676,
-   "distance": 0.647,
+   "ref": "Mika Häkkinen",
+   "refTrait": "纯速度型两冠",
+   "refEra": "1990s",
+   "similarity": 0.703,
+   "distance": 0.594,
    "weakMatch": false,
    "why": "25 分排在 28/68。1 场里 1 场完赛、1 个冠军、1 个杆位。他的纪律排在场上前 1/68。而速度是他的相对短板（场上第 13/65）。全季领跑 16 圈（1 站）。",
    "axes": {
     "pace": 0.8850930956917283,
     "consistency": 0.872522276777596,
-    "combat": 0.6666666666666666,
+    "combat": 0.6883116883116883,
     "tyre": 0.49612701838221124,
     "discipline": 1.0,
     "reliability": 0.2857142857142857
@@ -10335,16 +13463,16 @@
    "ref": "Max Verstappen",
    "refTrait": "三项顶档，缠斗强硬极少自失",
    "refEra": "2010s",
-   "similarity": 0.487,
-   "distance": 1.026,
+   "similarity": 0.488,
+   "distance": 1.023,
    "weakMatch": false,
    "why": "159 分排在 1/68。8 场里 8 场完赛、1 个冠军、5 次登台。他的完赛排在场上前 2/68。而速度是他的相对短板（场上第 20/65）。全季领跑 35 圈（4 站）。",
    "axes": {
     "pace": 0.8040136076781048,
     "consistency": 0.7972585924713583,
-    "combat": 0.6944444444444444,
+    "combat": 0.7012987012987013,
     "tyre": 0.48165722779734277,
-    "discipline": 0.5616438356164384,
+    "discipline": 0.547945205479452,
     "reliability": 0.7857142857142857
    },
    "strength": "reliability",
@@ -10361,14 +13489,14 @@
    "ref": "Mike Hawthorn",
    "refTrait": "稳中取胜，纪律一般",
    "refEra": "1950s",
-   "similarity": 0.748,
-   "distance": 0.504,
+   "similarity": 0.746,
+   "distance": 0.508,
    "weakMatch": false,
    "why": "64 分排在 10/68。4 场里 4 场完赛、2 次登台。他的完赛排在场上前 12/68。完成 44 次超车。",
    "axes": {
     "pace": 0.6590838003385769,
     "consistency": 0.792416803055101,
-    "combat": 0.3055555555555556,
+    "combat": 0.35064935064935066,
     "tyre": 0.3937354528508089,
     "discipline": 0.6438356164383562,
     "reliability": 0.5
@@ -10377,26 +13505,26 @@
    "strengthRank": 12,
    "strengthOf": 68,
    "weakness": "combat",
-   "weaknessRank": 61,
+   "weaknessRank": 62,
    "weaknessOf": 68,
    "points": 64,
    "pos": 10
   },
   "newyeye7": {
    "name": "newyeye7",
-   "ref": "Ayrton Senna",
-   "refTrait": "单圈神话与雨战之王，缠斗极硬",
-   "refEra": "1980s",
-   "similarity": 0.178,
-   "distance": 1.643,
+   "ref": "Juan Pablo Montoya",
+   "refTrait": "凶悍超车型，与人对撞也不退",
+   "refEra": "2000s",
+   "similarity": 0.289,
+   "distance": 1.423,
    "weakMatch": true,
-   "why": "53 分排在 13/68。7 场里 6 场完赛、1 个冠军。他的缠斗排在场上前 1/68。而速度是他的相对短板（场上第 39/65）。全季领跑 1 圈（1 站）。",
+   "why": "53 分排在 13/68。7 场里 6 场完赛、1 个冠军。他的缠斗排在场上前 1/68。比「Juan Pablo Montoya」更倚重完赛。而速度是他的相对短板（场上第 39/65）。全季领跑 1 圈（1 站）。",
    "axes": {
     "pace": 0.7144857098999703,
     "consistency": 0.7257163640142363,
     "combat": 1.0,
     "tyre": 0.2446893693184494,
-    "discipline": 0.410958904109589,
+    "discipline": 0.3972602739726027,
     "reliability": 0.5714285714285714
    },
    "strength": "combat",
@@ -10413,14 +13541,14 @@
    "ref": "Pierre Gasly",
    "refTrait": "中游标杆，六维都在均值偏上",
    "refEra": "2020s",
-   "similarity": 0.64,
-   "distance": 0.719,
+   "similarity": 0.643,
+   "distance": 0.714,
    "weakMatch": false,
    "why": "74 分排在 6/68。5 场里 5 场完赛、1 个杆位。他的完赛排在场上前 8/68。全季领跑 7 圈（1 站）。",
    "axes": {
     "pace": 0.5540627833022973,
     "consistency": 0.7702855064557191,
-    "combat": 0.3888888888888889,
+    "combat": 0.42857142857142855,
     "tyre": 0.43546101112866686,
     "discipline": 0.5753424657534246,
     "reliability": 0.5714285714285714
@@ -10436,17 +13564,17 @@
   },
   "esmac1": {
    "name": "esmac1",
-   "ref": "George Russell",
-   "refTrait": "排位突出、执行稳定",
-   "refEra": "2020s",
-   "similarity": 0.525,
-   "distance": 0.951,
+   "ref": "Jack Brabham",
+   "refTrait": "自己造车自己开，工程型车手",
+   "refEra": "1960s",
+   "similarity": 0.461,
+   "distance": 1.078,
    "weakMatch": false,
-   "why": "71 分排在 7/68。6 场里 6 场完赛、1 次登台。他的完赛排在场上前 4/68。比「George Russell」更倚重缠斗。全季领跑 2 圈（1 站）。",
+   "why": "71 分排在 7/68。6 场里 6 场完赛、1 次登台。他的完赛排在场上前 4/68。比「Jack Brabham」更倚重缠斗。全季领跑 2 圈（1 站）。",
    "axes": {
     "pace": 0.7496115043437929,
     "consistency": 0.8759774504455354,
-    "combat": 0.4861111111111111,
+    "combat": 0.5844155844155844,
     "tyre": 0.3835504704384525,
     "discipline": 0.547945205479452,
     "reliability": 0.6428571428571429
@@ -10462,26 +13590,26 @@
   },
   "Beast": {
    "name": "Beast",
-   "ref": "Juan Manuel Fangio",
-   "refTrait": "五冠，靠判断力与轮胎管理赢下不同车队",
-   "refEra": "1950s",
-   "similarity": 0.624,
-   "distance": 0.752,
+   "ref": "Sebastian Vettel",
+   "refTrait": "四冠，单圈与杆位机器",
+   "refEra": "2010s",
+   "similarity": 0.799,
+   "distance": 0.401,
    "weakMatch": false,
-   "why": "49 分排在 16/68。3 场里 3 场完赛、1 个冠军。他的速度排在场上前 4/65。全季领跑 7 圈（2 站）。",
+   "why": "49 分排在 16/68。3 场里 3 场完赛、1 个冠军。他的速度排在场上前 4/65。比「Sebastian Vettel」更倚重轮胎管理。而完赛是他的相对短板（场上第 18/68）。全季领跑 7 圈（2 站）。",
    "axes": {
     "pace": 0.9650511603866206,
     "consistency": 0.9310177608049949,
-    "combat": 0.4027777777777778,
+    "combat": 0.45454545454545453,
     "tyre": 0.6751016595230245,
-    "discipline": 0.6575342465753424,
+    "discipline": 0.6438356164383562,
     "reliability": 0.42857142857142855
    },
    "strength": "pace",
    "strengthRank": 4,
    "strengthOf": 65,
    "weakness": "discipline",
-   "weaknessRank": 51,
+   "weaknessRank": 53,
    "weaknessOf": 68,
    "points": 49,
    "pos": 16
@@ -10491,20 +13619,20 @@
    "ref": "Michael Schumacher",
    "refTrait": "七冠，节奏、轮胎与意志全顶级",
    "refEra": "1990s",
-   "similarity": 0.326,
-   "distance": 1.349,
+   "similarity": 0.334,
+   "distance": 1.332,
    "weakMatch": true,
-   "why": "123 分排在 3/68。7 场里 7 场完赛、1 个冠军、1 次登台。他的缠斗排在场上前 3/68。而轮胎管理是他的相对短板（场上第 37/65）。全季领跑 10 圈（2 站）。",
+   "why": "123 分排在 3/68。7 场里 7 场完赛、1 个冠军、1 次登台。他的缠斗排在场上前 2/68。而轮胎管理是他的相对短板（场上第 37/65）。全季领跑 10 圈（2 站）。",
    "axes": {
     "pace": 0.7737721513276083,
     "consistency": 0.8779258566492609,
-    "combat": 0.7361111111111112,
+    "combat": 0.7532467532467533,
     "tyre": 0.4079944271497895,
     "discipline": 0.3972602739726027,
     "reliability": 0.7142857142857143
    },
    "strength": "combat",
-   "strengthRank": 3,
+   "strengthRank": 2,
    "strengthOf": 68,
    "weakness": "discipline",
    "weaknessRank": 64,
@@ -10517,14 +13645,14 @@
    "ref": "Ralf Schumacher",
    "refTrait": "稳但不惊艳",
    "refEra": "2000s",
-   "similarity": 0.772,
-   "distance": 0.456,
+   "similarity": 0.775,
+   "distance": 0.451,
    "weakMatch": false,
    "why": "12 分排在 34/68。2 场里 2 场完赛、1 个杆位。他的节奏稳定性排在场上前 14/65。完成 22 次超车。",
    "axes": {
     "pace": 0.6743513215267967,
     "consistency": 0.9124386252045827,
-    "combat": 0.2916666666666667,
+    "combat": 0.33766233766233766,
     "tyre": 0.2813280109274175,
     "discipline": 0.7808219178082192,
     "reliability": 0.35714285714285715
@@ -10540,17 +13668,17 @@
   },
   "star-falI04": {
    "name": "star-falI04",
-   "ref": "Denny Hulme",
-   "refTrait": "低调稳健的冠军",
-   "refEra": "1960s",
-   "similarity": 0.167,
-   "distance": 1.667,
+   "ref": "Romain Grosjean",
+   "refTrait": "快但容易出错",
+   "refEra": "2010s",
+   "similarity": 0.192,
+   "distance": 1.616,
    "weakMatch": true,
-   "why": "36 分排在 21/68。6 场里 5 场完赛。他的完赛排在场上前 13/68。比「Denny Hulme」更倚重速度。完成 78 次超车。",
+   "why": "36 分排在 21/68。6 场里 5 场完赛。他的完赛排在场上前 13/68。完成 80 次超车。",
    "axes": {
     "pace": 0.7760074111282418,
     "consistency": 0.811965811965812,
-    "combat": 0.2777777777777778,
+    "combat": 0.33766233766233766,
     "tyre": 0.33904873769488003,
     "discipline": 0.1917808219178082,
     "reliability": 0.5
@@ -10569,14 +13697,14 @@
    "ref": "Jacky Ickx",
    "refTrait": "雨战与耐力赛之王",
    "refEra": "1970s",
-   "similarity": 0.783,
-   "distance": 0.435,
+   "similarity": 0.784,
+   "distance": 0.433,
    "weakMatch": false,
    "why": "5 分排在 40/68。1 场里 1 场完赛。他的轮胎管理排在场上前 9/65。比「Jacky Ickx」更倚重速度。而完赛是他的相对短板（场上第 36/68）。完成 10 次超车。",
    "axes": {
     "pace": 0.8554026167724641,
     "consistency": 0.8476086561192944,
-    "combat": 0.4583333333333333,
+    "combat": 0.4935064935064935,
     "tyre": 0.6198954359191747,
     "discipline": 0.8082191780821918,
     "reliability": 0.2857142857142857
@@ -10592,17 +13720,17 @@
   },
   "Webs1te": {
    "name": "Webs1te",
-   "ref": "Alberto Ascari",
-   "refTrait": "连霸两年，节奏稳定得像机器",
-   "refEra": "1950s",
-   "similarity": 0.538,
-   "distance": 0.924,
+   "ref": "Jarno Trulli",
+   "refTrait": "排位高手，正赛偏保守",
+   "refEra": "2000s",
+   "similarity": 0.535,
+   "distance": 0.929,
    "weakMatch": false,
    "why": "27 分排在 27/68。9 场里 7 场完赛。他的完赛排在场上前 9/68。完成 60 次超车。",
    "axes": {
     "pace": 0.7390506666812158,
     "consistency": 0.7651001480788715,
-    "combat": 0.19444444444444445,
+    "combat": 0.15584415584415584,
     "tyre": 0.4886306636156037,
     "discipline": 0.4931506849315068,
     "reliability": 0.5714285714285714
@@ -10628,7 +13756,7 @@
    "axes": {
     "pace": 0.7913394903021372,
     "consistency": 0.9361702127659575,
-    "combat": 0.4305555555555556,
+    "combat": 0.4675324675324675,
     "tyre": 0.7959940652818991,
     "discipline": 0.8493150684931506,
     "reliability": 0.2857142857142857
@@ -10637,24 +13765,24 @@
    "strengthRank": 4,
    "strengthOf": 65,
    "weakness": "combat",
-   "weaknessRank": 37,
+   "weaknessRank": 39,
    "weaknessOf": 68,
    "points": 3,
    "pos": 48
   },
   "Tim": {
    "name": "Tim",
-   "ref": "Jack Brabham",
-   "refTrait": "自己造车自己开，工程型车手",
-   "refEra": "1960s",
-   "similarity": 0.448,
-   "distance": 1.103,
+   "ref": "Stirling Moss",
+   "refTrait": "速度与缠斗俱佳，却总与冠军擦肩",
+   "refEra": "1950s",
+   "similarity": 0.548,
+   "distance": 0.904,
    "weakMatch": false,
-   "why": "0 分排在 55/68。1 场里 0 场完赛。他的节奏稳定性排在场上前 1/65。比「Jack Brabham」更倚重速度。完成 14 次超车。",
+   "why": "0 分排在 55/68。1 场里 0 场完赛。他的节奏稳定性排在场上前 1/65。而缠斗是他的相对短板（场上第 29/68）。完成 14 次超车。",
    "axes": {
     "pace": 0.8601810121139009,
     "consistency": 1.0,
-    "combat": 0.4444444444444444,
+    "combat": 0.4805194805194805,
     "tyre": 0.3261622156280909,
     "discipline": 0.9041095890410958,
     "reliability": 0.14285714285714285
@@ -10670,19 +13798,19 @@
   },
   "dan": {
    "name": "dan",
-   "ref": "Romain Grosjean",
-   "refTrait": "快但容易出错",
-   "refEra": "2010s",
-   "similarity": 0.389,
-   "distance": 1.223,
+   "ref": "Lance Stroll",
+   "refTrait": "雨战偶有神来之笔，平时起伏大",
+   "refEra": "2020s",
+   "similarity": 0.33,
+   "distance": 1.34,
    "weakMatch": true,
-   "why": "2 分排在 51/68。7 场里 2 场完赛。他的轮胎管理排在场上前 18/65。比「Romain Grosjean」更倚重纪律。完成 49 次超车。",
+   "why": "2 分排在 51/68。7 场里 2 场完赛。他的轮胎管理排在场上前 18/65。比「Lance Stroll」更倚重速度。完成 45 次超车。",
    "axes": {
     "pace": 0.7599678812319153,
     "consistency": 0.6542704734194096,
-    "combat": 0.25,
+    "combat": 0.19480519480519481,
     "tyre": 0.5035063882430352,
-    "discipline": 0.589041095890411,
+    "discipline": 0.6027397260273972,
     "reliability": 0.0
    },
    "strength": "tyre",
@@ -10699,20 +13827,20 @@
    "ref": "Daniel Ricciardo",
    "refTrait": "晚刹车超车型，笑容与速度并存",
    "refEra": "2010s",
-   "similarity": 0.824,
-   "distance": 0.352,
+   "similarity": 0.819,
+   "distance": 0.362,
    "weakMatch": false,
-   "why": "70 分排在 8/68。5 场里 4 场完赛、2 次登台、1 个杆位。他的缠斗排在场上前 8/68。比「Daniel Ricciardo」更倚重完赛。全季领跑 12 圈（1 站）。",
+   "why": "70 分排在 8/68。5 场里 4 场完赛、2 次登台、1 个杆位。他的缠斗排在场上前 9/68。比「Daniel Ricciardo」更倚重完赛。全季领跑 12 圈（1 站）。",
    "axes": {
     "pace": 0.7277971722274766,
     "consistency": 0.7138570649208946,
-    "combat": 0.5416666666666666,
+    "combat": 0.5714285714285714,
     "tyre": 0.3782824803781777,
     "discipline": 0.7671232876712328,
     "reliability": 0.42857142857142855
    },
    "strength": "combat",
-   "strengthRank": 8,
+   "strengthRank": 9,
    "strengthOf": 68,
    "weakness": "consistency",
    "weaknessRank": 49,
@@ -10722,18 +13850,18 @@
   },
   "Ak_Langley_S": {
    "name": "Ak_Langley_S",
-   "ref": "Sebastian Vettel",
-   "refTrait": "四冠，单圈与杆位机器",
+   "ref": "Nico Rosberg",
+   "refTrait": "拼到极致的冠军，纪律极好",
    "refEra": "2010s",
-   "similarity": 0.796,
-   "distance": 0.408,
+   "similarity": 0.682,
+   "distance": 0.635,
    "weakMatch": false,
-   "why": "80 分排在 4/68。6 场里 6 场完赛、1 个冠军、1 次登台。他的完赛排在场上前 5/68。而轮胎管理是他的相对短板（场上第 25/65）。全季领跑 9 圈（2 站）。",
+   "why": "80 分排在 4/68。6 场里 6 场完赛、1 个冠军、1 次登台。他的完赛排在场上前 5/68。比「Nico Rosberg」更倚重缠斗。全季领跑 9 圈（2 站）。",
    "axes": {
     "pace": 0.8758230044850853,
     "consistency": 0.8266351457840819,
-    "combat": 0.5,
-    "tyre": 0.46759840472748476,
+    "combat": 0.5324675324675324,
+    "tyre": 0.46746102699366787,
     "discipline": 0.684931506849315,
     "reliability": 0.6428571428571429
    },
@@ -10741,7 +13869,7 @@
    "strengthRank": 5,
    "strengthOf": 68,
    "weakness": "discipline",
-   "weaknessRank": 49,
+   "weaknessRank": 48,
    "weaknessOf": 68,
    "points": 80,
    "pos": 4
@@ -10751,23 +13879,23 @@
    "ref": "Nelson Piquet",
    "refTrait": "聪明强硬的三冠",
    "refEra": "1980s",
-   "similarity": 0.713,
-   "distance": 0.575,
+   "similarity": 0.717,
+   "distance": 0.566,
    "weakMatch": false,
    "why": "80 分排在 5/68。6 场里 5 场完赛、2 次登台。他的缠斗排在场上前 7/68。比「Nelson Piquet」更倚重速度。完成 64 次超车。",
    "axes": {
     "pace": 0.923899603664613,
     "consistency": 0.9108201491180214,
-    "combat": 0.5833333333333334,
+    "combat": 0.5974025974025974,
     "tyre": 0.48024259564449817,
-    "discipline": 0.6027397260273972,
+    "discipline": 0.589041095890411,
     "reliability": 0.5
    },
    "strength": "combat",
    "strengthRank": 7,
    "strengthOf": 68,
    "weakness": "discipline",
-   "weaknessRank": 56,
+   "weaknessRank": 57,
    "weaknessOf": 68,
    "points": 80,
    "pos": 5
@@ -10777,20 +13905,20 @@
    "ref": "Nigel Mansell",
    "refTrait": "凶猛超车型，敢打敢拼",
    "refEra": "1980s",
-   "similarity": 0.582,
-   "distance": 0.837,
+   "similarity": 0.608,
+   "distance": 0.783,
    "weakMatch": false,
-   "why": "43 分排在 17/68。4 场里 3 场完赛、1 个冠军、2 个杆位。他的缠斗排在场上前 2/68。比「Nigel Mansell」更倚重轮胎管理。而速度是他的相对短板（场上第 27/65）。全季领跑 18 圈（2 站）。",
+   "why": "43 分排在 17/68。4 场里 3 场完赛、1 个冠军、2 个杆位。他的缠斗排在场上前 3/68。比「Nigel Mansell」更倚重轮胎管理。而速度是他的相对短板（场上第 27/65）。全季领跑 18 圈（2 站）。",
    "axes": {
     "pace": 0.7624962556365117,
     "consistency": 0.729950900163666,
-    "combat": 0.7638888888888888,
+    "combat": 0.7532467532467533,
     "tyre": 0.646768542663696,
     "discipline": 0.7671232876712328,
     "reliability": 0.35714285714285715
    },
    "strength": "combat",
-   "strengthRank": 2,
+   "strengthRank": 3,
    "strengthOf": 68,
    "weakness": "consistency",
    "weaknessRank": 46,
@@ -10800,19 +13928,19 @@
   },
   "冬马和纱应援会": {
    "name": "冬马和纱应援会",
-   "ref": "Nick Heidfeld",
-   "refTrait": "低调可靠，少有失误",
-   "refEra": "2000s",
-   "similarity": 0.459,
-   "distance": 1.082,
-   "weakMatch": false,
-   "why": "28 分排在 25/68。4 场里 4 场完赛。他的节奏稳定性排在场上前 12/65。比「Nick Heidfeld」更倚重速度。完成 67 次超车。",
+   "ref": "Denny Hulme",
+   "refTrait": "低调稳健的冠军",
+   "refEra": "1960s",
+   "similarity": 0.372,
+   "distance": 1.256,
+   "weakMatch": true,
+   "why": "28 分排在 25/68。4 场里 4 场完赛。他的节奏稳定性排在场上前 12/65。比「Denny Hulme」更倚重速度。完成 73 次超车。",
    "axes": {
     "pace": 0.8114563194115025,
     "consistency": 0.9240771049281686,
-    "combat": 0.3888888888888889,
+    "combat": 0.5064935064935064,
     "tyre": 0.39689270299433504,
-    "discipline": 0.4520547945205479,
+    "discipline": 0.4246575342465753,
     "reliability": 0.5
    },
    "strength": "consistency",
@@ -10829,16 +13957,16 @@
    "ref": "Giuseppe Farina",
    "refTrait": "首位世界冠军，强硬但易出事",
    "refEra": "1950s",
-   "similarity": 0.531,
-   "distance": 0.938,
+   "similarity": 0.528,
+   "distance": 0.945,
    "weakMatch": false,
    "why": "57 分排在 11/68。7 场里 5 场完赛、1 次登台。他的完赛排在场上前 20/68。全季领跑 9 圈（2 站）。",
    "axes": {
     "pace": 0.753817439926692,
     "consistency": 0.7846578165727102,
-    "combat": 0.4722222222222222,
+    "combat": 0.4935064935064935,
     "tyre": 0.4600295915206894,
-    "discipline": 0.3287671232876712,
+    "discipline": 0.3013698630136986,
     "reliability": 0.42857142857142855
    },
    "strength": "reliability",
@@ -10852,52 +13980,52 @@
   },
   "Camellia": {
    "name": "Camellia",
-   "ref": "Nico Hülkenberg",
-   "refTrait": "排位常年超水平，正赛温吞",
-   "refEra": "2020s",
-   "similarity": 0.666,
-   "distance": 0.668,
+   "ref": "Valtteri Bottas",
+   "refTrait": "排位强、正赛偏软",
+   "refEra": "2010s",
+   "similarity": 0.64,
+   "distance": 0.719,
    "weakMatch": false,
-   "why": "18 分排在 32/68。3 场里 2 场完赛、1 个杆位。他的速度排在场上前 12/65。比「Nico Hülkenberg」更倚重轮胎管理。全季领跑 8 圈（2 站）。",
+   "why": "18 分排在 32/68。3 场里 2 场完赛、1 个杆位。他的速度排在场上前 12/65。比「Valtteri Bottas」更倚重缠斗。而完赛是他的相对短板（场上第 38/68）。全季领跑 8 圈（2 站）。",
    "axes": {
     "pace": 0.8892889433516328,
     "consistency": 0.7554706916409043,
-    "combat": 0.3055555555555556,
+    "combat": 0.36363636363636365,
     "tyre": 0.40911874146295507,
-    "discipline": 0.726027397260274,
+    "discipline": 0.6986301369863014,
     "reliability": 0.2857142857142857
    },
    "strength": "pace",
    "strengthRank": 12,
    "strengthOf": 65,
    "weakness": "combat",
-   "weaknessRank": 62,
+   "weaknessRank": 61,
    "weaknessOf": 68,
    "points": 18,
    "pos": 32
   },
   "HEZ": {
    "name": "HEZ",
-   "ref": "Valtteri Bottas",
-   "refTrait": "排位强、正赛偏软",
-   "refEra": "2010s",
-   "similarity": 0.586,
-   "distance": 0.828,
+   "ref": "George Russell",
+   "refTrait": "排位突出、执行稳定",
+   "refEra": "2020s",
+   "similarity": 0.551,
+   "distance": 0.898,
    "weakMatch": false,
-   "why": "28 分排在 26/68。2 场里 2 场完赛、1 次登台、1 个杆位。他的速度排在场上前 2/65。全季领跑 10 圈（1 站）。",
+   "why": "28 分排在 26/68。2 场里 2 场完赛、1 次登台、1 个杆位。他的速度排在场上前 2/65。而完赛是他的相对短板（场上第 27/68）。全季领跑 10 圈（1 站）。",
    "axes": {
     "pace": 0.9970434760456521,
     "consistency": 0.8970721949445354,
-    "combat": 0.375,
+    "combat": 0.4155844155844156,
     "tyre": 0.31365408316010496,
-    "discipline": 0.7123287671232876,
+    "discipline": 0.6712328767123288,
     "reliability": 0.35714285714285715
    },
    "strength": "pace",
    "strengthRank": 2,
    "strengthOf": 65,
    "weakness": "combat",
-   "weaknessRank": 55,
+   "weaknessRank": 56,
    "weaknessOf": 68,
    "points": 28,
    "pos": 26
@@ -10908,13 +14036,13 @@
    "refTrait": "轮胎与比赛智慧顶级，缠斗老辣",
    "refEra": "2000s",
    "similarity": 0.0,
-   "distance": 2.135,
+   "distance": 2.12,
    "weakMatch": true,
-   "why": "153 分排在 2/68。11 场里 11 场完赛、2 次登台。他的完赛排在场上前 1/68。完成 98 次超车。",
+   "why": "153 分排在 2/68。11 场里 11 场完赛、2 次登台。他的完赛排在场上前 1/68。完成 99 次超车。",
    "axes": {
     "pace": 0.792913555797778,
     "consistency": 0.8187769677131379,
-    "combat": 0.5972222222222222,
+    "combat": 0.6233766233766234,
     "tyre": 0.45365691467660707,
     "discipline": 0.0,
     "reliability": 1.0
@@ -10933,20 +14061,20 @@
    "ref": "Gerhard Berger",
    "refTrait": "直来直去的快枪手",
    "refEra": "1980s",
-   "similarity": 0.876,
-   "distance": 0.248,
+   "similarity": 0.875,
+   "distance": 0.25,
    "weakMatch": false,
-   "why": "10 分排在 35/68。5 场里 4 场完赛。他的完赛排在场上前 21/68。全季领跑 4 圈（1 站）。",
+   "why": "10 分排在 35/68。5 场里 4 场完赛。他的缠斗排在场上前 17/68。比「Gerhard Berger」更倚重完赛。全季领跑 4 圈（1 站）。",
    "axes": {
     "pace": 0.6572553774933335,
     "consistency": 0.7633387888707037,
-    "combat": 0.4722222222222222,
+    "combat": 0.5324675324675324,
     "tyre": 0.4648246736874769,
-    "discipline": 0.7945205479452054,
+    "discipline": 0.7808219178082192,
     "reliability": 0.42857142857142855
    },
-   "strength": "reliability",
-   "strengthRank": 21,
+   "strength": "combat",
+   "strengthRank": 17,
    "strengthOf": 68,
    "weakness": "pace",
    "weaknessRank": 52,
@@ -10959,22 +14087,22 @@
    "ref": "Jackie Stewart",
    "refTrait": "轮胎管理与纪律的典范，极少失误",
    "refEra": "1960s",
-   "similarity": 0.202,
-   "distance": 1.595,
+   "similarity": 0.221,
+   "distance": 1.558,
    "weakMatch": true,
-   "why": "0 分排在 56/68。1 场里 0 场完赛。他的轮胎管理排在场上前 1/65。完成 11 次超车。",
+   "why": "0 分排在 56/68。1 场里 0 场完赛。他的轮胎管理排在场上前 1/65。",
    "axes": {
     "pace": 0.9349596144565929,
     "consistency": 0.591925804691762,
-    "combat": 0.3194444444444444,
+    "combat": 0.4805194805194805,
     "tyre": 1.0,
-    "discipline": 0.9178082191780822,
+    "discipline": 0.9041095890410958,
     "reliability": 0.14285714285714285
    },
    "strength": "tyre",
    "strengthRank": 1,
    "strengthOf": 65,
-   "weakness": "combat",
+   "weakness": "reliability",
    "weaknessRank": 60,
    "weaknessOf": 68,
    "points": 0,
@@ -10982,13 +14110,13 @@
   },
   "Hamisner": {
    "name": "Hamisner",
-   "ref": "Jarno Trulli",
-   "refTrait": "排位高手，正赛偏保守",
-   "refEra": "2000s",
-   "similarity": 0.513,
-   "distance": 0.974,
+   "ref": "Alberto Ascari",
+   "refTrait": "连霸两年，节奏稳定得像机器",
+   "refEra": "1950s",
+   "similarity": 0.433,
+   "distance": 1.135,
    "weakMatch": false,
-   "why": "51 分排在 14/68。8 场里 7 场完赛。他的完赛排在场上前 6/68。完成 63 次超车。",
+   "why": "51 分排在 14/68。8 场里 7 场完赛。他的完赛排在场上前 6/68。完成 64 次超车。",
    "axes": {
     "pace": 0.6957145626585562,
     "consistency": 0.7886368950198737,
@@ -11011,14 +14139,14 @@
    "ref": "John Surtees",
    "refTrait": "摩托与四轮双料冠军，全能",
    "refEra": "1960s",
-   "similarity": 0.879,
-   "distance": 0.242,
+   "similarity": 0.892,
+   "distance": 0.216,
    "weakMatch": false,
    "why": "24 分排在 30/68。2 场里 2 场完赛。他的节奏稳定性排在场上前 20/65。而纪律是他的相对短板（场上第 38/68）。全季领跑 2 圈（1 站）。",
    "axes": {
     "pace": 0.7221237699764576,
     "consistency": 0.892071285688307,
-    "combat": 0.4444444444444444,
+    "combat": 0.5064935064935064,
     "tyre": 0.3899772952072655,
     "discipline": 0.8082191780821918,
     "reliability": 0.35714285714285715
@@ -11034,17 +14162,17 @@
   },
   "好女孩风妖精": {
    "name": "好女孩风妖精",
-   "ref": "Lando Norris",
-   "refTrait": "各项均衡、节奏干净",
-   "refEra": "2020s",
-   "similarity": 0.358,
-   "distance": 1.285,
+   "ref": "Juan Manuel Fangio",
+   "refTrait": "五冠，靠判断力与轮胎管理赢下不同车队",
+   "refEra": "1950s",
+   "similarity": 0.393,
+   "distance": 1.214,
    "weakMatch": true,
-   "why": "68 分排在 9/68。5 场里 5 场完赛、2 次登台、3 个杆位。他的完赛排在场上前 10/68。比「Lando Norris」更倚重缠斗。全季领跑 22 圈（4 站）。",
+   "why": "68 分排在 9/68。5 场里 5 场完赛、2 次登台、3 个杆位。他的完赛排在场上前 10/68。比「Juan Manuel Fangio」更倚重缠斗。全季领跑 22 圈（4 站）。",
    "axes": {
     "pace": 0.8528576667051474,
     "consistency": 0.8733224222585925,
-    "combat": 0.3888888888888889,
+    "combat": 0.42857142857142855,
     "tyre": 0.44899698883378414,
     "discipline": 0.3698630136986301,
     "reliability": 0.5714285714285714
@@ -11063,20 +14191,20 @@
    "ref": "Keke Rosberg",
    "refTrait": "单圈凶悍的冠军",
    "refEra": "1980s",
-   "similarity": 0.863,
-   "distance": 0.274,
+   "similarity": 0.862,
+   "distance": 0.275,
    "weakMatch": false,
-   "why": "7 分排在 38/68。2 场里 2 场完赛。他的缠斗排在场上前 10/68。比「Keke Rosberg」更倚重纪律。拿下 1 次全场最快圈。",
+   "why": "7 分排在 38/68。2 场里 2 场完赛。他的缠斗排在场上前 11/68。比「Keke Rosberg」更倚重纪律。拿下 1 次全场最快圈。",
    "axes": {
     "pace": 0.8501824001424431,
     "consistency": 0.6761229314420805,
-    "combat": 0.5277777777777778,
+    "combat": 0.5584415584415584,
     "tyre": 0.3734270249477964,
     "discipline": 0.8082191780821918,
     "reliability": 0.35714285714285715
    },
    "strength": "combat",
-   "strengthRank": 10,
+   "strengthRank": 11,
    "strengthOf": 68,
    "weakness": "consistency",
    "weaknessRank": 51,
@@ -11089,14 +14217,14 @@
    "ref": "Alex Albon",
    "refTrait": "稳、干净、少失误",
    "refEra": "2020s",
-   "similarity": 0.766,
+   "similarity": 0.765,
    "distance": 0.469,
    "weakMatch": false,
    "why": "18 分排在 33/68。4 场里 4 场完赛。他的完赛排在场上前 16/68。比「Alex Albon」更倚重缠斗。完成 23 次超车。",
    "axes": {
     "pace": 0.6799583916683446,
     "consistency": 0.7369067103109657,
-    "combat": 0.4305555555555556,
+    "combat": 0.4675324675324675,
     "tyre": 0.23447582544392628,
     "discipline": 0.9178082191780822,
     "reliability": 0.5
@@ -11115,14 +14243,14 @@
    "ref": "Franco Colapinto 型",
    "refTrait": "新秀型：速度有、经验少",
    "refEra": "2020s",
-   "similarity": 0.789,
-   "distance": 0.422,
+   "similarity": 0.787,
+   "distance": 0.426,
    "weakMatch": false,
    "why": "4 分排在 46/68。3 场里 3 场完赛。他的纪律排在场上前 17/68。比「Franco Colapinto 型」更倚重缠斗。完成 19 次超车。",
    "axes": {
     "pace": 0.48268077711840235,
     "consistency": 0.6308419712675031,
-    "combat": 0.4166666666666667,
+    "combat": 0.45454545454545453,
     "tyre": 0.3846891707556745,
     "discipline": 0.9315068493150684,
     "reliability": 0.42857142857142855
@@ -11138,17 +14266,17 @@
   },
   "Kihooxi": {
    "name": "Kihooxi",
-   "ref": "René Arnoux",
-   "refTrait": "缠斗好手，名局制造者",
+   "ref": "Michele Alboreto",
+   "refTrait": "稳定但缺一击致命的速度",
    "refEra": "1980s",
-   "similarity": 0.526,
-   "distance": 0.948,
+   "similarity": 0.529,
+   "distance": 0.943,
    "weakMatch": false,
-   "why": "0 分排在 58/68。2 场里 1 场完赛。他的纪律排在场上前 15/68。完成 2 次超车。",
+   "why": "0 分排在 58/68。2 场里 1 场完赛。他的纪律排在场上前 15/68。比「Michele Alboreto」更倚重速度。完成 2 次超车。",
    "axes": {
     "pace": 0.7870514020581744,
     "consistency": 0.5861065648299691,
-    "combat": 0.4166666666666667,
+    "combat": 0.45454545454545453,
     "tyre": 0.5106109580330648,
     "discipline": 0.9452054794520548,
     "reliability": 0.21428571428571427
@@ -11164,17 +14292,17 @@
   },
   "出云": {
    "name": "出云",
-   "ref": "Rubens Barrichello",
-   "refTrait": "可靠的老二，轮胎不错",
-   "refEra": "1990s",
-   "similarity": 0.428,
-   "distance": 1.144,
+   "ref": "Nick Heidfeld",
+   "refTrait": "低调可靠，少有失误",
+   "refEra": "2000s",
+   "similarity": 0.45,
+   "distance": 1.1,
    "weakMatch": false,
-   "why": "0 分排在 59/68。1 场里 0 场完赛。他的纪律排在场上前 7/68。比「Rubens Barrichello」更倚重缠斗。完成 1 次超车。",
+   "why": "0 分排在 59/68。1 场里 0 场完赛。他的纪律排在场上前 7/68。比「Nick Heidfeld」更倚重轮胎管理。完成 1 次超车。",
    "axes": {
     "pace": 0.5100544915846446,
     "consistency": 0.6168394253500636,
-    "combat": 0.4444444444444444,
+    "combat": 0.4805194805194805,
     "tyre": 0.6439169139465876,
     "discipline": 0.9726027397260274,
     "reliability": 0.14285714285714285
@@ -11193,14 +14321,14 @@
    "ref": "Ronnie Peterson",
    "refTrait": "超车型，速度快但脆",
    "refEra": "1970s",
-   "similarity": 0.345,
-   "distance": 1.31,
+   "similarity": 0.346,
+   "distance": 1.309,
    "weakMatch": true,
    "why": "0 分排在 60/68。2 场里 0 场完赛。他的纪律排在场上前 2/68。完成 2 次超车。",
    "axes": {
     "pace": 0.7379142136138055,
     "consistency": 0.8381523913438808,
-    "combat": 0.4166666666666667,
+    "combat": 0.45454545454545453,
     "tyre": 0.11721068249258162,
     "discipline": 1.0,
     "reliability": 0.07142857142857142
@@ -11219,14 +14347,14 @@
    "ref": "Johnny Herbert",
    "refTrait": "中游常青树",
    "refEra": "1990s",
-   "similarity": 0.864,
-   "distance": 0.272,
+   "similarity": 0.865,
+   "distance": 0.27,
    "weakMatch": false,
    "why": "2 分排在 52/68。1 场里 1 场完赛。他的纪律排在场上前 27/68。完成 2 次超车。",
    "axes": {
     "pace": 0.570506972816963,
     "consistency": 0.7595926532096745,
-    "combat": 0.375,
+    "combat": 0.4155844155844156,
     "tyre": 0.3175074183976261,
     "discipline": 0.9041095890410958,
     "reliability": 0.2857142857142857
@@ -11245,14 +14373,14 @@
    "ref": "Sergio Pérez",
    "refTrait": "极端省胎，单圈速度普通",
    "refEra": "2010s",
-   "similarity": 0.396,
-   "distance": 1.207,
+   "similarity": 0.395,
+   "distance": 1.209,
    "weakMatch": true,
    "why": "0 分排在 61/68。1 场里 0 场完赛、1 个杆位。他的轮胎管理排在场上前 2/65。比「Sergio Pérez」更倚重节奏稳定性。全季领跑 4 圈（1 站）。",
    "axes": {
     "pace": 0.610517571816585,
     "consistency": 0.867794144389889,
-    "combat": 0.4444444444444444,
+    "combat": 0.4805194805194805,
     "tyre": 1.0,
     "discipline": 0.6575342465753424,
     "reliability": 0.14285714285714285
@@ -11268,17 +14396,17 @@
   },
   "高木同学重度依赖": {
    "name": "高木同学重度依赖",
-   "ref": "Oscar Piastri",
-   "refTrait": "冷静、干净、几乎不犯错",
-   "refEra": "2020s",
-   "similarity": 0.446,
-   "distance": 1.108,
-   "weakMatch": false,
+   "ref": "Rubens Barrichello",
+   "refTrait": "可靠的老二，轮胎不错",
+   "refEra": "1990s",
+   "similarity": 0.356,
+   "distance": 1.287,
+   "weakMatch": true,
    "why": "10 分排在 36/68。1 场里 1 场完赛。他的速度排在场上前 5/65。完成 1 次超车。",
    "axes": {
     "pace": 0.9648549788910022,
     "consistency": 0.5595562829605383,
-    "combat": 0.3888888888888889,
+    "combat": 0.42857142857142855,
     "tyre": 0.5129312852737534,
     "discipline": 0.9726027397260274,
     "reliability": 0.2857142857142857
@@ -11297,14 +14425,14 @@
    "ref": "Charles Leclerc",
    "refTrait": "一圈速度顶级，稳定与完赛是短板",
    "refEra": "2020s",
-   "similarity": 0.595,
-   "distance": 0.81,
+   "similarity": 0.594,
+   "distance": 0.812,
    "weakMatch": false,
    "why": "5 分排在 41/68。1 场里 1 场完赛。他的速度排在场上前 6/65。比「Charles Leclerc」更倚重轮胎管理。完成 7 次超车。",
    "axes": {
     "pace": 0.9548116811656024,
     "consistency": 0.574831787597745,
-    "combat": 0.3888888888888889,
+    "combat": 0.42857142857142855,
     "tyre": 0.4868117375535774,
     "discipline": 0.9178082191780822,
     "reliability": 0.2857142857142857
@@ -11324,13 +14452,13 @@
    "refTrait": "队友内战从不手软",
    "refEra": "2020s",
    "similarity": 0.682,
-   "distance": 0.635,
+   "distance": 0.636,
    "weakMatch": false,
    "why": "5 分排在 42/68。3 场里 3 场完赛。他的完赛排在场上前 23/68。完成 19 次超车。",
    "axes": {
     "pace": 0.5933279053287406,
     "consistency": 0.44086803661271745,
-    "combat": 0.3888888888888889,
+    "combat": 0.42857142857142855,
     "tyre": 0.38086727812247095,
     "discipline": 0.7945205479452054,
     "reliability": 0.42857142857142855
@@ -11349,14 +14477,14 @@
    "ref": "Jean Alesi",
    "refTrait": "热血缠斗型，成绩配不上天赋",
    "refEra": "1990s",
-   "similarity": 0.442,
-   "distance": 1.116,
+   "similarity": 0.441,
+   "distance": 1.118,
    "weakMatch": false,
-   "why": "1 分排在 53/68。1 场里 0 场完赛。他的轮胎管理排在场上前 12/65。比「Jean Alesi」更倚重纪律。而缠斗是他的相对短板（场上第 32/68）。",
+   "why": "1 分排在 53/68。1 场里 0 场完赛。他的轮胎管理排在场上前 12/65。比「Jean Alesi」更倚重纪律。而缠斗是他的相对短板（场上第 34/68）。",
    "axes": {
     "pace": 0.7720336824669,
     "consistency": 0.46226586652118556,
-    "combat": 0.4444444444444444,
+    "combat": 0.4805194805194805,
     "tyre": 0.5583580613254203,
     "discipline": 0.9452054794520548,
     "reliability": 0.14285714285714285
@@ -11375,14 +14503,14 @@
    "ref": "Damon Hill",
    "refTrait": "稳健的冠军，速度不顶尖",
    "refEra": "1990s",
-   "similarity": 0.784,
-   "distance": 0.433,
+   "similarity": 0.783,
+   "distance": 0.434,
    "weakMatch": false,
    "why": "25 分排在 29/68。1 场里 1 场完赛、1 个冠军、1 个杆位。他的纪律排在场上前 9/68。比「Damon Hill」更倚重缠斗。全季领跑 16 圈（1 站）。",
    "axes": {
     "pace": 0.6548703038244567,
     "consistency": 0.9025277323149663,
-    "combat": 0.4305555555555556,
+    "combat": 0.4675324675324675,
     "tyre": 0.3689063162356931,
     "discipline": 0.9726027397260274,
     "reliability": 0.2857142857142857
@@ -11401,14 +14529,14 @@
    "ref": "Jody Scheckter",
    "refTrait": "稳扎稳打的冠军",
    "refEra": "1970s",
-   "similarity": 0.763,
-   "distance": 0.474,
+   "similarity": 0.765,
+   "distance": 0.47,
    "weakMatch": false,
    "why": "43 分排在 18/68。5 场里 5 场完赛。他的轮胎管理排在场上前 10/65。比「Jody Scheckter」更倚重完赛。完成 39 次超车。",
    "axes": {
     "pace": 0.630890252073449,
     "consistency": 0.7325422804146209,
-    "combat": 0.4444444444444444,
+    "combat": 0.4805194805194805,
     "tyre": 0.5776420225495107,
     "discipline": 0.7397260273972602,
     "reliability": 0.5714285714285714
@@ -11427,20 +14555,20 @@
    "ref": "Eddie Irvine",
    "refTrait": "嘴和车都快",
    "refEra": "1990s",
-   "similarity": 0.766,
-   "distance": 0.469,
+   "similarity": 0.768,
+   "distance": 0.463,
    "weakMatch": false,
-   "why": "56 分排在 12/68。6 场里 5 场完赛。他的缠斗排在场上前 9/68。比「Eddie Irvine」更倚重完赛。完成 54 次超车。",
+   "why": "56 分排在 12/68。6 场里 5 场完赛。他的缠斗排在场上前 10/68。比「Eddie Irvine」更倚重完赛。完成 54 次超车。",
    "axes": {
     "pace": 0.49723481781840095,
     "consistency": 0.6847154028005091,
-    "combat": 0.5416666666666666,
+    "combat": 0.5714285714285714,
     "tyre": 0.4187081979181385,
     "discipline": 0.684931506849315,
     "reliability": 0.5
    },
    "strength": "combat",
-   "strengthRank": 9,
+   "strengthRank": 10,
    "strengthOf": 68,
    "weakness": "pace",
    "weaknessRank": 62,
@@ -11454,13 +14582,13 @@
    "refTrait": "中游稳定输出",
    "refEra": "2000s",
    "similarity": 0.745,
-   "distance": 0.509,
+   "distance": 0.51,
    "weakMatch": false,
    "why": "5 分排在 43/68。1 场里 1 场完赛。他的纪律排在场上前 10/68。比「Giancarlo Fisichella」更倚重节奏稳定性。完成 13 次超车。",
    "axes": {
     "pace": 0.5735315650481593,
     "consistency": 0.9092562284051646,
-    "combat": 0.4027777777777778,
+    "combat": 0.44155844155844154,
     "tyre": 0.26465133531157264,
     "discipline": 0.9726027397260274,
     "reliability": 0.2857142857142857
@@ -11479,20 +14607,20 @@
    "ref": "Jacques Villeneuve",
    "refTrait": "两轮世界冠军转来拿四轮冠军",
    "refEra": "1990s",
-   "similarity": 0.775,
-   "distance": 0.45,
+   "similarity": 0.777,
+   "distance": 0.447,
    "weakMatch": false,
-   "why": "30 分排在 24/68。3 场里 2 场完赛。他的缠斗排在场上前 16/68。比「Jacques Villeneuve」更倚重轮胎管理。完成 38 次超车。",
+   "why": "30 分排在 24/68。3 场里 2 场完赛。他的缠斗排在场上前 18/68。比「Jacques Villeneuve」更倚重轮胎管理。完成 38 次超车。",
    "axes": {
     "pace": 0.6485469286507108,
     "consistency": 0.5742256167788082,
-    "combat": 0.5,
+    "combat": 0.5324675324675324,
     "tyre": 0.4794551599076821,
     "discipline": 0.6438356164383562,
     "reliability": 0.2857142857142857
    },
    "strength": "combat",
-   "strengthRank": 16,
+   "strengthRank": 18,
    "strengthOf": 68,
    "weakness": "consistency",
    "weaknessRank": 60,
@@ -11502,17 +14630,17 @@
   },
   "A380FatLiner": {
    "name": "A380FatLiner",
-   "ref": "Lance Stroll",
-   "refTrait": "雨战偶有神来之笔，平时起伏大",
+   "ref": "Logan Sargeant 型",
+   "refTrait": "速度与稳定性都偏弱的新秀",
    "refEra": "2020s",
-   "similarity": 0.313,
-   "distance": 1.373,
+   "similarity": 0.273,
+   "distance": 1.454,
    "weakMatch": true,
    "why": "6 分排在 39/68。1 场里 1 场完赛。他的缠斗排在场上前 24/68。完成 13 次超车。",
    "axes": {
     "pace": 0.07611746214854907,
     "consistency": 0.10856519367157658,
-    "combat": 0.4722222222222222,
+    "combat": 0.5064935064935064,
     "tyre": 0.03643257500824256,
     "discipline": 0.9041095890410958,
     "reliability": 0.2857142857142857
@@ -11528,17 +14656,17 @@
   },
   "hayma_shio": {
    "name": "hayma_shio",
-   "ref": "Logan Sargeant 型",
-   "refTrait": "速度与稳定性都偏弱的新秀",
+   "ref": "Kevin Magnussen",
+   "refTrait": "缠斗最凶，罚单也最多",
    "refEra": "2020s",
-   "similarity": 0.237,
-   "distance": 1.526,
+   "similarity": 0.0,
+   "distance": 2.108,
    "weakMatch": true,
-   "why": "0 分排在 63/68。1 场里 1 场完赛。他的纪律排在场上前 32/68。比「Logan Sargeant 型」更倚重缠斗。完成 15 次超车。",
+   "why": "0 分排在 63/68。1 场里 1 场完赛。他的纪律排在场上前 32/68。完成 15 次超车。",
    "axes": {
     "pace": 0.0,
     "consistency": 0.0,
-    "combat": 0.4166666666666667,
+    "combat": 0.45454545454545453,
     "tyre": 0.15968100890207704,
     "discipline": 0.8767123287671232,
     "reliability": 0.2857142857142857
@@ -11557,14 +14685,14 @@
    "ref": "Jim Clark",
    "refTrait": "单圈与节奏都是时代顶点的绅士",
    "refEra": "1960s",
-   "similarity": 0.752,
-   "distance": 0.496,
+   "similarity": 0.753,
+   "distance": 0.495,
    "weakMatch": false,
    "why": "34 分排在 23/68。2 场里 2 场完赛、1 次登台。他的速度排在场上前 1/65。比「Jim Clark」更倚重缠斗。而轮胎管理是他的相对短板（场上第 13/65）。完成 28 次超车。",
    "axes": {
     "pace": 1.0,
     "consistency": 0.9617203127841425,
-    "combat": 0.4583333333333333,
+    "combat": 0.4935064935064935,
     "tyre": 0.5290112335735481,
     "discipline": 0.9178082191780822,
     "reliability": 0.35714285714285715
@@ -11583,14 +14711,14 @@
    "ref": "Mario Andretti",
    "refTrait": "全能老将，通吃各种赛道",
    "refEra": "1970s",
-   "similarity": 0.779,
-   "distance": 0.442,
+   "similarity": 0.778,
+   "distance": 0.444,
    "weakMatch": false,
    "why": "20 分排在 31/68。1 场里 1 场完赛、1 次登台。他的速度排在场上前 11/65。完成 11 次超车。",
    "axes": {
     "pace": 0.9162164538070674,
     "consistency": 0.751409347154028,
-    "combat": 0.5,
+    "combat": 0.5324675324675324,
     "tyre": 0.5630563798219584,
     "discipline": 0.958904109589041,
     "reliability": 0.2857142857142857
@@ -11606,17 +14734,17 @@
   },
   "Map13ss": {
    "name": "Map13ss",
-   "ref": "Nico Rosberg",
-   "refTrait": "拼到极致的冠军，纪律极好",
-   "refEra": "2010s",
-   "similarity": 0.634,
-   "distance": 0.732,
+   "ref": "Lando Norris",
+   "refTrait": "各项均衡、节奏干净",
+   "refEra": "2020s",
+   "similarity": 0.626,
+   "distance": 0.748,
    "weakMatch": false,
-   "why": "43 分排在 19/68。3 场里 3 场完赛、1 个冠军。他的速度排在场上前 3/65。完成 18 次超车。",
+   "why": "43 分排在 19/68。3 场里 3 场完赛、1 个冠军。他的速度排在场上前 3/65。比「Lando Norris」更倚重轮胎管理。完成 18 次超车。",
    "axes": {
     "pace": 0.9913527902319318,
     "consistency": 0.7242225859247136,
-    "combat": 0.3611111111111111,
+    "combat": 0.4025974025974026,
     "tyre": 0.6562477921435637,
     "discipline": 0.9315068493150684,
     "reliability": 0.42857142857142855
@@ -11625,7 +14753,7 @@
    "strengthRank": 3,
    "strengthOf": 65,
    "weakness": "combat",
-   "weaknessRank": 58,
+   "weaknessRank": 59,
    "weaknessOf": 68,
    "points": 43,
    "pos": 19
@@ -11635,14 +14763,14 @@
    "ref": "Kimi Räikkönen",
    "refTrait": "冰人：纯速度，话少",
    "refEra": "2000s",
-   "similarity": 0.844,
-   "distance": 0.312,
+   "similarity": 0.845,
+   "distance": 0.31,
    "weakMatch": false,
    "why": "50 分排在 15/68。2 场里 2 场完赛、2 个冠军。他的速度排在场上前 7/65。比「Kimi Räikkönen」更倚重纪律。全季领跑 23 圈（2 站）。",
    "axes": {
     "pace": 0.9478868595826166,
     "consistency": 0.8976177486815785,
-    "combat": 0.5138888888888888,
+    "combat": 0.5454545454545454,
     "tyre": 0.5238183552352691,
     "discipline": 0.9315068493150684,
     "reliability": 0.35714285714285715
@@ -11658,17 +14786,17 @@
   },
   "HOWTOPLAYLN": {
    "name": "HOWTOPLAYLN",
-   "ref": "Mika Häkkinen",
-   "refTrait": "纯速度型两冠",
-   "refEra": "1990s",
-   "similarity": 0.702,
-   "distance": 0.596,
+   "ref": "Oscar Piastri",
+   "refTrait": "冷静、干净、几乎不犯错",
+   "refEra": "2020s",
+   "similarity": 0.628,
+   "distance": 0.744,
    "weakMatch": false,
-   "why": "36 分排在 22/68。2 场里 2 场完赛、1 次登台。他的节奏稳定性排在场上前 5/65。比「Mika Häkkinen」更倚重完赛。而缠斗是他的相对短板（场上第 27/68）。完成 12 次超车。",
+   "why": "36 分排在 22/68。2 场里 2 场完赛、1 次登台。他的节奏稳定性排在场上前 5/65。比「Oscar Piastri」更倚重缠斗。而完赛是他的相对短板（场上第 32/68）。完成 12 次超车。",
    "axes": {
     "pace": 0.9385799572211838,
     "consistency": 0.9622658665211856,
-    "combat": 0.4583333333333333,
+    "combat": 0.4935064935064935,
     "tyre": 0.3737274718357803,
     "discipline": 0.9178082191780822,
     "reliability": 0.35714285714285715
@@ -11687,21 +14815,21 @@
    "ref": "Robert Kubica",
    "refTrait": "速度与胆量兼备",
    "refEra": "2000s",
-   "similarity": 0.834,
-   "distance": 0.331,
+   "similarity": 0.836,
+   "distance": 0.329,
    "weakMatch": false,
-   "why": "43 分排在 20/68。2 场里 2 场完赛、1 个冠军、1 个杆位。他的缠斗排在场上前 12/68。比「Robert Kubica」更倚重节奏稳定性。全季领跑 18 圈（1 站）。",
+   "why": "43 分排在 20/68。2 场里 2 场完赛、1 个冠军、1 个杆位。他的节奏稳定性排在场上前 13/65。全季领跑 18 圈（1 站）。",
    "axes": {
     "pace": 0.7447328597495562,
     "consistency": 0.9225313693398799,
-    "combat": 0.5138888888888888,
+    "combat": 0.5454545454545454,
     "tyre": 0.42321958456973285,
     "discipline": 0.958904109589041,
     "reliability": 0.35714285714285715
    },
-   "strength": "combat",
-   "strengthRank": 12,
-   "strengthOf": 68,
+   "strength": "consistency",
+   "strengthRank": 13,
+   "strengthOf": 65,
    "weakness": "tyre",
    "weaknessRank": 34,
    "weaknessOf": 65,
@@ -11714,13 +14842,13 @@
    "refTrait": "稳健老练，两冠在手",
    "refEra": "1960s",
    "similarity": 0.702,
-   "distance": 0.595,
+   "distance": 0.596,
    "weakMatch": false,
    "why": "0 分排在 65/68。1 场里 1 场完赛、1 次登台。他的节奏稳定性排在场上前 4/65。比「Graham Hill」更倚重速度。完成 10 次超车。",
    "axes": {
     "pace": 0.7568016233062238,
     "consistency": 0.9750863793416984,
-    "combat": 0.5138888888888888,
+    "combat": 0.5454545454545454,
     "tyre": 0.3618251185016762,
     "discipline": 0.958904109589041,
     "reliability": 0.2857142857142857
@@ -11739,14 +14867,14 @@
    "ref": "Emerson Fittipaldi",
    "refTrait": "年轻冠军，节奏干净",
    "refEra": "1970s",
-   "similarity": 0.553,
-   "distance": 0.895,
+   "similarity": 0.555,
+   "distance": 0.89,
    "weakMatch": false,
    "why": "0 分排在 66/68。1 场里 1 场完赛。他的节奏稳定性排在场上前 2/65。比「Emerson Fittipaldi」更倚重缠斗。完成 16 次超车。",
    "axes": {
     "pace": 0.738141163400689,
     "consistency": 0.9863611565739225,
-    "combat": 0.5138888888888888,
+    "combat": 0.5454545454545454,
     "tyre": 0.23979970326409497,
     "discipline": 0.8904109589041096,
     "reliability": 0.2857142857142857
@@ -11765,14 +14893,14 @@
    "ref": "David Coulthard",
    "refTrait": "稳健的职业车手",
    "refEra": "1990s",
-   "similarity": 0.695,
-   "distance": 0.61,
+   "similarity": 0.694,
+   "distance": 0.611,
    "weakMatch": false,
    "why": "5 分排在 44/68。1 场里 1 场完赛。他的纪律排在场上前 6/68。完成 6 次超车。",
    "axes": {
     "pace": 0.7146706648691461,
     "consistency": 0.9330787415893799,
-    "combat": 0.4027777777777778,
+    "combat": 0.44155844155844154,
     "tyre": 0.2995178041543027,
     "discipline": 0.9863013698630136,
     "reliability": 0.2857142857142857
@@ -11792,13 +14920,13 @@
    "refTrait": "速度不错，雨战偏弱",
    "refEra": "2000s",
    "similarity": 0.748,
-   "distance": 0.505,
+   "distance": 0.504,
    "weakMatch": false,
    "why": "4 分排在 47/68。1 场里 1 场完赛。他的节奏稳定性排在场上前 3/65。完成 3 次超车。",
    "axes": {
     "pace": 0.7091330900691856,
     "consistency": 0.9805419167121294,
-    "combat": 0.375,
+    "combat": 0.4155844155844156,
     "tyre": 0.38037833827893175,
     "discipline": 0.9726027397260274,
     "reliability": 0.2857142857142857
@@ -11807,7 +14935,7 @@
    "strengthRank": 3,
    "strengthOf": 65,
    "weakness": "combat",
-   "weaknessRank": 57,
+   "weaknessRank": 58,
    "weaknessOf": 68,
    "points": 4,
    "pos": 47
@@ -11817,14 +14945,14 @@
    "ref": "Valtteri Bottas 型",
    "refTrait": "排位快、正赛偏软的中上游",
    "refEra": "2010s",
-   "similarity": 0.62,
-   "distance": 0.76,
+   "similarity": 0.618,
+   "distance": 0.763,
    "weakMatch": false,
    "why": "3 分排在 49/68。2 场里 2 场完赛。他的节奏稳定性排在场上前 7/65。完成 20 次超车。",
    "axes": {
     "pace": 0.6937418860547069,
     "consistency": 0.9609929078014184,
-    "combat": 0.3888888888888889,
+    "combat": 0.42857142857142855,
     "tyre": 0.1699637322782723,
     "discipline": 0.8904109589041096,
     "reliability": 0.35714285714285715
@@ -11840,17 +14968,17 @@
   },
   "Perez": {
    "name": "Perez",
-   "ref": "Michele Alboreto",
-   "refTrait": "稳定但缺一击致命的速度",
-   "refEra": "1980s",
-   "similarity": 0.601,
-   "distance": 0.798,
+   "ref": "Nico Hülkenberg",
+   "refTrait": "排位常年超水平，正赛温吞",
+   "refEra": "2020s",
+   "similarity": 0.654,
+   "distance": 0.693,
    "weakMatch": false,
-   "why": "1 分排在 54/68。1 场里 1 场完赛。他的节奏稳定性排在场上前 11/65。比「Michele Alboreto」更倚重速度。完成 6 次超车。",
+   "why": "1 分排在 54/68。1 场里 1 场完赛。他的节奏稳定性排在场上前 11/65。比「Nico Hülkenberg」更倚重缠斗。完成 6 次超车。",
    "axes": {
     "pace": 0.6901912124279153,
     "consistency": 0.928350609201673,
-    "combat": 0.3472222222222222,
+    "combat": 0.38961038961038963,
     "tyre": 0.16996373227827216,
     "discipline": 0.9041095890410958,
     "reliability": 0.2857142857142857
@@ -11869,14 +14997,14 @@
    "ref": "Heinz-Harald Frentzen",
    "refTrait": "速度尚可、时运不济",
    "refEra": "1990s",
-   "similarity": 0.857,
-   "distance": 0.286,
+   "similarity": 0.856,
+   "distance": 0.288,
    "weakMatch": false,
    "why": "8 分排在 37/68。1 场里 1 场完赛。他的轮胎管理排在场上前 28/65。比「Heinz-Harald Frentzen」更倚重缠斗。完成 19 次超车。",
    "axes": {
     "pace": 0.7082386409091149,
     "consistency": 0.6693944353518821,
-    "combat": 0.3888888888888889,
+    "combat": 0.42857142857142855,
     "tyre": 0.4580330648579906,
     "discipline": 0.821917808219178,
     "reliability": 0.2857142857142857
@@ -11885,7 +15013,7 @@
    "strengthRank": 28,
    "strengthOf": 65,
    "weakness": "combat",
-   "weaknessRank": 54,
+   "weaknessRank": 55,
    "weaknessOf": 68,
    "points": 8,
    "pos": 37
@@ -11895,20 +15023,20 @@
    "ref": "Dan Gurney",
    "refTrait": "全能型，什么都自己动手",
    "refEra": "1960s",
-   "similarity": 0.821,
-   "distance": 0.359,
+   "similarity": 0.82,
+   "distance": 0.36,
    "weakMatch": false,
-   "why": "5 分排在 45/68。1 场里 1 场完赛。他的缠斗排在场上前 19/68。比「Dan Gurney」更倚重纪律。完成 27 次超车。",
+   "why": "5 分排在 45/68。1 场里 1 场完赛。他的缠斗排在场上前 20/68。比「Dan Gurney」更倚重纪律。完成 27 次超车。",
    "axes": {
     "pace": 0.6991662945713255,
     "consistency": 0.6530278232405892,
-    "combat": 0.4861111111111111,
+    "combat": 0.5194805194805194,
     "tyre": 0.4396990250105976,
     "discipline": 0.8767123287671232,
     "reliability": 0.2857142857142857
    },
    "strength": "combat",
-   "strengthRank": 19,
+   "strengthRank": 20,
    "strengthOf": 68,
    "weakness": "consistency",
    "weaknessRank": 54,
@@ -11922,13 +15050,13 @@
    "refTrait": "起步一般、正赛强硬",
    "refEra": "2000s",
    "similarity": 0.852,
-   "distance": 0.296,
+   "distance": 0.297,
    "weakMatch": false,
    "why": "3 分排在 50/68。1 场里 1 场完赛。他的轮胎管理排在场上前 17/65。完成 26 次超车。",
    "axes": {
     "pace": 0.6939799388701255,
     "consistency": 0.8601563920712857,
-    "combat": 0.4444444444444444,
+    "combat": 0.4805194805194805,
     "tyre": 0.506570580754557,
     "discipline": 0.8493150684931506,
     "reliability": 0.2857142857142857
@@ -11944,23 +15072,23 @@
   },
   "猪猪侠": {
    "name": "猪猪侠",
-   "ref": "Juan Pablo Montoya",
-   "refTrait": "凶悍超车型，与人对撞也不退",
-   "refEra": "2000s",
-   "similarity": 0.317,
-   "distance": 1.366,
-   "weakMatch": true,
-   "why": "0 分排在 67/68。1 场里 1 场完赛。他的缠斗排在场上前 20/68。比「Juan Pablo Montoya」更倚重纪律。完成 30 次超车。",
+   "ref": "René Arnoux",
+   "refTrait": "缠斗好手，名局制造者",
+   "refEra": "1980s",
+   "similarity": 0.491,
+   "distance": 1.018,
+   "weakMatch": false,
+   "why": "0 分排在 67/68。1 场里 1 场完赛。他的缠斗排在场上前 21/68。比「René Arnoux」更倚重节奏稳定性。完成 30 次超车。",
    "axes": {
     "pace": 0.6883006253461212,
     "consistency": 0.8696126568466994,
-    "combat": 0.4861111111111111,
+    "combat": 0.5194805194805194,
     "tyre": 0.0,
     "discipline": 0.9178082191780822,
     "reliability": 0.2857142857142857
    },
    "strength": "combat",
-   "strengthRank": 20,
+   "strengthRank": 21,
    "strengthOf": 68,
    "weakness": "tyre",
    "weaknessRank": 65,
@@ -11973,14 +15101,14 @@
    "ref": "Jenson Button",
    "refTrait": "丝滑的轮胎管理，节奏极稳",
    "refEra": "2000s",
-   "similarity": 0.454,
-   "distance": 1.092,
+   "similarity": 0.46,
+   "distance": 1.08,
    "weakMatch": false,
    "why": "0 分排在 68/68。1 场里 1 场完赛。他的轮胎管理排在场上前 3/65。完成 19 次超车。",
    "axes": {
     "pace": 0.6752255713384886,
     "consistency": 0.8907074013456993,
-    "combat": 0.2916666666666667,
+    "combat": 0.33766233766233766,
     "tyre": 1.0,
     "discipline": 0.7945205479452054,
     "reliability": 0.2857142857142857
@@ -11989,7 +15117,7 @@
    "strengthRank": 3,
    "strengthOf": 65,
    "weakness": "combat",
-   "weaknessRank": 64,
+   "weaknessRank": 65,
    "weaknessOf": 68,
    "points": 0,
    "pos": 68
@@ -12397,34 +15525,34 @@
    "points": [
     {
      "name": "Ak_Langley_S",
-     "x": 67,
-     "y": 63,
+     "x": 66,
+     "y": 62,
      "r": 12,
-     "xLabel": "67",
-     "yLabel": "63"
+     "xLabel": "66",
+     "yLabel": "62"
     },
     {
      "name": "AyatoSeven",
-     "x": 74,
-     "y": 56,
+     "x": 72,
+     "y": 55,
      "r": 14,
-     "xLabel": "74",
-     "yLabel": "56"
+     "xLabel": "72",
+     "yLabel": "55"
     },
     {
      "name": "Beast",
-     "x": 35,
-     "y": 38,
+     "x": 37,
+     "y": 39,
      "r": 9,
-     "xLabel": "35",
-     "yLabel": "38"
+     "xLabel": "37",
+     "yLabel": "39"
     },
     {
      "name": "Camellia",
-     "x": 25,
+     "x": 26,
      "y": 35,
      "r": 9,
-     "xLabel": "25",
+     "xLabel": "26",
      "yLabel": "35"
     },
     {
@@ -12445,19 +15573,19 @@
     },
     {
      "name": "Hamisner",
-     "x": 63,
-     "y": 95,
+     "x": 64,
+     "y": 101,
      "r": 14,
-     "xLabel": "63",
-     "yLabel": "95"
+     "xLabel": "64",
+     "yLabel": "101"
     },
     {
      "name": "HayesCC",
-     "x": 32,
-     "y": 32,
+     "x": 33,
+     "y": 31,
      "r": 8,
-     "xLabel": "32",
-     "yLabel": "32"
+     "xLabel": "33",
+     "yLabel": "31"
     },
     {
      "name": "Howid",
@@ -12494,18 +15622,18 @@
     {
      "name": "Landoooo_W",
      "x": 79,
-     "y": 77,
+     "y": 78,
      "r": 13,
      "xLabel": "79",
-     "yLabel": "77"
+     "yLabel": "78"
     },
     {
      "name": "Sliced Onion",
-     "x": 39,
-     "y": 16,
+     "x": 38,
+     "y": 17,
      "r": 10,
-     "xLabel": "39",
-     "yLabel": "16"
+     "xLabel": "38",
+     "yLabel": "17"
     },
     {
      "name": "Sunpayus",
@@ -12525,35 +15653,35 @@
     },
     {
      "name": "UbisoftHongKong",
-     "x": 98,
-     "y": 87,
+     "x": 99,
+     "y": 88,
      "r": 17,
-     "xLabel": "98",
-     "yLabel": "87"
+     "xLabel": "99",
+     "yLabel": "88"
     },
     {
      "name": "Webs1te",
      "x": 60,
-     "y": 78,
+     "y": 85,
      "r": 15,
      "xLabel": "60",
-     "yLabel": "78"
+     "yLabel": "85"
     },
     {
      "name": "dan",
-     "x": 49,
-     "y": 63,
+     "x": 45,
+     "y": 67,
      "r": 13,
-     "xLabel": "49",
-     "yLabel": "63"
+     "xLabel": "45",
+     "yLabel": "67"
     },
     {
      "name": "esmac1",
-     "x": 69,
-     "y": 66,
+     "x": 72,
+     "y": 64,
      "r": 12,
-     "xLabel": "69",
-     "yLabel": "66"
+     "xLabel": "72",
+     "yLabel": "64"
     },
     {
      "name": "guys can u do sth?",
@@ -12565,34 +15693,34 @@
     },
     {
      "name": "newyeye7",
-     "x": 80,
-     "y": 40,
+     "x": 79,
+     "y": 39,
      "r": 13,
-     "xLabel": "80",
-     "yLabel": "40"
+     "xLabel": "79",
+     "yLabel": "39"
     },
     {
      "name": "star-falI04",
-     "x": 78,
-     "y": 90,
+     "x": 80,
+     "y": 91,
      "r": 12,
-     "xLabel": "78",
-     "yLabel": "90"
+     "xLabel": "80",
+     "yLabel": "91"
     },
     {
      "name": "tenbergen",
      "x": 64,
-     "y": 54,
+     "y": 55,
      "r": 12,
      "xLabel": "64",
-     "yLabel": "54"
+     "yLabel": "55"
     },
     {
      "name": "冬马和纱应援会",
-     "x": 67,
+     "x": 73,
      "y": 71,
      "r": 10,
-     "xLabel": "67",
+     "xLabel": "73",
      "yLabel": "71"
     },
     {
@@ -12613,10 +15741,10 @@
     },
     {
      "name": "弱智发牌员",
-     "x": 47,
+     "x": 49,
      "y": 45,
      "r": 11,
-     "xLabel": "47",
+     "xLabel": "49",
      "yLabel": "45"
     }
    ],
@@ -12640,7 +15768,7 @@
    "points": [
     {
      "name": "Ak_Langley_S",
-     "x": 3.588,
+     "x": 3.589,
      "y": 1.012,
      "r": 24,
      "xLabel": "3.59",
@@ -12896,26 +16024,26 @@
     {
      "name": "AyatoSeven",
      "x": 1,
-     "y": 30,
+     "y": 31,
      "r": 14,
      "xLabel": "1",
-     "yLabel": "30"
+     "yLabel": "31"
     },
     {
      "name": "Beast",
      "x": 0,
-     "y": 25,
+     "y": 26,
      "r": 9,
      "xLabel": "0",
-     "yLabel": "25"
+     "yLabel": "26"
     },
     {
      "name": "Camellia",
      "x": 0,
-     "y": 20,
+     "y": 22,
      "r": 9,
      "xLabel": "0",
-     "yLabel": "20"
+     "yLabel": "22"
     },
     {
      "name": "DQ",
@@ -12984,10 +16112,10 @@
     {
      "name": "Landoooo_W",
      "x": 0,
-     "y": 49,
+     "y": 51,
      "r": 13,
      "xLabel": "0",
-     "yLabel": "49"
+     "yLabel": "51"
     },
     {
      "name": "Sliced Onion",
@@ -13032,10 +16160,10 @@
     {
      "name": "dan",
      "x": 0,
-     "y": 30,
+     "y": 29,
      "r": 13,
      "xLabel": "0",
-     "yLabel": "30"
+     "yLabel": "29"
     },
     {
      "name": "esmac1",
@@ -13056,10 +16184,10 @@
     {
      "name": "newyeye7",
      "x": 2,
-     "y": 39,
+     "y": 40,
      "r": 13,
      "xLabel": "2",
-     "yLabel": "39"
+     "yLabel": "40"
     },
     {
      "name": "star-falI04",
@@ -13072,18 +16200,18 @@
     {
      "name": "tenbergen",
      "x": 0,
-     "y": 29,
+     "y": 30,
      "r": 12,
      "xLabel": "0",
-     "yLabel": "29"
+     "yLabel": "30"
     },
     {
      "name": "冬马和纱应援会",
      "x": 0,
-     "y": 40,
+     "y": 42,
      "r": 10,
      "xLabel": "0",
-     "yLabel": "40"
+     "yLabel": "42"
     },
     {
      "name": "千星散荷",
@@ -13104,10 +16232,10 @@
     {
      "name": "弱智发牌员",
      "x": 0,
-     "y": 15,
+     "y": 16,
      "r": 11,
      "xLabel": "0",
-     "yLabel": "15"
+     "yLabel": "16"
     }
    ],
    "quadrants": {
