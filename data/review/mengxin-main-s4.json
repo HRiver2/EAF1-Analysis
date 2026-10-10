@@ -194,7 +194,7 @@
    "title": "积分王",
    "lead": "官方层 · 全季积分合计",
    "color": "green",
-   "qualified": 54,
+   "qualified": 55,
    "insufficient": 0,
    "rows": [
     {
@@ -3620,7 +3620,7 @@
    "title": "未完赛之王",
    "lead": "官方层 · 未完赛场次",
    "color": "red",
-   "qualified": 40,
+   "qualified": 41,
    "insufficient": 0,
    "rows": [
     {
@@ -3692,7 +3692,7 @@
    "title": "缺席最多",
    "lead": "官方层 · is_absent 计数",
    "color": "red",
-   "qualified": 8,
+   "qualified": 7,
    "insufficient": 0,
    "rows": [
     {
@@ -3735,12 +3735,6 @@
      "name": "HEZ",
      "value": 1,
      "display": "1 场",
-     "detail": "报名但缺席"
-    },
-    {
-     "name": "⊗x1aofeiyang",
-     "value": -3,
-     "display": "-3 场",
      "detail": "报名但缺席"
     }
    ],
@@ -3909,7 +3903,7 @@
      "name": "⊗x1aofeiyang",
      "value": 25,
      "display": "还差 25 圈",
-     "detail": "退赛 0 次"
+     "detail": "退赛 2 次"
     },
     {
      "name": "dan",
@@ -4200,8 +4194,8 @@
      "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
     },
     {
-     "name": "HayesCC",
-     "value": 77.58620689655173,
+     "name": "⊗x1aofeiyang",
+     "value": 78.44827586206897,
      "display": "78%",
      "detail": "六维里最强与最弱项的差距（0–100% 的归一化极差，不是\"分\"）"
     }
@@ -4574,7 +4568,7 @@
    "title": "只跑了一站",
    "lead": "官方层 · 全季只出场一次",
    "color": "orange",
-   "qualified": 13,
+   "qualified": 12,
    "insufficient": 0,
    "rows": [
     {
@@ -5438,7 +5432,7 @@
    "title": "关掉 TC 的人里最强",
    "lead": "遥测层 · 只取牵引力控制设为 OFF 的车手，按积分排。**为什么要单独排**：TC FULL 在出弯和稳定性上占明显便宜，两种设置混在一张榜上比成绩并不公平",
    "color": "blue",
-   "qualified": 25,
+   "qualified": 26,
    "insufficient": 0,
    "rows": [
     {
@@ -5654,7 +5648,7 @@
    "title": "剔除缺席的场均分",
    "lead": "假想 · 总分 ÷ 实际出场（缺席不计入分母）；门槛：出场 ≥3 场",
    "color": "grey",
-   "qualified": 45,
+   "qualified": 46,
    "insufficient": 0,
    "rows": [
     {
@@ -6996,6 +6990,12 @@
      "detail": "车通常 P12.3 · 他跑 P19.5 · 车序 9.0"
     },
     {
+     "name": "⊗x1aofeiyang",
+     "value": -6.14,
+     "display": "-6.14 位",
+     "detail": "车通常 P10.9 · 他跑 P17.0 · 车序 7.8"
+    },
+    {
      "name": "叶yeeeeee",
      "value": -6.1,
      "display": "-6.10 位",
@@ -7012,12 +7012,6 @@
      "value": -5.86,
      "display": "-5.86 位",
      "detail": "车通常 P9.8 · 他跑 P15.7 · 车序 5.8"
-    },
-    {
-     "name": "高木同学重度依赖",
-     "value": -5.83,
-     "display": "-5.83 位",
-     "detail": "车通常 P9.4 · 他跑 P15.2 · 车序 4.8"
     }
    ],
    "note": ""
@@ -8116,13 +8110,6 @@
    },
    {
     "name": "关门王",
-    "points": 0,
-    "starts": 1,
-    "wins": 0,
-    "podiums": 0
-   },
-   {
-    "name": "✪x1aofeiyang",
     "points": 0,
     "starts": 1,
     "wins": 0,
@@ -14211,8 +14198,8 @@
   },
   "⊗x1aofeiyang": {
    "name": "⊗x1aofeiyang",
-   "points": 0,
-   "starts": 1,
+   "points": 1,
+   "starts": 4,
    "wins": 0,
    "podiums": 0,
    "poles": 0,
@@ -14271,23 +14258,26 @@
    "best_lap": 74490,
    "best_lap_track": "蒙特利尔",
    "finish_count": 2,
-   "dnf": 0,
+   "dnf": 2,
    "avg_quali": 14.5,
-   "avg_finish": 16.0,
-   "score_rate": 0.0,
+   "avg_finish": 17.0,
+   "score_rate": 25.0,
    "axes": {
     "pace": 0.7403052831741478,
     "consistency": 0.6172195892575039,
     "combat": 0.2679245283018868,
     "tyre": 0.5433035516137841,
     "discipline": 0.8916256157635468,
-    "reliability": 0.17857142857142858
+    "reliability": 0.10714285714285714
    },
    "strength": "discipline",
    "weakness": "reliability",
-   "archetype": "单圈型",
+   "archetype": "轮胎管理型",
    "per_round": {
-    "1": 0
+    "1": 0,
+    "2": 0,
+    "9": 0,
+    "10": 1
    },
    "pos": 55
   },
@@ -18908,7 +18898,7 @@
    "refTrait": "拼到极致的冠军，纪律极好",
    "refEra": "2010s",
    "similarity": 0.559,
-   "distance": 0.883,
+   "distance": 0.881,
    "weakMatch": false,
    "why": "97 分排在 17/62。4 场里 4 场完赛、3 个冠军、1 次登台、2 个杆位。他的节奏稳定性排在场上前 6/61。比「Nico Rosberg」更倚重速度。而完赛是他的相对短板（场上第 25/62）。全季领跑 52 圈（4 站）。他平均开的是第 6.5 档车（全场均值 6.0），比这辆车的一般水平快 8.7 位。",
    "axes": {
@@ -18959,7 +18949,7 @@
    "ref": "John Surtees",
    "refTrait": "摩托与四轮双料冠军，全能",
    "refEra": "1960s",
-   "similarity": 0.827,
+   "similarity": 0.828,
    "distance": 0.345,
    "weakMatch": false,
    "why": "70 分排在 23/62。6 场里 5 场完赛、1 个冠军、2 次登台。他的节奏稳定性排在场上前 14/61。比「John Surtees」更倚重轮胎管理。全季领跑 39 圈（2 站）。他平均开的是第 6.7 档车（全场均值 6.0），比这辆车的一般水平快 1.1 位。",
@@ -18985,7 +18975,7 @@
    "ref": "Daniel Ricciardo",
    "refTrait": "晚刹车超车型，笑容与速度并存",
    "refEra": "2010s",
-   "similarity": 0.691,
+   "similarity": 0.69,
    "distance": 0.619,
    "weakMatch": false,
    "why": "221 分排在 4/62。13 场里 12 场完赛、2 个冠军、4 次登台、2 个杆位。他的缠斗排在场上前 3/62。比「Daniel Ricciardo」更倚重轮胎管理。全季领跑 58 圈（3 站）。他平均开的是第 8.4 档车（全场均值 6.0），比这辆车的一般水平快 5.9 位。",
@@ -19064,7 +19054,7 @@
    "refTrait": "可靠的老二，轮胎不错",
    "refEra": "1990s",
    "similarity": 0.186,
-   "distance": 1.629,
+   "distance": 1.628,
    "weakMatch": true,
    "why": "166 分排在 7/62。25 场里 24 场完赛、1 个冠军、1 个杆位。他的完赛排在场上前 2/62。全季领跑 9 圈（3 站）。他平均开的是第 2.4 档车（全场均值 6.0），比这辆车的一般水平慢 0.0 位。",
    "axes": {
@@ -19090,7 +19080,7 @@
    "refTrait": "凶猛超车型，敢打敢拼",
    "refEra": "1980s",
    "similarity": 0.562,
-   "distance": 0.876,
+   "distance": 0.877,
    "weakMatch": false,
    "why": "75 分排在 20/62。12 场里 10 场完赛。他的缠斗排在场上前 2/62。比「Nigel Mansell」更倚重节奏稳定性。完成 187 次超车。他平均开的是第 8.1 档车（全场均值 6.0），比这辆车的一般水平慢 2.3 位。",
    "axes": {
@@ -19115,8 +19105,8 @@
    "ref": "Ralf Schumacher",
    "refTrait": "稳但不惊艳",
    "refEra": "2000s",
-   "similarity": 0.628,
-   "distance": 0.744,
+   "similarity": 0.629,
+   "distance": 0.742,
    "weakMatch": false,
    "why": "9 分排在 48/62。7 场里 2 场完赛。他的节奏稳定性排在场上前 10/61。比「Ralf Schumacher」更倚重缠斗。完成 83 次超车。他平均开的是第 9.0 档车（全场均值 6.0），比这辆车的一般水平慢 6.1 位。",
    "axes": {
@@ -19141,7 +19131,7 @@
    "ref": "Max Verstappen",
    "refTrait": "三项顶档，缠斗强硬极少自失",
    "refEra": "2010s",
-   "similarity": 0.132,
+   "similarity": 0.133,
    "distance": 1.735,
    "weakMatch": true,
    "why": "208 分排在 6/62。25 场里 25 场完赛。他的完赛排在场上前 1/62。全季领跑 1 圈（1 站）。他平均开的是第 9.7 档车（全场均值 6.0），比这辆车的一般水平快 1.3 位。",
@@ -19167,8 +19157,8 @@
    "ref": "Pierre Gasly",
    "refTrait": "中游标杆，六维都在均值偏上",
    "refEra": "2020s",
-   "similarity": 0.639,
-   "distance": 0.722,
+   "similarity": 0.64,
+   "distance": 0.721,
    "weakMatch": false,
    "why": "8 分排在 49/62。2 场里 2 场完赛。他的轮胎管理排在场上前 13/60。完成 24 次超车。他平均开的是第 3.5 档车（全场均值 6.0），比这辆车的一般水平慢 3.3 位。",
    "axes": {
@@ -19193,8 +19183,8 @@
    "ref": "Lando Norris",
    "refTrait": "各项均衡、节奏干净",
    "refEra": "2020s",
-   "similarity": 0.513,
-   "distance": 0.973,
+   "similarity": 0.514,
+   "distance": 0.971,
    "weakMatch": false,
    "why": "4 分排在 52/62。1 场里 1 场完赛。他的节奏稳定性排在场上前 3/61。比「Lando Norris」更倚重缠斗。完成 11 次超车。他平均开的是第 2.0 档车（全场均值 6.0），比这辆车的一般水平慢 0.7 位。",
    "axes": {
@@ -19209,7 +19199,7 @@
    "strengthRank": 3,
    "strengthOf": 61,
    "weakness": "reliability",
-   "weaknessRank": 42,
+   "weaknessRank": 41,
    "weaknessOf": 62,
    "points": 4,
    "pos": 52
@@ -19246,7 +19236,7 @@
    "refTrait": "快但容易出错",
    "refEra": "2010s",
    "similarity": 0.016,
-   "distance": 1.969,
+   "distance": 1.968,
    "weakMatch": true,
    "why": "109 分排在 15/62。22 场里 20 场完赛。他的完赛排在场上前 5/62。拿下 1 次全场最快圈。他平均开的是第 7.8 档车（全场均值 6.0），比这辆车的一般水平慢 1.4 位。",
    "axes": {
@@ -19272,7 +19262,7 @@
    "refTrait": "低调可靠，少有失误",
    "refEra": "2000s",
    "similarity": 0.371,
-   "distance": 1.258,
+   "distance": 1.257,
    "weakMatch": true,
    "why": "238 分排在 3/62。25 场里 24 场完赛、2 次登台、1 个杆位。他的完赛排在场上前 3/62。全季领跑 5 圈（2 站）。他平均开的是第 2.7 档车（全场均值 6.0），比这辆车的一般水平快 1.2 位。",
    "axes": {
@@ -19297,25 +19287,25 @@
    "ref": "Dan Gurney",
    "refTrait": "全能型，什么都自己动手",
    "refEra": "1960s",
-   "similarity": 0.8,
-   "distance": 0.401,
+   "similarity": 0.796,
+   "distance": 0.408,
    "weakMatch": false,
-   "why": "0 分排在 55/62。1 场里 2 场完赛。他的速度排在场上前 11/61。完成 45 次超车。他平均开的是第 7.8 档车（全场均值 6.0），比这辆车的一般水平慢 5.1 位。",
+   "why": "1 分排在 55/62。4 场里 2 场完赛。他的速度排在场上前 11/61。完成 45 次超车。他平均开的是第 7.8 档车（全场均值 6.0），比这辆车的一般水平慢 6.1 位。",
    "axes": {
     "pace": 0.7403052831741478,
     "consistency": 0.6172195892575039,
     "combat": 0.2679245283018868,
     "tyre": 0.5433035516137841,
     "discipline": 0.8916256157635468,
-    "reliability": 0.17857142857142858
+    "reliability": 0.10714285714285714
    },
    "strength": "pace",
    "strengthRank": 11,
    "strengthOf": 61,
-   "weakness": "combat",
-   "weaknessRank": 44,
+   "weakness": "reliability",
+   "weaknessRank": 54,
    "weaknessOf": 62,
-   "points": 0,
+   "points": 1,
    "pos": 55
   },
   "dan": {
@@ -19324,7 +19314,7 @@
    "refTrait": "两轮世界冠军转来拿四轮冠军",
    "refEra": "1990s",
    "similarity": 0.736,
-   "distance": 0.528,
+   "distance": 0.529,
    "weakMatch": false,
    "why": "27 分排在 34/62。14 场里 11 场完赛。他的缠斗排在场上前 7/62。比「Jacques Villeneuve」更倚重完赛。完成 153 次超车。他平均开的是第 4.9 档车（全场均值 6.0），比这辆车的一般水平慢 6.1 位。",
    "axes": {
@@ -19375,8 +19365,8 @@
    "ref": "Kimi Räikkönen",
    "refTrait": "冰人：纯速度，话少",
    "refEra": "2000s",
-   "similarity": 0.881,
-   "distance": 0.238,
+   "similarity": 0.882,
+   "distance": 0.237,
    "weakMatch": false,
    "why": "71 分排在 22/62。5 场里 4 场完赛、1 个冠军。他的速度排在场上前 8/61。比「Kimi Räikkönen」更倚重节奏稳定性。而完赛是他的相对短板（场上第 29/62）。全季领跑 28 圈（1 站）。他平均开的是第 10.8 档车（全场均值 6.0），比这辆车的一般水平快 4.3 位。",
    "axes": {
@@ -19401,7 +19391,7 @@
    "ref": "Mike Hawthorn",
    "refTrait": "稳中取胜，纪律一般",
    "refEra": "1950s",
-   "similarity": 0.638,
+   "similarity": 0.637,
    "distance": 0.725,
    "weakMatch": false,
    "why": "154 分排在 8/62。20 场里 16 场完赛、3 次登台、1 个杆位。他的完赛排在场上前 11/62。全季领跑 22 圈（3 站）。他平均开的是第 6.2 档车（全场均值 6.0），比这辆车的一般水平慢 0.2 位。",
@@ -19454,9 +19444,9 @@
    "refTrait": "中游常青树",
    "refEra": "1990s",
    "similarity": 0.859,
-   "distance": 0.282,
+   "distance": 0.283,
    "weakMatch": false,
-   "why": "4 分排在 53/62。4 场里 3 场完赛。他的纪律排在场上前 36/62。比「Johnny Herbert」更倚重缠斗。完成 51 次超车。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平慢 5.4 位。",
+   "why": "4 分排在 53/62。4 场里 3 场完赛。他的完赛排在场上前 35/62。比「Johnny Herbert」更倚重缠斗。完成 51 次超车。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平慢 5.4 位。",
    "axes": {
     "pace": 0.37187719880748865,
     "consistency": 0.5601895734597155,
@@ -19465,8 +19455,8 @@
     "discipline": 0.7881773399014779,
     "reliability": 0.17857142857142858
    },
-   "strength": "discipline",
-   "strengthRank": 36,
+   "strength": "reliability",
+   "strengthRank": 35,
    "strengthOf": 62,
    "weakness": "pace",
    "weaknessRank": 55,
@@ -19479,8 +19469,8 @@
    "ref": "Jacky Ickx",
    "refTrait": "雨战与耐力赛之王",
    "refEra": "1970s",
-   "similarity": 0.717,
-   "distance": 0.565,
+   "similarity": 0.718,
+   "distance": 0.564,
    "weakMatch": false,
    "why": "16 分排在 42/62。3 场里 3 场完赛。他的轮胎管理排在场上前 3/60。全季领跑 1 圈（1 站）。他平均开的是第 6.7 档车（全场均值 6.0），比这辆车的一般水平慢 1.3 位。",
    "axes": {
@@ -19532,7 +19522,7 @@
    "refTrait": "起步一般、正赛强硬",
    "refEra": "2000s",
    "similarity": 0.887,
-   "distance": 0.227,
+   "distance": 0.226,
    "weakMatch": false,
    "why": "58 分排在 26/62。4 场里 3 场完赛、2 个冠军、1 个杆位。他的纪律排在场上前 17/62。全季领跑 52 圈（2 站）。他平均开的是第 5.8 档车（全场均值 6.0），比这辆车的一般水平快 3.2 位。",
    "axes": {
@@ -19557,7 +19547,7 @@
    "ref": "Jarno Trulli",
    "refTrait": "排位高手，正赛偏保守",
    "refEra": "2000s",
-   "similarity": 0.664,
+   "similarity": 0.665,
    "distance": 0.671,
    "weakMatch": false,
    "why": "46 分排在 29/62。11 场里 8 场完赛。他的轮胎管理排在场上前 4/60。完成 171 次超车。他平均开的是第 4.1 档车（全场均值 6.0），比这辆车的一般水平慢 2.2 位。",
@@ -19635,7 +19625,7 @@
    "ref": "Robert Kubica",
    "refTrait": "速度与胆量兼备",
    "refEra": "2000s",
-   "similarity": 0.906,
+   "similarity": 0.905,
    "distance": 0.189,
    "weakMatch": false,
    "why": "44 分排在 30/62。8 场里 6 场完赛、1 次登台。他的速度排在场上前 18/61。比「Robert Kubica」更倚重节奏稳定性。而缠斗是他的相对短板（场上第 37/62）。全季领跑 1 圈（1 站）。他平均开的是第 7.6 档车（全场均值 6.0），比这辆车的一般水平慢 2.1 位。",
@@ -19688,7 +19678,7 @@
    "refTrait": "新秀型：速度有、经验少",
    "refEra": "2020s",
    "similarity": 0.749,
-   "distance": 0.502,
+   "distance": 0.501,
    "weakMatch": false,
    "why": "49 分排在 27/62。5 场里 4 场完赛、1 次登台。他的轮胎管理排在场上前 17/60。全季领跑 1 圈（1 站）。他平均开的是第 8.8 档车（全场均值 6.0），比这辆车的一般水平快 2.0 位。",
    "axes": {
@@ -19713,10 +19703,10 @@
    "ref": "Giancarlo Fisichella",
    "refTrait": "中游稳定输出",
    "refEra": "2000s",
-   "similarity": 0.884,
-   "distance": 0.232,
+   "similarity": 0.885,
+   "distance": 0.231,
    "weakMatch": false,
-   "why": "20 分排在 38/62。6 场里 4 场完赛。他的轮胎管理排在场上前 26/60。完成 42 次超车。他平均开的是第 5.8 档车（全场均值 6.0），比这辆车的一般水平慢 5.9 位。",
+   "why": "20 分排在 38/62。6 场里 4 场完赛。他的轮胎管理排在场上前 26/60。而完赛是他的相对短板（场上第 37/62）。完成 42 次超车。他平均开的是第 5.8 档车（全场均值 6.0），比这辆车的一般水平慢 5.9 位。",
    "axes": {
     "pace": 0.4068416447993759,
     "consistency": 0.6132069510268563,
@@ -19740,7 +19730,7 @@
    "refTrait": "连霸两年，节奏稳定得像机器",
    "refEra": "1950s",
    "similarity": 0.447,
-   "distance": 1.107,
+   "distance": 1.106,
    "weakMatch": false,
    "why": "215 分排在 5/62。20 场里 20 场完赛、1 个冠军、3 次登台、1 个杆位。他的完赛排在场上前 4/62。全季领跑 43 圈（5 站）。他平均开的是第 5.7 档车（全场均值 6.0），比这辆车的一般水平快 1.7 位。",
    "axes": {
@@ -19765,8 +19755,8 @@
    "ref": "Alex Albon",
    "refTrait": "稳、干净、少失误",
    "refEra": "2020s",
-   "similarity": 0.443,
-   "distance": 1.113,
+   "similarity": 0.444,
+   "distance": 1.111,
    "weakMatch": false,
    "why": "0 分排在 56/62。1 场里 0 场完赛。他的纪律排在场上前 4/62。比「Alex Albon」更倚重缠斗。完成 6 次超车。他平均开的是第 5.0 档车（全场均值 6.0），比这辆车的一般水平慢 9.4 位。",
    "axes": {
@@ -19791,8 +19781,8 @@
    "ref": "Damon Hill",
    "refTrait": "稳健的冠军，速度不顶尖",
    "refEra": "1990s",
-   "similarity": 0.736,
-   "distance": 0.527,
+   "similarity": 0.737,
+   "distance": 0.525,
    "weakMatch": false,
    "why": "25 分排在 35/62。1 场里 1 场完赛、1 次登台。他的纪律排在场上前 1/62。比「Damon Hill」更倚重缠斗。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
    "axes": {
@@ -19806,9 +19796,9 @@
    "strength": "discipline",
    "strengthRank": 1,
    "strengthOf": 62,
-   "weakness": "reliability",
-   "weaknessRank": 44,
-   "weaknessOf": 62,
+   "weakness": "pace",
+   "weaknessRank": 43,
+   "weaknessOf": 61,
    "points": 25,
    "pos": 35
   },
@@ -19843,7 +19833,7 @@
    "ref": "Gerhard Berger",
    "refTrait": "直来直去的快枪手",
    "refEra": "1980s",
-   "similarity": 0.847,
+   "similarity": 0.848,
    "distance": 0.305,
    "weakMatch": false,
    "why": "112 分排在 14/62。11 场里 8 场完赛、2 个冠军。他的轮胎管理排在场上前 21/60。全季领跑 4 圈（2 站）。他平均开的是第 9.6 档车（全场均值 6.0），比这辆车的一般水平快 3.2 位。",
@@ -19869,8 +19859,8 @@
    "ref": "Juan Manuel Fangio",
    "refTrait": "五冠，靠判断力与轮胎管理赢下不同车队",
    "refEra": "1950s",
-   "similarity": 0.476,
-   "distance": 1.047,
+   "similarity": 0.478,
+   "distance": 1.045,
    "weakMatch": false,
    "why": "18 分排在 40/62。1 场里 1 场完赛。他的速度排在场上前 4/61。完成 14 次超车。他平均开的是第 11.0 档车（全场均值 6.0），比这辆车的一般水平快 7.4 位。",
    "axes": {
@@ -19885,7 +19875,7 @@
    "strengthRank": 4,
    "strengthOf": 61,
    "weakness": "reliability",
-   "weaknessRank": 45,
+   "weaknessRank": 44,
    "weaknessOf": 62,
    "points": 18,
    "pos": 40
@@ -19896,7 +19886,7 @@
    "refTrait": "极端省胎，单圈速度普通",
    "refEra": "2010s",
    "similarity": 0.196,
-   "distance": 1.609,
+   "distance": 1.608,
    "weakMatch": true,
    "why": "8 分排在 50/62。4 场里 2 场完赛、1 个杆位。他的轮胎管理排在场上前 1/60。比「Sergio Pérez」更倚重速度。全季领跑 6 圈（1 站）。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平慢 4.4 位。",
    "axes": {
@@ -19921,8 +19911,8 @@
    "ref": "Emerson Fittipaldi",
    "refTrait": "年轻冠军，节奏干净",
    "refEra": "1970s",
-   "similarity": 0.673,
-   "distance": 0.654,
+   "similarity": 0.674,
+   "distance": 0.652,
    "weakMatch": false,
    "why": "25 分排在 36/62。4 场里 2 场完赛、1 个冠军、1 个杆位。他的节奏稳定性排在场上前 4/61。全季领跑 23 圈（1 站）。他平均开的是第 6.0 档车（全场均值 6.0），比这辆车的一般水平慢 3.3 位。",
    "axes": {
@@ -19948,7 +19938,7 @@
    "refTrait": "纯速度型两冠",
    "refEra": "1990s",
    "similarity": 0.766,
-   "distance": 0.468,
+   "distance": 0.469,
    "weakMatch": false,
    "why": "40 分排在 31/62。2 场里 2 场完赛、1 次登台。他的速度排在场上前 2/61。比「Mika Häkkinen」更倚重纪律。全季领跑 8 圈（1 站）。他平均开的是第 9.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
    "axes": {
@@ -19974,7 +19964,7 @@
    "refTrait": "聪明强硬的三冠",
    "refEra": "1980s",
    "similarity": 0.788,
-   "distance": 0.424,
+   "distance": 0.425,
    "weakMatch": false,
    "why": "144 分排在 9/62。14 场里 12 场完赛、3 次登台。他的缠斗排在场上前 16/62。比「Nelson Piquet」更倚重完赛。完成 212 次超车。他平均开的是第 7.6 档车（全场均值 6.0），比这辆车的一般水平快 1.1 位。",
    "axes": {
@@ -20025,8 +20015,8 @@
    "ref": "Oscar Piastri",
    "refTrait": "冷静、干净、几乎不犯错",
    "refEra": "2020s",
-   "similarity": 0.43,
-   "distance": 1.14,
+   "similarity": 0.431,
+   "distance": 1.138,
    "weakMatch": false,
    "why": "10 分排在 45/62。1 场里 1 场完赛。他的节奏稳定性排在场上前 2/61。比「Oscar Piastri」更倚重速度。完成 12 次超车。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平快 2.6 位。",
    "axes": {
@@ -20078,7 +20068,7 @@
    "refTrait": "速度尚可、时运不济",
    "refEra": "1990s",
    "similarity": 0.686,
-   "distance": 0.629,
+   "distance": 0.628,
    "weakMatch": false,
    "why": "6 分排在 51/62。4 场里 3 场完赛。他的节奏稳定性排在场上前 15/61。完成 29 次超车。他平均开的是第 4.8 档车（全场均值 6.0），比这辆车的一般水平慢 5.8 位。",
    "axes": {
@@ -20129,8 +20119,8 @@
    "ref": "Michele Alboreto",
    "refTrait": "稳定但缺一击致命的速度",
    "refEra": "1980s",
-   "similarity": 0.512,
-   "distance": 0.976,
+   "similarity": 0.513,
+   "distance": 0.973,
    "weakMatch": false,
    "why": "0 分排在 58/62。3 场里 0 场完赛。他的轮胎管理排在场上前 5/60。完成 18 次超车。他平均开的是第 8.7 档车（全场均值 6.0），比这辆车的一般水平慢 10.7 位。",
    "axes": {
@@ -20181,8 +20171,8 @@
    "ref": "Denny Hulme",
    "refTrait": "低调稳健的冠军",
    "refEra": "1960s",
-   "similarity": 0.379,
-   "distance": 1.242,
+   "similarity": 0.38,
+   "distance": 1.24,
    "weakMatch": true,
    "why": "0 分排在 59/62。1 场里 1 场完赛。他的纪律排在场上前 3/62。比「Denny Hulme」更倚重缠斗。完成 8 次超车。他平均开的是第 8.0 档车（全场均值 6.0），比这辆车的一般水平慢 9.5 位。",
    "axes": {
@@ -20207,8 +20197,8 @@
    "ref": "Ronnie Peterson",
    "refTrait": "超车型，速度快但脆",
    "refEra": "1970s",
-   "similarity": 0.291,
-   "distance": 1.418,
+   "similarity": 0.29,
+   "distance": 1.419,
    "weakMatch": true,
    "why": "10 分排在 46/62。3 场里 2 场完赛、1 次登台。他的节奏稳定性排在场上前 16/61。全季领跑 8 圈（1 站）。他平均开的是第 7.7 档车（全场均值 6.0），比这辆车的一般水平慢 4.4 位。",
    "axes": {
@@ -20249,7 +20239,7 @@
    "strengthRank": 1,
    "strengthOf": 61,
    "weakness": "reliability",
-   "weaknessRank": 49,
+   "weaknessRank": 48,
    "weaknessOf": 62,
    "points": 10,
    "pos": 47
@@ -20259,7 +20249,7 @@
    "ref": "Eddie Irvine",
    "refTrait": "嘴和车都快",
    "refEra": "1990s",
-   "similarity": 0.68,
+   "similarity": 0.681,
    "distance": 0.639,
    "weakMatch": false,
    "why": "72 分排在 21/62。5 场里 4 场完赛、2 个冠军、1 次登台、2 个杆位。他的纪律排在场上前 16/62。全季领跑 69 圈（4 站）。他平均开的是第 5.8 档车（全场均值 6.0），比这辆车的一般水平快 3.8 位。",
@@ -20338,7 +20328,7 @@
    "refTrait": "一圈速度顶级，稳定与完赛是短板",
    "refEra": "2020s",
    "similarity": 0.682,
-   "distance": 0.636,
+   "distance": 0.637,
    "weakMatch": false,
    "why": "13 分排在 44/62。3 场里 2 场完赛。他的速度排在场上前 12/61。比「Charles Leclerc」更倚重纪律。完成 35 次超车。他平均开的是第 7.0 档车（全场均值 6.0），比这辆车的一般水平快 1.0 位。",
    "axes": {
@@ -20389,8 +20379,8 @@
    "ref": "Jack Brabham",
    "refTrait": "自己造车自己开，工程型车手",
    "refEra": "1960s",
-   "similarity": 0.524,
-   "distance": 0.951,
+   "similarity": 0.526,
+   "distance": 0.948,
    "weakMatch": false,
    "why": "0 分排在 60/62。2 场里 0 场完赛。他的节奏稳定性排在场上前 1/61。完成 15 次超车。他平均开的是第 9.0 档车（全场均值 6.0），比这辆车的一般水平慢 7.2 位。",
    "axes": {
@@ -20415,7 +20405,7 @@
    "ref": "Jean Alesi",
    "refTrait": "热血缠斗型，成绩配不上天赋",
    "refEra": "1990s",
-   "similarity": 0.361,
+   "similarity": 0.36,
    "distance": 1.279,
    "weakMatch": true,
    "why": "20 分排在 39/62。1 场里 1 场完赛、1 次登台。他的缠斗排在场上前 17/62。比「Jean Alesi」更倚重纪律。完成 15 次超车。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平快 8.0 位。",
@@ -20442,7 +20432,7 @@
    "refTrait": "速度与稳定性都偏弱的新秀",
    "refEra": "2020s",
    "similarity": 0.307,
-   "distance": 1.386,
+   "distance": 1.387,
    "weakMatch": true,
    "why": "0 分排在 61/62。1 场里 1 场完赛。他的纪律排在场上前 8/62。比「Logan Sargeant 型」更倚重缠斗。完成 18 次超车。他平均开的是第 10.0 档车（全场均值 6.0），比这辆车的一般水平慢 5.0 位。",
    "axes": {
@@ -20467,8 +20457,8 @@
    "ref": "David Coulthard",
    "refTrait": "稳健的职业车手",
    "refEra": "1990s",
-   "similarity": 0.625,
-   "distance": 0.749,
+   "similarity": 0.626,
+   "distance": 0.747,
    "weakMatch": false,
    "why": "0 分排在 62/62。1 场里 1 场完赛。他的纪律排在场上前 6/62。比「David Coulthard」更倚重速度。完成 13 次超车。他平均开的是第 6.0 档车（全场均值 6.0），比这辆车的一般水平慢 8.8 位。",
    "axes": {
@@ -20483,7 +20473,7 @@
    "strengthRank": 6,
    "strengthOf": 62,
    "weakness": "reliability",
-   "weaknessRank": 54,
+   "weaknessRank": 53,
    "weaknessOf": 62,
    "points": 0,
    "pos": 62
@@ -21501,7 +21491,7 @@
      "name": "⊗x1aofeiyang",
      "x": 45,
      "y": 53,
-     "r": 7,
+     "r": 10,
      "xLabel": "45",
      "yLabel": "53"
     },
@@ -22295,7 +22285,7 @@
      "name": "⊗x1aofeiyang",
      "x": 1,
      "y": 20,
-     "r": 7,
+     "r": 10,
      "xLabel": "1",
      "yLabel": "20"
     },
@@ -22784,11 +22774,11 @@
     },
     {
      "name": "⊗x1aofeiyang",
-     "x": 1,
-     "y": 0,
-     "r": 7,
-     "xLabel": "1",
-     "yLabel": "0"
+     "x": 4,
+     "y": 1,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "1"
     },
     {
      "name": "叶yeeeeee",
@@ -23204,10 +23194,10 @@
     {
      "name": "⊗x1aofeiyang",
      "x": 0,
-     "y": 0,
-     "r": 7,
+     "y": 1,
+     "r": 10,
      "xLabel": "0",
-     "yLabel": "0"
+     "yLabel": "1"
     },
     {
      "name": "叶yeeeeee",
@@ -23602,10 +23592,10 @@
     },
     {
      "name": "⊗x1aofeiyang",
-     "x": 0,
+     "x": 2,
      "y": 2.378,
-     "r": 7,
-     "xLabel": "0",
+     "r": 10,
+     "xLabel": "2",
      "yLabel": "2.38"
     },
     {
@@ -24097,11 +24087,11 @@
     },
     {
      "name": "⊗x1aofeiyang",
-     "x": 1,
-     "y": 0.0,
-     "r": 7,
-     "xLabel": "1",
-     "yLabel": "0"
+     "x": 4,
+     "y": 25.0,
+     "r": 10,
+     "xLabel": "4",
+     "yLabel": "25"
     },
     {
      "name": "叶yeeeeee",
@@ -27420,8 +27410,8 @@
     "avgCarOrder": 7.75,
     "carAdvantage": -1.75,
     "expectedFinish": 10.86,
-    "actualFinish": 16.0,
-    "overPerformance": -5.14,
+    "actualFinish": 17.0,
+    "overPerformance": -6.14,
     "races": 4,
     "carPaceEffect": -0.18
    },
@@ -28340,6 +28330,12 @@
       "detail": "车通常 P12.3 · 他跑 P19.5 · 车序 9.0"
      },
      {
+      "name": "⊗x1aofeiyang",
+      "value": -6.14,
+      "display": "-6.14 位",
+      "detail": "车通常 P10.9 · 他跑 P17.0 · 车序 7.8"
+     },
+     {
       "name": "叶yeeeeee",
       "value": -6.1,
       "display": "-6.10 位",
@@ -28356,12 +28352,6 @@
       "value": -5.86,
       "display": "-5.86 位",
       "detail": "车通常 P9.8 · 他跑 P15.7 · 车序 5.8"
-     },
-     {
-      "name": "高木同学重度依赖",
-      "value": -5.83,
-      "display": "-5.83 位",
-      "detail": "车通常 P9.4 · 他跑 P15.2 · 车序 4.8"
      }
     ],
     "note": ""
