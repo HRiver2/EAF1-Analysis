@@ -18,64 +18,10 @@
   <body>
     <div id="app"></div>
 
-    <!-- ⚠️ 站点迁移提示（2026-10 起，新站在 /RINACE/）。
-         放在 index.html 而不是某个 Vue 组件里：postbuild.mjs 会把 index.html
-         复制成 404.html，于是**深链也会带上它**（深链走的就是 404 兜底）。
-
-         这里是「提示 + 链接」，不是自动跳转：旧站是归档，深链可能被收藏，
-         直接跳走会让人再也看不到旧视图。若要改成硬跳转，把下面 mount() 里的
-         追加元素换成 `location.replace(NEW)` 即可（或加一行 meta refresh）。
-
-         全部内联、零依赖：旧站的 CSS 与新站无关，不能假设任何类名可用。 -->
-    <script>
-      (function () {
-        var NEW = 'https://hriver2.github.io/RINACE/'
-        var KEY = 'rinace-moved-dismissed'
-        try {
-          if (localStorage.getItem(KEY) === '1') return
-        } catch (e) {
-          /* 隐私模式下 localStorage 不可用——那就每次都提示 */
-        }
-        function mount() {
-          if (document.getElementById('rinace-moved')) return
-          var bar = document.createElement('div')
-          bar.id = 'rinace-moved'
-          bar.setAttribute(
-            'style',
-            'position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:2147483647;' +
-              'display:flex;align-items:center;gap:12px;padding:10px 12px 10px 16px;' +
-              'border-radius:999px;background:#0a1f38;color:#eaf4ff;' +
-              'font:500 13px/1.4 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;' +
-              'box-shadow:0 10px 30px rgba(10,31,56,.35);max-width:calc(100vw - 32px)'
-          )
-          var link = document.createElement('a')
-          link.href = NEW
-          link.textContent = '本站已迁移到新版 RINACE →'
-          link.setAttribute('style', 'color:#8ccbff;text-decoration:none;white-space:nowrap')
-          var close = document.createElement('button')
-          close.type = 'button'
-          close.textContent = '✕'
-          close.setAttribute('aria-label', '关闭迁移提示')
-          close.setAttribute(
-            'style',
-            'all:unset;cursor:pointer;padding:2px 6px;color:#8ea6c4;font-size:12px;line-height:1'
-          )
-          close.onclick = function () {
-            bar.remove()
-            try {
-              localStorage.setItem(KEY, '1')
-            } catch (e) {}
-          }
-          bar.appendChild(link)
-          bar.appendChild(close)
-          document.body.appendChild(bar)
-        }
-        if (document.readyState === 'loading') {
-          document.addEventListener('DOMContentLoaded', mount)
-        } else {
-          mount()
-        }
-      })()
-    </script>
+    <!-- 迁移提示（2026-10 曾在这里内联一段「本站已迁移到新版 RINACE →」的浮条，
+         postbuild.mjs 会把它带进 404.html，所以深链也会飘着那一条）。
+         **2026-10-10 用户要求移除**：新版站点的迁移工作还没完成，
+         旧站继续作为正式入口，不要引导用户走。
+         要恢复的话，把它写回到这里即可（原来是一段零依赖的内联脚本）。 -->
   </body>
 </html>
