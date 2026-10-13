@@ -135,12 +135,14 @@
    "糕白": 2,
    "雷电牙医": 1
   },
+  "sigma": 13.812407226495354,
   "eval": {
    "races": 9,
-   "win_hit": 5,
-   "top10_hit": 25,
-   "top10_tot": 86,
-   "top10_rate": 0.29069767441860467,
+   "sigma": 13.812,
+   "trials": 400,
+   "win_prob": 0.37722222222222224,
+   "top3_hit": 9,
+   "top10_rate": 0.16095930232558137,
    "per_race": [
     {
      "round": 1,
@@ -148,9 +150,10 @@
      "real_winner": "DingJ.MR",
      "pred_winner": "DingJ.MR",
      "win_ok": true,
-     "top10_hit": 3,
-     "top10_len": 8,
-     "order_ok": false
+     "win_prob": 0.67,
+     "top3": true,
+     "top10_hit": 1.59,
+     "top10_len": 8
     },
     {
      "round": 2,
@@ -158,9 +161,10 @@
      "real_winner": "DingJ.MR",
      "pred_winner": "DingJ.MR",
      "win_ok": true,
-     "top10_hit": 5,
-     "top10_len": 10,
-     "order_ok": false
+     "win_prob": 0.578,
+     "top3": true,
+     "top10_hit": 1.73,
+     "top10_len": 10
     },
     {
      "round": 3,
@@ -168,9 +172,10 @@
      "real_winner": "Arrebol",
      "pred_winner": "DingJ.MR",
      "win_ok": false,
-     "top10_hit": 1,
-     "top10_len": 10,
-     "order_ok": false
+     "win_prob": 0.117,
+     "top3": true,
+     "top10_hit": 1.01,
+     "top10_len": 10
     },
     {
      "round": 4,
@@ -178,9 +183,10 @@
      "real_winner": "DingJ.MR",
      "pred_winner": "DingJ.MR",
      "win_ok": true,
-     "top10_hit": 4,
-     "top10_len": 10,
-     "order_ok": false
+     "win_prob": 0.745,
+     "top3": true,
+     "top10_hit": 1.94,
+     "top10_len": 10
     },
     {
      "round": 4,
@@ -188,9 +194,10 @@
      "real_winner": "919-Tench.L",
      "pred_winner": "919-Tench.L",
      "win_ok": true,
-     "top10_hit": 1,
-     "top10_len": 9,
-     "order_ok": false
+     "win_prob": 0.295,
+     "top3": true,
+     "top10_hit": 0.93,
+     "top10_len": 9
     },
     {
      "round": 5,
@@ -198,9 +205,10 @@
      "real_winner": "Arrebol",
      "pred_winner": "Juice",
      "win_ok": false,
-     "top10_hit": 0,
-     "top10_len": 10,
-     "order_ok": false
+     "win_prob": 0.27,
+     "top3": true,
+     "top10_hit": 1.01,
+     "top10_len": 10
     },
     {
      "round": 5,
@@ -208,9 +216,10 @@
      "real_winner": "919-Tench.L",
      "pred_winner": "919-Tench.L",
      "win_ok": true,
-     "top10_hit": 5,
-     "top10_len": 9,
-     "order_ok": false
+     "win_prob": 0.45,
+     "top3": true,
+     "top10_hit": 2.31,
+     "top10_len": 9
     },
     {
      "round": 6,
@@ -218,9 +227,10 @@
      "real_winner": "R_ATPER2",
      "pred_winner": "DingJ.MR",
      "win_ok": false,
-     "top10_hit": 2,
-     "top10_len": 10,
-     "order_ok": false
+     "win_prob": 0.07,
+     "top3": true,
+     "top10_hit": 1.27,
+     "top10_len": 10
     },
     {
      "round": 6,
@@ -228,9 +238,10 @@
      "real_winner": "XiXi",
      "pred_winner": "plummer",
      "win_ok": false,
-     "top10_hit": 4,
-     "top10_len": 10,
-     "order_ok": false
+     "win_prob": 0.2,
+     "top3": true,
+     "top10_hit": 2.05,
+     "top10_len": 10
     }
    ]
   }
@@ -374,12 +385,14 @@
    "糕白": 4,
    "香香的枝力": 2
   },
+  "sigma": 5.613734978322592,
   "eval": {
    "races": 10,
-   "win_hit": 6,
-   "top10_hit": 33,
-   "top10_tot": 85,
-   "top10_rate": 0.38823529411764707,
+   "sigma": 5.614,
+   "trials": 400,
+   "win_prob": 0.41025,
+   "top3_hit": 10,
+   "top10_rate": 0.2874705882352941,
    "per_race": [
     {
      "round": 7,
@@ -387,9 +400,10 @@
      "real_winner": "Kagamine RIN",
      "pred_winner": "TianQi-LN4",
      "win_ok": false,
-     "top10_hit": 0,
-     "top10_len": 10,
-     "order_ok": false
+     "win_prob": 0.2,
+     "top3": true,
+     "top10_hit": 1.33,
+     "top10_len": 10
     },
     {
      "round": 7,
@@ -397,9 +411,10 @@
      "real_winner": "fu505",
      "pred_winner": "wibsrwq",
      "win_ok": false,
-     "top10_hit": 3,
-     "top10_len": 9,
-     "order_ok": false
+     "win_prob": 0.083,
+     "top3": true,
+     "top10_hit": 2.67,
+     "top10_len": 9
     },
     {
      "round": 8,
@@ -407,9 +422,10 @@
      "real_winner": "R_ATPER2",
      "pred_winner": "R_ATPER2",
      "win_ok": true,
-     "top10_hit": 3,
-     "top10_len": 10,
-     "order_ok": false
+     "win_prob": 0.775,
+     "top3": true,
+     "top10_hit": 2.74,
+     "top10_len": 10
     },
     {
      "round": 8,
@@ -417,9 +433,10 @@
      "real_winner": "x1aofeiyang",
      "pred_winner": "919-Tench.L",
      "win_ok": false,
-     "top10_hit": 1,
-     "top10_len": 6,
-     "order_ok": false
+     "win_prob": 0.275,
+     "top3": true,
+     "top10_hit": 1.51,
+     "top10_len": 6
     },
     {
      "round": 9,
@@ -427,9 +444,10 @@
      "real_winner": "R_ATPER2",
      "pred_winner": "R_ATPER2",
      "win_ok": true,
-     "top10_hit": 3,
-     "top10_len": 10,
-     "order_ok": false
+     "win_prob": 0.688,
+     "top3": true,
+     "top10_hit": 2.9,
+     "top10_len": 10
     },
     {
      "round": 9,
@@ -437,9 +455,10 @@
      "real_winner": "wibsrwq",
      "pred_winner": "wibsrwq",
      "win_ok": true,
-     "top10_hit": 4,
-     "top10_len": 4,
-     "order_ok": true
+     "win_prob": 0.76,
+     "top3": true,
+     "top10_hit": 2.25,
+     "top10_len": 4
     },
     {
      "round": 10,
@@ -447,9 +466,10 @@
      "real_winner": "TianQi-LN4",
      "pred_winner": "TianQi-LN4",
      "win_ok": true,
-     "top10_hit": 4,
-     "top10_len": 10,
-     "order_ok": false
+     "win_prob": 0.718,
+     "top3": true,
+     "top10_hit": 4.31,
+     "top10_len": 10
     },
     {
      "round": 10,
@@ -457,9 +477,10 @@
      "real_winner": "919-Tench.L",
      "pred_winner": "919-Tench.L",
      "win_ok": true,
-     "top10_hit": 8,
-     "top10_len": 8,
-     "order_ok": true
+     "win_prob": 0.29,
+     "top3": true,
+     "top10_hit": 2.12,
+     "top10_len": 8
     },
     {
      "round": 11,
@@ -467,9 +488,10 @@
      "real_winner": "TianQi-LN4",
      "pred_winner": "TianQi-LN4",
      "win_ok": true,
-     "top10_hit": 2,
-     "top10_len": 10,
-     "order_ok": false
+     "win_prob": 0.133,
+     "top3": true,
+     "top10_hit": 0.8,
+     "top10_len": 10
     },
     {
      "round": 11,
@@ -477,9 +499,10 @@
      "real_winner": "capital",
      "pred_winner": "919-Tench.L",
      "win_ok": false,
-     "top10_hit": 5,
-     "top10_len": 8,
-     "order_ok": false
+     "win_prob": 0.182,
+     "top3": true,
+     "top10_hit": 3.81,
+     "top10_len": 8
     }
    ]
   }
