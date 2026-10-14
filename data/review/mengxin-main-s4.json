@@ -10249,18 +10249,18 @@
      {
       "driver": "Er1sed-FOX",
       "type": "安全分变动",
-      "points": -2,
-      "reason": "超出赛道限制>3次/切弯",
-      "remarks": "",
-      "handled_by": "Momokong"
-     },
-     {
-      "driver": "Er1sed-FOX",
-      "type": "安全分变动",
       "points": -10,
       "reason": "",
       "remarks": "",
       "handled_by": "Er1sed-FOX"
+     },
+     {
+      "driver": "Er1sed-FOX",
+      "type": "安全分变动",
+      "points": -2,
+      "reason": "超出赛道限制>3次/切弯",
+      "remarks": "",
+      "handled_by": "Momokong"
      },
      {
       "driver": "JPer",
@@ -26515,11 +26515,11 @@
     "distinct": 3,
     "cars": [
      {
-      "car": "Alpine",
+      "car": "小红牛",
       "count": 1
      },
      {
-      "car": "小红牛",
+      "car": "Alpine",
       "count": 1
      },
      {
