@@ -1962,7 +1962,7 @@
      "detail": ""
     },
     {
-     "name": "Anegler",
+     "name": "Elaina",
      "value": 2,
      "display": "2 次",
      "detail": ""
@@ -4578,7 +4578,7 @@
      "detail": "0 分"
     },
     {
-     "name": "Anegler",
+     "name": "Elaina",
      "value": 1,
      "display": "1 场",
      "detail": "10 分"
@@ -17480,8 +17480,8 @@
    },
    "pos": 58
   },
-  "Anegler": {
-   "name": "Anegler",
+  "Elaina": {
+   "name": "Elaina",
    "points": 10,
    "starts": 1,
    "wins": 0,
@@ -20096,8 +20096,8 @@
    "points": 25,
    "pos": 37
   },
-  "Anegler": {
-   "name": "Anegler",
+  "Elaina": {
+   "name": "Elaina",
    "ref": "Oscar Piastri",
    "refTrait": "冷静、干净、几乎不犯错",
    "refEra": "2020s",
@@ -22483,14 +22483,6 @@
      "yLabel": "116"
     },
     {
-     "name": "Anegler",
-     "x": 1,
-     "y": 10,
-     "r": 7,
-     "xLabel": "1",
-     "yLabel": "10"
-    },
-    {
      "name": "AyatoSeven",
      "x": 25,
      "y": 208,
@@ -22529,6 +22521,14 @@
      "r": 14,
      "xLabel": "8",
      "yLabel": "44"
+    },
+    {
+     "name": "Elaina",
+     "x": 1,
+     "y": 10,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "10"
     },
     {
      "name": "Er1sed-FOX",
@@ -23804,14 +23804,6 @@
      "yLabel": "71"
     },
     {
-     "name": "Anegler",
-     "x": 1,
-     "y": 100.0,
-     "r": 7,
-     "xLabel": "1",
-     "yLabel": "100"
-    },
-    {
      "name": "AyatoSeven",
      "x": 25,
      "y": 84.0,
@@ -23850,6 +23842,14 @@
      "r": 14,
      "xLabel": "8",
      "yLabel": "50"
+    },
+    {
+     "name": "Elaina",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
     },
     {
      "name": "Er1sed-FOX",
@@ -26675,7 +26675,7 @@
     ]
    },
    {
-    "name": "Anegler",
+    "name": "Elaina",
     "total": 1,
     "distinct": 1,
     "cars": [
@@ -27420,7 +27420,7 @@
     "carPaceEffect": -0.033
    },
    {
-    "name": "Anegler",
+    "name": "Elaina",
     "avgCarOrder": 7.0,
     "carAdvantage": -1.0,
     "expectedFinish": 10.62,
