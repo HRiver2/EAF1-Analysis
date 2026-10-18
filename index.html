@@ -12,16 +12,62 @@
       href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/EAF1-Analysis/assets/index-CU-3YfAM.js"></script>
-    <link rel="stylesheet" crossorigin href="/EAF1-Analysis/assets/index-BLc2l4_i.css">
+    <!-- 主题在首屏渲染前定好，避免闪一下 classic 再切到 glass。
+         `?theme=classic` 优先于 localStorage，方便分享「旧版回顾」链接。 -->
+    <script>
+      (function () {
+        function pick() {
+          try {
+            var q = new URLSearchParams(location.search).get('theme')
+            if (q === 'classic' || q === 'glass') return q
+            return localStorage.getItem('rinace-theme') || 'glass'
+          } catch (e) { return 'glass' }
+        }
+        var t = pick()
+        document.documentElement.dataset.theme = t
+        try { localStorage.setItem('rinace-theme', t) } catch (e) {}
+        window.__rinaceTheme = function (v) {
+          document.documentElement.dataset.theme = v
+          try { localStorage.setItem('rinace-theme', v) } catch (e) {}
+        }
+      })()
+    </script>
+    <script type="module" crossorigin src="/EAF1-Analysis/assets/index-BLO6Dr0z.js"></script>
+    <link rel="stylesheet" crossorigin href="/EAF1-Analysis/assets/index-DXghBKpw.css">
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app"></div>
 
     <!-- 迁移提示（2026-10 曾在这里内联一段「本站已迁移到新版 RINACE →」的浮条，
          postbuild.mjs 会把它带进 404.html，所以深链也会飘着那一条）。
          **2026-10-10 用户要求移除**：新版站点的迁移工作还没完成，
          旧站继续作为正式入口，不要引导用户走。
          要恢复的话，把它写回到这里即可（原来是一段零依赖的内联脚本）。 -->
-  </body>
+    <!-- 「旧版回顾」开关。临时位置（右下角浮标），下一阶段移进导航栏。
+       它只改 <html data-theme>，不重载、不改数据。 -->
+  <button id="theme-switch" type="button" title="在新版玻璃与旧版之间切换"
+    style="position:fixed;right:16px;bottom:16px;z-index:200;height:34px;padding:0 14px;
+           border-radius:999px;border:1px solid rgba(10,90,190,.18);background:rgba(255,255,255,.82);
+           backdrop-filter:blur(12px);color:#0a1f38;font:500 12.5px/1 -apple-system,'PingFang SC',sans-serif;
+           box-shadow:0 8px 20px -12px rgba(10,60,130,.45);cursor:pointer">
+    <span id="theme-switch-label">旧版回顾</span>
+  </button>
+  <script>
+    (function () {
+      var b = document.getElementById('theme-switch')
+      var l = document.getElementById('theme-switch-label')
+      if (!b) return
+      function sync() {
+        var t = document.documentElement.dataset.theme
+        l.textContent = t === 'glass' ? '旧版回顾' : '回到新版'
+      }
+      b.addEventListener('click', function () {
+        var t = document.documentElement.dataset.theme === 'glass' ? 'classic' : 'glass'
+        window.__rinaceTheme(t)
+        sync()
+      })
+      sync()
+    })()
+  </script>
+</body>
 </html>
