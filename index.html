@@ -27,20 +27,18 @@
         document.documentElement.dataset.theme = t
         // 明暗是**独立一维**：?mode= 优先，其次 localStorage，默认浅色
         try {
-          // 明暗：?mode= 显式指定 > 用户上次选择 > **跟随系统**
-          // 只有前两种才写 localStorage —— 跟随系统时不留痕，否则用户改系统
-          // 设置后站点不会跟着变（2026-10-20）。
+          // 明暗优先级（2026-10-20 用户要求「优先跟随系统」）：
+          //   ① ?mode= 显式指定（分享链接用）
+          //   ② 本次会话里在弹窗中手动选过 → 用那个
+          //   ③ **其余一律跟随系统** prefers-color-scheme
+          // 手选只进 sessionStorage：重新打开页面又会回到系统设置，
+          // 这样改系统深浅色时站点一定跟着变。
           var mq = new URLSearchParams(location.search).get('mode')
-          var saved = localStorage.getItem('rinace-mode')
+          var sessionPick = sessionStorage.getItem('rinace-mode-session')
           var m
-          if (mq === 'dark' || mq === 'light') {
-            m = mq
-            localStorage.setItem('rinace-mode', m)
-          } else if (saved === 'dark' || saved === 'light') {
-            m = saved
-          } else {
-            m = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-          }
+          if (mq === 'dark' || mq === 'light') m = mq
+          else if (sessionPick === 'dark' || sessionPick === 'light') m = sessionPick
+          else m = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
           document.documentElement.dataset.mode = m
         } catch (e2) { document.documentElement.dataset.mode = 'light' }
         try { localStorage.setItem('rinace-theme-v2', t) } catch (e) {}
@@ -50,8 +48,8 @@
         }
       })()
     </script>
-    <script type="module" crossorigin src="/EAF1-Analysis/assets/index-DVsmCyS7.js"></script>
-    <link rel="stylesheet" crossorigin href="/EAF1-Analysis/assets/index-B1DzYL-L.css">
+    <script type="module" crossorigin src="/EAF1-Analysis/assets/index-CH-pm1i1.js"></script>
+    <link rel="stylesheet" crossorigin href="/EAF1-Analysis/assets/index-Ch6pdw2v.css">
   </head>
   <body>
     <div id="app"></div>
