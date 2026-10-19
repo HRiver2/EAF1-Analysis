@@ -25,6 +25,13 @@
         }
         var t = pick()
         document.documentElement.dataset.theme = t
+        // 明暗是**独立一维**：?mode= 优先，其次 localStorage，默认浅色
+        try {
+          var mq = new URLSearchParams(location.search).get('mode')
+          var m = (mq === 'dark' || mq === 'light') ? mq : (localStorage.getItem('rinace-mode') || 'light')
+          document.documentElement.dataset.mode = m
+          localStorage.setItem('rinace-mode', m)
+        } catch (e2) { document.documentElement.dataset.mode = 'light' }
         try { localStorage.setItem('rinace-theme-v2', t) } catch (e) {}
         window.__rinaceTheme = function (v) {
           document.documentElement.dataset.theme = v
@@ -32,8 +39,8 @@
         }
       })()
     </script>
-    <script type="module" crossorigin src="/EAF1-Analysis/assets/index-BJH2ms3E.js"></script>
-    <link rel="stylesheet" crossorigin href="/EAF1-Analysis/assets/index-DRaZv7Ft.css">
+    <script type="module" crossorigin src="/EAF1-Analysis/assets/index-1nNNuSg8.js"></script>
+    <link rel="stylesheet" crossorigin href="/EAF1-Analysis/assets/index-SxQTJE9C.css">
   </head>
   <body>
     <div id="app"></div>
