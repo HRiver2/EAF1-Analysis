@@ -20,20 +20,20 @@
           try {
             var q = new URLSearchParams(location.search).get('theme')
             if (q === 'classic' || q === 'glass') return q
-            return localStorage.getItem('rinace-theme') || 'glass'
+            return localStorage.getItem('rinace-theme-v2') || 'glass'
           } catch (e) { return 'glass' }
         }
         var t = pick()
         document.documentElement.dataset.theme = t
-        try { localStorage.setItem('rinace-theme', t) } catch (e) {}
+        try { localStorage.setItem('rinace-theme-v2', t) } catch (e) {}
         window.__rinaceTheme = function (v) {
           document.documentElement.dataset.theme = v
-          try { localStorage.setItem('rinace-theme', v) } catch (e) {}
+          try { localStorage.setItem('rinace-theme-v2', v) } catch (e) {}
         }
       })()
     </script>
-    <script type="module" crossorigin src="/EAF1-Analysis/assets/index-z8Qh1APi.js"></script>
-    <link rel="stylesheet" crossorigin href="/EAF1-Analysis/assets/index-0zpjE32g.css">
+    <script type="module" crossorigin src="/EAF1-Analysis/assets/index-Djg4VSDg.js"></script>
+    <link rel="stylesheet" crossorigin href="/EAF1-Analysis/assets/index-Cs7y398a.css">
   </head>
   <body>
     <div id="app"></div>
