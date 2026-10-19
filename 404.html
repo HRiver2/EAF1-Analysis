@@ -27,10 +27,21 @@
         document.documentElement.dataset.theme = t
         // 明暗是**独立一维**：?mode= 优先，其次 localStorage，默认浅色
         try {
+          // 明暗：?mode= 显式指定 > 用户上次选择 > **跟随系统**
+          // 只有前两种才写 localStorage —— 跟随系统时不留痕，否则用户改系统
+          // 设置后站点不会跟着变（2026-10-20）。
           var mq = new URLSearchParams(location.search).get('mode')
-          var m = (mq === 'dark' || mq === 'light') ? mq : (localStorage.getItem('rinace-mode') || 'light')
+          var saved = localStorage.getItem('rinace-mode')
+          var m
+          if (mq === 'dark' || mq === 'light') {
+            m = mq
+            localStorage.setItem('rinace-mode', m)
+          } else if (saved === 'dark' || saved === 'light') {
+            m = saved
+          } else {
+            m = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+          }
           document.documentElement.dataset.mode = m
-          localStorage.setItem('rinace-mode', m)
         } catch (e2) { document.documentElement.dataset.mode = 'light' }
         try { localStorage.setItem('rinace-theme-v2', t) } catch (e) {}
         window.__rinaceTheme = function (v) {
@@ -39,8 +50,8 @@
         }
       })()
     </script>
-    <script type="module" crossorigin src="/EAF1-Analysis/assets/index-CR5WqWBk.js"></script>
-    <link rel="stylesheet" crossorigin href="/EAF1-Analysis/assets/index-DIHjoib9.css">
+    <script type="module" crossorigin src="/EAF1-Analysis/assets/index-CZm27oxF.js"></script>
+    <link rel="stylesheet" crossorigin href="/EAF1-Analysis/assets/index-BkcpcfyP.css">
   </head>
   <body>
     <div id="app"></div>
