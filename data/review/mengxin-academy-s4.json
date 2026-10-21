@@ -179,7 +179,7 @@
    "title": "积分王",
    "lead": "官方层 · 全季积分合计",
    "color": "green",
-   "qualified": 53,
+   "qualified": 65,
    "insufficient": 0,
    "rows": [
     {
@@ -251,7 +251,7 @@
    "title": "分站冠军最多",
    "lead": "官方层 · 终位第一的场次",
    "color": "green",
-   "qualified": 11,
+   "qualified": 12,
    "insufficient": 0,
    "rows": [
     {
@@ -303,16 +303,16 @@
      "detail": "43 分 · 登台 0 次"
     },
     {
-     "name": "雷电芽衣",
+     "name": "GOATPER",
      "value": 1,
      "display": "1 胜",
      "detail": "25 分 · 登台 0 次"
     },
     {
-     "name": "Map13ss",
+     "name": "雷电芽衣",
      "value": 1,
      "display": "1 胜",
-     "detail": "43 分 · 登台 0 次"
+     "detail": "25 分 · 登台 0 次"
     }
    ],
    "note": ""
@@ -323,7 +323,7 @@
    "title": "登台最多",
    "lead": "官方层 · 终位进前三的场次",
    "color": "green",
-   "qualified": 15,
+   "qualified": 16,
    "insufficient": 0,
    "rows": [
     {
@@ -395,7 +395,7 @@
    "title": "杆位最多",
    "lead": "官方层 · 排位第一的场次",
    "color": "green",
-   "qualified": 10,
+   "qualified": 11,
    "insufficient": 0,
    "rows": [
     {
@@ -447,16 +447,16 @@
      "detail": "平均发车 P4.5"
     },
     {
+     "name": "GOATPER",
+     "value": 1,
+     "display": "1 杆位",
+     "detail": ""
+    },
+    {
      "name": "雷电芽衣",
      "value": 1,
      "display": "1 杆位",
      "detail": "平均发车 P1.0"
-    },
-    {
-     "name": "OGlockex",
-     "value": 1,
-     "display": "1 杆位",
-     "detail": "平均发车 P3.5"
     }
    ],
    "note": ""
@@ -467,7 +467,7 @@
    "title": "最快圈最多",
    "lead": "官方层 · 最快圈标记的场次",
    "color": "green",
-   "qualified": 10,
+   "qualified": 11,
    "insufficient": 0,
    "rows": [
     {
@@ -539,7 +539,7 @@
    "title": "铁人",
    "lead": "官方层 · 非缺席的实际出场场次",
    "color": "green",
-   "qualified": 67,
+   "qualified": 81,
    "insufficient": 0,
    "rows": [
     {
@@ -3383,7 +3383,7 @@
    "title": "未完赛之王",
    "lead": "官方层 · 未完赛场次",
    "color": "red",
-   "qualified": 23,
+   "qualified": 26,
    "insufficient": 0,
    "rows": [
     {
@@ -3455,7 +3455,7 @@
    "title": "缺席最多",
    "lead": "官方层 · is_absent 计数",
    "color": "red",
-   "qualified": 9,
+   "qualified": 23,
    "insufficient": 0,
    "rows": [
     {
@@ -3501,13 +3501,19 @@
      "detail": "报名但缺席"
     },
     {
-     "name": "Glorious",
+     "name": "GOATPER",
      "value": 1,
      "display": "1 场",
      "detail": "报名但缺席"
     },
     {
-     "name": "Howid",
+     "name": "WuHen",
+     "value": 1,
+     "display": "1 场",
+     "detail": "报名但缺席"
+    },
+    {
+     "name": "defect",
      "value": 1,
      "display": "1 场",
      "detail": "报名但缺席"
@@ -3624,13 +3630,13 @@
      "name": "Juice",
      "value": 18,
      "display": "还差 18 圈",
-     "detail": "退赛 0 次"
+     "detail": "退赛 1 次"
     },
     {
      "name": "Elaina",
      "value": 16,
      "display": "还差 16 圈",
-     "detail": "退赛 0 次"
+     "detail": "退赛 1 次"
     },
     {
      "name": "dan",
@@ -4295,7 +4301,7 @@
    "title": "只跑了一站",
    "lead": "官方层 · 全季只出场一次",
    "color": "orange",
-   "qualified": 27,
+   "qualified": 41,
    "insufficient": 0,
    "rows": [
     {
@@ -4303,6 +4309,18 @@
      "value": 1,
      "display": "1 场",
      "detail": "6 分"
+    },
+    {
+     "name": "Aughhhst1N",
+     "value": 1,
+     "display": "1 场",
+     "detail": "16 分"
+    },
+    {
+     "name": "Ay1ng",
+     "value": 1,
+     "display": "1 场",
+     "detail": "14 分"
     },
     {
      "name": "Cazven_103",
@@ -4323,40 +4341,28 @@
      "detail": "0 分"
     },
     {
+     "name": "Elaina",
+     "value": 1,
+     "display": "1 场",
+     "detail": "0 分"
+    },
+    {
+     "name": "GOATPER",
+     "value": 1,
+     "display": "1 场",
+     "detail": "25 分"
+    },
+    {
      "name": "Glorious",
      "value": 1,
      "display": "1 场",
      "detail": "1 分"
     },
     {
-     "name": "KirigayaAqua",
+     "name": "JPer",
      "value": 1,
      "display": "1 场",
-     "detail": "5 分"
-    },
-    {
-     "name": "Perez",
-     "value": 1,
-     "display": "1 场",
-     "detail": "1 分"
-    },
-    {
-     "name": "RIC",
-     "value": 1,
-     "display": "1 场",
-     "detail": "0 分"
-    },
-    {
-     "name": "Surviver",
-     "value": 1,
-     "display": "1 场",
-     "detail": "8 分"
-    },
-    {
-     "name": "Tim",
-     "value": 1,
-     "display": "1 场",
-     "detail": "0 分"
+     "detail": "12 分"
     }
    ],
    "note": ""
@@ -5189,7 +5195,7 @@
    "title": "关掉 TC 的人里最强",
    "lead": "遥测层 · 只取牵引力控制设为 OFF 的车手，按积分排。**为什么要单独排**：TC FULL 在出弯和稳定性上占明显便宜，两种设置混在一张榜上比成绩并不公平",
    "color": "blue",
-   "qualified": 16,
+   "qualified": 24,
    "insufficient": 0,
    "rows": [
     {
@@ -5247,7 +5253,7 @@
      "detail": "1 站 · 无牵引力控制"
     },
     {
-     "name": "雷电芽衣",
+     "name": "GOATPER",
      "value": 25,
      "display": "25 分",
      "detail": "1 站 · 无牵引力控制"
@@ -5261,7 +5267,7 @@
    "title": "只看最快圈",
    "lead": "假想 · 每次最快圈按 25 分计（纯示意，不是官方口径）",
    "color": "grey",
-   "qualified": 10,
+   "qualified": 11,
    "insufficient": 0,
    "rows": [
     {
@@ -5333,7 +5339,7 @@
    "title": "只看排位",
    "lead": "假想 · 每次杆位按 25 分计（纯示意）",
    "color": "grey",
-   "qualified": 10,
+   "qualified": 11,
    "insufficient": 0,
    "rows": [
     {
@@ -5385,16 +5391,16 @@
      "detail": "真实 28 分"
     },
     {
-     "name": "雷电芽衣",
+     "name": "GOATPER",
      "value": 25,
      "display": "1 次杆位",
      "detail": "真实 25 分"
     },
     {
-     "name": "OGlockex",
+     "name": "雷电芽衣",
      "value": 25,
      "display": "1 次杆位",
-     "detail": "真实 43 分"
+     "detail": "真实 25 分"
     }
    ],
    "note": ""
@@ -6812,8 +6818,106 @@
     "podiums": 0
    },
    {
+    "name": "Aughhhst1N",
+    "points": 16,
+    "starts": 1,
+    "wins": 0,
+    "podiums": 0
+   },
+   {
+    "name": "Ay1ng",
+    "points": 14,
+    "starts": 1,
+    "wins": 0,
+    "podiums": 0
+   },
+   {
+    "name": "Elaina",
+    "points": 0,
+    "starts": 1,
+    "wins": 0,
+    "podiums": 0
+   },
+   {
+    "name": "GOATPER",
+    "points": 25,
+    "starts": 1,
+    "wins": 1,
+    "podiums": 0
+   },
+   {
     "name": "Glorious",
     "points": 1,
+    "starts": 1,
+    "wins": 0,
+    "podiums": 0
+   },
+   {
+    "name": "JPer",
+    "points": 12,
+    "starts": 1,
+    "wins": 0,
+    "podiums": 0
+   },
+   {
+    "name": "Juice",
+    "points": 0,
+    "starts": 1,
+    "wins": 0,
+    "podiums": 0
+   },
+   {
+    "name": "Kagamine RIN",
+    "points": 6,
+    "starts": 1,
+    "wins": 0,
+    "podiums": 0
+   },
+   {
+    "name": "Lyr1csQAQ",
+    "points": 10,
+    "starts": 1,
+    "wins": 0,
+    "podiums": 0
+   },
+   {
+    "name": "TS",
+    "points": 1,
+    "starts": 1,
+    "wins": 0,
+    "podiums": 0
+   },
+   {
+    "name": "TwinTurbo",
+    "points": 5,
+    "starts": 1,
+    "wins": 0,
+    "podiums": 0
+   },
+   {
+    "name": "UNIQUENESS",
+    "points": 4,
+    "starts": 1,
+    "wins": 0,
+    "podiums": 0
+   },
+   {
+    "name": "WuHen",
+    "points": 22,
+    "starts": 1,
+    "wins": 0,
+    "podiums": 1
+   },
+   {
+    "name": "defect",
+    "points": 18,
+    "starts": 1,
+    "wins": 0,
+    "podiums": 0
+   },
+   {
+    "name": "fu505",
+    "points": 2,
     "starts": 1,
     "wins": 0,
     "podiums": 0
@@ -8948,7 +9052,7 @@
     "1": 8,
     "6": 4
    },
-   "pos": 34
+   "pos": 39
   },
   "star-falI04": {
    "name": "star-falI04",
@@ -9107,7 +9211,7 @@
    "per_round": {
     "1": 5
    },
-   "pos": 40
+   "pos": 48
   },
   "Webs1te": {
    "name": "Webs1te",
@@ -9284,7 +9388,7 @@
    "per_round": {
     "1": 3
    },
-   "pos": 48
+   "pos": 58
   },
   "Tim": {
    "name": "Tim",
@@ -9351,7 +9455,7 @@
    "per_round": {
     "1": 0
    },
-   "pos": 54
+   "pos": 66
   },
   "dan": {
    "name": "dan",
@@ -9449,7 +9553,7 @@
     "9": 0,
     "12": 0
    },
-   "pos": 51
+   "pos": 61
   },
   "Swizzet3271": {
    "name": "Swizzet3271",
@@ -10047,7 +10151,7 @@
     "3": 10,
     "4": 0
    },
-   "pos": 32
+   "pos": 34
   },
   "HEZ": {
    "name": "HEZ",
@@ -10333,7 +10437,7 @@
     "8": 0,
     "12": 0
    },
-   "pos": 35
+   "pos": 41
   },
   "ZF with you": {
    "name": "ZF with you",
@@ -10395,7 +10499,7 @@
    "per_round": {
     "2": 0
    },
-   "pos": 55
+   "pos": 67
   },
   "Hamisner": {
    "name": "Hamisner",
@@ -10565,7 +10669,7 @@
    "per_round": {
     "2": 0
    },
-   "pos": 56
+   "pos": 68
   },
   "HayesCC": {
    "name": "HayesCC",
@@ -10638,7 +10742,7 @@
     "11": 10,
     "12": 14
    },
-   "pos": 30
+   "pos": 31
   },
   "好女孩风妖精": {
    "name": "好女孩风妖精",
@@ -10802,7 +10906,7 @@
     "3": 3,
     "9": 4
    },
-   "pos": 38
+   "pos": 45
   },
   "LI WEN": {
    "name": "LI WEN",
@@ -10887,7 +10991,7 @@
     "8": 12,
     "10": 5
    },
-   "pos": 33
+   "pos": 35
   },
   "King_of_Knowledge": {
    "name": "King_of_Knowledge",
@@ -10961,7 +11065,7 @@
     "4": 3,
     "7": 1
    },
-   "pos": 46
+   "pos": 55
   },
   "Kihooxi": {
    "name": "Kihooxi",
@@ -11034,7 +11138,7 @@
     "3": 0,
     "5": 0
    },
-   "pos": 57
+   "pos": 69
   },
   "出云": {
    "name": "出云",
@@ -11101,7 +11205,7 @@
    "per_round": {
     "3": 0
    },
-   "pos": 58
+   "pos": 70
   },
   "m1028yin": {
    "name": "m1028yin",
@@ -11169,15 +11273,15 @@
     "3": 0,
     "9": 0
    },
-   "pos": 59
+   "pos": 71
   },
   "GOATPER": {
    "name": "GOATPER",
-   "points": 0,
-   "starts": 0,
-   "wins": 0,
+   "points": 25,
+   "starts": 1,
+   "wins": 1,
    "podiums": 0,
-   "poles": 0,
+   "poles": 1,
    "fastest_laps": 0,
    "laps": 20,
    "clean_laps": 18,
@@ -11220,8 +11324,8 @@
    "finish_count": 0,
    "dnf": 0,
    "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
+   "avg_finish": 1.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.6538844339502341,
     "consistency": 0.961447535915621,
@@ -11233,17 +11337,19 @@
    "strength": "discipline",
    "weakness": "reliability",
    "archetype": "稳定型",
-   "per_round": {},
-   "pos": 60
+   "per_round": {
+    "4": 25
+   },
+   "pos": 29
   },
   "WuHen": {
    "name": "WuHen",
-   "points": 0,
-   "starts": 0,
+   "points": 22,
+   "starts": 1,
    "wins": 0,
-   "podiums": 0,
+   "podiums": 1,
    "poles": 0,
-   "fastest_laps": 0,
+   "fastest_laps": 1,
    "laps": 20,
    "clean_laps": 18,
    "laps_led": 1,
@@ -11285,8 +11391,8 @@
    "finish_count": 0,
    "dnf": 0,
    "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
+   "avg_finish": 2.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.6409431086741668,
     "consistency": 0.9032551372976905,
@@ -11298,8 +11404,10 @@
    "strength": "consistency",
    "weakness": "tyre",
    "archetype": "稳定型",
-   "per_round": {},
-   "pos": 61
+   "per_round": {
+    "4": 22
+   },
+   "pos": 32
   },
   "MFGA": {
    "name": "MFGA",
@@ -11368,12 +11476,12 @@
     "9": 0,
     "12": 0
    },
-   "pos": 62
+   "pos": 72
   },
   "defect": {
    "name": "defect",
-   "points": 0,
-   "starts": 0,
+   "points": 18,
+   "starts": 1,
    "wins": 0,
    "podiums": 0,
    "poles": 0,
@@ -11419,8 +11527,8 @@
    "finish_count": 0,
    "dnf": 0,
    "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
+   "avg_finish": 4.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.6330374749550663,
     "consistency": 0.9152573195126387,
@@ -11432,13 +11540,15 @@
    "strength": "discipline",
    "weakness": "reliability",
    "archetype": "稳定型",
-   "per_round": {},
-   "pos": 63
+   "per_round": {
+    "4": 18
+   },
+   "pos": 36
   },
   "Aughhhst1N": {
    "name": "Aughhhst1N",
-   "points": 0,
-   "starts": 0,
+   "points": 16,
+   "starts": 1,
    "wins": 0,
    "podiums": 0,
    "poles": 0,
@@ -11484,8 +11594,8 @@
    "finish_count": 0,
    "dnf": 0,
    "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
+   "avg_finish": 5.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.6340827408306562,
     "consistency": 0.9543553373340606,
@@ -11497,13 +11607,15 @@
    "strength": "consistency",
    "weakness": "reliability",
    "archetype": "稳定型",
-   "per_round": {},
-   "pos": 64
+   "per_round": {
+    "4": 16
+   },
+   "pos": 37
   },
   "Ay1ng": {
    "name": "Ay1ng",
-   "points": 0,
-   "starts": 0,
+   "points": 14,
+   "starts": 1,
    "wins": 0,
    "podiums": 0,
    "poles": 0,
@@ -11549,8 +11661,8 @@
    "finish_count": 0,
    "dnf": 0,
    "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
+   "avg_finish": 6.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.6392805393782537,
     "consistency": 0.9107110383706127,
@@ -11562,13 +11674,15 @@
    "strength": "consistency",
    "weakness": "reliability",
    "archetype": "稳定型",
-   "per_round": {},
-   "pos": 65
+   "per_round": {
+    "4": 14
+   },
+   "pos": 38
   },
   "JPer": {
    "name": "JPer",
-   "points": 0,
-   "starts": 0,
+   "points": 12,
+   "starts": 1,
    "wins": 0,
    "podiums": 0,
    "poles": 0,
@@ -11614,8 +11728,8 @@
    "finish_count": 0,
    "dnf": 0,
    "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
+   "avg_finish": 7.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.628665773631725,
     "consistency": 0.9290780141843972,
@@ -11627,13 +11741,15 @@
    "strength": "consistency",
    "weakness": "reliability",
    "archetype": "稳定型",
-   "per_round": {},
-   "pos": 66
+   "per_round": {
+    "4": 12
+   },
+   "pos": 40
   },
   "Lyr1csQAQ": {
    "name": "Lyr1csQAQ",
-   "points": 0,
-   "starts": 0,
+   "points": 10,
+   "starts": 1,
    "wins": 0,
    "podiums": 0,
    "poles": 0,
@@ -11679,8 +11795,8 @@
    "finish_count": 0,
    "dnf": 0,
    "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
+   "avg_finish": 8.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.6269630018021354,
     "consistency": 0.9136206583015093,
@@ -11692,13 +11808,15 @@
    "strength": "consistency",
    "weakness": "reliability",
    "archetype": "稳定型",
-   "per_round": {},
-   "pos": 67
+   "per_round": {
+    "4": 10
+   },
+   "pos": 42
   },
   "Kagamine RIN": {
    "name": "Kagamine RIN",
-   "points": 0,
-   "starts": 0,
+   "points": 6,
+   "starts": 1,
    "wins": 0,
    "podiums": 0,
    "poles": 0,
@@ -11744,8 +11862,8 @@
    "finish_count": 0,
    "dnf": 0,
    "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
+   "avg_finish": 10.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.6273118560459735,
     "consistency": 0.9267139479905439,
@@ -11757,13 +11875,15 @@
    "strength": "consistency",
    "weakness": "reliability",
    "archetype": "稳定型",
-   "per_round": {},
-   "pos": 68
+   "per_round": {
+    "4": 6
+   },
+   "pos": 46
   },
   "TwinTurbo": {
    "name": "TwinTurbo",
-   "points": 0,
-   "starts": 0,
+   "points": 5,
+   "starts": 1,
    "wins": 0,
    "podiums": 0,
    "poles": 0,
@@ -11809,8 +11929,8 @@
    "finish_count": 0,
    "dnf": 0,
    "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
+   "avg_finish": 11.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.6150397084272318,
     "consistency": 0.9761774868157846,
@@ -11822,13 +11942,15 @@
    "strength": "consistency",
    "weakness": "reliability",
    "archetype": "稳定型",
-   "per_round": {},
-   "pos": 69
+   "per_round": {
+    "4": 5
+   },
+   "pos": 49
   },
   "UNIQUENESS": {
    "name": "UNIQUENESS",
-   "points": 0,
-   "starts": 0,
+   "points": 4,
+   "starts": 1,
    "wins": 0,
    "podiums": 0,
    "poles": 0,
@@ -11874,8 +11996,8 @@
    "finish_count": 0,
    "dnf": 0,
    "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
+   "avg_finish": 12.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.6363172235895161,
     "consistency": 0.9579923622476815,
@@ -11887,13 +12009,15 @@
    "strength": "consistency",
    "weakness": "reliability",
    "archetype": "稳定型",
-   "per_round": {},
-   "pos": 70
+   "per_round": {
+    "4": 4
+   },
+   "pos": 56
   },
   "fu505": {
    "name": "fu505",
-   "points": 0,
-   "starts": 0,
+   "points": 2,
+   "starts": 1,
    "wins": 0,
    "podiums": 0,
    "poles": 0,
@@ -11939,8 +12063,8 @@
    "finish_count": 0,
    "dnf": 0,
    "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
+   "avg_finish": 14.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.6151603160282612,
     "consistency": 0.8157846881251136,
@@ -11952,13 +12076,15 @@
    "strength": "discipline",
    "weakness": "reliability",
    "archetype": "稳定型",
-   "per_round": {},
-   "pos": 71
+   "per_round": {
+    "4": 2
+   },
+   "pos": 62
   },
   "TS": {
    "name": "TS",
-   "points": 0,
-   "starts": 0,
+   "points": 1,
+   "starts": 1,
    "wins": 0,
    "podiums": 0,
    "poles": 0,
@@ -12002,28 +12128,30 @@
    "best_lap": 91216,
    "best_lap_track": "萨基尔",
    "finish_count": 0,
-   "dnf": 0,
+   "dnf": 1,
    "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
+   "avg_finish": 15.0,
+   "score_rate": 100.0,
    "axes": {
     "pace": 0.6238953817439971,
     "consistency": 0.9529005273686124,
     "combat": 0.3939393939393939,
     "tyre": 0.46048017264634467,
     "discipline": 0.8666666666666667,
-    "reliability": 0.21428571428571427
+    "reliability": 0.14285714285714285
    },
    "strength": "consistency",
    "weakness": "reliability",
    "archetype": "稳定型",
-   "per_round": {},
-   "pos": 72
+   "per_round": {
+    "4": 1
+   },
+   "pos": 63
   },
   "Elaina": {
    "name": "Elaina",
    "points": 0,
-   "starts": 0,
+   "starts": 1,
    "wins": 0,
    "podiums": 0,
    "poles": 0,
@@ -12067,28 +12195,30 @@
    "best_lap": 91729,
    "best_lap_track": "萨基尔",
    "finish_count": 0,
-   "dnf": 0,
+   "dnf": 1,
    "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
+   "avg_finish": 16.0,
+   "score_rate": 0.0,
    "axes": {
     "pace": 0.6085729363569733,
     "consistency": 0.9403527914166211,
     "combat": 0.42424242424242425,
     "tyre": 0.41641938674579615,
     "discipline": 0.9333333333333333,
-    "reliability": 0.21428571428571427
+    "reliability": 0.14285714285714285
    },
    "strength": "consistency",
    "weakness": "reliability",
    "archetype": "稳定型",
-   "per_round": {},
+   "per_round": {
+    "4": 0
+   },
    "pos": 73
   },
   "Juice": {
    "name": "Juice",
    "points": 0,
-   "starts": 0,
+   "starts": 1,
    "wins": 0,
    "podiums": 0,
    "poles": 0,
@@ -12132,22 +12262,24 @@
    "best_lap": 95021,
    "best_lap_track": "萨基尔",
    "finish_count": 0,
-   "dnf": 0,
+   "dnf": 1,
    "avg_quali": null,
-   "avg_finish": null,
-   "score_rate": null,
+   "avg_finish": 17.0,
+   "score_rate": 0.0,
    "axes": {
     "pace": 0.5698287171681621,
     "consistency": null,
     "combat": 0.5,
     "tyre": null,
     "discipline": 0.9666666666666667,
-    "reliability": 0.21428571428571427
+    "reliability": 0.14285714285714285
    },
    "strength": "discipline",
    "weakness": "reliability",
    "archetype": "单圈型",
-   "per_round": {},
+   "per_round": {
+    "4": 0
+   },
    "pos": 74
   },
   "高木同学重度依赖": {
@@ -12215,7 +12347,7 @@
    "per_round": {
     "5": 10
    },
-   "pos": 36
+   "pos": 43
   },
   "Cazven_103": {
    "name": "Cazven_103",
@@ -12282,7 +12414,7 @@
    "per_round": {
     "5": 5
    },
-   "pos": 41
+   "pos": 50
   },
   "千星散荷": {
    "name": "千星散荷",
@@ -12361,7 +12493,7 @@
     "6": 1,
     "7": 0
    },
-   "pos": 42
+   "pos": 51
   },
   "Glorious": {
    "name": "Glorious",
@@ -12428,7 +12560,7 @@
    "per_round": {
     "5": 1
    },
-   "pos": 52
+   "pos": 64
   },
   "reizouko.": {
    "name": "reizouko.",
@@ -12551,7 +12683,7 @@
    "per_round": {
     "6": 25
    },
-   "pos": 29
+   "pos": 30
   },
   "guys can u do sth?": {
    "name": "guys can u do sth?",
@@ -12791,7 +12923,7 @@
    "per_round": {
     "6": 5
    },
-   "pos": 43
+   "pos": 52
   },
   "Sunpayus": {
    "name": "Sunpayus",
@@ -12938,7 +13070,7 @@
    "per_round": {
     "7": 6
    },
-   "pos": 39
+   "pos": 47
   },
   "hayma_shio": {
    "name": "hayma_shio",
@@ -13145,7 +13277,7 @@
    "per_round": {
     "9": 20
    },
-   "pos": 31
+   "pos": 33
   },
   "Map13ss": {
    "name": "Map13ss",
@@ -13701,7 +13833,7 @@
    "per_round": {
     "11": 5
    },
-   "pos": 44
+   "pos": 53
   },
   "⊗x1aofeiyang": {
    "name": "⊗x1aofeiyang",
@@ -13768,7 +13900,7 @@
    "per_round": {
     "11": 4
    },
-   "pos": 47
+   "pos": 57
   },
   "gsfjnk": {
    "name": "gsfjnk",
@@ -13841,7 +13973,7 @@
     "11": 3,
     "12": 0
    },
-   "pos": 49
+   "pos": 59
   },
   "Perez": {
    "name": "Perez",
@@ -13908,7 +14040,7 @@
    "per_round": {
     "11": 1
    },
-   "pos": 53
+   "pos": 65
   },
   "Surviver": {
    "name": "Surviver",
@@ -13975,7 +14107,7 @@
    "per_round": {
     "12": 8
    },
-   "pos": 37
+   "pos": 44
   },
   "KirigayaAqua": {
    "name": "KirigayaAqua",
@@ -14042,7 +14174,7 @@
    "per_round": {
     "12": 5
    },
-   "pos": 45
+   "pos": 54
   },
   "芒果": {
    "name": "芒果",
@@ -14109,7 +14241,7 @@
    "per_round": {
     "12": 3
    },
-   "pos": 50
+   "pos": 60
   },
   "猪猪侠": {
    "name": "猪猪侠",
@@ -14247,8 +14379,8 @@
    "ref": "Stirling Moss",
    "refTrait": "速度与缠斗俱佳，却总与冠军擦肩",
    "refEra": "1950s",
-   "similarity": 0.649,
-   "distance": 0.702,
+   "similarity": 0.647,
+   "distance": 0.706,
    "weakMatch": false,
    "why": "25 分排在 28/81。1 场里 1 场完赛、1 个冠军、1 个杆位。他的纪律排在场上前 1/81。全季领跑 16 圈（1 站）。",
    "axes": {
@@ -14273,8 +14405,8 @@
    "ref": "Michael Schumacher",
    "refTrait": "七冠，节奏、轮胎与意志全顶级",
    "refEra": "1990s",
-   "similarity": 0.423,
-   "distance": 1.154,
+   "similarity": 0.424,
+   "distance": 1.151,
    "weakMatch": false,
    "why": "159 分排在 1/81。8 场里 8 场完赛、1 个冠军、5 次登台。他的完赛排在场上前 2/81。全季领跑 28 圈（3 站）。",
    "axes": {
@@ -14325,7 +14457,7 @@
    "ref": "Yuki Tsunoda",
    "refTrait": "速度与火气都足，纪律代价明显",
    "refEra": "2020s",
-   "similarity": 0.099,
+   "similarity": 0.1,
    "distance": 1.801,
    "weakMatch": true,
    "why": "53 分排在 13/81。7 场里 6 场完赛、1 个冠军。他的缠斗排在场上前 1/81。全季领跑 1 圈（1 站）。",
@@ -14354,7 +14486,7 @@
    "similarity": 0.539,
    "distance": 0.923,
    "weakMatch": false,
-   "why": "74 分排在 6/81。5 场里 5 场完赛、1 个杆位。他的完赛排在场上前 8/81。全季领跑 7 圈（1 站）。",
+   "why": "74 分排在 6/81。5 场里 5 场完赛、1 个杆位。他的完赛排在场上前 8/81。比「Denny Hulme」更倚重缠斗。全季领跑 7 圈（1 站）。",
    "axes": {
     "pace": 0.5357093532078262,
     "consistency": 0.7344517184942716,
@@ -14378,7 +14510,7 @@
    "refTrait": "轮胎与比赛智慧顶级，缠斗老辣",
    "refEra": "2000s",
    "similarity": 0.362,
-   "distance": 1.276,
+   "distance": 1.275,
    "weakMatch": true,
    "why": "71 分排在 7/81。6 场里 6 场完赛、1 次登台。他的完赛排在场上前 4/81。而轮胎管理是他的相对短板（场上第 46/77）。全季领跑 2 圈（1 站）。",
    "axes": {
@@ -14403,8 +14535,8 @@
    "ref": "Juan Manuel Fangio",
    "refTrait": "五冠，靠判断力与轮胎管理赢下不同车队",
    "refEra": "1950s",
-   "similarity": 0.567,
-   "distance": 0.866,
+   "similarity": 0.568,
+   "distance": 0.864,
    "weakMatch": false,
    "why": "49 分排在 16/81。3 场里 3 场完赛、1 个冠军。他的轮胎管理排在场上前 4/77。比「Juan Manuel Fangio」更倚重速度。全季领跑 7 圈（2 站）。",
    "axes": {
@@ -14429,8 +14561,8 @@
    "ref": "Max Verstappen",
    "refTrait": "三项顶档，缠斗强硬极少自失",
    "refEra": "2010s",
-   "similarity": 0.439,
-   "distance": 1.122,
+   "similarity": 0.44,
+   "distance": 1.12,
    "weakMatch": false,
    "why": "123 分排在 3/81。7 场里 7 场完赛、1 个冠军、1 次登台。他的缠斗排在场上前 3/81。而速度是他的相对短板（场上第 23/78）。全季领跑 3 圈（1 站）。",
    "axes": {
@@ -14455,10 +14587,10 @@
    "ref": "Mike Hawthorn",
    "refTrait": "稳中取胜，纪律一般",
    "refEra": "1950s",
-   "similarity": 0.765,
-   "distance": 0.471,
+   "similarity": 0.763,
+   "distance": 0.473,
    "weakMatch": false,
-   "why": "12 分排在 34/81。2 场里 2 场完赛、1 个杆位。他的节奏稳定性排在场上前 24/77。比「Mike Hawthorn」更倚重纪律。完成 22 次超车。",
+   "why": "12 分排在 39/81。2 场里 2 场完赛、1 个杆位。他的节奏稳定性排在场上前 24/77。比「Mike Hawthorn」更倚重纪律。完成 22 次超车。",
    "axes": {
     "pace": 0.6743513215267967,
     "consistency": 0.9124386252045827,
@@ -14474,7 +14606,7 @@
    "weaknessRank": 76,
    "weaknessOf": 81,
    "points": 12,
-   "pos": 34
+   "pos": 39
   },
   "star-falI04": {
    "name": "star-falI04",
@@ -14482,7 +14614,7 @@
    "refTrait": "速度与火气并存，起伏极大",
    "refEra": "1970s",
    "similarity": 0.225,
-   "distance": 1.55,
+   "distance": 1.551,
    "weakMatch": true,
    "why": "36 分排在 21/81。6 场里 5 场完赛。他的完赛排在场上前 13/81。完成 60 次超车。",
    "axes": {
@@ -14507,10 +14639,10 @@
    "ref": "Jacky Ickx",
    "refTrait": "雨战与耐力赛之王",
    "refEra": "1970s",
-   "similarity": 0.769,
-   "distance": 0.461,
+   "similarity": 0.771,
+   "distance": 0.457,
    "weakMatch": false,
-   "why": "5 分排在 40/81。1 场里 1 场完赛。他的轮胎管理排在场上前 8/77。比「Jacky Ickx」更倚重速度。完成 10 次超车。",
+   "why": "5 分排在 48/81。1 场里 1 场完赛。他的轮胎管理排在场上前 8/77。比「Jacky Ickx」更倚重速度。完成 10 次超车。",
    "axes": {
     "pace": 0.8554026167724641,
     "consistency": 0.8476086561192944,
@@ -14526,15 +14658,15 @@
    "weaknessRank": 50,
    "weaknessOf": 81,
    "points": 5,
-   "pos": 40
+   "pos": 48
   },
   "Webs1te": {
    "name": "Webs1te",
    "ref": "Mike Hawthorn",
    "refTrait": "稳中取胜，纪律一般",
    "refEra": "1950s",
-   "similarity": 0.442,
-   "distance": 1.115,
+   "similarity": 0.443,
+   "distance": 1.114,
    "weakMatch": false,
    "why": "27 分排在 27/81。9 场里 7 场完赛。他的完赛排在场上前 9/81。完成 57 次超车。",
    "axes": {
@@ -14559,10 +14691,10 @@
    "ref": "Jenson Button",
    "refTrait": "丝滑的轮胎管理，节奏极稳",
    "refEra": "2000s",
-   "similarity": 0.58,
-   "distance": 0.841,
+   "similarity": 0.583,
+   "distance": 0.835,
    "weakMatch": false,
-   "why": "3 分排在 48/81。1 场里 1 场完赛。他的轮胎管理排在场上前 3/77。比「Jenson Button」更倚重速度。而完赛是他的相对短板（场上第 37/81）。完成 14 次超车。",
+   "why": "3 分排在 58/81。1 场里 1 场完赛。他的轮胎管理排在场上前 3/77。比「Jenson Button」更倚重速度。而完赛是他的相对短板（场上第 37/81）。完成 14 次超车。",
    "axes": {
     "pace": 0.7913394903021372,
     "consistency": 0.9361702127659575,
@@ -14578,17 +14710,17 @@
    "weaknessRank": 44,
    "weaknessOf": 81,
    "points": 3,
-   "pos": 48
+   "pos": 58
   },
   "Tim": {
    "name": "Tim",
    "ref": "Lando Norris",
    "refTrait": "各项均衡、节奏干净",
    "refEra": "2020s",
-   "similarity": 0.436,
-   "distance": 1.128,
+   "similarity": 0.441,
+   "distance": 1.118,
    "weakMatch": false,
-   "why": "0 分排在 54/81。1 场里 0 场完赛。他的节奏稳定性排在场上前 1/77。比「Lando Norris」更倚重缠斗。完成 14 次超车。",
+   "why": "0 分排在 66/81。1 场里 0 场完赛。他的节奏稳定性排在场上前 1/77。比「Lando Norris」更倚重缠斗。完成 14 次超车。",
    "axes": {
     "pace": 0.8601810121139009,
     "consistency": 1.0,
@@ -14601,10 +14733,10 @@
    "strengthRank": 1,
    "strengthOf": 77,
    "weakness": "reliability",
-   "weaknessRank": 72,
+   "weaknessRank": 69,
    "weaknessOf": 81,
    "points": 0,
-   "pos": 54
+   "pos": 66
   },
   "dan": {
    "name": "dan",
@@ -14614,7 +14746,7 @@
    "similarity": 0.407,
    "distance": 1.186,
    "weakMatch": false,
-   "why": "2 分排在 51/81。7 场里 2 场完赛。他的轮胎管理排在场上前 19/77。完成 49 次超车。",
+   "why": "2 分排在 61/81。7 场里 2 场完赛。他的轮胎管理排在场上前 19/77。完成 49 次超车。",
    "axes": {
     "pace": 0.7599678812319153,
     "consistency": 0.6542704734194096,
@@ -14630,15 +14762,15 @@
    "weaknessRank": 80,
    "weaknessOf": 81,
    "points": 2,
-   "pos": 51
+   "pos": 61
   },
   "Swizzet3271": {
    "name": "Swizzet3271",
    "ref": "Daniel Ricciardo",
    "refTrait": "晚刹车超车型，笑容与速度并存",
    "refEra": "2010s",
-   "similarity": 0.792,
-   "distance": 0.416,
+   "similarity": 0.791,
+   "distance": 0.417,
    "weakMatch": false,
    "why": "70 分排在 8/81。5 场里 4 场完赛、2 次登台、1 个杆位。他的缠斗排在场上前 7/81。比「Daniel Ricciardo」更倚重完赛。全季领跑 12 圈（1 站）。",
    "axes": {
@@ -14663,8 +14795,8 @@
    "ref": "Sebastian Vettel",
    "refTrait": "四冠，单圈与杆位机器",
    "refEra": "2010s",
-   "similarity": 0.813,
-   "distance": 0.373,
+   "similarity": 0.815,
+   "distance": 0.37,
    "weakMatch": false,
    "why": "80 分排在 4/81。6 场里 6 场完赛、1 个冠军、1 次登台。他的完赛排在场上前 5/81。全季领跑 9 圈（2 站）。",
    "axes": {
@@ -14690,7 +14822,7 @@
    "refTrait": "三项顶档，缠斗强硬极少自失",
    "refEra": "2010s",
    "similarity": 0.637,
-   "distance": 0.727,
+   "distance": 0.726,
    "weakMatch": false,
    "why": "80 分排在 5/81。6 场里 5 场完赛、2 次登台。他的缠斗排在场上前 8/81。而速度是他的相对短板（场上第 12/78）。完成 58 次超车。",
    "axes": {
@@ -14715,8 +14847,8 @@
    "ref": "Ayrton Senna",
    "refTrait": "单圈神话与雨战之王，缠斗极硬",
    "refEra": "1980s",
-   "similarity": 0.454,
-   "distance": 1.092,
+   "similarity": 0.453,
+   "distance": 1.094,
    "weakMatch": false,
    "why": "43 分排在 17/81。4 场里 3 场完赛、1 个冠军、2 个杆位。他的缠斗排在场上前 2/81。比「Ayrton Senna」更倚重轮胎管理。而速度是他的相对短板（场上第 30/78）。全季领跑 18 圈（2 站）。",
    "axes": {
@@ -14768,7 +14900,7 @@
    "refTrait": "连霸两年，节奏稳定得像机器",
    "refEra": "1950s",
    "similarity": 0.466,
-   "distance": 1.068,
+   "distance": 1.067,
    "weakMatch": false,
    "why": "57 分排在 11/81。7 场里 5 场完赛、1 次登台。他的完赛排在场上前 20/81。比「Alberto Ascari」更倚重缠斗。全季领跑 8 圈（1 站）。",
    "axes": {
@@ -14793,10 +14925,10 @@
    "ref": "Nigel Mansell",
    "refTrait": "凶猛超车型，敢打敢拼",
    "refEra": "1980s",
-   "similarity": 0.553,
-   "distance": 0.895,
+   "similarity": 0.552,
+   "distance": 0.896,
    "weakMatch": false,
-   "why": "18 分排在 32/81。3 场里 2 场完赛、1 个杆位。他的速度排在场上前 4/78。全季领跑 7 圈（1 站）。",
+   "why": "18 分排在 34/81。3 场里 2 场完赛、1 个杆位。他的速度排在场上前 4/78。全季领跑 7 圈（1 站）。",
    "axes": {
     "pace": 0.9899194927613768,
     "consistency": 0.7781414802691399,
@@ -14812,15 +14944,15 @@
    "weaknessRank": 56,
    "weaknessOf": 81,
    "points": 18,
-   "pos": 32
+   "pos": 34
   },
   "HEZ": {
    "name": "HEZ",
    "ref": "George Russell",
    "refTrait": "排位突出、执行稳定",
    "refEra": "2020s",
-   "similarity": 0.548,
-   "distance": 0.904,
+   "similarity": 0.55,
+   "distance": 0.9,
    "weakMatch": false,
    "why": "28 分排在 26/81。2 场里 2 场完赛、1 次登台、1 个杆位。他的速度排在场上前 2/78。而完赛是他的相对短板（场上第 27/81）。全季领跑 10 圈（1 站）。",
    "axes": {
@@ -14845,8 +14977,8 @@
    "ref": "Sebastian Vettel",
    "refTrait": "四冠，单圈与杆位机器",
    "refEra": "2010s",
-   "similarity": 0.029,
-   "distance": 1.941,
+   "similarity": 0.034,
+   "distance": 1.932,
    "weakMatch": true,
    "why": "153 分排在 2/81。11 场里 11 场完赛、2 次登台。他的完赛排在场上前 1/81。完成 84 次超车。",
    "axes": {
@@ -14872,9 +15004,9 @@
    "refTrait": "聪明强硬的三冠",
    "refEra": "1980s",
    "similarity": 0.799,
-   "distance": 0.402,
+   "distance": 0.403,
    "weakMatch": false,
-   "why": "10 分排在 35/81。5 场里 4 场完赛。他的完赛排在场上前 21/81。全季领跑 4 圈（1 站）。",
+   "why": "10 分排在 41/81。5 场里 4 场完赛。他的完赛排在场上前 21/81。全季领跑 4 圈（1 站）。",
    "axes": {
     "pace": 0.6572553774933335,
     "consistency": 0.7633387888707037,
@@ -14890,17 +15022,17 @@
    "weaknessRank": 55,
    "weaknessOf": 81,
    "points": 10,
-   "pos": 35
+   "pos": 41
   },
   "ZF with you": {
    "name": "ZF with you",
    "ref": "Alain Prost",
    "refTrait": "教授：最省胎、最会算、最稳",
    "refEra": "1980s",
-   "similarity": 0.069,
-   "distance": 1.863,
+   "similarity": 0.073,
+   "distance": 1.854,
    "weakMatch": true,
-   "why": "0 分排在 55/81。1 场里 0 场完赛。他的轮胎管理排在场上前 1/77。完成 11 次超车。",
+   "why": "0 分排在 67/81。1 场里 0 场完赛。他的轮胎管理排在场上前 1/77。完成 11 次超车。",
    "axes": {
     "pace": 0.9349596144565929,
     "consistency": 0.591925804691762,
@@ -14916,15 +15048,15 @@
    "weaknessRank": 75,
    "weaknessOf": 81,
    "points": 0,
-   "pos": 55
+   "pos": 67
   },
   "Hamisner": {
    "name": "Hamisner",
    "ref": "Jarno Trulli",
    "refTrait": "排位高手，正赛偏保守",
    "refEra": "2000s",
-   "similarity": 0.387,
-   "distance": 1.227,
+   "similarity": 0.388,
+   "distance": 1.225,
    "weakMatch": true,
    "why": "51 分排在 14/81。8 场里 7 场完赛。他的完赛排在场上前 6/81。完成 63 次超车。",
    "axes": {
@@ -14950,9 +15082,9 @@
    "refTrait": "直来直去的快枪手",
    "refEra": "1980s",
    "similarity": 0.886,
-   "distance": 0.228,
+   "distance": 0.229,
    "weakMatch": false,
-   "why": "24 分排在 30/81。2 场里 2 场完赛。他的完赛排在场上前 28/81。比「Gerhard Berger」更倚重节奏稳定性。全季领跑 2 圈（1 站）。",
+   "why": "24 分排在 31/81。2 场里 2 场完赛。他的完赛排在场上前 28/81。比「Gerhard Berger」更倚重节奏稳定性。全季领跑 2 圈（1 站）。",
    "axes": {
     "pace": 0.7221237699764576,
     "consistency": 0.892071285688307,
@@ -14968,7 +15100,7 @@
    "weaknessRank": 51,
    "weaknessOf": 81,
    "points": 24,
-   "pos": 30
+   "pos": 31
   },
   "好女孩风妖精": {
    "name": "好女孩风妖精",
@@ -15001,10 +15133,10 @@
    "ref": "Keke Rosberg",
    "refTrait": "单圈凶悍的冠军",
    "refEra": "1980s",
-   "similarity": 0.838,
-   "distance": 0.323,
+   "similarity": 0.837,
+   "distance": 0.325,
    "weakMatch": false,
-   "why": "7 分排在 38/81。2 场里 2 场完赛。他的缠斗排在场上前 12/81。比「Keke Rosberg」更倚重轮胎管理。拿下 1 次全场最快圈。",
+   "why": "7 分排在 45/81。2 场里 2 场完赛。他的缠斗排在场上前 12/81。比「Keke Rosberg」更倚重轮胎管理。拿下 1 次全场最快圈。",
    "axes": {
     "pace": 0.8501824001424431,
     "consistency": 0.6761229314420805,
@@ -15020,7 +15152,7 @@
    "weaknessRank": 63,
    "weaknessOf": 77,
    "points": 7,
-   "pos": 38
+   "pos": 45
   },
   "LI WEN": {
    "name": "LI WEN",
@@ -15030,7 +15162,7 @@
    "similarity": 0.737,
    "distance": 0.526,
    "weakMatch": false,
-   "why": "18 分排在 33/81。4 场里 4 场完赛。他的完赛排在场上前 16/81。比「Alex Albon」更倚重缠斗。完成 23 次超车。",
+   "why": "18 分排在 35/81。4 场里 4 场完赛。他的完赛排在场上前 16/81。比「Alex Albon」更倚重缠斗。完成 23 次超车。",
    "axes": {
     "pace": 0.6799583916683446,
     "consistency": 0.7369067103109657,
@@ -15046,17 +15178,17 @@
    "weaknessRank": 70,
    "weaknessOf": 77,
    "points": 18,
-   "pos": 33
+   "pos": 35
   },
   "King_of_Knowledge": {
    "name": "King_of_Knowledge",
    "ref": "Franco Colapinto 型",
    "refTrait": "新秀型：速度有、经验少",
    "refEra": "2020s",
-   "similarity": 0.668,
-   "distance": 0.665,
+   "similarity": 0.667,
+   "distance": 0.666,
    "weakMatch": false,
-   "why": "4 分排在 46/81。3 场里 3 场完赛。他的纪律排在场上前 17/81。比「Franco Colapinto 型」更倚重完赛。完成 15 次超车。",
+   "why": "4 分排在 55/81。3 场里 3 场完赛。他的纪律排在场上前 17/81。比「Franco Colapinto 型」更倚重完赛。完成 15 次超车。",
    "axes": {
     "pace": 0.43352875417800135,
     "consistency": 0.5029096199308964,
@@ -15072,17 +15204,17 @@
    "weaknessRank": 76,
    "weaknessOf": 78,
    "points": 4,
-   "pos": 46
+   "pos": 55
   },
   "Kihooxi": {
    "name": "Kihooxi",
    "ref": "Jarno Trulli",
    "refTrait": "排位高手，正赛偏保守",
    "refEra": "2000s",
-   "similarity": 0.459,
-   "distance": 1.083,
+   "similarity": 0.461,
+   "distance": 1.079,
    "weakMatch": false,
-   "why": "0 分排在 57/81。2 场里 1 场完赛。他的轮胎管理排在场上前 17/77。比「Jarno Trulli」更倚重缠斗。完成 2 次超车。",
+   "why": "0 分排在 69/81。2 场里 1 场完赛。他的轮胎管理排在场上前 17/77。比「Jarno Trulli」更倚重缠斗。完成 2 次超车。",
    "axes": {
     "pace": 0.7870514020581744,
     "consistency": 0.5861065648299691,
@@ -15098,7 +15230,7 @@
    "weaknessRank": 69,
    "weaknessOf": 77,
    "points": 0,
-   "pos": 57
+   "pos": 69
   },
   "出云": {
    "name": "出云",
@@ -15106,9 +15238,9 @@
    "refTrait": "雨战偶有神来之笔，平时起伏大",
    "refEra": "2020s",
    "similarity": 0.298,
-   "distance": 1.404,
+   "distance": 1.403,
    "weakMatch": true,
-   "why": "0 分排在 58/81。1 场里 0 场完赛。他的轮胎管理排在场上前 7/77。完成 1 次超车。",
+   "why": "0 分排在 70/81。1 场里 0 场完赛。他的轮胎管理排在场上前 7/77。完成 1 次超车。",
    "axes": {
     "pace": 0.5100544915846446,
     "consistency": 0.6168394253500636,
@@ -15120,11 +15252,11 @@
    "strength": "tyre",
    "strengthRank": 7,
    "strengthOf": 77,
-   "weakness": "reliability",
-   "weaknessRank": 75,
-   "weaknessOf": 81,
+   "weakness": "pace",
+   "weaknessRank": 74,
+   "weaknessOf": 78,
    "points": 0,
-   "pos": 58
+   "pos": 70
   },
   "m1028yin": {
    "name": "m1028yin",
@@ -15132,9 +15264,9 @@
    "refTrait": "超车型，速度快但脆",
    "refEra": "1970s",
    "similarity": 0.345,
-   "distance": 1.31,
+   "distance": 1.311,
    "weakMatch": true,
-   "why": "0 分排在 59/81。2 场里 0 场完赛。他的纪律排在场上前 2/81。完成 2 次超车。",
+   "why": "0 分排在 71/81。2 场里 0 场完赛。他的纪律排在场上前 2/81。完成 2 次超车。",
    "axes": {
     "pace": 0.7379142136138055,
     "consistency": 0.8381523913438808,
@@ -15150,17 +15282,17 @@
    "weaknessRank": 79,
    "weaknessOf": 81,
    "points": 0,
-   "pos": 59
+   "pos": 71
   },
   "GOATPER": {
    "name": "GOATPER",
-   "ref": "Jack Brabham",
-   "refTrait": "自己造车自己开，工程型车手",
-   "refEra": "1960s",
-   "similarity": 0.682,
-   "distance": 0.637,
+   "ref": "Emerson Fittipaldi",
+   "refTrait": "年轻冠军，节奏干净",
+   "refEra": "1970s",
+   "similarity": 0.73,
+   "distance": 0.54,
    "weakMatch": false,
-   "why": "0 分排在 60/81。0 场里 0 场完赛。他的纪律排在场上前 3/81。比「Jack Brabham」更倚重缠斗。全季领跑 20 圈（1 站）。",
+   "why": "25 分排在 29/81。1 场里 0 场完赛、1 个冠军、1 个杆位。他的纪律排在场上前 3/81。全季领跑 20 圈（1 站）。",
    "axes": {
     "pace": 0.6538844339502341,
     "consistency": 0.961447535915621,
@@ -15175,8 +15307,8 @@
    "weakness": "reliability",
    "weaknessRank": 58,
    "weaknessOf": 81,
-   "points": 0,
-   "pos": 60
+   "points": 25,
+   "pos": 29
   },
   "WuHen": {
    "name": "WuHen",
@@ -15184,9 +15316,9 @@
    "refTrait": "首位世界冠军，强硬但易出事",
    "refEra": "1950s",
    "similarity": 0.681,
-   "distance": 0.638,
+   "distance": 0.639,
    "weakMatch": false,
-   "why": "0 分排在 61/81。0 场里 0 场完赛。他的缠斗排在场上前 21/81。比「Giuseppe Farina」更倚重节奏稳定性。全季领跑 1 圈（1 站）。",
+   "why": "22 分排在 32/81。1 场里 0 场完赛、1 次登台。他的缠斗排在场上前 21/81。比「Giuseppe Farina」更倚重节奏稳定性。全季领跑 1 圈（1 站）。",
    "axes": {
     "pace": 0.6409431086741668,
     "consistency": 0.9032551372976905,
@@ -15201,18 +15333,18 @@
    "weakness": "tyre",
    "weaknessRank": 71,
    "weaknessOf": 77,
-   "points": 0,
-   "pos": 61
+   "points": 22,
+   "pos": 32
   },
   "MFGA": {
    "name": "MFGA",
    "ref": "René Arnoux",
    "refTrait": "缠斗好手，名局制造者",
    "refEra": "1980s",
-   "similarity": 0.581,
-   "distance": 0.838,
+   "similarity": 0.586,
+   "distance": 0.829,
    "weakMatch": false,
-   "why": "0 分排在 62/81。3 场里 0 场完赛。他的缠斗排在场上前 13/81。比「René Arnoux」更倚重节奏稳定性。完成 22 次超车。",
+   "why": "0 分排在 72/81。3 场里 0 场完赛。他的缠斗排在场上前 13/81。比「René Arnoux」更倚重节奏稳定性。完成 22 次超车。",
    "axes": {
     "pace": 0.6348219487079341,
     "consistency": 0.9039825422804146,
@@ -15228,17 +15360,17 @@
    "weaknessRank": 81,
    "weaknessOf": 81,
    "points": 0,
-   "pos": 62
+   "pos": 72
   },
   "defect": {
    "name": "defect",
    "ref": "Juan Pablo Montoya",
    "refTrait": "凶悍超车型，与人对撞也不退",
    "refEra": "2000s",
-   "similarity": 0.334,
-   "distance": 1.333,
+   "similarity": 0.333,
+   "distance": 1.334,
    "weakMatch": true,
-   "why": "0 分排在 63/81。0 场里 0 场完赛。他的节奏稳定性排在场上前 22/77。比「Juan Pablo Montoya」更倚重纪律。完成 13 次超车。",
+   "why": "18 分排在 36/81。1 场里 0 场完赛。他的节奏稳定性排在场上前 22/77。比「Juan Pablo Montoya」更倚重纪律。完成 13 次超车。",
    "axes": {
     "pace": 0.6330374749550663,
     "consistency": 0.9152573195126387,
@@ -15253,18 +15385,18 @@
    "weakness": "pace",
    "weaknessRank": 61,
    "weaknessOf": 78,
-   "points": 0,
-   "pos": 63
+   "points": 18,
+   "pos": 36
   },
   "Aughhhst1N": {
    "name": "Aughhhst1N",
    "ref": "Graham Hill",
    "refTrait": "稳健老练，两冠在手",
    "refEra": "1960s",
-   "similarity": 0.764,
-   "distance": 0.473,
+   "similarity": 0.768,
+   "distance": 0.464,
    "weakMatch": false,
-   "why": "0 分排在 64/81。0 场里 0 场完赛。他的节奏稳定性排在场上前 11/77。完成 23 次超车。",
+   "why": "16 分排在 37/81。1 场里 0 场完赛。他的节奏稳定性排在场上前 11/77。完成 23 次超车。",
    "axes": {
     "pace": 0.6340827408306562,
     "consistency": 0.9543553373340606,
@@ -15279,18 +15411,18 @@
    "weakness": "reliability",
    "weaknessRank": 61,
    "weaknessOf": 81,
-   "points": 0,
-   "pos": 64
+   "points": 16,
+   "pos": 37
   },
   "Ay1ng": {
    "name": "Ay1ng",
    "ref": "Jacques Villeneuve",
    "refTrait": "两轮世界冠军转来拿四轮冠军",
    "refEra": "1990s",
-   "similarity": 0.721,
-   "distance": 0.559,
+   "similarity": 0.722,
+   "distance": 0.557,
    "weakMatch": false,
-   "why": "0 分排在 65/81。0 场里 0 场完赛。他的缠斗排在场上前 6/81。比「Jacques Villeneuve」更倚重节奏稳定性。完成 24 次超车。",
+   "why": "14 分排在 38/81。1 场里 0 场完赛。他的缠斗排在场上前 6/81。比「Jacques Villeneuve」更倚重节奏稳定性。完成 24 次超车。",
    "axes": {
     "pace": 0.6392805393782537,
     "consistency": 0.9107110383706127,
@@ -15305,18 +15437,18 @@
    "weakness": "tyre",
    "weaknessRank": 62,
    "weaknessOf": 77,
-   "points": 0,
-   "pos": 65
+   "points": 14,
+   "pos": 38
   },
   "JPer": {
    "name": "JPer",
-   "ref": "David Coulthard",
-   "refTrait": "稳健的职业车手",
+   "ref": "Damon Hill",
+   "refTrait": "稳健的冠军，速度不顶尖",
    "refEra": "1990s",
-   "similarity": 0.775,
-   "distance": 0.45,
+   "similarity": 0.821,
+   "distance": 0.358,
    "weakMatch": false,
-   "why": "0 分排在 66/81。0 场里 0 场完赛。他的节奏稳定性排在场上前 17/77。完成 12 次超车。",
+   "why": "12 分排在 40/81。1 场里 0 场完赛。他的节奏稳定性排在场上前 17/77。完成 12 次超车。",
    "axes": {
     "pace": 0.628665773631725,
     "consistency": 0.9290780141843972,
@@ -15331,8 +15463,8 @@
    "weakness": "pace",
    "weaknessRank": 63,
    "weaknessOf": 78,
-   "points": 0,
-   "pos": 66
+   "points": 12,
+   "pos": 40
   },
   "Lyr1csQAQ": {
    "name": "Lyr1csQAQ",
@@ -15342,7 +15474,7 @@
    "similarity": 0.756,
    "distance": 0.488,
    "weakMatch": false,
-   "why": "0 分排在 67/81。0 场里 0 场完赛。他的节奏稳定性排在场上前 23/77。完成 19 次超车。",
+   "why": "10 分排在 42/81。1 场里 0 场完赛。他的节奏稳定性排在场上前 23/77。完成 19 次超车。",
    "axes": {
     "pace": 0.6269630018021354,
     "consistency": 0.9136206583015093,
@@ -15357,18 +15489,18 @@
    "weakness": "pace",
    "weaknessRank": 65,
    "weaknessOf": 78,
-   "points": 0,
-   "pos": 67
+   "points": 10,
+   "pos": 42
   },
   "Kagamine RIN": {
    "name": "Kagamine RIN",
    "ref": "Ralf Schumacher",
    "refTrait": "稳但不惊艳",
    "refEra": "2000s",
-   "similarity": 0.835,
-   "distance": 0.33,
+   "similarity": 0.837,
+   "distance": 0.326,
    "weakMatch": false,
-   "why": "0 分排在 68/81。0 场里 0 场完赛。他的节奏稳定性排在场上前 19/77。完成 9 次超车。",
+   "why": "6 分排在 46/81。1 场里 0 场完赛。他的节奏稳定性排在场上前 19/77。完成 9 次超车。",
    "axes": {
     "pace": 0.6273118560459735,
     "consistency": 0.9267139479905439,
@@ -15383,18 +15515,18 @@
    "weakness": "combat",
    "weaknessRank": 74,
    "weaknessOf": 81,
-   "points": 0,
-   "pos": 68
+   "points": 6,
+   "pos": 46
   },
   "TwinTurbo": {
    "name": "TwinTurbo",
    "ref": "Jody Scheckter",
    "refTrait": "稳扎稳打的冠军",
    "refEra": "1970s",
-   "similarity": 0.635,
-   "distance": 0.73,
+   "similarity": 0.639,
+   "distance": 0.722,
    "weakMatch": false,
-   "why": "0 分排在 69/81。0 场里 0 场完赛。他的节奏稳定性排在场上前 4/77。完成 14 次超车。",
+   "why": "5 分排在 49/81。1 场里 0 场完赛。他的节奏稳定性排在场上前 4/77。完成 14 次超车。",
    "axes": {
     "pace": 0.6150397084272318,
     "consistency": 0.9761774868157846,
@@ -15409,18 +15541,18 @@
    "weakness": "pace",
    "weaknessRank": 68,
    "weaknessOf": 78,
-   "points": 0,
-   "pos": 69
+   "points": 5,
+   "pos": 49
   },
   "UNIQUENESS": {
    "name": "UNIQUENESS",
-   "ref": "Rubens Barrichello",
-   "refTrait": "可靠的老二，轮胎不错",
-   "refEra": "1990s",
-   "similarity": 0.563,
-   "distance": 0.875,
+   "ref": "Pierre Gasly",
+   "refTrait": "中游标杆，六维都在均值偏上",
+   "refEra": "2020s",
+   "similarity": 0.645,
+   "distance": 0.71,
    "weakMatch": false,
-   "why": "0 分排在 70/81。0 场里 0 场完赛。他的节奏稳定性排在场上前 10/77。比「Rubens Barrichello」更倚重缠斗。完成 11 次超车。",
+   "why": "4 分排在 56/81。1 场里 0 场完赛。他的节奏稳定性排在场上前 10/77。完成 11 次超车。",
    "axes": {
     "pace": 0.6363172235895161,
     "consistency": 0.9579923622476815,
@@ -15435,18 +15567,18 @@
    "weakness": "reliability",
    "weaknessRank": 67,
    "weaknessOf": 81,
-   "points": 0,
-   "pos": 70
+   "points": 4,
+   "pos": 56
   },
   "fu505": {
    "name": "fu505",
    "ref": "Giancarlo Fisichella",
    "refTrait": "中游稳定输出",
    "refEra": "2000s",
-   "similarity": 0.829,
-   "distance": 0.342,
+   "similarity": 0.832,
+   "distance": 0.336,
    "weakMatch": false,
-   "why": "0 分排在 71/81。0 场里 0 场完赛。他的纪律排在场上前 19/81。完成 4 次超车。",
+   "why": "2 分排在 62/81。1 场里 0 场完赛。他的纪律排在场上前 19/81。完成 4 次超车。",
    "axes": {
     "pace": 0.6151603160282612,
     "consistency": 0.8157846881251136,
@@ -15461,57 +15593,57 @@
    "weakness": "reliability",
    "weaknessRank": 68,
    "weaknessOf": 81,
-   "points": 0,
-   "pos": 71
+   "points": 2,
+   "pos": 62
   },
   "TS": {
    "name": "TS",
-   "ref": "Damon Hill",
-   "refTrait": "稳健的冠军，速度不顶尖",
+   "ref": "Rubens Barrichello",
+   "refTrait": "可靠的老二，轮胎不错",
    "refEra": "1990s",
-   "similarity": 0.819,
-   "distance": 0.362,
+   "similarity": 0.591,
+   "distance": 0.817,
    "weakMatch": false,
-   "why": "0 分排在 72/81。0 场里 0 场完赛。他的节奏稳定性排在场上前 12/77。完成 12 次超车。",
+   "why": "1 分排在 63/81。1 场里 0 场完赛。他的节奏稳定性排在场上前 12/77。比「Rubens Barrichello」更倚重速度。完成 12 次超车。",
    "axes": {
     "pace": 0.6238953817439971,
     "consistency": 0.9529005273686124,
     "combat": 0.3939393939393939,
     "tyre": 0.46048017264634467,
     "discipline": 0.8666666666666667,
-    "reliability": 0.21428571428571427
+    "reliability": 0.14285714285714285
    },
    "strength": "consistency",
    "strengthRank": 12,
    "strengthOf": 77,
-   "weakness": "combat",
-   "weaknessRank": 71,
+   "weakness": "reliability",
+   "weaknessRank": 73,
    "weaknessOf": 81,
-   "points": 0,
-   "pos": 72
+   "points": 1,
+   "pos": 63
   },
   "Elaina": {
    "name": "Elaina",
-   "ref": "Michele Alboreto",
-   "refTrait": "稳定但缺一击致命的速度",
-   "refEra": "1980s",
-   "similarity": 0.738,
-   "distance": 0.524,
+   "ref": "Nick Heidfeld",
+   "refTrait": "低调可靠，少有失误",
+   "refEra": "2000s",
+   "similarity": 0.606,
+   "distance": 0.788,
    "weakMatch": false,
-   "why": "0 分排在 73/81。0 场里 0 场完赛。他的节奏稳定性排在场上前 13/77。完成 6 次超车。",
+   "why": "0 分排在 73/81。1 场里 0 场完赛。他的节奏稳定性排在场上前 13/77。完成 6 次超车。",
    "axes": {
     "pace": 0.6085729363569733,
     "consistency": 0.9403527914166211,
     "combat": 0.42424242424242425,
     "tyre": 0.41641938674579615,
     "discipline": 0.9333333333333333,
-    "reliability": 0.21428571428571427
+    "reliability": 0.14285714285714285
    },
    "strength": "consistency",
    "strengthRank": 13,
    "strengthOf": 77,
    "weakness": "reliability",
-   "weaknessRank": 70,
+   "weaknessRank": 74,
    "weaknessOf": 81,
    "points": 0,
    "pos": 73
@@ -15521,24 +15653,24 @@
    "ref": "Niki Lauda",
    "refTrait": "轮胎与策略大师，理性到冷酷",
    "refEra": "1970s",
-   "similarity": 0.454,
-   "distance": 1.092,
-   "weakMatch": false,
-   "why": "0 分排在 74/81。0 场里 0 场完赛。他的纪律排在场上前 9/81。完成 4 次超车。",
+   "similarity": 0.367,
+   "distance": 1.265,
+   "weakMatch": true,
+   "why": "0 分排在 74/81。1 场里 0 场完赛。他的纪律排在场上前 9/81。完成 4 次超车。",
    "axes": {
     "pace": 0.5698287171681621,
     "consistency": null,
     "combat": 0.5,
     "tyre": null,
     "discipline": 0.9666666666666667,
-    "reliability": 0.21428571428571427
+    "reliability": 0.14285714285714285
    },
    "strength": "discipline",
    "strengthRank": 9,
    "strengthOf": 81,
-   "weakness": "pace",
-   "weaknessRank": 72,
-   "weaknessOf": 78,
+   "weakness": "reliability",
+   "weaknessRank": 75,
+   "weaknessOf": 81,
    "points": 0,
    "pos": 74
   },
@@ -15547,10 +15679,10 @@
    "ref": "Jackie Stewart",
    "refTrait": "轮胎管理与纪律的典范，极少失误",
    "refEra": "1960s",
-   "similarity": 0.284,
-   "distance": 1.432,
+   "similarity": 0.286,
+   "distance": 1.428,
    "weakMatch": true,
-   "why": "10 分排在 36/81。1 场里 1 场完赛。他的速度排在场上前 6/78。完成 1 次超车。",
+   "why": "10 分排在 43/81。1 场里 1 场完赛。他的速度排在场上前 6/78。完成 1 次超车。",
    "axes": {
     "pace": 0.9648549788910022,
     "consistency": 0.5595562829605383,
@@ -15566,17 +15698,17 @@
    "weaknessRank": 72,
    "weaknessOf": 77,
    "points": 10,
-   "pos": 36
+   "pos": 43
   },
   "Cazven_103": {
    "name": "Cazven_103",
    "ref": "Charles Leclerc",
    "refTrait": "一圈速度顶级，稳定与完赛是短板",
    "refEra": "2020s",
-   "similarity": 0.583,
-   "distance": 0.835,
+   "similarity": 0.581,
+   "distance": 0.838,
    "weakMatch": false,
-   "why": "5 分排在 41/81。1 场里 1 场完赛。他的速度排在场上前 7/78。比「Charles Leclerc」更倚重轮胎管理。完成 7 次超车。",
+   "why": "5 分排在 50/81。1 场里 1 场完赛。他的速度排在场上前 7/78。比「Charles Leclerc」更倚重轮胎管理。完成 7 次超车。",
    "axes": {
     "pace": 0.9548116811656024,
     "consistency": 0.574831787597745,
@@ -15592,17 +15724,17 @@
    "weaknessRank": 70,
    "weaknessOf": 77,
    "points": 5,
-   "pos": 41
+   "pos": 50
   },
   "千星散荷": {
    "name": "千星散荷",
    "ref": "Esteban Ocon",
    "refTrait": "队友内战从不手软",
    "refEra": "2020s",
-   "similarity": 0.649,
-   "distance": 0.702,
+   "similarity": 0.648,
+   "distance": 0.704,
    "weakMatch": false,
-   "why": "5 分排在 42/81。3 场里 3 场完赛。他的完赛排在场上前 23/81。完成 19 次超车。",
+   "why": "5 分排在 51/81。3 场里 3 场完赛。他的完赛排在场上前 23/81。完成 19 次超车。",
    "axes": {
     "pace": 0.5933279053287406,
     "consistency": 0.44086803661271745,
@@ -15618,17 +15750,17 @@
    "weaknessRank": 75,
    "weaknessOf": 77,
    "points": 5,
-   "pos": 42
+   "pos": 51
   },
   "Glorious": {
    "name": "Glorious",
    "ref": "Jean Alesi",
    "refTrait": "热血缠斗型，成绩配不上天赋",
    "refEra": "1990s",
-   "similarity": 0.412,
-   "distance": 1.177,
+   "similarity": 0.411,
+   "distance": 1.179,
    "weakMatch": false,
-   "why": "1 分排在 52/81。1 场里 0 场完赛。他的轮胎管理排在场上前 11/77。比「Jean Alesi」更倚重纪律。而缠斗是他的相对短板（场上第 38/81）。",
+   "why": "1 分排在 64/81。1 场里 0 场完赛。他的轮胎管理排在场上前 11/77。比「Jean Alesi」更倚重纪律。而缠斗是他的相对短板（场上第 38/81）。",
    "axes": {
     "pace": 0.7720336824669,
     "consistency": 0.46226586652118556,
@@ -15644,17 +15776,17 @@
    "weaknessRank": 76,
    "weaknessOf": 81,
    "points": 1,
-   "pos": 52
+   "pos": 64
   },
   "雷电芽衣": {
    "name": "雷电芽衣",
    "ref": "Felipe Massa",
    "refTrait": "速度不错，雨战偏弱",
    "refEra": "2000s",
-   "similarity": 0.794,
-   "distance": 0.412,
+   "similarity": 0.795,
+   "distance": 0.41,
    "weakMatch": false,
-   "why": "25 分排在 29/81。1 场里 1 场完赛、1 个冠军、1 个杆位。他的纪律排在场上前 11/81。全季领跑 16 圈（1 站）。",
+   "why": "25 分排在 30/81。1 场里 1 场完赛、1 个冠军、1 个杆位。他的纪律排在场上前 11/81。全季领跑 16 圈（1 站）。",
    "axes": {
     "pace": 0.6548703038244567,
     "consistency": 0.9025277323149663,
@@ -15670,7 +15802,7 @@
    "weaknessRank": 53,
    "weaknessOf": 78,
    "points": 25,
-   "pos": 29
+   "pos": 30
   },
   "guys can u do sth?": {
    "name": "guys can u do sth?",
@@ -15703,7 +15835,7 @@
    "ref": "Takuma Sato",
    "refTrait": "攻击性极强，事故也不少",
    "refEra": "2000s",
-   "similarity": 0.355,
+   "similarity": 0.354,
    "distance": 1.291,
    "weakMatch": true,
    "why": "56 分排在 12/81。6 场里 5 场完赛。他的缠斗排在场上前 10/81。比「Takuma Sato」更倚重完赛。完成 54 次超车。",
@@ -15726,13 +15858,13 @@
   },
   "哈哈": {
    "name": "哈哈",
-   "ref": "Pierre Gasly",
-   "refTrait": "中游标杆，六维都在均值偏上",
-   "refEra": "2020s",
-   "similarity": 0.698,
-   "distance": 0.604,
+   "ref": "Michele Alboreto",
+   "refTrait": "稳定但缺一击致命的速度",
+   "refEra": "1980s",
+   "similarity": 0.712,
+   "distance": 0.576,
    "weakMatch": false,
-   "why": "5 分排在 43/81。1 场里 1 场完赛。他的纪律排在场上前 12/81。比「Pierre Gasly」更倚重节奏稳定性。完成 13 次超车。",
+   "why": "5 分排在 52/81。1 场里 1 场完赛。他的纪律排在场上前 12/81。比「Michele Alboreto」更倚重缠斗。完成 13 次超车。",
    "axes": {
     "pace": 0.5735315650481593,
     "consistency": 0.9092562284051646,
@@ -15748,7 +15880,7 @@
    "weaknessRank": 71,
    "weaknessOf": 78,
    "points": 5,
-   "pos": 43
+   "pos": 52
   },
   "Sunpayus": {
    "name": "Sunpayus",
@@ -15756,7 +15888,7 @@
    "refTrait": "嘴和车都快",
    "refEra": "1990s",
    "similarity": 0.719,
-   "distance": 0.563,
+   "distance": 0.562,
    "weakMatch": false,
    "why": "30 分排在 24/81。3 场里 2 场完赛。他的缠斗排在场上前 19/81。比「Eddie Irvine」更倚重轮胎管理。完成 38 次超车。",
    "axes": {
@@ -15781,10 +15913,10 @@
    "ref": "Logan Sargeant 型",
    "refTrait": "速度与稳定性都偏弱的新秀",
    "refEra": "2020s",
-   "similarity": 0.233,
-   "distance": 1.534,
+   "similarity": 0.232,
+   "distance": 1.537,
    "weakMatch": true,
-   "why": "6 分排在 39/81。1 场里 1 场完赛。他的缠斗排在场上前 28/81。完成 13 次超车。",
+   "why": "6 分排在 47/81。1 场里 1 场完赛。他的缠斗排在场上前 28/81。完成 13 次超车。",
    "axes": {
     "pace": 0.07611746214854907,
     "consistency": 0.10856519367157658,
@@ -15800,7 +15932,7 @@
    "weaknessRank": 77,
    "weaknessOf": 78,
    "points": 6,
-   "pos": 39
+   "pos": 47
   },
   "hayma_shio": {
    "name": "hayma_shio",
@@ -15808,7 +15940,7 @@
    "refTrait": "缠斗最凶，罚单也最多",
    "refEra": "2020s",
    "similarity": 0.0,
-   "distance": 2.119,
+   "distance": 2.121,
    "weakMatch": true,
    "why": "0 分排在 76/81。1 场里 1 场完赛。他的纪律排在场上前 41/81。完成 15 次超车。",
    "axes": {
@@ -15833,8 +15965,8 @@
    "ref": "Jim Clark",
    "refTrait": "单圈与节奏都是时代顶点的绅士",
    "refEra": "1960s",
-   "similarity": 0.754,
-   "distance": 0.492,
+   "similarity": 0.753,
+   "distance": 0.493,
    "weakMatch": false,
    "why": "34 分排在 23/81。2 场里 2 场完赛、1 次登台。他的速度排在场上前 1/78。比「Jim Clark」更倚重缠斗。而纪律是他的相对短板（场上第 28/81）。完成 28 次超车。",
    "axes": {
@@ -15862,7 +15994,7 @@
    "similarity": 0.748,
    "distance": 0.504,
    "weakMatch": false,
-   "why": "20 分排在 31/81。1 场里 1 场完赛、1 次登台。他的轮胎管理排在场上前 10/77。比「Mario Andretti」更倚重速度。完成 11 次超车。",
+   "why": "20 分排在 33/81。1 场里 1 场完赛、1 次登台。他的轮胎管理排在场上前 10/77。比「Mario Andretti」更倚重速度。完成 11 次超车。",
    "axes": {
     "pace": 0.9162164538070674,
     "consistency": 0.751409347154028,
@@ -15878,7 +16010,7 @@
    "weaknessRank": 54,
    "weaknessOf": 77,
    "points": 20,
-   "pos": 31
+   "pos": 33
   },
   "Map13ss": {
    "name": "Map13ss",
@@ -15886,7 +16018,7 @@
    "refTrait": "拼到极致的冠军，纪律极好",
    "refEra": "2010s",
    "similarity": 0.593,
-   "distance": 0.815,
+   "distance": 0.813,
    "weakMatch": false,
    "why": "43 分排在 19/81。3 场里 3 场完赛、1 个冠军。他的速度排在场上前 3/78。比「Nico Rosberg」更倚重轮胎管理。完成 18 次超车。",
    "axes": {
@@ -15911,8 +16043,8 @@
    "ref": "Mika Häkkinen",
    "refTrait": "纯速度型两冠",
    "refEra": "1990s",
-   "similarity": 0.714,
-   "distance": 0.572,
+   "similarity": 0.712,
+   "distance": 0.576,
    "weakMatch": false,
    "why": "50 分排在 15/81。2 场里 2 场完赛、2 个冠军。他的速度排在场上前 8/78。比「Mika Häkkinen」更倚重完赛。全季领跑 23 圈（2 站）。",
    "axes": {
@@ -15938,7 +16070,7 @@
    "refTrait": "冰人：纯速度，话少",
    "refEra": "2000s",
    "similarity": 0.843,
-   "distance": 0.313,
+   "distance": 0.314,
    "weakMatch": false,
    "why": "36 分排在 22/81。2 场里 2 场完赛、1 次登台。他的节奏稳定性排在场上前 6/77。比「Kimi Räikkönen」更倚重纪律。完成 12 次超车。",
    "axes": {
@@ -15990,7 +16122,7 @@
    "refTrait": "速度与胆量兼备",
    "refEra": "2000s",
    "similarity": 0.814,
-   "distance": 0.372,
+   "distance": 0.373,
    "weakMatch": false,
    "why": "0 分排在 78/81。1 场里 1 场完赛、1 次登台。他的节奏稳定性排在场上前 5/77。完成 10 次超车。",
    "axes": {
@@ -16015,8 +16147,8 @@
    "ref": "Oscar Piastri",
    "refTrait": "冷静、干净、几乎不犯错",
    "refEra": "2020s",
-   "similarity": 0.478,
-   "distance": 1.045,
+   "similarity": 0.48,
+   "distance": 1.04,
    "weakMatch": false,
    "why": "0 分排在 79/81。1 场里 1 场完赛。他的节奏稳定性排在场上前 2/77。比「Oscar Piastri」更倚重缠斗。而完赛是他的相对短板（场上第 48/81）。完成 16 次超车。",
    "axes": {
@@ -16038,13 +16170,13 @@
   },
   "Twistzz": {
    "name": "Twistzz",
-   "ref": "Nick Heidfeld",
-   "refTrait": "低调可靠，少有失误",
-   "refEra": "2000s",
-   "similarity": 0.653,
-   "distance": 0.693,
+   "ref": "Jack Brabham",
+   "refTrait": "自己造车自己开，工程型车手",
+   "refEra": "1960s",
+   "similarity": 0.666,
+   "distance": 0.667,
    "weakMatch": false,
-   "why": "5 分排在 44/81。1 场里 1 场完赛。他的纪律排在场上前 7/81。比「Nick Heidfeld」更倚重速度。完成 6 次超车。",
+   "why": "5 分排在 53/81。1 场里 1 场完赛。他的纪律排在场上前 7/81。比「Jack Brabham」更倚重速度。完成 6 次超车。",
    "axes": {
     "pace": 0.7146706648691461,
     "consistency": 0.9330787415893799,
@@ -16060,17 +16192,17 @@
    "weaknessRank": 65,
    "weaknessOf": 77,
    "points": 5,
-   "pos": 44
+   "pos": 53
   },
   "⊗x1aofeiyang": {
    "name": "⊗x1aofeiyang",
-   "ref": "Emerson Fittipaldi",
-   "refTrait": "年轻冠军，节奏干净",
-   "refEra": "1970s",
-   "similarity": 0.734,
-   "distance": 0.531,
+   "ref": "David Coulthard",
+   "refTrait": "稳健的职业车手",
+   "refEra": "1990s",
+   "similarity": 0.775,
+   "distance": 0.45,
    "weakMatch": false,
-   "why": "4 分排在 47/81。1 场里 1 场完赛。他的节奏稳定性排在场上前 3/77。完成 3 次超车。",
+   "why": "4 分排在 57/81。1 场里 1 场完赛。他的节奏稳定性排在场上前 3/77。完成 3 次超车。",
    "axes": {
     "pace": 0.7091330900691856,
     "consistency": 0.9805419167121294,
@@ -16086,17 +16218,17 @@
    "weaknessRank": 69,
    "weaknessOf": 81,
    "points": 4,
-   "pos": 47
+   "pos": 57
   },
   "gsfjnk": {
    "name": "gsfjnk",
    "ref": "Valtteri Bottas",
    "refTrait": "排位强、正赛偏软",
    "refEra": "2010s",
-   "similarity": 0.609,
-   "distance": 0.782,
+   "similarity": 0.61,
+   "distance": 0.78,
    "weakMatch": false,
-   "why": "3 分排在 49/81。2 场里 2 场完赛。他的节奏稳定性排在场上前 9/77。比「Valtteri Bottas」更倚重缠斗。完成 20 次超车。",
+   "why": "3 分排在 59/81。2 场里 2 场完赛。他的节奏稳定性排在场上前 9/77。比「Valtteri Bottas」更倚重缠斗。完成 20 次超车。",
    "axes": {
     "pace": 0.6937418860547069,
     "consistency": 0.9609929078014184,
@@ -16112,17 +16244,17 @@
    "weaknessRank": 72,
    "weaknessOf": 77,
    "points": 3,
-   "pos": 49
+   "pos": 59
   },
   "Perez": {
    "name": "Perez",
    "ref": "Nico Hülkenberg",
    "refTrait": "排位常年超水平，正赛温吞",
    "refEra": "2020s",
-   "similarity": 0.69,
-   "distance": 0.619,
+   "similarity": 0.691,
+   "distance": 0.618,
    "weakMatch": false,
-   "why": "1 分排在 53/81。1 场里 1 场完赛。他的节奏稳定性排在场上前 18/77。完成 6 次超车。",
+   "why": "1 分排在 65/81。1 场里 1 场完赛。他的节奏稳定性排在场上前 18/77。完成 6 次超车。",
    "axes": {
     "pace": 0.6901912124279153,
     "consistency": 0.928350609201673,
@@ -16138,17 +16270,17 @@
    "weaknessRank": 73,
    "weaknessOf": 81,
    "points": 1,
-   "pos": 53
+   "pos": 65
   },
   "Surviver": {
    "name": "Surviver",
    "ref": "Heinz-Harald Frentzen",
    "refTrait": "速度尚可、时运不济",
    "refEra": "1990s",
-   "similarity": 0.831,
-   "distance": 0.338,
+   "similarity": 0.832,
+   "distance": 0.337,
    "weakMatch": false,
-   "why": "8 分排在 37/81。1 场里 1 场完赛。他的轮胎管理排在场上前 31/77。完成 19 次超车。",
+   "why": "8 分排在 44/81。1 场里 1 场完赛。他的轮胎管理排在场上前 31/77。完成 19 次超车。",
    "axes": {
     "pace": 0.7082386409091149,
     "consistency": 0.6693944353518821,
@@ -16164,7 +16296,7 @@
    "weaknessRank": 67,
    "weaknessOf": 81,
    "points": 8,
-   "pos": 37
+   "pos": 44
   },
   "KirigayaAqua": {
    "name": "KirigayaAqua",
@@ -16172,9 +16304,9 @@
    "refTrait": "起步一般、正赛强硬",
    "refEra": "2000s",
    "similarity": 0.82,
-   "distance": 0.36,
+   "distance": 0.361,
    "weakMatch": false,
-   "why": "5 分排在 45/81。1 场里 1 场完赛。他的缠斗排在场上前 22/81。比「Mark Webber」更倚重轮胎管理。完成 27 次超车。",
+   "why": "5 分排在 54/81。1 场里 1 场完赛。他的缠斗排在场上前 22/81。比「Mark Webber」更倚重轮胎管理。完成 27 次超车。",
    "axes": {
     "pace": 0.6991662945713255,
     "consistency": 0.6530278232405892,
@@ -16190,17 +16322,17 @@
    "weaknessRank": 66,
    "weaknessOf": 77,
    "points": 5,
-   "pos": 45
+   "pos": 54
   },
   "芒果": {
    "name": "芒果",
    "ref": "Dan Gurney",
    "refTrait": "全能型，什么都自己动手",
    "refEra": "1960s",
-   "similarity": 0.851,
-   "distance": 0.299,
+   "similarity": 0.849,
+   "distance": 0.302,
    "weakMatch": false,
-   "why": "3 分排在 50/81。1 场里 1 场完赛。他的轮胎管理排在场上前 18/77。而速度是他的相对短板（场上第 44/78）。完成 26 次超车。",
+   "why": "3 分排在 60/81。1 场里 1 场完赛。他的轮胎管理排在场上前 18/77。而速度是他的相对短板（场上第 44/78）。完成 26 次超车。",
    "axes": {
     "pace": 0.6939799388701255,
     "consistency": 0.8601563920712857,
@@ -16216,15 +16348,15 @@
    "weaknessRank": 54,
    "weaknessOf": 81,
    "points": 3,
-   "pos": 50
+   "pos": 60
   },
   "猪猪侠": {
    "name": "猪猪侠",
    "ref": "Jochen Rindt",
    "refTrait": "快到极致，但事故缠身",
    "refEra": "1960s",
-   "similarity": 0.255,
-   "distance": 1.491,
+   "similarity": 0.253,
+   "distance": 1.494,
    "weakMatch": true,
    "why": "0 分排在 80/81。1 场里 1 场完赛。他的缠斗排在场上前 23/81。比「Jochen Rindt」更倚重纪律。完成 30 次超车。",
    "axes": {
@@ -17350,19 +17482,19 @@
     },
     {
      "name": "Aughhhst1N",
-     "x": 0,
-     "y": 0,
-     "r": 6,
-     "xLabel": "0",
-     "yLabel": "0"
+     "x": 1,
+     "y": 16,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "16"
     },
     {
      "name": "Ay1ng",
-     "x": 0,
-     "y": 0,
-     "r": 6,
-     "xLabel": "0",
-     "yLabel": "0"
+     "x": 1,
+     "y": 14,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "14"
     },
     {
      "name": "AyatoSeven",
@@ -17422,10 +17554,10 @@
     },
     {
      "name": "Elaina",
-     "x": 0,
+     "x": 1,
      "y": 0,
-     "r": 6,
-     "xLabel": "0",
+     "r": 7,
+     "xLabel": "1",
      "yLabel": "0"
     },
     {
@@ -17438,11 +17570,11 @@
     },
     {
      "name": "GOATPER",
-     "x": 0,
-     "y": 0,
-     "r": 6,
-     "xLabel": "0",
-     "yLabel": "0"
+     "x": 1,
+     "y": 25,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "25"
     },
     {
      "name": "Glorious",
@@ -17502,27 +17634,27 @@
     },
     {
      "name": "JPer",
-     "x": 0,
-     "y": 0,
-     "r": 6,
-     "xLabel": "0",
-     "yLabel": "0"
+     "x": 1,
+     "y": 12,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "12"
     },
     {
      "name": "Juice",
-     "x": 0,
+     "x": 1,
      "y": 0,
-     "r": 6,
-     "xLabel": "0",
+     "r": 7,
+     "xLabel": "1",
      "yLabel": "0"
     },
     {
      "name": "Kagamine RIN",
-     "x": 0,
-     "y": 0,
-     "r": 6,
-     "xLabel": "0",
-     "yLabel": "0"
+     "x": 1,
+     "y": 6,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "6"
     },
     {
      "name": "Kihooxi",
@@ -17566,11 +17698,11 @@
     },
     {
      "name": "Lyr1csQAQ",
-     "x": 0,
-     "y": 0,
-     "r": 6,
-     "xLabel": "0",
-     "yLabel": "0"
+     "x": 1,
+     "y": 10,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "10"
     },
     {
      "name": "MFGA",
@@ -17678,11 +17810,11 @@
     },
     {
      "name": "TS",
-     "x": 0,
-     "y": 0,
-     "r": 6,
-     "xLabel": "0",
-     "yLabel": "0"
+     "x": 1,
+     "y": 1,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "1"
     },
     {
      "name": "Tim",
@@ -17694,11 +17826,11 @@
     },
     {
      "name": "TwinTurbo",
-     "x": 0,
-     "y": 0,
-     "r": 6,
-     "xLabel": "0",
-     "yLabel": "0"
+     "x": 1,
+     "y": 5,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "5"
     },
     {
      "name": "Twistzz",
@@ -17710,11 +17842,11 @@
     },
     {
      "name": "UNIQUENESS",
-     "x": 0,
-     "y": 0,
-     "r": 6,
-     "xLabel": "0",
-     "yLabel": "0"
+     "x": 1,
+     "y": 4,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "4"
     },
     {
      "name": "UbisoftHongKong",
@@ -17734,11 +17866,11 @@
     },
     {
      "name": "WuHen",
-     "x": 0,
-     "y": 0,
-     "r": 6,
-     "xLabel": "0",
-     "yLabel": "0"
+     "x": 1,
+     "y": 22,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "22"
     },
     {
      "name": "Yachiyo",
@@ -17774,11 +17906,11 @@
     },
     {
      "name": "defect",
-     "x": 0,
-     "y": 0,
-     "r": 6,
-     "xLabel": "0",
-     "yLabel": "0"
+     "x": 1,
+     "y": 18,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "18"
     },
     {
      "name": "esmac1",
@@ -17790,11 +17922,11 @@
     },
     {
      "name": "fu505",
-     "x": 0,
-     "y": 0,
-     "r": 6,
-     "xLabel": "0",
-     "yLabel": "0"
+     "x": 1,
+     "y": 2,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "2"
     },
     {
      "name": "gsfjnk",
@@ -18478,6 +18610,22 @@
      "yLabel": "100"
     },
     {
+     "name": "Aughhhst1N",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
+     "name": "Ay1ng",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
      "name": "AyatoSeven",
      "x": 8,
      "y": 100.0,
@@ -18534,11 +18682,27 @@
      "yLabel": "0"
     },
     {
+     "name": "Elaina",
+     "x": 1,
+     "y": 0.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "0"
+    },
+    {
      "name": "Er1sed-FOX",
      "x": 7,
      "y": 100.0,
      "r": 13,
      "xLabel": "7",
+     "yLabel": "100"
+    },
+    {
+     "name": "GOATPER",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
      "yLabel": "100"
     },
     {
@@ -18598,6 +18762,30 @@
      "yLabel": "100"
     },
     {
+     "name": "JPer",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
+     "name": "Juice",
+     "x": 1,
+     "y": 0.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "0"
+    },
+    {
+     "name": "Kagamine RIN",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
      "name": "Kihooxi",
      "x": 2,
      "y": 0.0,
@@ -18636,6 +18824,14 @@
      "r": 13,
      "xLabel": "7",
      "yLabel": "71"
+    },
+    {
+     "name": "Lyr1csQAQ",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
     },
     {
      "name": "MFGA",
@@ -18742,6 +18938,14 @@
      "yLabel": "80"
     },
     {
+     "name": "TS",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
      "name": "Tim",
      "x": 1,
      "y": 0.0,
@@ -18750,7 +18954,23 @@
      "yLabel": "0"
     },
     {
+     "name": "TwinTurbo",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
      "name": "Twistzz",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
+     "name": "UNIQUENESS",
      "x": 1,
      "y": 100.0,
      "r": 7,
@@ -18772,6 +18992,14 @@
      "r": 15,
      "xLabel": "9",
      "yLabel": "78"
+    },
+    {
+     "name": "WuHen",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
     },
     {
      "name": "Yachiyo",
@@ -18806,11 +19034,27 @@
      "yLabel": "14"
     },
     {
+     "name": "defect",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
+     "yLabel": "100"
+    },
+    {
      "name": "esmac1",
      "x": 6,
      "y": 100.0,
      "r": 12,
      "xLabel": "6",
+     "yLabel": "100"
+    },
+    {
+     "name": "fu505",
+     "x": 1,
+     "y": 100.0,
+     "r": 7,
+     "xLabel": "1",
      "yLabel": "100"
     },
     {
@@ -19005,7 +19249,7 @@
     "br": "全勤但常空手"
    },
    "bestQuad": "tr",
-   "count": 67,
+   "count": 81,
    "selfCheck": {
     "top10InBest": 10,
     "bestQuad": "tr"
