@@ -1,0 +1,5 @@
+# Cloudflare Pages：SPA 深链兜底。
+# 站点是 vue-router history 模式，直接访问 /mengxin/s4/2026-09-27-singapore/
+# 这种路径时，CF Pages 会先找同名文件，找不到就按这条规则回退到 index.html，
+# 再由前端路由解析。GitHub Pages 靠 404.html 达成同样效果，两条线互不影响。
+/*  /index.html  200
