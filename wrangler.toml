@@ -1,0 +1,24 @@
+# RINACE · Cloudflare Workers 部署配置
+# 静态站点 + Worker 入口（/api/* 留给后端，其余交给 Static Assets）。
+#
+# ⚠️ name 必须与你控制台里那个 Worker 的实际名字一致，
+#    否则 wrangler 会新建一个同名的 Worker，而不是更新你已有的那个。
+name = "rinace"
+main = "worker/index.js"
+compatibility_date = "2026-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = "./cloudflare"
+binding = "ASSETS"
+# SPA：找不到文件时回落到 index.html，深链（/mengxin/s4/review/ 之类）才不会 404
+not_found_handling = "single-page-application"
+
+# —— 以后加后端时在这里加绑定 ——
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "rinace"
+# database_id = "..."
+#
+# [triggers]
+# crons = ["0 * * * *"]
