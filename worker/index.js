@@ -1,23 +1,21 @@
 /**
- * RINACE Worker 入口。
+ * RINACE Worker 入口 · 部署在 deltanarin.com/RINACE/
  *
- * ## 现在的职责
- * 只做两件事：把静态站点（`cloudflare/` 目录）原样发出去，以及给未来的后端
- * 留好 `/api/*` 这个口子。站点本身是纯静态的 vue-router history 应用，
- * 深链回退由 `[assets].not_found_handling = "single-page-application"` 负责。
+ * ## 路径策略
+ * Worker 通过 **Route** `deltanarin.com/RINACE/*` 挂载，所以它只会收到
+ * `/RINACE/...` 这一段的请求；域名根部的其它站点完全不受影响。
  *
- * ## 为什么现在就先写这个文件
- * Worker 一旦带上了 `main`，`/api/*` 就归这份代码处理、其余请求归静态资源，
- * 后面要加接口（积分查询、比赛提交、定时同步 mxbei、R2/D1 存储…）时，
- * **只需要往这里加路由**，不用再改部署结构、不用重新接 GitHub。
+ * 静态资源构建时用的是 `--base=/RINACE/`（见 app/package.json 的 build:cf），
+ * 所以浏览器请求的是 `/RINACE/assets/xxx.js`、`/RINACE/data/site.json`。
+ * 而 `[assets].directory` 里的文件是**按根路径组织**的（`assets/`、`data/`…），
+ * 因此这里必须先把 `/RINACE` 前缀剥掉再交给 ASSETS.fetch。
  *
- * ## 之后加后端时的约定
- * · 新接口都挂在 `/api/` 下，返回 JSON；
- * · 需要存储时在 wrangler.toml 里加 `[[d1_databases]]` / `[[r2_buckets]]` / `[[kv_namespaces]]`；
- * · 需要定时任务时加 `[triggers] crons = ["0 * * * *"]` 并实现 `scheduled()`；
- * · 前端继续读静态 JSON 也没问题——静态兜底和接口数据可以并存。
+ * ## 以后加后端
+ * 接口统一放在 `/RINACE/api/*`（同一个 Route 下，不需要额外配置）。
+ * 需要存储时在 wrangler.toml 里加 D1/R2/KV 绑定，定时任务用 `scheduled()`。
  */
 
+const BASE = '/RINACE'
 const JSON_HEADERS = {
   'content-type': 'application/json; charset=utf-8',
   'cache-control': 'no-store',
@@ -37,23 +35,37 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url)
 
-    // —— 后端区域：以后所有接口都写在这里 ——
-    if (url.pathname.startsWith('/api/')) {
-      if (url.pathname === '/api/health') {
-        return json({ ok: true, service: 'rinace', ts: new Date().toISOString() })
-      }
-      // 预留：/api/standings、/api/race/:slug、/api/sync/mxbei …
-      return json({ error: 'not_found', path: url.pathname }, 404)
+    // 只接管 /RINACE 这一段；万一 Route 配宽了，其余请求原样交给静态资源。
+    if (url.pathname !== BASE && !url.pathname.startsWith(BASE + '/')) {
+      return env.ASSETS.fetch(request)
     }
 
-    // —— 静态资源：交给 Workers Static Assets ——
-    // 找不到文件时，`not_found_handling` 会回落 index.html（SPA 深链）。
-    return env.ASSETS.fetch(request)
+    // /RINACE → /RINACE/（保持 query）
+    if (url.pathname === BASE) {
+      return Response.redirect(url.origin + BASE + '/' + url.search, 308)
+    }
+
+    const rest = url.pathname.slice(BASE.length) || '/'
+
+    // —— 后端区域：所有接口都挂在 /RINACE/api/* ——
+    if (rest.startsWith('/api/')) {
+      if (rest === '/api/health') {
+        return json({ ok: true, service: 'rinace', base: BASE, ts: new Date().toISOString() })
+      }
+      // 预留：/api/standings、/api/race/:slug、/api/sync/mxbei …
+      return json({ error: 'not_found', path: rest }, 404)
+    }
+
+    // —— 静态资源：剥掉前缀后交给 Workers Static Assets ——
+    // 找不到文件时，`not_found_handling = "single-page-application"`
+    // 会回落到 index.html，SPA 深链（/RINACE/mengxin/s5/...）才不会 404。
+    const assetUrl = new URL(request.url)
+    assetUrl.pathname = rest
+    return env.ASSETS.fetch(new Request(assetUrl.toString(), request))
   },
 
   /**
    * 预留：定时任务（wrangler.toml 里加了 [triggers].crons 才会被调用）。
-   * 典型用途：定时抓 mxbei 官方数据、刷新缓存。
    */
   async scheduled(event, env, ctx) {
     ctx.waitUntil(Promise.resolve())

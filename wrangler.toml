@@ -3,6 +3,12 @@
 #
 # ⚠️ name 必须与你控制台里那个 Worker 的实际名字一致，
 #    否则 wrangler 会新建一个同名的 Worker，而不是更新你已有的那个。
+#
+# 访问路径：https://deltanarin.com/RINACE/
+# 挂载方式：在控制台 Worker → Settings → Domains & Routes → Add → Route，
+#           加 deltanarin.com/RINACE 和 deltanarin.com/RINACE/* 两条
+#           （Route 需要对应 DNS 记录存在且开启代理；根域已有站点就不必新建）。
+# 这里**不写 routes**：CI 的 token 未必有改路由的权限，写死会让部署失败。
 name = "eaf1-analysis"
 main = "worker/index.js"
 compatibility_date = "2026-01-01"
