@@ -3,7 +3,7 @@
 #
 # ⚠️ name 必须与你控制台里那个 Worker 的实际名字一致，
 #    否则 wrangler 会新建一个同名的 Worker，而不是更新你已有的那个。
-name = "rinace"
+name = "eaf1-analysis"
 main = "worker/index.js"
 compatibility_date = "2026-01-01"
 compatibility_flags = ["nodejs_compat"]
@@ -17,7 +17,7 @@ not_found_handling = "single-page-application"
 # —— 以后加后端时在这里加绑定 ——
 # [[d1_databases]]
 # binding = "DB"
-# database_name = "rinace"
+# database_name = "eaf1-analysis"
 # database_id = "..."
 #
 # [triggers]
