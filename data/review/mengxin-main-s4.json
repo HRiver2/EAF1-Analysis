@@ -160,8 +160,8 @@
   {
    "key": "penalties",
    "label": "条判罚",
-   "value": 367,
-   "display": "367",
+   "value": 366,
+   "display": "366",
    "lead": "官方判罚表（有效记录）"
   },
   {
@@ -8117,7 +8117,7 @@
   ]
  },
  "wall": {
-  "total": 367,
+  "total": 366,
   "rounds": [
    {
     "round": 1,
@@ -10547,7 +10547,7 @@
    },
    {
     "round": 20,
-    "count": 20,
+    "count": 19,
     "items": [
      {
       "driver": "A380FatLiner",
@@ -10634,14 +10634,6 @@
       "type": "安全分变动",
       "points": -2,
       "reason": "缺席",
-      "remarks": "",
-      "handled_by": "Momokong"
-     },
-     {
-      "driver": "清蒸猫头鹰凉拌菠萝",
-      "type": "安全分变动",
-      "points": -2,
-      "reason": "超出赛道限制>3次/切弯",
       "remarks": "",
       "handled_by": "Momokong"
      },
@@ -11388,6 +11380,26 @@
     "season": 4,
     "race_type": "50%标准赛",
     "fromThisSeason": true
+   },
+   {
+    "track": "德克萨斯",
+    "type": "排位最快圈",
+    "time": "01:32.740",
+    "driver": "Momokong",
+    "round": 3,
+    "season": 5,
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
+   },
+   {
+    "track": "德克萨斯",
+    "type": "正赛最快圈",
+    "time": "01:35.473",
+    "driver": "Momokong",
+    "round": 3,
+    "season": 5,
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
    },
    {
     "track": "拉斯维加斯",

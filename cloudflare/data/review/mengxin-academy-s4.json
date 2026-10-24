@@ -153,8 +153,8 @@
   {
    "key": "penalties",
    "label": "条判罚",
-   "value": 158,
-   "display": "158",
+   "value": 155,
+   "display": "155",
    "lead": "官方判罚表（有效记录）"
   },
   {
@@ -2988,7 +2988,7 @@
      "name": "Sunpayus",
      "value": 2,
      "display": "2 张",
-     "detail": "另有 5 条安全分/荣誉分变动"
+     "detail": "另有 3 条安全分/荣誉分变动"
     },
     {
      "name": "AyatoSeven",
@@ -6932,7 +6932,7 @@
   ]
  },
  "wall": {
-  "total": 158,
+  "total": 155,
   "rounds": [
    {
     "round": 1,
@@ -7582,7 +7582,7 @@
    },
    {
     "round": 6,
-    "count": 17,
+    "count": 16,
     "items": [
      {
       "driver": "Howid",
@@ -7607,14 +7607,6 @@
       "reason": "内线车在弯心前轴已经获得了领先，后车与视频车发生碰撞导致视频车受到影响，由于是第一圈一号弯发生事故减轻处罚",
       "remarks": "",
       "handled_by": "It57"
-     },
-     {
-      "driver": "Sunpayus",
-      "type": "安全分变动",
-      "points": -2,
-      "reason": "超出赛道限制>3次/切弯",
-      "remarks": "",
-      "handled_by": "HayesCC"
      },
      {
       "driver": "UbisoftHongKong",
@@ -7944,7 +7936,7 @@
    },
    {
     "round": 9,
-    "count": 12,
+    "count": 11,
     "items": [
      {
       "driver": "Hamisner",
@@ -7977,14 +7969,6 @@
       "reason": "小红牛超车时内线进行晚刹车因外线红牛AI车辆影响，赛车失控导致追尾前车致其损失大量时间。",
       "remarks": "",
       "handled_by": "yi_hua"
-     },
-     {
-      "driver": "Sunpayus",
-      "type": "安全分变动",
-      "points": -2,
-      "reason": "超出赛道限制>3次/切弯",
-      "remarks": "",
-      "handled_by": "HayesCC"
      },
      {
       "driver": "Webs1te",
@@ -8084,7 +8068,7 @@
    },
    {
     "round": 11,
-    "count": 12,
+    "count": 11,
     "items": [
      {
       "driver": "Er1sed-FOX",
@@ -8104,14 +8088,6 @@
      },
      {
       "driver": "Hamisner",
-      "type": "安全分变动",
-      "points": -2,
-      "reason": "超出赛道限制>3次/切弯",
-      "remarks": "",
-      "handled_by": "HayesCC"
-     },
-     {
-      "driver": "Mercedes '26 #2",
       "type": "安全分变动",
       "points": -2,
       "reason": "超出赛道限制>3次/切弯",
