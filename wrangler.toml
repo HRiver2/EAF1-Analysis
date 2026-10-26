@@ -20,11 +20,22 @@ binding = "ASSETS"
 # SPA：找不到文件时回落到 index.html，深链（/mengxin/s4/review/ 之类）才不会 404
 not_found_handling = "single-page-application"
 
-# —— 以后加后端时在这里加绑定 ——
+# ============================================================
+# 后端（M5 只读 API / M6 管理接口）
+# 设置步骤见 docs/cloudflare-setup.md。D1 建好后取消下面注释并填 database_id，
+# 然后 `npx wrangler d1 execute eaf1-analysis --remote --file=./d1/seed.sql`。
+# 不配 D1 时静态站照常工作，API 返回 503 + hint。
+# ============================================================
 # [[d1_databases]]
 # binding = "DB"
 # database_name = "eaf1-analysis"
-# database_id = "..."
+# database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
 #
+# 管理接口 secrets（wrangler secret put <NAME>）：
+#   ADMIN_TOKEN    —— /api/admin/* 的 Bearer token
+#   GITHUB_TOKEN   —— 可选，/api/admin/rebuild 发 repository_dispatch
+#   GITHUB_REPO    —— 可选，默认 HRiver2/EAF1-Analysis
+#
+# Access 建议保护 deltanarin.com/RINACE/api/admin/*（Zero Trust → Access）。
 # [triggers]
-# crons = ["0 * * * *"]
+# crons = ["0 * * * *"]   # 默认不用：同步按"每场比赛"手动触发
