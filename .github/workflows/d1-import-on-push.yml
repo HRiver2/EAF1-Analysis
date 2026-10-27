@@ -1,0 +1,44 @@
+# 每次发布只要 d1/seed.sql 变了，就自动导入 Cloudflare D1。
+#
+# 需要的仓库 Secrets（Settings → Secrets and variables → Actions）：
+#   CLOUDFLARE_API_TOKEN  —— 模板 Edit Cloudflare Workers（或至少 D1 Edit）
+#   CLOUDFLARE_ACCOUNT_ID —— 控制台账户概览可查
+#
+# 没配 secrets 时不会失败：只打一条 warning 然后跳过。
+# 这样 d1/seed.sql 每次 regen 更新（带生成时间戳）都会自动同步到线上 API。
+
+name: D1 auto import (seed change)
+
+on:
+  push:
+    paths:
+      - 'd1/seed.sql'
+  workflow_dispatch:
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Import d1/seed.sql
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          if [ -z "${CLOUDFLARE_API_TOKEN:-}" ] || [ -z "${CLOUDFLARE_ACCOUNT_ID:-}" ]; then
+            echo "::warning::CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID 未配置，跳过 D1 自动导入"
+            exit 0
+          fi
+          test -f d1/seed.sql
+          ls -lh d1/seed.sql
+          npx --yes wrangler@latest d1 execute eaf1-analysis --remote --file=./d1/seed.sql
+          echo "✅ d1/seed.sql imported"
