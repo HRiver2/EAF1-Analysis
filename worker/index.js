@@ -341,13 +341,30 @@ async function adminStatus(env) {
 }
 
 async function mxbQuery(env, body) {
+  // MXB 是 Cloudflare 后面的站点，Worker 直连时如果头太像脚本会被 WAF 拦
+  // （实测：返回 200 但 data 为空 / 403）。带齐 Origin/Referer/Accept 更稳。
   const r = await fetch('https://mxbei.com/api/query', {
     method: 'POST',
-    headers: { 'content-type': 'application/json', 'user-agent': 'RINACE-Worker/1.0' },
+    headers: {
+      'content-type': 'application/json',
+      accept: 'application/json, text/plain, */*',
+      'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+      origin: 'https://mxbei.com',
+      referer: 'https://mxbei.com/',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
+                    '(KHTML, like Gecko) Chrome/131.0 Safari/537.36 RINACE/1.0',
+    },
     body: JSON.stringify(body),
   })
-  if (!r.ok) throw new HttpError(502, 'mxbei_query_failed', `HTTP ${r.status}`)
-  const d = await r.json()
+  const text = await r.text()
+  if (!r.ok) throw new HttpError(502, 'mxbei_query_failed', `HTTP ${r.status}: ${text.slice(0, 180)}`)
+  let d = null
+  try {
+    d = JSON.parse(text)
+  } catch (e) {
+    throw new HttpError(502, 'mxbei_bad_json', text.slice(0, 180))
+  }
+  if (d && d.error) throw new HttpError(502, 'mxbei_api_error', String(d.error).slice(0, 180))
   return d && Array.isArray(d.data) ? d.data : []
 }
 
@@ -379,6 +396,10 @@ async function adminSyncMxbei(request, env) {
                   { field: 'round', op: 'eq', value: round }],
       })
       if (race) {
+        if (!results.length) {
+          throw new HttpError(502, 'mxbei_empty_results',
+            'MXB 返回 0 条成绩，已保留 D1 旧数据（可能是 WAF/接口变化）')
+        }
         // 幂等：重抓同一场先清旧行，避免成绩越同步越多
         await run(env, 'DELETE FROM race_results WHERE race_slug = ?', race.slug)
         for (const r of results) {
@@ -396,8 +417,10 @@ async function adminSyncMxbei(request, env) {
         filters: [{ field: 'season', op: 'eq', value: Number(season) },
                   { field: 'round', op: 'eq', value: round }],
       })
-      await run(env, 'DELETE FROM penalties WHERE source = ? AND league = ? AND season = ? AND round = ?',
-                'mxbei', league, season, round)
+      if (penalties.length) {
+        await run(env, 'DELETE FROM penalties WHERE source = ? AND league = ? AND season = ? AND round = ?',
+                  'mxbei', league, season, round)
+      }
       for (const p of penalties) {
         const info = await first(env, 'SELECT id FROM drivers WHERE name = ?', p.driver)
         await run(env, `INSERT INTO penalties (source, league, season, round, driver, driver_id, type, reason, points, handled_by, protest_id, created_at)
@@ -407,13 +430,31 @@ async function adminSyncMxbei(request, env) {
                   p.protest_id || null, new Date().toISOString())
       }
     } else {
-      const res = await fetch(`https://mxbei.com/api/secondary/rounds/${round}?season=${season}`,
-                              { headers: { 'user-agent': 'RINACE-Worker/1.0' } })
-      if (!res.ok) throw new HttpError(502, 'mxbei_academy_failed')
-      const payload = await res.json()
+      const res = await fetch(`https://mxbei.com/api/secondary/rounds/${round}?season=${season}`, {
+        headers: {
+          accept: 'application/json, text/plain, */*',
+          'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+          origin: 'https://mxbei.com',
+          referer: 'https://mxbei.com/',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
+                        '(KHTML, like Gecko) Chrome/131.0 Safari/537.36 RINACE/1.0',
+        },
+      })
+      const resText = await res.text()
+      if (!res.ok) throw new HttpError(502, 'mxbei_academy_failed', `HTTP ${res.status}: ${resText.slice(0, 180)}`)
+      let payload = null
+      try {
+        payload = JSON.parse(resText)
+      } catch (e) {
+        throw new HttpError(502, 'mxbei_bad_json', resText.slice(0, 180))
+      }
+      if (payload && payload.error) throw new HttpError(502, 'mxbei_api_error', String(payload.error).slice(0, 180))
       const data = payload && payload.data ? payload.data : (payload || {})
       const results = Array.isArray(data.results) ? data.results : []
       if (race) {
+        if (!results.length) {
+          throw new HttpError(502, 'mxbei_empty_results', 'MXB 返回 0 条成绩，已保留 D1 旧数据')
+        }
         await run(env, 'DELETE FROM race_results WHERE race_slug = ?', race.slug)
         for (const r of results) {
           const name = r.driver_id || r.name || r.username
