@@ -331,6 +331,7 @@ async function apiSearch(env, url) {
 
 async function adminStatus(env) {
   const rows = await all(env, `SELECT (SELECT COUNT(*) FROM races) AS races,
+                                      (SELECT COUNT(*) FROM race_results) AS results,
                                       (SELECT COUNT(*) FROM drivers) AS drivers,
                                       (SELECT COUNT(*) FROM penalties) AS penalties,
                                       (SELECT COUNT(*) FROM ratings) AS ratings,
@@ -359,11 +360,16 @@ async function adminSyncMxbei(request, env) {
   }
   const league = 'mengxin'
   const division = body.division === 'academy' ? 'academy' : 'main'
-  const season = String(body.season || '')
+  const seasonRaw = String(body.season || '').trim()
   const round = num(body.round)
-  if (!season || round === null) throw new HttpError(400, 'season_and_round_required')
-  const race = await first(env, 'SELECT * FROM races WHERE league = ? AND division = ? AND season = ? AND round = ?',
-                           league, division, season, round)
+  if (!seasonRaw || round === null) throw new HttpError(400, 'season_and_round_required')
+  // 站内赛季 id 是 's5'，官网 API 传的是数字 5；两种都查，避免同步时找不到 race 行
+  const seasons = /^\d+$/.test(seasonRaw) ? [seasonRaw, 's' + seasonRaw] : [seasonRaw]
+  const placeholders = seasons.map(() => '?').join(', ')
+  const race = await first(env,
+    `SELECT * FROM races WHERE league = ? AND division = ? AND season IN (${placeholders}) AND round = ?`,
+    league, division, ...seasons, round)
+  const season = seasons[seasons.length - 1]  // 日志里用站内口径（s5）
   let inserted = 0
   try {
     if (division === 'main') {
@@ -373,6 +379,8 @@ async function adminSyncMxbei(request, env) {
                   { field: 'round', op: 'eq', value: round }],
       })
       if (race) {
+        // 幂等：重抓同一场先清旧行，避免成绩越同步越多
+        await run(env, 'DELETE FROM race_results WHERE race_slug = ?', race.slug)
         for (const r of results) {
           const info = await first(env, 'SELECT id FROM drivers WHERE name = ?', r.driver_id)
           await run(env, `INSERT INTO race_results (race_slug, pos, driver_id, name, team, grid, status, dnf, points, best)
@@ -388,6 +396,8 @@ async function adminSyncMxbei(request, env) {
         filters: [{ field: 'season', op: 'eq', value: Number(season) },
                   { field: 'round', op: 'eq', value: round }],
       })
+      await run(env, 'DELETE FROM penalties WHERE source = ? AND league = ? AND season = ? AND round = ?',
+                'mxbei', league, season, round)
       for (const p of penalties) {
         const info = await first(env, 'SELECT id FROM drivers WHERE name = ?', p.driver)
         await run(env, `INSERT INTO penalties (source, league, season, round, driver, driver_id, type, reason, points, handled_by, protest_id, created_at)
@@ -400,11 +410,41 @@ async function adminSyncMxbei(request, env) {
       const res = await fetch(`https://mxbei.com/api/secondary/rounds/${round}?season=${season}`,
                               { headers: { 'user-agent': 'RINACE-Worker/1.0' } })
       if (!res.ok) throw new HttpError(502, 'mxbei_academy_failed')
-      const data = await res.json()
-      inserted = Array.isArray(data.results) ? data.results.length : 0
+      const payload = await res.json()
+      const data = payload && payload.data ? payload.data : (payload || {})
+      const results = Array.isArray(data.results) ? data.results : []
+      if (race) {
+        await run(env, 'DELETE FROM race_results WHERE race_slug = ?', race.slug)
+        for (const r of results) {
+          const name = r.driver_id || r.name || r.username
+          if (!name) continue
+          const info = await first(env, 'SELECT id FROM drivers WHERE name = ?', name)
+          await run(env, `INSERT INTO race_results (race_slug, pos, driver_id, name, team, grid, status, dnf, points, best)
+                          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+                    race.slug, r.final_position ?? null, info ? info.id : null, name,
+                    r.car ?? null, r.quali_position ?? null, r.finish_status ?? 'FINISHED',
+                    r.final_position == null ? 1 : 0, r.points ?? null, r.race_time ?? null)
+          inserted += 1
+        }
+      }
+      const pens = Array.isArray(data.penalties) ? data.penalties : []
+      if (pens.length) {
+        await run(env, 'DELETE FROM penalties WHERE source = ? AND league = ? AND season = ? AND round = ?',
+                  'mxbei', league, season, round)
+        for (const p of pens) {
+          const name = p.driver || p.driver_id || p.username
+          const info = name ? await first(env, 'SELECT id FROM drivers WHERE name = ?', name) : null
+          await run(env, `INSERT INTO penalties (source, league, season, round, driver, driver_id, type, reason, points, handled_by, protest_id, created_at)
+                          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+                    'mxbei', league, season, round, name || null, info ? info.id : null,
+                    p.type || null, p.reason || null, p.points ?? null, p.handled_by || null,
+                    p.protest_id || null, new Date().toISOString())
+        }
+      }
     }
     await logSync(env, 'mxbei', `${league}/${division}/${season}/R${round}: ${inserted} results`, true)
-    return { data: { ok: true, race: race ? race.slug : null, results: inserted } }
+    return { data: { ok: true, race: race ? race.slug : null, results: inserted,
+                    note: race ? '已写入 race_results（重抓幂等）' : 'D1 里没有对应 race 行，只写日志' } }
   } catch (e) {
     await logSync(env, 'mxbei', `sync failed: ${String(e.message || e)}`, false)
     throw e
