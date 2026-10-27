@@ -539,7 +539,8 @@ async function handleApi(request, env, ctx, rest) {
   return cached(request, ctx, async () => {
     try {
       if (rest === '/api/health') {
-        return publicJson({ ok: true, service: 'rinace', db: env.DB ? 'ok' : 'missing', ts: new Date().toISOString() })
+        return publicJson({ ok: true, service: 'rinace', db: env.DB ? 'ok' : 'missing',
+                            rev: '2026-10-27-sync-v2', ts: new Date().toISOString() })
       }
       if (rest === '/api/v1/health') return publicJson({ ok: true, db: env.DB ? 'ok' : 'missing' })
       if (rest === '/api/v1/meta') return publicJson(await apiMeta(env))
