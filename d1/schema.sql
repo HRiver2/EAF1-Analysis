@@ -65,6 +65,7 @@ CREATE TABLE races (
   scoring INTEGER,
   result_only INTEGER,
   has_analysis INTEGER,
+  has_official INTEGER,
   path TEXT
 );
 CREATE INDEX idx_races_league ON races(league, division, season, round);
@@ -82,7 +83,8 @@ CREATE TABLE race_results (
   status TEXT,
   dnf INTEGER,
   points REAL,
-  best TEXT
+  best TEXT,
+  source TEXT
 );
 CREATE INDEX idx_rr_race ON race_results(race_slug, pos);
 CREATE INDEX idx_rr_driver ON race_results(driver_id);

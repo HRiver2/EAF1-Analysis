@@ -149,7 +149,7 @@ function raceOut(r) {
     round: r.round, date: r.date, time: r.time, track: r.track, trackId: r.track_id,
     sessionLabel: r.session_label, winner: r.winner, fieldSize: r.field_size,
     laps: r.laps, scoring: !!r.scoring, resultOnly: !!r.result_only,
-    hasAnalysis: !!r.has_analysis, path: r.path,
+    hasAnalysis: !!r.has_analysis, hasOfficial: !!r.has_official, path: r.path,
     analysisUrl: `/data/races/${r.slug}.json`,
   }
 }
@@ -180,7 +180,7 @@ async function apiRace(env, slug) {
   const race = await first(env, 'SELECT * FROM races WHERE slug = ?', slug)
   if (!race) throw new HttpError(404, 'race_not_found')
   const results = await all(env,
-    'SELECT pos, driver_id, name, team, grid, status, dnf, points, best FROM race_results ' +
+    'SELECT pos, driver_id, name, team, grid, status, dnf, points, best, source FROM race_results ' +
     'WHERE race_slug = ? ORDER BY CASE WHEN pos IS NULL THEN 999 ELSE pos END', slug)
   return { data: { ...raceOut(race), results } }
 }
