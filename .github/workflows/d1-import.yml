@@ -1,0 +1,46 @@
+# 手动把仓库里的 d1/seed.sql 导入 Cloudflare D1。
+#
+# 为什么需要它：`d1/seed.sql` 每次站点发布都会重新生成（约 1.1 MB），
+# 在控制台 D1 Console 里粘贴不现实，本地也不一定想装 Node。
+#
+# 一次性准备（仓库 Settings → Secrets and variables → Actions）：
+#   CLOUDFLARE_API_TOKEN  —— 模板：Edit Cloudflare Workers（或至少 D1 Edit）
+#   CLOUDFLARE_ACCOUNT_ID —— 控制台右侧/账户概览里可以找到
+#
+# 用法：Actions → “D1 import (seed)” → Run workflow。
+# 每次站点数据更新（d1/seed.sql 变了）后跑一次即可。
+
+name: D1 import (seed)
+
+on:
+  workflow_dispatch:
+    inputs:
+      database:
+        description: 'D1 数据库名称'
+        required: true
+        default: 'eaf1-analysis'
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Import d1/seed.sql
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          DB_NAME: ${{ github.event.inputs.database }}
+        run: |
+          set -euo pipefail
+          test -f d1/seed.sql
+          ls -lh d1/seed.sql
+          npx --yes wrangler@latest d1 execute "$DB_NAME" --remote --file=./d1/seed.sql
+          echo "✅ seed imported into $DB_NAME"
