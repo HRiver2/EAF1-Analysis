@@ -1,14 +1,12 @@
 # RINACE · Cloudflare Workers 部署配置
 # 静态站点 + Worker 入口（/api/* 留给后端，其余交给 Static Assets）。
 #
-# ⚠️ name 必须与你控制台里那个 Worker 的实际名字一致，
-#    否则 wrangler 会新建一个同名的 Worker，而不是更新你已有的那个。
+# 本文件由 _audit/regen.py 根据 config/cloudflare.json 生成，别手改
+# （手改会在下次发布时被覆盖）。
 #
-# 访问路径：https://deltanarin.com/RINACE/
-# 挂载方式：在控制台 Worker → Settings → Domains & Routes → Add → Route，
-#           加 deltanarin.com/RINACE 和 deltanarin.com/RINACE/* 两条
-#           （Route 需要对应 DNS 记录存在且开启代理；根域已有站点就不必新建）。
-# 这里**不写 routes**：CI 的 token 未必有改路由的权限，写死会让部署失败。
+# name 必须与控制台里 Worker 的实际名字一致。
+# 访问：https://deltanarin.com/RINACE/
+# 挂载：Worker → Settings → Domains & Routes → Route: deltanarin.com/RINACE/*
 name = "eaf1-analysis"
 main = "worker/index.js"
 compatibility_date = "2026-01-01"
@@ -17,20 +15,18 @@ compatibility_flags = ["nodejs_compat"]
 [assets]
 directory = "./cloudflare"
 binding = "ASSETS"
-# SPA：找不到文件时回落到 index.html，深链（/mengxin/s4/review/ 之类）才不会 404
 not_found_handling = "single-page-application"
 
 # ============================================================
 # 后端（M5 只读 API / M6 管理接口）
-# 设置步骤见 docs/cloudflare-setup.md。D1 建好后取消下面注释并填 database_id，
-# 然后 `npx wrangler d1 execute eaf1-analysis --remote --file=./d1/seed.sql`。
-# 不配 D1 时静态站照常工作，API 返回 503 + hint。
+# D1 数据用 d1/seed.sql 导入（Actions → D1 import (seed)，
+# 或 npx wrangler d1 execute ... --remote --file=./d1/seed.sql）。
 # ============================================================
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "eaf1-analysis"
-# database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
-#
+[[d1_databases]]
+binding = "DB"
+database_name = "eaf1-analysis"
+database_id = "a2eab2f9-823e-4855-bb02-dd8c56df9685"
+
 # 管理接口 secrets（wrangler secret put <NAME>）：
 #   ADMIN_TOKEN    —— /api/admin/* 的 Bearer token
 #   GITHUB_TOKEN   —— 可选，/api/admin/rebuild 发 repository_dispatch
