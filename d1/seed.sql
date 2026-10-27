@@ -1,5 +1,5 @@
 -- RINACE D1 seed（由 app/tools/build_d1_seed.py 生成，勿手改）
--- generated: 2026-10-27T19:37:51+08:00
+-- generated: 2026-10-27T19:51:52+08:00
 
 -- RINACE D1 schema
 -- 与 `_audit/build_d1_seed.py` 生成的 seed.sql 配套。
@@ -181,6 +181,7 @@ INSERT OR REPLACE INTO meta (key, value) VALUES ('generated_at', '2026-10-27T19:
 INSERT OR REPLACE INTO meta (key, value) VALUES ('races', 78);
 INSERT OR REPLACE INTO meta (key, value) VALUES ('drivers', 440);
 INSERT OR REPLACE INTO meta (key, value) VALUES ('seasons', 8);
+INSERT OR REPLACE INTO meta (key, value) VALUES ('seed_generated_at', '2026-10-27T19:51:52+08:00');
 
 INSERT OR REPLACE INTO leagues (id, name, short, path) VALUES ('mengxin', '凛音·萌新杯', '萌新杯', '/mengxin/');
 INSERT OR REPLACE INTO leagues (id, name, short, path) VALUES ('huaili', '花理乐享系列赛', '花理乐享', '/huaili/');
