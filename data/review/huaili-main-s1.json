@@ -2466,10 +2466,10 @@
        "labels": [
         "DingJ.MR",
         "R_ATPER2",
-        "Arrebol",
         "TianQi-LN4",
-        "defect",
-        "Kagamine RIN"
+        "Arrebol",
+        "Kagamine RIN",
+        "defect"
        ],
        "datasets": [
         {
@@ -2549,28 +2549,6 @@
      "rows": [
       [
        {
-        "html": "Arrebol",
-        "cls": "left"
-       },
-       {
-        "html": "2",
-        "cls": "n"
-       },
-       {
-        "html": "5",
-        "cls": "n"
-       },
-       {
-        "html": "0",
-        "cls": "n"
-       },
-       {
-        "html": "8",
-        "cls": "n"
-       }
-      ],
-      [
-       {
         "html": "TianQi-LN4",
         "cls": "left"
        },
@@ -2610,6 +2588,28 @@
        },
        {
         "html": "7",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "8",
         "cls": "n"
        }
       ],
@@ -2703,28 +2703,6 @@
       ],
       [
        {
-        "html": "Elaina",
-        "cls": "left"
-       },
-       {
-        "html": "0",
-        "cls": "n"
-       },
-       {
-        "html": "1",
-        "cls": "n"
-       },
-       {
-        "html": "0",
-        "cls": "n"
-       },
-       {
-        "html": "9",
-        "cls": "n"
-       }
-      ],
-      [
-       {
         "html": "TS",
         "cls": "left"
        },
@@ -2747,11 +2725,11 @@
       ],
       [
        {
-        "html": "defect",
+        "html": "Aisu",
         "cls": "left"
        },
        {
-        "html": "1",
+        "html": "0",
         "cls": "n"
        },
        {
@@ -2763,13 +2741,13 @@
         "cls": "n"
        },
        {
-        "html": "1",
+        "html": "5",
         "cls": "n"
        }
       ],
       [
        {
-        "html": "MFGA",
+        "html": "ColorFirst",
         "cls": "left"
        },
        {
@@ -2781,17 +2759,39 @@
         "cls": "n"
        },
        {
-        "html": "1",
+        "html": "0",
         "cls": "n"
        },
        {
-        "html": "1",
+        "html": "5",
         "cls": "n"
        }
       ],
       [
        {
         "html": "p1MAX-VERSTAPPEN",
+        "cls": "left"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Henry",
         "cls": "left"
        },
        {
@@ -4557,6 +4557,12 @@
        }
       ]
      ]
+    },
+    {
+     "type": "quote",
+     "text": "冲刺赛看，919-Tench.L、MFGA、capital；正赛看，DingJ.MR、R_ATPER2、TianQi-LN4。换 26 车之后场均提升最多的是 R_ATPER2、TianQi-LN4、Elaina，25 车段更强的是 zzzz、Juice、Arrebol。",
+     "by": "数据注",
+     "kicker": "一句话结论"
     }
    ]
   },
@@ -5688,7 +5694,7 @@
         "html": "最多领奖台"
        },
        {
-        "html": "Arrebol 5、TianQi-LN4 5、R_ATPER2 5",
+        "html": "TianQi-LN4 5、R_ATPER2 5、Arrebol 5",
         "cls": "left"
        }
       ],
