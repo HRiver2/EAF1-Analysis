@@ -974,7 +974,7 @@
    "id": "trend",
    "eyebrow": "积分走势",
    "title": "领先位置换了 2 次，冠军最多落后过 69 分",
-   "lead": "前六名的曲线和每站之后的排名都放在这一节。TianQi-LN4 在 R4 之后开始持续追分，最后以 <b>150 分</b>完赛。",
+   "lead": "前六名的曲线、每站之后的排名、以及榜首与第二的差距都放在这一节。TianQi-LN4 在 R4 之后开始持续追分，最后以 <b>150 分</b>完赛。",
    "blocks": [
     {
      "type": "subhead",
@@ -984,7 +984,7 @@
      "type": "chart",
      "title": "",
      "note": "累计积分；R11/R12 含计分资格赛。",
-     "height": 340,
+     "height": 320,
      "config": {
       "type": "line",
       "data": {
@@ -1707,51 +1707,217 @@
     },
     {
      "type": "subhead",
-     "text": "每站榜首与最大名次变化"
+     "text": "榜首与第二的积分差"
+    },
+    {
+     "type": "chart",
+     "title": "",
+     "note": "每站结束后，第 1 名减第 2 名；0 附近的那一站就是榜首易主。",
+     "height": 240,
+     "config": {
+      "type": "line",
+      "data": {
+       "labels": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "R11",
+        "R12"
+       ],
+       "datasets": [
+        {
+         "label": "领先差",
+         "data": [
+          10,
+          20,
+          13,
+          38,
+          13,
+          7,
+          7,
+          3,
+          3,
+          4,
+          30,
+          40
+         ],
+         "borderColor": "#0a5abe",
+         "backgroundColor": "#0a5abe",
+         "tension": 0.3,
+         "pointRadius": 2,
+         "borderWidth": 2
+        }
+       ]
+      },
+      "options": {
+       "responsive": true,
+       "maintainAspectRatio": false,
+       "plugins": {
+        "legend": {
+         "display": true,
+         "labels": {
+          "color": "#5b6b7f",
+          "boxWidth": 12
+         }
+        }
+       },
+       "scales": {
+        "x": {
+         "grid": {
+          "display": false
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        },
+        "y": {
+         "grid": {
+          "color": "#dfe6ee"
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        }
+       }
+      }
+     },
+     "kicker": "图 02"
+    }
+   ]
+  },
+  {
+   "id": "roundboard",
+   "eyebrow": "每一站之后",
+   "title": "12 站，12 次积分榜重排",
+   "lead": "从 R1 到 R12，每一站赛后都单独列一遍前五：谁在领跑、谁在追、谁在这一站把名次换了。",
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "R1 · 蒙扎 · DingJ.MR"
+    },
+    {
+     "type": "note",
+     "html": "<b>R1 蒙扎</b>：DingJ.MR 赢下本站；领奖台 DingJ.MR / p1MAX-VERSTAPPEN / Arrebol。赛后 DingJ.MR 以 25 分领跑，领先 10 分。 本站积分最高的是 DingJ.MR（+25）；积分榜上升最多 —，下滑最多 —。"
     },
     {
      "type": "table",
      "cols": [
       {
-       "label": "轮次",
+       "label": "名次",
        "align": "n"
       },
       {
-       "label": "赛道",
+       "label": "车手",
        "align": "left"
       },
       {
-       "label": "领跑者",
-       "align": "left"
-      },
-      {
-       "label": "领先差",
+       "label": "积分",
        "align": "n"
       },
       {
-       "label": "最大上升",
-       "align": "left"
+       "label": "上站",
+       "align": "n"
       },
       {
-       "label": "最大下滑",
-       "align": "left"
+       "label": "本站变化",
+       "align": "n"
       },
       {
-       "label": "本站最高分",
-       "align": "left"
+       "label": "本站得分",
+       "align": "n"
       }
      ],
      "rows": [
       [
        {
-        "html": "R1",
+        "html": "1",
         "cls": "n"
        },
        {
-        "html": "蒙扎"
+        "html": "DingJ.MR",
+        "cls": "left"
        },
        {
-        "html": "DingJ.MR 25"
+        "html": "25",
+        "cls": "n"
+       },
+       {
+        "html": "—",
+        "cls": "n"
+       },
+       {
+        "html": "首站"
+       },
+       {
+        "html": "+25",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "15",
+        "cls": "n"
+       },
+       {
+        "html": "—",
+        "cls": "n"
+       },
+       {
+        "html": "首站"
+       },
+       {
+        "html": "+15",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "氮氣Nirtrogen",
+        "cls": "left"
+       },
+       {
+        "html": "12",
+        "cls": "n"
+       },
+       {
+        "html": "—",
+        "cls": "n"
+       },
+       {
+        "html": "首站"
+       },
+       {
+        "html": "+12",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "Black Ghost",
+        "cls": "left"
        },
        {
         "html": "10",
@@ -1759,314 +1925,1876 @@
        },
        {
         "html": "—",
-        "cls": "up"
+        "cls": "n"
        },
        {
-        "html": "—",
-        "cls": "dn"
+        "html": "首站"
        },
        {
-        "html": "DingJ.MR (+25)"
+        "html": "+10",
+        "cls": "n"
        }
       ],
       [
        {
-        "html": "R2",
+        "html": "5",
         "cls": "n"
        },
        {
-        "html": "上海"
-       },
-       {
-        "html": "DingJ.MR 50"
-       },
-       {
-        "html": "20",
-        "cls": "n"
-       },
-       {
-        "html": "Juice (+4)",
-        "cls": "up"
-       },
-       {
-        "html": "Black Ghost (-2)",
-        "cls": "dn"
-       },
-       {
-        "html": "DingJ.MR (+25)"
-       }
-      ],
-      [
-       {
-        "html": "R3",
-        "cls": "n"
-       },
-       {
-        "html": "墨西哥"
-       },
-       {
-        "html": "DingJ.MR 68"
-       },
-       {
-        "html": "13",
-        "cls": "n"
-       },
-       {
-        "html": "WuHen (+7)",
-        "cls": "up"
-       },
-       {
-        "html": "Kagamine RIN (-2)",
-        "cls": "dn"
-       },
-       {
-        "html": "Arrebol (+25)"
-       }
-      ],
-      [
-       {
-        "html": "R4",
-        "cls": "n"
-       },
-       {
-        "html": "斯帕"
-       },
-       {
-        "html": "DingJ.MR 93"
-       },
-       {
-        "html": "38",
-        "cls": "n"
-       },
-       {
-        "html": "TianQi-LN4 (+2)",
-        "cls": "up"
-       },
-       {
-        "html": "WuHen (-4)",
-        "cls": "dn"
-       },
-       {
-        "html": "DingJ.MR (+25)"
-       }
-      ],
-      [
-       {
-        "html": "R5",
-        "cls": "n"
-       },
-       {
-        "html": "墨尔本"
-       },
-       {
-        "html": "DingJ.MR 93"
-       },
-       {
-        "html": "13",
-        "cls": "n"
-       },
-       {
-        "html": "919-Tench.L (+1)",
-        "cls": "up"
-       },
-       {
-        "html": "Black Ghost (-1)",
-        "cls": "dn"
-       },
-       {
-        "html": "Arrebol (+25)"
-       }
-      ],
-      [
-       {
-        "html": "R6",
-        "cls": "n"
-       },
-       {
-        "html": "巴林"
-       },
-       {
-        "html": "DingJ.MR 105"
-       },
-       {
-        "html": "7",
-        "cls": "n"
-       },
-       {
-        "html": "R_ATPER2 (+4)",
-        "cls": "up"
-       },
-       {
-        "html": "919-Tench.L (-1)",
-        "cls": "dn"
-       },
-       {
-        "html": "R_ATPER2 (+25)"
-       }
-      ],
-      [
-       {
-        "html": "R7",
-        "cls": "n"
-       },
-       {
-        "html": "奥地利"
-       },
-       {
-        "html": "DingJ.MR 105"
-       },
-       {
-        "html": "7",
-        "cls": "n"
-       },
-       {
-        "html": "Kagamine RIN (+3)",
-        "cls": "up"
-       },
-       {
-        "html": "氮氣Nirtrogen (-2)",
-        "cls": "dn"
-       },
-       {
-        "html": "Kagamine RIN (+25)"
-       }
-      ],
-      [
-       {
-        "html": "R8",
-        "cls": "n"
-       },
-       {
-        "html": "银石"
-       },
-       {
-        "html": "Arrebol 108"
-       },
-       {
-        "html": "3",
-        "cls": "n"
-       },
-       {
-        "html": "氮氣Nirtrogen (+1)",
-        "cls": "up"
-       },
-       {
-        "html": "Juice (-2)",
-        "cls": "dn"
-       },
-       {
-        "html": "R_ATPER2 (+25)"
-       }
-      ],
-      [
-       {
-        "html": "R9",
-        "cls": "n"
-       },
-       {
-        "html": "奥斯汀"
-       },
-       {
-        "html": "Arrebol 108"
-       },
-       {
-        "html": "3",
-        "cls": "n"
-       },
-       {
-        "html": "Kagamine RIN (+2)",
-        "cls": "up"
-       },
-       {
-        "html": "919-Tench.L (-3)",
-        "cls": "dn"
-       },
-       {
-        "html": "R_ATPER2 (+25)"
-       }
-      ],
-      [
-       {
-        "html": "R10",
-        "cls": "n"
-       },
-       {
-        "html": "铃鹿"
-       },
-       {
-        "html": "TianQi-LN4 112"
+        "html": "TianQi-LN4",
+        "cls": "left"
        },
        {
         "html": "4",
         "cls": "n"
        },
        {
-        "html": "TianQi-LN4 (+3)",
-        "cls": "up"
+        "html": "—",
+        "cls": "n"
        },
        {
-        "html": "Arrebol (-1)",
-        "cls": "dn"
+        "html": "首站"
        },
        {
-        "html": "TianQi-LN4 (+25)"
+        "html": "+4",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "R2 · 上海 · DingJ.MR"
+    },
+    {
+     "type": "note",
+     "html": "<b>R2 上海</b>：DingJ.MR 赢下本站；领奖台 DingJ.MR / Juice / Arrebol。赛后 DingJ.MR 以 50 分领跑，领先 20 分。 本站积分最高的是 DingJ.MR（+25）；积分榜上升最多 Juice（+4），下滑最多 Black Ghost（-2）。"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "名次",
+       "align": "n"
+      },
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "积分",
+       "align": "n"
+      },
+      {
+       "label": "上站",
+       "align": "n"
+      },
+      {
+       "label": "本站变化",
+       "align": "n"
+      },
+      {
+       "label": "本站得分",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "50",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+25",
+        "cls": "n"
        }
       ],
       [
        {
-        "html": "R11",
+        "html": "2",
         "cls": "n"
        },
        {
-        "html": "吉达"
-       },
-       {
-        "html": "TianQi-LN4 138"
+        "html": "Arrebol",
+        "cls": "left"
        },
        {
         "html": "30",
         "cls": "n"
        },
        {
-        "html": "WuHen (+2)",
-        "cls": "up"
+        "html": "P2",
+        "cls": "n"
        },
        {
-        "html": "Black Ghost (-1)",
-        "cls": "dn"
+        "html": "—"
        },
        {
-        "html": "Kagamine RIN (+33)"
+        "html": "+15",
+        "cls": "n"
        }
       ],
       [
        {
-        "html": "R12",
+        "html": "3",
         "cls": "n"
        },
        {
-        "html": "阿布扎比"
+        "html": "氮氣Nirtrogen",
+        "cls": "left"
        },
        {
-        "html": "TianQi-LN4 150"
-       },
-       {
-        "html": "40",
+        "html": "24",
         "cls": "n"
        },
        {
-        "html": "defect (+4)",
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+12",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "Juice",
+        "cls": "left"
+       },
+       {
+        "html": "18",
+        "cls": "n"
+       },
+       {
+        "html": "P8",
+        "cls": "n"
+       },
+       {
+        "html": "↑4",
         "cls": "up"
        },
        {
-        "html": "Black Ghost (-2)",
-        "cls": "dn"
+        "html": "+18",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "5",
+        "cls": "n"
        },
        {
-        "html": "defect (+40)"
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "14",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+10",
+        "cls": "n"
        }
       ]
      ]
+    },
+    {
+     "type": "subhead",
+     "text": "R3 · 墨西哥 · Arrebol"
+    },
+    {
+     "type": "note",
+     "html": "<b>R3 墨西哥</b>：Arrebol 赢下本站；领奖台 Arrebol / DingJ.MR / WuHen。赛后 DingJ.MR 以 68 分领跑，领先 13 分。 本站积分最高的是 Arrebol（+25）；积分榜上升最多 WuHen（+7），下滑最多 Kagamine RIN（-2）。"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "名次",
+       "align": "n"
+      },
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "积分",
+       "align": "n"
+      },
+      {
+       "label": "上站",
+       "align": "n"
+      },
+      {
+       "label": "本站变化",
+       "align": "n"
+      },
+      {
+       "label": "本站得分",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "68",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+18",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "55",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+25",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "氮氣Nirtrogen",
+        "cls": "left"
+       },
+       {
+        "html": "24",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "Juice",
+        "cls": "left"
+       },
+       {
+        "html": "18",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "WuHen",
+        "cls": "left"
+       },
+       {
+        "html": "15",
+        "cls": "n"
+       },
+       {
+        "html": "P12",
+        "cls": "n"
+       },
+       {
+        "html": "↑7",
+        "cls": "up"
+       },
+       {
+        "html": "+15",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "R4 · 斯帕 · DingJ.MR"
+    },
+    {
+     "type": "note",
+     "html": "<b>R4 斯帕</b>：DingJ.MR 赢下本站；领奖台 DingJ.MR / Juice / R_ATPER2。赛后 DingJ.MR 以 93 分领跑，领先 38 分。 本站积分最高的是 DingJ.MR（+25）；积分榜上升最多 TianQi-LN4（+2），下滑最多 WuHen（-4）。"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "名次",
+       "align": "n"
+      },
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "积分",
+       "align": "n"
+      },
+      {
+       "label": "上站",
+       "align": "n"
+      },
+      {
+       "label": "本站变化",
+       "align": "n"
+      },
+      {
+       "label": "本站得分",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "93",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+25",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "55",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "Juice",
+        "cls": "left"
+       },
+       {
+        "html": "36",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "↑1",
+        "cls": "up"
+       },
+       {
+        "html": "+18",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "24",
+        "cls": "n"
+       },
+       {
+        "html": "P6",
+        "cls": "n"
+       },
+       {
+        "html": "↑2",
+        "cls": "up"
+       },
+       {
+        "html": "+10",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "氮氣Nirtrogen",
+        "cls": "left"
+       },
+       {
+        "html": "24",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "↓2",
+        "cls": "dn"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "R5 · 墨尔本 · Arrebol"
+    },
+    {
+     "type": "note",
+     "html": "<b>R5 墨尔本</b>：Arrebol 赢下本站；领奖台 Arrebol / Juice / TianQi-LN4。赛后 DingJ.MR 以 93 分领跑，领先 13 分。 本站积分最高的是 Arrebol（+25）；积分榜上升最多 919-Tench.L（+1），下滑最多 Black Ghost（-1）。"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "名次",
+       "align": "n"
+      },
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "积分",
+       "align": "n"
+      },
+      {
+       "label": "上站",
+       "align": "n"
+      },
+      {
+       "label": "本站变化",
+       "align": "n"
+      },
+      {
+       "label": "本站得分",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "93",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "80",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+25",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "Juice",
+        "cls": "left"
+       },
+       {
+        "html": "54",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+18",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "39",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+15",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "氮氣Nirtrogen",
+        "cls": "left"
+       },
+       {
+        "html": "30",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+6",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "R6 · 巴林 · R_ATPER2"
+    },
+    {
+     "type": "note",
+     "html": "<b>R6 巴林</b>：R_ATPER2 赢下本站；领奖台 R_ATPER2 / Arrebol / ColorFirst。赛后 DingJ.MR 以 105 分领跑，领先 7 分。 本站积分最高的是 R_ATPER2（+25）；积分榜上升最多 R_ATPER2（+4），下滑最多 919-Tench.L（-1）。"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "名次",
+       "align": "n"
+      },
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "积分",
+       "align": "n"
+      },
+      {
+       "label": "上站",
+       "align": "n"
+      },
+      {
+       "label": "本站变化",
+       "align": "n"
+      },
+      {
+       "label": "本站得分",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "105",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+12",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "98",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+18",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "Juice",
+        "cls": "left"
+       },
+       {
+        "html": "54",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "R_ATPER2",
+        "cls": "left"
+       },
+       {
+        "html": "42",
+        "cls": "n"
+       },
+       {
+        "html": "P8",
+        "cls": "n"
+       },
+       {
+        "html": "↑4",
+        "cls": "up"
+       },
+       {
+        "html": "+25",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "39",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "↓1",
+        "cls": "dn"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "R7 · 奥地利 · Kagamine RIN"
+    },
+    {
+     "type": "note",
+     "html": "<b>R7 奥地利</b>：Kagamine RIN 赢下本站；领奖台 Kagamine RIN / Elaina / Aisu。赛后 DingJ.MR 以 105 分领跑，领先 7 分。 本站积分最高的是 Kagamine RIN（+25）；积分榜上升最多 Kagamine RIN（+3），下滑最多 氮氣Nirtrogen（-2）。"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "名次",
+       "align": "n"
+      },
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "积分",
+       "align": "n"
+      },
+      {
+       "label": "上站",
+       "align": "n"
+      },
+      {
+       "label": "本站变化",
+       "align": "n"
+      },
+      {
+       "label": "本站得分",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "105",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "98",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "Juice",
+        "cls": "left"
+       },
+       {
+        "html": "54",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "51",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "↑1",
+        "cls": "up"
+       },
+       {
+        "html": "+12",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "R_ATPER2",
+        "cls": "left"
+       },
+       {
+        "html": "42",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "↓1",
+        "cls": "dn"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "R8 · 银石 · R_ATPER2"
+    },
+    {
+     "type": "note",
+     "html": "<b>R8 银石</b>：R_ATPER2 赢下本站；领奖台 R_ATPER2 / TianQi-LN4 / Henry。赛后 Arrebol 以 108 分领跑，领先 3 分。 <b>榜首易主。</b> 本站积分最高的是 R_ATPER2（+25）；积分榜上升最多 氮氣Nirtrogen（+1），下滑最多 Juice（-2）。"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "名次",
+       "align": "n"
+      },
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "积分",
+       "align": "n"
+      },
+      {
+       "label": "上站",
+       "align": "n"
+      },
+      {
+       "label": "本站变化",
+       "align": "n"
+      },
+      {
+       "label": "本站得分",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "108",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "↑1",
+        "cls": "up"
+       },
+       {
+        "html": "+10",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "105",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "↓1",
+        "cls": "dn"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "69",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "↑1",
+        "cls": "up"
+       },
+       {
+        "html": "+18",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "R_ATPER2",
+        "cls": "left"
+       },
+       {
+        "html": "67",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "↑1",
+        "cls": "up"
+       },
+       {
+        "html": "+25",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "Juice",
+        "cls": "left"
+       },
+       {
+        "html": "66",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "↓2",
+        "cls": "dn"
+       },
+       {
+        "html": "+12",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "R9 · 奥斯汀 · R_ATPER2"
+    },
+    {
+     "type": "note",
+     "html": "<b>R9 奥斯汀</b>：R_ATPER2 赢下本站；领奖台 R_ATPER2 / TianQi-LN4 / Kagamine RIN。赛后 Arrebol 以 108 分领跑，领先 3 分。 本站积分最高的是 R_ATPER2（+25）；积分榜上升最多 Kagamine RIN（+2），下滑最多 919-Tench.L（-3）。"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "名次",
+       "align": "n"
+      },
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "积分",
+       "align": "n"
+      },
+      {
+       "label": "上站",
+       "align": "n"
+      },
+      {
+       "label": "本站变化",
+       "align": "n"
+      },
+      {
+       "label": "本站得分",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "108",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "105",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "R_ATPER2",
+        "cls": "left"
+       },
+       {
+        "html": "92",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "↑1",
+        "cls": "up"
+       },
+       {
+        "html": "+25",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "87",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "↓1",
+        "cls": "dn"
+       },
+       {
+        "html": "+18",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "Juice",
+        "cls": "left"
+       },
+       {
+        "html": "66",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "R10 · 铃鹿 · TianQi-LN4"
+    },
+    {
+     "type": "note",
+     "html": "<b>R10 铃鹿</b>：TianQi-LN4 赢下本站；领奖台 TianQi-LN4 / WuHen / TS。赛后 TianQi-LN4 以 112 分领跑，领先 4 分。 <b>榜首易主。</b> 本站积分最高的是 TianQi-LN4（+25）；积分榜上升最多 TianQi-LN4（+3），下滑最多 Arrebol（-1）。"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "名次",
+       "align": "n"
+      },
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "积分",
+       "align": "n"
+      },
+      {
+       "label": "上站",
+       "align": "n"
+      },
+      {
+       "label": "本站变化",
+       "align": "n"
+      },
+      {
+       "label": "本站得分",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "112",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "↑3",
+        "cls": "up"
+       },
+       {
+        "html": "+25",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "108",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "↓1",
+        "cls": "dn"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "105",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "↓1",
+        "cls": "dn"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "R_ATPER2",
+        "cls": "left"
+       },
+       {
+        "html": "92",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "↓1",
+        "cls": "dn"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "Juice",
+        "cls": "left"
+       },
+       {
+        "html": "74",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+8",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "R11 · 吉达 · TianQi-LN4"
+    },
+    {
+     "type": "note",
+     "html": "<b>R11 吉达</b>：TianQi-LN4 赢下本站；领奖台 TianQi-LN4 / MFGA / Kagamine RIN。赛后 TianQi-LN4 以 138 分领跑，领先 30 分。 本站积分最高的是 Kagamine RIN（+33）；积分榜上升最多 WuHen（+2），下滑最多 Black Ghost（-1）。"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "名次",
+       "align": "n"
+      },
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "积分",
+       "align": "n"
+      },
+      {
+       "label": "上站",
+       "align": "n"
+      },
+      {
+       "label": "本站变化",
+       "align": "n"
+      },
+      {
+       "label": "本站得分",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "138",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+26",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "108",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "105",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "Kagamine RIN",
+        "cls": "left"
+       },
+       {
+        "html": "98",
+        "cls": "n"
+       },
+       {
+        "html": "P6",
+        "cls": "n"
+       },
+       {
+        "html": "↑2",
+        "cls": "up"
+       },
+       {
+        "html": "+33",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "R_ATPER2",
+        "cls": "left"
+       },
+       {
+        "html": "92",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "↓1",
+        "cls": "dn"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "R12 · 阿布扎比 · defect"
+    },
+    {
+     "type": "note",
+     "html": "<b>R12 阿布扎比</b>：defect 赢下本站；领奖台 defect / R_ATPER2 / Sakuraba Ema。赛后 TianQi-LN4 以 150 分领跑，领先 40 分。 本站积分最高的是 defect（+40）；积分榜上升最多 defect（+4），下滑最多 Black Ghost（-2）。"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "名次",
+       "align": "n"
+      },
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "积分",
+       "align": "n"
+      },
+      {
+       "label": "上站",
+       "align": "n"
+      },
+      {
+       "label": "本站变化",
+       "align": "n"
+      },
+      {
+       "label": "本站得分",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "150",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "—"
+       },
+       {
+        "html": "+12",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "R_ATPER2",
+        "cls": "left"
+       },
+       {
+        "html": "110",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "↑3",
+        "cls": "up"
+       },
+       {
+        "html": "+18",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "108",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "↓1",
+        "cls": "dn"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "105",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "↓1",
+        "cls": "dn"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "Kagamine RIN",
+        "cls": "left"
+       },
+       {
+        "html": "102",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "↓1",
+        "cls": "dn"
+       },
+       {
+        "html": "+4",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "html": "<b>半程与终局</b>：R6 半程时领跑的是 DingJ.MR；最终站在最高处的是 TianQi-LN4。这 12 站里，积分榜前五共出现了 9 张不同的面孔。"
     }
    ]
   },
@@ -2453,38 +4181,80 @@
     },
     {
      "type": "subhead",
-     "text": "分站赢家与领奖台"
+     "text": "分站冠军与领奖台（所有拿过的人）"
     },
     {
      "type": "chart",
      "title": "",
      "note": "",
-     "height": 280,
+     "height": 460,
      "config": {
       "type": "bar",
       "data": {
        "labels": [
-        "DingJ.MR",
         "R_ATPER2",
-        "TianQi-LN4",
         "Arrebol",
+        "TianQi-LN4",
+        "DingJ.MR",
         "Kagamine RIN",
-        "defect"
+        "Juice",
+        "WuHen",
+        "defect",
+        "Aisu",
+        "ColorFirst",
+        "Elaina",
+        "Henry",
+        "MFGA",
+        "Sakuraba Ema",
+        "TS",
+        "p1MAX-VERSTAPPEN"
        ],
        "datasets": [
         {
-         "label": "",
+         "label": "分站冠军",
          "data": [
           3,
+          2,
+          2,
+          3,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+         ],
+         "backgroundColor": "#5b6b7f",
+         "borderRadius": 4
+        },
+        {
+         "label": "领奖台",
+         "data": [
+          5,
+          5,
+          5,
+          4,
+          3,
           3,
           2,
-          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           1,
           1
          ],
          "backgroundColor": "#0a5abe",
-         "borderRadius": 4,
-         "borderSkipped": false
+         "borderRadius": 4
         }
        ]
       },
@@ -2494,7 +4264,11 @@
        "maintainAspectRatio": false,
        "plugins": {
         "legend": {
-         "display": false
+         "display": true,
+         "labels": {
+          "color": "#5b6b7f",
+          "boxWidth": 12
+         }
         }
        },
        "scales": {
@@ -2503,8 +4277,11 @@
           "color": "#dfe6ee"
          },
          "ticks": {
-          "color": "#5b6b7f"
-         }
+          "color": "#5b6b7f",
+          "stepSize": 1,
+          "precision": 0
+         },
+         "beginAtZero": true
         },
         "y": {
          "grid": {
@@ -2517,9 +4294,9 @@
        }
       }
      },
-     "kicker": "图 02",
+     "kicker": "图 03",
      "takeaways": [
-      "12 个分站，6 位不同赢家。"
+      "6 位车手拿过分站冠军，16 位上过领奖台；只拿过一次的人也都在图和表里。"
      ]
     },
     {
@@ -2547,28 +4324,6 @@
       }
      ],
      "rows": [
-      [
-       {
-        "html": "TianQi-LN4",
-        "cls": "left"
-       },
-       {
-        "html": "2",
-        "cls": "n"
-       },
-       {
-        "html": "5",
-        "cls": "n"
-       },
-       {
-        "html": "0",
-        "cls": "n"
-       },
-       {
-        "html": "10",
-        "cls": "n"
-       }
-      ],
       [
        {
         "html": "R_ATPER2",
@@ -2610,6 +4365,28 @@
        },
        {
         "html": "8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "10",
         "cls": "n"
        }
       ],
@@ -2703,11 +4480,11 @@
       ],
       [
        {
-        "html": "TS",
+        "html": "defect",
         "cls": "left"
        },
        {
-        "html": "0",
+        "html": "1",
         "cls": "n"
        },
        {
@@ -2719,7 +4496,7 @@
         "cls": "n"
        },
        {
-        "html": "4",
+        "html": "1",
         "cls": "n"
        }
       ],
@@ -2769,7 +4546,7 @@
       ],
       [
        {
-        "html": "p1MAX-VERSTAPPEN",
+        "html": "Elaina",
         "cls": "left"
        },
        {
@@ -2785,7 +4562,7 @@
         "cls": "n"
        },
        {
-        "html": "5",
+        "html": "9",
         "cls": "n"
        }
       ],
@@ -2810,8 +4587,100 @@
         "html": "5",
         "cls": "n"
        }
+      ],
+      [
+       {
+        "html": "MFGA",
+        "cls": "left"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Sakuraba Ema",
+        "cls": "left"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "TS",
+        "cls": "left"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "p1MAX-VERSTAPPEN",
+        "cls": "left"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       }
       ]
      ]
+    },
+    {
+     "type": "note",
+     "html": "<b>一次也值得写</b>：12 个分站，6 位冠军；只赢过一次的 Kagamine RIN、defect 也没被漏掉——他们同样改写过积分榜。"
     }
    ]
   },
@@ -2819,7 +4688,7 @@
    "id": "style",
    "eyebrow": "谁更适合什么",
    "title": "冲刺、正赛、25 车、26 车：用积分效率分开看",
-   "lead": "冲刺赛效率最高的是 919-Tench.L（87.5%，7 场）；正赛效率最高的是 DingJ.MR（84.0%，5 场）。两项都跑的人里，冲刺相对更强的是 Clark Cao +56pp、氮氣Nirtrogen +38pp、BURNED OUT +32pp。",
+   "lead": "冲刺赛效率最高的是 919-Tench.L（87.5%，7 场）；正赛效率最高的是 DingJ.MR（84.0%，5 场）。换 26 车后场均积分提升最多的是 R_ATPER2（+12.2 分/场），下滑最多的是 Arrebol（-16.3 分/场）。两项都跑的人里，冲刺相对更强的是 Clark Cao +56pp、氮氣Nirtrogen +38pp、BURNED OUT +32pp。",
    "blocks": [
     {
      "type": "subhead",
@@ -3681,17 +5550,117 @@
      ]
     },
     {
+     "type": "chart",
+     "title": "",
+     "note": "越靠左上＝冲刺相对更强；越靠右下＝正赛相对更强。气泡位置来自两项得分效率，样本量见下表。",
+     "height": 320,
+     "config": {
+      "type": "scatter",
+      "data": {
+       "datasets": [
+        {
+         "label": "两项都跑的车手",
+         "data": [
+          {
+           "x": 13.1,
+           "y": 68.8,
+           "name": "Clark Cao"
+          },
+          {
+           "x": 24.0,
+           "y": 62.5,
+           "name": "氮氣Nirtrogen"
+          },
+          {
+           "x": 12.0,
+           "y": 43.8,
+           "name": "BURNED OUT"
+          },
+          {
+           "x": 0.0,
+           "y": 25.0,
+           "name": "Zing"
+          },
+          {
+           "x": 1.6,
+           "y": 18.8,
+           "name": "Super1nk"
+          },
+          {
+           "x": 0.0,
+           "y": 12.5,
+           "name": "XYHamilton"
+          },
+          {
+           "x": 15.0,
+           "y": 25.0,
+           "name": "清蒸猫头鹰凉拌菠萝"
+          },
+          {
+           "x": 19.2,
+           "y": 0.0,
+           "name": "p1MAX-VERSTAPPEN"
+          }
+         ],
+         "backgroundColor": "#0a5abe",
+         "pointRadius": 4
+        }
+       ]
+      },
+      "options": {
+       "responsive": true,
+       "maintainAspectRatio": false,
+       "plugins": {
+        "legend": {
+         "display": false
+        }
+       },
+       "scales": {
+        "x": {
+         "title": {
+          "display": true,
+          "text": "正赛得分效率（%）"
+         },
+         "min": 0,
+         "max": 100,
+         "grid": {
+          "color": "#dfe6ee"
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        },
+        "y": {
+         "title": {
+          "display": true,
+          "text": "冲刺赛得分效率（%）"
+         },
+         "min": 0,
+         "max": 100,
+         "grid": {
+          "color": "#dfe6ee"
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        }
+       }
+      }
+     },
+     "kicker": "图 04"
+    },
+    {
      "type": "note",
      "tone": "dim",
-     "html": "两项都跑、且各至少 3/2 场的只有 8 人，样本小；榜上只当倾向参考。"
+     "html": "两项都跑、且各至少 3/2 场的只有 8 人，样本小；散点只当倾向参考。"
     },
     {
      "type": "subhead",
-     "text": "25 车 vs 26 车（R1–R6 / R7–R12）"
+     "text": "25 车 vs 26 车：车手"
     },
     {
      "type": "note",
-     "html": "<b>口径</b>：只算正赛积分（不含冲刺/资格赛）；每段至少 3 场正赛才进表。"
+     "html": "<b>口径</b>：只算正赛积分（不含冲刺/资格赛）；两段都跑过、合计 >3 场即可进表。"
     },
     {
      "type": "table",
@@ -3774,6 +5743,44 @@
       ],
       [
        {
+        "html": "Kagamine RIN",
+        "cls": "left"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "1.0",
+        "cls": "n"
+       },
+       {
+        "html": "10.0",
+        "cls": "n"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       },
+       {
+        "html": "12.5",
+        "cls": "n"
+       },
+       {
+        "html": "4.5",
+        "cls": "n"
+       },
+       {
+        "html": "+11.5",
+        "cls": "up"
+       },
+       {
+        "html": "-5.5",
+        "cls": "n"
+       }
+      ],
+      [
+       {
         "html": "TianQi-LN4",
         "cls": "left"
        },
@@ -3807,6 +5814,44 @@
        },
        {
         "html": "-2.9",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Henry",
+        "cls": "left"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "1.7",
+        "cls": "n"
+       },
+       {
+        "html": "9.0",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "7.5",
+        "cls": "n"
+       },
+       {
+        "html": "10.0",
+        "cls": "n"
+       },
+       {
+        "html": "+5.8",
+        "cls": "up"
+       },
+       {
+        "html": "+1.0",
         "cls": "n"
        }
       ],
@@ -3926,6 +5971,82 @@
       ],
       [
        {
+        "html": "Aisu",
+        "cls": "left"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "7.3",
+        "cls": "n"
+       },
+       {
+        "html": "7.3",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "8.5",
+        "cls": "n"
+       },
+       {
+        "html": "6.0",
+        "cls": "n"
+       },
+       {
+        "html": "+1.2",
+        "cls": "up"
+       },
+       {
+        "html": "-1.3",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Super1nk",
+        "cls": "left"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "0.0",
+        "cls": "n"
+       },
+       {
+        "html": "14.5",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "0.7",
+        "cls": "n"
+       },
+       {
+        "html": "12.0",
+        "cls": "n"
+       },
+       {
+        "html": "+0.7",
+        "cls": "up"
+       },
+       {
+        "html": "-2.5",
+        "cls": "n"
+       }
+      ],
+      [
+       {
         "html": "清蒸猫头鹰凉拌菠萝",
         "cls": "left"
        },
@@ -3959,6 +6080,82 @@
        },
        {
         "html": "+0.8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "为满穗而活",
+        "cls": "left"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "0.0",
+        "cls": "n"
+       },
+       {
+        "html": "16.0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0.0",
+        "cls": "n"
+       },
+       {
+        "html": "16.0",
+        "cls": "n"
+       },
+       {
+        "html": "+0.0",
+        "cls": "dn"
+       },
+       {
+        "html": "+0.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "糕白",
+        "cls": "left"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "4.0",
+        "cls": "n"
+       },
+       {
+        "html": "11.5",
+        "cls": "n"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       },
+       {
+        "html": "4.0",
+        "cls": "n"
+       },
+       {
+        "html": "9.3",
+        "cls": "n"
+       },
+       {
+        "html": "+0.0",
+        "cls": "dn"
+       },
+       {
+        "html": "-2.2",
         "cls": "n"
        }
       ],
@@ -4040,6 +6237,44 @@
       ],
       [
        {
+        "html": "p1MAX-VERSTAPPEN",
+        "cls": "left"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "6.0",
+        "cls": "n"
+       },
+       {
+        "html": "11.5",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0.0",
+        "cls": "n"
+       },
+       {
+        "html": "15.0",
+        "cls": "n"
+       },
+       {
+        "html": "-6.0",
+        "cls": "dn"
+       },
+       {
+        "html": "+3.5",
+        "cls": "n"
+       }
+      ],
+      [
+       {
         "html": "Juice",
         "cls": "left"
        },
@@ -4073,6 +6308,82 @@
        },
        {
         "html": "+2.2",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "WuHen",
+        "cls": "left"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "15.0",
+        "cls": "n"
+       },
+       {
+        "html": "3.0",
+        "cls": "n"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "7.5",
+        "cls": "n"
+       },
+       {
+        "html": "8.0",
+        "cls": "n"
+       },
+       {
+        "html": "-7.5",
+        "cls": "dn"
+       },
+       {
+        "html": "+5.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "氮氣Nirtrogen",
+        "cls": "left"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "8.0",
+        "cls": "n"
+       },
+       {
+        "html": "6.7",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0.0",
+        "cls": "n"
+       },
+       {
+        "html": "18.0",
+        "cls": "n"
+       },
+       {
+        "html": "-8.0",
+        "cls": "dn"
+       },
+       {
+        "html": "+11.3",
         "cls": "n"
        }
       ],
@@ -4117,9 +6428,579 @@
      ]
     },
     {
+     "type": "chart",
+     "title": "",
+     "note": "每场正赛积分变化（26 车 − 25 车）；绿色=换车后更好，红色=回落。",
+     "height": 360,
+     "config": {
+      "type": "bar",
+      "data": {
+       "labels": [
+        "R_ATPER2",
+        "Kagamine RIN",
+        "TianQi-LN4",
+        "Henry",
+        "Elaina",
+        "Clark Cao",
+        "BURNED OUT",
+        "Aisu",
+        "Juice",
+        "WuHen",
+        "氮氣Nirtrogen",
+        "Arrebol"
+       ],
+       "datasets": [
+        {
+         "label": "",
+         "data": [
+          12.166666666666668,
+          11.5,
+          8.583333333333332,
+          5.833333333333333,
+          5.7,
+          2.416666666666667,
+          2.0,
+          1.166666666666667,
+          -7.0,
+          -7.5,
+          -8.0,
+          -16.26666666666667
+         ],
+         "backgroundColor": [
+          "#0a8f63",
+          "#0a8f63",
+          "#0a8f63",
+          "#0a8f63",
+          "#0a8f63",
+          "#0a8f63",
+          "#0a8f63",
+          "#0a8f63",
+          "#d0442a",
+          "#d0442a",
+          "#d0442a",
+          "#d0442a"
+         ],
+         "borderRadius": 4,
+         "borderSkipped": false
+        }
+       ]
+      },
+      "options": {
+       "indexAxis": "y",
+       "responsive": true,
+       "maintainAspectRatio": false,
+       "plugins": {
+        "legend": {
+         "display": false
+        }
+       },
+       "scales": {
+        "x": {
+         "grid": {
+          "color": "#dfe6ee"
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        },
+        "y": {
+         "grid": {
+          "display": false
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        }
+       }
+      }
+     },
+     "kicker": "图 05"
+    },
+    {
      "type": "note",
      "tone": "dim",
      "html": "“场均变化”= 26 车段每场积分 − 25 车段每场积分；“完赛位变化”= 平均完赛位差（负=更靠前）。"
+    },
+    {
+     "type": "subhead",
+     "text": "25 车 vs 26 车：车队"
+    },
+    {
+     "type": "chart",
+     "title": "",
+     "note": "每队在两段的正赛场均积分；按 26 车 − 25 车的变化排序。",
+     "height": 360,
+     "config": {
+      "type": "bar",
+      "data": {
+       "labels": [
+        "哈斯",
+        "迈凯伦",
+        "小牛",
+        "法拉利",
+        "奥迪",
+        "奔驰AMG",
+        "红牛甲骨文",
+        "马丁",
+        "Alpine",
+        "威廉姆斯"
+       ],
+       "datasets": [
+        {
+         "label": "25 车场均",
+         "data": [
+          3.8,
+          7.0,
+          0.9,
+          2.8,
+          4.6,
+          2.6,
+          4.5,
+          4.4,
+          11.0,
+          16.2
+         ],
+         "backgroundColor": "#5b6b7f",
+         "borderRadius": 4
+        },
+        {
+         "label": "26 车场均",
+         "data": [
+          15.9,
+          14.0,
+          4.3,
+          4.4,
+          6.0,
+          3.4,
+          3.3,
+          3.1,
+          4.0,
+          8.8
+         ],
+         "backgroundColor": "#0a5abe",
+         "borderRadius": 4
+        }
+       ]
+      },
+      "options": {
+       "indexAxis": "y",
+       "responsive": true,
+       "maintainAspectRatio": false,
+       "plugins": {
+        "legend": {
+         "display": true,
+         "labels": {
+          "color": "#5b6b7f",
+          "boxWidth": 12
+         }
+        }
+       },
+       "scales": {
+        "x": {
+         "grid": {
+          "color": "#dfe6ee"
+         },
+         "ticks": {
+          "color": "#5b6b7f",
+          "precision": 1
+         }
+        },
+        "y": {
+         "grid": {
+          "display": false
+         },
+         "ticks": {
+          "color": "#5b6b7f",
+          "precision": 1
+         }
+        }
+       }
+      }
+     },
+     "kicker": "图 06"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "车队",
+       "align": "left"
+      },
+      {
+       "label": "25 场",
+       "align": "n"
+      },
+      {
+       "label": "25 场均",
+       "align": "n"
+      },
+      {
+       "label": "26 场",
+       "align": "n"
+      },
+      {
+       "label": "26 场均",
+       "align": "n"
+      },
+      {
+       "label": "场均变化",
+       "align": "n"
+      },
+      {
+       "label": "25 胜",
+       "align": "n"
+      },
+      {
+       "label": "26 胜",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "哈斯",
+        "cls": "left"
+       },
+       {
+        "html": "12",
+        "cls": "n"
+       },
+       {
+        "html": "3.8",
+        "cls": "n"
+       },
+       {
+        "html": "9",
+        "cls": "n"
+       },
+       {
+        "html": "15.9",
+        "cls": "n"
+       },
+       {
+        "html": "+12.1",
+        "cls": "up"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "迈凯伦",
+        "cls": "left"
+       },
+       {
+        "html": "9",
+        "cls": "n"
+       },
+       {
+        "html": "7.0",
+        "cls": "n"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "14.0",
+        "cls": "n"
+       },
+       {
+        "html": "+7.0",
+        "cls": "up"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "小牛",
+        "cls": "left"
+       },
+       {
+        "html": "12",
+        "cls": "n"
+       },
+       {
+        "html": "0.9",
+        "cls": "n"
+       },
+       {
+        "html": "11",
+        "cls": "n"
+       },
+       {
+        "html": "4.3",
+        "cls": "n"
+       },
+       {
+        "html": "+3.4",
+        "cls": "up"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "法拉利",
+        "cls": "left"
+       },
+       {
+        "html": "12",
+        "cls": "n"
+       },
+       {
+        "html": "2.8",
+        "cls": "n"
+       },
+       {
+        "html": "9",
+        "cls": "n"
+       },
+       {
+        "html": "4.4",
+        "cls": "n"
+       },
+       {
+        "html": "+1.6",
+        "cls": "up"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "奥迪",
+        "cls": "left"
+       },
+       {
+        "html": "9",
+        "cls": "n"
+       },
+       {
+        "html": "4.6",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "6.0",
+        "cls": "n"
+       },
+       {
+        "html": "+1.4",
+        "cls": "up"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "奔驰AMG",
+        "cls": "left"
+       },
+       {
+        "html": "12",
+        "cls": "n"
+       },
+       {
+        "html": "2.6",
+        "cls": "n"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "3.4",
+        "cls": "n"
+       },
+       {
+        "html": "+0.8",
+        "cls": "up"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "红牛甲骨文",
+        "cls": "left"
+       },
+       {
+        "html": "11",
+        "cls": "n"
+       },
+       {
+        "html": "4.5",
+        "cls": "n"
+       },
+       {
+        "html": "12",
+        "cls": "n"
+       },
+       {
+        "html": "3.3",
+        "cls": "n"
+       },
+       {
+        "html": "-1.2",
+        "cls": "dn"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "马丁",
+        "cls": "left"
+       },
+       {
+        "html": "11",
+        "cls": "n"
+       },
+       {
+        "html": "4.4",
+        "cls": "n"
+       },
+       {
+        "html": "12",
+        "cls": "n"
+       },
+       {
+        "html": "3.1",
+        "cls": "n"
+       },
+       {
+        "html": "-1.3",
+        "cls": "dn"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Alpine",
+        "cls": "left"
+       },
+       {
+        "html": "11",
+        "cls": "n"
+       },
+       {
+        "html": "11.0",
+        "cls": "n"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       },
+       {
+        "html": "4.0",
+        "cls": "n"
+       },
+       {
+        "html": "-7.0",
+        "cls": "dn"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "威廉姆斯",
+        "cls": "left"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "16.2",
+        "cls": "n"
+       },
+       {
+        "html": "9",
+        "cls": "n"
+       },
+       {
+        "html": "8.8",
+        "cls": "n"
+       },
+       {
+        "html": "-7.4",
+        "cls": "dn"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "html": "25 车段场均最强的车队：威廉姆斯；26 车段场均最强：哈斯。换车后提升最大的是 哈斯，回落最大的是 威廉姆斯。（车队归属按当场比赛的车；极少数缺车队列的行用名单兜底。）"
     },
     {
      "type": "subhead",
@@ -4559,10 +7440,8 @@
      ]
     },
     {
-     "type": "quote",
-     "text": "冲刺赛看，919-Tench.L、MFGA、capital；正赛看，DingJ.MR、R_ATPER2、TianQi-LN4。换 26 车之后场均提升最多的是 R_ATPER2、TianQi-LN4、Elaina，25 车段更强的是 zzzz、Juice、Arrebol。",
-     "by": "数据注",
-     "kicker": "一句话结论"
+     "type": "note",
+     "html": "<b>一句话结论</b>：冲刺赛看，919-Tench.L、MFGA、capital；正赛看，DingJ.MR、R_ATPER2、TianQi-LN4。换 26 车之后场均提升最多的是 R_ATPER2、Kagamine RIN、TianQi-LN4，25 车段更强的是 WuHen、氮氣Nirtrogen、Arrebol。"
     }
    ]
   },
@@ -4575,6 +7454,84 @@
     {
      "type": "subhead",
      "text": "罚时与判罚（正赛+冲刺）"
+    },
+    {
+     "type": "chart",
+     "title": "",
+     "note": "正赛+冲刺累计罚时（秒）；DSQ/DNF 另列。",
+     "height": 300,
+     "config": {
+      "type": "bar",
+      "data": {
+       "labels": [
+        "zzzz",
+        "Clark Cao",
+        "无水墨痕",
+        "richard big big",
+        "Lei Ting",
+        "Frost",
+        "XYHamilton",
+        "TianQi-LN4",
+        "MFGA",
+        "ColorFirst"
+       ],
+       "datasets": [
+        {
+         "label": "",
+         "data": [
+          26,
+          23,
+          15,
+          15,
+          13,
+          13,
+          10,
+          10,
+          10,
+          10
+         ],
+         "backgroundColor": "#0a5abe",
+         "borderRadius": 4,
+         "borderSkipped": false
+        }
+       ]
+      },
+      "options": {
+       "indexAxis": "y",
+       "responsive": true,
+       "maintainAspectRatio": false,
+       "plugins": {
+        "legend": {
+         "display": false
+        }
+       },
+       "scales": {
+        "x": {
+         "grid": {
+          "color": "#dfe6ee"
+         },
+         "ticks": {
+          "color": "#5b6b7f",
+          "stepSize": 1,
+          "precision": 0
+         },
+         "beginAtZero": true
+        },
+        "y": {
+         "grid": {
+          "display": false
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        }
+       }
+      }
+     },
+     "kicker": "图 07",
+     "takeaways": [
+      "罚时最多：zzzz 26 秒。"
+     ]
     },
     {
      "type": "table",
@@ -5245,7 +8202,7 @@
        }
       }
      },
-     "kicker": "图 03",
+     "kicker": "图 08",
      "takeaways": [
       "威廉姆斯 304、迈凯伦 238、哈斯 217、Alpine 187、马丁 164"
      ]
@@ -5694,7 +8651,7 @@
         "html": "最多领奖台"
        },
        {
-        "html": "TianQi-LN4 5、R_ATPER2 5、Arrebol 5",
+        "html": "R_ATPER2 5、TianQi-LN4 5、Arrebol 5",
         "cls": "left"
        }
       ],
