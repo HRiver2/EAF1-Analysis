@@ -1,0 +1,3961 @@
+{
+ "key": "huaili-main-s1",
+ "entry": {
+  "league": "huaili",
+  "division": "main",
+  "season": "s1",
+  "round": 12,
+  "race": {
+   "track": "阿布扎比",
+   "track_id": "Abu Dhabi"
+  }
+ },
+ "hero": {
+  "eyebrow": "赛季回顾 · 花理乐享 S1",
+  "kicker": "数据回顾 · 花理乐享 S1 · 收官之后",
+  "title": "150 分，和一条追到最后一站的积分线",
+  "deck": "TianQi-LN4 以 150 分拿下车手冠军，威廉姆斯 304 分拿下车队冠军",
+  "standfirst": "12 站、58 位车手、11 支车队。收官之后，车手榜前三名是 TianQi-LN4 150、R_ATPER2 110、Arrebol 108；车队榜前三是 威廉姆斯 304、迈凯伦 238、哈斯 217。12 个分站由 6 位不同的车手拿下——这不是一条从第一站就写好的冠军线，而是一站站被追出来、又被守住的积分线。",
+  "dateline": [
+   "RINACE 数据组",
+   "2026-10-28",
+   "花理乐享 S1",
+   "12 站 · 58 位车手",
+   "官方最终积分榜"
+  ],
+  "figures": [
+   {
+    "value": "150 分",
+    "label": "车手冠军",
+    "note": "TianQi-LN4"
+   },
+   {
+    "value": "+40 分",
+    "label": "冠军领先",
+    "note": "TianQi-LN4 vs R_ATPER2"
+   },
+   {
+    "value": "304 分",
+    "label": "车队冠军",
+    "note": "威廉姆斯"
+   },
+   {
+    "value": "12",
+    "label": "分站",
+    "note": "58 位车手 · 11 支车队"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "final",
+   "eyebrow": "终局",
+   "title": "冠军不是最后一站才赢的，但最后一站才盖章",
+   "lead": "官方最终榜：TianQi-LN4 150、R_ATPER2 110、Arrebol 108。TianQi-LN4 与 R_ATPER2 之间差了 40 分；排第三的 Arrebol 离冠军 42 分。下面这张表是前十二名，以及他们各自是怎么把分攒起来的。",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "名次",
+       "align": "n"
+      },
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "积分",
+       "align": "n"
+      },
+      {
+       "label": "胜",
+       "align": "n"
+      },
+      {
+       "label": "台",
+       "align": "n"
+      },
+      {
+       "label": "出勤",
+       "align": "n"
+      },
+      {
+       "label": "平均完赛位",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "TianQi-LN4"
+       },
+       {
+        "html": "150",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "3.50",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "R_ATPER2"
+       },
+       {
+        "html": "110",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       },
+       {
+        "html": "4.00",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "Arrebol"
+       },
+       {
+        "html": "108",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "5.62",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "DingJ.MR"
+       },
+       {
+        "html": "105",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "1.80",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "Kagamine RIN"
+       },
+       {
+        "html": "102",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "5.88",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "6",
+        "cls": "n"
+       },
+       {
+        "html": "Juice"
+       },
+       {
+        "html": "80",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "6.12",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "7",
+        "cls": "n"
+       },
+       {
+        "html": "919-Tench.L"
+       },
+       {
+        "html": "57",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "6.00",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "defect"
+       },
+       {
+        "html": "46",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "1.00",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "9",
+        "cls": "n"
+       },
+       {
+        "html": "Sakuraba Ema"
+       },
+       {
+        "html": "46",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "7.00",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "WuHen"
+       },
+       {
+        "html": "45",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "7.00",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "11",
+        "cls": "n"
+       },
+       {
+        "html": "氮氣Nirtrogen"
+       },
+       {
+        "html": "44",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "9.50",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "12",
+        "cls": "n"
+       },
+       {
+        "html": "Black Ghost"
+       },
+       {
+        "html": "44",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "8.60",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "quote",
+     "text": "“TianQi-LN4 的 150 分里，有 38 分来自最后两站（R11/R12）。”",
+     "by": "数据注",
+     "kicker": "最后两站"
+    }
+   ]
+  },
+  {
+   "id": "trend",
+   "eyebrow": "积分走势",
+   "title": "一条被追过、也被守住的曲线",
+   "lead": "这张图是前六名每一站结束后的累计积分（官方最终榜口径）。赛季里共有 3 位车手领跑过，领先位置换了 2 次；TianQi-LN4 全季最多落后过 69 分（R4 之后）。",
+   "blocks": [
+    {
+     "type": "chart",
+     "title": "车手积分走势（前六名）",
+     "note": "累计积分；R11/R12 含计分资格赛。",
+     "height": 340,
+     "config": {
+      "type": "line",
+      "data": {
+       "labels": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "R11",
+        "R12"
+       ],
+       "datasets": [
+        {
+         "label": "TianQi-LN4",
+         "data": [
+          4.0,
+          14.0,
+          14.0,
+          24.0,
+          39.0,
+          39.0,
+          51.0,
+          69.0,
+          87.0,
+          112.0,
+          138.0,
+          150.0
+         ],
+         "borderColor": "#0a5abe",
+         "backgroundColor": "#0a5abe",
+         "tension": 0.3,
+         "pointRadius": 2,
+         "borderWidth": 2
+        },
+        {
+         "label": "R_ATPER2",
+         "data": [
+          0.0,
+          0.0,
+          0.0,
+          15.0,
+          17.0,
+          42.0,
+          42.0,
+          67.0,
+          92.0,
+          92.0,
+          92.0,
+          110.0
+         ],
+         "borderColor": "#e0562a",
+         "backgroundColor": "#e0562a",
+         "tension": 0.3,
+         "pointRadius": 2,
+         "borderWidth": 2
+        },
+        {
+         "label": "Arrebol",
+         "data": [
+          15.0,
+          30.0,
+          55.0,
+          55.0,
+          80.0,
+          98.0,
+          98.0,
+          108.0,
+          108.0,
+          108.0,
+          108.0,
+          108.0
+         ],
+         "borderColor": "#0a8f63",
+         "backgroundColor": "#0a8f63",
+         "tension": 0.3,
+         "pointRadius": 2,
+         "borderWidth": 2
+        },
+        {
+         "label": "DingJ.MR",
+         "data": [
+          25.0,
+          50.0,
+          68.0,
+          93.0,
+          93.0,
+          105.0,
+          105.0,
+          105.0,
+          105.0,
+          105.0,
+          105.0,
+          105.0
+         ],
+         "borderColor": "#a06a00",
+         "backgroundColor": "#a06a00",
+         "tension": 0.3,
+         "pointRadius": 2,
+         "borderWidth": 2
+        },
+        {
+         "label": "Kagamine RIN",
+         "data": [
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          9.0,
+          9.0,
+          34.0,
+          38.0,
+          53.0,
+          65.0,
+          98.0,
+          102.0
+         ],
+         "borderColor": "#7b4fd0",
+         "backgroundColor": "#7b4fd0",
+         "tension": 0.3,
+         "pointRadius": 2,
+         "borderWidth": 2
+        },
+        {
+         "label": "Juice",
+         "data": [
+          0.0,
+          18.0,
+          18.0,
+          36.0,
+          54.0,
+          54.0,
+          54.0,
+          66.0,
+          66.0,
+          74.0,
+          74.0,
+          80.0
+         ],
+         "borderColor": "#0a8fa0",
+         "backgroundColor": "#0a8fa0",
+         "tension": 0.3,
+         "pointRadius": 2,
+         "borderWidth": 2
+        }
+       ]
+      },
+      "options": {
+       "responsive": true,
+       "maintainAspectRatio": false,
+       "plugins": {
+        "legend": {
+         "display": true,
+         "labels": {
+          "color": "#5b6b7f",
+          "boxWidth": 12
+         }
+        }
+       },
+       "scales": {
+        "x": {
+         "grid": {
+          "display": false
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        },
+        "y": {
+         "grid": {
+          "color": "#dfe6ee"
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        }
+       }
+      }
+     },
+     "kicker": "图 01",
+     "takeaways": [
+      "冠军 TianQi-LN4 的曲线在 R4 之后开始持续向上。",
+      "最终前六名：TianQi-LN4 150、R_ATPER2 110、Arrebol 108、DingJ.MR 105、Kagamine RIN 102、Juice 80。"
+     ]
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "轮次",
+       "align": "n"
+      },
+      {
+       "label": "赛道",
+       "align": "left"
+      },
+      {
+       "label": "领跑者",
+       "align": "left"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "R1",
+        "cls": "n"
+       },
+       {
+        "html": "蒙扎"
+       },
+       {
+        "html": "DingJ.MR"
+       }
+      ],
+      [
+       {
+        "html": "R2",
+        "cls": "n"
+       },
+       {
+        "html": "上海"
+       },
+       {
+        "html": "DingJ.MR"
+       }
+      ],
+      [
+       {
+        "html": "R3",
+        "cls": "n"
+       },
+       {
+        "html": "墨西哥"
+       },
+       {
+        "html": "DingJ.MR"
+       }
+      ],
+      [
+       {
+        "html": "R4",
+        "cls": "n"
+       },
+       {
+        "html": "斯帕"
+       },
+       {
+        "html": "DingJ.MR"
+       }
+      ],
+      [
+       {
+        "html": "R5",
+        "cls": "n"
+       },
+       {
+        "html": "墨尔本"
+       },
+       {
+        "html": "DingJ.MR"
+       }
+      ],
+      [
+       {
+        "html": "R6",
+        "cls": "n"
+       },
+       {
+        "html": "巴林"
+       },
+       {
+        "html": "DingJ.MR"
+       }
+      ],
+      [
+       {
+        "html": "R7",
+        "cls": "n"
+       },
+       {
+        "html": "奥地利"
+       },
+       {
+        "html": "DingJ.MR"
+       }
+      ],
+      [
+       {
+        "html": "R8",
+        "cls": "n"
+       },
+       {
+        "html": "银石"
+       },
+       {
+        "html": "Arrebol"
+       }
+      ],
+      [
+       {
+        "html": "R9",
+        "cls": "n"
+       },
+       {
+        "html": "奥斯汀"
+       },
+       {
+        "html": "Arrebol"
+       }
+      ],
+      [
+       {
+        "html": "R10",
+        "cls": "n"
+       },
+       {
+        "html": "铃鹿"
+       },
+       {
+        "html": "TianQi-LN4"
+       }
+      ],
+      [
+       {
+        "html": "R11",
+        "cls": "n"
+       },
+       {
+        "html": "吉达"
+       },
+       {
+        "html": "TianQi-LN4"
+       }
+      ],
+      [
+       {
+        "html": "R12",
+        "cls": "n"
+       },
+       {
+        "html": "阿布扎比"
+       },
+       {
+        "html": "TianQi-LN4"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "champion",
+   "eyebrow": "冠军之路",
+   "title": "TianQi-LN4 的 150 分，是怎么一站站拿的",
+   "lead": "冠军不是每站都最快，但他把能拿的分都拿了：蒙扎 P8、上海 P5、墨西哥 —、斯帕 P5。下表把每一站的起跑、完赛、名次变化与该站进账放在一起。",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "轮次",
+       "align": "n"
+      },
+      {
+       "label": "赛道",
+       "align": "left"
+      },
+      {
+       "label": "起跑",
+       "align": "n"
+      },
+      {
+       "label": "完赛",
+       "align": "n"
+      },
+      {
+       "label": "变化",
+       "align": "n"
+      },
+      {
+       "label": "本站积分",
+       "align": "n"
+      },
+      {
+       "label": "赛后位置",
+       "align": "left"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "R1",
+        "cls": "n"
+       },
+       {
+        "html": "蒙扎"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P8",
+        "cls": "n"
+       },
+       {
+        "html": "-6",
+        "cls": "n"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "落后 21"
+       }
+      ],
+      [
+       {
+        "html": "R2",
+        "cls": "n"
+       },
+       {
+        "html": "上海"
+       },
+       {
+        "html": "P7",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "+2",
+        "cls": "n"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "落后 36"
+       }
+      ],
+      [
+       {
+        "html": "R3",
+        "cls": "n"
+       },
+       {
+        "html": "墨西哥"
+       },
+       {
+        "html": "—",
+        "cls": "n"
+       },
+       {
+        "html": "—",
+        "cls": "n"
+       },
+       {
+        "html": "—",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "落后 54"
+       }
+      ],
+      [
+       {
+        "html": "R4",
+        "cls": "n"
+       },
+       {
+        "html": "斯帕"
+       },
+       {
+        "html": "P15",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "+10",
+        "cls": "n"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "落后 69"
+       }
+      ],
+      [
+       {
+        "html": "R5",
+        "cls": "n"
+       },
+       {
+        "html": "墨尔本"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "-2",
+        "cls": "n"
+       },
+       {
+        "html": "15",
+        "cls": "n"
+       },
+       {
+        "html": "落后 54"
+       }
+      ],
+      [
+       {
+        "html": "R6",
+        "cls": "n"
+       },
+       {
+        "html": "巴林"
+       },
+       {
+        "html": "—",
+        "cls": "n"
+       },
+       {
+        "html": "—",
+        "cls": "n"
+       },
+       {
+        "html": "—",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "落后 66"
+       }
+      ],
+      [
+       {
+        "html": "R7",
+        "cls": "n"
+       },
+       {
+        "html": "奥地利"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       },
+       {
+        "html": "12",
+        "cls": "n"
+       },
+       {
+        "html": "落后 54"
+       }
+      ],
+      [
+       {
+        "html": "R8",
+        "cls": "n"
+       },
+       {
+        "html": "银石"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       },
+       {
+        "html": "18",
+        "cls": "n"
+       },
+       {
+        "html": "落后 39"
+       }
+      ],
+      [
+       {
+        "html": "R9",
+        "cls": "n"
+       },
+       {
+        "html": "奥斯汀"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "+1",
+        "cls": "n"
+       },
+       {
+        "html": "18",
+        "cls": "n"
+       },
+       {
+        "html": "落后 21"
+       }
+      ],
+      [
+       {
+        "html": "R10",
+        "cls": "n"
+       },
+       {
+        "html": "铃鹿"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "+0",
+        "cls": "n"
+       },
+       {
+        "html": "25",
+        "cls": "n"
+       },
+       {
+        "html": "领先"
+       }
+      ],
+      [
+       {
+        "html": "R11",
+        "cls": "n"
+       },
+       {
+        "html": "吉达"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "+1",
+        "cls": "n"
+       },
+       {
+        "html": "26",
+        "cls": "n"
+       },
+       {
+        "html": "领先"
+       }
+      ],
+      [
+       {
+        "html": "R12",
+        "cls": "n"
+       },
+       {
+        "html": "阿布扎比"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "-2",
+        "cls": "n"
+       },
+       {
+        "html": "12",
+        "cls": "n"
+       },
+       {
+        "html": "领先"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "winners",
+   "eyebrow": "分站赢家",
+   "title": "12 个分站，6 位不同的赢家",
+   "lead": "赢家榜：R_ATPER2 3 胜、DingJ.MR 3 胜、Arrebol 2 胜、TianQi-LN4 2 胜、defect 1 胜、Kagamine RIN 1 胜。领奖台则是另一回事——Arrebol 5 台、R_ATPER2 5 台、TianQi-LN4 5 台、DingJ.MR 4 台。",
+   "blocks": [
+    {
+     "type": "chart",
+     "title": "分站冠军数",
+     "note": "",
+     "height": 300,
+     "config": {
+      "type": "bar",
+      "data": {
+       "labels": [
+        "R_ATPER2",
+        "DingJ.MR",
+        "Arrebol",
+        "TianQi-LN4",
+        "defect",
+        "Kagamine RIN"
+       ],
+       "datasets": [
+        {
+         "label": "分站冠军数",
+         "data": [
+          3,
+          3,
+          2,
+          2,
+          1,
+          1
+         ],
+         "backgroundColor": "#0a5abe",
+         "borderRadius": 4,
+         "borderSkipped": false
+        }
+       ]
+      },
+      "options": {
+       "indexAxis": "y",
+       "responsive": true,
+       "maintainAspectRatio": false,
+       "plugins": {
+        "legend": {
+         "display": false
+        }
+       },
+       "scales": {
+        "x": {
+         "grid": {
+          "color": "#dfe6ee"
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        },
+        "y": {
+         "grid": {
+          "display": false
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        }
+       }
+      }
+     },
+     "kicker": "图 02",
+     "takeaways": [
+      "赢家分布：R_ATPER2 3、DingJ.MR 3、Arrebol 2、TianQi-LN4 2、defect 1、Kagamine RIN 1。"
+     ]
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "分站冠军",
+       "align": "n"
+      },
+      {
+       "label": "领奖台",
+       "align": "n"
+      },
+      {
+       "label": "冲刺冠军",
+       "align": "n"
+      },
+      {
+       "label": "出勤",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "R_ATPER2",
+        "cls": "left"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Kagamine RIN",
+        "cls": "left"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "defect",
+        "cls": "left"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Juice",
+        "cls": "left"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "WuHen",
+        "cls": "left"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "TS",
+        "cls": "left"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Elaina",
+        "cls": "left"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "9",
+        "cls": "n"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "moves",
+   "eyebrow": "名次变化",
+   "title": "起步是发车位，终点才是积分",
+   "lead": "全季单站最大爬升是 y_zhiqi（R3，P17→P5，+12）；最大下滑是 p1MAX-VERSTAPPEN（R3，P6→P19，-13）。按全季“起跑→完赛”净变化，糕白 是最大赢家。",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "爬升榜",
+       "align": "left"
+      },
+      {
+       "label": "轮次",
+       "align": "n"
+      },
+      {
+       "label": "起跑",
+       "align": "n"
+      },
+      {
+       "label": "完赛",
+       "align": "n"
+      },
+      {
+       "label": "变化",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "y_zhiqi"
+       },
+       {
+        "html": "R3",
+        "cls": "n"
+       },
+       {
+        "html": "P17",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "+12",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "TianQi-LN4"
+       },
+       {
+        "html": "R4",
+        "cls": "n"
+       },
+       {
+        "html": "P15",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "+10",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Kagamine RIN"
+       },
+       {
+        "html": "R7",
+        "cls": "n"
+       },
+       {
+        "html": "P11",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "+10",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Black Ghost"
+       },
+       {
+        "html": "R2",
+        "cls": "n"
+       },
+       {
+        "html": "P20",
+        "cls": "n"
+       },
+       {
+        "html": "P11",
+        "cls": "n"
+       },
+       {
+        "html": "+9",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "919-Tench.L"
+       },
+       {
+        "html": "R3",
+        "cls": "n"
+       },
+       {
+        "html": "P15",
+        "cls": "n"
+       },
+       {
+        "html": "P6",
+        "cls": "n"
+       },
+       {
+        "html": "+9",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "糕白"
+       },
+       {
+        "html": "R7",
+        "cls": "n"
+       },
+       {
+        "html": "P13",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "+8",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "下滑榜",
+       "align": "left"
+      },
+      {
+       "label": "轮次",
+       "align": "n"
+      },
+      {
+       "label": "起跑",
+       "align": "n"
+      },
+      {
+       "label": "完赛",
+       "align": "n"
+      },
+      {
+       "label": "变化",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "p1MAX-VERSTAPPEN"
+       },
+       {
+        "html": "R3",
+        "cls": "n"
+       },
+       {
+        "html": "P6",
+        "cls": "n"
+       },
+       {
+        "html": "P19",
+        "cls": "n"
+       },
+       {
+        "html": "-13",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R_ATPER2"
+       },
+       {
+        "html": "R3",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P11",
+        "cls": "n"
+       },
+       {
+        "html": "-11",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "richard big big"
+       },
+       {
+        "html": "R2",
+        "cls": "n"
+       },
+       {
+        "html": "P8",
+        "cls": "n"
+       },
+       {
+        "html": "P19",
+        "cls": "n"
+       },
+       {
+        "html": "-11",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Elaina"
+       },
+       {
+        "html": "R8",
+        "cls": "n"
+       },
+       {
+        "html": "P8",
+        "cls": "n"
+       },
+       {
+        "html": "P18",
+        "cls": "n"
+       },
+       {
+        "html": "-10",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "WuHen"
+       },
+       {
+        "html": "R7",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P11",
+        "cls": "n"
+       },
+       {
+        "html": "-10",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "zzzz"
+       },
+       {
+        "html": "R7",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "P13",
+        "cls": "n"
+       },
+       {
+        "html": "-10",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "净变化榜",
+       "align": "left"
+      },
+      {
+       "label": "净变化",
+       "align": "n"
+      },
+      {
+       "label": "出勤",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "糕白"
+       },
+       {
+        "html": "+30",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "BURNED OUT"
+       },
+       {
+        "html": "+26",
+        "cls": "n"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "清蒸猫头鹰凉拌菠萝"
+       },
+       {
+        "html": "+24",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Clark Cao"
+       },
+       {
+        "html": "+23",
+        "cls": "n"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Black Ghost"
+       },
+       {
+        "html": "+22",
+        "cls": "n"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Kagamine RIN"
+       },
+       {
+        "html": "+16",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Super1nk"
+       },
+       {
+        "html": "+12",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "DingJ.MR"
+       },
+       {
+        "html": "+10",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "penalty",
+   "eyebrow": "罚单账本",
+   "title": "罚时、DSQ 与未完赛：谁在为违规付账",
+   "lead": "全季官方表里共记录 38 次罚时、合计 255 秒；18 次 DSQ、4 次 DNF。罚时最多的是 zzzz（26 秒）。",
+   "blocks": [
+    {
+     "type": "chart",
+     "title": "罚时秒数（前 10）",
+     "note": "",
+     "height": 300,
+     "config": {
+      "type": "bar",
+      "data": {
+       "labels": [
+        "zzzz",
+        "Clark Cao",
+        "无水墨痕",
+        "richard big big",
+        "狗熊岭突击手",
+        "Lei Ting",
+        "Frost",
+        "XYHamilton",
+        "TianQi-LN4",
+        "Sakuraba Ema"
+       ],
+       "datasets": [
+        {
+         "label": "罚时秒数（前 10）",
+         "data": [
+          26,
+          23,
+          15,
+          15,
+          13,
+          13,
+          13,
+          10,
+          10,
+          10
+         ],
+         "backgroundColor": "#0a5abe",
+         "borderRadius": 4,
+         "borderSkipped": false
+        }
+       ]
+      },
+      "options": {
+       "indexAxis": "y",
+       "responsive": true,
+       "maintainAspectRatio": false,
+       "plugins": {
+        "legend": {
+         "display": false
+        }
+       },
+       "scales": {
+        "x": {
+         "grid": {
+          "color": "#dfe6ee"
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        },
+        "y": {
+         "grid": {
+          "display": false
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        }
+       }
+      }
+     },
+     "kicker": "图 03",
+     "takeaways": [
+      "榜单按累计罚时秒数排；DSQ/DNF 另列，不折算成秒。"
+     ]
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "罚时秒",
+       "align": "n"
+      },
+      {
+       "label": "次数",
+       "align": "n"
+      },
+      {
+       "label": "DSQ",
+       "align": "n"
+      },
+      {
+       "label": "DNF",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "zzzz",
+        "cls": "left"
+       },
+       {
+        "html": "26",
+        "cls": "n"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Clark Cao",
+        "cls": "left"
+       },
+       {
+        "html": "23",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "无水墨痕",
+        "cls": "left"
+       },
+       {
+        "html": "15",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "richard big big",
+        "cls": "left"
+       },
+       {
+        "html": "15",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "狗熊岭突击手",
+        "cls": "left"
+       },
+       {
+        "html": "13",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Lei Ting",
+        "cls": "left"
+       },
+       {
+        "html": "13",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Frost",
+        "cls": "left"
+       },
+       {
+        "html": "13",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "XYHamilton",
+        "cls": "left"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Sakuraba Ema",
+        "cls": "left"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "轮次",
+       "align": "n"
+      },
+      {
+       "label": "赛道",
+       "align": "left"
+      },
+      {
+       "label": "罚时次数",
+       "align": "n"
+      },
+      {
+       "label": "罚时秒",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "R1",
+        "cls": "n"
+       },
+       {
+        "html": "蒙扎"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R2",
+        "cls": "n"
+       },
+       {
+        "html": "上海"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       },
+       {
+        "html": "30",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R3",
+        "cls": "n"
+       },
+       {
+        "html": "墨西哥"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "30",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R4",
+        "cls": "n"
+       },
+       {
+        "html": "斯帕"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "18",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R5",
+        "cls": "n"
+       },
+       {
+        "html": "墨尔本"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       },
+       {
+        "html": "52",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R6",
+        "cls": "n"
+       },
+       {
+        "html": "巴林"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R7",
+        "cls": "n"
+       },
+       {
+        "html": "奥地利"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "18",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R8",
+        "cls": "n"
+       },
+       {
+        "html": "银石"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R9",
+        "cls": "n"
+       },
+       {
+        "html": "奥斯汀"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R10",
+        "cls": "n"
+       },
+       {
+        "html": "铃鹿"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R11",
+        "cls": "n"
+       },
+       {
+        "html": "吉达"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R12",
+        "cls": "n"
+       },
+       {
+        "html": "阿布扎比"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sprints",
+   "eyebrow": "冲刺与资格赛",
+   "title": "很多人的赛季，是在冲刺赛和两个计分资格赛里被改写的",
+   "lead": "9 站有冲刺赛，7 位不同的冲刺赛冠军；R11/R12 的资格赛按正赛分值计分，冠军各拿 25 分。这两类比赛不进主赛的“分站冠军”统计，但进积分。",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "轮次",
+       "align": "n"
+      },
+      {
+       "label": "赛道",
+       "align": "left"
+      },
+      {
+       "label": "冲刺赛冠军",
+       "align": "left"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "R4",
+        "cls": "n"
+       },
+       {
+        "html": "斯帕"
+       },
+       {
+        "html": "919-Tench.L"
+       }
+      ],
+      [
+       {
+        "html": "R5",
+        "cls": "n"
+       },
+       {
+        "html": "墨尔本"
+       },
+       {
+        "html": "919-Tench.L"
+       }
+      ],
+      [
+       {
+        "html": "R6",
+        "cls": "n"
+       },
+       {
+        "html": "巴林"
+       },
+       {
+        "html": "XiXi"
+       }
+      ],
+      [
+       {
+        "html": "R7",
+        "cls": "n"
+       },
+       {
+        "html": "奥地利"
+       },
+       {
+        "html": "fu505"
+       }
+      ],
+      [
+       {
+        "html": "R8",
+        "cls": "n"
+       },
+       {
+        "html": "银石"
+       },
+       {
+        "html": "✪x1aofeiyang"
+       }
+      ],
+      [
+       {
+        "html": "R9",
+        "cls": "n"
+       },
+       {
+        "html": "奥斯汀"
+       },
+       {
+        "html": "wibsrwq"
+       }
+      ],
+      [
+       {
+        "html": "R10",
+        "cls": "n"
+       },
+       {
+        "html": "铃鹿"
+       },
+       {
+        "html": "919-Tench.L"
+       }
+      ],
+      [
+       {
+        "html": "R11",
+        "cls": "n"
+       },
+       {
+        "html": "吉达"
+       },
+       {
+        "html": "capital"
+       }
+      ],
+      [
+       {
+        "html": "R12",
+        "cls": "n"
+       },
+       {
+        "html": "阿布扎比"
+       },
+       {
+        "html": "MFGA"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "轮次",
+       "align": "n"
+      },
+      {
+       "label": "赛道",
+       "align": "left"
+      },
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "积分",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "R11",
+        "cls": "n"
+       },
+       {
+        "html": "吉达"
+       },
+       {
+        "html": "Sakuraba Ema",
+        "cls": "left"
+       },
+       {
+        "html": "25",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R11",
+        "cls": "n"
+       },
+       {
+        "html": "吉达"
+       },
+       {
+        "html": "Kagamine RIN",
+        "cls": "left"
+       },
+       {
+        "html": "18",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R11",
+        "cls": "n"
+       },
+       {
+        "html": "吉达"
+       },
+       {
+        "html": "TS",
+        "cls": "left"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R11",
+        "cls": "n"
+       },
+       {
+        "html": "吉达"
+       },
+       {
+        "html": "Map13ss",
+        "cls": "left"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R11",
+        "cls": "n"
+       },
+       {
+        "html": "吉达"
+       },
+       {
+        "html": "不会拆弹",
+        "cls": "left"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R12",
+        "cls": "n"
+       },
+       {
+        "html": "阿布扎比"
+       },
+       {
+        "html": "defect",
+        "cls": "left"
+       },
+       {
+        "html": "15",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R12",
+        "cls": "n"
+       },
+       {
+        "html": "阿布扎比"
+       },
+       {
+        "html": "Map13ss",
+        "cls": "left"
+       },
+       {
+        "html": "12",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R12",
+        "cls": "n"
+       },
+       {
+        "html": "阿布扎比"
+       },
+       {
+        "html": "糕白",
+        "cls": "left"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R12",
+        "cls": "n"
+       },
+       {
+        "html": "阿布扎比"
+       },
+       {
+        "html": "Sakuraba Ema",
+        "cls": "left"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R12",
+        "cls": "n"
+       },
+       {
+        "html": "阿布扎比"
+       },
+       {
+        "html": "zzzz",
+        "cls": "left"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "quote",
+     "text": "冲刺赛冠军 919-Tench.L、capital、wibsrwq、✪x1aofeiyang、XiXi、fu505、MFGA；资格赛头名 TianQi-LN4（3 次）、Sakuraba Ema（2 次）、R_ATPER2（2 次）、DingJ.MR（2 次）。",
+     "by": "数据注",
+     "kicker": "附加赛"
+    }
+   ]
+  },
+  {
+   "id": "constructors",
+   "eyebrow": "车队榜",
+   "title": "威廉姆斯 以 304 分拿下车队冠军",
+   "lead": "车队前五：威廉姆斯 304、迈凯伦 238、哈斯 217、Alpine 187、马丁 164。车手冠军 TianQi-LN4 效力的车队最终排第 2。",
+   "blocks": [
+    {
+     "type": "chart",
+     "title": "车队最终积分",
+     "note": "",
+     "height": 340,
+     "config": {
+      "type": "bar",
+      "data": {
+       "labels": [
+        "威廉姆斯",
+        "迈凯伦",
+        "哈斯",
+        "Alpine",
+        "马丁",
+        "奔驰AMG",
+        "法拉利",
+        "红牛甲骨文",
+        "小牛",
+        "奥迪",
+        "凯迪拉克"
+       ],
+       "datasets": [
+        {
+         "label": "车队最终积分",
+         "data": [
+          304,
+          238,
+          217,
+          187,
+          164,
+          126,
+          119,
+          106,
+          97,
+          72,
+          4
+         ],
+         "backgroundColor": "#0a5abe",
+         "borderRadius": 4,
+         "borderSkipped": false
+        }
+       ]
+      },
+      "options": {
+       "indexAxis": "y",
+       "responsive": true,
+       "maintainAspectRatio": false,
+       "plugins": {
+        "legend": {
+         "display": false
+        }
+       },
+       "scales": {
+        "x": {
+         "grid": {
+          "color": "#dfe6ee"
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        },
+        "y": {
+         "grid": {
+          "display": false
+         },
+         "ticks": {
+          "color": "#5b6b7f"
+         }
+        }
+       }
+      }
+     },
+     "kicker": "图 04",
+     "takeaways": [
+      "威廉姆斯 304、迈凯伦 238、哈斯 217"
+     ]
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "排名",
+       "align": "n"
+      },
+      {
+       "label": "车队",
+       "align": "left"
+      },
+      {
+       "label": "积分",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "威廉姆斯"
+       },
+       {
+        "html": "304",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "迈凯伦"
+       },
+       {
+        "html": "238",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "哈斯"
+       },
+       {
+        "html": "217",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "Alpine"
+       },
+       {
+        "html": "187",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "马丁"
+       },
+       {
+        "html": "164",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "6",
+        "cls": "n"
+       },
+       {
+        "html": "奔驰AMG"
+       },
+       {
+        "html": "126",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "7",
+        "cls": "n"
+       },
+       {
+        "html": "法拉利"
+       },
+       {
+        "html": "119",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "红牛甲骨文"
+       },
+       {
+        "html": "106",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "9",
+        "cls": "n"
+       },
+       {
+        "html": "小牛"
+       },
+       {
+        "html": "97",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "奥迪"
+       },
+       {
+        "html": "72",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "11",
+        "cls": "n"
+       },
+       {
+        "html": "凯迪拉克"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "consistency",
+   "eyebrow": "出勤与稳定",
+   "title": "跑得多，不一定拿得多；拿得多的，往往也跑得稳",
+   "lead": "全季共有 201 个正赛出场人次，完赛 194 次。按平均完赛位（至少 4 场正赛）排，最稳的是 DingJ.MR；按“每场平均积分”排，前三是 DingJ.MR 21.0、R_ATPER2 15.7、TianQi-LN4 15.0。",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "出勤",
+       "align": "n"
+      },
+      {
+       "label": "完赛",
+       "align": "n"
+      },
+      {
+       "label": "平均完赛位",
+       "align": "n"
+      },
+      {
+       "label": "每场积分",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "1.80",
+        "cls": "n"
+       },
+       {
+        "html": "21.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "3.50",
+        "cls": "n"
+       },
+       {
+        "html": "15.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R_ATPER2",
+        "cls": "left"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       },
+       {
+        "html": "4.00",
+        "cls": "n"
+       },
+       {
+        "html": "15.7",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "5.62",
+        "cls": "n"
+       },
+       {
+        "html": "13.5",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Kagamine RIN",
+        "cls": "left"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "5.88",
+        "cls": "n"
+       },
+       {
+        "html": "12.8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "ColorFirst",
+        "cls": "left"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "6.00",
+        "cls": "n"
+       },
+       {
+        "html": "8.2",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Juice",
+        "cls": "left"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "6.12",
+        "cls": "n"
+       },
+       {
+        "html": "10.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Aisu",
+        "cls": "left"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "6.80",
+        "cls": "n"
+       },
+       {
+        "html": "7.8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "WuHen",
+        "cls": "left"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "7.00",
+        "cls": "n"
+       },
+       {
+        "html": "9.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "清蒸猫头鹰凉拌菠萝",
+        "cls": "left"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       },
+       {
+        "html": "8.57",
+        "cls": "n"
+       },
+       {
+        "html": "4.5",
+        "cls": "n"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "records",
+   "eyebrow": "赛季之最",
+   "title": "把一整个赛季压成十行",
+   "lead": "只列能从官方表里直接算出来的纪录；没有遥测，所以没有圈速、超车、领跑圈数这类“用时/位置历史”指标。",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "项目",
+       "align": "left"
+      },
+      {
+       "label": "结果",
+       "align": "left"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "最多分站冠军"
+       },
+       {
+        "html": "DingJ.MR（3 胜）",
+        "cls": "left"
+       }
+      ],
+      [
+       {
+        "html": "最多领奖台"
+       },
+       {
+        "html": "Arrebol 5、R_ATPER2 5、TianQi-LN4 5",
+        "cls": "left"
+       }
+      ],
+      [
+       {
+        "html": "最佳平均完赛位（≥4 场）"
+       },
+       {
+        "html": "DingJ.MR（1.80）",
+        "cls": "left"
+       }
+      ],
+      [
+       {
+        "html": "赛季名次净提升"
+       },
+       {
+        "html": "糕白（+30 位）",
+        "cls": "left"
+       }
+      ],
+      [
+       {
+        "html": "单站最大爬升"
+       },
+       {
+        "html": "y_zhiqi：R3 从 P17 到 P5（+12）",
+        "cls": "left"
+       }
+      ],
+      [
+       {
+        "html": "单站最大下滑"
+       },
+       {
+        "html": "p1MAX-VERSTAPPEN：R3 从 P6 到 P19（-13）",
+        "cls": "left"
+       }
+      ],
+      [
+       {
+        "html": "罚时最多"
+       },
+       {
+        "html": "zzzz（26 秒）",
+        "cls": "left"
+       }
+      ],
+      [
+       {
+        "html": "DSQ 最多"
+       },
+       {
+        "html": "雷电牙医 2、路小雨 2、richard big big 2",
+        "cls": "left"
+       }
+      ],
+      [
+       {
+        "html": "冲刺赛冠军最多"
+       },
+       {
+        "html": "919-Tench.L（3 胜）",
+        "cls": "left"
+       }
+      ],
+      [
+       {
+        "html": "资格赛头名最多"
+       },
+       {
+        "html": "TianQi-LN4 3、Sakuraba Ema 2、R_ATPER2 2",
+        "cls": "left"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rounds",
+   "eyebrow": "十二站速览",
+   "title": "每一站的赢家、前三和最大爬升",
+   "lead": "按赛历顺序。最后一列是该站正赛里官方表记录的罚时/判罚次数。",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "轮次",
+       "align": "n"
+      },
+      {
+       "label": "赛道",
+       "align": "left"
+      },
+      {
+       "label": "日期",
+       "align": "left"
+      },
+      {
+       "label": "冠军",
+       "align": "left"
+      },
+      {
+       "label": "前三",
+       "align": "left"
+      },
+      {
+       "label": "最大爬升",
+       "align": "left"
+      },
+      {
+       "label": "判罚",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "R1",
+        "cls": "n"
+       },
+       {
+        "html": "蒙扎",
+        "cls": "left"
+       },
+       {
+        "html": "2026-04-23",
+        "cls": "left"
+       },
+       {
+        "html": "DingJ.MR"
+       },
+       {
+        "html": "DingJ.MR / p1MAX-VERSTAPPEN / Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "PanDa +7",
+        "cls": "left"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R2",
+        "cls": "n"
+       },
+       {
+        "html": "上海",
+        "cls": "left"
+       },
+       {
+        "html": "2026-05-14",
+        "cls": "left"
+       },
+       {
+        "html": "DingJ.MR"
+       },
+       {
+        "html": "DingJ.MR / Juice / Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "Black Ghost +9",
+        "cls": "left"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R3",
+        "cls": "n"
+       },
+       {
+        "html": "墨西哥",
+        "cls": "left"
+       },
+       {
+        "html": "2026-05-28",
+        "cls": "left"
+       },
+       {
+        "html": "Arrebol"
+       },
+       {
+        "html": "Arrebol / DingJ.MR / WuHen",
+        "cls": "left"
+       },
+       {
+        "html": "y_zhiqi +12",
+        "cls": "left"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R4",
+        "cls": "n"
+       },
+       {
+        "html": "斯帕",
+        "cls": "left"
+       },
+       {
+        "html": "2026-06-11",
+        "cls": "left"
+       },
+       {
+        "html": "DingJ.MR"
+       },
+       {
+        "html": "DingJ.MR / Juice / R_ATPER2",
+        "cls": "left"
+       },
+       {
+        "html": "TianQi-LN4 +10",
+        "cls": "left"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R5",
+        "cls": "n"
+       },
+       {
+        "html": "墨尔本",
+        "cls": "left"
+       },
+       {
+        "html": "2026-06-25",
+        "cls": "left"
+       },
+       {
+        "html": "Arrebol"
+       },
+       {
+        "html": "Arrebol / Juice / TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "清蒸猫头鹰凉拌菠萝 +4",
+        "cls": "left"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R6",
+        "cls": "n"
+       },
+       {
+        "html": "巴林",
+        "cls": "left"
+       },
+       {
+        "html": "2026-07-09",
+        "cls": "left"
+       },
+       {
+        "html": "R_ATPER2"
+       },
+       {
+        "html": "R_ATPER2 / Arrebol / ColorFirst",
+        "cls": "left"
+       },
+       {
+        "html": "BURNED OUT +7",
+        "cls": "left"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R7",
+        "cls": "n"
+       },
+       {
+        "html": "奥地利",
+        "cls": "left"
+       },
+       {
+        "html": "2026-07-23",
+        "cls": "left"
+       },
+       {
+        "html": "Kagamine RIN"
+       },
+       {
+        "html": "Kagamine RIN / Elaina / Aisu",
+        "cls": "left"
+       },
+       {
+        "html": "Kagamine RIN +10",
+        "cls": "left"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R8",
+        "cls": "n"
+       },
+       {
+        "html": "银石",
+        "cls": "left"
+       },
+       {
+        "html": "2026-08-06",
+        "cls": "left"
+       },
+       {
+        "html": "R_ATPER2"
+       },
+       {
+        "html": "R_ATPER2 / TianQi-LN4 / Henry",
+        "cls": "left"
+       },
+       {
+        "html": "Black Ghost +6",
+        "cls": "left"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R9",
+        "cls": "n"
+       },
+       {
+        "html": "奥斯汀",
+        "cls": "left"
+       },
+       {
+        "html": "2026-08-20",
+        "cls": "left"
+       },
+       {
+        "html": "R_ATPER2"
+       },
+       {
+        "html": "R_ATPER2 / TianQi-LN4 / Kagamine RIN",
+        "cls": "left"
+       },
+       {
+        "html": "Black Ghost +8",
+        "cls": "left"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R10",
+        "cls": "n"
+       },
+       {
+        "html": "铃鹿",
+        "cls": "left"
+       },
+       {
+        "html": "2026-09-03",
+        "cls": "left"
+       },
+       {
+        "html": "TianQi-LN4"
+       },
+       {
+        "html": "TianQi-LN4 / WuHen / TS",
+        "cls": "left"
+       },
+       {
+        "html": "Super1nk +7",
+        "cls": "left"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R11",
+        "cls": "n"
+       },
+       {
+        "html": "吉达",
+        "cls": "left"
+       },
+       {
+        "html": "2026-09-17",
+        "cls": "left"
+       },
+       {
+        "html": "TianQi-LN4"
+       },
+       {
+        "html": "TianQi-LN4 / MFGA / Kagamine RIN",
+        "cls": "left"
+       },
+       {
+        "html": "糕白 +7",
+        "cls": "left"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R12",
+        "cls": "n"
+       },
+       {
+        "html": "阿布扎比",
+        "cls": "left"
+       },
+       {
+        "html": "2026-10-15",
+        "cls": "left"
+       },
+       {
+        "html": "defect"
+       },
+       {
+        "html": "defect / R_ATPER2 / Sakuraba Ema",
+        "cls": "left"
+       },
+       {
+        "html": "糕白 +6",
+        "cls": "left"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "method",
+   "eyebrow": "数据说明",
+   "title": "这份总结的依据与边界",
+   "lead": "所有数字来自官方最终积分榜与 12 轮完赛名单，按站点统一的身份归一规则合并写法差异。这一页不做遥测推断，也不补不存在的指标。",
+   "blocks": [
+    {
+     "type": "note",
+     "html": "<b>来源</b>：huali_lexiangS1/花理系列赛乐享赛车手完赛名单(2).xlsx 与 花理系列赛乐享赛积分榜(1).xlsx（2026-10-28）。<br><b>计分</b>：正赛 25-18-15…，冲刺赛 8-7-6…，R11/R12 的资格赛按正赛分值计分；其余资格赛不计分。<br><b>身份</b>：SGM.TianQi‑LN4 / TianQi‑LN4 / 天气刚刚好，Black Ghost / Black GAY，WuHen / GoatDan，氮氣Nirtrogen / Nitrogen / KFC.Nitrogen，XiXi / XiXi.曦曦 等按 config/aliases.json 合并。<br><b>对账</b>：最终榜与逐站求和一致（56/58 人）；差异：Paul WalkerF1：逐站求和 6 / 官方 5（差 -1）；XYHamilton：逐站求和 3 / 官方 1（差 -2）。<br><b>缺失</b>：没有遥测存档，因此没有超车数、圈速、轮胎、领跑圈数；完赛名单只列出现过的车手行，未出现即视为未参赛/未列名，不做猜测。"
+    }
+   ]
+  }
+ ],
+ "ctx": {
+  "generatedAt": "2026-10-28",
+  "points": [
+   {
+    "name": "TianQi-LN4",
+    "points": 150.0
+   },
+   {
+    "name": "R_ATPER2",
+    "points": 110.0
+   },
+   {
+    "name": "Arrebol",
+    "points": 108.0
+   },
+   {
+    "name": "DingJ.MR",
+    "points": 105.0
+   },
+   {
+    "name": "Kagamine RIN",
+    "points": 102.0
+   },
+   {
+    "name": "Juice",
+    "points": 80.0
+   },
+   {
+    "name": "919-Tench.L",
+    "points": 57.0
+   },
+   {
+    "name": "defect",
+    "points": 46.0
+   },
+   {
+    "name": "Sakuraba Ema",
+    "points": 46.0
+   },
+   {
+    "name": "WuHen",
+    "points": 45.0
+   },
+   {
+    "name": "氮氣Nirtrogen",
+    "points": 44.0
+   },
+   {
+    "name": "Black Ghost",
+    "points": 44.0
+   }
+  ],
+  "constructors": [
+   {
+    "team": "威廉姆斯",
+    "points": 304.0
+   },
+   {
+    "team": "迈凯伦",
+    "points": 238.0
+   },
+   {
+    "team": "哈斯",
+    "points": 217.0
+   },
+   {
+    "team": "Alpine",
+    "points": 187.0
+   },
+   {
+    "team": "马丁",
+    "points": 164.0
+   },
+   {
+    "team": "奔驰AMG",
+    "points": 126.0
+   },
+   {
+    "team": "法拉利",
+    "points": 119.0
+   },
+   {
+    "team": "红牛甲骨文",
+    "points": 106.0
+   },
+   {
+    "team": "小牛",
+    "points": 97.0
+   },
+   {
+    "team": "奥迪",
+    "points": 72.0
+   },
+   {
+    "team": "凯迪拉克",
+    "points": 4.0
+   }
+  ],
+  "rounds": 12
+ }
+}
