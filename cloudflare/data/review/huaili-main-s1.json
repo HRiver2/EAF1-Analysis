@@ -51,8 +51,12 @@
    "id": "final",
    "eyebrow": "终局",
    "title": "冠军不是最后一站才赢的，但最后一站才盖章",
-   "lead": "官方最终榜：TianQi-LN4 150、R_ATPER2 110、Arrebol 108。TianQi-LN4 与 R_ATPER2 之间差了 40 分；排第三的 Arrebol 离冠军 42 分。下面这张表是前十二名，以及他们各自是怎么把分攒起来的。",
+   "lead": "官方最终榜：<b>TianQi-LN4 150、R_ATPER2 110、Arrebol 108</b>。前 30 名都在下面；完整 58 人见花理 S1 积分榜页。",
    "blocks": [
+    {
+     "type": "subhead",
+     "text": "车手榜 · 前 30"
+    },
     {
      "type": "table",
      "cols": [
@@ -433,26 +437,552 @@
         "html": "8.60",
         "cls": "n"
        }
+      ],
+      [
+       {
+        "html": "13",
+        "cls": "n"
+       },
+       {
+        "html": "糕白"
+       },
+       {
+        "html": "42",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "9.88",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "14",
+        "cls": "n"
+       },
+       {
+        "html": "ColorFirst"
+       },
+       {
+        "html": "41",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "6.00",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "15",
+        "cls": "n"
+       },
+       {
+        "html": "capital"
+       },
+       {
+        "html": "41",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "8.50",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "16",
+        "cls": "n"
+       },
+       {
+        "html": "Aisu"
+       },
+       {
+        "html": "39",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "6.80",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "17",
+        "cls": "n"
+       },
+       {
+        "html": "MFGA"
+       },
+       {
+        "html": "36",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "2.00",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "18",
+        "cls": "n"
+       },
+       {
+        "html": "清蒸猫头鹰凉拌菠萝"
+       },
+       {
+        "html": "36",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "8.57",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "19",
+        "cls": "n"
+       },
+       {
+        "html": "y_zhiqi"
+       },
+       {
+        "html": "34",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "5.00",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "20",
+        "cls": "n"
+       },
+       {
+        "html": "Clark Cao"
+       },
+       {
+        "html": "34",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       },
+       {
+        "html": "9.86",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "21",
+        "cls": "n"
+       },
+       {
+        "html": "Elaina"
+       },
+       {
+        "html": "33",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "9",
+        "cls": "n"
+       },
+       {
+        "html": "10.78",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "22",
+        "cls": "n"
+       },
+       {
+        "html": "TS"
+       },
+       {
+        "html": "32",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "9.75",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "23",
+        "cls": "n"
+       },
+       {
+        "html": "XiXi"
+       },
+       {
+        "html": "28",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "7.33",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "24",
+        "cls": "n"
+       },
+       {
+        "html": "Map13ss"
+       },
+       {
+        "html": "27",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "—",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "25",
+        "cls": "n"
+       },
+       {
+        "html": "zzzz"
+       },
+       {
+        "html": "26",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       },
+       {
+        "html": "9.67",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "26",
+        "cls": "n"
+       },
+       {
+        "html": "BURNED OUT"
+       },
+       {
+        "html": "25",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       },
+       {
+        "html": "10.17",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "27",
+        "cls": "n"
+       },
+       {
+        "html": "Henry"
+       },
+       {
+        "html": "25",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "9.50",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "28",
+        "cls": "n"
+       },
+       {
+        "html": "wibsrwq"
+       },
+       {
+        "html": "25",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "7.00",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "29",
+        "cls": "n"
+       },
+       {
+        "html": "p1MAX-VERSTAPPEN"
+       },
+       {
+        "html": "24",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "12.20",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "30",
+        "cls": "n"
+       },
+       {
+        "html": "✪x1aofeiyang"
+       },
+       {
+        "html": "16",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "10.50",
+        "cls": "n"
+       }
       ]
      ]
     },
     {
      "type": "quote",
-     "text": "“TianQi-LN4 的 150 分里，有 38 分来自最后两站（R11/R12）。”",
+     "text": "最后两站（R11/R12）TianQi-LN4 拿了 38 分，占他全季积分的 25%。",
      "by": "数据注",
-     "kicker": "最后两站"
+     "kicker": "收官阶段"
     }
    ]
   },
   {
    "id": "trend",
    "eyebrow": "积分走势",
-   "title": "一条被追过、也被守住的曲线",
-   "lead": "这张图是前六名每一站结束后的累计积分（官方最终榜口径）。赛季里共有 3 位车手领跑过，领先位置换了 2 次；TianQi-LN4 全季最多落后过 69 分（R4 之后）。",
+   "title": "领先位置换了 2 次，冠军最多落后过 69 分",
+   "lead": "前六名的曲线和每站之后的排名都放在这一节。TianQi-LN4 在 R4 之后开始持续追分，最后以 <b>150 分</b>完赛。",
    "blocks": [
     {
+     "type": "subhead",
+     "text": "前六名累计积分"
+    },
+    {
      "type": "chart",
-     "title": "车手积分走势（前六名）",
+     "title": "",
      "note": "累计积分；R11/R12 含计分资格赛。",
      "height": 340,
      "config": {
@@ -641,9 +1171,543 @@
      },
      "kicker": "图 01",
      "takeaways": [
-      "冠军 TianQi-LN4 的曲线在 R4 之后开始持续向上。",
-      "最终前六名：TianQi-LN4 150、R_ATPER2 110、Arrebol 108、DingJ.MR 105、Kagamine RIN 102、Juice 80。"
+      "最终前六：TianQi-LN4 150、R_ATPER2 110、Arrebol 108、DingJ.MR 105、Kagamine RIN 102、Juice 80。"
      ]
+    },
+    {
+     "type": "subhead",
+     "text": "每站之后的排名（前八名）"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "R1",
+       "align": "n"
+      },
+      {
+       "label": "R2",
+       "align": "n"
+      },
+      {
+       "label": "R3",
+       "align": "n"
+      },
+      {
+       "label": "R4",
+       "align": "n"
+      },
+      {
+       "label": "R5",
+       "align": "n"
+      },
+      {
+       "label": "R6",
+       "align": "n"
+      },
+      {
+       "label": "R7",
+       "align": "n"
+      },
+      {
+       "label": "R8",
+       "align": "n"
+      },
+      {
+       "label": "R9",
+       "align": "n"
+      },
+      {
+       "label": "R10",
+       "align": "n"
+      },
+      {
+       "label": "R11",
+       "align": "n"
+      },
+      {
+       "label": "R12",
+       "align": "n"
+      },
+      {
+       "label": "最终",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "P6",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R_ATPER2",
+        "cls": "left"
+       },
+       {
+        "html": "P6",
+        "cls": "n"
+       },
+       {
+        "html": "P7",
+        "cls": "n"
+       },
+       {
+        "html": "P9",
+        "cls": "n"
+       },
+       {
+        "html": "P8",
+        "cls": "n"
+       },
+       {
+        "html": "P8",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P1",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P2",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Kagamine RIN",
+        "cls": "left"
+       },
+       {
+        "html": "P7",
+        "cls": "n"
+       },
+       {
+        "html": "P8",
+        "cls": "n"
+       },
+       {
+        "html": "P10",
+        "cls": "n"
+       },
+       {
+        "html": "P10",
+        "cls": "n"
+       },
+       {
+        "html": "P10",
+        "cls": "n"
+       },
+       {
+        "html": "P10",
+        "cls": "n"
+       },
+       {
+        "html": "P7",
+        "cls": "n"
+       },
+       {
+        "html": "P8",
+        "cls": "n"
+       },
+       {
+        "html": "P6",
+        "cls": "n"
+       },
+       {
+        "html": "P6",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Juice",
+        "cls": "left"
+       },
+       {
+        "html": "P8",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "P4",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "P3",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "P5",
+        "cls": "n"
+       },
+       {
+        "html": "P6",
+        "cls": "n"
+       },
+       {
+        "html": "P6",
+        "cls": "n"
+       },
+       {
+        "html": "P6",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "919-Tench.L",
+        "cls": "left"
+       },
+       {
+        "html": "P9",
+        "cls": "n"
+       },
+       {
+        "html": "P9",
+        "cls": "n"
+       },
+       {
+        "html": "P8",
+        "cls": "n"
+       },
+       {
+        "html": "P7",
+        "cls": "n"
+       },
+       {
+        "html": "P6",
+        "cls": "n"
+       },
+       {
+        "html": "P7",
+        "cls": "n"
+       },
+       {
+        "html": "P6",
+        "cls": "n"
+       },
+       {
+        "html": "P6",
+        "cls": "n"
+       },
+       {
+        "html": "P9",
+        "cls": "n"
+       },
+       {
+        "html": "P7",
+        "cls": "n"
+       },
+       {
+        "html": "P7",
+        "cls": "n"
+       },
+       {
+        "html": "P7",
+        "cls": "n"
+       },
+       {
+        "html": "P7",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "defect",
+        "cls": "left"
+       },
+       {
+        "html": "P10",
+        "cls": "n"
+       },
+       {
+        "html": "P10",
+        "cls": "n"
+       },
+       {
+        "html": "P11",
+        "cls": "n"
+       },
+       {
+        "html": "P11",
+        "cls": "n"
+       },
+       {
+        "html": "P11",
+        "cls": "n"
+       },
+       {
+        "html": "P11",
+        "cls": "n"
+       },
+       {
+        "html": "P11",
+        "cls": "n"
+       },
+       {
+        "html": "P11",
+        "cls": "n"
+       },
+       {
+        "html": "P11",
+        "cls": "n"
+       },
+       {
+        "html": "P11",
+        "cls": "n"
+       },
+       {
+        "html": "P12",
+        "cls": "n"
+       },
+       {
+        "html": "P8",
+        "cls": "n"
+       },
+       {
+        "html": "P8",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "每站榜首与最大名次变化"
     },
     {
      "type": "table",
@@ -659,6 +1723,22 @@
       {
        "label": "领跑者",
        "align": "left"
+      },
+      {
+       "label": "领先差",
+       "align": "n"
+      },
+      {
+       "label": "最大上升",
+       "align": "left"
+      },
+      {
+       "label": "最大下滑",
+       "align": "left"
+      },
+      {
+       "label": "本站最高分",
+       "align": "left"
       }
      ],
      "rows": [
@@ -671,7 +1751,22 @@
         "html": "蒙扎"
        },
        {
-        "html": "DingJ.MR"
+        "html": "DingJ.MR 25"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "—",
+        "cls": "up"
+       },
+       {
+        "html": "—",
+        "cls": "dn"
+       },
+       {
+        "html": "DingJ.MR (+25)"
        }
       ],
       [
@@ -683,7 +1778,22 @@
         "html": "上海"
        },
        {
-        "html": "DingJ.MR"
+        "html": "DingJ.MR 50"
+       },
+       {
+        "html": "20",
+        "cls": "n"
+       },
+       {
+        "html": "Juice (+4)",
+        "cls": "up"
+       },
+       {
+        "html": "Black Ghost (-2)",
+        "cls": "dn"
+       },
+       {
+        "html": "DingJ.MR (+25)"
        }
       ],
       [
@@ -695,7 +1805,22 @@
         "html": "墨西哥"
        },
        {
-        "html": "DingJ.MR"
+        "html": "DingJ.MR 68"
+       },
+       {
+        "html": "13",
+        "cls": "n"
+       },
+       {
+        "html": "WuHen (+7)",
+        "cls": "up"
+       },
+       {
+        "html": "Kagamine RIN (-2)",
+        "cls": "dn"
+       },
+       {
+        "html": "Arrebol (+25)"
        }
       ],
       [
@@ -707,7 +1832,22 @@
         "html": "斯帕"
        },
        {
-        "html": "DingJ.MR"
+        "html": "DingJ.MR 93"
+       },
+       {
+        "html": "38",
+        "cls": "n"
+       },
+       {
+        "html": "TianQi-LN4 (+2)",
+        "cls": "up"
+       },
+       {
+        "html": "WuHen (-4)",
+        "cls": "dn"
+       },
+       {
+        "html": "DingJ.MR (+25)"
        }
       ],
       [
@@ -719,7 +1859,22 @@
         "html": "墨尔本"
        },
        {
-        "html": "DingJ.MR"
+        "html": "DingJ.MR 93"
+       },
+       {
+        "html": "13",
+        "cls": "n"
+       },
+       {
+        "html": "919-Tench.L (+1)",
+        "cls": "up"
+       },
+       {
+        "html": "Black Ghost (-1)",
+        "cls": "dn"
+       },
+       {
+        "html": "Arrebol (+25)"
        }
       ],
       [
@@ -731,7 +1886,22 @@
         "html": "巴林"
        },
        {
-        "html": "DingJ.MR"
+        "html": "DingJ.MR 105"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       },
+       {
+        "html": "R_ATPER2 (+4)",
+        "cls": "up"
+       },
+       {
+        "html": "919-Tench.L (-1)",
+        "cls": "dn"
+       },
+       {
+        "html": "R_ATPER2 (+25)"
        }
       ],
       [
@@ -743,7 +1913,22 @@
         "html": "奥地利"
        },
        {
-        "html": "DingJ.MR"
+        "html": "DingJ.MR 105"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       },
+       {
+        "html": "Kagamine RIN (+3)",
+        "cls": "up"
+       },
+       {
+        "html": "氮氣Nirtrogen (-2)",
+        "cls": "dn"
+       },
+       {
+        "html": "Kagamine RIN (+25)"
        }
       ],
       [
@@ -755,7 +1940,22 @@
         "html": "银石"
        },
        {
-        "html": "Arrebol"
+        "html": "Arrebol 108"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "氮氣Nirtrogen (+1)",
+        "cls": "up"
+       },
+       {
+        "html": "Juice (-2)",
+        "cls": "dn"
+       },
+       {
+        "html": "R_ATPER2 (+25)"
        }
       ],
       [
@@ -767,7 +1967,22 @@
         "html": "奥斯汀"
        },
        {
-        "html": "Arrebol"
+        "html": "Arrebol 108"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "Kagamine RIN (+2)",
+        "cls": "up"
+       },
+       {
+        "html": "919-Tench.L (-3)",
+        "cls": "dn"
+       },
+       {
+        "html": "R_ATPER2 (+25)"
        }
       ],
       [
@@ -779,7 +1994,22 @@
         "html": "铃鹿"
        },
        {
-        "html": "TianQi-LN4"
+        "html": "TianQi-LN4 112"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "TianQi-LN4 (+3)",
+        "cls": "up"
+       },
+       {
+        "html": "Arrebol (-1)",
+        "cls": "dn"
+       },
+       {
+        "html": "TianQi-LN4 (+25)"
        }
       ],
       [
@@ -791,7 +2021,22 @@
         "html": "吉达"
        },
        {
-        "html": "TianQi-LN4"
+        "html": "TianQi-LN4 138"
+       },
+       {
+        "html": "30",
+        "cls": "n"
+       },
+       {
+        "html": "WuHen (+2)",
+        "cls": "up"
+       },
+       {
+        "html": "Black Ghost (-1)",
+        "cls": "dn"
+       },
+       {
+        "html": "Kagamine RIN (+33)"
        }
       ],
       [
@@ -803,7 +2048,22 @@
         "html": "阿布扎比"
        },
        {
-        "html": "TianQi-LN4"
+        "html": "TianQi-LN4 150"
+       },
+       {
+        "html": "40",
+        "cls": "n"
+       },
+       {
+        "html": "defect (+4)",
+        "cls": "up"
+       },
+       {
+        "html": "Black Ghost (-2)",
+        "cls": "dn"
+       },
+       {
+        "html": "defect (+40)"
        }
       ]
      ]
@@ -814,8 +2074,12 @@
    "id": "champion",
    "eyebrow": "冠军之路",
    "title": "TianQi-LN4 的 150 分，是怎么一站站拿的",
-   "lead": "冠军不是每站都最快，但他把能拿的分都拿了：蒙扎 P8、上海 P5、墨西哥 —、斯帕 P5。下表把每一站的起跑、完赛、名次变化与该站进账放在一起。",
+   "lead": "下面先看冠军每一站的起跑、完赛与进账，再看全季的分站赢家。",
    "blocks": [
+    {
+     "type": "subhead",
+     "text": "每一站的起跑、完赛与进账"
+    },
     {
      "type": "table",
      "cols": [
@@ -1186,26 +2450,22 @@
        }
       ]
      ]
-    }
-   ]
-  },
-  {
-   "id": "winners",
-   "eyebrow": "分站赢家",
-   "title": "12 个分站，6 位不同的赢家",
-   "lead": "赢家榜：R_ATPER2 3 胜、DingJ.MR 3 胜、Arrebol 2 胜、TianQi-LN4 2 胜、defect 1 胜、Kagamine RIN 1 胜。领奖台则是另一回事——Arrebol 5 台、R_ATPER2 5 台、TianQi-LN4 5 台、DingJ.MR 4 台。",
-   "blocks": [
+    },
+    {
+     "type": "subhead",
+     "text": "分站赢家与领奖台"
+    },
     {
      "type": "chart",
-     "title": "分站冠军数",
+     "title": "",
      "note": "",
-     "height": 300,
+     "height": 280,
      "config": {
       "type": "bar",
       "data": {
        "labels": [
-        "R_ATPER2",
         "DingJ.MR",
+        "R_ATPER2",
         "Arrebol",
         "TianQi-LN4",
         "defect",
@@ -1213,7 +2473,7 @@
        ],
        "datasets": [
         {
-         "label": "分站冠军数",
+         "label": "",
          "data": [
           3,
           3,
@@ -1259,7 +2519,7 @@
      },
      "kicker": "图 02",
      "takeaways": [
-      "赢家分布：R_ATPER2 3、DingJ.MR 3、Arrebol 2、TianQi-LN4 2、defect 1、Kagamine RIN 1。"
+      "12 个分站，6 位不同赢家。"
      ]
     },
     {
@@ -1287,50 +2547,6 @@
       }
      ],
      "rows": [
-      [
-       {
-        "html": "R_ATPER2",
-        "cls": "left"
-       },
-       {
-        "html": "3",
-        "cls": "n"
-       },
-       {
-        "html": "5",
-        "cls": "n"
-       },
-       {
-        "html": "0",
-        "cls": "n"
-       },
-       {
-        "html": "7",
-        "cls": "n"
-       }
-      ],
-      [
-       {
-        "html": "DingJ.MR",
-        "cls": "left"
-       },
-       {
-        "html": "3",
-        "cls": "n"
-       },
-       {
-        "html": "4",
-        "cls": "n"
-       },
-       {
-        "html": "0",
-        "cls": "n"
-       },
-       {
-        "html": "5",
-        "cls": "n"
-       }
-      ],
       [
        {
         "html": "Arrebol",
@@ -1377,6 +2593,50 @@
       ],
       [
        {
+        "html": "R_ATPER2",
+        "cls": "left"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       }
+      ],
+      [
+       {
         "html": "Kagamine RIN",
         "cls": "left"
        },
@@ -1394,28 +2654,6 @@
        },
        {
         "html": "8",
-        "cls": "n"
-       }
-      ],
-      [
-       {
-        "html": "defect",
-        "cls": "left"
-       },
-       {
-        "html": "1",
-        "cls": "n"
-       },
-       {
-        "html": "1",
-        "cls": "n"
-       },
-       {
-        "html": "0",
-        "cls": "n"
-       },
-       {
-        "html": "1",
         "cls": "n"
        }
       ],
@@ -1465,7 +2703,7 @@
       ],
       [
        {
-        "html": "Aisu",
+        "html": "Elaina",
         "cls": "left"
        },
        {
@@ -1481,7 +2719,51 @@
         "cls": "n"
        },
        {
-        "html": "5",
+        "html": "9",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "TS",
+        "cls": "left"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "defect",
+        "cls": "left"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
         "cls": "n"
        }
       ],
@@ -1506,17 +2788,1343 @@
         "html": "1",
         "cls": "n"
        }
+      ],
+      [
+       {
+        "html": "p1MAX-VERSTAPPEN",
+        "cls": "left"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       }
       ]
      ]
     }
    ]
   },
   {
-   "id": "moves",
-   "eyebrow": "名次变化",
-   "title": "起步是发车位，终点才是积分",
-   "lead": "全季单站最大爬升是 y_zhiqi（R3，P17→P5，+12）；最大下滑是 p1MAX-VERSTAPPEN（R3，P6→P19，-13）。按全季“起跑→完赛”净变化，糕白 是最大赢家。",
+   "id": "style",
+   "eyebrow": "谁更适合什么",
+   "title": "冲刺、正赛、25 车、26 车：用积分效率分开看",
+   "lead": "冲刺赛效率最高的是 919-Tench.L（87.5%，7 场）；正赛效率最高的是 DingJ.MR（84.0%，5 场）。两项都跑的人里，冲刺相对更强的是 Clark Cao +56pp、氮氣Nirtrogen +38pp、BURNED OUT +32pp。",
    "blocks": [
+    {
+     "type": "subhead",
+     "text": "冲刺赛效率（≥3 场）"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "出场",
+       "align": "n"
+      },
+      {
+       "label": "胜",
+       "align": "n"
+      },
+      {
+       "label": "场均分",
+       "align": "n"
+      },
+      {
+       "label": "得分效率",
+       "align": "n"
+      },
+      {
+       "label": "平均完赛位",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "919-Tench.L",
+        "cls": "left"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "7.0",
+        "cls": "n"
+       },
+       {
+        "html": "87.5%",
+        "cls": "n"
+       },
+       {
+        "html": "2.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "MFGA",
+        "cls": "left"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "6.0",
+        "cls": "n"
+       },
+       {
+        "html": "75.0%",
+        "cls": "n"
+       },
+       {
+        "html": "3.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "capital",
+        "cls": "left"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "5.7",
+        "cls": "n"
+       },
+       {
+        "html": "70.8%",
+        "cls": "n"
+       },
+       {
+        "html": "3.3",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "氮氣Nirtrogen",
+        "cls": "left"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "5.0",
+        "cls": "n"
+       },
+       {
+        "html": "62.5%",
+        "cls": "n"
+       },
+       {
+        "html": "4.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "✪x1aofeiyang",
+        "cls": "left"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "3.0",
+        "cls": "n"
+       },
+       {
+        "html": "37.5%",
+        "cls": "n"
+       },
+       {
+        "html": "6.2",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "y_zhiqi",
+        "cls": "left"
+       },
+       {
+        "html": "9",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "2.7",
+        "cls": "n"
+       },
+       {
+        "html": "33.3%",
+        "cls": "n"
+       },
+       {
+        "html": "6.4",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "min max33",
+        "cls": "left"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "2.7",
+        "cls": "n"
+       },
+       {
+        "html": "33.3%",
+        "cls": "n"
+       },
+       {
+        "html": "7.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Paul WalkerF1",
+        "cls": "left"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "2.0",
+        "cls": "n"
+       },
+       {
+        "html": "25.0%",
+        "cls": "n"
+       },
+       {
+        "html": "7.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "XYHamilton",
+        "cls": "left"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "1.0",
+        "cls": "n"
+       },
+       {
+        "html": "12.5%",
+        "cls": "n"
+       },
+       {
+        "html": "8.0",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "正赛效率（≥5 场）"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "出场",
+       "align": "n"
+      },
+      {
+       "label": "胜",
+       "align": "n"
+      },
+      {
+       "label": "场均分",
+       "align": "n"
+      },
+      {
+       "label": "得分效率",
+       "align": "n"
+      },
+      {
+       "label": "平均完赛位",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "DingJ.MR",
+        "cls": "left"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "21.0",
+        "cls": "n"
+       },
+       {
+        "html": "84.0%",
+        "cls": "n"
+       },
+       {
+        "html": "1.8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "R_ATPER2",
+        "cls": "left"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "15.7",
+        "cls": "n"
+       },
+       {
+        "html": "62.9%",
+        "cls": "n"
+       },
+       {
+        "html": "4.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "14.9",
+        "cls": "n"
+       },
+       {
+        "html": "59.6%",
+        "cls": "n"
+       },
+       {
+        "html": "3.5",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "13.5",
+        "cls": "n"
+       },
+       {
+        "html": "54.0%",
+        "cls": "n"
+       },
+       {
+        "html": "5.6",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Juice",
+        "cls": "left"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "10.0",
+        "cls": "n"
+       },
+       {
+        "html": "40.0%",
+        "cls": "n"
+       },
+       {
+        "html": "6.1",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Kagamine RIN",
+        "cls": "left"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "1",
+        "cls": "n"
+       },
+       {
+        "html": "9.6",
+        "cls": "n"
+       },
+       {
+        "html": "38.5%",
+        "cls": "n"
+       },
+       {
+        "html": "5.9",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "WuHen",
+        "cls": "left"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "9.0",
+        "cls": "n"
+       },
+       {
+        "html": "36.0%",
+        "cls": "n"
+       },
+       {
+        "html": "7.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "ColorFirst",
+        "cls": "left"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "8.2",
+        "cls": "n"
+       },
+       {
+        "html": "32.8%",
+        "cls": "n"
+       },
+       {
+        "html": "6.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Aisu",
+        "cls": "left"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "7.8",
+        "cls": "n"
+       },
+       {
+        "html": "31.2%",
+        "cls": "n"
+       },
+       {
+        "html": "6.8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "p1MAX-VERSTAPPEN",
+        "cls": "left"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "4.8",
+        "cls": "n"
+       },
+       {
+        "html": "19.2%",
+        "cls": "n"
+       },
+       {
+        "html": "12.2",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Black Ghost",
+        "cls": "left"
+       },
+       {
+        "html": "10",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "4.4",
+        "cls": "n"
+       },
+       {
+        "html": "17.6%",
+        "cls": "n"
+       },
+       {
+        "html": "8.6",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "糕白",
+        "cls": "left"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       },
+       {
+        "html": "0",
+        "cls": "n"
+       },
+       {
+        "html": "4.0",
+        "cls": "n"
+       },
+       {
+        "html": "16.0%",
+        "cls": "n"
+       },
+       {
+        "html": "9.9",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "冲刺 vs 正赛：两项都跑的人"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "冲刺效率",
+       "align": "n"
+      },
+      {
+       "label": "正赛效率",
+       "align": "n"
+      },
+      {
+       "label": "差值",
+       "align": "n"
+      },
+      {
+       "label": "冲刺场次",
+       "align": "n"
+      },
+      {
+       "label": "正赛场次",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "Clark Cao",
+        "cls": "left"
+       },
+       {
+        "html": "68.8%",
+        "cls": "n"
+       },
+       {
+        "html": "13.1%",
+        "cls": "n"
+       },
+       {
+        "html": "+56pp",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "7",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "氮氣Nirtrogen",
+        "cls": "left"
+       },
+       {
+        "html": "62.5%",
+        "cls": "n"
+       },
+       {
+        "html": "24.0%",
+        "cls": "n"
+       },
+       {
+        "html": "+38pp",
+        "cls": "n"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "BURNED OUT",
+        "cls": "left"
+       },
+       {
+        "html": "43.8%",
+        "cls": "n"
+       },
+       {
+        "html": "12.0%",
+        "cls": "n"
+       },
+       {
+        "html": "+32pp",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Zing",
+        "cls": "left"
+       },
+       {
+        "html": "25.0%",
+        "cls": "n"
+       },
+       {
+        "html": "0.0%",
+        "cls": "n"
+       },
+       {
+        "html": "+25pp",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Super1nk",
+        "cls": "left"
+       },
+       {
+        "html": "18.8%",
+        "cls": "n"
+       },
+       {
+        "html": "1.6%",
+        "cls": "n"
+       },
+       {
+        "html": "+17pp",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "XYHamilton",
+        "cls": "left"
+       },
+       {
+        "html": "12.5%",
+        "cls": "n"
+       },
+       {
+        "html": "0.0%",
+        "cls": "n"
+       },
+       {
+        "html": "+12pp",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "清蒸猫头鹰凉拌菠萝",
+        "cls": "left"
+       },
+       {
+        "html": "25.0%",
+        "cls": "n"
+       },
+       {
+        "html": "15.0%",
+        "cls": "n"
+       },
+       {
+        "html": "+10pp",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "p1MAX-VERSTAPPEN",
+        "cls": "left"
+       },
+       {
+        "html": "0.0%",
+        "cls": "n"
+       },
+       {
+        "html": "19.2%",
+        "cls": "n"
+       },
+       {
+        "html": "-19pp",
+        "cls": "n"
+       },
+       {
+        "html": "2",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "tone": "dim",
+     "html": "两项都跑、且各至少 3/2 场的只有 8 人，样本小；榜上只当倾向参考。"
+    },
+    {
+     "type": "subhead",
+     "text": "25 车 vs 26 车（R1–R6 / R7–R12）"
+    },
+    {
+     "type": "note",
+     "html": "<b>口径</b>：只算正赛积分（不含冲刺/资格赛）；每段至少 3 场正赛才进表。"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "车手",
+       "align": "left"
+      },
+      {
+       "label": "25 场",
+       "align": "n"
+      },
+      {
+       "label": "25 场均",
+       "align": "n"
+      },
+      {
+       "label": "25 平均完赛",
+       "align": "n"
+      },
+      {
+       "label": "26 场",
+       "align": "n"
+      },
+      {
+       "label": "26 场均",
+       "align": "n"
+      },
+      {
+       "label": "26 平均完赛",
+       "align": "n"
+      },
+      {
+       "label": "场均变化",
+       "align": "n"
+      },
+      {
+       "label": "完赛位变化",
+       "align": "n"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "R_ATPER2",
+        "cls": "left"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "10.5",
+        "cls": "n"
+       },
+       {
+        "html": "6.0",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "22.7",
+        "cls": "n"
+       },
+       {
+        "html": "1.3",
+        "cls": "n"
+       },
+       {
+        "html": "+12.2",
+        "cls": "up"
+       },
+       {
+        "html": "-4.7",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "TianQi-LN4",
+        "cls": "left"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "9.8",
+        "cls": "n"
+       },
+       {
+        "html": "5.2",
+        "cls": "n"
+       },
+       {
+        "html": "6",
+        "cls": "n"
+       },
+       {
+        "html": "18.3",
+        "cls": "n"
+       },
+       {
+        "html": "2.3",
+        "cls": "n"
+       },
+       {
+        "html": "+8.6",
+        "cls": "up"
+       },
+       {
+        "html": "-2.9",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Elaina",
+        "cls": "left"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "0.5",
+        "cls": "n"
+       },
+       {
+        "html": "12.5",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "6.2",
+        "cls": "n"
+       },
+       {
+        "html": "9.4",
+        "cls": "n"
+       },
+       {
+        "html": "+5.7",
+        "cls": "up"
+       },
+       {
+        "html": "-3.1",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Clark Cao",
+        "cls": "left"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "2.2",
+        "cls": "n"
+       },
+       {
+        "html": "10.2",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "4.7",
+        "cls": "n"
+       },
+       {
+        "html": "9.3",
+        "cls": "n"
+       },
+       {
+        "html": "+2.4",
+        "cls": "up"
+       },
+       {
+        "html": "-0.9",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "BURNED OUT",
+        "cls": "left"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "2.0",
+        "cls": "n"
+       },
+       {
+        "html": "12.3",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "4.0",
+        "cls": "n"
+       },
+       {
+        "html": "8.0",
+        "cls": "n"
+       },
+       {
+        "html": "+2.0",
+        "cls": "up"
+       },
+       {
+        "html": "-4.3",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "清蒸猫头鹰凉拌菠萝",
+        "cls": "left"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "3.6",
+        "cls": "n"
+       },
+       {
+        "html": "8.2",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "4.0",
+        "cls": "n"
+       },
+       {
+        "html": "9.0",
+        "cls": "n"
+       },
+       {
+        "html": "+0.4",
+        "cls": "up"
+       },
+       {
+        "html": "+0.8",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Black Ghost",
+        "cls": "left"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "5.0",
+        "cls": "n"
+       },
+       {
+        "html": "7.8",
+        "cls": "n"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "3.8",
+        "cls": "n"
+       },
+       {
+        "html": "9.4",
+        "cls": "n"
+       },
+       {
+        "html": "-1.2",
+        "cls": "dn"
+       },
+       {
+        "html": "+1.6",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "zzzz",
+        "cls": "left"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "5.0",
+        "cls": "n"
+       },
+       {
+        "html": "7.7",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "0.7",
+        "cls": "n"
+       },
+       {
+        "html": "11.7",
+        "cls": "n"
+       },
+       {
+        "html": "-4.3",
+        "cls": "dn"
+       },
+       {
+        "html": "+4.0",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Juice",
+        "cls": "left"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "13.5",
+        "cls": "n"
+       },
+       {
+        "html": "5.0",
+        "cls": "n"
+       },
+       {
+        "html": "4",
+        "cls": "n"
+       },
+       {
+        "html": "6.5",
+        "cls": "n"
+       },
+       {
+        "html": "7.2",
+        "cls": "n"
+       },
+       {
+        "html": "-7.0",
+        "cls": "dn"
+       },
+       {
+        "html": "+2.2",
+        "cls": "n"
+       }
+      ],
+      [
+       {
+        "html": "Arrebol",
+        "cls": "left"
+       },
+       {
+        "html": "5",
+        "cls": "n"
+       },
+       {
+        "html": "19.6",
+        "cls": "n"
+       },
+       {
+        "html": "2.0",
+        "cls": "n"
+       },
+       {
+        "html": "3",
+        "cls": "n"
+       },
+       {
+        "html": "3.3",
+        "cls": "n"
+       },
+       {
+        "html": "11.7",
+        "cls": "n"
+       },
+       {
+        "html": "-16.3",
+        "cls": "dn"
+       },
+       {
+        "html": "+9.7",
+        "cls": "n"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "tone": "dim",
+     "html": "“场均变化”= 26 车段每场积分 − 25 车段每场积分；“完赛位变化”= 平均完赛位差（负=更靠前）。"
+    },
+    {
+     "type": "subhead",
+     "text": "单站最大爬升 / 下滑"
+    },
     {
      "type": "table",
      "cols": [
@@ -1824,10 +4432,14 @@
      ]
     },
     {
+     "type": "subhead",
+     "text": "赛季净变化"
+    },
+    {
      "type": "table",
      "cols": [
       {
-       "label": "净变化榜",
+       "label": "车手",
        "align": "left"
       },
       {
@@ -1949,85 +4561,14 @@
    ]
   },
   {
-   "id": "penalty",
-   "eyebrow": "罚单账本",
-   "title": "罚时、DSQ 与未完赛：谁在为违规付账",
-   "lead": "正赛+冲刺里共记录 32 次罚时、合计 219 秒；10 次 DSQ、2 次 DNF。（资格赛里的 DSQ/罚时不混进这张表。）罚时最多的是 zzzz（26 秒）。",
+   "id": "discipline",
+   "eyebrow": "罚单与附加赛",
+   "title": "正赛+冲刺 32 次罚时、219 秒；另有冲刺赛和两场计分资格赛",
+   "lead": "罚时最多的是 <b>zzzz</b>（26 秒）；冲刺赛冠军最多的是 <b>919-Tench.L</b>。",
    "blocks": [
     {
-     "type": "chart",
-     "title": "罚时秒数（前 10）",
-     "note": "",
-     "height": 300,
-     "config": {
-      "type": "bar",
-      "data": {
-       "labels": [
-        "zzzz",
-        "Clark Cao",
-        "无水墨痕",
-        "richard big big",
-        "Lei Ting",
-        "Frost",
-        "XYHamilton",
-        "TianQi-LN4",
-        "MFGA",
-        "ColorFirst"
-       ],
-       "datasets": [
-        {
-         "label": "罚时秒数（前 10）",
-         "data": [
-          26,
-          23,
-          15,
-          15,
-          13,
-          13,
-          10,
-          10,
-          10,
-          10
-         ],
-         "backgroundColor": "#0a5abe",
-         "borderRadius": 4,
-         "borderSkipped": false
-        }
-       ]
-      },
-      "options": {
-       "indexAxis": "y",
-       "responsive": true,
-       "maintainAspectRatio": false,
-       "plugins": {
-        "legend": {
-         "display": false
-        }
-       },
-       "scales": {
-        "x": {
-         "grid": {
-          "color": "#dfe6ee"
-         },
-         "ticks": {
-          "color": "#5b6b7f"
-         }
-        },
-        "y": {
-         "grid": {
-          "display": false
-         },
-         "ticks": {
-          "color": "#5b6b7f"
-         }
-        }
-       }
-      }
-     },
-     "kicker": "图 03",
-     "takeaways": [
-      "榜单按累计罚时秒数排；DSQ/DNF 另列，不折算成秒。"
-     ]
+     "type": "subhead",
+     "text": "罚时与判罚（正赛+冲刺）"
     },
     {
      "type": "table",
@@ -2277,240 +4818,14 @@
      ]
     },
     {
-     "type": "table",
-     "cols": [
-      {
-       "label": "轮次",
-       "align": "n"
-      },
-      {
-       "label": "赛道",
-       "align": "left"
-      },
-      {
-       "label": "罚时次数",
-       "align": "n"
-      },
-      {
-       "label": "罚时秒",
-       "align": "n"
-      }
-     ],
-     "rows": [
-      [
-       {
-        "html": "R1",
-        "cls": "n"
-       },
-       {
-        "html": "蒙扎"
-       },
-       {
-        "html": "7",
-        "cls": "n"
-       },
-       {
-        "html": "0",
-        "cls": "n"
-       }
-      ],
-      [
-       {
-        "html": "R2",
-        "cls": "n"
-       },
-       {
-        "html": "上海"
-       },
-       {
-        "html": "6",
-        "cls": "n"
-       },
-       {
-        "html": "30",
-        "cls": "n"
-       }
-      ],
-      [
-       {
-        "html": "R3",
-        "cls": "n"
-       },
-       {
-        "html": "墨西哥"
-       },
-       {
-        "html": "4",
-        "cls": "n"
-       },
-       {
-        "html": "30",
-        "cls": "n"
-       }
-      ],
-      [
-       {
-        "html": "R4",
-        "cls": "n"
-       },
-       {
-        "html": "斯帕"
-       },
-       {
-        "html": "4",
-        "cls": "n"
-       },
-       {
-        "html": "18",
-        "cls": "n"
-       }
-      ],
-      [
-       {
-        "html": "R5",
-        "cls": "n"
-       },
-       {
-        "html": "墨尔本"
-       },
-       {
-        "html": "6",
-        "cls": "n"
-       },
-       {
-        "html": "52",
-        "cls": "n"
-       }
-      ],
-      [
-       {
-        "html": "R6",
-        "cls": "n"
-       },
-       {
-        "html": "巴林"
-       },
-       {
-        "html": "1",
-        "cls": "n"
-       },
-       {
-        "html": "3",
-        "cls": "n"
-       }
-      ],
-      [
-       {
-        "html": "R7",
-        "cls": "n"
-       },
-       {
-        "html": "奥地利"
-       },
-       {
-        "html": "2",
-        "cls": "n"
-       },
-       {
-        "html": "18",
-        "cls": "n"
-       }
-      ],
-      [
-       {
-        "html": "R8",
-        "cls": "n"
-       },
-       {
-        "html": "银石"
-       },
-       {
-        "html": "0",
-        "cls": "n"
-       },
-       {
-        "html": "0",
-        "cls": "n"
-       }
-      ],
-      [
-       {
-        "html": "R9",
-        "cls": "n"
-       },
-       {
-        "html": "奥斯汀"
-       },
-       {
-        "html": "1",
-        "cls": "n"
-       },
-       {
-        "html": "10",
-        "cls": "n"
-       }
-      ],
-      [
-       {
-        "html": "R10",
-        "cls": "n"
-       },
-       {
-        "html": "铃鹿"
-       },
-       {
-        "html": "0",
-        "cls": "n"
-       },
-       {
-        "html": "0",
-        "cls": "n"
-       }
-      ],
-      [
-       {
-        "html": "R11",
-        "cls": "n"
-       },
-       {
-        "html": "吉达"
-       },
-       {
-        "html": "2",
-        "cls": "n"
-       },
-       {
-        "html": "8",
-        "cls": "n"
-       }
-      ],
-      [
-       {
-        "html": "R12",
-        "cls": "n"
-       },
-       {
-        "html": "阿布扎比"
-       },
-       {
-        "html": "2",
-        "cls": "n"
-       },
-       {
-        "html": "6",
-        "cls": "n"
-       }
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "sprints",
-   "eyebrow": "冲刺与资格赛",
-   "title": "很多人的赛季，是在冲刺赛和两个计分资格赛里被改写的",
-   "lead": "9 站有冲刺赛，7 位不同的冲刺赛冠军；R11/R12 的资格赛按正赛分值计分，但只有进入最终积分榜的车手才计入下表。这两类比赛不进主赛的“分站冠军”统计，但进积分。",
-   "blocks": [
+     "type": "note",
+     "tone": "dim",
+     "html": "资格赛里的 DSQ/罚时不混进这张表（见上一版口径说明）。"
+    },
+    {
+     "type": "subhead",
+     "text": "冲刺赛冠军"
+    },
     {
      "type": "table",
      "cols": [
@@ -2637,6 +4952,10 @@
        }
       ]
      ]
+    },
+    {
+     "type": "subhead",
+     "text": "计分资格赛（R11 / R12）"
     },
     {
      "type": "table",
@@ -2832,22 +5151,25 @@
      ]
     },
     {
-     "type": "quote",
-     "text": "冲刺赛冠军 919-Tench.L、capital、wibsrwq、✪x1aofeiyang、XiXi、fu505、MFGA；资格赛头名 TianQi-LN4（3 次）、Sakuraba Ema（2 次）、R_ATPER2（2 次）、DingJ.MR（2 次）。",
-     "by": "数据注",
-     "kicker": "附加赛"
+     "type": "note",
+     "tone": "dim",
+     "html": "资格赛表只列进入官方最终积分榜的车手；未进榜的嘉宾不计入。"
     }
    ]
   },
   {
-   "id": "constructors",
-   "eyebrow": "车队榜",
-   "title": "威廉姆斯 以 304 分拿下车队冠军",
-   "lead": "车队前五：威廉姆斯 304、迈凯伦 238、哈斯 217、Alpine 187、马丁 164。车手冠军 TianQi-LN4 效力的车队最终排第 2。",
+   "id": "teams",
+   "eyebrow": "车队与稳定",
+   "title": "威廉姆斯 以 304 分拿下年度车队冠军",
+   "lead": "车队前五：威廉姆斯 304、迈凯伦 238、哈斯 217、Alpine 187、马丁 164。车手冠军所在的 <b>迈凯伦</b> 车队最终第 2。",
    "blocks": [
     {
+     "type": "subhead",
+     "text": "车队最终积分"
+    },
+    {
      "type": "chart",
-     "title": "车队最终积分",
+     "title": "",
      "note": "",
      "height": 340,
      "config": {
@@ -2868,7 +5190,7 @@
        ],
        "datasets": [
         {
-         "label": "车队最终积分",
+         "label": "",
          "data": [
           304,
           238,
@@ -2917,9 +5239,9 @@
        }
       }
      },
-     "kicker": "图 04",
+     "kicker": "图 03",
      "takeaways": [
-      "威廉姆斯 304、迈凯伦 238、哈斯 217"
+      "威廉姆斯 304、迈凯伦 238、哈斯 217、Alpine 187、马丁 164"
      ]
     },
     {
@@ -3083,15 +5405,11 @@
        }
       ]
      ]
-    }
-   ]
-  },
-  {
-   "id": "consistency",
-   "eyebrow": "出勤与稳定",
-   "title": "跑得多，不一定拿得多；拿得多的，往往也跑得稳",
-   "lead": "全季共有 201 个正赛出场人次，完赛 194 次。按平均完赛位（至少 4 场正赛）排，最稳的是 DingJ.MR；按“每场平均积分”排，前三是 DingJ.MR 21.0、R_ATPER2 15.7、TianQi-LN4 15.0。",
-   "blocks": [
+    },
+    {
+     "type": "subhead",
+     "text": "出勤与稳定"
+    },
     {
      "type": "table",
      "cols": [
@@ -3338,15 +5656,11 @@
        }
       ]
      ]
-    }
-   ]
-  },
-  {
-   "id": "records",
-   "eyebrow": "赛季之最",
-   "title": "把一整个赛季压成十行",
-   "lead": "只列能从官方表里直接算出来的纪录；没有遥测，所以没有圈速、超车、领跑圈数这类“用时/位置历史”指标。",
-   "blocks": [
+    },
+    {
+     "type": "subhead",
+     "text": "赛季之最"
+    },
     {
      "type": "table",
      "cols": [
@@ -3374,7 +5688,7 @@
         "html": "最多领奖台"
        },
        {
-        "html": "Arrebol 5、R_ATPER2 5、TianQi-LN4 5",
+        "html": "Arrebol 5、TianQi-LN4 5、R_ATPER2 5",
         "cls": "left"
        }
       ],
@@ -3456,9 +5770,9 @@
   },
   {
    "id": "rounds",
-   "eyebrow": "十二站速览",
+   "eyebrow": "十二站档案",
    "title": "每一站的赢家、前三和最大爬升",
-   "lead": "按赛历顺序。最后一列是该站正赛里官方表记录的罚时/判罚次数。",
+   "lead": "按赛历顺序；最后一列是该站正赛里官方表记录的罚时/判罚次数。",
    "blocks": [
     {
      "type": "table",
@@ -3849,11 +6163,11 @@
    "id": "method",
    "eyebrow": "数据说明",
    "title": "这份总结的依据与边界",
-   "lead": "所有数字来自官方最终积分榜与 12 轮完赛名单，按站点统一的身份归一规则合并写法差异。这一页不做遥测推断，也不补不存在的指标。",
+   "lead": "数字来自官方最终积分榜与 12 轮完赛名单；没有遥测，所以没有圈速、超车、轮胎、领跑圈数。",
    "blocks": [
     {
      "type": "note",
-     "html": "<b>来源</b>：huali_lexiangS1/花理系列赛乐享赛车手完赛名单(2).xlsx 与 花理系列赛乐享赛积分榜(1).xlsx（2026-10-28）。<br><b>计分</b>：正赛 25-18-15…，冲刺赛 8-7-6…，R11/R12 的资格赛按正赛分值计分；其余资格赛不计分。<br><b>身份</b>：SGM.TianQi‑LN4 / TianQi‑LN4 / 天气刚刚好，Black Ghost / Black GAY，WuHen / GoatDan，氮氣Nirtrogen / Nitrogen / KFC.Nitrogen，XiXi / XiXi.曦曦 等按 config/aliases.json 合并。<br><b>对账</b>：最终榜与逐站求和一致（56/58 人）；差异：Paul WalkerF1：逐站求和 6 / 官方 5（差 -1）；XYHamilton：逐站求和 3 / 官方 1（差 -2）。<br><b>罚时</b>：只统计正赛/冲刺；资格赛判罚不混入。<br><b>缺失</b>：没有遥测存档，因此没有超车数、圈速、轮胎、领跑圈数；完赛名单只列出现过的车手行，未出现即视为未参赛/未列名，不做猜测。"
+     "html": "<b>来源</b>：huali_lexiangS1/花理系列赛乐享赛车手完赛名单(2).xlsx 与 花理系列赛乐享赛积分榜(1).xlsx（2026-10-28）。<br><b>计分</b>：正赛 25-18-15…，冲刺赛 8-7-6…，R11/R12 的资格赛按正赛分值计分；其余资格赛不计分。<br><b>身份</b>：SGM.TianQi‑LN4 / TianQi‑LN4 / 天气刚刚好，Black Ghost / Black GAY，WuHen / GoatDan，氮氣Nirtrogen / Nitrogen / KFC.Nitrogen，XiXi / XiXi.曦曦，雷电牙医 / 雷电芽衣，Super1nk / BDC.Super1nk 等按 config/aliases.json 合并。<br><b>对账</b>：最终榜与逐站求和一致（56/58 人）；差异：Paul WalkerF1：逐站求和 6 / 官方 5（差 -1）；XYHamilton：逐站求和 3 / 官方 1（差 -2）。<br><b>罚时</b>：只统计正赛/冲刺；资格赛判罚不混入。<br><b>缺失</b>：没有遥测存档，因此没有超车数、圈速、轮胎、领跑圈数；完赛名单只列出现过的车手行，未出现即视为未参赛/未列名，不做猜测。"
     }
    ]
   }
