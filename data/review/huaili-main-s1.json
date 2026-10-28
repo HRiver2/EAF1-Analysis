@@ -14,7 +14,7 @@
   "eyebrow": "赛季回顾 · 花理乐享 S1",
   "kicker": "数据回顾 · 花理乐享 S1 · 收官之后",
   "title": "150 分，和一条追到最后一站的积分线",
-  "deck": "TianQi-LN4 以 150 分拿下车手冠军，威廉姆斯 304 分拿下车队冠军",
+  "deck": "TianQi-LN4 以 150 分封王，威廉姆斯 304 分拿下车队冠军",
   "standfirst": "12 站、58 位车手、11 支车队。收官之后，车手榜前三名是 TianQi-LN4 150、R_ATPER2 110、Arrebol 108；车队榜前三是 威廉姆斯 304、迈凯伦 238、哈斯 217。12 个分站由 6 位不同的车手拿下——这不是一条从第一站就写好的冠军线，而是一站站被追出来、又被守住的积分线。",
   "dateline": [
    "RINACE 数据组",
@@ -25,23 +25,23 @@
   ],
   "figures": [
    {
-    "value": "150 分",
-    "label": "车手冠军",
+    "value": "150",
+    "label": "分 · 车手冠军",
     "note": "TianQi-LN4"
    },
    {
-    "value": "+40 分",
-    "label": "冠军领先",
+    "value": "+40",
+    "label": "分 · 冠军领先",
     "note": "TianQi-LN4 vs R_ATPER2"
    },
    {
-    "value": "304 分",
-    "label": "车队冠军",
+    "value": "304",
+    "label": "分 · 车队冠军",
     "note": "威廉姆斯"
    },
    {
     "value": "12",
-    "label": "分站",
+    "label": "站 · 赛季分站",
     "note": "58 位车手 · 11 支车队"
    }
   ]
@@ -1193,7 +1193,7 @@
    "id": "winners",
    "eyebrow": "分站赢家",
    "title": "12 个分站，6 位不同的赢家",
-   "lead": "赢家榜：R_ATPER2 3 胜、DingJ.MR 3 胜、Arrebol 2 胜、TianQi-LN4 2 胜、defect 1 胜、Kagamine RIN 1 胜。领奖台则是另一回事——Arrebol 5 台、R_ATPER2 5 台、TianQi-LN4 5 台、DingJ.MR 4 台。",
+   "lead": "赢家榜：DingJ.MR 3 胜、R_ATPER2 3 胜、Arrebol 2 胜、TianQi-LN4 2 胜、Kagamine RIN 1 胜、defect 1 胜。领奖台则是另一回事——Arrebol 5 台、TianQi-LN4 5 台、R_ATPER2 5 台、DingJ.MR 4 台。",
    "blocks": [
     {
      "type": "chart",
@@ -1204,12 +1204,12 @@
       "type": "bar",
       "data": {
        "labels": [
-        "R_ATPER2",
         "DingJ.MR",
+        "R_ATPER2",
         "Arrebol",
         "TianQi-LN4",
-        "defect",
-        "Kagamine RIN"
+        "Kagamine RIN",
+        "defect"
        ],
        "datasets": [
         {
@@ -1259,7 +1259,7 @@
      },
      "kicker": "图 02",
      "takeaways": [
-      "赢家分布：R_ATPER2 3、DingJ.MR 3、Arrebol 2、TianQi-LN4 2、defect 1、Kagamine RIN 1。"
+      "赢家分布：DingJ.MR 3、R_ATPER2 3、Arrebol 2、TianQi-LN4 2、Kagamine RIN 1、defect 1。"
      ]
     },
     {
@@ -1465,7 +1465,7 @@
       ],
       [
        {
-        "html": "TS",
+        "html": "ColorFirst",
         "cls": "left"
        },
        {
@@ -1481,13 +1481,13 @@
         "cls": "n"
        },
        {
-        "html": "4",
+        "html": "5",
         "cls": "n"
        }
       ],
       [
        {
-        "html": "Elaina",
+        "html": "MFGA",
         "cls": "left"
        },
        {
@@ -1499,11 +1499,11 @@
         "cls": "n"
        },
        {
-        "html": "0",
+        "html": "1",
         "cls": "n"
        },
        {
-        "html": "9",
+        "html": "1",
         "cls": "n"
        }
       ]
@@ -3374,7 +3374,7 @@
         "html": "最多领奖台"
        },
        {
-        "html": "Arrebol 5、R_ATPER2 5、TianQi-LN4 5",
+        "html": "Arrebol 5、TianQi-LN4 5、R_ATPER2 5",
         "cls": "left"
        }
       ],
