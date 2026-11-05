@@ -11314,12 +11314,12 @@
    {
     "track": "墨西哥",
     "type": "正赛最快圈",
-    "time": "01:18.323",
-    "driver": "defect",
-    "round": 21,
-    "season": 4,
+    "time": "01:18.039",
+    "driver": "高木同学重度依赖",
+    "round": 4,
+    "season": 5,
     "race_type": "50%标准赛",
-    "fromThisSeason": true
+    "fromThisSeason": false
    },
    {
     "track": "奥地利",
@@ -11334,12 +11334,12 @@
    {
     "track": "奥地利",
     "type": "正赛最快圈",
-    "time": "01:06.764",
-    "driver": "Wanner",
-    "round": 11,
-    "season": 4,
+    "time": "01:06.670",
+    "driver": "清蒸猫头鹰凉拌菠萝",
+    "round": 5,
+    "season": 5,
     "race_type": "50%标准赛",
-    "fromThisSeason": true
+    "fromThisSeason": false
    },
    {
     "track": "巴林",
@@ -11841,7 +11841,7 @@
     "round": 21,
     "season": 4,
     "race_type": "50%标准赛",
-    "isRecord": true
+    "isRecord": false
    },
    {
     "track": "奥地利",
@@ -11861,7 +11861,7 @@
     "round": 11,
     "season": 4,
     "race_type": "50%标准赛",
-    "isRecord": true
+    "isRecord": false
    },
    {
     "track": "巴林",
