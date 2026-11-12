@@ -581,16 +581,16 @@
      "detail": "伊莫拉·正赛最快圈、巴林·排位最快圈、摩纳哥·正赛最快圈…"
     },
     {
-     "name": "lm10",
-     "value": 3,
-     "display": "3 条",
-     "detail": "伊莫拉·排位最快圈、巴西·排位最快圈、巴西·正赛最快圈"
-    },
-    {
      "name": "白云",
      "value": 3,
      "display": "3 条",
      "detail": "荷兰·排位最快圈、荷兰·正赛最快圈、西班牙·正赛最快圈"
+    },
+    {
+     "name": "lm10",
+     "value": 3,
+     "display": "3 条",
+     "detail": "伊莫拉·排位最快圈、巴西·排位最快圈、巴西·正赛最快圈"
     },
     {
      "name": "鱼雷王",
@@ -11374,12 +11374,12 @@
    {
     "track": "巴西",
     "type": "正赛最快圈",
-    "time": "01:12.169",
-    "driver": "lm10",
-    "round": 22,
-    "season": 4,
+    "time": "01:11.064",
+    "driver": "Sakuraba Ema",
+    "round": 6,
+    "season": 5,
     "race_type": "50%标准赛",
-    "fromThisSeason": true
+    "fromThisSeason": false
    },
    {
     "track": "德克萨斯",
@@ -11901,7 +11901,7 @@
     "round": 22,
     "season": 4,
     "race_type": "50%标准赛",
-    "isRecord": true
+    "isRecord": false
    },
    {
     "track": "拉斯维加斯",
