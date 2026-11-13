@@ -11244,22 +11244,22 @@
    {
     "track": "加拿大",
     "type": "排位最快圈",
-    "time": "01:12.950",
-    "driver": "R_ATPER2",
-    "round": 10,
-    "season": 4,
+    "time": "01:10.050",
+    "driver": "Youcai Lee",
+    "round": 7,
+    "season": 5,
     "race_type": "50%标准赛",
-    "fromThisSeason": true
+    "fromThisSeason": false
    },
    {
     "track": "加拿大",
     "type": "正赛最快圈",
-    "time": "01:12.950",
-    "driver": "R_ATPER2",
-    "round": 10,
-    "season": 4,
+    "time": "01:12.260",
+    "driver": "Swizzet3271",
+    "round": 7,
+    "season": 5,
     "race_type": "50%标准赛",
-    "fromThisSeason": true
+    "fromThisSeason": false
    },
    {
     "track": "匈牙利",
@@ -11771,7 +11771,7 @@
     "round": 10,
     "season": 4,
     "race_type": "50%标准赛",
-    "isRecord": true
+    "isRecord": false
    },
    {
     "track": "加拿大",
@@ -11781,7 +11781,7 @@
     "round": 10,
     "season": 4,
     "race_type": "50%标准赛",
-    "isRecord": true
+    "isRecord": false
    },
    {
     "track": "匈牙利",
