@@ -1,100 +1,105 @@
 {
  "slug": "2026-car-performance",
  "hero": {
-  "eyebrow": "Deep Dive · F1 25 2026 车",
-  "title": "2026 车差异：功率、重量与空力的三角",
-  "lead": "把 F1 25 里十一支 2026 车队的基础物理参数翻出来，用三条公式算一遍：差多少、差在哪、换条赛道会不会翻盘。"
+  "eyebrow": "Deep Dive · F1 25 2026 车 · v1.27",
+  "title": "1.27 之后，2026 不同等性能车队到底差多少",
+  "lead": "用游戏自己的 AI baseLapTime，把 25 个非逆向布局的 11 支车队重新排一遍：1.27 只改了两块配重，McLaren 仍是 T1，中游的 Williams 被加重后仍在 T4 领跑。"
  },
  "meta": {
   "type": "deep-dive",
-  "date": "2026-10-22",
+  "date": "2026-11-17",
   "tag": "车辆数据",
-  "readMin": 15,
-  "source": "F1 25 游戏文件只读提取（61 份物理参数集）"
+  "readMin": 18,
+  "source": "F1 25 v1.27 游戏文件只读提取 · AI baseLapTime · 25 站平衡面板"
  },
  "sections": [
   {
-   "id": "summary",
+   "id": "findings",
    "eyebrow": "Findings",
-   "title": "先给结论：2026 的差异是\"三维\"的",
-   "lead": "2025 十队只有质量、重心、空力、齿比四类差异且引擎完全一致；2026 的差异第一次同时落在功率、重量、空力三个方向上，而且它们互相抵消、互相放大——单看任何一项都会排错序。",
+   "title": "先给结论：1.27 只动了两块配重，2026 的差距本来就在那里",
+   "lead": "v1.27（2026-11-16）在可读车辆文件里只把 Kick Sauber 减重 9 kg、Williams 加重 11 kg。真正决定“不同等性能”差距的，是 2026 基础车的质量、功率与气动，以及游戏给 AI 的 baseLapTime 校准。",
    "blocks": [
     {
      "type": "cards",
      "cols": 3,
      "items": [
       {
-       "eyebrow": "功率",
+       "eyebrow": "v1.27 修正后",
        "rows": [
         {
-         "k": "高功率组",
-         "v": "424.9 kW"
+         "k": "1 McLaren",
+         "v": "+0.029 s"
         },
         {
-         "k": "基准组",
-         "v": "415.3 kW"
+         "k": "2 Mercedes",
+         "v": "+0.085 s"
         },
         {
-         "k": "低功率组",
-         "v": "410.3 kW"
+         "k": "3 Ferrari",
+         "v": "+0.124 s"
         }
        ],
-       "note": "差 3.5%；折合马力 570 / 557 / 550 hp。"
+       "note": "25 个非逆向布局的平均差距；越小越快。"
       },
       {
-       "eyebrow": "重量",
+       "eyebrow": "1.27 只动了",
        "rows": [
         {
-         "k": "最轻",
-         "v": "Ferrari 771 kg"
+         "k": "Kick Sauber",
+         "v": "791 → 782 kg"
         },
         {
-         "k": "最重",
-         "v": "Aston Martin 802 kg"
+         "k": "Williams",
+         "v": "781 → 792 kg"
         },
         {
-         "k": "极差",
-         "v": "31 kg（4.0%）"
+         "k": "其余九队",
+         "v": "0 改动"
         }
        ],
-       "note": "相当于永久背着 1/4 箱油在跑。"
+       "note": "可读车辆 BXML 仅 Chassis/Mass 两项变化；AI baseLapTime 476 条 0 diff。"
       },
       {
-       "eyebrow": "空力",
+       "eyebrow": "差距量级",
        "rows": [
         {
-         "k": "最低总阻",
-         "v": "0.681（Kick Sauber）"
+         "k": "全场极差",
+         "v": "1.052 s"
         },
         {
-         "k": "最高总阻",
-         "v": "0.720（Alpine）"
+         "k": "前三极差",
+         "v": "0.0955 s"
         },
         {
-         "k": "升力乘子",
-         "v": "0.875 – 1.000"
+         "k": "前五极差",
+         "v": "0.402 s"
         }
        ],
-       "note": "下压力差 14%，升阻指数 1.02–1.16。"
+       "note": "中游每档 0.1–0.2 s；单站能翻顺序，平均排序不变。"
       }
      ]
     },
     {
      "type": "callout",
-     "tone": "",
-     "html": "<b>关键不是\"谁强\"，而是\"在哪强\"。</b>按本文模型：力量型原型赛道第 1–11 名差 <b>0.77 s</b>，空力型只差 <b>0.32 s</b>；kW/kg 与圈时差的秩相关 ρ=0.91——它主导排序，但空力强势的车能把低 kW/kg 拉回来（典型是 Aston Martin）。"
+     "html": "<b>1.27 不是性能大改。</b>按质量敏感度 0.12–0.18 s/10 kg 估算，Sauber 约快 0.11–0.16 s/圈，Williams 约慢 0.13–0.20 s/圈；两队相对差距从约 0.70 s 缩到约 0.40 s。前十一队的总排名没有任何变化。",
+     "tone": "info"
+    },
+    {
+     "type": "note",
+     "html": "下面的所有时间都是 <b>AI baseLapTime</b> 的 25 站平衡面板，单位秒；不是玩家遥测，也不是排位单圈。它回答的是“游戏给这辆车的基础节奏”，不是“某个玩家能开多快”。",
+     "tone": "dim"
     }
    ]
   },
   {
    "id": "method",
    "eyebrow": "Method",
-   "title": "数据与方法",
-   "lead": "全部数值来自 F1 25 游戏文件的只读提取（61 份唯一物理参数集，SHA1 可复核）；下面的推算只用三条公式。",
+   "title": "数据口径：用游戏自己的 baseLapTime，不再用人工权重拼圈速",
+   "lead": "旧版文章用功率、重量、空力三条公式拼综合分；模型能解释大方向，但具体名次会错。v1.27 的分析直接采用游戏给 AI 的 baseLapTime，再用质量变化做二次修正。",
    "blocks": [
     {
      "type": "note",
-     "html": "① 极速：<b>0.5·ρ·A·Cd·v³ = P</b>（ρ=1.225、A=1.5 m²，低阻设定）　② 直道加速：<b>dv/dt = P/(m·v) − 0.5ρA·Cd·v²/m</b>，牵引上限 1.15g、制动 4.0g（圈时模型不计 ERS，能量上限让各车 ERS 收益一致，不影响相对排序）　③ 弯速：<b>v² = μ(g + 0.5ρA·Cl·v²/m)·R</b>，μ=1.6。原型赛道用 12–13 段直道/弯道组合（力量型 vs 空力型各一条），结果为<b>量级估算</b>，横向排序可靠。",
+     "html": "<b>面板：</b>25 个非逆向布局 × 11 支工作车队，共 275 个“车队-赛道”观测。每站先把每队的 baseLapTime 减去该站最快值，得到 gap；再对 25 站等权平均。误差区间来自按赛道重采样的 bootstrap（5000 次，2.5–97.5 分位），不是简单把 25 个数字求标准差。",
      "tone": "dim"
     },
     {
@@ -122,180 +127,109 @@
      "rows": [
       [
        {
-        "html": "2026 ICE",
+        "html": "赛道",
+        "cls": ""
+       },
+       {
+        "html": "25",
         "cls": "mono"
        },
        {
-        "html": "415.3 kW",
-        "cls": "mono"
-       },
-       {
-        "html": "基准，峰值 @11,000 rpm",
+        "html": "28 个布局中剔除 3 条逆向；等权，不按赛历加权",
         "cls": ""
        }
       ],
       [
        {
-        "html": "ERS",
+        "html": "车队",
         "cls": ""
        },
        {
-        "html": "350 kW / 4 MJ",
+        "html": "11",
         "cls": "mono"
        },
        {
-        "html": "2025 为 126.3 kW / 4 MJ",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "质量",
-        "cls": ""
-       },
-       {
-        "html": "771–802 kg",
-        "cls": "mono"
-       },
-       {
-        "html": "2025 为 798–816 kg",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "车身阻力 Min",
-        "cls": ""
-       },
-       {
-        "html": "0.3632–0.4020",
-        "cls": "mono"
-       },
-       {
-        "html": "总阻力（+前后翼）0.681–0.720",
+        "html": "11 支工作车队；不含 MyTeam / FOM 参考车",
         "cls": ""
        }
       ],
       [
        {
-        "html": "升力乘子",
+        "html": "样本",
         "cls": ""
        },
        {
-        "html": "0.875–1.000",
+        "html": "275",
         "cls": "mono"
        },
        {
-        "html": "高下压力 Cl 1.29–1.47",
+        "html": "11 × 25；baseLapTime 为正赛/高油量口径",
         "cls": ""
        }
       ],
       [
        {
-        "html": "燃料",
+        "html": "差距",
         "cls": ""
        },
        {
-        "html": "110 kg",
+        "html": "lap − 该站最快",
         "cls": "mono"
        },
        {
-        "html": "十一队一致",
+        "html": "每站先减最快车，再取 25 站平均",
         "cls": ""
        }
       ],
       [
        {
-        "html": "刹车/悬挂/齿比/轮胎",
+        "html": "95% CI",
         "cls": ""
        },
        {
-        "html": "完全一致",
+        "html": "bootstrap 区间",
+        "cls": "mono"
+       },
+       {
+        "html": "按赛道重采样；不是车手误差",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "v1.27 修正",
         "cls": ""
        },
        {
-        "html": "无车队差异",
+        "html": "Sauber −9 / Williams +11 kg",
+        "cls": "mono"
+       },
+       {
+        "html": "0.012/0.015/0.018 s/kg（90 s 参考圈，按赛道缩放）",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "不含",
+        "cls": ""
+       },
+       {
+        "html": "玩家遥测/调校/油量/天气",
+        "cls": "mono"
+       },
+       {
+        "html": "baseLapTime 是 AI 校准，不是玩家绝对圈速",
         "cls": ""
        }
       ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "power",
-   "eyebrow": "Power ÷ Weight",
-   "title": "功率重量比：0.518 与 0.550 是两台车",
-   "lead": "功率差 3.5%、质量差 4.0%，叠起来是 6.1% 的功率重量比差距；它与圈时差的秩相关 ρ=0.91。",
-   "blocks": [
-    {
-     "type": "chart",
-     "kicker": "kW/kg",
-     "title": "功率重量比（2026 十一队）",
-     "height": 320,
-     "note": "2025 十队的对应区间是 0.668–0.689（含更高 ICE 功率），横向比较请勿跨年。",
-     "takeaways": [
-      "McLaren / Mercedes / Williams 领跑",
-      "最重 + 基准功率的 Aston Martin 垫底"
      ],
-     "config": {
-      "type": "bar",
-      "data": {
-       "labels": [
-        "McLaren",
-        "Mercedes",
-        "Williams",
-        "Red Bull",
-        "Alpine",
-        "Ferrari",
-        "Racing Bulls",
-        "Haas",
-        "Cadillac",
-        "Kick Sauber",
-        "Aston Martin"
-       ],
-       "datasets": [
-        {
-         "label": "kW/kg",
-         "data": [
-          0.5496,
-          0.5489,
-          0.544,
-          0.5427,
-          0.5412,
-          0.5387,
-          0.5379,
-          0.5304,
-          0.5277,
-          0.5188,
-          0.5179
-         ],
-         "backgroundColor": "rgba(76,168,255,.78)",
-         "borderRadius": 4
-        }
-       ]
-      },
-      "options": {
-       "indexAxis": "y",
-       "responsive": true,
-       "maintainAspectRatio": false,
-       "plugins": {
-        "legend": {
-         "display": false
-        }
-       },
-       "scales": {
-        "x": {
-         "min": 0.5
-        },
-        "y": {
-         "grid": {
-          "display": false
-         }
-        }
-       }
-      }
-     }
+     "max": "100%"
+    },
+    {
+     "type": "callout",
+     "html": "<b>旧模型错在哪：</b>旧版综合分把“功率 40% + 重量 35% + 空力 15% + 其他 10%”压成一个数；结果 Ferrari 第 1、Red Bull 第 2、McLaren 第 3、Mercedes 第 4。新基准把 McLaren 放到第 1、Mercedes 第 2、Ferrari 第 3、Red Bull 第 4。大分层仍然有参考价值，但具体名次不可靠。",
+     "tone": "info"
     },
     {
      "type": "table",
@@ -307,38 +241,26 @@
        "mono": false
       },
       {
-       "label": "质量 kg",
-       "align": "left",
+       "label": "旧模型",
+       "align": "right",
        "cls": "",
        "mono": true
       },
       {
-       "label": "ICE kW",
-       "align": "left",
+       "label": "旧排名",
+       "align": "right",
        "cls": "",
        "mono": true
       },
       {
-       "label": "功率系数",
-       "align": "left",
+       "label": "新排名",
+       "align": "right",
        "cls": "",
        "mono": true
       },
       {
-       "label": "kW/kg",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "功率 vs 最高",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "质量 vs 最轻",
-       "align": "left",
+       "label": "变化",
+       "align": "right",
        "cls": "",
        "mono": true
       }
@@ -346,27 +268,63 @@
      "rows": [
       [
        {
+        "html": "Ferrari",
+        "cls": ""
+       },
+       {
+        "html": "87.7",
+        "cls": "mono"
+       },
+       {
+        "html": "P1",
+        "cls": "mono"
+       },
+       {
+        "html": "P3",
+        "cls": "mono"
+       },
+       {
+        "html": "−2",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "Red Bull",
+        "cls": ""
+       },
+       {
+        "html": "74.6",
+        "cls": "mono"
+       },
+       {
+        "html": "P2",
+        "cls": "mono"
+       },
+       {
+        "html": "P4",
+        "cls": "mono"
+       },
+       {
+        "html": "−2",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
         "html": "McLaren",
         "cls": ""
        },
        {
-        "html": "773",
+        "html": "73.8",
         "cls": "mono"
        },
        {
-        "html": "424.9",
+        "html": "P3",
         "cls": "mono"
        },
        {
-        "html": "1.023",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5496",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.0%",
+        "html": "P1",
         "cls": "mono"
        },
        {
@@ -380,87 +338,19 @@
         "cls": ""
        },
        {
-        "html": "774",
+        "html": "72.1",
         "cls": "mono"
        },
        {
-        "html": "424.9",
+        "html": "P4",
         "cls": "mono"
        },
        {
-        "html": "1.023",
+        "html": "P2",
         "cls": "mono"
        },
        {
-        "html": "0.5489",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.0%",
-        "cls": "mono"
-       },
-       {
-        "html": "+3",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Williams",
-        "cls": ""
-       },
-       {
-        "html": "781",
-        "cls": "mono"
-       },
-       {
-        "html": "424.9",
-        "cls": "mono"
-       },
-       {
-        "html": "1.023",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5440",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.0%",
-        "cls": "mono"
-       },
-       {
-        "html": "+10",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Red Bull",
-        "cls": ""
-       },
-       {
-        "html": "779",
-        "cls": "mono"
-       },
-       {
-        "html": "422.8",
-        "cls": "mono"
-       },
-       {
-        "html": "1.018",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5427",
-        "cls": "mono"
-       },
-       {
-        "html": "-0.5%",
-        "cls": "mono"
-       },
-       {
-        "html": "+8",
+        "html": "+2",
         "cls": "mono"
        }
       ],
@@ -470,269 +360,89 @@
         "cls": ""
        },
        {
-        "html": "785",
+        "html": "38.1",
         "cls": "mono"
        },
        {
-        "html": "424.9",
+        "html": "P9",
         "cls": "mono"
        },
        {
-        "html": "1.023",
+        "html": "P6",
         "cls": "mono"
        },
        {
-        "html": "0.5412",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.0%",
-        "cls": "mono"
-       },
-       {
-        "html": "+14",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Ferrari",
-        "cls": ""
-       },
-       {
-        "html": "771",
-        "cls": "mono"
-       },
-       {
-        "html": "415.3",
-        "cls": "mono"
-       },
-       {
-        "html": "1.000",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5387",
-        "cls": "mono"
-       },
-       {
-        "html": "-2.2%",
-        "cls": "mono"
-       },
-       {
-        "html": "+0",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Racing Bulls",
-        "cls": ""
-       },
-       {
-        "html": "786",
-        "cls": "mono"
-       },
-       {
-        "html": "422.8",
-        "cls": "mono"
-       },
-       {
-        "html": "1.018",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5379",
-        "cls": "mono"
-       },
-       {
-        "html": "-0.5%",
-        "cls": "mono"
-       },
-       {
-        "html": "+15",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Haas",
-        "cls": ""
-       },
-       {
-        "html": "783",
-        "cls": "mono"
-       },
-       {
-        "html": "415.3",
-        "cls": "mono"
-       },
-       {
-        "html": "1.000",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5304",
-        "cls": "mono"
-       },
-       {
-        "html": "-2.2%",
-        "cls": "mono"
-       },
-       {
-        "html": "+12",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Cadillac",
-        "cls": ""
-       },
-       {
-        "html": "787",
-        "cls": "mono"
-       },
-       {
-        "html": "415.3",
-        "cls": "mono"
-       },
-       {
-        "html": "1.000",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5277",
-        "cls": "mono"
-       },
-       {
-        "html": "-2.2%",
-        "cls": "mono"
-       },
-       {
-        "html": "+16",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Kick Sauber",
-        "cls": ""
-       },
-       {
-        "html": "791",
-        "cls": "mono"
-       },
-       {
-        "html": "410.3",
-        "cls": "mono"
-       },
-       {
-        "html": "0.988",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5188",
-        "cls": "mono"
-       },
-       {
-        "html": "-3.4%",
-        "cls": "mono"
-       },
-       {
-        "html": "+20",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Aston Martin",
-        "cls": ""
-       },
-       {
-        "html": "802",
-        "cls": "mono"
-       },
-       {
-        "html": "415.3",
-        "cls": "mono"
-       },
-       {
-        "html": "1.000",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5179",
-        "cls": "mono"
-       },
-       {
-        "html": "-2.2%",
-        "cls": "mono"
-       },
-       {
-        "html": "+31",
+        "html": "+3",
         "cls": "mono"
        }
       ]
-     ]
+     ],
+     "max": "760px"
     },
     {
-     "type": "callout",
-     "tone": "",
-     "html": "<b>把三项差异一起折算成时间：</b>31 kg 的质量差、3.5% 的功率差、加上空力差异，按本文模型在力量型原型赛道上合计 <b>0.77 s/圈</b>。这不是\"感觉快一点\"，是一个进站窗口的量级。"
+     "type": "note",
+     "html": "旧模型对新基准的平均绝对名次误差 <b>1.27 位</b>，最大 3 位，Spearman 秩相关 <b>0.864</b>。它能告诉你“McLaren/Mercedes/Ferrari 是前排”，但不能告诉你谁第一。",
+     "tone": "dim"
     }
    ]
   },
   {
-   "id": "aero",
-   "eyebrow": "Aero",
-   "title": "空力：阻力管极速，下压力管弯速",
-   "lead": "升力乘子从 0.875 到 1.000，等于下压力直接差 14%；总阻力（车身+前后翼）从 0.681 到 0.720。按敏感度，空力型赛道上 0.05 升力乘子值 0.05 s，比 5 kW 的 0.03 s 更值钱。",
+   "id": "ranking",
+   "eyebrow": "Ranking",
+   "title": "v1.27 修正后的顺序：McLaren 第一，Williams 仍是中游领头",
+   "lead": "把 Sauber 的 9 kg 减重和 Williams 的 11 kg 配重加回去，前十一队的平均顺序没有变化：McLaren 仍然最快，Cadillac 仍然落后 1.05 s。变的是中游的“厚度”。",
    "blocks": [
     {
      "type": "chart",
-     "kicker": "L/D",
-     "title": "升阻指数（越高越\"弯道友好\"）",
-     "height": 320,
-     "note": "指数 = (前翼CoL0 + 后翼CoL0)×升力乘子 ÷ (阻力Min + 前CoD0 + 后CoD0)，总表口径。",
-     "takeaways": [
-      "McLaren 最高（1.156）",
-      "Cadillac 最低（1.020）"
-     ],
+     "kicker": "图 01",
+     "title": "v1.27 修正后的平均差距",
      "config": {
       "type": "bar",
       "data": {
        "labels": [
         "McLaren",
         "Mercedes",
-        "Aston Martin",
+        "Ferrari",
         "Red Bull",
         "Williams",
-        "Ferrari",
         "Alpine",
         "Racing Bulls",
-        "Kick Sauber",
         "Haas",
+        "Kick Sauber",
+        "Aston Martin",
         "Cadillac"
        ],
        "datasets": [
         {
-         "label": "升阻指数",
+         "label": "v1.27 修正后差距（s）",
          "data": [
-          1.156,
-          1.152,
-          1.126,
-          1.119,
-          1.117,
-          1.105,
-          1.095,
-          1.084,
-          1.066,
-          1.05,
-          1.02
+          0.029,
+          0.085,
+          0.124,
+          0.243,
+          0.431,
+          0.535,
+          0.548,
+          0.76,
+          0.835,
+          0.986,
+          1.081
          ],
-         "backgroundColor": "rgba(160,108,255,.78)",
-         "borderRadius": 4
+         "backgroundColor": [
+          "rgba(63,224,208,.9)",
+          "rgba(120,150,185,.62)",
+          "rgba(120,150,185,.62)",
+          "rgba(120,150,185,.62)",
+          "rgba(255,124,192,.85)",
+          "rgba(120,150,185,.62)",
+          "rgba(120,150,185,.62)",
+          "rgba(120,150,185,.62)",
+          "rgba(255,169,94,.85)",
+          "rgba(120,150,185,.62)",
+          "rgba(120,150,185,.62)"
+         ],
+         "borderRadius": 3,
+         "barPercentage": 0.74
         }
        ]
       },
@@ -747,1421 +457,43 @@
        },
        "scales": {
         "x": {
-         "min": 1.0
+         "beginAtZero": true,
+         "suggestedMax": 1.15,
+         "grid": {
+          "color": "rgba(255,255,255,.08)"
+         },
+         "ticks": {
+          "color": "#9fb0c9"
+         }
         },
         "y": {
          "grid": {
           "display": false
+         },
+         "ticks": {
+          "color": "#dbe6f3"
          }
         }
        }
       }
-     }
-    },
-    {
-     "type": "table",
-     "cols": [
-      {
-       "label": "车队",
-       "align": "left",
-       "cls": "",
-       "mono": false
-      },
-      {
-       "label": "Cd 低阻(总)",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "Cd 高阻(总)",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "升力乘子",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "高下压力 Cl",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "升阻指数",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "100m 弯速 km/h",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      }
-     ],
-     "rows": [
-      [
-       {
-        "html": "McLaren",
-        "cls": ""
-       },
-       {
-        "html": "0.7180",
-        "cls": "mono"
-       },
-       {
-        "html": "1.1517",
-        "cls": "mono"
-       },
-       {
-        "html": "1.000",
-        "cls": "mono"
-       },
-       {
-        "html": "1.47",
-        "cls": "mono"
-       },
-       {
-        "html": "1.156",
-        "cls": "mono"
-       },
-       {
-        "html": "152.6",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Mercedes",
-        "cls": ""
-       },
-       {
-        "html": "0.7060",
-        "cls": "mono"
-       },
-       {
-        "html": "1.1324",
-        "cls": "mono"
-       },
-       {
-        "html": "0.980",
-        "cls": "mono"
-       },
-       {
-        "html": "1.44",
-        "cls": "mono"
-       },
-       {
-        "html": "1.152",
-        "cls": "mono"
-       },
-       {
-        "html": "152.3",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Aston Martin",
-        "cls": ""
-       },
-       {
-        "html": "0.7036",
-        "cls": "mono"
-       },
-       {
-        "html": "1.1286",
-        "cls": "mono"
-       },
-       {
-        "html": "0.955",
-        "cls": "mono"
-       },
-       {
-        "html": "1.41",
-        "cls": "mono"
-       },
-       {
-        "html": "1.126",
-        "cls": "mono"
-       },
-       {
-        "html": "151.7",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Red Bull",
-        "cls": ""
-       },
-       {
-        "html": "0.6984",
-        "cls": "mono"
-       },
-       {
-        "html": "1.1202",
-        "cls": "mono"
-       },
-       {
-        "html": "0.942",
-        "cls": "mono"
-       },
-       {
-        "html": "1.39",
-        "cls": "mono"
-       },
-       {
-        "html": "1.119",
-        "cls": "mono"
-       },
-       {
-        "html": "151.9",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Williams",
-        "cls": ""
-       },
-       {
-        "html": "0.7112",
-        "cls": "mono"
-       },
-       {
-        "html": "1.1408",
-        "cls": "mono"
-       },
-       {
-        "html": "0.957",
-        "cls": "mono"
-       },
-       {
-        "html": "1.41",
-        "cls": "mono"
-       },
-       {
-        "html": "1.117",
-        "cls": "mono"
-       },
-       {
-        "html": "152.0",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Ferrari",
-        "cls": ""
-       },
-       {
-        "html": "0.6948",
-        "cls": "mono"
-       },
-       {
-        "html": "1.1145",
-        "cls": "mono"
-       },
-       {
-        "html": "0.925",
-        "cls": "mono"
-       },
-       {
-        "html": "1.36",
-        "cls": "mono"
-       },
-       {
-        "html": "1.105",
-        "cls": "mono"
-       },
-       {
-        "html": "151.8",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Alpine",
-        "cls": ""
-       },
-       {
-        "html": "0.7200",
-        "cls": "mono"
-       },
-       {
-        "html": "1.1549",
-        "cls": "mono"
-       },
-       {
-        "html": "0.950",
-        "cls": "mono"
-       },
-       {
-        "html": "1.40",
-        "cls": "mono"
-       },
-       {
-        "html": "1.095",
-        "cls": "mono"
-       },
-       {
-        "html": "151.9",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Racing Bulls",
-        "cls": ""
-       },
-       {
-        "html": "0.7160",
-        "cls": "mono"
-       },
-       {
-        "html": "1.1485",
-        "cls": "mono"
-       },
-       {
-        "html": "0.935",
-        "cls": "mono"
-       },
-       {
-        "html": "1.38",
-        "cls": "mono"
-       },
-       {
-        "html": "1.084",
-        "cls": "mono"
-       },
-       {
-        "html": "151.7",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Kick Sauber",
-        "cls": ""
-       },
-       {
-        "html": "0.6812",
-        "cls": "mono"
-       },
-       {
-        "html": "1.0926",
-        "cls": "mono"
-       },
-       {
-        "html": "0.875",
-        "cls": "mono"
-       },
-       {
-        "html": "1.29",
-        "cls": "mono"
-       },
-       {
-        "html": "1.066",
-        "cls": "mono"
-       },
-       {
-        "html": "151.0",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Haas",
-        "cls": ""
-       },
-       {
-        "html": "0.6996",
-        "cls": "mono"
-       },
-       {
-        "html": "1.1222",
-        "cls": "mono"
-       },
-       {
-        "html": "0.885",
-        "cls": "mono"
-       },
-       {
-        "html": "1.30",
-        "cls": "mono"
-       },
-       {
-        "html": "1.050",
-        "cls": "mono"
-       },
-       {
-        "html": "151.2",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Cadillac",
-        "cls": ""
-       },
-       {
-        "html": "0.7120",
-        "cls": "mono"
-       },
-       {
-        "html": "1.1420",
-        "cls": "mono"
-       },
-       {
-        "html": "0.875",
-        "cls": "mono"
-       },
-       {
-        "html": "1.29",
-        "cls": "mono"
-       },
-       {
-        "html": "1.020",
-        "cls": "mono"
-       },
-       {
-        "html": "151.0",
-        "cls": "mono"
-       }
-      ]
-     ]
-    },
-    {
-     "type": "note",
-     "html": "弯速按稳态公式算的是\"极限\"，实际圈速还受调校与驾驶影响；但 100m 半径弯的差距（151.0–152.6 km/h）与升阻指数的排序高度一致，说明这一维的数据是自洽的。",
-     "tone": "dim"
-    }
-   ]
-  },
-  {
-   "id": "tracks",
-   "eyebrow": "Track Fit",
-   "title": "同一批车，两种赛道：排序不变，差距被压缩",
-   "lead": "力量型（长直道 + 中高速弯）与空力型（短直道 + 连续低速弯）两条原型赛道：排序几乎不变，但差距被明显压缩——总差从 0.77 s 收到 0.32 s。",
-   "blocks": [
-    {
-     "type": "chart",
-     "kicker": "Δt",
-     "title": "原型赛道圈时差（相对最快）",
-     "height": 360,
-     "note": "力量型：5 条 420–900 m 直道 + 7 个 45–240 m 半径弯；空力型：4 条 260–520 m 直道 + 9 个 35–110 m 弯",
+     },
+     "height": 320,
+     "note": "条形越短越快。McLaren 的 0.029 s 是 25 站平均；Williams 的 0.431 s 已包含 +11 kg 配重，Kick Sauber 的 0.835 s 已包含 −9 kg 减重。",
      "takeaways": [
-      "力量型最快：Mercedes（基准）；第 1–11 名差 0.77 s",
-      "空力型最快：McLaren；Ferrari 的差距从 0.30 s 收窄到 0.14 s"
-     ],
-     "config": {
-      "type": "bar",
-      "data": {
-       "labels": [
-        "Mercedes（力量型基准）",
-        "McLaren",
-        "Red Bull",
-        "Williams",
-        "Ferrari",
-        "Alpine",
-        "Racing Bulls",
-        "Aston Martin",
-        "Haas",
-        "Kick Sauber",
-        "Cadillac"
-       ],
-       "datasets": [
-        {
-         "label": "力量型 Δt (s)",
-         "data": [
-          0.0,
-          0.006,
-          0.179,
-          0.192,
-          0.305,
-          0.319,
-          0.398,
-          0.591,
-          0.6,
-          0.71,
-          0.766
-         ],
-         "backgroundColor": "rgba(76,168,255,.78)",
-         "borderRadius": 4
-        },
-        {
-         "label": "空力型 Δt (s)",
-         "data": [
-          0.013,
-          0.0,
-          0.097,
-          0.092,
-          0.141,
-          0.137,
-          0.174,
-          0.246,
-          0.267,
-          0.319,
-          0.324
-         ],
-         "backgroundColor": "rgba(63,224,208,.78)",
-         "borderRadius": 4
-        }
-       ]
-      },
-      "options": {
-       "indexAxis": "y",
-       "responsive": true,
-       "maintainAspectRatio": false,
-       "plugins": {
-        "legend": {
-         "position": "bottom"
-        }
-       },
-       "scales": {
-        "x": {
-         "beginAtZero": true
-        },
-        "y": {
-         "grid": {
-          "display": false
-         }
-        }
-       }
-      }
-     }
-    },
-    {
-     "type": "table",
-     "cols": [
-      {
-       "label": "车队",
-       "align": "left",
-       "cls": "",
-       "mono": false
-      },
-      {
-       "label": "极速 km/h",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "kW/kg",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "力量型圈时 s",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "Δt s",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "空力型圈时 s",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "Δt s",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      }
-     ],
-     "rows": [
-      [
-       {
-        "html": "Mercedes",
-        "cls": ""
-       },
-       {
-        "html": "312.6",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5489",
-        "cls": "mono"
-       },
-       {
-        "html": "76.68",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.00",
-        "cls": "mono"
-       },
-       {
-        "html": "54.67",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.01",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "McLaren",
-        "cls": ""
-       },
-       {
-        "html": "310.9",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5496",
-        "cls": "mono"
-       },
-       {
-        "html": "76.69",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.01",
-        "cls": "mono"
-       },
-       {
-        "html": "54.66",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.00",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Red Bull",
-        "cls": ""
-       },
-       {
-        "html": "313.3",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5427",
-        "cls": "mono"
-       },
-       {
-        "html": "76.86",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.18",
-        "cls": "mono"
-       },
-       {
-        "html": "54.76",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.10",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Williams",
-        "cls": ""
-       },
-       {
-        "html": "311.9",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5440",
-        "cls": "mono"
-       },
-       {
-        "html": "76.87",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.19",
-        "cls": "mono"
-       },
-       {
-        "html": "54.75",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.09",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Ferrari",
-        "cls": ""
-       },
-       {
-        "html": "311.9",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5387",
-        "cls": "mono"
-       },
-       {
-        "html": "76.99",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.30",
-        "cls": "mono"
-       },
-       {
-        "html": "54.80",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.14",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Alpine",
-        "cls": ""
-       },
-       {
-        "html": "310.6",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5412",
-        "cls": "mono"
-       },
-       {
-        "html": "77.00",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.32",
-        "cls": "mono"
-       },
-       {
-        "html": "54.80",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.14",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Racing Bulls",
-        "cls": ""
-       },
-       {
-        "html": "310.7",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5379",
-        "cls": "mono"
-       },
-       {
-        "html": "77.08",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.40",
-        "cls": "mono"
-       },
-       {
-        "html": "54.83",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.17",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Aston Martin",
-        "cls": ""
-       },
-       {
-        "html": "310.6",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5179",
-        "cls": "mono"
-       },
-       {
-        "html": "77.27",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.59",
-        "cls": "mono"
-       },
-       {
-        "html": "54.91",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.25",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Haas",
-        "cls": ""
-       },
-       {
-        "html": "311.2",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5304",
-        "cls": "mono"
-       },
-       {
-        "html": "77.28",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.60",
-        "cls": "mono"
-       },
-       {
-        "html": "54.93",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.27",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Kick Sauber",
-        "cls": ""
-       },
-       {
-        "html": "312.7",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5188",
-        "cls": "mono"
-       },
-       {
-        "html": "77.39",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.71",
-        "cls": "mono"
-       },
-       {
-        "html": "54.98",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.32",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Cadillac",
-        "cls": ""
-       },
-       {
-        "html": "309.4",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5277",
-        "cls": "mono"
-       },
-       {
-        "html": "77.45",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.77",
-        "cls": "mono"
-       },
-       {
-        "html": "54.98",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.32",
-        "cls": "mono"
-       }
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "attribution",
-   "eyebrow": "Attribution",
-   "title": "圈时差是谁造成的：单项替换",
-   "lead": "以最快车为基准，把四项差异单独换成基准值，看每一项各自能换回多少圈时；四项之和与总差之间的缺口记为\"交互项\"。五项相加恰好等于与基准的总差。",
-   "blocks": [
-    {
-     "type": "chart",
-     "kicker": "Contribution",
-     "title": "各因素对圈时差的贡献（s，相对最快车）",
-     "height": 380,
-     "note": "每根条 = 把该项单独换成最快车数值后，圈时能改善多少（单项替换）；灰色\"交互项\"= 总差 − 四项之和，四项 + 灰色 = 总差。",
-     "takeaways": [
-      "下压力与功率合计占力量型赛道平均贡献的 64%",
-      "下压力占 37%（力量型）/ 45%（空力型）——赛道越弯，它的权重越高"
-     ],
-     "config": {
-      "type": "bar",
-      "data": {
-       "labels": [
-        "Mercedes",
-        "McLaren",
-        "Red Bull",
-        "Williams",
-        "Ferrari",
-        "Alpine",
-        "Racing Bulls",
-        "Aston Martin",
-        "Haas",
-        "Kick Sauber",
-        "Cadillac"
-       ],
-       "datasets": [
-        {
-         "label": "质量",
-         "data": [
-          0.0,
-          -0.011,
-          0.051,
-          0.07,
-          -0.033,
-          0.113,
-          0.123,
-          0.297,
-          0.091,
-          0.177,
-          0.131
-         ],
-         "backgroundColor": "rgba(255,124,192,.78)",
-         "borderRadius": 3
-        },
-        {
-         "label": "功率",
-         "data": [
-          0.0,
-          0.0,
-          0.046,
-          0.0,
-          0.221,
-          0.0,
-          0.046,
-          0.229,
-          0.223,
-          0.347,
-          0.227
-         ],
-         "backgroundColor": "rgba(255,169,94,.78)",
-         "borderRadius": 3
-        },
-        {
-         "label": "阻力",
-         "data": [
-          0.0,
-          0.083,
-          -0.054,
-          0.036,
-          -0.083,
-          0.101,
-          0.066,
-          -0.016,
-          -0.047,
-          -0.173,
-          0.044
-         ],
-         "backgroundColor": "rgba(160,108,255,.78)",
-         "borderRadius": 3
-        },
-        {
-         "label": "下压力",
-         "data": [
-          0.0,
-          -0.072,
-          0.133,
-          0.079,
-          0.193,
-          0.104,
-          0.151,
-          0.085,
-          0.327,
-          0.358,
-          0.362
-         ],
-         "backgroundColor": "rgba(99,224,208,.78)",
-         "borderRadius": 3
-        },
-        {
-         "label": "交互项",
-         "data": [
-          0.0,
-          0.006,
-          0.003,
-          0.007,
-          0.007,
-          0.001,
-          0.013,
-          -0.004,
-          0.007,
-          0.003,
-          0.001
-         ],
-         "backgroundColor": "rgba(150,160,180,.55)",
-         "borderRadius": 3
-        }
-       ]
-      },
-      "options": {
-       "indexAxis": "y",
-       "responsive": true,
-       "maintainAspectRatio": false,
-       "plugins": {
-        "legend": {
-         "position": "bottom"
-        }
-       },
-       "scales": {
-        "x": {
-         "beginAtZero": false
-        },
-        "y": {
-         "grid": {
-          "display": false
-         }
-        }
-       }
-      }
-     }
-    }
-   ]
-  },
-  {
-   "id": "sensitivity",
-   "eyebrow": "Sensitivity",
-   "title": "敏感度：10 kg 值多少秒",
-   "lead": "把四种差异各自加一档（升力乘子与阻力是游戏数据里两个独立参数，所以分开加），看圈时怎么动。这张表可以直接拿去做\"哪个升级最值得\"的判断。",
-   "blocks": [
-    {
-     "type": "table",
-     "cols": [
-      {
-       "label": "变动项",
-       "align": "left",
-       "cls": "",
-       "mono": false
-      },
-      {
-       "label": "力量型 Δt s",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "空力型 Δt s",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      }
-     ],
-     "rows": [
-      [
-       {
-        "html": "质量 +10 kg",
-        "cls": ""
-       },
-       {
-        "html": "+0.105",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.045",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "功率 +5 kW",
-        "cls": ""
-       },
-       {
-        "html": "-0.108",
-        "cls": "mono"
-       },
-       {
-        "html": "-0.033",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "阻力 +0.01",
-        "cls": ""
-       },
-       {
-        "html": "+0.070",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.021",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "下压力 +0.05",
-        "cls": ""
-       },
-       {
-        "html": "-0.114",
-        "cls": "mono"
-       },
-       {
-        "html": "-0.053",
-        "cls": "mono"
-       }
-      ]
+      "McLaren 在 25 站中 <b>18 站</b>做出全场最快；Mercedes 6 站，Ferrari 1 站。",
+      "Williams 从 0.271 s 修正到 0.431 s，仍是 T4 最快，但对 Alpine/Racing Bulls 的缓冲只剩 0.10–0.12 s。",
+      "Kick Sauber 从 0.966 s 修正到 0.835 s，仍排第 9；Aston Martin 0.986 s 紧跟在后面。"
      ]
     },
     {
-     "type": "callout",
-     "tone": "",
-     "html": "<b>结论：</b>力量型赛道上 <b>10 kg ≈ 0.10 s</b>、<b>5 kW ≈ 0.11 s</b>、<b>0.01 Cd ≈ 0.07 s</b>、<b>0.05 Cl ≈ 0.11 s</b>。换到空力型赛道，四项全部缩水到 0.04/0.03/0.02/0.05 s——同样的升级，赛道类型不同收益差一倍以上。"
-    }
-   ]
-  },
-  {
-   "id": "fuel",
-   "eyebrow": "Fuel",
-   "title": "油耗系数：一圈多几克，二十圈就是几公斤",
-   "lead": "2026 的油耗系数差 3.3%（0.978–1.010）。按 110 kg 满油、20 圈折算，每圈 5.379–5.555 kg，20 圈相差 3.5 kg。",
-   "blocks": [
-    {
      "type": "table",
      "cols": [
       {
-       "label": "车队",
-       "align": "left",
-       "cls": "",
-       "mono": false
-      },
-      {
-       "label": "油耗系数",
-       "align": "left",
+       "label": "#",
+       "align": "right",
        "cls": "",
        "mono": true
       },
-      {
-       "label": "每圈 kg",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "20 圈 kg",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "折算 Δt s",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      }
-     ],
-     "rows": [
-      [
-       {
-        "html": "Mercedes",
-        "cls": ""
-       },
-       {
-        "html": "0.978",
-        "cls": "mono"
-       },
-       {
-        "html": "5.379",
-        "cls": "mono"
-       },
-       {
-        "html": "107.6",
-        "cls": "mono"
-       },
-       {
-        "html": "-0.025",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "McLaren",
-        "cls": ""
-       },
-       {
-        "html": "0.978",
-        "cls": "mono"
-       },
-       {
-        "html": "5.379",
-        "cls": "mono"
-       },
-       {
-        "html": "107.6",
-        "cls": "mono"
-       },
-       {
-        "html": "-0.025",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Red Bull",
-        "cls": ""
-       },
-       {
-        "html": "0.983",
-        "cls": "mono"
-       },
-       {
-        "html": "5.407",
-        "cls": "mono"
-       },
-       {
-        "html": "108.1",
-        "cls": "mono"
-       },
-       {
-        "html": "-0.020",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Williams",
-        "cls": ""
-       },
-       {
-        "html": "0.978",
-        "cls": "mono"
-       },
-       {
-        "html": "5.379",
-        "cls": "mono"
-       },
-       {
-        "html": "107.6",
-        "cls": "mono"
-       },
-       {
-        "html": "-0.025",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Ferrari",
-        "cls": ""
-       },
-       {
-        "html": "1.000",
-        "cls": "mono"
-       },
-       {
-        "html": "5.500",
-        "cls": "mono"
-       },
-       {
-        "html": "110.0",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.000",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Alpine",
-        "cls": ""
-       },
-       {
-        "html": "0.978",
-        "cls": "mono"
-       },
-       {
-        "html": "5.379",
-        "cls": "mono"
-       },
-       {
-        "html": "107.6",
-        "cls": "mono"
-       },
-       {
-        "html": "-0.025",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Racing Bulls",
-        "cls": ""
-       },
-       {
-        "html": "0.983",
-        "cls": "mono"
-       },
-       {
-        "html": "5.407",
-        "cls": "mono"
-       },
-       {
-        "html": "108.1",
-        "cls": "mono"
-       },
-       {
-        "html": "-0.020",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Aston Martin",
-        "cls": ""
-       },
-       {
-        "html": "1.000",
-        "cls": "mono"
-       },
-       {
-        "html": "5.500",
-        "cls": "mono"
-       },
-       {
-        "html": "110.0",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.000",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Haas",
-        "cls": ""
-       },
-       {
-        "html": "1.000",
-        "cls": "mono"
-       },
-       {
-        "html": "5.500",
-        "cls": "mono"
-       },
-       {
-        "html": "110.0",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.000",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Kick Sauber",
-        "cls": ""
-       },
-       {
-        "html": "1.010",
-        "cls": "mono"
-       },
-       {
-        "html": "5.555",
-        "cls": "mono"
-       },
-       {
-        "html": "111.1",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.012",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Cadillac",
-        "cls": ""
-       },
-       {
-        "html": "1.000",
-        "cls": "mono"
-       },
-       {
-        "html": "5.500",
-        "cls": "mono"
-       },
-       {
-        "html": "110.0",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.000",
-        "cls": "mono"
-       }
-      ]
-     ]
-    },
-    {
-     "type": "note",
-     "html": "折算方式：载油每多 10 kg，按敏感度表计 <b>0.10 s</b>；表里负值 = 更省油 → 更轻 → 更快。只影响需要\"满油跑长段\"的场合（正赛起步段），排位与短程赛可忽略。",
-     "tone": "dim"
-    }
-   ]
-  },
-  {
-   "id": "upgrades",
-   "eyebrow": "Upgrades",
-   "title": "升级会把排序翻过来吗",
-   "lead": "把各队的研发升级（减重 10–34 kg、引擎 ×1.01–1.028、前后下压力 ×1.09–1.19、阻力 ×0.85–0.92）套回基础参数，重新算一遍。",
-   "blocks": [
-    {
-     "type": "table",
-     "cols": [
       {
        "label": "车队",
        "align": "left",
@@ -2170,25 +502,31 @@
       },
       {
        "label": "质量 kg",
-       "align": "left",
+       "align": "right",
        "cls": "",
        "mono": true
       },
       {
-       "label": "功率 kW",
-       "align": "left",
+       "label": "AI 原始",
+       "align": "right",
        "cls": "",
        "mono": true
       },
       {
-       "label": "kW/kg",
-       "align": "left",
+       "label": "v1.27 修正",
+       "align": "right",
        "cls": "",
        "mono": true
       },
       {
-       "label": "力量型 Δt s",
-       "align": "left",
+       "label": "95% CI",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "分站最快",
+       "align": "right",
        "cls": "",
        "mono": true
       }
@@ -2196,265 +534,601 @@
      "rows": [
       [
        {
-        "html": "Mercedes",
-        "cls": ""
-       },
-       {
-        "html": "774 → 752",
+        "html": "1",
         "cls": "mono"
        },
-       {
-        "html": "424.9 → 424.9",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5489 → 0.5650",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.000 → +0.000",
-        "cls": "mono"
-       }
-      ],
-      [
        {
         "html": "McLaren",
         "cls": ""
        },
        {
-        "html": "773 → 756",
+        "html": "773",
         "cls": "mono"
        },
        {
-        "html": "424.9 → 424.9",
+        "html": "0.029",
         "cls": "mono"
        },
        {
-        "html": "0.5496 → 0.5620",
+        "html": "0.029",
         "cls": "mono"
        },
        {
-        "html": "+0.006 → +0.037",
+        "html": "±0.024",
+        "cls": "mono"
+       },
+       {
+        "html": "18",
         "cls": "mono"
        }
       ],
       [
        {
-        "html": "Red Bull",
+        "html": "2",
+        "cls": "mono"
+       },
+       {
+        "html": "Mercedes",
         "cls": ""
        },
        {
-        "html": "779 → 755",
+        "html": "774",
         "cls": "mono"
        },
        {
-        "html": "422.8 → 422.8",
+        "html": "0.085",
         "cls": "mono"
        },
        {
-        "html": "0.5427 → 0.5600",
+        "html": "0.085",
         "cls": "mono"
        },
        {
-        "html": "+0.179 → +0.172",
+        "html": "±0.033",
+        "cls": "mono"
+       },
+       {
+        "html": "6",
         "cls": "mono"
        }
       ],
       [
        {
-        "html": "Williams",
-        "cls": ""
-       },
-       {
-        "html": "781 → 756",
+        "html": "3",
         "cls": "mono"
        },
-       {
-        "html": "424.9 → 424.9",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5440 → 0.5620",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.192 → +0.159",
-        "cls": "mono"
-       }
-      ],
-      [
        {
         "html": "Ferrari",
         "cls": ""
        },
        {
-        "html": "771 → 761",
+        "html": "771",
         "cls": "mono"
        },
        {
-        "html": "415.3 → 426.9",
+        "html": "0.124",
         "cls": "mono"
        },
        {
-        "html": "0.5387 → 0.5610",
+        "html": "0.124",
         "cls": "mono"
        },
        {
-        "html": "+0.305 → +0.138",
+        "html": "±0.032",
+        "cls": "mono"
+       },
+       {
+        "html": "1",
         "cls": "mono"
        }
       ],
       [
+       {
+        "html": "4",
+        "cls": "mono"
+       },
+       {
+        "html": "Red Bull",
+        "cls": ""
+       },
+       {
+        "html": "779",
+        "cls": "mono"
+       },
+       {
+        "html": "0.243",
+        "cls": "mono"
+       },
+       {
+        "html": "0.243",
+        "cls": "mono"
+       },
+       {
+        "html": "±0.029",
+        "cls": "mono"
+       },
+       {
+        "html": "0",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "5",
+        "cls": "mono"
+       },
+       {
+        "html": "Williams",
+        "cls": ""
+       },
+       {
+        "html": "792",
+        "cls": "mono"
+       },
+       {
+        "html": "0.271",
+        "cls": "mono"
+       },
+       {
+        "html": "0.431",
+        "cls": "mono"
+       },
+       {
+        "html": "±0.029",
+        "cls": "mono"
+       },
+       {
+        "html": "0",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "6",
+        "cls": "mono"
+       },
        {
         "html": "Alpine",
         "cls": ""
        },
        {
-        "html": "785 → 761",
+        "html": "785",
         "cls": "mono"
        },
        {
-        "html": "424.9 → 424.9",
+        "html": "0.535",
         "cls": "mono"
        },
        {
-        "html": "0.5412 → 0.5583",
+        "html": "0.535",
         "cls": "mono"
        },
        {
-        "html": "+0.319 → +0.459",
+        "html": "±0.040",
+        "cls": "mono"
+       },
+       {
+        "html": "0",
         "cls": "mono"
        }
       ],
       [
+       {
+        "html": "7",
+        "cls": "mono"
+       },
        {
         "html": "Racing Bulls",
         "cls": ""
        },
        {
-        "html": "786 → 760",
+        "html": "786",
         "cls": "mono"
        },
        {
-        "html": "422.8 → 422.8",
+        "html": "0.548",
         "cls": "mono"
        },
        {
-        "html": "0.5379 → 0.5563",
+        "html": "0.548",
         "cls": "mono"
        },
        {
-        "html": "+0.398 → +0.543",
+        "html": "±0.049",
+        "cls": "mono"
+       },
+       {
+        "html": "0",
         "cls": "mono"
        }
       ],
       [
        {
-        "html": "Aston Martin",
-        "cls": ""
-       },
-       {
-        "html": "802 → 768",
+        "html": "8",
         "cls": "mono"
        },
-       {
-        "html": "415.3 → 419.5",
-        "cls": "mono"
-       },
-       {
-        "html": "0.5179 → 0.5462",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.591 → +0.276",
-        "cls": "mono"
-       }
-      ],
-      [
        {
         "html": "Haas",
         "cls": ""
        },
        {
-        "html": "783 → 762",
+        "html": "783",
         "cls": "mono"
        },
        {
-        "html": "415.3 → 426.9",
+        "html": "0.760",
         "cls": "mono"
        },
        {
-        "html": "0.5304 → 0.5603",
+        "html": "0.760",
         "cls": "mono"
        },
        {
-        "html": "+0.600 → +0.710",
+        "html": "±0.035",
+        "cls": "mono"
+       },
+       {
+        "html": "0",
         "cls": "mono"
        }
       ],
       [
+       {
+        "html": "9",
+        "cls": "mono"
+       },
        {
         "html": "Kick Sauber",
         "cls": ""
        },
        {
-        "html": "791 → 765",
+        "html": "782",
         "cls": "mono"
        },
        {
-        "html": "410.3 → 416.5",
+        "html": "0.966",
         "cls": "mono"
        },
        {
-        "html": "0.5188 → 0.5444",
+        "html": "0.835",
         "cls": "mono"
        },
        {
-        "html": "+0.710 → +0.868",
+        "html": "±0.060",
+        "cls": "mono"
+       },
+       {
+        "html": "0",
         "cls": "mono"
        }
       ],
       [
        {
+        "html": "10",
+        "cls": "mono"
+       },
+       {
+        "html": "Aston Martin",
+        "cls": ""
+       },
+       {
+        "html": "802",
+        "cls": "mono"
+       },
+       {
+        "html": "0.986",
+        "cls": "mono"
+       },
+       {
+        "html": "0.986",
+        "cls": "mono"
+       },
+       {
+        "html": "±0.049",
+        "cls": "mono"
+       },
+       {
+        "html": "0",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "11",
+        "cls": "mono"
+       },
+       {
         "html": "Cadillac",
         "cls": ""
        },
        {
-        "html": "787 → 767",
+        "html": "787",
         "cls": "mono"
        },
        {
-        "html": "415.3 → 426.9",
+        "html": "1.081",
         "cls": "mono"
        },
        {
-        "html": "0.5277 → 0.5566",
+        "html": "1.081",
         "cls": "mono"
        },
        {
-        "html": "+0.766 → +0.674",
+        "html": "±0.058",
+        "cls": "mono"
+       },
+       {
+        "html": "0",
         "cls": "mono"
        }
       ]
-     ]
-    },
-    {
-     "type": "callout",
-     "tone": "",
-     "html": "<b>升级会重排中段，但头部不变。</b>套用减重 + 引擎 + 空力升级后：<b>8 / 11 支车队的名次发生变化</b>（最大位移 2 位），榜首仍是 Mercedes；最大圈时差从 0.77 s 变为 0.87 s。"
+     ],
+     "hotRows": [
+      4,
+      8
+     ],
+     "max": "100%"
     },
     {
      "type": "note",
-     "html": "表里\"→\"右侧是套用升级后的值；引擎功率项只有部分车队有差异（其余车队该升级项与基准一致，按 ×1.000 计）。",
+     "html": "质量单位 kg；差距单位秒；分站最快数 = 该队在 25 站中做出全场最快的次数。95% CI 只描述“平均差距”的估计不确定性，不改变“McLaren 第一”这个结论。",
      "tone": "dim"
     }
    ]
   },
   {
-   "id": "ers",
-   "eyebrow": "ERS",
-   "title": "ERS：没有车队差异，只有规则差异",
-   "lead": "十一队的 ERS 参数完全一致（350 kW / 4 MJ，293 个赛道设置 0 差异）。真正的变化在规则：2025 的 126.3 kW 到 2026 的 350 kW。",
+   "id": "tiers",
+   "eyebrow": "Tiers",
+   "title": "把名次折成层级：T1 只有 McLaren，T4 三队挤在 0.117 s",
+   "lead": "连续排名会制造“第 3 和第 4 差很多”的错觉。按统计区间和赛道特征重新分层，2026 的十一队更像七个台阶。",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "层级",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "车队",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "v1.27 差距",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "判断",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "T1",
+        "cls": ""
+       },
+       {
+        "html": "McLaren",
+        "cls": ""
+       },
+       {
+        "html": "0.029",
+        "cls": "mono"
+       },
+       {
+        "html": "唯一场场最快的档；18/25 站基准最快",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "T2",
+        "cls": ""
+       },
+       {
+        "html": "Mercedes",
+        "cls": ""
+       },
+       {
+        "html": "0.085",
+        "cls": "mono"
+       },
+       {
+        "html": "与 Ferrari 差 0.039 s，统计上不显著",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "T2",
+        "cls": ""
+       },
+       {
+        "html": "Ferrari",
+        "cls": ""
+       },
+       {
+        "html": "0.124",
+        "cls": "mono"
+       },
+       {
+        "html": "最轻 771 kg，但空力只够它在 Las Vegas 拿 1 个分站最快",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "T3",
+        "cls": ""
+       },
+       {
+        "html": "Red Bull",
+        "cls": ""
+       },
+       {
+        "html": "0.243",
+        "cls": "mono"
+       },
+       {
+        "html": "第四，领先 T4 0.188 s",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "T4",
+        "cls": ""
+       },
+       {
+        "html": "Williams",
+        "cls": ""
+       },
+       {
+        "html": "0.431",
+        "cls": "mono"
+       },
+       {
+        "html": "v1.27 加重后仍是中游领头",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "T4",
+        "cls": ""
+       },
+       {
+        "html": "Alpine",
+        "cls": ""
+       },
+       {
+        "html": "0.535",
+        "cls": "mono"
+       },
+       {
+        "html": "与 Racing Bulls 只差 0.013 s",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "T4",
+        "cls": ""
+       },
+       {
+        "html": "Racing Bulls",
+        "cls": ""
+       },
+       {
+        "html": "0.548",
+        "cls": "mono"
+       },
+       {
+        "html": "T4 的尾巴",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "T5",
+        "cls": ""
+       },
+       {
+        "html": "Haas",
+        "cls": ""
+       },
+       {
+        "html": "0.760",
+        "cls": "mono"
+       },
+       {
+        "html": "单独一层，前后都差 0.2 s 以上",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "T6",
+        "cls": ""
+       },
+       {
+        "html": "Kick Sauber",
+        "cls": ""
+       },
+       {
+        "html": "0.835",
+        "cls": "mono"
+       },
+       {
+        "html": "v1.27 减重后仍第 9；领先 Aston 0.151 s",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "T6",
+        "cls": ""
+       },
+       {
+        "html": "Aston Martin",
+        "cls": ""
+       },
+       {
+        "html": "0.986",
+        "cls": "mono"
+       },
+       {
+        "html": "802 kg，全场最重",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "T7",
+        "cls": ""
+       },
+       {
+        "html": "Cadillac",
+        "cls": ""
+       },
+       {
+        "html": "1.081",
+        "cls": "mono"
+       },
+       {
+        "html": "唯一落后 1 s 以上的车队",
+        "cls": ""
+       }
+      ]
+     ],
+     "max": "920px"
+    },
+    {
+     "type": "callout",
+     "html": "<b>中游不是“一条线”，是三个台阶。</b>T4 的 Williams、Alpine、Racing Bulls 只差 <b>0.117 s</b>；T5 Haas 与 T6 又各差 0.1–0.2 s。25 站里有 18 站至少出现过一处单站名次变化，但 25 站平均名次不变——排位/赛道特性会把同一档的车翻来翻去。",
+     "tone": "info"
+    },
+    {
+     "type": "note",
+     "html": "T2 内部（Mercedes vs Ferrari）的 0.039 s 小于两队 CI 的重叠范围，不能据此断言“Mercedes 一定比 Ferrari 快”。T4 内部同理：Alpine 与 Racing Bulls 的 0.013 s 基本可以当作并列。",
+     "tone": "dim"
+    }
+   ]
+  },
+  {
+   "id": "v127",
+   "eyebrow": "v1.27",
+   "title": "v1.27 逐项：两块配重，和一批不影响圈速的数据库改动",
+   "lead": "1.27 的可读车辆物理只改了两行；真正容易被误读的是数据库里的 performance_tier、升级元数据和 Madrid 轮胎——它们看起来像性能改动，实际不改变基础圈速。",
    "blocks": [
     {
      "type": "table",
@@ -2466,19 +1140,19 @@
        "mono": false
       },
       {
-       "label": "F1 2025",
-       "align": "left",
+       "label": "v1.27 前",
+       "align": "right",
        "cls": "",
        "mono": true
       },
       {
-       "label": "F1 2026",
-       "align": "left",
+       "label": "v1.27 后",
+       "align": "right",
        "cls": "",
        "mono": true
       },
       {
-       "label": "变化",
+       "label": "影响",
        "align": "left",
        "cls": "",
        "mono": false
@@ -2487,90 +1161,746 @@
      "rows": [
       [
        {
-        "html": "部署功率",
+        "html": "Kick Sauber Chassis/Mass",
         "cls": ""
        },
        {
-        "html": "126.3 kW",
+        "html": "791 kg",
         "cls": "mono"
        },
        {
-        "html": "350 kW",
+        "html": "782 kg",
         "cls": "mono"
        },
        {
-        "html": "+177%",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "电池容量",
-        "cls": ""
-       },
-       {
-        "html": "4 MJ",
-        "cls": "mono"
-       },
-       {
-        "html": "4 MJ",
-        "cls": "mono"
-       },
-       {
-        "html": "不变",
+        "html": "−9 kg；满级 BXML 也按 −9 生效",
         "cls": ""
        }
       ],
       [
        {
-        "html": "每圈回收上限",
+        "html": "Williams Chassis/Mass",
         "cls": ""
        },
        {
-        "html": "2.0 MJ",
+        "html": "781 kg",
         "cls": "mono"
        },
        {
-        "html": "8.5 MJ（排位 9.0）",
+        "html": "792 kg",
         "cls": "mono"
        },
        {
-        "html": "+325%",
-        "cls": "mono"
+        "html": "+11 kg；满级 BXML 也按 +11 生效",
+        "cls": ""
        }
       ],
       [
        {
-        "html": "部署时长（满电满功率）",
+        "html": "其余九队车辆物理",
         "cls": ""
        },
        {
-        "html": "约 31.7 s",
+        "html": "—",
+        "cls": "mono"
+       },
+       {
+        "html": "未变",
+        "cls": "mono"
+       },
+       {
+        "html": "handling BXML 与 1.27 前一致",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "AI baseLapTime / Fuel / ERS",
         "cls": ""
        },
        {
-        "html": "约 11.4 s",
+        "html": "476 条",
+        "cls": "mono"
+       },
+       {
+        "html": "476 条 0 diff",
+        "cls": "mono"
+       },
+       {
+        "html": "AI 基准排序不变",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "2026 equal / FOM / common",
         "cls": ""
        },
        {
-        "html": "能量密度换峰值",
+        "html": "—",
+        "cls": "mono"
+       },
+       {
+        "html": "未变",
+        "cls": "mono"
+       },
+       {
+        "html": "开 Equal 时配重变化不生效",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "数据库其它",
+        "cls": ""
+       },
+       {
+        "html": "—",
+        "cls": "mono"
+       },
+       {
+        "html": "33 值变化",
+        "cls": "mono"
+       },
+       {
+        "html": "performance_tier、升级元数据、Madrid 轮胎、UI/涂装",
         "cls": ""
        }
       ]
+     ],
+     "max": "100%"
+    },
+    {
+     "type": "chart",
+     "kicker": "图 02",
+     "title": "配重改动前后的平均差距",
+     "config": {
+      "type": "bar",
+      "data": {
+       "labels": [
+        "Kick Sauber",
+        "Williams"
+       ],
+       "datasets": [
+        {
+         "label": "v1.27 前",
+         "data": [
+          0.966,
+          0.271
+         ],
+         "backgroundColor": [
+          "rgba(120,150,185,.45)",
+          "rgba(120,150,185,.45)"
+         ],
+         "borderRadius": 3,
+         "barPercentage": 0.7
+        },
+        {
+         "label": "v1.27 后",
+         "data": [
+          0.835,
+          0.431
+         ],
+         "backgroundColor": [
+          "rgba(255,169,94,.85)",
+          "rgba(255,124,192,.85)"
+         ],
+         "borderRadius": 3,
+         "barPercentage": 0.7
+        }
+       ]
+      },
+      "options": {
+       "indexAxis": "y",
+       "responsive": true,
+       "maintainAspectRatio": false,
+       "plugins": {
+        "legend": {
+         "display": true,
+         "labels": {
+          "color": "#9fb0c9",
+          "boxWidth": 10
+         }
+        }
+       },
+       "scales": {
+        "x": {
+         "beginAtZero": true,
+         "suggestedMax": 1.1,
+         "grid": {
+          "color": "rgba(255,255,255,.08)"
+         },
+         "ticks": {
+          "color": "#9fb0c9"
+         }
+        },
+        "y": {
+         "grid": {
+          "display": false
+         },
+         "ticks": {
+          "color": "#dbe6f3"
+         }
+        }
+       }
+      }
+     },
+     "height": 220,
+     "note": "Sauber 的条变短（更快），Williams 的条变长（更慢）。两队的相对差距从约 0.695 s 缩到约 0.40 s，但都没有跨越层级。",
+     "takeaways": [
+      "Sauber：0.966 → 0.835 s，约快 0.11–0.16 s/圈。",
+      "Williams：0.271 → 0.431 s，约慢 0.13–0.20 s/圈。",
+      "前十一队顺序不变；Sauber 仍第 9，Williams 仍第 5。"
      ]
     },
     {
+     "type": "callout",
+     "html": "<b>数据库里的“看起来像性能”的改动：</b>performance_tier 把 Sauber 从 2 调到 1、Williams 从 1 调到 2；升级元数据里 Sauber 的 performance_rating 71→81、mass_adjustment −26→−17，Williams 的 mass_adjustment −25→−30。这些影响升级界面/成长曲线，不是基础 BXML 的物理参数。",
+     "tone": "info"
+    },
+    {
      "type": "note",
-     "html": "部署 350 kW 相当于额外 470 马力，但 4 MJ 电池只够满功率用 <b>11.4 秒</b>；2026 把每圈回收上限从 2.0 MJ 提到 8.5 MJ（排位 9.0 MJ），所以真正的变量是\"什么时候把电花在哪一段\"，而不是\"有没有电\"。",
+     "html": "加密的 <b>game.dat</b> 比 1.27 前多 6912 B，读不出 driver stats；Madrid 的 F1 轮胎从 C3/C4/C5 改成 C2/C3/C4，F2 从 SuperSoft/Medium 改成 Soft/Hard——轮胎变化会在第 8 节单独讲，不改变车辆基础物理。",
+     "tone": "dim"
+    }
+   ]
+  },
+  {
+   "id": "fom",
+   "eyebrow": "Reference",
+   "title": "加入 FOM 参考车：它插在 Ferrari 和 Red Bull 之间",
+   "lead": "Equal Performance 房间用的 FOM/common 参考车不是“第 12 支车队”，而是一把标尺：768 kg、固定空力、没有车队升级。把它放进同一张差距图，位置很有意思。",
+   "blocks": [
+    {
+     "type": "chart",
+     "kicker": "图 03",
+     "title": "11 支车队 + FOM 参考车的平均差距",
+     "config": {
+      "type": "bar",
+      "data": {
+       "labels": [
+        "McLaren",
+        "Mercedes",
+        "Ferrari",
+        "FOM 参考车",
+        "Red Bull",
+        "Williams",
+        "Alpine",
+        "Racing Bulls",
+        "Haas",
+        "Kick Sauber",
+        "Aston Martin",
+        "Cadillac"
+       ],
+       "datasets": [
+        {
+         "label": "与该站最快车的平均差距（s）",
+         "data": [
+          0.029,
+          0.085,
+          0.124,
+          0.143,
+          0.243,
+          0.431,
+          0.535,
+          0.548,
+          0.76,
+          0.835,
+          0.986,
+          1.081
+         ],
+         "backgroundColor": [
+          "rgba(63,224,208,.9)",
+          "rgba(120,150,185,.75)",
+          "rgba(120,150,185,.65)",
+          "rgba(255,255,255,.55)",
+          "rgba(120,150,185,.55)",
+          "rgba(255,124,192,.8)",
+          "rgba(120,150,185,.55)",
+          "rgba(120,150,185,.5)",
+          "rgba(120,150,185,.45)",
+          "rgba(255,169,94,.8)",
+          "rgba(120,150,185,.4)",
+          "rgba(120,150,185,.35)"
+         ],
+         "borderRadius": 3,
+         "barPercentage": 0.74
+        }
+       ]
+      },
+      "options": {
+       "indexAxis": "y",
+       "responsive": true,
+       "maintainAspectRatio": false,
+       "plugins": {
+        "legend": {
+         "display": false
+        }
+       },
+       "scales": {
+        "x": {
+         "beginAtZero": true,
+         "suggestedMax": 1.15,
+         "grid": {
+          "color": "rgba(255,255,255,.08)"
+         },
+         "ticks": {
+          "color": "#9fb0c9"
+         }
+        },
+        "y": {
+         "grid": {
+          "display": false
+         },
+         "ticks": {
+          "color": "#dbe6f3"
+         }
+        }
+       }
+      }
+     },
+     "height": 360,
+     "note": "FOM 参考车 0.143 s，排在 Ferrari（0.124）与 Red Bull（0.243）之间；它不是车队，不能拿它的“第 4 名”去和车队积分榜混用。",
+     "takeaways": [
+      "FOM 参考车 768 kg，0 个分站最快，6 次 P2、7 次 P3。",
+      "对 Mercedes 5/25 站更快，对 Ferrari 13/25 站更快，对 Red Bull 22/25 站更快——典型的“第 3.5 名标尺”。",
+      "它比 McLaren 慢 0.114 s，比 Cadillac 快 0.938 s；用它衡量“中游车队有没有升级到位”比衡量“冠军是谁”更合适。"
+     ]
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "车型",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "质量 kg",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "平均差距",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "位置",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "McLaren",
+        "cls": ""
+       },
+       {
+        "html": "773",
+        "cls": "mono"
+       },
+       {
+        "html": "0.029",
+        "cls": "mono"
+       },
+       {
+        "html": "P1",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Ferrari",
+        "cls": ""
+       },
+       {
+        "html": "771",
+        "cls": "mono"
+       },
+       {
+        "html": "0.124",
+        "cls": "mono"
+       },
+       {
+        "html": "P3",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "FOM 参考车",
+        "cls": ""
+       },
+       {
+        "html": "768",
+        "cls": "mono"
+       },
+       {
+        "html": "0.143",
+        "cls": "mono"
+       },
+       {
+        "html": "参考标尺",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Red Bull",
+        "cls": ""
+       },
+       {
+        "html": "779",
+        "cls": "mono"
+       },
+       {
+        "html": "0.243",
+        "cls": "mono"
+       },
+       {
+        "html": "P5",
+        "cls": ""
+       }
+      ]
+     ],
+     "max": "680px"
+    },
+    {
+     "type": "note",
+     "html": "FOM 参考车的 0.143 s 是 AI baseLapTime，与 11 队同口径；它的意义是“固定基准”，不是“官方第 12 支车队”。",
+     "tone": "dim"
+    }
+   ]
+  },
+  {
+   "id": "equal",
+   "eyebrow": "Equal Performance",
+   "title": "Equal Performance 的 2026 残留：三个 DRS 标定值",
+   "lead": "2025 的 Equal 房间是“干净”的：common 参考车没有性能差异。2026 每队的 equal/FOM 副本里仍保留三个 DRS/主动空力标定值，运行时是否参与计算无法只靠文件确认。",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "项目",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "2025",
+       "align": "left",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "2026",
+       "align": "left",
+       "cls": "",
+       "mono": true
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "Equal/FOM 车性能差异",
+        "cls": ""
+       },
+       {
+        "html": "无",
+        "cls": "mono"
+       },
+       {
+        "html": "每队保留 3 个 DRS/主动空力标定值",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "DRSOpenCloseSpeed",
+        "cls": ""
+       },
+       {
+        "html": "—",
+        "cls": "mono"
+       },
+       {
+        "html": "5–13",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "DRSRotationAngleRadians",
+        "cls": ""
+       },
+       {
+        "html": "—",
+        "cls": "mono"
+       },
+       {
+        "html": "0.3839–3.857（Ferrari 3.857 为异常值）",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "DRSRotationJointAngleRatio",
+        "cls": ""
+       },
+       {
+        "html": "—",
+        "cls": "mono"
+       },
+       {
+        "html": "−1.652–2.667",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "common/FOM 参考车",
+        "cls": ""
+       },
+       {
+        "html": "798 kg / Cd 0.45–0.64 / Cl 1.0",
+        "cls": "mono"
+       },
+       {
+        "html": "768 kg / Cd 0.400–0.590 / Cl 1.0",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "隐藏胎耗 tyre_wear_scale",
+        "cls": ""
+       },
+       {
+        "html": "0.95–1.04",
+        "cls": "mono"
+       },
+       {
+        "html": "0.94–1.02；v1.27 未改",
+        "cls": "mono"
+       }
+      ]
+     ],
+     "max": "100%"
+    },
+    {
+     "type": "callout",
+     "html": "<b>能确认的：</b>2026 Equal 的基础车质量统一为 FOM 的 768 kg，配重/功率差异不生效。<b>不能确认的：</b>三个 DRS 标定值是否被运行时读取；文件里没有足够信息量化圈速，不能把它们写成“某队 Equal 更快”。",
+     "tone": "info"
+    },
+    {
+     "type": "note",
+     "html": "这说明“Equal Performance”不等于“完全相同的车”：基础物理是统一的，隐藏的 tyre_wear_scale 仍在 0.94–1.02 之间，DRS 标定也仍按车队副本保存。对普通玩家来说，差异远小于非 Equal 房间；对做联赛公平性校验的人来说，这是需要标注的残留。",
+     "tone": "dim"
+    }
+   ]
+  },
+  {
+   "id": "madrid",
+   "eyebrow": "Tyres",
+   "title": "v1.27 唯一会改变比赛周末的：Madrid 轮胎硬一档",
+   "lead": "车辆物理只有两块配重，但 Madrid 的轮胎配方变了：F1 从 C3/C4/C5 改成 C2/C3/C4，F2 从 SuperSoft/Medium 改成 Soft/Hard。单圈影响很小，策略窗口的影响是秒级。",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "赛事",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "v1.27 前",
+       "align": "left",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "v1.27 后",
+       "align": "left",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "影响",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "F1 Madrid",
+        "cls": ""
+       },
+       {
+        "html": "C3 / C4 / C5",
+        "cls": "mono"
+       },
+       {
+        "html": "C2 / C3 / C4",
+        "cls": "mono"
+       },
+       {
+        "html": "每档更硬；磨损更低，stint 可拉长 20–25%",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "F2 Madrid",
+        "cls": ""
+       },
+       {
+        "html": "SuperSoft / Medium",
+        "cls": "mono"
+       },
+       {
+        "html": "Soft / Hard",
+        "cls": "mono"
+       },
+       {
+        "html": "同样更硬；单圈峰值抓地变化约 0–0.1 s",
+        "cls": ""
+       }
+      ]
+     ],
+     "max": "820px"
+    },
+    {
+     "type": "note",
+     "html": "WearRate：C5 0.0214 → C4 0.0164 → C3 0.0131 → C2 0.0106（每硬一档约降 20–25%）。这不是“车变快”，而是“同一套轮胎能撑更久”，主要改变进站窗口和 undercut/overcut 的收益。",
+     "tone": "dim"
+    }
+   ]
+  },
+  {
+   "id": "modes",
+   "eyebrow": "Modes",
+   "title": "不同等性能在哪些模式生效",
+   "lead": "把“车辆差异”当成一个全局常数会误用。F1 25 的不同等性能是按模式开关的，而且 AI 节奏与玩家车物理是两条线。",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "模式",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "2026 车队差异",
+       "align": "left",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "说明",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "大奖赛（Equal off）",
+        "cls": ""
+       },
+       {
+        "html": "生效",
+        "cls": "mono"
+       },
+       {
+        "html": "玩家车按车队基础数据；AI 节奏由独立 baseLapTime 校准",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "LAN / 在线（Equal off）",
+        "cls": ""
+       },
+       {
+        "html": "生效",
+        "cls": "mono"
+       },
+       {
+        "html": "每名玩家按自己的车队；没有模式专用抓地力",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "生涯 / MyTeam",
+        "cls": ""
+       },
+       {
+        "html": "生效 + 升级",
+        "cls": "mono"
+       },
+       {
+        "html": "基础差异叠加升级树；数据库元数据主要影响升级界面",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Equal on",
+        "cls": ""
+       },
+       {
+        "html": "不生效",
+        "cls": "mono"
+       },
+       {
+        "html": "使用 common/FOM 768 kg 参考车；仍保留 DRS 标定残留",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "F1 World",
+        "cls": ""
+       },
+       {
+        "html": "独立",
+        "cls": "mono"
+       },
+       {
+        "html": "World 模式使用独立车数据，不直接套用车队基础物理",
+        "cls": ""
+       }
+      ]
+     ],
+     "max": "100%"
+    },
+    {
+     "type": "note",
+     "html": "可读文件里没有“模式专用抓地力”这一项；不同模式的圈速差异来自车辆数据源、AI 校准和升级等级，而不是给某个模式偷偷加 grip。",
      "tone": "dim"
     }
    ]
   },
   {
    "id": "verdict",
-   "eyebrow": "Quick Reference",
-   "title": "速查表与三条可执行结论",
-   "lead": "如果你只记三件事：功率重量比决定大多数赛道的排序；空力决定弯道型赛道的翻盘空间；ERS 的 350 kW 让\"能量管理\"第一次成为胜负手。",
+   "eyebrow": "Verdict",
+   "title": "怎么用：三句话，和一张十一队速查表",
+   "lead": "如果你只想知道“1.27 之后谁快谁慢”，看这一节；如果你要复现实验，回到第 2 节的面板与第 5 节的配重修正。",
    "blocks": [
     {
      "type": "table",
@@ -2582,117 +1912,45 @@
        "mono": false
       },
       {
-       "label": "kW/kg",
-       "align": "left",
+       "label": "v1.27",
+       "align": "right",
        "cls": "",
        "mono": true
       },
       {
-       "label": "升阻指数",
+       "label": "一句话",
        "align": "left",
        "cls": "",
-       "mono": true
-      },
-      {
-       "label": "力量型 Δt s",
-       "align": "left",
-       "cls": "",
-       "mono": true
-      },
-      {
-       "label": "空力型 Δt s",
-       "align": "left",
-       "cls": "",
-       "mono": true
+       "mono": false
       }
      ],
      "rows": [
-      [
-       {
-        "html": "Mercedes",
-        "cls": ""
-       },
-       {
-        "html": "0.549",
-        "cls": "mono"
-       },
-       {
-        "html": "1.152",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.00",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.01",
-        "cls": "mono"
-       }
-      ],
       [
        {
         "html": "McLaren",
         "cls": ""
        },
        {
-        "html": "0.550",
+        "html": "0.029",
         "cls": "mono"
        },
        {
-        "html": "1.156",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.01",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.00",
-        "cls": "mono"
+        "html": "综合最快；18/25 站基准最快",
+        "cls": ""
        }
       ],
       [
        {
-        "html": "Red Bull",
+        "html": "Mercedes",
         "cls": ""
        },
        {
-        "html": "0.543",
+        "html": "0.085",
         "cls": "mono"
        },
        {
-        "html": "1.119",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.18",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.10",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Williams",
+        "html": "高速/动力赛道最强，6 站最快",
         "cls": ""
-       },
-       {
-        "html": "0.544",
-        "cls": "mono"
-       },
-       {
-        "html": "1.117",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.19",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.09",
-        "cls": "mono"
        }
       ],
       [
@@ -2701,20 +1959,40 @@
         "cls": ""
        },
        {
-        "html": "0.539",
+        "html": "0.124",
         "cls": "mono"
        },
        {
-        "html": "1.105",
+        "html": "最轻 771 kg，但只在 Las Vegas 拿 1 个最快",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Red Bull",
+        "cls": ""
+       },
+       {
+        "html": "0.243",
         "cls": "mono"
        },
        {
-        "html": "+0.30",
+        "html": "第四；1.018 动力组",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Williams",
+        "cls": ""
+       },
+       {
+        "html": "0.431",
         "cls": "mono"
        },
        {
-        "html": "+0.14",
-        "cls": "mono"
+        "html": "v1.27 +11 kg，仍中游领头",
+        "cls": ""
        }
       ],
       [
@@ -2723,20 +2001,12 @@
         "cls": ""
        },
        {
-        "html": "0.541",
+        "html": "0.535",
         "cls": "mono"
        },
        {
-        "html": "1.095",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.32",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.14",
-        "cls": "mono"
+        "html": "T4 中段；1.023 动力组",
+        "cls": ""
        }
       ],
       [
@@ -2745,42 +2015,12 @@
         "cls": ""
        },
        {
-        "html": "0.538",
+        "html": "0.548",
         "cls": "mono"
        },
        {
-        "html": "1.084",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.40",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.17",
-        "cls": "mono"
-       }
-      ],
-      [
-       {
-        "html": "Aston Martin",
+        "html": "T4 尾巴；与 Alpine 差 0.013 s",
         "cls": ""
-       },
-       {
-        "html": "0.518",
-        "cls": "mono"
-       },
-       {
-        "html": "1.126",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.59",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.25",
-        "cls": "mono"
        }
       ],
       [
@@ -2789,20 +2029,12 @@
         "cls": ""
        },
        {
-        "html": "0.530",
+        "html": "0.760",
         "cls": "mono"
        },
        {
-        "html": "1.050",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.60",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.27",
-        "cls": "mono"
+        "html": "单独 T5",
+        "cls": ""
        }
       ],
       [
@@ -2811,20 +2043,26 @@
         "cls": ""
        },
        {
-        "html": "0.519",
+        "html": "0.835",
         "cls": "mono"
        },
        {
-        "html": "1.066",
+        "html": "v1.27 −9 kg，仍第 9",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Aston Martin",
+        "cls": ""
+       },
+       {
+        "html": "0.986",
         "cls": "mono"
        },
        {
-        "html": "+0.71",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.32",
-        "cls": "mono"
+        "html": "802 kg，全场最重",
+        "cls": ""
        }
       ],
       [
@@ -2833,32 +2071,25 @@
         "cls": ""
        },
        {
-        "html": "0.528",
+        "html": "1.081",
         "cls": "mono"
        },
        {
-        "html": "1.020",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.77",
-        "cls": "mono"
-       },
-       {
-        "html": "+0.32",
-        "cls": "mono"
+        "html": "唯一落后 1 s 以上",
+        "cls": ""
        }
       ]
-     ]
+     ],
+     "max": "900px"
     },
     {
      "type": "callout",
-     "tone": "",
-     "html": "<b>三条结论：</b>① <b>选车先看 kW/kg</b>——它同时吃质量与功率两项；② <b>空力型赛道（摩纳哥/新加坡/匈牙利）优先高升阻指数</b>，账面最有利的是 McLaren、Mercedes、Aston Martin；③ <b>ERS 没有车队差异</b>，所以\"电用得好不好\"永远是车手与策略变量，不是车的问题。"
+     "html": "<b>三句话：</b>① 1.27 只让 Sauber 快约 0.11–0.16 s、Williams 慢约 0.13–0.20 s，总排序不变。② 2026 的差距主要来自基础车质量/功率/气动，McLaren 单独 T1，T4 三队只差 0.117 s。③ 旧版人工权重模型的具体名次不可用；大分层可以参考，具体排名以 baseLapTime 为准。",
+     "tone": "info"
     },
     {
      "type": "note",
-     "html": "所有推算为量级估算（未计调校、DRS/主动空力开合、赛道温度与橡胶演化），横向排序可靠、绝对圈时不可当官方基准。原始数据与 SHA1 校验见总表。",
+     "html": "局限：baseLapTime 是 AI 校准，不是玩家遥测；只覆盖 25 个非逆向布局；不含调校、油量、天气与玩家技术差异；游戏加密的 driver stats 读不出。本文的结论是“游戏给这辆车的基础节奏”，不是“某位车手在某个联赛的真实速度”。",
      "tone": "dim"
     }
    ]
