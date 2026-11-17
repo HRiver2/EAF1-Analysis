@@ -9,7 +9,7 @@
   "type": "deep-dive",
   "date": "2026-11-17",
   "tag": "车辆数据",
-  "readMin": 18,
+  "readMin": 22,
   "source": "F1 25 v1.27 游戏文件只读提取 · AI baseLapTime · 25 站平衡面板"
  },
  "sections": [
@@ -1120,6 +1120,326 @@
     {
      "type": "note",
      "html": "T2 内部（Mercedes vs Ferrari）的 0.039 s 小于两队 CI 的重叠范围，不能据此断言“Mercedes 一定比 Ferrari 快”。T4 内部同理：Alpine 与 Racing Bulls 的 0.013 s 基本可以当作并列。",
+     "tone": "dim"
+    }
+   ]
+  },
+  {
+   "id": "tracks",
+   "eyebrow": "Tracks",
+   "title": "平均差距之外：每支队的主场和坟场不是同一批赛道",
+   "lead": "25 站平均会抹掉赛道类型。把每队最好/最差的 3 条赛道拆出来，才能解释为什么 McLaren 的平均优势在拉斯维加斯会缩水、Mercedes 在动力赛道能追回。",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "车队",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "最好 3 站",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "最差 3 站",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "McLaren",
+        "cls": ""
+       },
+       {
+        "html": "阿布扎比、奥地利、巴库",
+        "cls": ""
+       },
+       {
+        "html": "拉斯维加斯、银石、上海",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Mercedes",
+        "cls": ""
+       },
+       {
+        "html": "巴林、吉达、蒙扎",
+        "cls": ""
+       },
+       {
+        "html": "伊莫拉、拉斯维加斯、阿布扎比",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Ferrari",
+        "cls": ""
+       },
+       {
+        "html": "拉斯维加斯、墨西哥城、摩纳哥",
+        "cls": ""
+       },
+       {
+        "html": "奥地利、铃鹿、阿布扎比",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Red Bull",
+        "cls": ""
+       },
+       {
+        "html": "墨尔本、摩纳哥、伊莫拉",
+        "cls": ""
+       },
+       {
+        "html": "卢赛尔、马德里、阿布扎比",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Williams",
+        "cls": ""
+       },
+       {
+        "html": "摩纳哥、奥斯汀、银石",
+        "cls": ""
+       },
+       {
+        "html": "阿布扎比、马德里、铃鹿",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Alpine",
+        "cls": ""
+       },
+       {
+        "html": "摩纳哥、蒙特利尔、巴西",
+        "cls": ""
+       },
+       {
+        "html": "奥斯汀、卢赛尔、伊莫拉",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Racing Bulls",
+        "cls": ""
+       },
+       {
+        "html": "摩纳哥、蒙特利尔、墨西哥城",
+        "cls": ""
+       },
+       {
+        "html": "伊莫拉、马德里、迈阿密",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Haas",
+        "cls": ""
+       },
+       {
+        "html": "巴西、蒙特利尔、摩纳哥",
+        "cls": ""
+       },
+       {
+        "html": "卢赛尔、阿布扎比、吉达",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Kick Sauber",
+        "cls": ""
+       },
+       {
+        "html": "摩纳哥、巴西、伊莫拉",
+        "cls": ""
+       },
+       {
+        "html": "马德里、铃鹿、吉达",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Aston Martin",
+        "cls": ""
+       },
+       {
+        "html": "巴西、伊莫拉、蒙特利尔",
+        "cls": ""
+       },
+       {
+        "html": "卢赛尔、吉达、铃鹿",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Cadillac",
+        "cls": ""
+       },
+       {
+        "html": "摩纳哥、巴西、伊莫拉",
+        "cls": ""
+       },
+       {
+        "html": "卢赛尔、奥斯汀、吉达",
+        "cls": ""
+       }
+      ]
+     ],
+     "max": "100%"
+    },
+    {
+     "type": "callout",
+     "html": "<b>读法：</b>“最好/最差”是该队在这条赛道相对全场最快的平均差距，不是绝对圈速。McLaren 的最差三站里有两个是高速/低下压力场景；Mercedes 的最好三站集中在巴林、吉达、蒙扎这类动力赛道；Ferrari 只在拉斯维加斯拿过分站最快，却在奥地利/铃鹿/阿布扎比掉得最多。",
+     "tone": "info"
+    },
+    {
+     "type": "note",
+     "html": "这张表也解释了为什么“平均第一”不等于“每站第一”：25 站里有 18 站出现过至少一处单站名次变化，但 25 站平均名次不变。单站预测要看赛道类型、轮胎和天气，不能直接拿年度平均差距去套。",
+     "tone": "dim"
+    }
+   ]
+  },
+  {
+   "id": "power",
+   "eyebrow": "Power",
+   "title": "动力单元：3.5% 的功率差，和一套完全相同的 ERS",
+   "lead": "2026 的 ICE 不再统一：四组动力单元按供应商系数给功率。但别把“功率差”直接当成“圈速差”——ERS 在十一队之间完全一致，燃油侧也做了补偿。",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "动力组",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "系数",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "峰值功率",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "车队",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "Mercedes",
+        "cls": ""
+       },
+       {
+        "html": "1.023",
+        "cls": "mono"
+       },
+       {
+        "html": "424.9 kW",
+        "cls": "mono"
+       },
+       {
+        "html": "Alpine、McLaren、Mercedes、Williams",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Red Bull-Ford",
+        "cls": ""
+       },
+       {
+        "html": "1.018",
+        "cls": "mono"
+       },
+       {
+        "html": "422.8 kW",
+        "cls": "mono"
+       },
+       {
+        "html": "Red Bull、Racing Bulls",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Ferrari / Honda",
+        "cls": ""
+       },
+       {
+        "html": "1.000",
+        "cls": "mono"
+       },
+       {
+        "html": "415.3 kW",
+        "cls": "mono"
+       },
+       {
+        "html": "Ferrari、Aston Martin、Haas、Cadillac",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "Audi",
+        "cls": ""
+       },
+       {
+        "html": "0.988",
+        "cls": "mono"
+       },
+       {
+        "html": "410.3 kW",
+        "cls": "mono"
+       },
+       {
+        "html": "Kick Sauber",
+        "cls": ""
+       }
+      ]
+     ],
+     "max": "960px"
+    },
+    {
+     "type": "callout",
+     "html": "<b>功率差 3.5%，不是圈速差 3.5%。</b>四组 PU 的满功率燃油流量几乎相同（68.6–68.8 kg/h），燃油功率都约 812 kW；差异主要来自热效率（50.64–52.30%），输出功率因此落在 410.3–424.9 kW。功率重量比 0.518–0.550 kW/kg，差 6.2%。",
+     "tone": "info"
+    },
+    {
+     "type": "note",
+     "html": "2026 ERS 在十一队之间是统一规格：350 kW、4 MJ，每圈回收/部署上限相同，车队间 0 项差异（2025 为 126.3 kW / 4 MJ）。所以“Mercedes 组更快”主要来自 ICE 系数、底盘/空力与 AI 校准的组合，而不是 ERS 偷偷多给电。",
      "tone": "dim"
     }
    ]
