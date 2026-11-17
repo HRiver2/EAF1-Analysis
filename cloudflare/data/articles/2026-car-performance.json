@@ -3,14 +3,14 @@
  "hero": {
   "eyebrow": "Deep Dive · F1 25 2026 车 · v1.27",
   "title": "1.27 之后，2026 不同等性能车队到底差多少",
-  "lead": "用游戏自己的 AI baseLapTime，把 25 个非逆向布局的 11 支车队重新排一遍：1.27 只改了两块配重，McLaren 仍是 T1，中游的 Williams 被加重后仍在 T4 领跑。"
+  "lead": "用游戏自己的 AI baseLapTime，把 25 个非逆向布局的 11 支车队重新排一遍：1.27 只改了两块配重，McLaren 仍是 T1，中游的 Williams 被加重后仍在 T4 领跑；文末把 25 站逐队差距全部摊开，并用一次同条件巴西实车测试校验。"
  },
  "meta": {
   "type": "deep-dive",
   "date": "2026-11-17",
   "tag": "车辆数据",
-  "readMin": 22,
-  "source": "F1 25 v1.27 游戏文件只读提取 · AI baseLapTime · 25 站平衡面板"
+  "readMin": 25,
+  "source": "F1 25 v1.27 游戏文件只读提取 · AI baseLapTime · 25 站平衡面板 · 巴西同条件实车对照"
  },
  "sections": [
   {
@@ -1127,197 +1127,1757 @@
   {
    "id": "tracks",
    "eyebrow": "Tracks",
-   "title": "平均差距之外：每支队的主场和坟场不是同一批赛道",
-   "lead": "25 站平均会抹掉赛道类型。把每队最好/最差的 3 条赛道拆出来，才能解释为什么 McLaren 的平均优势在拉斯维加斯会缩水、Mercedes 在动力赛道能追回。",
+   "title": "25 站逐站摊开：每条赛道到底谁快、差多少",
+   "lead": "平均差距会抹掉赛道类型。下面按前排六队 / 中后五队拆成两张表，把 25 条赛道的 v1.27 修正后差距全部列出；0.000 是该站最快，单位秒。McLaren 在 18 站最快、Mercedes 6 站、Ferrari 1 站，单站顺序并不等于年度顺序。",
    "blocks": [
+    {
+     "type": "subhead",
+     "kicker": "前排六队",
+     "text": "McLaren / Mercedes / Ferrari / Red Bull / Williams / Alpine"
+    },
     {
      "type": "table",
      "cols": [
       {
-       "label": "车队",
+       "label": "赛道",
        "align": "left",
        "cls": "",
        "mono": false
       },
       {
-       "label": "最好 3 站",
-       "align": "left",
+       "label": "McLaren",
+       "align": "right",
        "cls": "",
-       "mono": false
+       "mono": true
       },
       {
-       "label": "最差 3 站",
-       "align": "left",
+       "label": "Mercedes",
+       "align": "right",
        "cls": "",
-       "mono": false
+       "mono": true
+      },
+      {
+       "label": "Ferrari",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "Red Bull",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "Williams",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "Alpine",
+       "align": "right",
+       "cls": "",
+       "mono": true
       }
      ],
      "rows": [
       [
        {
-        "html": "McLaren",
+        "html": "阿布扎比",
         "cls": ""
        },
        {
-        "html": "阿布扎比、奥地利、巴库",
-        "cls": ""
+        "html": "<b>0.000</b>",
+        "cls": "mono"
        },
        {
-        "html": "拉斯维加斯、银石、上海",
-        "cls": ""
+        "html": "+0.174",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.276",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.328",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.595",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.677",
+        "cls": "mono"
        }
       ],
       [
        {
-        "html": "Mercedes",
+        "html": "奥地利",
         "cls": ""
        },
        {
-        "html": "巴林、吉达、蒙扎",
-        "cls": ""
+        "html": "<b>0.000</b>",
+        "cls": "mono"
        },
        {
-        "html": "伊莫拉、拉斯维加斯、阿布扎比",
-        "cls": ""
+        "html": "+0.060",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.311",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.274",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.431",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.510",
+        "cls": "mono"
        }
       ],
       [
        {
-        "html": "Ferrari",
+        "html": "巴林",
         "cls": ""
        },
        {
-        "html": "拉斯维加斯、墨西哥城、摩纳哥",
-        "cls": ""
+        "html": "+0.015",
+        "cls": "mono"
        },
        {
-        "html": "奥地利、铃鹿、阿布扎比",
-        "cls": ""
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.119",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.254",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.402",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.507",
+        "cls": "mono"
        }
       ],
       [
        {
-        "html": "Red Bull",
+        "html": "巴库",
         "cls": ""
        },
        {
-        "html": "墨尔本、摩纳哥、伊莫拉",
-        "cls": ""
+        "html": "<b>0.000</b>",
+        "cls": "mono"
        },
        {
-        "html": "卢赛尔、马德里、阿布扎比",
-        "cls": ""
+        "html": "+0.090",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.088",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.198",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.443",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.469",
+        "cls": "mono"
        }
       ],
       [
        {
-        "html": "Williams",
+        "html": "巴西",
         "cls": ""
        },
        {
-        "html": "摩纳哥、奥斯汀、银石",
-        "cls": ""
+        "html": "<b>0.000</b>",
+        "cls": "mono"
        },
        {
-        "html": "阿布扎比、马德里、铃鹿",
-        "cls": ""
+        "html": "+0.078",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.094",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.179",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.327",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.419",
+        "cls": "mono"
        }
       ],
       [
        {
-        "html": "Alpine",
+        "html": "加泰罗尼亚",
         "cls": ""
        },
        {
-        "html": "摩纳哥、蒙特利尔、巴西",
-        "cls": ""
+        "html": "<b>0.000</b>",
+        "cls": "mono"
        },
        {
-        "html": "奥斯汀、卢赛尔、伊莫拉",
-        "cls": ""
+        "html": "+0.106",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.112",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.268",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.443",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.558",
+        "cls": "mono"
        }
       ],
       [
        {
-        "html": "Racing Bulls",
+        "html": "匈牙利",
         "cls": ""
        },
        {
-        "html": "摩纳哥、蒙特利尔、墨西哥城",
-        "cls": ""
+        "html": "<b>0.000</b>",
+        "cls": "mono"
        },
        {
-        "html": "伊莫拉、马德里、迈阿密",
-        "cls": ""
+        "html": "+0.138",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.143",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.320",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.452",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.587",
+        "cls": "mono"
        }
       ],
       [
        {
-        "html": "Haas",
+        "html": "伊莫拉",
         "cls": ""
        },
        {
-        "html": "巴西、蒙特利尔、摩纳哥",
-        "cls": ""
+        "html": "<b>0.000</b>",
+        "cls": "mono"
        },
        {
-        "html": "卢赛尔、阿布扎比、吉达",
-        "cls": ""
+        "html": "+0.383",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.112",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.128",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.376",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.680",
+        "cls": "mono"
        }
       ],
       [
        {
-        "html": "Kick Sauber",
+        "html": "吉达",
         "cls": ""
        },
        {
-        "html": "摩纳哥、巴西、伊莫拉",
-        "cls": ""
+        "html": "+0.071",
+        "cls": "mono"
        },
        {
-        "html": "马德里、铃鹿、吉达",
-        "cls": ""
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.193",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.275",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.533",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.575",
+        "cls": "mono"
        }
       ],
       [
        {
-        "html": "Aston Martin",
+        "html": "拉斯维加斯",
         "cls": ""
        },
        {
-        "html": "巴西、伊莫拉、蒙特利尔",
-        "cls": ""
+        "html": "+0.221",
+        "cls": "mono"
        },
        {
-        "html": "卢赛尔、吉达、铃鹿",
-        "cls": ""
+        "html": "+0.184",
+        "cls": "mono"
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.153",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.433",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.637",
+        "cls": "mono"
        }
       ],
       [
        {
-        "html": "Cadillac",
+        "html": "卢赛尔",
         "cls": ""
        },
        {
-        "html": "摩纳哥、巴西、伊莫拉",
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.091",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.108",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.359",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.507",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.685",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "马德里",
         "cls": ""
        },
        {
-        "html": "卢赛尔、奥斯汀、吉达",
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.069",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.092",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.336",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.581",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.532",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "墨尔本",
         "cls": ""
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.027",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.072",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.099",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.409",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.523",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "墨西哥城",
+        "cls": ""
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.052",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.002",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.217",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.412",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.470",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "迈阿密",
+        "cls": ""
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.111",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.086",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.233",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.461",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.558",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "摩纳哥",
+        "cls": ""
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.034",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.009",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.126",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.214",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.251",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "蒙特利尔",
+        "cls": ""
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.054",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.182",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.224",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.428",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.388",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "蒙扎",
+        "cls": ""
+       },
+       {
+        "html": "+0.121",
+        "cls": "mono"
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.065",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.182",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.406",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.445",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "上海",
+        "cls": ""
+       },
+       {
+        "html": "+0.138",
+        "cls": "mono"
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.062",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.312",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.417",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.530",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "银石",
+        "cls": ""
+       },
+       {
+        "html": "+0.156",
+        "cls": "mono"
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.164",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.187",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.358",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.502",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "新加坡",
+        "cls": ""
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.169",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.124",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.316",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.484",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.610",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "斯帕",
+        "cls": ""
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.069",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.106",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.305",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.406",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.466",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "铃鹿",
+        "cls": ""
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.127",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.295",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.315",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.530",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.559",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "奥斯汀",
+        "cls": ""
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.082",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.180",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.348",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.704",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "赞德沃特",
+        "cls": ""
+       },
+       {
+        "html": "<b>0.000</b>",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.118",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.212",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.297",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.378",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.532",
+        "cls": "mono"
        }
       ]
      ],
-     "max": "100%"
+     "max": "100%",
+     "cls": "matrix-table"
+    },
+    {
+     "type": "subhead",
+     "kicker": "中后五队",
+     "text": "Racing Bulls / Haas / Kick Sauber / Aston Martin / Cadillac"
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "赛道",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "Racing Bulls",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "Haas",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "Kick Sauber",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "Aston Martin",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "Cadillac",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "阿布扎比",
+        "cls": ""
+       },
+       {
+        "html": "+0.652",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.907",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.842",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.055",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.254",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "奥地利",
+        "cls": ""
+       },
+       {
+        "html": "+0.521",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.739",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.776",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.843",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.934",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "巴林",
+        "cls": ""
+       },
+       {
+        "html": "+0.524",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.777",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.946",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.029",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.069",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "巴库",
+        "cls": ""
+       },
+       {
+        "html": "+0.545",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.659",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.703",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.862",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.931",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "巴西",
+        "cls": ""
+       },
+       {
+        "html": "+0.473",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.593",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.669",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.753",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.843",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "加泰罗尼亚",
+        "cls": ""
+       },
+       {
+        "html": "+0.509",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.778",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.872",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.017",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.118",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "匈牙利",
+        "cls": ""
+       },
+       {
+        "html": "+0.508",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.810",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.899",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.034",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.155",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "伊莫拉",
+        "cls": ""
+       },
+       {
+        "html": "+0.753",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.801",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.667",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.804",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.926",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "吉达",
+        "cls": ""
+       },
+       {
+        "html": "+0.602",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.906",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.032",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.196",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.296",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "拉斯维加斯",
+        "cls": ""
+       },
+       {
+        "html": "+0.556",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.709",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.764",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.136",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.979",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "卢赛尔",
+        "cls": ""
+       },
+       {
+        "html": "+0.565",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.923",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.013",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.208",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.331",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "马德里",
+        "cls": ""
+       },
+       {
+        "html": "+0.748",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.902",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.139",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.153",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.224",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "墨尔本",
+        "cls": ""
+       },
+       {
+        "html": "+0.478",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.677",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.792",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.943",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.997",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "墨西哥城",
+        "cls": ""
+       },
+       {
+        "html": "+0.470",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.702",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.739",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.839",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.981",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "迈阿密",
+        "cls": ""
+       },
+       {
+        "html": "+0.670",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.746",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.790",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.944",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.060",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "摩纳哥",
+        "cls": ""
+       },
+       {
+        "html": "+0.088",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.645",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.471",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.895",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.796",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "蒙特利尔",
+        "cls": ""
+       },
+       {
+        "html": "+0.446",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.620",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.705",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.834",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.936",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "蒙扎",
+        "cls": ""
+       },
+       {
+        "html": "+0.515",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.686",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.715",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.923",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.962",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "上海",
+        "cls": ""
+       },
+       {
+        "html": "+0.623",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.793",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.783",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.024",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.098",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "银石",
+        "cls": ""
+       },
+       {
+        "html": "+0.584",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.730",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.908",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.947",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.251",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "新加坡",
+        "cls": ""
+       },
+       {
+        "html": "+0.535",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.843",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.860",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.067",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.169",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "斯帕",
+        "cls": ""
+       },
+       {
+        "html": "+0.548",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.736",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.818",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.970",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.072",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "铃鹿",
+        "cls": ""
+       },
+       {
+        "html": "+0.652",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.813",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.112",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.189",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.178",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "奥斯汀",
+        "cls": ""
+       },
+       {
+        "html": "+0.654",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.782",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.906",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.012",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.327",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "赞德沃特",
+        "cls": ""
+       },
+       {
+        "html": "+0.493",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.727",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.946",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.960",
+        "cls": "mono"
+       },
+       {
+        "html": "+1.142",
+        "cls": "mono"
+       }
+      ]
+     ],
+     "max": "100%",
+     "cls": "matrix-table"
     },
     {
      "type": "callout",
-     "html": "<b>读法：</b>“最好/最差”是该队在这条赛道相对全场最快的平均差距，不是绝对圈速。McLaren 的最差三站里有两个是高速/低下压力场景；Mercedes 的最好三站集中在巴林、吉达、蒙扎这类动力赛道；Ferrari 只在拉斯维加斯拿过分站最快，却在奥地利/铃鹿/阿布扎比掉得最多。",
+     "html": "<b>巴西行值得单独看：</b>修正后 Williams <b>+0.327 s</b>、Kick Sauber <b>+0.669 s</b>，模型给两队的差距是 <b>0.342 s</b>；下面用一次同条件实车测试来校验这个方向和幅度。",
      "tone": "info"
     },
     {
      "type": "note",
-     "html": "这张表也解释了为什么“平均第一”不等于“每站第一”：25 站里有 18 站出现过至少一处单站名次变化，但 25 站平均名次不变。单站预测要看赛道类型、轮胎和天气，不能直接拿年度平均差距去套。",
+     "html": "表内是“该队在该站相对全场最快车”的 v1.27 修正后中值，不是绝对圈速；0.000 = 该站最快。把 11 队拆成两张表只是为了横向可读，不代表两个组别；完整年度排序见上一节。",
+     "tone": "dim"
+    }
+   ]
+  },
+  {
+   "id": "brazil-test",
+   "eyebrow": "Validation",
+   "title": "巴西实测：同条件只换车，威廉姆斯快 0.162 s",
+   "lead": "一名高水平 simracer 在相同调校、天气、轮胎和油量下，只更换车辆跑巴西单圈：Williams 1:09.312，Audi（Kick Sauber）1:09.474。这是外部校验，不是 baseLapTime 模型本身。",
+   "blocks": [
+    {
+     "type": "cards",
+     "cols": 3,
+     "items": [
+      {
+       "eyebrow": "Williams",
+       "rows": [
+        {
+         "k": "圈速",
+         "v": "1:09.312"
+        },
+        {
+         "k": "S1 / S2 / S3",
+         "v": "17.786 / 34.944 / 16.581"
+        }
+       ],
+       "note": "同条件单圈测试，非正赛/排位。"
+      },
+      {
+       "eyebrow": "Audi（Kick Sauber）",
+       "rows": [
+        {
+         "k": "圈速",
+         "v": "1:09.474"
+        },
+        {
+         "k": "S1 / S2 / S3",
+         "v": "17.847 / 35.010 / 16.616"
+        }
+       ],
+       "note": "与 Williams 使用相同测试条件。"
+      },
+      {
+       "eyebrow": "差值",
+       "rows": [
+        {
+         "k": "总圈",
+         "v": "+0.162 s"
+        },
+        {
+         "k": "S1 / S2 / S3",
+         "v": "+0.061 / +0.066 / +0.035"
+        }
+       ],
+       "note": "差值 = Audi − Williams；三段相加约等于总差值。"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "分段",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "Williams",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "Audi（Kick Sauber）",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      },
+      {
+       "label": "差值",
+       "align": "right",
+       "cls": "",
+       "mono": true
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "S1",
+        "cls": ""
+       },
+       {
+        "html": "17.786",
+        "cls": "mono"
+       },
+       {
+        "html": "17.847",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.061",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "S2",
+        "cls": ""
+       },
+       {
+        "html": "34.944",
+        "cls": "mono"
+       },
+       {
+        "html": "35.010",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.066",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "S3",
+        "cls": ""
+       },
+       {
+        "html": "16.581",
+        "cls": "mono"
+       },
+       {
+        "html": "16.616",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.035",
+        "cls": "mono"
+       }
+      ],
+      [
+       {
+        "html": "总圈",
+        "cls": ""
+       },
+       {
+        "html": "1:09.312",
+        "cls": "mono"
+       },
+       {
+        "html": "1:09.474",
+        "cls": "mono"
+       },
+       {
+        "html": "+0.162",
+        "cls": "mono"
+       }
+      ]
+     ],
+     "max": "760px"
+    },
+    {
+     "type": "chart",
+     "kicker": "图 02",
+     "title": "巴西分段差值：S1/S2 更大，S3 全直道只差 0.035 s",
+     "config": {
+      "type": "bar",
+      "data": {
+       "labels": [
+        "S1 +0.061 s",
+        "S2 +0.066 s",
+        "S3 +0.035 s"
+       ],
+       "datasets": [
+        {
+         "label": "Williams 相对 Audi 的差值（s）",
+         "data": [
+          0.061,
+          0.066,
+          0.035
+         ],
+         "backgroundColor": [
+          "rgba(255,124,192,.85)",
+          "rgba(255,169,94,.8)",
+          "rgba(63,224,208,.8)"
+         ],
+         "borderRadius": 4,
+         "barPercentage": 0.58
+        }
+       ]
+      },
+      "options": {
+       "responsive": true,
+       "maintainAspectRatio": false,
+       "plugins": {
+        "legend": {
+         "display": false
+        }
+       },
+       "scales": {
+        "x": {
+         "grid": {
+          "display": false
+         },
+         "ticks": {
+          "color": "#dbe6f3"
+         }
+        },
+        "y": {
+         "beginAtZero": true,
+         "suggestedMax": 0.09,
+         "grid": {
+          "color": "rgba(255,255,255,.08)"
+         },
+         "ticks": {
+          "color": "#9fb0c9"
+         }
+        }
+       }
+      }
+     },
+     "height": 240,
+     "note": "差值 = Audi − Williams，单位秒；总圈差值 0.162 s，分段因四舍五入与总圈不完全相加。",
+     "takeaways": []
+    },
+    {
+     "type": "callout",
+     "html": "<b>方向对上了，幅度要小心：</b>模型在巴西修正后给 Williams +0.327 s、Kick Sauber +0.669 s，差 <b>0.342 s</b>；实测只有 <b>0.162 s</b>，模型幅度约是实测的 2.1 倍。差异可能来自 baseLapTime 的单站权重、质量敏感度，以及测试调校/油量和驾驶风格；一站实测不能重排全季，只能给巴西这一行加一个外部锚点。",
+     "tone": "info"
+    },
+    {
+     "type": "note",
+     "html": "巴西 S1 是大直道末端 + 塞纳 S + 第二条直线，S2 是小直道 + 多个低速组合弯 + 三个高速弯，S3 全是直道。Williams 三段都更快，S3 纯直道只差 0.035 s——这次测试的优势不只是直线极速；S1/S2 的 0.061/0.066 s 更可能与出弯牵引、低速机械抓地和高速弯平衡有关，但单圈分段无法把原因精确拆到某一项物理参数，别过度归因。",
      "tone": "dim"
     }
    ]
@@ -1592,7 +3152,7 @@
     },
     {
      "type": "chart",
-     "kicker": "图 02",
+     "kicker": "图 03",
      "title": "配重改动前后的平均差距",
      "config": {
       "type": "bar",
@@ -1693,7 +3253,7 @@
    "blocks": [
     {
      "type": "chart",
-     "kicker": "图 03",
+     "kicker": "图 04",
      "title": "11 支车队 + FOM 参考车的平均差距",
      "config": {
       "type": "bar",
