@@ -17,7 +17,7 @@
    "id": "findings",
    "eyebrow": "Findings",
    "title": "先给结论：1.27 只动了两块配重，2026 的差距本来就在那里",
-   "lead": "v1.27（2026-11-16）在可读车辆文件里只把 Kick Sauber 减重 9 kg、Williams 加重 11 kg。真正决定“不同等性能”差距的，是 2026 基础车的质量、功率与气动，以及游戏给 AI 的 baseLapTime 校准。",
+   "lead": "v1.27（2026-11-16）在可读车辆文件里只把 Audi 减重 9 kg、Williams 加重 11 kg。真正决定“不同等性能”差距的，是 2026 基础车的质量、功率与气动，以及游戏给 AI 的 baseLapTime 校准。",
    "blocks": [
     {
      "type": "cards",
@@ -45,7 +45,7 @@
        "eyebrow": "1.27 只动了",
        "rows": [
         {
-         "k": "Kick Sauber",
+         "k": "Audi",
          "v": "791 → 782 kg"
         },
         {
@@ -81,7 +81,7 @@
     },
     {
      "type": "callout",
-     "html": "<b>1.27 不是性能大改。</b>按质量敏感度 0.12–0.18 s/10 kg 估算，Sauber 约快 0.11–0.16 s/圈，Williams 约慢 0.13–0.20 s/圈；两队相对差距从约 0.70 s 缩到约 0.40 s。前十一队的总排名没有任何变化。",
+     "html": "<b>1.27 不是性能大改。</b>按质量敏感度 0.12–0.18 s/10 kg 估算，Audi 约快 0.11–0.16 s/圈，Williams 约慢 0.13–0.20 s/圈；两队相对差距从约 0.70 s 缩到约 0.40 s。前十一队的总排名没有任何变化。",
      "tone": "info"
     },
     {
@@ -201,7 +201,7 @@
         "cls": ""
        },
        {
-        "html": "Sauber −9 / Williams +11 kg",
+        "html": "Audi −9 / Williams +11 kg",
         "cls": "mono"
        },
        {
@@ -390,7 +390,7 @@
    "id": "ranking",
    "eyebrow": "Ranking",
    "title": "v1.27 修正后的顺序：McLaren 第一，Williams 仍是中游领头",
-   "lead": "把 Sauber 的 9 kg 减重和 Williams 的 11 kg 配重加回去，前十一队的平均顺序没有变化：McLaren 仍然最快，Cadillac 仍然落后 1.05 s。变的是中游的“厚度”。",
+   "lead": "把 Audi 的 9 kg 减重和 Williams 的 11 kg 配重加回去，前十一队的平均顺序没有变化：McLaren 仍然最快，Cadillac 仍然落后 1.05 s。变的是中游的“厚度”。",
    "blocks": [
     {
      "type": "chart",
@@ -408,7 +408,7 @@
         "Alpine",
         "Racing Bulls",
         "Haas",
-        "Kick Sauber",
+        "Audi",
         "Aston Martin",
         "Cadillac"
        ],
@@ -478,11 +478,11 @@
       }
      },
      "height": 320,
-     "note": "条形越短越快。McLaren 的 0.029 s 是 25 站平均；Williams 的 0.431 s 已包含 +11 kg 配重，Kick Sauber 的 0.835 s 已包含 −9 kg 减重。",
+     "note": "条形越短越快。McLaren 的 0.029 s 是 25 站平均；Williams 的 0.431 s 已包含 +11 kg 配重，Audi 的 0.835 s 已包含 −9 kg 减重。",
      "takeaways": [
       "McLaren 在 25 站中 <b>18 站</b>做出全场最快；Mercedes 6 站，Ferrari 1 站。",
       "Williams 从 0.271 s 修正到 0.431 s，仍是 T4 最快，但对 Alpine/Racing Bulls 的缓冲只剩 0.10–0.12 s。",
-      "Kick Sauber 从 0.966 s 修正到 0.835 s，仍排第 9；Aston Martin 0.986 s 紧跟在后面。"
+      "Audi 从 0.966 s 修正到 0.835 s，仍排第 9；Aston Martin 0.986 s 紧跟在后面。"
      ]
     },
     {
@@ -778,7 +778,7 @@
         "cls": "mono"
        },
        {
-        "html": "Kick Sauber",
+        "html": "Audi",
         "cls": ""
        },
        {
@@ -1061,7 +1061,7 @@
         "cls": ""
        },
        {
-        "html": "Kick Sauber",
+        "html": "Audi",
         "cls": ""
        },
        {
@@ -2179,7 +2179,7 @@
       ],
       [
        {
-        "html": "<b>9</b> Kick Sauber",
+        "html": "<b>9</b> Audi",
         "cls": ""
        },
        {
@@ -2513,7 +2513,7 @@
     },
     {
      "type": "callout",
-     "html": "<b>巴西列值得单独看：</b>修正后 Williams <b>+0.327 s</b>、Kick Sauber <b>+0.669 s</b>，模型给两队的差距是 <b>0.342 s</b>；下面用一次同条件实车测试来校验这个方向和幅度。",
+     "html": "<b>巴西列值得单独看：</b>修正后 Williams <b>+0.327 s</b>、Audi <b>+0.669 s</b>，模型给两队的差距是 <b>0.342 s</b>；下面用一次同条件实车测试来校验这个方向和幅度。",
      "tone": "info"
     },
     {
@@ -2524,10 +2524,1354 @@
    ]
   },
   {
+   "id": "track-board",
+   "eyebrow": "Track board",
+   "title": "25 张竖榜：每一站按圈速重新排 11 队",
+   "lead": "上一张表用同一条年度平均差作为行序；这一张把每一站单独拆开，每一列从上到下按该站速度重新排序。每格上为车队，下为该站的基准圈速（AI baseLapTime + v1.27 修正差距）；P1 是该站最快，不是年度排名。",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      {
+       "label": "名次",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "阿布扎比",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "奥地利",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "巴林",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "巴库",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "巴西",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "加泰罗尼亚",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "匈牙利",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "伊莫拉",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "吉达",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "拉斯维加斯",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "卢赛尔",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "马德里",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "墨尔本",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "墨西哥城",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "迈阿密",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "摩纳哥",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "蒙特利尔",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "蒙扎",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "上海",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "银石",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "新加坡",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "斯帕",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "铃鹿",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "奥斯汀",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      },
+      {
+       "label": "赞德沃特",
+       "align": "left",
+       "cls": "",
+       "mono": false
+      }
+     ],
+     "rows": [
+      [
+       {
+        "html": "P1",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:28.048</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:09.259</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:30.924</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:43.619</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:12.086</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:17.031</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:19.945</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:19.622</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:35.225</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:36.099</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:27.663</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:34.885</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:22.152</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:18.588</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:30.532</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:13.829</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:13.056</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:24.079</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:35.716</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:32.499</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:32.276</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:50.373</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:32.741</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:37.056</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:13.414</span>",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "P2",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:28.222</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:09.319</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:30.939</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:43.707</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:12.164</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:17.137</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:20.083</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:19.734</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:35.296</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:36.252</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:27.754</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:34.954</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:22.179</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:18.590</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:30.618</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:13.838</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:13.110</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:24.144</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:35.778</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:32.655</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:32.400</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:50.442</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:32.868</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:37.056</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:13.532</span>",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "P3",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:28.324</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:09.533</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:31.043</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:43.709</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:12.180</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:17.143</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:20.088</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:19.750</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:35.418</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:36.283</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:27.771</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:34.977</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:22.224</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:18.640</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:30.643</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:13.863</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:13.238</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:24.200</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:35.854</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:32.663</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:32.445</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:50.479</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:33.036</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:37.138</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:13.626</span>",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "P4",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:28.376</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Ferrari</b><br><span class='btime'>1:09.570</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:31.178</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:43.817</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:12.265</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:17.299</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:20.265</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:19.998</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:35.500</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>McLaren</b><br><span class='btime'>1:36.320</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:28.022</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:35.221</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:22.251</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:18.805</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:30.765</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:13.917</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:13.280</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:24.261</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:36.028</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:32.686</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:32.592</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:50.678</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:33.056</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:37.236</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:13.711</span>",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "P5",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:28.643</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:09.690</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:31.326</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:44.062</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:12.413</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:17.474</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:20.397</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Mercedes</b><br><span class='btime'>1:20.005</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:35.758</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:36.532</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:28.170</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:35.417</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:22.561</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:19.000</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:30.993</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Red Bull</b><br><span class='btime'>1:13.955</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:13.444</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:24.485</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:36.133</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:32.857</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:32.760</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:50.779</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:33.271</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:37.404</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:13.792</span>",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "P6",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:28.700</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:09.769</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:31.431</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:44.088</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:12.505</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:17.540</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:20.453</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:20.289</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:35.800</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:36.655</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:28.228</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:35.466</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:22.630</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:19.058</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:31.090</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:14.043</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Williams</b><br><span class='btime'>1:13.484</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:24.524</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:36.246</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:33.001</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:32.811</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:50.839</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:33.300</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:37.710</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:13.907</span>",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "P7",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:28.725</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:09.780</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:31.448</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:44.164</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:12.559</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:17.589</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:20.532</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:20.302</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:35.827</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:36.736</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:28.348</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:35.633</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:22.675</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:19.058</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:31.202</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:14.080</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:13.502</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:24.594</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:36.339</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:33.083</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:32.886</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:50.921</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:33.393</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:37.760</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Alpine</b><br><span class='btime'>1:13.946</span>",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "P8",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:28.890</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:09.998</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:31.701</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:44.278</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:12.679</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:17.809</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:20.755</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Racing Bulls</b><br><span class='btime'>1:20.375</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:36.131</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:36.808</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:28.586</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:35.787</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:22.829</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:19.290</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:31.278</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:14.300</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:13.676</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:24.765</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:36.499</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:33.229</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:33.119</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:51.109</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:33.554</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:37.838</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:14.141</span>",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "P9",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:28.955</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:10.035</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:31.870</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:44.322</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:12.755</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:17.903</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:20.844</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:20.423</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:36.257</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:36.863</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:28.676</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:36.024</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:22.944</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:19.327</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:31.322</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:14.474</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:13.761</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:24.794</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Haas</b><br><span class='btime'>1:36.509</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:33.407</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:33.136</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:51.191</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:33.853</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:37.962</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Audi</b><br><span class='btime'>1:14.360</span>",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "P10",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:29.103</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:10.102</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:31.953</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:44.481</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:12.839</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:18.048</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:20.979</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:20.426</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:36.421</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:37.078</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:28.871</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:36.038</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:23.095</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:19.427</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:31.476</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:14.625</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:13.890</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:25.002</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:36.740</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:33.446</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:33.343</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:51.343</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:33.919</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:38.068</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:14.374</span>",
+        "cls": ""
+       }
+      ],
+      [
+       {
+        "html": "P11",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:29.302</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:10.193</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:31.993</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:44.550</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:12.929</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:18.149</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:21.100</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:20.548</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:36.521</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:37.235</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:28.994</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:36.109</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:23.149</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:19.569</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:31.592</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:14.724</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:13.992</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:25.041</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:36.814</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:33.750</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:33.445</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:51.445</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Aston Martin</b><br><span class='btime'>1:33.930</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:38.383</span>",
+        "cls": ""
+       },
+       {
+        "html": "<b>Cadillac</b><br><span class='btime'>1:14.556</span>",
+        "cls": ""
+       }
+      ]
+     ],
+     "max": "100%",
+     "cls": "board-table board-wide"
+    },
+    {
+     "type": "note",
+     "html": "25 列各自排序，所以同一个 P1 在不同赛道可能属于不同车队。圈速单位 min:ss.mmm，是“该站最快 AI 基准 + 该队修正差距”的估算值，用于同站横向比较，不是测试或正赛实跑圈速。表格可横向滚动；第一列“名次”固定。",
+     "tone": "dim"
+    }
+   ]
+  },
+  {
    "id": "brazil-test",
    "eyebrow": "Validation",
    "title": "巴西实测：同条件只换车，威廉姆斯快 0.162 s",
-   "lead": "一名高水平 simracer 在相同调校、天气、轮胎和油量下，只更换车辆跑巴西单圈：Williams 1:09.312，Audi（Kick Sauber）1:09.474。这是外部校验，不是 baseLapTime 模型本身。",
+   "lead": "一名高水平 simracer 在相同调校、天气、轮胎和油量下，只更换车辆跑巴西单圈：Williams 1:09.312，Audi 1:09.474。这是外部校验，不是 baseLapTime 模型本身。",
    "blocks": [
     {
      "type": "cards",
@@ -2548,7 +3892,7 @@
        "note": "同条件单圈测试，非正赛/排位。"
       },
       {
-       "eyebrow": "Audi（Kick Sauber）",
+       "eyebrow": "Audi",
        "rows": [
         {
          "k": "圈速",
@@ -2593,7 +3937,7 @@
        "mono": true
       },
       {
-       "label": "Audi（Kick Sauber）",
+       "label": "Audi",
        "align": "right",
        "cls": "",
        "mono": true
@@ -2747,7 +4091,7 @@
     },
     {
      "type": "callout",
-     "html": "<b>方向对上了，幅度要小心：</b>模型在巴西修正后给 Williams +0.327 s、Kick Sauber +0.669 s，差 <b>0.342 s</b>；实测只有 <b>0.162 s</b>，模型幅度约是实测的 2.1 倍。差异可能来自 baseLapTime 的单站权重、质量敏感度，以及测试调校/油量和驾驶风格；一站实测不能重排全季，只能给巴西这一行加一个外部锚点。",
+     "html": "<b>方向对上了，幅度要小心：</b>模型在巴西修正后给 Williams +0.327 s、Audi +0.669 s，差 <b>0.342 s</b>；实测只有 <b>0.162 s</b>，模型幅度约是实测的 2.1 倍。差异可能来自 baseLapTime 的单站权重、质量敏感度，以及测试调校/油量和驾驶风格；一站实测不能重排全季，只能给巴西这一行加一个外部锚点。",
      "tone": "info"
     },
     {
@@ -2860,7 +4204,7 @@
         "cls": "mono"
        },
        {
-        "html": "Kick Sauber",
+        "html": "Audi",
         "cls": ""
        }
       ]
@@ -2916,7 +4260,7 @@
      "rows": [
       [
        {
-        "html": "Kick Sauber Chassis/Mass",
+        "html": "Audi Chassis/Mass",
         "cls": ""
        },
        {
@@ -3033,7 +4377,7 @@
       "type": "bar",
       "data": {
        "labels": [
-        "Kick Sauber",
+        "Audi",
         "Williams"
        ],
        "datasets": [
@@ -3101,16 +4445,16 @@
       }
      },
      "height": 220,
-     "note": "Sauber 的条变短（更快），Williams 的条变长（更慢）。两队的相对差距从约 0.695 s 缩到约 0.40 s，但都没有跨越层级。",
+     "note": "Audi 的条变短（更快），Williams 的条变长（更慢）。两队的相对差距从约 0.695 s 缩到约 0.40 s，但都没有跨越层级。",
      "takeaways": [
-      "Sauber：0.966 → 0.835 s，约快 0.11–0.16 s/圈。",
+      "Audi：0.966 → 0.835 s，约快 0.11–0.16 s/圈。",
       "Williams：0.271 → 0.431 s，约慢 0.13–0.20 s/圈。",
-      "前十一队顺序不变；Sauber 仍第 9，Williams 仍第 5。"
+      "前十一队顺序不变；Audi 仍第 9，Williams 仍第 5。"
      ]
     },
     {
      "type": "callout",
-     "html": "<b>数据库里的“看起来像性能”的改动：</b>performance_tier 把 Sauber 从 2 调到 1、Williams 从 1 调到 2；升级元数据里 Sauber 的 performance_rating 71→81、mass_adjustment −26→−17，Williams 的 mass_adjustment −25→−30。这些影响升级界面/成长曲线，不是基础 BXML 的物理参数。",
+     "html": "<b>数据库里的“看起来像性能”的改动：</b>performance_tier 把 Audi 从 2 调到 1、Williams 从 1 调到 2；升级元数据里 Audi 的 performance_rating 71→81、mass_adjustment −26→−17，Williams 的 mass_adjustment −25→−30。这些影响升级界面/成长曲线，不是基础 BXML 的物理参数。",
      "tone": "info"
     },
     {
@@ -3143,7 +4487,7 @@
         "Alpine",
         "Racing Bulls",
         "Haas",
-        "Kick Sauber",
+        "Audi",
         "Aston Martin",
         "Cadillac"
        ],
@@ -3794,7 +5138,7 @@
       ],
       [
        {
-        "html": "Kick Sauber",
+        "html": "Audi",
         "cls": ""
        },
        {
@@ -3839,7 +5183,7 @@
     },
     {
      "type": "callout",
-     "html": "<b>三句话：</b>① 1.27 只让 Sauber 快约 0.11–0.16 s、Williams 慢约 0.13–0.20 s，总排序不变。② 2026 的差距主要来自基础车质量/功率/气动，McLaren 单独 T1，T4 三队只差 0.117 s。③ 旧版人工权重模型的具体名次不可用；大分层可以参考，具体排名以 baseLapTime 为准。",
+     "html": "<b>三句话：</b>① 1.27 只让 Audi 快约 0.11–0.16 s、Williams 慢约 0.13–0.20 s，总排序不变。② 2026 的差距主要来自基础车质量/功率/气动，McLaren 单独 T1，T4 三队只差 0.117 s。③ 旧版人工权重模型的具体名次不可用；大分层可以参考，具体排名以 baseLapTime 为准。",
      "tone": "info"
     },
     {
