@@ -15,7 +15,7 @@
   "kicker": "数据回顾 · 花理乐享 S1 · 收官之后",
   "title": "150 分，和一条追到最后一站的积分线",
   "deck": "TianQi-LN4 以 150 分封王，威廉姆斯 304 分拿下车队冠军",
-  "standfirst": "12 站、58 位车手、11 支车队。收官之后，车手榜前三名是 TianQi-LN4 150、R_ATPER2 110、Arrebol 108；车队榜前三是 威廉姆斯 304、迈凯伦 238、哈斯 217。12 个分站由 6 位不同的车手拿下——这不是一条从第一站就写好的冠军线，而是一站站被追出来、又被守住的积分线。",
+  "standfirst": "12 站、58 位车手、11 支车队。收官之后，车手榜前三名是 TianQi-LN4 150、R_ATPER2 110、Arrebol 108；车队榜前三是 威廉姆斯 304、迈凯伦 238、哈斯 217。12 个分站由 6 位不同的车手拿下。积分线在 12 站里被反复追近，又被重新拉开。",
   "dateline": [
    "RINACE 数据组",
    "2026-10-28",
@@ -50,7 +50,7 @@
   {
    "id": "final",
    "eyebrow": "终局",
-   "title": "冠军不是最后一站才赢的，但最后一站才盖章",
+   "title": "冠军在最后一站落定",
    "lead": "官方最终榜：<b>TianQi-LN4 150、R_ATPER2 110、Arrebol 108</b>。前 30 名都在下面；完整 58 人见花理 S1 积分榜页。",
    "blocks": [
     {
@@ -8070,7 +8070,7 @@
    "id": "champion",
    "eyebrow": "冠军之路",
    "title": "TianQi-LN4 的 150 分，是怎么一站站拿的",
-   "lead": "下面先看冠军每一站的起跑、完赛与进账，再看全季的分站赢家。",
+   "lead": "先看冠军每一站的起跑、完赛与进账，再看全季的分站赢家。",
    "blocks": [
     {
      "type": "subhead",
@@ -8987,7 +8987,7 @@
     },
     {
      "type": "note",
-     "html": "<b>一次也值得写</b>：12 个分站，6 位冠军；只赢过一次的 Kagamine RIN、defect 也没被漏掉——他们同样改写过积分榜。"
+     "html": "<b>只赢过一次的车手</b>：12 个分站产生了 6 位冠军；Kagamine RIN、defect 各赢一场，同样在积分榜上留下了痕迹。"
     }
    ]
   },
@@ -10425,7 +10425,7 @@
      "right": [
       {
        "type": "note",
-       "html": "<b>一句话结论</b>：冲刺赛看，919-Tench.L、MFGA、capital；正赛看，DingJ.MR、R_ATPER2、TianQi-LN4。两项都跑的人里，Clark Cao、氮氣Nirtrogen 的冲刺相对更强。"
+       "html": "<b>冲刺与正赛</b>：冲刺赛看，919-Tench.L、MFGA、capital；正赛看，DingJ.MR、R_ATPER2、TianQi-LN4。两项都跑的人里，Clark Cao、氮氣Nirtrogen 的冲刺相对更强。"
       }
      ],
      "ratio": "1.15fr 1fr"
@@ -10872,44 +10872,6 @@
         ],
         [
          {
-          "html": "糕白",
-          "cls": "left"
-         },
-         {
-          "html": "2",
-          "cls": "n"
-         },
-         {
-          "html": "4.0",
-          "cls": "n"
-         },
-         {
-          "html": "11.5",
-          "cls": "n"
-         },
-         {
-          "html": "6",
-          "cls": "n"
-         },
-         {
-          "html": "4.0",
-          "cls": "n"
-         },
-         {
-          "html": "9.3",
-          "cls": "n"
-         },
-         {
-          "html": "+0.0",
-          "cls": "dn"
-         },
-         {
-          "html": "-2.2",
-          "cls": "n"
-         }
-        ],
-        [
-         {
           "html": "为满穗而活",
           "cls": "left"
          },
@@ -10943,6 +10905,44 @@
          },
          {
           "html": "+0.0",
+          "cls": "n"
+         }
+        ],
+        [
+         {
+          "html": "糕白",
+          "cls": "left"
+         },
+         {
+          "html": "2",
+          "cls": "n"
+         },
+         {
+          "html": "4.0",
+          "cls": "n"
+         },
+         {
+          "html": "11.5",
+          "cls": "n"
+         },
+         {
+          "html": "6",
+          "cls": "n"
+         },
+         {
+          "html": "4.0",
+          "cls": "n"
+         },
+         {
+          "html": "9.3",
+          "cls": "n"
+         },
+         {
+          "html": "+0.0",
+          "cls": "dn"
+         },
+         {
+          "html": "-2.2",
           "cls": "n"
          }
         ],
@@ -11804,7 +11804,7 @@
     },
     {
      "type": "note",
-     "html": "<b>一句话结论</b>：换 26 车后场均提升最多的是 R_ATPER2、Kagamine RIN、TianQi-LN4；25 车段相对更强的是 WuHen、氮氣Nirtrogen、Arrebol。"
+     "html": "<b>换车后的变化</b>：换 26 车后场均提升最多的是 R_ATPER2、Kagamine RIN、TianQi-LN4；25 车段相对更强的是 WuHen、氮氣Nirtrogen、Arrebol。"
     }
    ]
   },
@@ -13035,7 +13035,7 @@
           "html": "最多领奖台"
          },
          {
-          "html": "Arrebol 5、R_ATPER2 5、TianQi-LN4 5",
+          "html": "TianQi-LN4 5、R_ATPER2 5、Arrebol 5",
           "cls": "left"
          }
         ],
