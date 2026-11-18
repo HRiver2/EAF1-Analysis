@@ -11342,6 +11342,26 @@
     "fromThisSeason": false
    },
    {
+    "track": "巴塞罗那",
+    "type": "排位最快圈",
+    "time": "01:25.191",
+    "driver": "Wanner",
+    "round": 8,
+    "season": 5,
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
+   },
+   {
+    "track": "巴塞罗那",
+    "type": "正赛最快圈",
+    "time": "01:16.159",
+    "driver": "Youcai Lee",
+    "round": 8,
+    "season": 5,
+    "race_type": "50%标准赛",
+    "fromThisSeason": false
+   },
+   {
     "track": "巴林",
     "type": "排位最快圈",
     "time": "01:28.421",
